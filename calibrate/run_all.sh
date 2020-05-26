@@ -9,8 +9,10 @@ do
 
 	for location in $(cat location_temp.txt)
 	do
-
-		bash calibrate.sh ${region} ${location}
+		if [ -d ../regions/${region}/${location} ]
+		then
+			bash calibrate.sh ${region} ${location}
+		fi
 
 	done
 

@@ -1,0 +1,24 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
+Churchill	radiocarbon	GSC-1549	58.74	-94.08	5450	70	chlamys islandica	marine	176	113	-1	22	1.2	1.2	LowdonBlake1973
+Churchill	radiocarbon	GSC-2579	59.3	-95.38	7190	50	hiatella arctica	marine	176	113	-1	85	2.5	2.5	Blake1982
+Churchill	radiocarbon	GSC-261	58.74	-94.08	3430	82	mytilus edulis	marine	176	113	-1	23	1.3	1.3	LowdonEtal1971
+Churchill	radiocarbon	GSC-3070	58.55	-95.83	8170	70	hiatella arctica	marine	176	113	-1	106	2.5	2.5	Blake1982
+Churchill	radiocarbon	GSC-3851	58.89	-94.97	4420	45	mytilus edulis	marine	176	113	-1	30	1.5	1.5	Blake1988
+Churchill	radiocarbon	GSC-682	58.75	-93.84	1630	82	mytilus edulis	marine	176	113	0	8.8	6	6	LowdonEtal1971
+Churchill	radiocarbon	GSC-683	58.7	-93.84	2710	82	mytilus edulis	marine	176	113	0	25.3	6.1	6.1	LowdonEtal1971
+Churchill	radiocarbon	GSC-684	58.76	-93.95	1410	86	mytilus edulis	marine	176	113	0	4.8	6	6	LowdonEtal1971
+Churchill	radiocarbon	GSC-685	58.62	-93.81	3570	86	mytilus edulis	marine	176	113	0	36.8	6.4	6.4	LowdonEtal1971
+Churchill	radiocarbon	GSC-723	58.76	-93.98	2510	82	mytilus edulis	marine	176	113	0	20.3	6	6	LowdonEtal1971
+Churchill	radiocarbon	GSC-92	58.18	-95.05	7660	78	hiatella arctica, mya truncata	marine	176	113	-1	142	2.5	2.5	DyckFyles1964
+Churchill	radiocarbon	GX-1063	58.1	-94.7	8400	107	shells	marine	176	113	-1	67	2.5	2.5	Wagner1967,AndrewsFalconer1969
+Churchill	radiocarbon	GX-1065	58.71	-94.28	3580	94	mytilus edulis	marine	176	113	0	37.9	2.8	2.8	Wagner1967
+Churchill	radiocarbon	GX-1072	58.61	-93.66	3580	94	mytilus edulis, macoma balthica, hiatella arctica	marine	176	113	-1	30	1.5	1.5	Wagner1967
+Churchill	radiocarbon	GX-1073	58.75	-93.35	755	94	mytilus edulis, macoma balthica, hiatella arctica, astarte sp.	marine	176	113	-1	4	2	2	Wagner1967
+Churchill	radiocarbon	I-3973	58.75	-94.25	2080	95	charcoal	terrestrial	0	0	1	18	1.1	1.1	Nash1972,MorlanEtal2000
+Churchill	radiocarbon	S-521	58.75	-94.25	3060	100	seal bones	terrestrial	0	0	1	29	1.5	1.5	Meyer1970,Nash1972,MorlanEtal2000
+Churchill	radiocarbon	BETA-214174	58.75	-94.25	3560	60	charcoal	terrestrial	0	0	1	45	2.3	2.3	Hodgetts2007
+Churchill	radiocarbon	BETA-214172	58.75	-94.25	2890	40	charcoal	terrestrial	0	0	1	34	1.7	1.7	AndersonHodgets2007
+Churchill	radiocarbon	AECV-1715C	57.38	-94.2	5970	90	peat	terrestrial	0	0	1	105	2.5	2.5	Kuhry2008
+Churchill	radiocarbon	AECV-1718C	57.8	-94.21	5810	90	peat	terrestrial	0	0	1	85	2.5	2.5	Kuhry2008
+Churchill	radiocarbon	S-738	58.75	-94.25	3960	105	shells	marine	176	113	0	32.8	7	7	Morlan2000
+Churchill	radiocarbon	GSC-3988	58.22	-93.85	3430	30	peat	terrestrial	0	0	1	45.7	2	2	Morlan2000

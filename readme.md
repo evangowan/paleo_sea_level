@@ -1,0 +1,45 @@
+Paleo-sea level plotting and report generator
+=============
+
+by:
+Evan James Gowan
+<evangowan@gmail.com>
+
+Acknowledgements
+-------------
+
+This project was made possible through the wide efforts of the paleo sea level community, through the PALSEA group. Much of the data here was compiled by the HOLSEA project. Please see the following websites for details.
+
+[PALSEA Website](https://palseagroup.weebly.com/ "PALSEA")
+
+[HOLSEA website](https://www.holsea.org/ "HOLSEA")
+
+E.J.G. was funded by Helmholtz Exzellenznetzwerks ``The Polar System and its Effects on the Ocean Floor (POSY)" and Helmholtz Climate Initiative REKLIM (Regional Climate Change), a joint research project at the Helmholtz Association of German research centres (HGF). Funding was also supported by the PACES-II program at the Alfred Wegener Institute and the Bundesministerium f\"{u}r Bildung und Forschung funded project, PalMod. Earlier work was funded from an Australian National University Postgraduate Research Scholarship.
+
+If you use this script setup, please acknowlege using the following references.
+
+Gowan, E.J., Zhang, X., Khosravi, S., Rovere, A., Stocchi, P., Hughes, A.L.C., Gyllencreutz, R., Mangerud, J., Svendsen, J.-I., and Lohmann, G., in review. A new global ice sheet reconstruction for the past 80000 years.
+
+
+Gowan, E.J., Tregoning, P., Purcell, A., Montillet, J.P. and McClusky, S., 2016. A model of the western Laurentide Ice Sheet, using observations of glacial isostatic adjustment. Quaternary Science Reviews, 139, pp.1-16.
+
+-------------
+
+In this project, there are a series of scripts and programs to plot published paleo-sea level data and calculated sea level, and create a report that shows the results. To run these scripts, it is assumed that you have compiled the Fortran programs in the "Fortran/" directory. The scripts require the following:
+
+- bash shell
+- latex
+- a fortran compiler (i.e. gfortran)
+- [Generic Mapping Tools](https://www.generic-mapping-tools.org/ "GMT"), version 5 (I assume version 6 will also work, but I have not tried it).
+- Perl (used to parse the radiocarbon calibration javascript file from Oxcal)
+
+I made these scripts in Ubuntu, and I do not guarantee it will work in other operating systems.
+
+Radiocarbon calibration
+------------------
+
+To do radiocarbon calibration, I use Oxcal. Put the unzip file of the Oxcal distribution in the "calibrate/" folder (it should create an Oxcal directory). The scripts will know to look there. Although I have included the files with calibrated data, new versions of the calibration curves, and possibly new reservoir ages will require that the radiocarbon dates need to be re-calibrated.
+
+[Oxcal website](https://c14.arch.ox.ac.uk/oxcal.html "Oxcal")
+
+

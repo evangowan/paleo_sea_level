@@ -1,8 +1,8 @@
 Paleo-sea level plotting and report generator
 =============
 
-by:
-Evan James Gowan
+by:  
+Evan James Gowan  
 <evangowan@gmail.com>
 
 Acknowledgements
@@ -14,12 +14,11 @@ This project was made possible through the wide efforts of the paleo sea level c
 
 [HOLSEA website](https://www.holsea.org/ "HOLSEA")
 
-E.J.G. was funded by Helmholtz Exzellenznetzwerks ``The Polar System and its Effects on the Ocean Floor (POSY)" and Helmholtz Climate Initiative REKLIM (Regional Climate Change), a joint research project at the Helmholtz Association of German research centres (HGF). Funding was also supported by the PACES-II program at the Alfred Wegener Institute and the Bundesministerium f\"{u}r Bildung und Forschung funded project, PalMod. Earlier work was funded from an Australian National University Postgraduate Research Scholarship.
+E.J.G. is funded by Helmholtz Exzellenznetzwerks "The Polar System and its Effects on the Ocean Floor (POSY)" and Helmholtz Climate Initiative REKLIM (Regional Climate Change), a joint research project at the Helmholtz Association of German research centres (HGF). Funding is also supported by the PACES-II program at the Alfred Wegener Institute and the Bundesministerium für Bildung und Forschung funded project, PalMod. Earlier work was funded from an Australian National University Postgraduate Research Scholarship.
 
 If you use this script setup, please acknowlege using the following references.
 
 Gowan, E.J., Zhang, X., Khosravi, S., Rovere, A., Stocchi, P., Hughes, A.L.C., Gyllencreutz, R., Mangerud, J., Svendsen, J.-I., and Lohmann, G., in review. A new global ice sheet reconstruction for the past 80000 years.
-
 
 Gowan, E.J., Tregoning, P., Purcell, A., Montillet, J.P. and McClusky, S., 2016. A model of the western Laurentide Ice Sheet, using observations of glacial isostatic adjustment. Quaternary Science Reviews, 139, pp.1-16.
 

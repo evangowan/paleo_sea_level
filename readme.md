@@ -41,4 +41,6 @@ To do radiocarbon calibration, I use Oxcal. Put the unzip file of the Oxcal dist
 
 [Oxcal website](https://c14.arch.ox.ac.uk/oxcal.html "Oxcal")
 
+If you want to recalibrate everything, it should be as simple as running the "run_all.sh" script. It will go through all the locations in the "regions" directory. If you want to calibrate a single location, you can use the "run_one.sh" script. You can also just use the "calibrate.sh" script with the region and location as command line options.
+
 

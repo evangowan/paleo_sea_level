@@ -12,6 +12,8 @@ then
   mkdir temp
 fi
 
+reference_ice_model="71_67_64_65"
+reference_earth_model="ehgr"
 
 rm temp/map_plot_dimensions.txt
 
@@ -25,7 +27,7 @@ do
 	do
 		location=$(awk -v line=${counter} --field-separator '\t' '{if (NR==line) {print $1}}' ../regions/${region}/location_list.txt)
 
-		source plot_script.sh ${region} ${location}
+		source plot_script.sh ${region} ${location} ${reference_ice_model} ${reference_earth_model}
 
 	done
 

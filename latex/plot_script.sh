@@ -2,6 +2,8 @@
 
 region=$1
 location=$2
+reference_ice_model=$3
+reference_earth_model=$4
 
 echo ${location}
 # only do the plot if it is the data are available
@@ -92,31 +94,7 @@ END_TEXT
 
 	psxy temp/region_bound.txt -Gyellow   -P -K -O -J -R  -Wblack -L   >> ${plot}
 
-	xshift_now=f3
-	yshift_now=f9.5
 
-
-symbol_size=0.20
-
-	psxy << END -X${xshift_now} -Y${yshift_now} -R0/10/0/1 -JX14c -P -K -O -Gblue -St${symbol_size} -Wblack  >> ${plot}
-1 0.5
-END
-
-	psxy << END  -R -JX -P -K -O -Gred -Si${symbol_size} -Wblack  >> ${plot}
-4 0.5
-END
-
-	psxy << END  -R -JX -P -K -O -Ggreen -Sc${symbol_size} -Wblack  >> ${plot}
-7 0.5
-END
-	#################
-	# plot the legend
-	#################
-	pstext << END -R -JX -P -K -O -F+f10p,Helvetica -F+jLM -F+a0  >> ${plot}
-1.5 0.5 Marine Limiting
-4.5 0.5 Terrestrial Limiting
-7.5 0.5 Index Point
-END
 
 	###########################
 	# plot the sea level data
@@ -231,6 +209,57 @@ END
 		psxy bounded.txt -Ggreen  -P -K  -O -JX -R -Sc${symbol_size} -Wblack >> ${plot}
 	fi
 
+	# now plot the reference calculated sea level
 
+	awk -F'\t'  '{if (NR > 1 ) {print $1, $3, $2}}' ${sea_level_file} >  locations.txt
+
+	./../Fortran/extract_calc_sea_level ${reference_ice_model} ${reference_earth_model}
+
+
+	if [ -e "region_sl.txt" ]
+	then
+
+
+		psxy region_sl.txt -Wthinnest,black  -P  -O -JX -R -K >> ${plot}
+
+
+	fi
+
+	#################
+	# plot the legend
+	#################
+
+	xshift_now=f-1
+	yshift_now=f9.3
+
+
+symbol_size=0.20
+
+	psxy << END -X${xshift_now} -Y${yshift_now} -R0/10/0/1 -JX14c -P -K -O -Gblue -St${symbol_size} -Wblack  >> ${plot}
+1 0.5
+END
+
+	psxy << END  -R -JX -P -K -O -Gred -Si${symbol_size} -Wblack  >> ${plot}
+4 0.5
+END
+
+	psxy << END  -R -JX -P -K -O -Ggreen -Sc${symbol_size} -Wblack  >> ${plot}
+7 0.5
+END
+
+	pstext << END -R -JX -P -K -O -F+f10p,Helvetica -F+jLM -F+a0  >> ${plot}
+1.5 0.5 Marine Limiting
+4.5 0.5 Terrestrial Limiting
+7.5 0.5 Index Point
+END
+
+	xshift_now=f11
+	yshift_now=f15.4
+
+	pstext << END -X${xshift_now} -Y${yshift_now} -R0/10/0/2 -JX10c/2c -P -K -O -F+f10p,Helvetica -F+jLM -F+a0  >> ${plot}
+1 0.95 Reference ice model: ${reference_ice_model}
+1 0.45 Reference Earth Model: ${reference_earth_model}
+
+END
 
 fi

@@ -45,16 +45,4 @@ scale_bar_width=200
 # shift in cm where the insert map should go. 
 insert_position="tr" # can be tr or br
 
-###############################################################
-# parameters for the relative sea level plot
-###############################################################
 
-# x-axis range
-# for best results, use a multiple of 1000 years
-max_time=10000
-min_time=0
-
-# y-axis range
-# for best results, use a multiple of 20 m
-max_elevation=120
-min_elevation=-20

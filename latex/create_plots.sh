@@ -15,6 +15,15 @@ fi
 reference_ice_model="71_67_64_65"
 reference_earth_model="ehgr"
 
+cat << END_CAT > temp/compare_models.txt
+71_67_64_65 ehgr
+71_67_64_65 ehgr
+71_67_64_65 ehgr
+71_67_64_65 ehgr
+71_67_64_65 ehgr
+71_67_64_65 ehgr
+END_CAT
+
 rm temp/map_plot_dimensions.txt
 
 for region in $(cat ../regions/region_list.txt)

@@ -225,6 +225,11 @@ END_TEXT
 
 	fi
 
+	samples=$(awk '{print $2}' region_sl_header.txt)
+	pstext << END -R -JX -O -K -P -F+f10p,Helvetica,black,+cBR -D-0.2/0.2 >> ${plot}
+\# samples: ${samples}
+END
+
 	#################
 	# plot the legend
 	#################
@@ -261,5 +266,182 @@ END
 1 0.45 Reference Earth Model: ${reference_earth_model}
 
 END
+
+	#################
+	# plot 6 models
+	#################
+
+
+	# scale the axis
+
+
+	# x-axis width parameters - it will be ${plot_width} cm if the axis is set to ${relative_time}
+	plot_max_width=6
+
+
+
+	xtext="Age (cal yr BP)"
+
+	time_diff=$(echo "${max_time} - ${min_time}" | bc)
+
+	if [ ${time_diff} -lt 16000 ]
+	then 
+		xtickint=2000
+		xsubtickint=1000
+		relative_time=16000
+		x_width=$( echo "scale=3; ${time_diff} / ${relative_time} * ${plot_max_width}" | bc )
+	elif [ ${time_diff} -lt 30000 ]
+	then
+		xtickint=4000
+		xsubtickint=2000
+		relative_time=30000
+		x_width=$( echo "scale=3; ${time_diff} / ${relative_time} * ${plot_max_width}" | bc )
+	elif [ ${time_diff} -lt 50000 ]
+	then
+		xtickint=10000
+		xsubtickint=5000
+		relative_time=50000
+		x_width=$( echo "scale=3; ${time_diff} / ${relative_time} * ${plot_max_width}" | bc )
+	elif [ ${time_diff} -lt 68000 ]
+	then
+		xtickint=10000
+		xsubtickint=5000
+		relative_time=90000
+		x_width=$( echo "scale=3; ${time_diff} / ${relative_time} * ${plot_max_width}" | bc )
+	else
+		xtickint=20000
+		xsubtickint=10000
+		relative_time=120000
+		x_width=$( echo "scale=3; ${max_time} / ${relative_time} * ${plot_max_width}" | bc )
+	fi
+
+	# y-axis height parameters - it will be ${plot_height} cm if the axis is set to ${relative_elevation}
+	plot_max_height=6
+
+
+
+	ytext="Elevation (m)"
+
+	elevation_diff=$(echo "${max_elevation} - ${min_elevation}" | bc)
+	if [ ${elevation_diff} -lt 100 ]
+	then
+		ytickint=20
+		ysubtickint=10
+		relative_elevation=100
+		y_width=$( echo "scale=3; (${max_elevation}-(${min_elevation})) / ${relative_elevation} * ${plot_max_height}" | bc )
+	else
+		ytickint=40
+		ysubtickint=20
+		relative_elevation=300
+		y_width=$( echo "scale=3; (${max_elevation}-(${min_elevation})) / ${relative_elevation} * ${plot_max_height}" | bc )
+	fi
+
+
+
+	for model_number in $(seq 1 6)
+	do
+		ice_model=$(awk -v line=${model_number} '{if (NR == line) {print $1}}' temp/compare_models.txt )
+		earth_model=$(awk -v line=${model_number} '{if (NR == line) {print $2}}' temp/compare_models.txt )
+
+		./../Fortran/extract_calc_sea_level ${ice_model} ${earth_model}
+
+		./../Fortran/sl_diff_params2
+
+		large_font="7p"
+		small_font="5p"
+
+		y_shift1=$( echo "15 - ${y_width} / 2 - 3" | bc)
+		y_shift2=$( echo "15 - ${y_width} / 2 -  ${y_width} - 4.5" | bc)
+		title_offset=2p
+
+		if [ "${model_number}" = "1" ]
+		then
+
+			xshift=f2
+			yshift=f${y_shift1}
+
+			psbasemap -X${xshift} -Y${yshift} -R${min_time}/${max_time}/${min_elevation}/${max_elevation} -JX-${x_width}/${y_width} -Bxa"${xtickint}"f"${xsubtickint}" -Bya"${ytickint}"f"${ysubtickint}"+l"${ytext}"  -BWSne+t"@_IM:@_ ${ice_model}   @_EM:@_ ${earth_model}"  -P -O -K --FONT_ANNOT_PRIMARY=${large_font} --FONT_ANNOT_SECONDARY=${small_font} --FONT_LABEL=${large_font} --FONT_TITLE=${large_font} --MAP_TITLE_OFFSET=${title_offset} >> ${plot}
+
+		elif [ "${model_number}" = "2" ]
+		then
+
+			xshift=f9
+			yshift=f${y_shift1}
+
+			psbasemap -X${xshift} -Y${yshift} -R${min_time}/${max_time}/${min_elevation}/${max_elevation} -JX-${x_width}/${y_width} -Bxa"${xtickint}"f"${xsubtickint}" -Bya"${ytickint}"f"${ysubtickint}"  -BWSne+t"@_IM:@_ ${ice_model}   @_EM:@_ ${earth_model}"  -P -O -K --FONT_ANNOT_PRIMARY=${large_font} --FONT_ANNOT_SECONDARY=${small_font} --FONT_LABEL=${large_font} --FONT_TITLE=${large_font} --MAP_TITLE_OFFSET=${title_offset} >> ${plot}
+
+		elif [ "${model_number}" = "3" ]
+		then
+
+			xshift=f16
+			yshift=f${y_shift1}
+
+			psbasemap -X${xshift} -Y${yshift} -R${min_time}/${max_time}/${min_elevation}/${max_elevation} -JX-${x_width}/${y_width} -Bxa"${xtickint}"f"${xsubtickint}" -Bya"${ytickint}"f"${ysubtickint}"  -BWSne+t"@_IM:@_ ${ice_model}   @_EM:@_ ${earth_model}"  -P -O -K --FONT_ANNOT_PRIMARY=${large_font} --FONT_ANNOT_SECONDARY=${small_font} --FONT_LABEL=${large_font} --FONT_TITLE=${large_font} --MAP_TITLE_OFFSET=${title_offset} >> ${plot}
+
+		elif [ "${model_number}" = "4" ]
+		then
+
+			xshift=f2
+			yshift=f${y_shift2}
+
+			psbasemap -X${xshift} -Y${yshift} -R${min_time}/${max_time}/${min_elevation}/${max_elevation} -JX-${x_width}/${y_width} -Bxa"${xtickint}"f"${xsubtickint}"+l"${xtext}" -Bya"${ytickint}"f"${ysubtickint}"+l"${ytext}"  -BWSne+t"@_IM:@_ ${ice_model}   @_EM:@_ ${earth_model}"  -P -O -K --FONT_ANNOT_PRIMARY=${large_font} --FONT_ANNOT_SECONDARY=${small_font} --FONT_LABEL=${large_font} --FONT_TITLE=${large_font} --MAP_TITLE_OFFSET=${title_offset} >> ${plot}
+
+		elif [ "${model_number}" = "5" ]
+		then
+
+			xshift=f9
+			yshift=f${y_shift2}
+
+			psbasemap -X${xshift} -Y${yshift} -R${min_time}/${max_time}/${min_elevation}/${max_elevation} -JX-${x_width}/${y_width} -Bxa"${xtickint}"f"${xsubtickint}"+l"${xtext}" -Bya"${ytickint}"f"${ysubtickint}"  -BWSne+t"@_IM:@_ ${ice_model}   @_EM:@_ ${earth_model}"  -P -O -K --FONT_ANNOT_PRIMARY=${large_font} --FONT_ANNOT_SECONDARY=${small_font} --FONT_LABEL=${large_font} --FONT_TITLE=${large_font} --MAP_TITLE_OFFSET=${title_offset} >> ${plot}
+
+		elif [ "${model_number}" = "6" ]
+		then
+
+			xshift=f16
+			yshift=f${y_shift2}
+
+			psbasemap -X${xshift} -Y${yshift} -R${min_time}/${max_time}/${min_elevation}/${max_elevation} -JX-${x_width}/${y_width} -Bxa"${xtickint}"f"${xsubtickint}"+l"${xtext}" -Bya"${ytickint}"f"${ysubtickint}"  -BWSne+t"@_IM:@_ ${ice_model}   @_EM:@_ ${earth_model}"  -P -O -K --FONT_ANNOT_PRIMARY=${large_font} --FONT_ANNOT_SECONDARY=${small_font} --FONT_LABEL=${large_font} --FONT_TITLE=${large_font} --MAP_TITLE_OFFSET=${title_offset} >> ${plot}
+
+		fi
+
+
+
+		symbol_size=0.20
+		if [ -e "maximum.txt" ]
+		then
+			symbol_size=0.20
+			psxy maximum.txt  -Exy+p0.1p,darkgrey+a -Gred  -P -K -O -JX -R -Si${symbol_size} -Wblack >> ${plot}
+			psxy maximum.txt  -Gred  -P -K -O -JX -R -Si${symbol_size} -Wblack >> ${plot}
+		fi
+
+		if [ -e "minimum.txt" ]
+		then
+			symbol_size=0.3
+			psxy minimum.txt  -Exy+p0.1p,darkgrey+a -Gblue  -P -K -O -JX -R -St${symbol_size} -Wblack >> ${plot}
+			psxy minimum.txt   -Gblue  -P -K -O -JX -R -St${symbol_size} -Wblack >> ${plot}
+		fi
+
+		if [ -e "bounded.txt" ]
+		then
+			symbol_size=0.20
+			psxy bounded.txt -Exy+p0.1p,darkgrey+a -Ggreen  -P -K  -O -JX -R -Sc${symbol_size} -Wblack >> ${plot}
+			psxy bounded.txt -Ggreen  -P -K  -O -JX -R -Sc${symbol_size} -Wblack >> ${plot}
+		fi
+
+
+		if [ -e "region_sl.txt" ]
+		then
+
+			psxy region_sl.txt -Wthinnest,black  -P  -O -JX -R -K >> ${plot}
+
+
+		fi
+
+		score=$(awk '{print $1}' score.txt)
+			pstext << END -R -JX -O -K -P -F+f${large_font},Helvetica,black,+cTR -D-0.2/-0.2 >> ${plot}
+Score: ${score}
+END
+
+	done
 
 fi

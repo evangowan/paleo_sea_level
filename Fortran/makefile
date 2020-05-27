@@ -14,3 +14,7 @@ shared_subs.o: shared_subs.f90
 
 extract_calc_sea_level: extract_calc_sea_level.f90 shared_subs.o
 	$(FC) -o extract_calc_sea_level $(FCFLAGS) extract_calc_sea_level.f90 shared_subs.o
+
+
+sl_diff_params2: sl_diff_params2.f90
+	$(FC) -o sl_diff_params2 $(FCFLAGS) sl_diff_params2.f90

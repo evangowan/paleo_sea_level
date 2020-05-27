@@ -262,8 +262,8 @@ END
 	yshift_now=f15.4
 
 	pstext << END -X${xshift_now} -Y${yshift_now} -R0/10/0/2 -JX10c/2c -P -K -O -F+f10p,Helvetica -F+jLM -F+a0  >> ${plot}
-1 0.95 Reference ice model: ${reference_ice_model}
-1 0.45 Reference Earth Model: ${reference_earth_model}
+1 0.95 @_Reference ice model@_: ${reference_ice_model}
+1 0.45 @_Reference Earth Model@_: ${reference_earth_model}
 
 END
 
@@ -365,7 +365,7 @@ END
 		elif [ "${model_number}" = "2" ]
 		then
 
-			xshift=f9
+			xshift=f8.5
 			yshift=f${y_shift1}
 
 			psbasemap -X${xshift} -Y${yshift} -R${min_time}/${max_time}/${min_elevation}/${max_elevation} -JX-${x_width}/${y_width} -Bxa"${xtickint}"f"${xsubtickint}" -Bya"${ytickint}"f"${ysubtickint}"  -BWSne+t"@_IM:@_ ${ice_model}   @_EM:@_ ${earth_model}"  -P -O -K --FONT_ANNOT_PRIMARY=${large_font} --FONT_ANNOT_SECONDARY=${small_font} --FONT_LABEL=${large_font} --FONT_TITLE=${large_font} --MAP_TITLE_OFFSET=${title_offset} >> ${plot}
@@ -373,7 +373,7 @@ END
 		elif [ "${model_number}" = "3" ]
 		then
 
-			xshift=f16
+			xshift=f15
 			yshift=f${y_shift1}
 
 			psbasemap -X${xshift} -Y${yshift} -R${min_time}/${max_time}/${min_elevation}/${max_elevation} -JX-${x_width}/${y_width} -Bxa"${xtickint}"f"${xsubtickint}" -Bya"${ytickint}"f"${ysubtickint}"  -BWSne+t"@_IM:@_ ${ice_model}   @_EM:@_ ${earth_model}"  -P -O -K --FONT_ANNOT_PRIMARY=${large_font} --FONT_ANNOT_SECONDARY=${small_font} --FONT_LABEL=${large_font} --FONT_TITLE=${large_font} --MAP_TITLE_OFFSET=${title_offset} >> ${plot}
@@ -389,7 +389,7 @@ END
 		elif [ "${model_number}" = "5" ]
 		then
 
-			xshift=f9
+			xshift=f8.5
 			yshift=f${y_shift2}
 
 			psbasemap -X${xshift} -Y${yshift} -R${min_time}/${max_time}/${min_elevation}/${max_elevation} -JX-${x_width}/${y_width} -Bxa"${xtickint}"f"${xsubtickint}"+l"${xtext}" -Bya"${ytickint}"f"${ysubtickint}"  -BWSne+t"@_IM:@_ ${ice_model}   @_EM:@_ ${earth_model}"  -P -O -K --FONT_ANNOT_PRIMARY=${large_font} --FONT_ANNOT_SECONDARY=${small_font} --FONT_LABEL=${large_font} --FONT_TITLE=${large_font} --MAP_TITLE_OFFSET=${title_offset} >> ${plot}
@@ -397,7 +397,7 @@ END
 		elif [ "${model_number}" = "6" ]
 		then
 
-			xshift=f16
+			xshift=f15
 			yshift=f${y_shift2}
 
 			psbasemap -X${xshift} -Y${yshift} -R${min_time}/${max_time}/${min_elevation}/${max_elevation} -JX-${x_width}/${y_width} -Bxa"${xtickint}"f"${xsubtickint}"+l"${xtext}" -Bya"${ytickint}"f"${ysubtickint}"  -BWSne+t"@_IM:@_ ${ice_model}   @_EM:@_ ${earth_model}"  -P -O -K --FONT_ANNOT_PRIMARY=${large_font} --FONT_ANNOT_SECONDARY=${small_font} --FONT_LABEL=${large_font} --FONT_TITLE=${large_font} --MAP_TITLE_OFFSET=${title_offset} >> ${plot}
@@ -409,21 +409,21 @@ END
 		symbol_size=0.20
 		if [ -e "maximum.txt" ]
 		then
-			symbol_size=0.20
+			symbol_size=0.15
 			psxy maximum.txt  -Exy+p0.1p,darkgrey+a -Gred  -P -K -O -JX -R -Si${symbol_size} -Wblack >> ${plot}
 			psxy maximum.txt  -Gred  -P -K -O -JX -R -Si${symbol_size} -Wblack >> ${plot}
 		fi
 
 		if [ -e "minimum.txt" ]
 		then
-			symbol_size=0.3
+			symbol_size=0.22
 			psxy minimum.txt  -Exy+p0.1p,darkgrey+a -Gblue  -P -K -O -JX -R -St${symbol_size} -Wblack >> ${plot}
 			psxy minimum.txt   -Gblue  -P -K -O -JX -R -St${symbol_size} -Wblack >> ${plot}
 		fi
 
 		if [ -e "bounded.txt" ]
 		then
-			symbol_size=0.20
+			symbol_size=0.15
 			psxy bounded.txt -Exy+p0.1p,darkgrey+a -Ggreen  -P -K  -O -JX -R -Sc${symbol_size} -Wblack >> ${plot}
 			psxy bounded.txt -Ggreen  -P -K  -O -JX -R -Sc${symbol_size} -Wblack >> ${plot}
 		fi
@@ -438,10 +438,24 @@ END
 		fi
 
 		score=$(awk '{print $1}' score.txt)
-			pstext << END -R -JX -O -K -P -F+f${large_font},Helvetica,black,+cTR -D-0.2/-0.2 >> ${plot}
+
+		if [ "${model_number}" = "6" ]
+		then
+
+			pstext << END -R -JX -O -P -F+f${large_font},Helvetica,black,+cTR -D-0.2/-0.2 >> ${plot}
 Score: ${score}
 END
 
+		else
+
+			pstext << END -R -JX -O  -K -P -F+f${large_font},Helvetica,black,+cTR -D-0.2/-0.2 >> ${plot}
+Score: ${score}
+END
+
+		fi
+
 	done
+
+	psconvert -A -Tf ${plot}
 
 fi

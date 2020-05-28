@@ -2,8 +2,8 @@ program sl_diff_params
 
 	implicit none
 
-	character(len=80), parameter :: sl_file = "region_sl.txt"
-	character(len=80), parameter :: sl_header_file = "region_sl_header.txt"
+	character(len=80), parameter :: sl_file = "temp/region_sl.txt"
+	character(len=80), parameter :: sl_header_file = "temp/region_sl_header.txt"
 	integer, parameter :: sl_unit = 30, sl_header_unit=40, in_unit = 10, out_unit = 20
 
 	integer :: region_number_locations, number_times, number_lines, counter, id_counter, time_counter
@@ -68,8 +68,8 @@ program sl_diff_params
 	score = 0.
 
 	! minimum: calculated sea level should be above the fossil
-	in_file = "minimum.txt"
-	out_file = "minimum_plot_diff.txt"
+	in_file = "temp/minimum.txt"
+	out_file = "temp/minimum_plot_diff.txt"
 
 	INQUIRE(FILE=in_file, EXIST=file_exists) 
 
@@ -135,8 +135,8 @@ program sl_diff_params
 
 
 	! maximum: calculated sea level should be below the fossil
-	in_file = "maximum.txt"
-	out_file = "maximum_plot_diff.txt"
+	in_file = "temp/maximum.txt"
+	out_file = "temp/maximum_plot_diff.txt"
 
 	INQUIRE(FILE=in_file, EXIST=file_exists) 
 
@@ -201,8 +201,8 @@ program sl_diff_params
 
 
 	! bounded: the differenced range should stradle zero
-	in_file = "bounded.txt"
-	out_file = "bounded_plot_diff.txt"
+	in_file = "temp/bounded.txt"
+	out_file = "temp/bounded_plot_diff.txt"
 
 	INQUIRE(FILE=in_file, EXIST=file_exists) 
 
@@ -274,7 +274,7 @@ program sl_diff_params
 
 	! write out the score value
 
-	out_file = "score.txt"
+	out_file = "temp/score.txt"
 
 	open(unit=out_unit, file=out_file, form="formatted", access="sequential", status="replace")
 
@@ -283,7 +283,7 @@ program sl_diff_params
 
 	! write out plot parameters
 
-	out_file = "min_max_range.txt"
+	out_file = "temp/min_max_range.txt"
 	open(unit=out_unit, file=out_file, form="formatted", access="sequential", status="replace")
 
 	maximum_elevation_rounded = nint(dble(ceiling(maximum_elevation / elevation_round)) * elevation_round)

@@ -100,9 +100,9 @@ END_TEXT
 	# plot the sea level data
 	###########################
 
-	awk -F'\t' '{if  ( NR>1 && $6 == "-1" ) {print $4, $7-$8, $5, $5, 0, $8+$9, $1}}' ${sea_level_file} >  minimum.txt
-	awk -F'\t'  '{if  ( NR>1 && $6 == "1" )  {print $4, $7+$9, $5, $5, $8+$9, 0, $1}}' ${sea_level_file} >  maximum.txt
-	awk -F'\t'  '{if  ( NR>1 && $6 == "0" ){print $4, $7, $5, $5, $8, $9, $1}}' ${sea_level_file} >  bounded.txt
+	awk -F'\t' '{if  ( NR>1 && $6 == "-1" ) {print $4, $7-$8, $5, $5, 0, $8+$9, $1}}' ${sea_level_file} >  temp/minimum.txt
+	awk -F'\t'  '{if  ( NR>1 && $6 == "1" )  {print $4, $7+$9, $5, $5, $8+$9, 0, $1}}' ${sea_level_file} >  temp/maximum.txt
+	awk -F'\t'  '{if  ( NR>1 && $6 == "0" ){print $4, $7, $5, $5, $8, $9, $1}}' ${sea_level_file} >  temp/bounded.txt
 
 	# find time extremes
 
@@ -188,44 +188,44 @@ END_TEXT
 
 
 	symbol_size=0.20
-	if [ -e "maximum.txt" ]
+	if [ -e "temp/maximum.txt" ]
 	then
 		symbol_size=0.20
-		psxy maximum.txt  -Exy+p0.1p,darkgrey+a -Gred  -P -K -O -JX -R -Si${symbol_size} -Wblack >> ${plot}
-		psxy maximum.txt  -Gred  -P -K -O -JX -R -Si${symbol_size} -Wblack >> ${plot}
+		psxy temp/maximum.txt  -Exy+p0.1p,darkgrey+a -Gred  -P -K -O -JX -R -Si${symbol_size} -Wblack >> ${plot}
+		psxy temp/maximum.txt  -Gred  -P -K -O -JX -R -Si${symbol_size} -Wblack >> ${plot}
 	fi
 
-	if [ -e "minimum.txt" ]
+	if [ -e "temp/minimum.txt" ]
 	then
 		symbol_size=0.3
-		psxy minimum.txt  -Exy+p0.1p,darkgrey+a -Gblue  -P -K -O -JX -R -St${symbol_size} -Wblack >> ${plot}
-		psxy minimum.txt   -Gblue  -P -K -O -JX -R -St${symbol_size} -Wblack >> ${plot}
+		psxy temp/minimum.txt  -Exy+p0.1p,darkgrey+a -Gblue  -P -K -O -JX -R -St${symbol_size} -Wblack >> ${plot}
+		psxy temp/minimum.txt   -Gblue  -P -K -O -JX -R -St${symbol_size} -Wblack >> ${plot}
 	fi
 
-	if [ -e "bounded.txt" ]
+	if [ -e "temp/bounded.txt" ]
 	then
 		symbol_size=0.20
-		psxy bounded.txt -Exy+p0.1p,darkgrey+a -Ggreen  -P -K  -O -JX -R -Sc${symbol_size} -Wblack >> ${plot}
-		psxy bounded.txt -Ggreen  -P -K  -O -JX -R -Sc${symbol_size} -Wblack >> ${plot}
+		psxy temp/bounded.txt -Exy+p0.1p,darkgrey+a -Ggreen  -P -K  -O -JX -R -Sc${symbol_size} -Wblack >> ${plot}
+		psxy temp/bounded.txt -Ggreen  -P -K  -O -JX -R -Sc${symbol_size} -Wblack >> ${plot}
 	fi
 
 	# now plot the reference calculated sea level
 
-	awk -F'\t'  '{if (NR > 1 ) {print $1, $3, $2}}' ${sea_level_file} >  locations.txt
+	awk -F'\t'  '{if (NR > 1 ) {print $1, $3, $2}}' ${sea_level_file} >  temp/locations.txt
 
 	./../Fortran/extract_calc_sea_level ${reference_ice_model} ${reference_earth_model}
 
 
-	if [ -e "region_sl.txt" ]
+	if [ -e "temp/region_sl.txt" ]
 	then
 
 
-		psxy region_sl.txt -Wthinnest,black  -P  -O -JX -R -K >> ${plot}
+		psxy temp/region_sl.txt -Wthinnest,black  -P  -O -JX -R -K >> ${plot}
 
 
 	fi
 
-	samples=$(awk '{print $2}' region_sl_header.txt)
+	samples=$(awk '{print $2}' temp/region_sl_header.txt)
 	pstext << END -R -JX -O -K -P -F+f10p,Helvetica,black,+cBR -D-0.2/0.2 >> ${plot}
 \# samples: ${samples}
 END
@@ -407,37 +407,37 @@ END
 
 
 		symbol_size=0.20
-		if [ -e "maximum.txt" ]
+		if [ -e "temp/maximum.txt" ]
 		then
 			symbol_size=0.15
-			psxy maximum.txt  -Exy+p0.1p,darkgrey+a -Gred  -P -K -O -JX -R -Si${symbol_size} -Wblack >> ${plot}
-			psxy maximum.txt  -Gred  -P -K -O -JX -R -Si${symbol_size} -Wblack >> ${plot}
+			psxy temp/maximum.txt  -Exy+p0.1p,darkgrey+a -Gred  -P -K -O -JX -R -Si${symbol_size} -Wblack >> ${plot}
+			psxy temp/maximum.txt  -Gred  -P -K -O -JX -R -Si${symbol_size} -Wblack >> ${plot}
 		fi
 
-		if [ -e "minimum.txt" ]
+		if [ -e "temp/minimum.txt" ]
 		then
 			symbol_size=0.22
-			psxy minimum.txt  -Exy+p0.1p,darkgrey+a -Gblue  -P -K -O -JX -R -St${symbol_size} -Wblack >> ${plot}
-			psxy minimum.txt   -Gblue  -P -K -O -JX -R -St${symbol_size} -Wblack >> ${plot}
+			psxy temp/minimum.txt  -Exy+p0.1p,darkgrey+a -Gblue  -P -K -O -JX -R -St${symbol_size} -Wblack >> ${plot}
+			psxy temp/minimum.txt   -Gblue  -P -K -O -JX -R -St${symbol_size} -Wblack >> ${plot}
 		fi
 
-		if [ -e "bounded.txt" ]
+		if [ -e "temp/bounded.txt" ]
 		then
 			symbol_size=0.15
-			psxy bounded.txt -Exy+p0.1p,darkgrey+a -Ggreen  -P -K  -O -JX -R -Sc${symbol_size} -Wblack >> ${plot}
-			psxy bounded.txt -Ggreen  -P -K  -O -JX -R -Sc${symbol_size} -Wblack >> ${plot}
+			psxy temp/bounded.txt -Exy+p0.1p,darkgrey+a -Ggreen  -P -K  -O -JX -R -Sc${symbol_size} -Wblack >> ${plot}
+			psxy temp/bounded.txt -Ggreen  -P -K  -O -JX -R -Sc${symbol_size} -Wblack >> ${plot}
 		fi
 
 
-		if [ -e "region_sl.txt" ]
+		if [ -e "temp/region_sl.txt" ]
 		then
 
-			psxy region_sl.txt -Wthinnest,black  -P  -O -JX -R -K >> ${plot}
+			psxy temp/region_sl.txt -Wthinnest,black  -P  -O -JX -R -K >> ${plot}
 
 
 		fi
 
-		score=$(awk '{print $1}' score.txt)
+		score=$(awk '{print $1}' temp/score.txt)
 
 		if [ "${model_number}" = "6" ]
 		then

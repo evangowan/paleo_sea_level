@@ -1,3 +1,9 @@
 Fortran/radiocarbon_statistics
 calibrate/OxCal/
 GIS/region_project.qgs~
+Fortran/extract_calc_sea_level
+Fortran/shared_subs.mod
+Fortran/shared_subs.o
+Fortran/sl_diff_params2
+latex/plots/
+latex/temp/

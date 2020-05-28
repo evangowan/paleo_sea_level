@@ -11,9 +11,9 @@ program extract_calc_sea_level
 	implicit none
 
 	character(len=140) :: calc_sl_file, ice_model, earth_model
-	character(len=80), parameter :: location_file = "locations.txt"
-	character(len=80), parameter :: output_file = "region_sl.txt"
-	character(len=80), parameter :: output_header_file = "region_sl_header.txt"
+	character(len=80), parameter :: location_file = "temp/locations.txt"
+	character(len=80), parameter :: output_file = "temp/region_sl.txt"
+	character(len=80), parameter :: output_header_file = "temp/region_sl_header.txt"
 	integer, parameter :: calc_sl_unit = 10, location_unit=20, output_unit = 30, output_header_unit=40
 
 	integer :: number_locations, counter, number_times, istat, region_number_locations
@@ -171,11 +171,6 @@ subroutine find_lab_id(lab_id_array,longitude_array,latitude_array,location_mask
 				exit search_locations
 			endif
 		endif
-		
-!	if(counter == number_locations) THEN
-!		write(6,*) "did not find id for LL"
-!		write(6,*) longitude, latitude
-!	endif
 
 	end do search_locations
 

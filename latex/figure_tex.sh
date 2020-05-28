@@ -9,7 +9,7 @@ fi
 
 rm figure_tex/*
 
-
+rm temp/subregions.txt
 
 for region in $(cat ../regions/region_list.txt)
 do
@@ -24,6 +24,8 @@ do
 
 		if [ -d ../regions/${region}/${location} ]
 		then
+
+			echo -e "${region}\t${subregion}" >> temp/subregions.txt
 
 			subregion_space=$(echo ${subregion} | sed 's/_/ /g')
 			location_space=$(echo ${location} | sed 's/_/ /g')
@@ -75,12 +77,57 @@ END_CAT
 \end{figure}
 
 END_CAT
-
-	
+							#do # dummy to fix highlighting
 		fi
 
 	done
 
+done
+
+# make summary file
+
+rm figure_tex/summary.tex
+
+sort temp/subregions.txt > temp/subregions2.txt
+
+awk 'BEGIN {region = ""; subregion = ""} {if ($1 != subregion) {print $1, $2}; region = $1; subregion = $2}' temp/subregions2.txt > temp/subregions3.txt
+
+number_subregions=$(wc -l < temp/subregions3.txt)
+
+current_region="dummy"
+
+for counter in $(seq 1 ${number_subregions} )
+do
+	region=$(awk -v line=${counter} '{if (NR=line) print $1}' temp/subregions3.txt)
+	subregion=$(awk -v line=${counter} '{if (NR=line) print $2}' temp/subregions3.txt)
+
+	if [ "${region}" != "${current_region}" ]
+	then
+
+		cat << END_CAT >> figure_tex/summary.tex
+
+\clearpage
+
+\section{${region}}
+
+END_CAT
+
+	current_region=${region}
+
+	fi
+
+	if [ $counter -gt 1 ]
+	then
+		cat << END_CAT >> figure_tex/summary.tex
+
+\clearpage
+
+END_CAT
+
+	fi
+
+	cat figure_tex/${subregion}.tex >> figure_tex/summary.tex
+	cat figure_tex/${subregion}_figures.tex >> figure_tex/summary.tex
 
 
 done

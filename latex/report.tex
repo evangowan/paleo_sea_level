@@ -1,0 +1,43 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[margin=2cm]{geometry}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{import}
+\usepackage[sort]{natbib}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1em}
+
+\begin{document}
+
+
+\title{Comparision of calculated and measured paleo-sea level}
+
+\author{Evan James Gowan}
+    
+\date{}
+
+\maketitle
+
+\tableofcontents
+
+\newpage
+
+\import{./}{compilations.tex}
+
+\newpage
+
+\import{figure_tex/}{summary.tex}
+
+\clearpage
+
+\newpage
+
+% bibliography
+\bibliographystyle{copernicus}
+\bibliography{references.bib}
+
+\end{document}

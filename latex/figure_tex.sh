@@ -14,6 +14,8 @@ rm temp/subregions.txt
 for region in $(cat ../regions/region_list.txt)
 do
 
+	region_space=$(echo ${region} | sed 's/_/ /g')
+
 	number_locations=$(wc -l < ../regions/${region}/location_list.txt)
 	
 
@@ -59,7 +61,7 @@ END_CAT
 
 			cat << END_CAT >> figure_tex/${subregion}.tex 
 
-${location_space}: \citet{$(cat temp/references3.txt)}
+\textbf{${location_space}}: \citet{$(cat temp/references3.txt)}
 
 END_CAT
 
@@ -71,7 +73,7 @@ END_CAT
 \clearpage
 
 \begin{figure}[t]
-\includegraphics[width=12cm]{${plot}}
+\includegraphics[width=\textwidth]{${plot}}
 \caption{Paleo-sea level and comparison of six models for subregion ${subregion_space}, location ${location_space}.}
 \label{fig:${location}}
 \end{figure}
@@ -108,7 +110,7 @@ do
 
 \clearpage
 
-\section{${region}}
+\section{${region_space}}
 
 END_CAT
 

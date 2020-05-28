@@ -9,6 +9,8 @@ fi
 
 rm figure_tex/*
 
+
+
 for region in $(cat ../regions/region_list.txt)
 do
 
@@ -58,6 +60,22 @@ END_CAT
 ${location_space}: \citet{$(cat temp/references3.txt)}
 
 END_CAT
+
+
+			# now make the file for the figures
+
+
+			cat << END_CAT >> figure_tex/${subregion}_figures.tex 
+\clearpage
+
+\begin{figure}[t]
+\includegraphics[width=12cm]{${plot}}
+\caption{Paleo-sea level and comparison of six models for subregion ${subregion_space}, location ${location_space}.}
+\label{fig:${location}}
+\end{figure}
+
+END_CAT
+
 	
 		fi
 

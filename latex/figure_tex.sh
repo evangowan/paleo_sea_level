@@ -7,7 +7,20 @@ then
   mkdir figure_tex
 fi
 
+if [ ! -d statistics_tex ]
+then
+  mkdir statistics_tex
+fi
+
+if [ ! -d temp/subregion_temp ]
+then
+  mkdir temp/subregion_temp
+fi
+
+
 rm figure_tex/*
+rm statistics_tex/*
+rm temp/subregion_temp/*
 
 rm temp/subregions.txt
 
@@ -26,6 +39,10 @@ do
 
 		if [ -d ../regions/${region}/${location} ]
 		then
+
+			stats=$(cat statistics/${subregion}_${location}.txt | tr '\n' ' ')
+
+			echo ${location} ${stats} >> temp/subregion_temp/${subregion}.txt
 
 			echo -e "${region}\t${subregion}" >> temp/subregions.txt
 
@@ -86,7 +103,9 @@ END_CAT
 
 done
 
+###################
 # make summary file
+###################
 
 rm figure_tex/summary.tex
 
@@ -114,6 +133,16 @@ do
 
 END_CAT
 
+
+
+		cat << END_CAT >> statistics_tex/summary.tex
+
+\clearpage
+
+\subsection{${region_space}}
+
+END_CAT
+
 	current_region=${region}
 
 	fi
@@ -131,5 +160,48 @@ END_CAT
 	cat figure_tex/${subregion}.tex >> figure_tex/summary.tex
 	cat figure_tex/${subregion}_figures.tex >> figure_tex/summary.tex
 
+
+	# create statistics table
+
+	line1="& \tiny $(awk '{if (NR == 1) print $1}' temp/compare_models.txt)  & \tiny $(awk '{if (NR == 2) print $1}' temp/compare_models.txt)  & \tiny $(awk '{if (NR == 3) print $1}' temp/compare_models.txt)  & \tiny $(awk '{if (NR == 4) print $1}' temp/compare_models.txt)   & \tiny $(awk '{if (NR == 5) print $1}' temp/compare_models.txt)   & \tiny $(awk '{if (NR == 6) print $1}' temp/compare_models.txt)"
+
+	line1a=$( echo ${line1} | sed 's/_/\\textunderscore{}/g')
+
+	line2="& $(awk '{if (NR == 1) print $2}' temp/compare_models.txt)  & $(awk '{if (NR == 2) print $2}' temp/compare_models.txt)  & $(awk '{if (NR == 3) print $2}' temp/compare_models.txt)  & $(awk '{if (NR == 4) print $2}' temp/compare_models.txt)   & $(awk '{if (NR == 5) print $2}' temp/compare_models.txt)   & $(awk '{if (NR == 6) print $2}' temp/compare_models.txt)"
+
+#
+	cat << END_CAT > temp/table.tex
+
+\begin{table}[h]
+\caption{Number of data points and model scores for ${region_space} }
+
+\begin{scriptsize}
+
+\begin{tabularx}{\textwidth}{ p{2cm} r r r r r r r r r r }
+\hline
+Location & number & marine & terrestrial & index ${line1a} \\\\
+ & data & limiting & limiting & point ${line2} \\\\
+\hline
+
+END_CAT
+
+			# do 
+			# done
+
+	awk '{sum2 += $2; sum3 += $3; sum4 += $4; sum5 += $5; sum6 += $6; sum7 += $7; sum8 += $8; sum9 += $9; sum10 += $10; sum11 += $11; } END {print "Total & ", sum2, "& ", sum3, "& ", sum4, "& ", sum5, "& ", sum6, "& ", sum7, "& ", sum8, "& ", sum9, "& ", sum10, "& ", sum11, "\\\\" }' temp/subregion_temp/${subregion}.txt >> temp/table.tex
+
+	awk '{print $1, "& ", $2, "& ", $3, "& ", $4, "& ", $5, "& ", $6, "& ", $7, "& ", $8, "& ", $9, "& ", $10, "& ", $11, "\\\\"}' temp/subregion_temp/${subregion}.txt >> temp/table.tex
+
+	cat << END_CAT >> temp/table.tex
+
+\hline
+
+\end{tabularx}
+\end{scriptsize}
+\end{table}
+
+END_CAT
+
+	cat temp/table.tex >> statistics_tex/summary.tex
 
 done

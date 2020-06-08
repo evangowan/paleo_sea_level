@@ -12,16 +12,22 @@ then
   mkdir temp
 fi
 
-reference_ice_model="71_67_64_65"
+if [ ! -d statistics ]
+then
+  mkdir statistics
+fi
+
+
+reference_ice_model="72_73_74_75"
 reference_earth_model="ehgr"
 
 cat << END_CAT > temp/compare_models.txt
-71_67_64_65 ehgr
-71_67_64_65 ehgr
-71_67_64_65 ehgr
-71_67_64_65 ehgr
-71_67_64_65 ehgr
-71_67_64_65 ehgr
+72_73_74_75 eb0ggr
+72_73_74_75 ehgC
+72_73_74_75 ehgG
+72_73_74_75 ehgk
+72_73_74_75 ehgr
+72_73_74_75 ehgK
 END_CAT
 
 rm temp/map_plot_dimensions.txt
@@ -35,8 +41,8 @@ do
 	for counter in $(seq 1 ${number_locations} )
 	do
 		location=$(awk -v line=${counter} --field-separator '\t' '{if (NR==line) {print $1}}' ../regions/${region}/location_list.txt)
-
-		source plot_script.sh ${region} ${location} ${reference_ice_model} ${reference_earth_model}
+		subregion=$(awk -v line=${counter} --field-separator '\t' '{if (NR==line) {print $2}}' ../regions/${region}/location_list.txt)
+		source plot_script.sh ${region} ${location} ${reference_ice_model} ${reference_earth_model} ${subregion}
 
 	done
 

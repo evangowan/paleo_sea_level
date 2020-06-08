@@ -4,6 +4,7 @@ region=$1
 location=$2
 reference_ice_model=$3
 reference_earth_model=$4
+subregion=$5
 
 echo ${location}
 # only do the plot if it is the data are available
@@ -16,6 +17,8 @@ then
 
 
 	sea_level_file="../regions/${region}/${location}/calibrated.txt"
+
+	statistics_file="statistics/${subregion}_${location}.txt"
 
 	#################
 	# plot the map
@@ -100,9 +103,19 @@ END_TEXT
 	# plot the sea level data
 	###########################
 
+	echo $(wc -l < ${sea_level_file}) - 1 | bc >  ${statistics_file}
+
 	awk -F'\t' '{if  ( NR>1 && $6 == "-1" ) {print $4, $7-$8, $5, $5, 0, $8+$9, $1}}' ${sea_level_file} >  temp/minimum.txt
+
+	wc -l < temp/minimum.txt >> ${statistics_file}
+
 	awk -F'\t'  '{if  ( NR>1 && $6 == "1" )  {print $4, $7+$9, $5, $5, $8+$9, 0, $1}}' ${sea_level_file} >  temp/maximum.txt
+
+	wc -l < temp/maximum.txt >> ${statistics_file}
+
 	awk -F'\t'  '{if  ( NR>1 && $6 == "0" ){print $4, $7, $5, $5, $8, $9, $1}}' ${sea_level_file} >  temp/bounded.txt
+
+	wc -l < temp/bounded.txt >> ${statistics_file}
 
 	# find time extremes
 
@@ -438,6 +451,8 @@ END
 		fi
 
 		score=$(awk '{print $1}' temp/score.txt)
+
+		echo ${score} >> ${statistics_file}
 
 		if [ "${model_number}" = "6" ]
 		then

@@ -173,7 +173,7 @@ END_CAT
 	cat << END_CAT > temp/table.tex
 
 \begin{table}[h]
-\caption{Number of data points and model scores for ${region_space} }
+\caption{Number of data points and model scores for ${subregion_space} }
 
 \begin{scriptsize}
 

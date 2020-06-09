@@ -1,0 +1,32 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
+Kivalliq	radiocarbon	I-1224	64.52	-100.47	6415	150	shells	marine	176	113	-1	110	2.7	2.7	DyckEtal1966
+Kivalliq	radiocarbon	GSC-1164	64.05	-96.98	6310	70	hiatella arctica	marine	176	113	-1	101	2.7	2.7	Blake1988
+Kivalliq	radiocarbon	GSC-1083	64.05	-96.97	6370	70	hiatella arctica	marine	176	113	-1	96	2.7	2.7	Blake1988
+Kivalliq	radiocarbon	GSC-1121	64.04	-96.88	5300	70	clinocardium ciliatum	marine	176	113	-1	71.6	2.7	2.7	Blake1988
+Kivalliq	radiocarbon	GSC-299	64.52	-96.05	5880	75	hiatella arctica	marine	176	113	-1	90	2.7	2.7	DyckEtal1966
+Kivalliq	radiocarbon	GSC-439	63.77	-95.67	6300	65	hiatella arctica	marine	176	113	-1	76	2.7	2.7	DyckEtal1966
+Kivalliq	radiocarbon	GSC-1016	62.82	-94.8	6970	70	hiatella arctica	marine	176	113	-1	122	2.7	2.7	LowdonBlake1970
+Kivalliq	radiocarbon	GSC-2042	63.56	-94.07	6920	35	hiatella arctica	marine	176	113	-1	120	2.7	2.7	AylsworthEtal1981,Blake1986
+Kivalliq	radiocarbon	GSC-289	64.32	-88.48	7230	85	shells	marine	176	113	-1	126	2.7	2.7	DyckEtal1966
+Kivalliq	radiocarbon	GSC-23	64.3	-95.77	1800	30	plant detritus	terrestrial	0	0	1	10	1.4	1.4	DyckFyles1962
+Kivalliq	radiocarbon	BIRM-717	62.88	-92.15	770	100	rangifer tarandus	terrestrial	0	0	1	15	1.4	1.4	Morrison1989
+Kivalliq	radiocarbon	S-1317	62.88	-92.15	675	65	rangifer tarandus	terrestrial	0	0	1	15	1.4	1.4	RutherfordEtal1979
+Kivalliq	radiocarbon	S-427	64.82	-92	4075	70	seal bones	terrestrial	0	0	-1	44.2	2.4	2.4	RutherfordEtal1973
+Kivalliq	radiocarbon	GSC-1434	62.27	-95.5	7000	115	mya truncata	marine	176	113	-1	61	2.7	2.7	LowdonBlake1979,RidlerShilts1974
+Kivalliq	radiocarbon	GSC-1484	62.27	-95.5	4590	110	twigs	marine	176	113	-1	62	2.7	2.7	LowdonBlake1979,RidlerShilts1974
+Kivalliq	radiocarbon	GSC-2634	61.67	-96.55	5080	85	organics	terrestrial	0	0	1	110	2.7	2.7	Blake1983
+Kivalliq	radiocarbon	GSC-5234	61.93	-96.47	7200	60	hiatella arctica	terrestrial	0	0	-1	110	2.7	2.7	McNeelyAtkinson1995
+Kivalliq	radiocarbon	I(GSC)-8	62.17	-95.68	7375	125	shells	marine	176	113	-1	64	2.7	2.7	WaltonEtal1961
+Kivalliq	radiocarbon	UCIAMS-72787	61.31	-94.45	4300	15	hiatella arctica	marine	176	113	-1	40.5	0.6	0.6	SimonEtal2014
+Kivalliq	radiocarbon	UCIAMS-72788	61.31	-94.45	4275	15	mytilus edulis (fragments)	marine	176	113	-1	40.5	0.6	0.6	SimonEtal2014
+Kivalliq	radiocarbon	UCIAMS-72789	61.31	-94.45	4365	15	balanus species (barnacle) fragments	marine	176	113	-1	40.5	0.6	0.6	SimonEtal2014
+Kivalliq	radiocarbon	UCIAMS-73105	61.25	-94.13	2685	20	nd	terrestrial	0	0	0	29.1	2.5	2.5	SimonEtal2014
+Kivalliq	radiocarbon	UCIAMS-73107	61.25	-94.13	2500	20	seed and leaf	terrestrial	0	0	0	28.7	2.5	2.5	SimonEtal2014
+Kivalliq	radiocarbon	UCIAMS-73106	61.25	-94.13	2950	25	marine alga blade fragment	terrestrial	0	0	0	28.7	2.5	2.5	SimonEtal2014
+Kivalliq	radiocarbon	UCIAMS-73108	61.25	-94.13	3000	20	marine alga blade fragment	terrestrial	0	0	-1	29.5	0.6	0.6	SimonEtal2014
+Kivalliq	radiocarbon	UCIAMS-90702	61.25	-94.13	3330	15	mytilus edulis (fragment)	marine	176	113	-1	28.9	0.6	0.6	SimonEtal2014
+Kivalliq	radiocarbon	UCIAMS-92965	61.25	-94.13	1210	15	crowberry seeds and leaves	terrestrial	0	0	0	13.2	2.5	2.5	SimonEtal2014
+Kivalliq	radiocarbon	UCIAMS-92966	61.25	-94.13	1760	15	marine algal fragments	terrestrial	0	0	0	13.2	2.5	2.5	SimonEtal2014
+Kivalliq	radiocarbon	UCIAMS-92968	61.25	-94.13	670	15	crowberry seeds	terrestrial	0	0	1	12.7	0.6	0.6	SimonEtal2014
+Kivalliq	radiocarbon	UCIAMS-73110	61.09	-94.05	1355	20	marine alga stipe fragments	terrestrial	0	0	-1	10.2	0.6	0.6	SimonEtal2014
+Kivalliq	radiocarbon	UCIAMS-73111	61.09	-94.05	1395	20	marine alga stipe	terrestrial	0	0	-1	9.7	0.6	0.6	SimonEtal2014

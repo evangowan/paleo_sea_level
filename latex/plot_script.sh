@@ -457,13 +457,13 @@ END
 		if [ "${model_number}" = "6" ]
 		then
 
-			pstext << END -R -JX -O -P -F+f${large_font},Helvetica,black,+cTR -D-0.2/-0.2 >> ${plot}
+			pstext << END -R -JX -O -P -F+f${large_font},Helvetica,black,+cTR -D-0.2/-0.2 -Gwhite >> ${plot}
 Score: ${score}
 END
 
 		else
 
-			pstext << END -R -JX -O  -K -P -F+f${large_font},Helvetica,black,+cTR -D-0.2/-0.2 >> ${plot}
+			pstext << END -R -JX -O  -K -P -F+f${large_font},Helvetica,black,+cTR -D-0.2/-0.2 -Gwhite >> ${plot}
 Score: ${score}
 END
 

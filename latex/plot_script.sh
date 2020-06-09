@@ -171,7 +171,7 @@ END_TEXT
 	fi
 
 	# y-axis height parameters - it will be ${plot_height} cm if the axis is set to ${relative_elevation}
-	plot_max_height=12
+	plot_max_height=9
 
 
 
@@ -184,9 +184,15 @@ END_TEXT
 		ysubtickint=10
 		relative_elevation=100
 		y_width=$( echo "scale=3; (${max_elevation}-(${min_elevation})) / ${relative_elevation} * ${plot_max_height}" | bc )
-	else
+	elif [ ${elevation_diff} -lt 200 ]
+	then
 		ytickint=40
 		ysubtickint=20
+		relative_elevation=200
+		y_width=$( echo "scale=3; (${max_elevation}-(${min_elevation})) / ${relative_elevation} * ${plot_max_height}" | bc )
+	else
+		ytickint=50
+		ysubtickint=25
 		relative_elevation=300
 		y_width=$( echo "scale=3; (${max_elevation}-(${min_elevation})) / ${relative_elevation} * ${plot_max_height}" | bc )
 	fi
@@ -330,7 +336,7 @@ END
 	fi
 
 	# y-axis height parameters - it will be ${plot_height} cm if the axis is set to ${relative_elevation}
-	plot_max_height=6
+	plot_max_height=5
 
 
 
@@ -343,9 +349,15 @@ END
 		ysubtickint=10
 		relative_elevation=100
 		y_width=$( echo "scale=3; (${max_elevation}-(${min_elevation})) / ${relative_elevation} * ${plot_max_height}" | bc )
+	elif [ ${elevation_diff} -lt 200 ]
+	then
+		ytickint=20
+		ysubtickint=10
+		relative_elevation=200
+		y_width=$( echo "scale=3; (${max_elevation}-(${min_elevation})) / ${relative_elevation} * ${plot_max_height}" | bc )
 	else
-		ytickint=40
-		ysubtickint=20
+		ytickint=50
+		ysubtickint=25
 		relative_elevation=300
 		y_width=$( echo "scale=3; (${max_elevation}-(${min_elevation})) / ${relative_elevation} * ${plot_max_height}" | bc )
 	fi

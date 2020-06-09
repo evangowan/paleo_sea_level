@@ -1,3 +1,4 @@
 Kivalliq	Hudson_Bay
 Churchill	Hudson_Bay
 West_James_Bay	Hudson_Bay
+East_James_Bay	Hudson_Bay

@@ -189,9 +189,9 @@ END_CAT
 			# do 
 			# done
 
-	awk '{sum2 += $2; sum3 += $3; sum4 += $4; sum5 += $5; sum6 += $6; sum7 += $7; sum8 += $8; sum9 += $9; sum10 += $10; sum11 += $11; } END {print "Total & ", sum2, "& ", sum3, "& ", sum4, "& ", sum5, "& ", sum6, "& ", sum7, "& ", sum8, "& ", sum9, "& ", sum10, "& ", sum11, "\\\\" }' temp/subregion_temp/${subregion}.txt >> temp/table.tex
+	awk '{sum2 += $2; sum3 += $3; sum4 += $4; sum5 += $5; sum6 += $6; sum7 += $7; sum8 += $8; sum9 += $9; sum10 += $10; sum11 += $11; } END {print "Total & ", sum2, "& ", sum3, "& ", sum4, "& ", sum5, "& ", sum6, "& ", sum7, "& ", sum8, "& ", sum9, "& ", sum10, "& ", sum11, "\\\\" }' temp/subregion_temp/${subregion}.txt | sed 's/_/ /g' >> temp/table.tex
 
-	awk '{print $1, "& ", $2, "& ", $3, "& ", $4, "& ", $5, "& ", $6, "& ", $7, "& ", $8, "& ", $9, "& ", $10, "& ", $11, "\\\\"}' temp/subregion_temp/${subregion}.txt >> temp/table.tex
+	awk '{print $1, "& ", $2, "& ", $3, "& ", $4, "& ", $5, "& ", $6, "& ", $7, "& ", $8, "& ", $9, "& ", $10, "& ", $11, "\\\\"}'  temp/subregion_temp/${subregion}.txt | sed 's/_/ /g' >> temp/table.tex
 
 	cat << END_CAT >> temp/table.tex
 

@@ -6,6 +6,7 @@ reference_ice_model=$3
 reference_earth_model=$4
 subregion=$5
 
+
 echo ${location}
 # only do the plot if it is the data are available
 
@@ -32,7 +33,7 @@ then
 
 	source ../regions/${region}/${location}/plot_parameters.sh 
 
-	echo ${location} $( mapproject -W ${R_main} ${J_main}) > temp/map_plot_dimensions.txt # try to ensure the map is close to being square
+	echo ${location} $( mapproject -W ${R_main} ${J_main}) >> temp/map_plot_dimensions.txt # try to ensure the map is close to being square
 
 	height=$(mapproject -Wh ${R_main} ${J_main})
 

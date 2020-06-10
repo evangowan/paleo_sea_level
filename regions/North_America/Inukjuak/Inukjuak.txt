@@ -1,0 +1,22 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
+Inukjuak	radiocarbon	UL-523	57.95	-77.08	1730	80	organics	terrestrial	0	0	1	15	1	1	SaintLaurentFilion1992
+Inukjuak	radiocarbon	UL-506	58.05	-77.23	1410	70	organics	terrestrial	0	0	1	20	1.1	1.1	SaintLaurentFilion1992
+Inukjuak	radiocarbon	UL-3263	58.25	-77.75	3610	90	mytilus edulis	marine	84	114	0	34.2	2.6	2.6	LemieuxEtal2011
+Inukjuak	radiocarbon	UL-3265	58.25	-77.75	2830	70	mytilus edulis	marine	84	114	0	23.2	2.6	2.6	LemieuxEtal2011
+Inukjuak	radiocarbon	UL-3260	58.25	-77.75	2530	80	mytilus edulis	marine	84	114	0	20.2	2.6	2.6	LemieuxEtal2011
+Inukjuak	radiocarbon	UL-3262	58.25	-77.75	2220	90	mytilus edulis	marine	84	114	0	15.2	2.6	2.6	LemieuxEtal2011
+Inukjuak	radiocarbon	UL-3282	58.25	-77.75	2020	80	mytilus edulis	marine	84	114	0	13.2	2.6	2.6	LemieuxEtal2011
+Inukjuak	radiocarbon	UL-3264	58.25	-77.75	1390	90	mytilus edulis	marine	84	114	0	10.2	2.6	2.6	LemieuxEtal2011
+Inukjuak	radiocarbon	UL-3261	58.25	-77.75	1100	90	mytilus edulis	marine	84	114	0	5.2	2.6	2.6	LemieuxEtal2011
+Inukjuak	radiocarbon	UL-3283	58.25	-77.75	860	60	mytilus edulis	marine	84	114	0	0.2	2.6	2.6	LemieuxEtal2011
+Inukjuak	radiocarbon	UQ-1757	58.25	-78.5	2400	150	hiatella arctica	marine	84	114	-1	25	1.4	1.4	LauriolGray1997
+Inukjuak	radiocarbon	UQ-960	58.25	-78.5	6250	100	hiatella arctica, clinocardium ciliatum	marine	84	114	-1	35	1.9	1.9	LauriolGray1997
+Inukjuak	radiocarbon	GIF-1819	59.83	-80	7340	70	mya truncata, hiatella arctica, balanus sp.	marine	84	114	-1	148	2.6	2.6	Harington2003
+Inukjuak	radiocarbon	GSC-706	59.83	-80	7830	90	hiatella arctica, mya truncata, macoma sp.	marine	84	114	-1	139	2.6	2.6	LowdonBlake1968
+Inukjuak	radiocarbon	GX-1061	59.83	-80	6325	95	shells	marine	84	114	-1	76	2.6	2.6	Wagner1967
+Inukjuak	radiocarbon	I-2415	59.83	-80	6990	130	mya truncata, hiatella arctica, macoma calcarea, mytilus edulis	marine	84	114	-1	94	2.6	2.6	AndrewsFalconer1969,BuckleyWillis1970
+Inukjuak	radiocarbon	I-2417	59.83	-80	3930	110	mya truncata	marine	84	114	-1	10	0.7	0.7	AndrewsFalconer1969,BuckleyWillis1970
+Inukjuak	radiocarbon	I-2418	59.83	-80	1550	100	mya truncata	marine	84	114	-1	2	0.7	0.7	AndrewsFalconer1969,BuckleyWillis1970
+Inukjuak	radiocarbon	I-2547	59.83	-80	5360	130	mya truncata, hiatella arctica, macoma calcarea, balanus balanus, macoma balthica, trichotropsis borealis, axinopsida orbiculata	marine	84	114	-1	55	2.6	2.6	AndrewsFalconer1969,BuckleyWillis1970
+Inukjuak	radiocarbon	QC-456	59.83	-80	4710	100	shells	marine	84	114	-1	21	1.2	1.2	AndrewsShort1983
+Inukjuak	radiocarbon	Gif-1819	60.03	-77.2	660	80	beluga bone collagen	terrestrial	0	0	-1	10	0.7	0.7	Harington2003

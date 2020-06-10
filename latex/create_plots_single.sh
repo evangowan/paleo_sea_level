@@ -28,7 +28,7 @@ reference_ice_model="72_73_74_75"
 reference_earth_model="ehgr"
 
 cat << END_CAT > temp/compare_models.txt
-72_73_74_75 eb0ggr
+72_73_74_75 ehgA
 72_73_74_75 ehgC
 72_73_74_75 ehgG
 72_73_74_75 ehgk

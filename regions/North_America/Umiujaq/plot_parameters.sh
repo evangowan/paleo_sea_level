@@ -10,10 +10,10 @@ center_longitude=-94
 center_latitude=60
 
 # corners of the main plot with the locations of the data
-bottom_long=-89.5
-bottom_lat=50.2
-top_long=-76
-top_lat=56
+bottom_long=-82
+bottom_lat=54.4
+top_long=-71.6
+top_lat=57.8
 
 
 R_main="-R${bottom_long}/${bottom_lat}/${top_long}/${top_lat}r"
@@ -30,10 +30,10 @@ R_insert="-R${small_west_longitude}/${small_west_latitude}/${small_east_longitud
 J_insert="-JA${center_longitude}/${center_latitude}/${insert_width}c"
 
 # location of where the scale bar is plotted. Takes some trial and error to get it in the right spot.
-scale_bar_lat=51.5
-scale_bar_long=-87.1
+scale_bar_lat=56.9
+scale_bar_long=-79
 # this is the latitude where it measures the width of the scale bar. Remember, the width will change depending on latitude!
-scale_bar_reference_lat=52.5
+scale_bar_reference_lat=56
 # width is in km
 scale_bar_width=100
 

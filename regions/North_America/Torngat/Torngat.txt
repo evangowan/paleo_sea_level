@@ -1,0 +1,19 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
+Torngat	radiocarbon	BETA-33217	60.08	-64.5	9340	120	balanus sp.	marine	163	24	-1	10	0.8	0.8	DykeEtal2003
+Torngat	radiocarbon	GSC-3092	60.08	-64.57	8390	90	mya truncata	marine	163	24	-1	2	0.8	0.8	McNeelyBrennan2005
+Torngat	radiocarbon	L-642	59.71	-64.21	9390	250	marine shell	marine	163	24	-1	29	1.6	1.6	LowdonBlake1975
+Torngat	radiocarbon	GSC-1560	59.38	-64.12	8670	150	hiatella arctica	marine	163	24	-1	18	1.1	1.1	McNeelyBrennan2005
+Torngat	radiocarbon	SI-3897	59.32	-63.73	2495	70	charcoal	terrestrial	0	0	1	1	0.8	0.8	Martindale2020
+Torngat	radiocarbon	SI-3896	59.32	-63.73	2515	70	charcoal	terrestrial	0	0	1	1	0.8	0.8	Martindale2020
+Torngat	radiocarbon	SI-3371	59.32	-63.73	1340	70	nd	terrestrial	0	0	1	3.2	0.8	0.8	VacchiEtal2018
+Torngat	radiocarbon	UQ-152	60.42	-64.82	5070	185	peat	terrestrial	0	0	1	6.7	0.8	0.8	SavoieGanloff1980
+Torngat	radiocarbon	I-10671	60.42	-64.82	4980	100	peat	terrestrial	0	0	1	6.7	0.8	0.8	SavoieGanloff1980
+Torngat	radiocarbon	BETA-1328	59.03	-63.53	3270	140	nd	terrestrial	0	0	1	4	0.8	0.8	VacchiEtal2018
+Torngat	radiocarbon	SI-3375	59.03	-63.53	665	95	charred moss, grass, salix	terrestrial	0	0	1	0	0.8	0.8	Martindale2020
+Torngat	radiocarbon	GSC-3841	59.02	-63.77	160	110	turf	terrestrial	0	0	1	0	0.8	0.8	EvansRogerson1988
+Torngat	radiocarbon	GSC-3863	59.02	-63.77	150	90	turf	terrestrial	0	0	1	0	0.8	0.8	EvansRogerson1988
+Torngat	radiocarbon	GSC-3123	58.86	-63.35	8360	140	balanus crenatus	marine	163	24	-1	21	1.3	1.3	McNeelyBrennan2005
+Torngat	radiocarbon	SI-6327	58.55	-62.78	5730	80	charcoal	terrestrial	0	0	1	15	1	1	VacchiEtal2018
+Torngat	radiocarbon	GSC-3096	57.99	-63.17	5010	110	mya truncata	marine	163	24	-1	4	0.8	0.8	McNeelyBrennan2005
+Torngat	radiocarbon	GSC-3368	57.99	-63.2	7060	155	serripes groenlandicus, clinocardium ciliatum	marine	163	24	-1	1	0.8	0.8	McNeelyBrennan2005
+Torngat	radiocarbon	BETA-7740	58.21	-62.61	4210	110	charcoal	terrestrial	0	0	1	7.8	0.8	0.8	Martindale2020

@@ -24,8 +24,8 @@ Sugluk	radiocarbon	GSC-4782	62.1	-74.6	7530	45	hiatella arctica, mya truncata	ma
 Sugluk	radiocarbon	Gak-1036	62.1	-74.57	620	80	bones of caribou rangifer tarandus	terrestrial	0	0	1	4.5	0.3	0.3	Matthews1966
 Sugluk	radiocarbon	Y-1717	62.1	-74.55	330	100	charcoal	terrestrial	0	0	1	4.5	0.3	0.3	Matthews1966
 Sugluk	radiocarbon	BETA-11126	62.1	-74.5	4510	110	mya pseudoarenaria	terrestrial	0	0	-1	9	0.6	0.6	McNeelyMcCuaig1991
-Sugluk	radiocarbon	BETA-19854	62.1	-74.5	2110	70	peat	terrestrial	0	0	1	15	0.8	0.8	SimonEtal2016
-Sugluk	radiocarbon	BETA-19855	62.1	-74.5	4110	100	mytilus edulis	terrestrial	0	0	-1	7	0.5	0.5	SimonEtal2016
+Sugluk	radiocarbon	BETA-19854	62.1	-74.5	2110	70	peat	terrestrial	0	0	1	15	0.8	0.8	Daigneault2008
+Sugluk	radiocarbon	BETA-19855	62.1	-74.5	4110	100	mytilus edulis	terrestrial	0	0	-1	7	0.5	0.5	Daigneault2008
 Sugluk	radiocarbon	BETA-19856	62.1	-74.5	1260	70	peat	terrestrial	0	0	1	4	0.3	0.3	Daigneault2008
 Sugluk	radiocarbon	GSC-4938	62.1	-74.41	7180	40	mya truncata	marine	124	90	-1	60	2.5	2.5	McNeelyBrennan2005
 Sugluk	radiocarbon	GSC-4380	62.12	-74.38	5610	45	macoma calcarea	marine	124	90	-1	30	1.5	1.5	McNeelyBrennan2005
@@ -33,9 +33,9 @@ Sugluk	radiocarbon	GSC-5197	62.62	-74.33	1880	30	vegetal remains	terrestrial	0	0
 Sugluk	radiocarbon	GSC-4745	62.65	-74.31	7720	50	portlandia	marine	124	90	-1	115.4	2.5	2.5	GrayEtal1993
 Sugluk	radiocarbon	BETA-11125	62.1	-74.28	6680	130	mya truncata	terrestrial	0	0	-1	92	2.5	2.5	LauriolGray1997
 Sugluk	radiocarbon	BETA-11122	62.12	-74.27	7140	150	macoma calcarea	terrestrial	0	0	-1	66	2.5	2.5	LauriolGray1997
-Sugluk	radiocarbon	BETA-11123	62.12	-74.27	4620	110	wood, organic sed	terrestrial	0	0	1	66	2.5	2.5	SimonEtal2016
+Sugluk	radiocarbon	BETA-11123	62.12	-74.27	4620	110	wood, organic sed	terrestrial	0	0	1	66	2.5	2.5	Daigneault2008
 Sugluk	radiocarbon	BETA-13860	62.12	-74.27	7380	110	hiatella arctica	terrestrial	0	0	-1	97	2.5	2.5	LauriolGray1997,Gray2001
-Sugluk	radiocarbon	BETA-19019	62.12	-74.27	7620	160	macoma sp.	terrestrial	0	0	-1	83	2.5	2.5	SimonEtal2016
+Sugluk	radiocarbon	BETA-19019	62.12	-74.27	7620	160	macoma sp.	terrestrial	0	0	-1	83	2.5	2.5	Ricard1989
 Sugluk	radiocarbon	GSC-4319	62.13	-74.27	7200	40	mytilus edulis	marine	124	90	-1	60	3	3	McNeelyBrennan2005
 Sugluk	radiocarbon	BETA-19005	62.27	-74.27	2420	70	peat	terrestrial	0	0	1	11	0.6	0.6	SimonEtal2016
 Sugluk	radiocarbon	UQ-37	62.47	-73.71	7990	187	marine shells	marine	124	90	-1	102.4	2.5	2.5	GrayLauriol1985

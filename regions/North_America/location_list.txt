@@ -8,3 +8,4 @@ Ivujivik	Hudson_Bay
 Sugluk	Hudson_Strait
 Kangiqsujuaq	Hudson_Strait
 Western_Ungava_Bay	Hudson_Strait
+Southern_Ungava_Bay	Hudson_Strait

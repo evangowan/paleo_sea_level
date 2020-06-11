@@ -5,3 +5,4 @@ East_James_Bay	Hudson_Bay
 Umiujaq	Hudson_Bay
 Inukjuak	Hudson_Bay
 Ivujivik	Hudson_Bay
+Sugluk	Hudson_Strait

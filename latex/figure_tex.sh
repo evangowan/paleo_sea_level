@@ -111,7 +111,7 @@ rm figure_tex/summary.tex
 
 sort temp/subregions.txt > temp/subregions2.txt
 
-awk 'BEGIN {region = ""; subregion = ""} {if ($1 != region) {print $1, $2}; region = $1; subregion = $2}' temp/subregions2.txt > temp/subregions3.txt
+awk 'BEGIN {region = ""; subregion = ""} {if ($2 != subregion) {print $1, $2}; region = $1; subregion = $2}' temp/subregions2.txt > temp/subregions3.txt
 
 number_subregions=$(wc -l < temp/subregions3.txt)
 

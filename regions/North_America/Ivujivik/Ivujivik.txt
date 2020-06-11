@@ -12,7 +12,7 @@ Ivujivik	radiocarbon	GSC-5310	62.14	-77.9	7800	55	hiatella arctica	marine	124	90
 Ivujivik	radiocarbon	GSC-5399	62.18	-78.1	3980	35	mytilus edulis	marine	124	90	0	32.4	3.3	3.3	McNeelyBrennan2005
 Ivujivik	radiocarbon	GSC-5409	62.25	-78	7360	40	hiatella arctica	marine	124	90	-1	75	2.6	2.6	McNeelyBrennan2005
 Ivujivik	radiocarbon	BETA-51804	62.42	-77.9	2580	60	salix charcoal	terrestrial	0	0	1	37	2	2	Martindale2020
-Ivujivik	radiocarbon	AECV-1795C	62.42	-77.9	2520	80	bone, rangifer tarandus	terrestrial	0	0	1	23	1.4	1.4	Harinton2003,Martindale2020
+Ivujivik	radiocarbon	AECV-1795C	62.42	-77.9	2520	80	bone, rangifer tarandus	terrestrial	0	0	1	23	1.4	1.4	Harington2003,Martindale2020
 Ivujivik	radiocarbon	GX-12035	62.45	-77.8	7370	100	hiatella arctica	marine	124	90	-1	28	1.6	1.6	Daigneault2008
 Ivujivik	radiocarbon	L-702B	62.52	-77.4	7350	150	shells	marine	124	90	-1	77.7	2.6	2.6	Matthews1967
 Ivujivik	radiocarbon	NPL58	62.52	-77.4	6900	130	marine shells (hiatella arctica and mya truncata)	marine	124	90	-1	82.6	2.6	2.6	Matthews1966

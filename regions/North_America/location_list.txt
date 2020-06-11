@@ -6,3 +6,4 @@ Umiujaq	Hudson_Bay
 Inukjuak	Hudson_Bay
 Ivujivik	Hudson_Bay
 Sugluk	Hudson_Strait
+Kangiqsujuaq	Hudson_Strait

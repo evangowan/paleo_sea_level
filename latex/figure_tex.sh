@@ -121,7 +121,7 @@ for counter in $(seq 1 ${number_subregions} )
 do
 	region=$(awk -v line=${counter} '{if (NR==line) {print $1}}' temp/subregions3.txt)
 	subregion=$(awk -v line=${counter} '{if (NR==line) {print $2}}' temp/subregions3.txt)
-
+	subregion_space=$(echo ${subregion} | sed 's/_/ /g')
 
 	if [ "${region}" != "${current_region}" ]
 	then

@@ -246,7 +246,7 @@ END_TEXT
 	fi
 
 	samples=$(awk '{print $2}' temp/region_sl_header.txt)
-	pstext << END -R -JX -O -K -P -F+f10p,Helvetica,black,+cBR -D-0.2/0.2 >> ${plot}
+	pstext << END -R -JX -O -K -P -F+f10p,Helvetica,black,+cBR -D-0.2/0.2 -Gwhite >> ${plot}
 \# samples: ${samples}
 END
 

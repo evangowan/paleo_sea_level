@@ -1,0 +1,13 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
+Lake_Melville	radiocarbon	TO-1123	54.55	-60.78	8080	60	nuculana	marine	122	54	-1	58.2	2.7	2.7	AwadallahBatterson1990
+Lake_Melville	radiocarbon	GSC-4651	54.57	-60.73	6950	80	macoma calcarea, mytilus edulis, clinocardium, ponopea norvegia	marine	122	54	-1	40.2	2.2	2.2	McNeelyBrennan2005
+Lake_Melville	radiocarbon	BETA-28885	54.82	-60.73	7950	95	portlandia arctica	marine	122	54	-1	75.2	2.7	2.7	Batterson1996
+Lake_Melville	radiocarbon	SI-1331	53.33	-60.58	5985	140	gyttja	terrestrial	0	0	1	143.2	2.5	2.5	Jordan1975,King1985
+Lake_Melville	radiocarbon	GSC-1300	53.47	-60.3	6580	75	peat	terrestrial	0	0	1	165.2	2.5	2.5	LowdonBlake1975
+Lake_Melville	radiocarbon	GX-1578	53.5	-60.17	1140	105	burnt bone	terrestrial	0	0	1	7.2	0.7	0.7	Martindale2020
+Lake_Melville	radiocarbon	SI-1287	53.5	-60.17	1800	110	charcoal	terrestrial	0	0	1	7.8	0.7	0.7	Martindale2020
+Lake_Melville	radiocarbon	SI-1288	53.5	-60.17	885	110	charcoal	terrestrial	0	0	1	7.8	0.7	0.7	Martindale2020
+Lake_Melville	radiocarbon	SI-1332	53.52	-60.17	4804	55	gyttja	terrestrial	0	0	1	29.2	1.6	1.6	Jordan1975,King1985
+Lake_Melville	radiocarbon	GSC-1280	53.55	-60.17	3090	90	charcoal	terrestrial	0	0	1	24.2	1.3	1.3	Martindale2020
+Lake_Melville	radiocarbon	GSC-1135	53.52	-60.15	5720	85	mytilus edulis	marine	118	59	-1	33.2	2.3	2.3	Liverman1997
+Lake_Melville	radiocarbon	GSC-1347	53.72	-60.12	6110	70	peat	terrestrial	0	0	1	90.2	2.5	2.5	LowdonBlake1975

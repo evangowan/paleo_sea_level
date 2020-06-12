@@ -10,3 +10,4 @@ Kangiqsujuaq	Hudson_Strait
 Western_Ungava_Bay	Hudson_Strait
 Southern_Ungava_Bay	Hudson_Strait
 Torngat	Labrador
+Nain	Labrador

@@ -11,3 +11,4 @@ Western_Ungava_Bay	Hudson_Strait
 Southern_Ungava_Bay	Hudson_Strait
 Torngat	Labrador
 Nain	Labrador
+Hamilton_Inlet	Labrador

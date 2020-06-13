@@ -1,0 +1,30 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
+Notre_Dame_Bay	radiocarbon	GSC-3973	49.71	-54.26	10970	139	gyttja	terrestrial	0	0	1	56	2.8	2.8	ShawEdwardson1994
+Notre_Dame_Bay	radiocarbon	GSC-4588	49.64	-55.81	11970	82	lake sediment	terrestrial	0	0	1	52	2.6	2.6	McNeelyMcCuaig1991
+Notre_Dame_Bay	radiocarbon	GSC-4311	49.62	-56.18	12100	55	mya truncata	marine	115	26	-1	13	0.7	0.7	McNeelyBrennan2005
+Notre_Dame_Bay	radiocarbon	GSC-5527	49.6	-55.93	11900	55	hiatella artica	marine	115	26	-1	17	0.9	0.9	McNeelyBrennan2005
+Notre_Dame_Bay	radiocarbon	GSC-5898	49.6	-55.93	12600	55	hiatella artica, mya truncata	marine	115	26	-1	40	2	2	McNeelyBrennan2005
+Notre_Dame_Bay	radiocarbon	GSC-87	49.57	-56.2	12280	107	shell	marine	115	26	-1	12	0.7	0.7	DyckFyles1963
+Notre_Dame_Bay	radiocarbon	GSC-5925	49.54	-55.84	12100	70	hiatella arctica	marine	115	26	-1	12	0.7	0.7	McNeelyBrennan2005
+Notre_Dame_Bay	radiocarbon	GSC-4636	49.53	-55.65	10870	94	lake sediment	terrestrial	0	0	1	23.2	1.2	1.2	McNeelyMcCuaig1991
+Notre_Dame_Bay	radiocarbon	GSC-5906	49.52	-55.66	9790	50	macoma balthica	marine	115	26	-1	7.5	0.5	0.5	McNeelyBrennan2005
+Notre_Dame_Bay	radiocarbon	GSC-5140	49.52	-56.1	11700	60	hiatella arctica, mya truncata	marine	115	26	-1	13	0.7	0.7	McNeelyBrennan2005
+Notre_Dame_Bay	radiocarbon	GSC-5908	49.49	-55.84	11900	50	hiatella arctica	marine	115	26	-1	14.5	0.7	0.7	McNeelyBrennan2005
+Notre_Dame_Bay	radiocarbon	TO-2306	49.48	-56.18	11340	150	marine plant	marine	115	26	-1	24	1.2	1.2	ScottEtal1991
+Notre_Dame_Bay	radiocarbon	GSC-4509	49.44	-53.9	2740	30	peat	terrestrial	0	0	1	1.1	0.6	0.6	ShawEdwardson1994
+Notre_Dame_Bay	radiocarbon	GSC-4604	49.44	-53.9	210	25	peat	terrestrial	0	0	1	2.4	0.6	0.6	ShawEdwardson1994
+Notre_Dame_Bay	radiocarbon	BETA-36169	49.43	-53.9	2285	70	peat	terrestrial	0	0	1	0.9	0.6	0.6	ShawEdwardson1994
+Notre_Dame_Bay	radiocarbon	GSC-4520	49.43	-53.9	3150	45	peat	terrestrial	0	0	1	1.1	0.6	0.6	ShawEdwardson1994
+Notre_Dame_Bay	radiocarbon	GSC-4592	49.43	-53.9	2980	45	peat	terrestrial	0	0	0	-0.6	0.7	0.7	ShawEdwardson1994
+Notre_Dame_Bay	radiocarbon	GSC-4662	49.43	-53.9	3060	45	peat	marine	0	0	1	-0.1	0.6	0.6	ShawEdwardson1994
+Notre_Dame_Bay	radiocarbon	TO-2305	49.42	-56.1	12470	380	mya arenaria	marine	115	26	-1	30	1.5	1.5	ScottEtal1991
+Notre_Dame_Bay	radiocarbon	GSC-1733	49.42	-56.1	12400	110	balanus sp	marine	115	26	-1	20	1	1	Blake1983
+Notre_Dame_Bay	radiocarbon	GSC-5171	49.42	-56.1	12100	55	hiatella arctica	marine	115	26	-1	13	0.7	0.7	McNeelyBrennan2005
+Notre_Dame_Bay	radiocarbon	BETA-27233	49.34	-53.7	1780	80	gyttja	terrestrial	0	0	1	-0.6	0.6	0.6	ShawEdwardson1994
+Notre_Dame_Bay	radiocarbon	T12696	49.34	-53.7	172	64	peat	terrestrial	0	0	0	-0.4	0.4	0.4	DalyEtal2007
+Notre_Dame_Bay	radiocarbon	T14377A	49.34	-53.7	1244	72	peat	terrestrial	0	0	0	-0.4	0.4	0.4	DalyEtal2007
+Notre_Dame_Bay	radiocarbon	T12690	49.34	-53.7	170	130	peat	terrestrial	0	0	1	-0.4	0.3	0.3	DalyEtal2007
+Notre_Dame_Bay	radiocarbon	T12688	49.34	-53.7	1645	44	peat	terrestrial	0	0	0	-0.5	0.4	0.4	DalyEtal2007
+Notre_Dame_Bay	radiocarbon	BETA-27234	49.34	-53.71	1260	70	peat	terrestrial	0	0	1	0.7	0.3	0.3	ShawEdwardson1994
+Notre_Dame_Bay	radiocarbon	GSC-4327	48.95	-54.72	11700	80	gyttja	terrestrial	0	0	1	80	2.5	2.5	McNeelyMcCuaig1991
+Notre_Dame_Bay	radiocarbon	BETA-27231	48.65	-53.73	5490	120	peat	terrestrial	0	0	1	-3.3	0.6	0.6	ShawEdwardson1994

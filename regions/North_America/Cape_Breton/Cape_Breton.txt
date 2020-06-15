@@ -1,0 +1,17 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
+Cape_Breton	radiocarbon	BETA-185984	46.07	-60.89	2120	40	shell	marine	90	40	-1	-14.4	0.6	0.6	ShawEtal2009
+Cape_Breton	radiocarbon	BETA-197660	46.07	-60.89	4440	40	twig	terrestrial	0	0	1	-15.1	0.7	0.7	ShawEtal2009
+Cape_Breton	radiocarbon	BETA-185985	46.07	-60.89	4510	40	wood	terrestrial	0	0	1	-15.2	0.7	0.7	ShawEtal2009
+Cape_Breton	radiocarbon	BETA-197661	46.07	-60.89	4480	40	twig	terrestrial	0	0	1	-15.3	0.6	0.6	ShawEtal2009
+Cape_Breton	radiocarbon	BETA-185986	46.07	-60.89	4110	40	peat	terrestrial	0	0	0	-13.7	0.7	0.7	ShawEtal2009
+Cape_Breton	radiocarbon	BETA-185987	46.07	-60.89	4090	40	peat	terrestrial	0	0	0	-14.1	0.7	0.7	ShawEtal2009
+Cape_Breton	radiocarbon	BETA-185988	46.07	-60.89	2330	60	shell	marine	90	40	-1	-14	0.6	0.6	ShawEtal2009
+Cape_Breton	radiocarbon	BETA-185989	46.07	-60.89	4220	40	peat	terrestrial	0	0	1	-14.5	0.7	0.7	ShawEtal2009
+Cape_Breton	radiocarbon	BETA-185990	46.07	-60.89	3900	40	peat	terrestrial	0	0	1	-11.6	0.7	0.7	ShawEtal2009
+Cape_Breton	radiocarbon	BETA-185991	46.07	-60.89	5250	40	wood	terrestrial	0	0	0	-22.3	0.7	0.7	ShawEtal2009
+Cape_Breton	radiocarbon	BETA-197662	46.07	-60.89	5370	40	twig	terrestrial	0	0	0	-22.4	0.7	0.7	ShawEtal2009
+Cape_Breton	radiocarbon	BETA-31834	46.22	-60.53	3680	90	bulk	terrestrial	0	0	1	-1.1	0.6	0.6	MillerLivingstone1993
+Cape_Breton	radiocarbon	BETA-37865	46.22	-60.53	910	60	bulk	terrestrial	0	0	-1	-1.1	0.6	0.6	MillerLivingstone1993
+Cape_Breton	radiocarbon	BETA-37866	46.22	-60.53	1260	80	bulk	terrestrial	0	0	-1	-1.1	0.6	0.6	MillerLivingstone1993
+Cape_Breton	radiocarbon	BETA-37867	46.22	-60.53	1520	80	bulk	terrestrial	0	0	0	-1.5	0.7	0.7	MillerLivingstone1993
+Cape_Breton	radiocarbon	GSC-1578	46.04	-60.38	10300	75	peat lens	terrestrial	0	0	1	50	0.6	0.6	BlakeLowdon1976

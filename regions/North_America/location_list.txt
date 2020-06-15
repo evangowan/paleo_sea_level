@@ -18,4 +18,5 @@ Notre_Dame_Bay	Newfoundland
 Avalon_Peninsula	Newfoundland
 Bay_Of_Islands	Newfoundland
 Port_Aux_Basques	Newfoundland
-Cape_Breton	Gulf_Of_St_Lawrence
+Cape_Breton	Gulf_of_St_Lawrence
+Magdalen_Islands	Gulf_of_St_Lawrence

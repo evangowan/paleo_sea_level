@@ -19,5 +19,5 @@ Magdalen_Islands	radiocarbon	UCIAMS-144896	47.47	-61.74	155	20	leaves	terrestria
 Magdalen_Islands	radiocarbon	UCIAMS-144897	47.47	-61.74	145	20	leaves	terrestrial	0	0	0	0.1	0.3	0.3	BarnettEtal2017
 Magdalen_Islands	radiocarbon	UCIAMS-134729	47.21	-61.84	9430	25	peat	terrestrial	0	0	1	0	0.2	0.2	RemillardEtal2016
 Magdalen_Islands	radiocarbon	GSC-4565	47.21	-61.84	9480	65	peat	terrestrial	0	0	1	-2.2	0.2	0.2	DredgeEtal1992
-Magdalen_Islands	radiocarbon	UCIAMS-134725	47.56	-61.5	840	20	shells	marine	0	0	-1	-5	0.3	0.3	RemillardEtal2017
-Magdalen_Islands	radiocarbon	UCIAMS-134726	47.41	-61.87	1125	20	shells	marine	0	0	-1	-5	0.3	0.3	RemillardEtal2017
+Magdalen_Islands	radiocarbon	UCIAMS-134725	47.56	-61.5	840	20	shells	marine	69	116	-1	-5	0.3	0.3	RemillardEtal2017
+Magdalen_Islands	radiocarbon	UCIAMS-134726	47.41	-61.87	1125	20	shells	marine	69	116	-1	-5	0.3	0.3	RemillardEtal2017

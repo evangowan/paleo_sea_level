@@ -15,3 +15,4 @@ Hamilton_Inlet	Labrador
 Lake_Melville	Labrador
 Great_Northern_Peninsula	Newfoundland
 Notre_Dame_Bay	Newfoundland
+Avalon_Peninsula	Newfoundland

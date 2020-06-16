@@ -22,3 +22,4 @@ Cape_Breton	Gulf_of_St_Lawrence
 Magdalen_Islands	Gulf_of_St_Lawrence
 Prince_Edward_Island	Gulf_of_St_Lawrence
 Chaleur_Bay	Gulf_of_St_Lawrence
+Anticosti_Island	Gulf_of_St_Lawrence

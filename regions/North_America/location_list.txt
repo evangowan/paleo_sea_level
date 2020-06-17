@@ -27,3 +27,4 @@ Rimouski	St_Laurence_Lowlands
 Forestville	St_Laurence_Lowlands
 Quebec_City	St_Laurence_Lowlands
 Sable_Island	Maritimes
+Halifax	Maritimes

@@ -1,0 +1,60 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
+Forestville	radiocarbon	BETA-36108	48.07	-69.74	6510	70	peat	terrestrial	0	0	1	30	1.5	1.5	DionneOcchietti1996
+Forestville	radiocarbon	BETA-37627	48.11	-69.72	9250	110	balanus crenatus	marine	167	93	-1	55	2.8	2.8	DionneOcchietti1996
+Forestville	radiocarbon	BETA-37628	48.11	-69.72	9180	100	macoma balthica	marine	167	93	-1	55	2.8	2.8	DionneOcchietti1996
+Forestville	radiocarbon	I-5922	48.19	-69.72	10400	150	macoma balthica	marine	167	93	-1	83	4.2	4.2	DionneOcchietti1996
+Forestville	radiocarbon	UL-697	48.11	-69.72	9210	130	mytilus edulis	marine	167	93	-1	55	2.8	2.8	DionneOcchietti1996
+Forestville	radiocarbon	BETA-37629	48.09	-69.71	1310	78	peat	terrestrial	0	0	1	5.6	0.6	0.6	Dionne1996
+Forestville	radiocarbon	BETA-44565	48.09	-69.71	950	70	wood	terrestrial	0	0	1	5.2	0.6	0.6	Dionne1996
+Forestville	radiocarbon	GSC-5944	48.1	-69.71	9200	50	balanus hameri	marine	167	93	-1	6.8	0.6	0.6	DionneOcchietti1996
+Forestville	radiocarbon	GSC-5945	48.1	-69.71	9170	55	mytilus edulis	marine	167	93	-1	3.2	0.6	0.6	DionneOcchietti1996
+Forestville	radiocarbon	BETA-18333	48.1	-69.71	1240	60	wood	terrestrial	0	0	0	3.8	1.6	1.6	Dionne1996
+Forestville	radiocarbon	BETA-18334	48.1	-69.71	1160	60	wood	terrestrial	0	0	0	3.9	1.6	1.6	Dionne1996
+Forestville	radiocarbon	BETA-24660	48.1	-69.71	1470	70	wood	terrestrial	0	0	0	3.9	1.6	1.6	Dionne1996
+Forestville	radiocarbon	BETA-28369	48.1	-69.7	1650	60	wood	terrestrial	0	0	0	4.4	1.6	1.6	Dionne1996
+Forestville	radiocarbon	BETA-28370	48.1	-69.7	1370	50	wood	terrestrial	0	0	0	5	1.6	1.6	Dionne1996
+Forestville	radiocarbon	BETA-29059	48.1	-69.7	1640	70	mya arenaria	marine	167	93	0	3.9	1.6	1.6	Dionne1996
+Forestville	radiocarbon	BETA-36103	48.1	-69.7	1910	60	wood	terrestrial	0	0	0	4.1	1.6	1.6	Dionne1996
+Forestville	radiocarbon	BETA-36105	48.1	-69.7	1480	70	wood	terrestrial	0	0	0	4.3	1.6	1.6	Dionne1996
+Forestville	radiocarbon	GSC-5313	48.1	-69.7	1950	80	plant fragments (spartina alterniflora>)	terrestrial	0	0	0	3.3	1.5	1.5	Dionne1996
+Forestville	radiocarbon	TO-5150	48.1	-69.7	1380	60	wood	terrestrial	0	0	0	5.4	1.6	1.6	Dionne1996
+Forestville	radiocarbon	UL-324	48.1	-69.7	2100	50	wood	terrestrial	0	0	0	3.9	1.6	1.6	Dionne1996
+Forestville	radiocarbon	UL-462	48.1	-69.7	1220	70	wood	terrestrial	0	0	0	4.5	1.1	1.1	Dionne1996
+Forestville	radiocarbon	UL-715	48.1	-69.7	1270	60	wood	terrestrial	0	0	1	5.2	0.6	0.6	Dionne1996
+Forestville	radiocarbon	UL-839	48.1	-69.7	1370	70	wood	terrestrial	0	0	0	3.5	1.6	1.6	Dionne1996
+Forestville	radiocarbon	GSC-1500	48.13	-69.68	10200	75	balanus hameri	marine	167	93	-1	85	4.3	4.3	DionneOcchietti1996
+Forestville	radiocarbon	GSC-5390	48.13	-69.68	6420	90	mya arenaria	marine	167	93	0	4.1	1.8	1.8	DionneOcchietti1996
+Forestville	radiocarbon	GSC-5476	48.13	-69.68	6830	40	clinocardium ciliatum	marine	167	93	-1	3	1	1	DionneOcchietti1996
+Forestville	radiocarbon	BETA-10817	48.23	-69.53	8930	100	balanus sp.	marine	167	93	-1	20.6	1	1	DionneOcchietti1996
+Forestville	radiocarbon	BETA-10818	48.23	-69.53	8440	120	marine algae	terrestrial	0	0	-1	35.8	1.8	1.8	DionneOcchietti1996
+Forestville	radiocarbon	BETA-8283	48.23	-69.53	7100	130	peat	terrestrial	0	0	1	23	1.2	1.2	DionneOcchietti1996
+Forestville	radiocarbon	BETA-11285	48.23	-69.53	5500	100	charcoal; arch	terrestrial	0	0	1	16.2	0.8	0.8	DionneOcchietti1996
+Forestville	radiocarbon	UL-2001	48.57	-69.13	1570	50	Wood	terrestrial	0	0	0	4	1.8	1.8	DionneEtal2004
+Forestville	radiocarbon	UL-1865	48.57	-69.13	1740	60	Wood	terrestrial	0	0	0	4	1.8	1.8	DionneEtal2004
+Forestville	radiocarbon	UL-1890	48.57	-69.13	1830	60	Wood	terrestrial	0	0	0	4	1.8	1.8	DionneEtal2004
+Forestville	radiocarbon	UL-2261	48.57	-69.13	1830	110	Plant remains	terrestrial	0	0	0	4	1.8	1.8	DionneEtal2004
+Forestville	radiocarbon	UL-1737	48.57	-69.13	1910	70	Wood	terrestrial	0	0	0	4	1.8	1.8	DionneEtal2004
+Forestville	radiocarbon	UL-1912	48.57	-69.13	1970	70	Wood	terrestrial	0	0	0	4	1.8	1.8	DionneEtal2004
+Forestville	radiocarbon	UL-2238	48.57	-69.13	1570	60	Wood	terrestrial	0	0	0	4.2	1.9	1.9	DionneEtal2004
+Forestville	radiocarbon	UL-2217	48.57	-69.13	1620	70	Wood	terrestrial	0	0	0	4.2	1.9	1.9	DionneEtal2004
+Forestville	radiocarbon	UL-2007	48.57	-69.13	1860	70	Wood	terrestrial	0	0	0	4.2	1.9	1.9	DionneEtal2004
+Forestville	radiocarbon	UL-1730	48.57	-69.13	1880	90	Wood	terrestrial	0	0	0	4.2	1.9	1.9	DionneEtal2004
+Forestville	radiocarbon	UL-2006	48.57	-69.13	1990	60	Wood	terrestrial	0	0	0	3.9	1.3	1.3	DionneEtal2004
+Forestville	radiocarbon	UL-2002	48.57	-69.13	2170	50	Wood	terrestrial	0	0	0	3.9	1.3	1.3	DionneEtal2004
+Forestville	radiocarbon	UL-1732	48.57	-69.13	2340	70	Wood	terrestrial	0	0	0	3.9	1.3	1.3	DionneEtal2004
+Forestville	radiocarbon	UL-2008	48.57	-69.13	2360	90	Wood	terrestrial	0	0	0	3.9	1.3	1.3	DionneEtal2004
+Forestville	radiocarbon	UL-1889	48.57	-69.13	2740	70	Wood	terrestrial	0	0	0	3.9	1.2	1.2	DionneEtal2004
+Forestville	radiocarbon	UL-1619	48.82	-68.88	8180	130	mya arenaria	marine	167	93	0	3.1	1.6	1.6	Dionne2001a
+Forestville	radiocarbon	UL-2089	48.82	-68.88	8640	130	mya arenaria	marine	167	93	0	9.1	1.6	1.6	Dionne2001a
+Forestville	radiocarbon	UL-2090	48.82	-68.88	9470	103	mytilus edulis	marine	167	93	-1	8	0.4	0.4	Dionne2001a
+Forestville	radiocarbon	UL-2131	48.82	-68.88	8120	90	wood	terrestrial	0	0	0	8.6	1.6	1.6	Dionne2001a
+Forestville	radiocarbon	UL-2083	48.82	-68.88	8790	130	mya arenaria	marine	167	93	0	8.6	1.6	1.6	Dionne2001a
+Forestville	radiocarbon	UL-2084	48.82	-68.88	9260	130	mytilus edulis	marine	167	93	-1	7	0.4	0.4	Dionne2001a
+Forestville	radiocarbon	BETA-76667	49.25	-68.25	7410	110	charcoal	terrestrial	0	0	1	50	2.5	2.5	Martindale2020
+Forestville	radiocarbon	UQ-1229	49.29	-68.16	9740	112	balanus crenatus	marine	167	93	-1	59.6	2	2	DuboisEtal1988
+Forestville	radiocarbon	UQ-1231	49.32	-68.16	10240	112	mytilus edulis	marine	167	93	-1	76	2	2	DuboisEtal1988
+Forestville	radiocarbon	UQ-1232	49.32	-68.16	10390	112	mytilus edulis	marine	167	93	-1	73.1	2	2	DuboisEtal1988
+Forestville	radiocarbon	UQ-1233	49.32	-68.16	10740	112	mytilus edulis	marine	167	93	-1	72	2	2	DuboisEtal1988
+Forestville	radiocarbon	UQ-1234	49.32	-68.16	10590	112	mytilus edulis	marine	167	93	-1	72	2	2	DuboisEtal1988
+Forestville	radiocarbon	28-3-a	48.67	-69.31	10380	40	mya arenaria	marine	167	93	-1	105	0.3	0.3	DietrichEtal2017
+Forestville	radiocarbon	UL-987	48.23	-69.57	6750	112	mya arenaria	marine	167	93	0	4.1	1.8	1.8	DionneOcchietti1996

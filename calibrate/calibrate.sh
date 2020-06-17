@@ -41,8 +41,8 @@ for counter in $( seq 2 ${number_lines})
 do
 
 
-	counter=$(echo $counter - 1 | bc)
-	echo "Analysis: " $counter
+	counter_m1=$(echo $counter - 1 | bc)
+	echo "Analysis: " $counter_m1
 	awk -v line=${counter} '{if (NR == line) {print $0}}' ${input_file} > temp
 
 

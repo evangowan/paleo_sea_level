@@ -26,3 +26,4 @@ Anticosti_Island	Gulf_of_St_Lawrence
 Rimouski	St_Laurence_Lowlands
 Forestville	St_Laurence_Lowlands
 Quebec_City	St_Laurence_Lowlands
+Sable_Island	Maritimes

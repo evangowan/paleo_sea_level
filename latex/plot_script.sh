@@ -106,26 +106,26 @@ END_TEXT
 
 	echo $(wc -l < ${sea_level_file})  | bc >  ${statistics_file}
 
-	awk -F'\t' '{if  ( NR>1 && $6 == "-1" ) {print $4, $7-$8, $5, $5, 0, $8+$9, $1}}' ${sea_level_file} >  temp/minimum.txt
+	awk -F'\t' '{if  ( $6 == "-1" ) {print $4, $7-$8, $5, $5, 0, $8+$9, $1}}' ${sea_level_file} >  temp/minimum.txt
 
 	wc -l < temp/minimum.txt >> ${statistics_file}
 
-	awk -F'\t'  '{if  ( NR>1 && $6 == "1" )  {print $4, $7+$9, $5, $5, $8+$9, 0, $1}}' ${sea_level_file} >  temp/maximum.txt
+	awk -F'\t'  '{if  ( $6 == "1" )  {print $4, $7+$9, $5, $5, $8+$9, 0, $1}}' ${sea_level_file} >  temp/maximum.txt
 
 	wc -l < temp/maximum.txt >> ${statistics_file}
 
-	awk -F'\t'  '{if  ( NR>1 && $6 == "0" ){print $4, $7, $5, $5, $8, $9, $1}}' ${sea_level_file} >  temp/bounded.txt
+	awk -F'\t'  '{if  ( $6 == "0" ){print $4, $7, $5, $5, $8, $9, $1}}' ${sea_level_file} >  temp/bounded.txt
 
 	wc -l < temp/bounded.txt >> ${statistics_file}
 
 	# find time extremes
 
-	min_time=$(awk -F'\t' 'BEGIN {extreme=100000} {if (NR > 1 && $4 - $5 < extreme) {extreme=$4-$5}} END {if (extreme < 8000) {print 0} else{print int(extreme/2000)*2000}}' ${sea_level_file})
-	max_time=$(awk -F'\t' 'BEGIN {extreme=-100000} {if (NR > 1 && $4 + $5 > extreme) {extreme=$4+$5}} END {print int((extreme+2000)/2000)*2000}' ${sea_level_file})
+	min_time=$(awk -F'\t' 'BEGIN {extreme=100000} {if ( $4 - $5 < extreme) {extreme=$4-$5}} END {if (extreme < 8000) {print 0} else{print int(extreme/2000)*2000}}' ${sea_level_file})
+	max_time=$(awk -F'\t' 'BEGIN {extreme=-100000} {if ( $4 + $5 > extreme) {extreme=$4+$5}} END {print int((extreme+2000)/2000)*2000}' ${sea_level_file})
 
-	min_elevation=$(awk -F'\t' 'BEGIN {extreme=100000} {if (NR > 1 && $7 - ($8+$9) < extreme) {extreme=$7 - ($8+$9)}} END {if(extreme > -1) {print -20} else {print int((extreme-20)/20)*20}}' ${sea_level_file})
+	min_elevation=$(awk -F'\t' 'BEGIN {extreme=100000} {if ( $7 - ($8+$9) < extreme) {extreme=$7 - ($8+$9)}} END {if(extreme > -1) {print -20} else {print int((extreme-20)/20)*20}}' ${sea_level_file})
 
-	max_elevation=$(awk -F'\t' 'BEGIN {extreme=-100000} {if (NR > 1 && $7 + ($8+$9) > extreme) {extreme=$7 + ($8+$9)}} END {if (extreme < 0) {print 20} else {print int((extreme+20)/20)*20}}' ${sea_level_file})
+	max_elevation=$(awk -F'\t' 'BEGIN {extreme=-100000} {if ($7 + ($8+$9) > extreme) {extreme=$7 + ($8+$9)}} END {if (extreme < 0) {print 20} else {print int((extreme+20)/20)*20}}' ${sea_level_file})
 
 	# scale the axis
 

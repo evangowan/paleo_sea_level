@@ -9,6 +9,7 @@
 \usepackage{import}
 \usepackage[sort]{natbib}
 \usepackage{times}
+\usepackage[hidelinks]{hyperref}
 
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{1em}
@@ -27,6 +28,31 @@
 \tableofcontents
 
 \newpage
+
+\section{Summary of ice and Earth models}
+
+In order to make the figures compact, I have made shorthand codes for the ice and Earth models. I calculate each ice sheet separately, and the numbers refer to the ``run number", which is a sequential number that I used to distinguish git commits (see \url{https://github.com/evangowan/icesheet}). The ice model numbering scheme is as follows:
+
+``North America"\_``Europe"\_``Antarctica"\_``Patagonia"
+
+For the Earth models, I created a shorthand scheme during my PHD, which I have continued to use. A full explanation can be found on the github page:
+
+\url{https://github.com/evangowan/icesheet/blob/prelim/global/earth_model_format_codes.txt} % change when final version is pushed
+
+The full description of each model compared in this document is in this section.
+
+
+
+\subsection{Ice models}
+
+\import{temp/}{ice_models.tex}
+
+\subsection{Earth models}
+
+\import{temp/}{earth_models.tex}
+
+\newpage
+
 
 \import{./}{compilations.tex}
 

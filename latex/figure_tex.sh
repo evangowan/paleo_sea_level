@@ -207,3 +207,45 @@ END_CAT
 	cat temp/table.tex >> statistics_tex/summary.tex
 
 done
+
+# create tex file with Ice and Earth model parameters
+awk '{print $1}' temp/compare_models.txt > temp/ice_models.txt
+
+sort temp/ice_models.txt > temp/ice_models2.txt
+
+awk 'BEGIN {last="FFF"; collect=""} {if ($1 != last) {print $1}; last = $1}' temp/ice_models2.txt > temp/ice_models3.txt
+
+cat << END_CAT > temp/ice_models.tex
+
+END_CAT
+
+for model in $(cat temp/ice_models3.txt)
+do
+
+	cat ice_models/${model} >> temp/ice_models.tex
+	echo " " >> temp/ice_models.tex
+
+
+done
+
+
+awk '{print $2}' temp/compare_models.txt > temp/earth_models.txt
+
+sort temp/earth_models.txt > temp/earth_models2.txt
+
+awk 'BEGIN {last="FFF"; collect=""} {if ($1 != last) {print $1}; last = $1}' temp/earth_models2.txt > temp/earth_models3.txt
+
+cat << END_CAT > temp/earth_models.tex
+
+END_CAT
+
+
+for model in $(cat temp/earth_models3.txt)
+do
+
+	cat earth_models/${model} >> temp/earth_models.tex
+	echo " " >> temp/earth_models.tex
+
+
+done
+

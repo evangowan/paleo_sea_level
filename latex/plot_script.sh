@@ -104,7 +104,7 @@ END_TEXT
 	# plot the sea level data
 	###########################
 
-	echo $(wc -l < ${sea_level_file}) - 1 | bc >  ${statistics_file}
+	echo $(wc -l < ${sea_level_file})  | bc >  ${statistics_file}
 
 	awk -F'\t' '{if  ( NR>1 && $6 == "-1" ) {print $4, $7-$8, $5, $5, 0, $8+$9, $1}}' ${sea_level_file} >  temp/minimum.txt
 
@@ -231,7 +231,7 @@ END_TEXT
 
 	# now plot the reference calculated sea level
 
-	awk -F'\t'  '{if (NR > 1 ) {print $1, $3, $2}}' ${sea_level_file} >  temp/locations.txt
+	awk -F'\t'  '{print $1, $3, $2}' ${sea_level_file} >  temp/locations.txt
 
 	./../Fortran/extract_calc_sea_level ${reference_ice_model} ${reference_earth_model}
 

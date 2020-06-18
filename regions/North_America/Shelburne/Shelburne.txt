@@ -1,0 +1,10 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
+Shelburne	radiocarbon	GSC-899	43.41	-65.62	1230	65	stump	terrestrial	0	0	1	-2.2	0.7	0.7	LowdonBlake1970
+Shelburne	radiocarbon	GSC-731	43.42	-65.61	1470	65	peat	terrestrial	0	0	1	-4.9	0.7	0.7	LowdonBlake1970
+Shelburne	radiocarbon	GSC-918	43.67	-65.79	1023	66	stump	terrestrial	0	0	0	-1.6	1.3	1.3	LowdonBlake1970
+Shelburne	radiocarbon	GSC-1686	43.84	-66.13	5040	70	lake sediment	terrestrial	0	0	1	-22	2.1	2.1	Blake1983
+Shelburne	radiocarbon	Gx-4596	43.84	-66.12	1390	160	peat	terrestrial	0	0	0	-2	1.3	1.3	ScottGreenberg1983
+Shelburne	radiocarbon	Gx-4597	43.84	-66.12	2645	130	peat	terrestrial	0	0	0	-3	1.2	1.2	ScottGreenberg1983
+Shelburne	radiocarbon	Gx-5718	43.84	-66.12	2455	170	peat	terrestrial	0	0	0	-4.5	1.2	1.2	ScottGreenberg1983
+Shelburne	radiocarbon	Gx-5719	43.84	-66.12	2740	210	peat	terrestrial	0	0	0	-5.8	1.2	1.2	ScottGreenberg1983
+Shelburne	radiocarbon	GSC-1046	43.84	-66.12	3387	71	stump	terrestrial	0	0	1	-5.8	0.7	0.7	LowdonBlake1970

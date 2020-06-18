@@ -68,7 +68,7 @@ END_CAT
 			# extract references
 
 
-			awk --field-separator '\t'  '{if(NR > 1) print $16}' ${data_file} | sed 's/,/\n/g' > temp/references.txt
+			awk --field-separator '\t'  '{if(NR > 1 && $16 != "tocome") print $16}' ${data_file} | sed 's/,/\n/g' > temp/references.txt
 
 			sort temp/references.txt > temp/references2.txt
 
@@ -120,6 +120,7 @@ current_region="dummy"
 for counter in $(seq 1 ${number_subregions} )
 do
 	region=$(awk -v line=${counter} '{if (NR==line) {print $1}}' temp/subregions3.txt)
+	region_space=$(echo ${region} | sed 's/_/ /g')
 	subregion=$(awk -v line=${counter} '{if (NR==line) {print $2}}' temp/subregions3.txt)
 	subregion_space=$(echo ${subregion} | sed 's/_/ /g')
 

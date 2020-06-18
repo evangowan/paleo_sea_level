@@ -30,3 +30,4 @@ Sable_Island	Maritimes
 Halifax	Maritimes
 Shelburne	Maritimes
 Cumberland	Maritimes
+Passamaquoddy_Bay	Maritimes

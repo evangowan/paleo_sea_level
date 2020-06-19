@@ -22,10 +22,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>-102.47514749559408642</xmin>
-      <ymin>55.14174336920416408</ymin>
-      <xmax>-81.93086117434566518</xmax>
-      <ymax>62.04758341948917177</ymax>
+      <xmin>7.37409580648271756</xmin>
+      <ymin>56.09998714908993378</ymin>
+      <xmax>12.51016738679482287</xmax>
+      <ymax>57.8264471616611857</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>0</projections>
@@ -314,6 +314,7 @@
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description="Ubuntu,11,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -339,7 +340,7 @@
         </symbol>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="id" index="0" name=""/>
         <alias field="level" index="1" name=""/>
@@ -362,10 +363,10 @@
           <column width="-1" hidden="1" type="actions"/>
         </columns>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -639,6 +640,7 @@ def my_form_open(dialog, layer, feature):
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description="Ubuntu,11,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -664,7 +666,7 @@ def my_form_open(dialog, layer, feature):
         </symbol>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="id" index="0" name=""/>
         <alias field="level" index="1" name=""/>
@@ -676,7 +678,7 @@ def my_form_open(dialog, layer, feature):
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="473430904">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns>
           <column width="-1" hidden="0" type="field" name="id"/>
           <column width="-1" hidden="0" type="field" name="level"/>
@@ -687,10 +689,10 @@ def my_form_open(dialog, layer, feature):
           <column width="-1" hidden="1" type="actions"/>
         </columns>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -958,6 +960,7 @@ def my_form_open(dialog, layer, feature):
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description="Ubuntu,11,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -983,7 +986,7 @@ def my_form_open(dialog, layer, feature):
         </symbol>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="id" index="0" name=""/>
         <alias field="location" index="1" name=""/>
@@ -991,17 +994,17 @@ def my_form_open(dialog, layer, feature):
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="1933665654">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns>
           <column width="-1" hidden="0" type="field" name="id"/>
           <column width="-1" hidden="1" type="actions"/>
           <column width="-1" hidden="0" type="field" name="location"/>
         </columns>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -1021,11 +1024,7 @@ def my_form_open(dialog, layer, feature):
 ]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
-      <widgets>
-        <widget name="location">
-          <config/>
-        </widget>
-      </widgets>
+      <widgets/>
       <conditionalstyles>
         <rowstyles/>
         <fieldstyles/>
@@ -1160,8 +1159,6 @@ def my_form_open(dialog, layer, feature):
             </layer>
           </symbol>
         </source-symbol>
-        <colorramp type="randomcolors" name="[source]"/>
-        <invertedcolorramp value="0"/>
         <rotation/>
         <sizescale scalemethod="diameter"/>
       </renderer-v2>
@@ -1337,6 +1334,7 @@ def my_form_open(dialog, layer, feature):
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description="Ubuntu,11,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -1362,7 +1360,7 @@ def my_form_open(dialog, layer, feature):
         </symbol>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="latitude" index="0" name=""/>
         <alias field="longitude" index="1" name=""/>
@@ -1375,7 +1373,7 @@ def my_form_open(dialog, layer, feature):
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="591933664">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns>
           <column width="-1" hidden="0" type="field" name="latitude"/>
           <column width="-1" hidden="0" type="field" name="longitude"/>
@@ -1387,10 +1385,10 @@ def my_form_open(dialog, layer, feature):
           <column width="-1" hidden="1" type="actions"/>
         </columns>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -1452,9 +1450,9 @@ def my_form_open(dialog, layer, feature):
     <Digitizing>
       <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
       <LayerSnappingList type="QStringList">
-        <value>region_bounds20200526100611284</value>
         <value>GSHHS_i_L120200526100716255</value>
         <value>GSHHS_i_L220200526100716263</value>
+        <value>region_bounds20200526100611284</value>
         <value>sl_points20200526102650839</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
@@ -1479,6 +1477,7 @@ def my_form_open(dialog, layer, feature):
       </LayerSnapToList>
       <DefaultSnapType type="QString">to vertex</DefaultSnapType>
       <DefaultSnapTolerance type="double">0.05</DefaultSnapTolerance>
+      <TopologicalEditing type="bool">true</TopologicalEditing>
       <LayerSnappingToleranceList type="QStringList">
         <value>5000.000000</value>
         <value>5000.000000</value>

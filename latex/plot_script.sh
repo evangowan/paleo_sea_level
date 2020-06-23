@@ -38,7 +38,7 @@ then
 	height=$(mapproject -Wh ${R_main} ${J_main})
 
 	gmt convert ../GIS/region_bounds.gmt -Slocation=${location} > temp/region_bound.txt
-	gmt pscoast -X${xshift} -Y${yshift} ${R_main} ${J_main}   -Df -A500  -P  -Wthinner -Slightgrey -K > ${plot}
+	gmt pscoast -X${xshift} -Y${yshift} ${R_main} ${J_main}   -Df -A100  -P  -Wthinner -Slightgrey -K > ${plot}
 	gmt psxy temp/region_bound.txt    -P -K -O -J -R  -W2p,black -L   >> ${plot}
 	gmt psxy temp/region_bound.txt    -P -K -O -J -R  -Wyellow -L   >> ${plot}
 

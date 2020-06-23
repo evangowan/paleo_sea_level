@@ -22,3 +22,8 @@ Halden	Danish_straits_-_Kattegat_-_Skagerrak
 Ski	Danish_straits_-_Kattegat_-_Skagerrak
 Kragerod_Porsgrunn	Danish_straits_-_Kattegat_-_Skagerrak
 Stavanger	Western_Norway
+Sotra	Western_Norway
+Torvikbygd	Western_Norway
+Sula	Western_Norway
+Bjugn	Western_Norway
+Frosta	Western_Norway

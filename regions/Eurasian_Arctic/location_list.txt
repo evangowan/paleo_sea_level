@@ -1,0 +1,13 @@
+Rolfsoya	Southern_Barents_Sea
+Norkinn	Southern_Barents_Sea
+Bockfjorden	Svalbard
+Broggerhalvoya	Svalbard
+Ytterdalen	Svalbard
+Sorkapp_Land	Svalbard
+Agardbukta	Svalbard
+Southern_Edgeoya	Svalbard
+Diskobukta	Svalbard
+Humla	Svalbard
+Kapp_Ziehen	Svalbard
+Svartknausflya	Svalbard
+Kongsoya	Svalbard

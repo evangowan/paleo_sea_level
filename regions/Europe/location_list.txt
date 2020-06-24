@@ -27,3 +27,4 @@ Torvikbygd	Western_Norway
 Sula	Western_Norway
 Bjugn	Western_Norway
 Frosta	Western_Norway
+Rotterdam	North_Sea

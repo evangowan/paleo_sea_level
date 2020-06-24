@@ -1,0 +1,103 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
+Rotterdam	radiocarbon	GrA-04308	51.87	4.55	4470	60	SL regional peat_ Bottom peat_ 2 abscission layers_ 2 Urtica_ 1 Coleoptera fragment	terrestrial	0	0	0	-4.33	0.13	0.1	BerendsenEtal2007
+Rotterdam	radiocarbon	GrA-05207	51.87	4.55	5930	50	SL regional peat_ Bottom peat_ 1 Cornus sanguinea	terrestrial	0	0	0	-8.02	0.17	0.1	BerendsenEtal2007
+Rotterdam	radiocarbon	GrA-05237	51.87	4.55	6200	50	SL regional peat_ Bottom peat_ 3 Alisma_ 2 typha_ 1 Alnus_ 1 Solanum	terrestrial	0	0	0	-8.89	0.18	0.1	BerendsenEtal2007
+Rotterdam	radiocarbon	GrA-05215	51.87	4.55	6360	50	SL regional peat_ Bottom peat_ 1 Alnus cone	terrestrial	0	0	0	-9.82	0.19	0.11	BerendsenEtal2007
+Rotterdam	radiocarbon	GrA-05208	51.87	4.55	6660	60	SL regional peat_ Bottom peat_ 2 Cornus_ 2 Solanum_ 2 Alnus glutinosa_ 1 Atriplex	terrestrial	0	0	0	-10.81	0.21	0.11	BerendsenEtal2007
+Rotterdam	radiocarbon	GrA-13683	51.87	4.55	3380	40	SL regional peat_ Bottom peat_ Terrestrial botanical macrofossils	terrestrial	0	0	0	-2.82	0.12	0.12	BerendsenEtal2007
+Rotterdam	radiocarbon	GrA-13685	51.87	4.55	3790	40	SL regional peat_ Bottom peat_ Terrestrial botanical macrofossils	terrestrial	0	0	0	-3.45	0.12	0.1	BerendsenEtal2007
+Rotterdam	radiocarbon	UtC-15344	51.96	4	7700	60	SL regional peat_ Near top peat_ Alnus fruit	terrestrial	0	0	0	-20.54	0.23	0.1	HijmaCohen2010
+Rotterdam	radiocarbon	UtC-15404	51.96	4	7910	80	SL regional peat_ Bottom peat_ Mentha_ Alisma_ Carex_	terrestrial	0	0	0	-22.35	0.24	0.24	HijmaCohen2010
+Rotterdam	radiocarbon	UtC-14940	51.92	4.47	7486	41	SL regional peat_ Top peat_ Mainly Alisma pl. and Scirpus	terrestrial	0	0	0	-16.91	0.22	0.22	HijmaEtal2009,HijmaCohen2010
+Rotterdam	radiocarbon	UtC-14941	51.92	4.47	7211	40	SL regional peat_ Bottom peat_ Mainly Alnus fruits and branches	terrestrial	0	0	0	-15.21	0.14	0.14	HijmaEtal2009,HijmaCohen2010
+Rotterdam	radiocarbon	GrN-01151	51.87	4.55	5580	117	SL regional peat_ Bottom peat	terrestrial	0	0	0	-6.59	0.18	0.12	Jelgersma1961,vandePlassche1982,vandePlassche1995,BerendsenEtal2007
+Rotterdam	radiocarbon	GrN-01140	51.87	4.55	5030	122	SL regional peat_ Bottom peat	terrestrial	0	0	0	-5.19	0.17	0.11	Jelgersma1961,vandePlassche1982,vandePlassche1995,BerendsenEtal2007
+Rotterdam	radiocarbon	GrN-01146	51.87	4.55	4270	114	SL regional peat_ Bottom peat	terrestrial	0	0	0	-4.12	0.16	0.12	Jelgersma1961,vandePlassche1982,vandePlassche1995,BerendsenEtal2007
+Rotterdam	radiocarbon	GrN-01147	51.87	4.55	3900	122	SL regional peat_ Bottom peat	terrestrial	0	0	0	-3.55	0.16	0.12	Jelgersma1961,vandePlassche1982,vandePlassche1995,BerendsenEtal2007
+Rotterdam	radiocarbon	GrN-01148	51.87	4.55	3480	112	SL regional peat_ Bottom peat	terrestrial	0	0	0	-2.85	0.16	0.12	Jelgersma1961,vandePlassche1982,vandePlassche1995,BerendsenEtal2007
+Rotterdam	radiocarbon	GrA-49578	51.78	4.37	7185	40	SL regional peat_ Top peat_ macrofossils	terrestrial	0	0	0	-15.21	0.12	0.1	HijmaCohen2019
+Rotterdam	radiocarbon	GrA-49530	52.12	4.39	7350	45	SL regional peat_ Bottom peat_ macrofossils	terrestrial	0	0	0	-16.44	0.12	0.1	HijmaCohen2019
+Rotterdam	radiocarbon	GrA-42422	51.77	4.26	7485	90	SL regional peat_ Bottom peat_ macrofossils	terrestrial	0	0	0	-17.13	0.12	0.12	HijmaCohen2019
+Rotterdam	radiocarbon	GrN-21460	52	3.99	7720	108	SL regional peat_ Top peat	terrestrial	0	0	0	-21.57	0.24	0.19	HijmaCohen2010
+Rotterdam	radiocarbon	GrN-08798	51.89	4.57	2700	67	SL regional peat_ Bottom peat_ Alder roots	terrestrial	0	0	0	-2.4	0.12	0.1	vandePlassche1982,vandePlassche1995,BerendsenEtal2007
+Rotterdam	radiocarbon	GrN-08799	51.89	4.57	2985	58	SL regional peat_ Bottom peat_ Oak root	terrestrial	0	0	0	-2.4	0.12	0.1	vandePlassche1982,vandePlassche1995,BerendsenEtal2007
+Rotterdam	radiocarbon	GrN-08433	51.89	4.57	3510	103	SL regional peat_ Bottom peat	terrestrial	0	0	0	-3.27	0.12	0.1	vandePlassche1982,vandePlassche1995,BerendsenEtal2007
+Rotterdam	radiocarbon	GrN-08434	51.89	4.57	3820	103	SL regional peat_ Bottom peat	terrestrial	0	0	0	-3.51	0.12	0.1	vandePlassche1982,vandePlassche1995,BerendsenEtal2007
+Rotterdam	radiocarbon	GrN-07845	51.96	4.49	5400	64	SL regional peat_ Bottom peat	terrestrial	0	0	0	-6.67	0.23	0.2	vandePlassche1982,vandePlassche1995,BerendsenEtal2007
+Rotterdam	radiocarbon	GrN-07849	51.96	4.49	5560	58	SL regional peat_ Bottom peat	terrestrial	0	0	0	-7.26	0.23	0.2	vandePlassche1982,vandePlassche1995,BerendsenEtal2007
+Rotterdam	radiocarbon	GrN-07850	51.96	4.49	5830	121	SL regional peat_ Bottom peat	terrestrial	0	0	0	-7.75	0.16	0.1	vandePlassche1982,vandePlassche1995,BerendsenEtal2007
+Rotterdam	radiocarbon	GrN-07853	51.96	4.49	6665	64	SL regional peat_ Bottom peat	terrestrial	0	0	0	-11.22	0.2	0.1	vandePlassche1982,vandePlassche1995,BerendsenEtal2007
+Rotterdam	radiocarbon	GrN-07856	51.96	4.49	6850	64	SL regional peat_ Bottom peat	terrestrial	0	0	0	-11.63	0.21	0.1	vandePlassche1982,vandePlassche1995,BerendsenEtal2007
+Rotterdam	radiocarbon	GrN-07857	51.96	4.49	6920	67	SL regional peat_ Bottom peat	terrestrial	0	0	0	-12.04	0.21	0.1	vandePlassche1982,vandePlassche1995,BerendsenEtal2007
+Rotterdam	radiocarbon	GrN-07834	51.96	4.49	4500	78	SL regional peat_ Bottom peat	terrestrial	0	0	0	-4.5	0.22	0.2	vandePlassche1982,vandePlassche1995,BerendsenEtal2007
+Rotterdam	radiocarbon	GrN-07835	51.96	4.49	4655	74	SL regional peat_ Bottom peat	terrestrial	0	0	0	-4.79	0.22	0.2	vandePlassche1982,vandePlassche1995,BerendsenEtal2007
+Rotterdam	radiocarbon	GrN-07838	51.96	4.49	4925	64	SL regional peat_ Bottom peat	terrestrial	0	0	0	-5.25	0.22	0.2	vandePlassche1982,vandePlassche1995,BerendsenEtal2007
+Rotterdam	radiocarbon	GrN-07840	51.96	4.49	5070	64	SL regional peat_ Bottom peat	terrestrial	0	0	0	-5.62	0.22	0.2	vandePlassche1982,vandePlassche1995,BerendsenEtal2007
+Rotterdam	radiocarbon	GrN-07841	51.96	4.49	5275	67	SL regional peat_ Bottom peat	terrestrial	0	0	0	-6.32	0.23	0.2	vandePlassche1982,vandePlassche1995,BerendsenEtal2007
+Rotterdam	radiocarbon	GrN-07859	51.96	4.49	7105	64	SL regional peat_ Bottom peat	terrestrial	0	0	0	-12.68	0.22	0.1	vandePlassche1982,vandePlassche1995,vandePlasscheEtal2010
+Rotterdam	radiocarbon	GrA-12024	51.96	4.49	6120	50	SL regional peat_ Bottom peat_ Alnus bud scales_ Juncus_ Typha_ Lythrum and Urtica seeds.	terrestrial	0	0	0	-8.71	0.17	0.1	vandePlasscheEtal2010
+Rotterdam	radiocarbon	GrN-15290	51.91	4.36	6410	67	SL regional peat_ Bottom peat	terrestrial	0	0	0	-9.59	0.21	0.2	vandePlasscheEtal2010
+Rotterdam	radiocarbon	GrN-15302	51.91	4.36	5390	86	SL regional peat_ Bottom peat	terrestrial	0	0	0	-6.85	0.21	0.2	vandePlasscheEtal2010
+Rotterdam	radiocarbon	GrN-15303	51.91	4.36	5475	64	SL regional peat_ Bottom peat	terrestrial	0	0	0	-6.64	0.21	0.2	vandePlasscheEtal2010
+Rotterdam	radiocarbon	GrN-15305	51.91	4.36	5070	64	SL regional peat_ Bottom peat	terrestrial	0	0	0	-5.96	0.21	0.2	vandePlasscheEtal2010
+Rotterdam	radiocarbon	GrN-15307	51.91	4.36	5005	67	SL regional peat_ Bottom peat	terrestrial	0	0	0	-5.83	0.21	0.2	vandePlasscheEtal2010
+Rotterdam	radiocarbon	GrN-15288	51.91	4.36	4760	64	SL regional peat_ Bottom peat	terrestrial	0	0	0	-5.21	0.21	0.2	vandePlasscheEtal2010
+Rotterdam	radiocarbon	GrN-15289	51.91	4.36	4690	64	SL regional peat_ Bottom peat	terrestrial	0	0	0	-4.92	0.21	0.2	vandePlasscheEtal2010
+Rotterdam	radiocarbon	GrN-15291	51.91	4.36	6160	67	SL regional peat_ Bottom peat	terrestrial	0	0	0	-9.16	0.21	0.2	vandePlasscheEtal2010
+Rotterdam	radiocarbon	GrN-15292	51.91	4.36	6150	71	SL regional peat_ Bottom peat	terrestrial	0	0	0	-8.91	0.21	0.2	vandePlasscheEtal2010
+Rotterdam	radiocarbon	GrN-15293	51.91	4.36	6170	67	SL regional peat_ Bottom peat	terrestrial	0	0	0	-8.6	0.21	0.2	vandePlasscheEtal2010
+Rotterdam	radiocarbon	GrN-15295	51.91	4.36	5900	78	SL regional peat_ Bottom peat	terrestrial	0	0	0	-8.06	0.21	0.2	vandePlasscheEtal2010
+Rotterdam	radiocarbon	GrN-15300	51.91	4.36	5645	64	SL regional peat_ Bottom peat	terrestrial	0	0	0	-7.41	0.21	0.2	vandePlasscheEtal2010
+Rotterdam	radiocarbon	Poz-36943	51.97	4.05	7560	112	SL regional gyttja_ Gyttja on peat_ Fine matrix	terrestrial	0	0	0	-19.1	0.54	0.51	VosEtal2011,Vos2013,VosEtal2015
+Rotterdam	radiocarbon	GrA-04183	51.87	4.55	5810	90	GW local peat_ Bottom peat_ 2 Scirpus_ 5 Alnus_ 3 Alisma plantago aquatica	terrestrial	0	0	1	-6.94	0.15	0.11	BerendsenEtal2007
+Rotterdam	radiocarbon	GrA-04181	51.87	4.55	5000	80	GW local peat_ Bottom peat_ 2 Alnus glutinosa_ 1 Alnus bud	terrestrial	0	0	1	-5.19	0.13	0.11	BerendsenEtal2007
+Rotterdam	radiocarbon	GrA-04182	51.87	4.55	5430	90	GW local peat_ Bottom peat_ 2 Scirpus_ 2 Carex_ 5 Alnus glutinosa_ 3 Oenanthe	terrestrial	0	0	1	-6.11	0.14	0.12	BerendsenEtal2007
+Rotterdam	radiocarbon	UtC-15342	51.95	4.37	7290	60	GW local peat_ Mentha_ Stacchus_ Scirpus lacustris	terrestrial	0	0	1	-15.2	0.66	0.61	HijmaEtal2009
+Rotterdam	radiocarbon	GrA-32037	51.93	4.46	7180	67	GW local peat_ Top peat	terrestrial	0	0	1	-14	0.2	0.2	HijmaEtal2009,HijmaCohen2010
+Rotterdam	radiocarbon	GrA-32101	51.93	4.46	7160	67	GW local peat_ Bottom peat_ Phragmites peat	terrestrial	0	0	1	-14.22	0.2	0.2	HijmaEtal2009,HijmaCohen2010
+Rotterdam	radiocarbon	GrA-30066	51.93	4.46	7560	64	GW local peat	terrestrial	0	0	1	-15.32	0.5	0.5	HijmaEtal2009,HijmaCohen2010
+Rotterdam	radiocarbon	GrA-30067	51.93	4.46	7560	64	GW local peat	terrestrial	0	0	1	-15.41	0.5	0.5	HijmaEtal2009,HijmaCohen2010
+Rotterdam	radiocarbon	GrN-02283	51.66	3.97	7850	141	GW local peat_ Bottom peat	terrestrial	0	0	1	-14.22	0.32	0.32	Jelgersma1961,Kiden1995
+Rotterdam	radiocarbon	GrN-01160	51.87	4.55	5945	135	GW local peat_ Bottom peat	terrestrial	0	0	1	-6.73	0.18	0.12	Jelgersma1961,vandePlassche1982,vandePlassche1995,BerendsenEtal2007
+Rotterdam	radiocarbon	GrN-01145	51.87	4.55	5970	128	GW local peat_ Bottom peat	terrestrial	0	0	1	-7.09	0.19	0.12	Jelgersma1961,vandePlassche1982,vandePlassche1995,BerendsenEtal2007
+Rotterdam	radiocarbon	GrN-01144	51.87	4.55	4650	122	GW local peat_ Bottom peat	terrestrial	0	0	1	-4.33	0.16	0.12	Jelgersma1961,vandePlassche1982,vandePlassche1995,BerendsenEtal2007
+Rotterdam	radiocarbon	GrA-42322	51.92	4.3	7870	45	GW local peat_ 2_5 Carex kaf_ 1_25 Lycopus europaeus_ 7 Carex rostrata/vesicaria_ 1 Alisma plantago-aquatica_ 1 Berula erecta_ 1 Phragmites_ 2 scirpus lacustris_ 1/2 Stachys palustris_ 1 Mentha aquatica/arvensis	terrestrial	0	0	1	-18.35	0.21	0.21	HijmaCohen2019
+Rotterdam	radiocarbon	GrA-42323	51.92	4.38	7725	45	GW local peat_ Alisma plantago-aquatica +++_ 7 trigonous Carex sp._ 2 Oenanthe aquatica_ 5 Berula erecta_ 5 Mentha aquarita and arvensis_ 2 Stachys palustris_ 1 Lycopus europaeus	terrestrial	0	0	1	-16.32	0.5	0.5	HijmaCohen2019
+Rotterdam	radiocarbon	KIA-40438	51.68	3.84	7680	40	GW local peat_ Wood fragments	terrestrial	0	0	1	-18.56	0.31	0.13	SlupikEtal2013
+Rotterdam	radiocarbon	GrN-08929	51.89	4.57	6495	64	GW local peat_ Bottom peat	terrestrial	0	0	1	-9.95	0.19	0.1	vandePlassche1982,vandePlassche1995,BerendsenEtal2007
+Rotterdam	radiocarbon	GrN-08928	51.89	4.57	6670	61	GW local peat_ Bottom peat	terrestrial	0	0	1	-9.98	0.19	0.1	vandePlassche1982,vandePlassche1995,BerendsenEtal2007
+Rotterdam	radiocarbon	GrN-08927	51.89	4.57	6670	86	GW local peat_ Bottom peat	terrestrial	0	0	1	-10.47	0.2	0.1	vandePlassche1982,vandePlassche1995,BerendsenEtal2007
+Rotterdam	radiocarbon	GrN-08916	51.89	4.57	6245	61	GW local peat_ Bottom peat	terrestrial	0	0	1	-8.86	0.17	0.1	vandePlassche1982,vandePlassche1995,BerendsenEtal2007
+Rotterdam	radiocarbon	GrN-08917	51.89	4.57	6325	67	GW local peat_ Bottom peat	terrestrial	0	0	1	-9.25	0.18	0.1	vandePlassche1982,vandePlassche1995,BerendsenEtal2007
+Rotterdam	radiocarbon	GrN-08431	51.89	4.57	3455	61	GW local peat_ Bottom peat	terrestrial	0	0	1	-2.69	0.12	0.1	vandePlassche1982,vandePlassche1995,BerendsenEtal2007
+Rotterdam	radiocarbon	GrN-08432	51.89	4.57	3530	94	GW local peat_ Bottom peat	terrestrial	0	0	1	-2.9	0.12	0.1	vandePlassche1982,vandePlassche1995,BerendsenEtal2007
+Rotterdam	radiocarbon	GrN-08931	51.89	4.57	6320	61	GW local peat_ Bottom peat	terrestrial	0	0	1	-8.72	0.17	0.1	vandePlassche1982,vandePlassche1995,BerendsenEtal2007
+Rotterdam	radiocarbon	GrN-08930	51.89	4.57	6550	64	GW local peat_ Bottom peat	terrestrial	0	0	1	-9.43	0.18	0.1	vandePlassche1982,vandePlassche1995,BerendsenEtal2007
+Rotterdam	radiocarbon	GrN-07830	51.96	4.49	3930	78	GW local peat_ Bottom peat	terrestrial	0	0	1	-3.33	0.21	0.2	vandePlassche1982,vandePlassche1995,BerendsenEtal2007
+Rotterdam	radiocarbon	GrN-07842	51.96	4.49	5490	94	GW local peat_ Bottom peat	terrestrial	0	0	1	-6.23	0.23	0.2	vandePlassche1982,vandePlassche1995,BerendsenEtal2007
+Rotterdam	radiocarbon	GrN-07843	51.96	4.49	5420	67	GW local peat_ Bottom peat	terrestrial	0	0	1	-6.5	0.24	0.2	vandePlassche1982,vandePlassche1995,BerendsenEtal2007
+Rotterdam	radiocarbon	GrN-07844	51.96	4.49	5440	61	GW local peat_ Bottom peat	terrestrial	0	0	1	-6.53	0.24	0.2	vandePlassche1982,vandePlassche1995,BerendsenEtal2007
+Rotterdam	radiocarbon	GrN-07846	51.96	4.49	5560	64	GW local peat_ Bottom peat	terrestrial	0	0	1	-6.72	0.23	0.2	vandePlassche1982,vandePlassche1995,BerendsenEtal2007
+Rotterdam	radiocarbon	GrN-07848	51.96	4.49	5685	61	GW local peat_ Bottom peat	terrestrial	0	0	1	-6.92	0.23	0.2	vandePlassche1982,vandePlassche1995,BerendsenEtal2007
+Rotterdam	radiocarbon	GrN-07852	51.96	4.49	6810	64	GW local peat_ Bottom peat	terrestrial	0	0	1	-10.97	0.2	0.1	vandePlassche1982,vandePlassche1995,BerendsenEtal2007
+Rotterdam	radiocarbon	GrN-07831	51.96	4.49	4245	64	GW local peat_ Bottom peat	terrestrial	0	0	1	-3.64	0.21	0.2	vandePlassche1982,vandePlassche1995,BerendsenEtal2007
+Rotterdam	radiocarbon	GrN-07855	51.96	4.49	6835	64	GW local peat_ Bottom peat	terrestrial	0	0	1	-11.27	0.2	0.1	vandePlassche1982,vandePlassche1995,BerendsenEtal2007
+Rotterdam	radiocarbon	GrN-07832	51.96	4.49	4390	71	GW local peat_ Bottom peat	terrestrial	0	0	1	-3.85	0.22	0.2	vandePlassche1982,vandePlassche1995,BerendsenEtal2007
+Rotterdam	radiocarbon	GrN-07833	51.96	4.49	4525	64	GW local peat_ Bottom peat	terrestrial	0	0	1	-4.14	0.22	0.2	vandePlassche1982,vandePlassche1995,BerendsenEtal2007
+Rotterdam	radiocarbon	GrN-21465	51.97	3.83	8390	117	GW local peat	terrestrial	0	0	1	-23.8	0.56	0.56	vanHeterenEtal2002
+Rotterdam	radiocarbon	GrN-21466	51.93	3.82	9220	112	GW local peat	terrestrial	0	0	1	-25.37	0.27	0.1	vanHeterenEtal2002
+Rotterdam	radiocarbon	GrN-21464	51.94	3.84	9080	117	GW local peat	terrestrial	0	0	1	-24.82	0.56	0.54	vanHeterenEtal2002
+Rotterdam	radiocarbon	GrN-16282	51.58	4.02	7730	108	GW local peat	terrestrial	0	0	1	-12.07	0.21	0.21	Vos1992,Kiden1995
+Rotterdam	radiocarbon	GrN-16937	51.64	4.12	7290	112	GW local peat	terrestrial	0	0	1	-14.52	0.12	0.12	Vos1992,Kiden1995
+Rotterdam	radiocarbon	GrA-55010	51.97	4.04	7755	40	GW local peat_ Bottom peat_ Terrestrial botanical macrofossils	terrestrial	0	0	1	-20.51	0.23	0.2	Vos2013,VosCohen2014,VosEtal2015
+Rotterdam	radiocarbon	GrA-55012	51.97	4.04	7875	40	GW local peat_ Bottom peat_ Terrestrial botanical macrofossils	terrestrial	0	0	1	-20.61	0.23	0.1	Vos2013,VosCohen2014,VosEtal2015
+Rotterdam	radiocarbon	GrA-54926	51.98	4.02	7880	55	GW local peat_ Bottom peat_ Terrestrial botanical macrofossils	terrestrial	0	0	1	-20.77	0.23	0.1	Vos2013,VosCohen2014,VosEtal2015
+Rotterdam	radiocarbon	GrA-54928	51.98	4.02	8030	60	GW local peat_ Bottom peat_ Terrestrial botanical macrofossils	terrestrial	0	0	1	-20.81	0.23	0.1	Vos2013,VosCohen2014,VosEtal2015
+Rotterdam	radiocarbon	GrA-54924	51.98	4.02	8100	50	GW local peat_ Bottom peat_ Terrestrial botanical macrofossils	terrestrial	0	0	1	-21.21	0.23	0.1	Vos2013,VosCohen2014,VosEtal2015
+Rotterdam	radiocarbon	GrA-55001	51.97	4.03	8135	40	GW local peat_ Bottom peat_ Terrestrial botanical macrofossils	terrestrial	0	0	1	-22	0.24	0.1	Vos2013,VosCohen2014,VosEtal2015
+Rotterdam	radiocarbon	GrA-55018	51.98	4.03	8160	40	GW local peat_ Bottom peat_ Terrestrial botanical macrofossils	terrestrial	0	0	1	-21.76	0.24	0.23	Vos2013,VosCohen2014,VosEtal2015
+Rotterdam	radiocarbon	GrA-55016	51.98	4.02	8220	40	GW local peat_ Bottom peat_ Terrestrial botanical macrofossils	terrestrial	0	0	1	-21.26	0.23	0.1	Vos2013,VosCohen2014,VosEtal2015
+Rotterdam	radiocarbon	GrA-55038	51.98	4.02	8230	40	GW local peat_ Bottom peat_ Terrestrial botanical macrofossils	terrestrial	0	0	1	-21.69	0.24	0.1	Vos2013,VosCohen2014,VosEtal2015
+Rotterdam	radiocarbon	Poz-36913	51.97	4.05	7660	112	GW local peat_ Bottom peat_ Fine matrix	terrestrial	0	0	1	-19.63	0.28	0.2	VosEtal2011,Vos2013,VosEtal2015
+Rotterdam	radiocarbon	beta-247584	51.97	4.1	8460	112	GW local peat_ Bottom peat_ matrix	terrestrial	0	0	1	-22.25	0.31	0.3	VosEtal2010,Vos2013
+Rotterdam	radiocarbon	beta-247585	51.97	4.1	8350	112	GW local peat_ Top peat_ matrix	terrestrial	0	0	1	-22.19	0.31	0.3	VosEtal2010,Vos2013

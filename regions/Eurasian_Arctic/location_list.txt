@@ -11,3 +11,5 @@ Humla	Svalbard
 Kapp_Ziehen	Svalbard
 Svartknausflya	Svalbard
 Kongsoya	Svalbard
+Pechengsky	Southern_Barents_Sea
+Murmansk	Southern_Barents_Sea

@@ -13,3 +13,4 @@ Svartknausflya	Svalbard
 Kongsoya	Svalbard
 Pechengsky	Southern_Barents_Sea
 Murmansk	Southern_Barents_Sea
+Voronya_River	Southern_Barents_Sea

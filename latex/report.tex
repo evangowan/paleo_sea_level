@@ -11,6 +11,17 @@
 \usepackage{times}
 \usepackage[hidelinks]{hyperref}
 
+
+\usepackage{fontspec}
+\setmainfont{FreeSerif}
+\setsansfont{FreeSans}
+\setmonofont{FreeMono}
+
+\usepackage{polyglossia}
+\setdefaultlanguage{english}
+\setotherlanguages{russian}
+
+
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{1em}
 
@@ -30,6 +41,7 @@
 \newpage
 
 \section{Summary of ice and Earth models}
+
 
 In order to make the figures compact, I have made shorthand codes for the ice and Earth models. I calculate each ice sheet separately, and the numbers refer to the ``run number", which is a sequential number that I used to distinguish git commits (see \url{https://github.com/evangowan/icesheet}). The ice model numbering scheme is as follows:
 

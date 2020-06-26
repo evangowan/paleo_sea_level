@@ -1,16 +1,16 @@
 #! /bin/bash
 
 file_name="report"
-#file_name="diff2"
 
 bash figure_tex.sh
 
 rm *.aux *.bbl *.blg *.dvi *.log
 
-pdflatex ${file_name}
+# xelatex defaults to PDF version 1.5, so you have to manually set it to 1.7 to be compatible with psconvert PDF files
+xelatex --output-driver="xdvipdfmx -v -V 7" ${file_name}
 bibtex ${file_name}
-pdflatex ${file_name}
-pdflatex ${file_name}
+xelatex --output-driver="xdvipdfmx -v -V 7" ${file_name}
+xelatex --output-driver="xdvipdfmx -v -V 7" ${file_name}
 
 
 texcount -inc  ${file_name}.tex

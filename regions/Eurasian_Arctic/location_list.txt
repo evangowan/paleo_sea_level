@@ -21,3 +21,4 @@ Chupa_Bay	White_Sea
 Umba	White_Sea
 Engozero	White_Sea
 Belomorsk	White_Sea
+Eastern_Kola_Peninsula	White_Sea

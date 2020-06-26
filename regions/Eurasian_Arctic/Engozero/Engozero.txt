@@ -1,0 +1,9 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
+Engozero	radiocarbon	LU-6620	65.75	34.23	9580	227.72	gyttja	terrestrial	0	0	0	45	4.379192733826636	4.379192733826636	KolkaEtal2013a
+Engozero	radiocarbon	LU-6617	65.78	34.3	9970	303.91	muddy gyttja	terrestrial	0	0	0	51	4.379192733826636	4.379192733826636	KolkaEtal2013a
+Engozero	radiocarbon	LU-6621	65.78	34.42	9010	219.91	laminated gyttja	terrestrial	0	0	0	31	4.379192733826636	4.379192733826636	KolkaEtal2013a
+Engozero	radiocarbon	LU-6618	65.8	33.97	9560	567.41	gyttja	terrestrial	0	0	0	72	4.379192733826636	4.379192733826636	KolkaEtal2013a
+Engozero	radiocarbon	LU-6647	65.8	34.22	9390	404.79	gyttja	terrestrial	0	0	1	56.177	4.301162633521313	4.301162633521313	KolkaEtal2013a
+Engozero	radiocarbon	LU-6646	65.85	34.65	4050	177.65	gyttja	terrestrial	0	0	0	14	4.379192733826636	4.379192733826636	KolkaEtal2013a
+Engozero	radiocarbon	LU-6645	65.86	34.61	5600	171.63	laminated gyttja	terrestrial	0	0	0	23	4.379192733826636	4.379192733826636	KolkaEtal2013a
+Engozero	radiocarbon	LU-6619	65.86	34.7	1340	160.81	gyttja	terrestrial	0	0	0	6	4.379192733826636	4.379192733826636	KolkaEtal2013a

@@ -23,3 +23,4 @@ Engozero	White_Sea
 Belomorsk	White_Sea
 Eastern_Kola_Peninsula	White_Sea
 Onega_Peninsula	White_Sea
+Dvina_Gulf	White_Sea

@@ -1,0 +1,9 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
+Kandalaksha	radiocarbon	LU-166	67.12	32.22	7740	162.35	shells at the bottom of a sand pit	marine	0	22	-1	17.5	0.972111104761179	0.972111104761179	ArslanovEtal1974
+Kandalaksha	radiocarbon	Kandalaksha-1	67.16	32.42	2560	190.68	nd	terrestrial	0	0	0	9	4.449699766276372	4.449699766276372	KolkaKorsakova2010
+Kandalaksha	radiocarbon	Kandalaksha-2	67.16	32.42	4600	330.84	nd	terrestrial	0	0	0	24	4.449699766276372	4.449699766276372	KolkaKorsakova2010
+Kandalaksha	radiocarbon	Kandalaksha-3	67.16	32.42	4900	243.84	nd	terrestrial	0	0	0	38.5	4.449699766276372	4.449699766276372	KolkaKorsakova2010
+Kandalaksha	radiocarbon	Kandalaksha-4	67.16	32.42	6100	330.84	nd	terrestrial	0	0	0	63	4.449699766276372	4.449699766276372	KolkaKorsakova2010
+Kandalaksha	radiocarbon	Kandalaksha-5	67.16	32.42	8400	330.84	nd	terrestrial	0	0	0	76	4.449699766276372	4.449699766276372	KolkaKorsakova2010
+Kandalaksha	radiocarbon	Kandalaksha-6	67.16	32.42	9100	330.84	nd	terrestrial	0	0	0	86	4.449699766276372	4.449699766276372	KolkaKorsakova2010
+Kandalaksha	radiocarbon	LE-972	67.13	31.72	6820	114.27	pine wood	terrestrial	0	0	0	27.373250000000002	2.778699448483049	2.778699448483049	Koshechkin1979

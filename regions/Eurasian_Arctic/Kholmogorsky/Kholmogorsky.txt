@@ -1,0 +1,4 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
+Kholmogorsky	OSL	Kholmogorsky-1	63.76	41.69	13700	1100	Lacustrine sand	OSL	0	0	1	13	2.6809699737221973	2.6809699737221973	LarsenEtal2006
+Kholmogorsky	OSL	Kholmogorsky-3	63.76	41.69	15700	1200	Lacustrine sand	OSL	0	0	1	11.7	2.6809699737221973	2.6809699737221973	LarsenEtal2006
+Kholmogorsky	OSL	Kholmogorsky-2	64.43	43.31	15000	2000	Aeolian sand	OSL	0	0	1	4.5	2.6809699737221973	2.6809699737221973	LarsenEtal2006

@@ -17,3 +17,4 @@ Voronya_River	Southern_Barents_Sea
 Kandalaksha	White_Sea
 Lesozavodskiy	White_Sea
 Rugozerskiy_Peninsula	White_Sea
+Chupa_Bay	White_Sea

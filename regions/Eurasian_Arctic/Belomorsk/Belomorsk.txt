@@ -1,0 +1,9 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	
+Belomorsk	radiocarbon	Belomorsk-1	64.52	34.72	2040	114	coal from a Neolitic settlement	terrestrial	0	0	1	9	0.9669539802906858	0.9669539802906858	tocome	Deviatova and Liyva 1971  (in Russian)
+Belomorsk	radiocarbon	Belomorsk-2	64.5	34.69	4010	119.83	wood	terrestrial	0	0	0	15.80575	2.330645001925433	2.330645001925433	Koshechkin1979	Koshechkin 1979 (in Russian)
+Belomorsk	radiocarbon	Poz-6156	64.41	34.19	10290	133.87	fine detritus gyttja (plant material)	terrestrial	0	0	1	112.20615	2.5	2.5	LunkkaEtal2012	Lunkka et al. 2012
+Belomorsk	radiocarbon	Poz-13137	64.41	34.25	10230	134.05	fine detritus gyttja (plant material)	terrestrial	0	0	1	92.20615	2.5	2.5	LunkkaEtal2012	Lunkka et al. 2012
+Belomorsk	radiocarbon	Poz-13138	64.43	34.13	10250	130.68	fine detritus gyttja (plant material)	terrestrial	0	0	1	120.20615	2.5	2.5	LunkkaEtal2012	Lunkka et al. 2012
+Belomorsk	radiocarbon	Poz-30721	64.44	34.13	10280	181.77	fine detritus gyttja (plant material)	terrestrial	0	0	1	133.20615	2.5	2.5	LunkkaEtal2012	Lunkka et al. 2012
+Belomorsk	radiocarbon	AA_34296	64.47	34.58	8880	119.15	fine detritus gyttja (plant material)	marine	0	0	1	44.20615	2.5	2.5	LunkkaEtal2012	Lunkka et al. 2012
+Belomorsk	radiocarbon	AA_34300	64.6	34.17	10310	135.52	fine detritus gyttja (plant material)	marine	0	0	1	71.20615	2.5	2.5	LunkkaEtal2012	Lunkka et al. 2012

@@ -138,6 +138,12 @@ END_TEXT
 	xtext="Age (cal yr BP)"
 
 	time_diff=$(echo "${max_time} - ${min_time}" | bc)
+	# prevent really small time axis
+	if [ ${time_diff} -lt 4000 ]
+	then
+		max_time=$(echo "${max_time} + 2000" | bc)
+		time_diff=$(echo "${time_diff} + 2000" | bc)
+	fi
 
 	if [ ${time_diff} -lt 16000 ]
 	then 

@@ -25,3 +25,4 @@ Eastern_Kola_Peninsula	White_Sea
 Onega_Peninsula	White_Sea
 Dvina_Gulf	White_Sea
 Kholmogorsky	White_Sea
+Pechora_Sea	Kara_Sea_-_Novaya_Zemlya

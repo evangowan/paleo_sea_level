@@ -1,0 +1,6 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
+Pechora_Sea	OSL	Pechora_Sea-3	67.82	59.99	21000	2000	aeolian sand	OSL	0	0	1	20	2.6809699737221973	2.6809699737221973	tocome
+Pechora_Sea	radiocarbon	Pechora_Sea-2	69.37	57	11300	498.76	bottom sediments (organic matter)	terrestrial	0	0	-1	-38.7	1.5709057896640397	1.3519411969460802	Krapivner2006
+Pechora_Sea	radiocarbon	Poz-6155	68.9	57.45	9930	476.19	shells of marine molluscs	marine	0	22	-1	-40	1.5349345262909426	1.486640507991088	PolyakEtal2000
+Pechora_Sea	radiocarbon	Poz-13267	68.91	57.46	3960	473.16	shells of marine molluscs	marine	0	22	-1	-39	1.5729895104545357	1.486640507991088	PolyakEtal2000
+Pechora_Sea	radiocarbon	Pechora_Sea-1	69.75	51.42	5440	488.63	pelecypod shells	marine	0	22	-1	-23	1.195867885679685	1.1269871339105872	ZhuravlevEtal2013

@@ -1,0 +1,37 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
+Severny_Island_North	radiocarbon	GX-24858	76.72	65.96	295	50	Decayed, partially buried 2.2-m long log	terrestrial	0	0	0	2.25	2.877498913987632	2.877498913987632	ZeebergEtal2001,FormanEtal2004
+Severny_Island_North	radiocarbon	GX-24859	76.72	65.96	945	55	Decayed, partially buried 4-m long log	terrestrial	0	0	0	2.8500000000000005	2.877498913987632	2.877498913987632	ZeebergEtal2001,FormanEtal2004
+Severny_Island_North	radiocarbon	GX-24862	76.72	65.96	1665	50	Partially buried 2.5-m long log	terrestrial	0	0	0	4.05	2.877498913987632	2.877498913987632	ZeebergEtal2001,FormanEtal2004
+Severny_Island_North	radiocarbon	GX-24861	76.72	65.96	2125	75	Decayed, partially buried 7-m long log	terrestrial	0	0	0	4.65	2.877498913987632	2.877498913987632	ZeebergEtal2001,FormanEtal2004
+Severny_Island_North	radiocarbon	GX-24860	76.72	65.96	3070	50	Partially buried >3-m long log	terrestrial	0	0	0	5.3500000000000005	2.877498913987632	2.877498913987632	ZeebergEtal2001,FormanEtal2004
+Severny_Island_North	radiocarbon	GX-24863	76.72	65.96	3635	50	Log 2.5-m long from snow bank	terrestrial	0	0	0	7.45	2.877498913987632	2.877498913987632	ZeebergEtal2001,FormanEtal2004
+Severny_Island_North	radiocarbon	GX-24864	76.72	65.96	4070	55	Log 3-m long from base of solifluction lobe	terrestrial	0	0	0	8.45	2.877498913987632	2.877498913987632	ZeebergEtal2001,FormanEtal2004
+Severny_Island_North	radiocarbon	GX-18292	76.52	66.02	790	105	1-m log on partially buried in beach gravels	terrestrial	0	0	0	1.45	2.918903903865285	2.918903903865285	FormanEtal1999,FormanEtal2004
+Severny_Island_North	radiocarbon	GX-18293	76.52	66.02	2470	120	3-m log buried in beach gravels	terrestrial	0	0	0	3.425	3.0002083261000396	3.0002083261000396	FormanEtal1999,FormanEtal2004
+Severny_Island_North	radiocarbon	GX-25462	76.93	67.27	575	40	Partially buried 2.5-m long log	terrestrial	0	0	0	2.75	2.877498913987632	2.877498913987632	ZeebergEtal2001,FormanEtal2004
+Severny_Island_North	radiocarbon	GX-24847	76.93	67.27	805	55	Partially buried 4-m long log	terrestrial	0	0	0	3.45	2.877498913987632	2.877498913987632	ZeebergEtal2001,FormanEtal2004
+Severny_Island_North	radiocarbon	GX-24848	76.93	67.27	1830	50	Partially buried >5-m long log	terrestrial	0	0	0	2.6500000000000004	2.877498913987632	2.877498913987632	ZeebergEtal2001,FormanEtal2004
+Severny_Island_North	radiocarbon	GX-24846	76.93	67.27	2805	50	Partially buried 2-m long log	terrestrial	0	0	0	5.25	2.877498913987632	2.877498913987632	ZeebergEtal2001,FormanEtal2004
+Severny_Island_North	radiocarbon	GX-24845	76.93	67.27	3530	50	Partially buried 3-m long log	terrestrial	0	0	0	6.25	2.877498913987632	2.877498913987632	ZeebergEtal2001,FormanEtal2004
+Severny_Island_North	radiocarbon	GX-25464	76.93	67.27	3760	45	Partially buried 3-m long log	terrestrial	0	0	0	7.250000000000001	2.877498913987632	2.877498913987632	ZeebergEtal2001,FormanEtal2004
+Severny_Island_North	radiocarbon	GX-24843G	76.93	67.27	7325	105	Whalebone	marine	35	22	0	10.45	2.877498913987632	2.877498913987632	ZeebergEtal2001,FormanEtal2004
+Severny_Island_North	radiocarbon	GX-24844G	76.93	67.27	7520	105	Whalebone	marine	35	22	0	10.45	2.877498913987632	2.877498913987632	ZeebergEtal2001,FormanEtal2004
+Severny_Island_North	radiocarbon	Severny_Island_North-1	76.26	68.28	360	97.25	Willem BarentsÆ ship timber	terrestrial	0	0	0	0.44999999999999996	2.918903903865285	2.918903903865285	GawronskiZeeberg1997,FormanEtal2004
+Severny_Island_North	radiocarbon	GX-23233	76.26	68.28	2955	80	3-m long log partially buried	terrestrial	0	0	0	2.95	2.877498913987632	2.877498913987632	ZeebergEtal2001,FormanEtal2004
+Severny_Island_North	radiocarbon	GX-18532	76.26	68.28	4860	140	Log partially buried	terrestrial	0	0	0	10.45	2.877498913987632	2.877498913987632	ZeebergEtal2001,FormanEtal2004
+Severny_Island_North	radiocarbon	GX-24842	76.96	68.54	770	65	Log 5-m long partially buried	terrestrial	0	0	0	-0.15000000000000013	2.877498913987632	2.877498913987632	ZeebergEtal2001,FormanEtal2004
+Severny_Island_North	radiocarbon	GX-24841	76.96	68.54	795	65	Log 5-m long partially buried	terrestrial	0	0	0	0.34999999999999987	2.877498913987632	2.877498913987632	ZeebergEtal2001,FormanEtal2004
+Severny_Island_North	radiocarbon	GX-24840	76.96	68.54	1570	70	Log 2.5-m long partially buried	terrestrial	0	0	0	1.95	2.877498913987632	2.877498913987632	ZeebergEtal2001,FormanEtal2004
+Severny_Island_North	radiocarbon	GX-25460	76.96	68.54	1930	45	Log >1m long partially buried	terrestrial	0	0	0	2.1500000000000004	2.877498913987632	2.877498913987632	ZeebergEtal2001,FormanEtal2004
+Severny_Island_North	radiocarbon	GX-24838	76.96	68.54	3200	80	Log >l-m long partially buried	terrestrial	0	0	0	2.6500000000000004	2.877498913987632	2.877498913987632	ZeebergEtal2001,FormanEtal2004
+Severny_Island_North	radiocarbon	GX-24839	76.96	68.54	3205	55	Log 5-m long partially buried	terrestrial	0	0	0	2.25	2.877498913987632	2.877498913987632	ZeebergEtal2001,FormanEtal2004
+Severny_Island_North	radiocarbon	GX-24837	76.96	68.54	3710	80	Log 2-m long from solifluction lobe	terrestrial	0	0	0	4.55	2.877498913987632	2.877498913987632	ZeebergEtal2001,FormanEtal2004
+Severny_Island_North	radiocarbon	GX-24835	76.96	68.54	4000	85	Log 5-m long from snow bank	terrestrial	0	0	0	4.95	2.877498913987632	2.877498913987632	ZeebergEtal2001,FormanEtal2004
+Severny_Island_North	radiocarbon	GX-25459	76.96	68.54	4380	60	Root section 1.5-m	terrestrial	0	0	0	5.55	2.877498913987632	2.877498913987632	ZeebergEtal2001,FormanEtal2004
+Severny_Island_North	radiocarbon	GX-24852	76.41	68.6	1350	50	Decayed 7-m long log	terrestrial	0	0	0	3.55	2.877498913987632	2.877498913987632	ZeebergEtal2001,FormanEtal2004
+Severny_Island_North	radiocarbon	GX-25465	76.41	68.6	1365	40	Root section	terrestrial	0	0	0	5.15	2.877498913987632	2.877498913987632	ZeebergEtal2001,FormanEtal2004
+Severny_Island_North	radiocarbon	GX-24853	76.41	68.6	1875	50	Partially buried 8-m long log	terrestrial	0	0	0	3.1500000000000004	2.877498913987632	2.877498913987632	ZeebergEtal2001,FormanEtal2004
+Severny_Island_North	radiocarbon	GX-24851	76.41	68.6	2985	50	Decayed 2-m long log	terrestrial	0	0	0	5.65	2.877498913987632	2.877498913987632	ZeebergEtal2001,FormanEtal2004
+Severny_Island_North	radiocarbon	GX-24850	76.41	68.6	3485	85	Driftwood log 2.5m long	terrestrial	0	0	0	8.45	2.877498913987632	2.877498913987632	ZeebergEtal2001,FormanEtal2004
+Severny_Island_North	radiocarbon	GX-25467G	76.41	68.6	4150	75	Whale vertebra	marine	35	22	0	8.45	2.877498913987632	2.877498913987632	ZeebergEtal2001,FormanEtal2004
+Severny_Island_North	radiocarbon	GX-25466	76.41	68.6	5365	60	Partially buried 1.5-m long log	terrestrial	0	0	0	10.95	2.877498913987632	2.877498913987632	ZeebergEtal2001,FormanEtal2004

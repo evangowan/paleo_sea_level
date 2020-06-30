@@ -30,3 +30,4 @@ Yuzhny_Island	Kara_Sea_-_Novaya_Zemlya
 Severny_Island_West	Kara_Sea_-_Novaya_Zemlya
 Severny_Island_North	Kara_Sea_-_Novaya_Zemlya
 Vaygach_Island	Kara_Sea_-_Novaya_Zemlya
+Baydaratskaya_Bay	Kara_Sea_-_Novaya_Zemlya

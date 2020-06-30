@@ -32,3 +32,9 @@ Severny_Island_North	Kara_Sea_-_Novaya_Zemlya
 Vaygach_Island	Kara_Sea_-_Novaya_Zemlya
 Baydaratskaya_Bay	Kara_Sea_-_Novaya_Zemlya
 Gulf_of_Ob	Kara_Sea_-_Novaya_Zemlya
+Khalmyer_Bay	Kara_Sea_-_Novaya_Zemlya
+Kara_Sea_shelf	Kara_Sea_-_Novaya_Zemlya
+Ostrov_Sibiryakova	Kara_Sea_-_Novaya_Zemlya
+Zemlya_Georga	Franz_Josef_Land
+Zemlya_Zichy	Franz_Josef_Land
+Proliv_Markama	Franz_Josef_Land

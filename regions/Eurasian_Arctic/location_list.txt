@@ -38,3 +38,4 @@ Ostrov_Sibiryakova	Kara_Sea_-_Novaya_Zemlya
 Zemlya_Georga	Franz_Josef_Land
 Zemlya_Zichy	Franz_Josef_Land
 Proliv_Markama	Franz_Josef_Land
+Severnaya_Zemlya	Western_Siberia

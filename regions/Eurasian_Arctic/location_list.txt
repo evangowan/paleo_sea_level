@@ -41,3 +41,4 @@ Proliv_Markama	Franz_Josef_Land
 Severnaya_Zemlya	Western_Siberia
 West_Laptev_Sea	Western_Siberia
 Olenyok_Gulf	Western_Siberia
+Lena_Delta	Western_Siberia

@@ -43,3 +43,4 @@ West_Laptev_Sea	Western_Siberia
 Olenyok_Gulf	Western_Siberia
 Lena_Delta	Western_Siberia
 New_Siberian_Islands	Western_Siberia
+Zhokhov_Island	Western_Siberia

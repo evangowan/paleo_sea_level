@@ -2,3 +2,4 @@ North_America
 Europe
 Eurasian_Arctic
 Caribbean
+Australia

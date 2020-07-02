@@ -1,0 +1,254 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
+Cairns	radiocarbon	325-M0057A-01R-1W_0-9B	-17.11	146.56	7381	92	Coralline algae - aA4	marine	12	10	0	-118.59	41.07	41.07	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0057A-01R-1W_27-33	-17.11	146.56	7493	51	Coralline algae - aA4	marine	12	10	0	-118.85	41.07	41.07	YokoyamaEtal2018
+Cairns	U-Th	325-M0057A-01R-1W_4-9	-17.11	146.56	8064	226	Coral - Porites	U-Th	0	0	0	-118.61	41.07	41.07	YokoyamaEtal2018
+Cairns	U-Th	325-M0057A-01R-1W_9-13	-17.11	146.56	8177	91	Coral - Porites	U-Th	0	0	0	-118.66	41.07	41.07	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0057A-01R-1W_27-33B	-17.11	146.56	8044	91	Coralline algae - aA4	marine	12	10	0	-118.85	41.07	41.07	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0057A-01R-1W_53-56	-17.11	146.56	8567	102	Coral - Dipsastrea	marine	12	10	0	-119.09	41.07	41.07	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0057A-02R-1W_4-13	-17.11	146.56	9145	40	Coralline algae? - aA1	marine	12	10	0	-55.63	5.01	5.01	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0057A-02R-1W_4-13	-17.11	146.56	9286	57	Coralline algae - aA1	marine	12	10	0	-55.63	5.01	5.01	YokoyamaEtal2018
+Cairns	U-Th	325-M0057A-02R-1W_60-78	-17.11	146.56	10370	74	Coral - Montipora	U-Th	0	0	0	-56.24	5.01	5.01	YokoyamaEtal2018
+Cairns	U-Th	325-M0057A-02R-1W_17-27	-17.11	146.56	10437	83	Coral - Isopora	U-Th	0	0	0	-55.77	5.01	5.01	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0057A-02R-1W_4-13B	-17.11	146.56	9608	46	Coralline algae - aA1	marine	12	10	0	-55.63	5.01	5.01	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0057A-03R-1W_5-8	-17.11	146.56	9670	40	Coralline algae - aA1	marine	12	10	0	-57.11	5.75	5.75	YokoyamaEtal2018
+Cairns	U-Th	325-M0057A-02R-1W_118-124	-17.11	146.56	10698	140	Coral - Porites	U-Th	0	0	0	-56.76	5.01	5.01	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0057A-03R-1W_8-12	-17.11	146.56	9840	40	Coralline algae - aA1	marine	12	10	0	-57.15	5.75	5.75	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0057A-03R-1W_8-12B	-17.11	146.56	9884	46	Coral - Acropora	marine	12	10	0	-57.15	5.75	5.75	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0057A-04R-1W_5-7	-17.11	146.56	10140	50	Coral - Acroporidae	marine	12	10	0	-57.61	3.12	3.12	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0057A-04R-1W_15-22	-17.11	146.56	10190	55	Coralline algae - aA1	marine	12	10	0	-57.73	3.12	3.12	YokoyamaEtal2018
+Cairns	U-Th	325-M0057A-04R-1W_15-22	-17.11	146.56	11276	53	Coral - Isopora	U-Th	0	0	0	-57.73	3.12	3.12	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0057A-04R-1W_68-71	-17.11	146.56	10280	40	Coralline algae - aA1	marine	12	10	0	-58.24	3.12	3.12	YokoyamaEtal2018
+Cairns	U-Th	325-M0057A-04R-1W_60-66	-17.11	146.56	11385	54	Coral - Acropora (humilis gpr)	U-Th	0	0	0	-58.18	3.12	3.12	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0057A-04R-1W_54-55	-17.11	146.56	10320	40	Coral - Acropora	marine	12	10	0	-58.09	3.12	3.12	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0057A-04R-1W_33-39	-17.11	146.56	10345	40	Coral - Isopora	marine	12	10	0	-57.91	3.12	3.12	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0057A-04R-1W_34-36	-17.11	146.56	10340	40	Coral - Isopora	marine	12	10	0	-57.9	3.12	3.12	YokoyamaEtal2018
+Cairns	U-Th	325-M0057A-04R-1W_40-46	-17.11	146.56	11440	58	Coral - Acropora (humilis gpr)	U-Th	0	0	0	-57.98	3.12	3.12	YokoyamaEtal2018
+Cairns	U-Th	325-M0057A-04R-1W_78-88	-17.11	146.56	11655	59	Coral - Isopora	U-Th	0	0	0	-58.38	3.12	3.12	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0057A-05R-1W_20-25	-17.11	146.56	10530	40	Coralline algae - aA1	marine	12	10	0	-60.77	3	3	YokoyamaEtal2018
+Cairns	U-Th	325-M0057A-05R-1W_1-3	-17.11	146.56	11746	54	Coral - Isopora?	U-Th	0	0	0	-60.57	3	3	YokoyamaEtal2018
+Cairns	U-Th	325-M0057A-05R-1W_5-8	-17.11	146.56	11804	65	Coral - Isopora?	U-Th	0	0	0	-60.61	3	3	YokoyamaEtal2018
+Cairns	U-Th	325-M0057A-05R-1W_61-65	-17.11	146.56	11829	319	Coralline algae - aA1	U-Th	0	0	0	-61.18	3	3	YokoyamaEtal2018
+Cairns	U-Th	325-M0057A-05R-1W_17-26	-17.11	146.56	11839	55	Coral - Isopora	U-Th	0	0	0	-60.77	3	3	YokoyamaEtal2018
+Cairns	U-Th	325-M0057A-04R-1W_101-113	-17.11	146.56	11875	56	Coral - Acropora (humilis gpr)	U-Th	0	0	0	-58.62	3.12	3.12	YokoyamaEtal2018
+Cairns	U-Th	325-M0057A-05R-1W_45-46	-17.11	146.56	11875	55	Coral - Isopora	U-Th	0	0	0	-61	3	3	YokoyamaEtal2018
+Cairns	U-Th	325-M0057A-05R-1W_53-62	-17.11	146.56	11884	61	Coral - Isopora	U-Th	0	0	0	-61.13	3	3	YokoyamaEtal2018
+Cairns	U-Th	325-M0057A-05R-1W_27-35	-17.11	146.56	11888	56	Coral - Isopora	U-Th	0	0	0	-60.86	3	3	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0057A-04R-1W_92-94	-17.11	146.56	10610	40	Coral - Isopora	marine	12	10	0	-58.48	3.12	3.12	YokoyamaEtal2018
+Cairns	U-Th	325-M0057A-05R-1W_49-53	-17.11	146.56	11900	56	Coral - Isopora	U-Th	0	0	0	-61.06	3	3	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0057A-05R-1W_61-65	-17.11	146.56	10600	60	Coral - Isopora	marine	12	10	0	-61.18	3	3	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0057A-05R-1W_98-100	-17.11	146.56	10640	60	Coralline algae - aA1	marine	12	10	0	-61.54	3	3	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0054B-01R-CCW_5-6	-17.1	146.58	10694	63	Coral - Unknown	marine	12	10	-1	-113.65	2.97	2.97	YokoyamaEtal2018
+Cairns	U-Th	325-M0057A-05R-1W_100-107	-17.11	146.56	12293	197	Coral - Isopora/Acropora?	U-Th	0	0	0	-61.58	3	3	YokoyamaEtal2018
+Cairns	U-Th	325-M0057A-05R-1W_126-133	-17.11	146.56	12317	73	Coral - Isopora	U-Th	0	0	0	-61.84	3	3	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0054A-02R-1W_1-2	-17.1	146.58	10875	65	Coral - Unknown	marine	12	10	0	-187.62	41.02	41.02	YokoyamaEtal2018
+Cairns	U-Th	325-M0057A-05R-1W_115-122	-17.11	146.56	12328	70	Coral - Isopora	U-Th	0	0	0	-61.23	3	3	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0056A-01R-1W_32-35	-17.1	146.57	10870	40	Coralline algae - aA3	marine	12	10	0	-156.19	41.02	41.02	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0057A-06R-1W_0-4	-17.11	146.56	10890	40	Coral - Isopora	marine	12	10	0	-63.57	2.6	2.6	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0057A-06R-1W_40-47	-17.11	146.56	10990	40	Coralline algae - aA1	marine	12	10	0	-63.98	2.6	2.6	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0057A-06R-1W_4-8	-17.11	146.56	11010	45	Coral - Pocillopora	marine	12	10	0	-63.61	2.6	2.6	YokoyamaEtal2018
+Cairns	U-Th	325-M0057A-06R-1W_103-114	-17.11	146.56	12586	90	Coralline algae - aA1	U-Th	0	0	0	-64.63	2.6	2.6	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0057A-06R-1W_39-42	-17.11	146.56	11080	40	Coral - Dipsastrea?	marine	12	10	0	-63.95	2.6	2.6	YokoyamaEtal2018
+Cairns	U-Th	325-M0057A-06R-1W_16-24	-17.11	146.56	12638	64	Coral - Acropora (humilis gpr)	U-Th	0	0	0	-63.75	2.6	2.6	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0056A-01R-1W_38-42	-17.1	146.57	11170	40	Coralline algae - aA3	marine	12	10	0	-156.25	41.02	41.02	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0056A-01R-1W_57-61	-17.1	146.57	11180	40	Coralline algae - aA2	marine	12	10	0	-95.44	10.07	10.07	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0057A-06R-1W_103-114	-17.11	146.56	11050	40	Coral - Isopora	marine	12	10	0	-64.63	2.6	2.6	YokoyamaEtal2018
+Cairns	U-Th	325-M0056A-01R-1W_136-141	-17.1	146.57	12677	66	Coral - Acropora (humilis gpr)	U-Th	0	0	0	-96.23	10.07	10.07	YokoyamaEtal2018
+Cairns	U-Th	325-M0057A-06R-1W_80-92	-17.11	146.56	12758	70	Coral - Acropora (humilis gpr)	U-Th	0	0	0	-64.41	2.6	2.6	YokoyamaEtal2018
+Cairns	U-Th	325-M0057A-06R-2W_66-80	-17.11	146.56	12767	64	Coral - Isopora	U-Th	0	0	0	-65.64	2.6	2.6	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0057A-06R-1W_120-122	-17.11	146.56	11360	40	Coral - Acroporidae	marine	12	10	0	-64.76	2.6	2.6	YokoyamaEtal2018
+Cairns	U-Th	325-M0057A-06R-2W_53-60	-17.11	146.56	12819	61	Coral - Isopora	U-Th	0	0	0	-65.47	2.6	2.6	YokoyamaEtal2018
+Cairns	U-Th	325-M0057A-06R-2W_10-16	-17.11	146.56	12831	77	Coral - Isopora	U-Th	0	0	0	-65.04	2.6	2.6	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0056A-01R-1W_93-96	-17.1	146.57	11440	70	Coralline algae - aA2	marine	12	10	0	-95.8	10.07	10.07	YokoyamaEtal2018
+Cairns	U-Th	325-M0057A-07R-1W_33-37	-17.11	146.56	12967	67	Coral - Isopora	U-Th	0	0	0	-69.4	5.08	5.08	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0053A-01X-1W_17-20	-17.1	146.58	11530	45	Coral - Porites	marine	12	10	0	-175.28	41	41	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0056A-01R-1W_108-111	-17.1	146.57	11560	40	Coralline algae - aA2	marine	12	10	0	-95.95	10.07	10.07	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0054B-01R-1W_5-6	-17.1	146.58	11640	30	Coral - Unknown	marine	12	10	-1	-113.65	2.97	2.97	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0056A-01R-1W_51-53	-17.1	146.57	11670	60	Coral - Montipora	marine	12	10	0	-156.37	41.02	41.02	YokoyamaEtal2018
+Cairns	U-Th	325-M0056A-01R-1W_121-128	-17.1	146.57	13146	66	Coral - Porites	U-Th	0	0	0	-96.09	10.07	10.07	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0056A-01R-1W_121-122	-17.1	146.57	11760	60	Coralline algae - aA2	marine	12	10	0	-96.07	10.07	10.07	YokoyamaEtal2018
+Cairns	U-Th	325-M0056A-01R-1W_91-93	-17.1	146.57	13366	111	Coral - Porites/Montipora	U-Th	0	0	0	-95.77	10.07	10.07	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0056A-02R-1W_6-13	-17.1	146.57	11950	40	Coralline algae - aA1	marine	12	10	0	-92.95	5.02	5.02	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0053A-01X-1W_25-30	-17.1	146.58	11955	68	Coralline algae - aA4	marine	12	10	0	-175.38	41	41	YokoyamaEtal2018
+Cairns	U-Th	325-M0056A-02R-1W_13-19	-17.1	146.57	13720	71	Coral - Cyphastrea	U-Th	0	0	0	-93.01	5.02	5.02	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0056A-02R-1W_10-17	-17.1	146.57	12320	40	Coralline algae - aA1	marine	12	10	0	-92.98	5.02	5.02	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0053A-01X-1W_51-52	-17.1	146.58	12330	64	Coralline algae - aA4	marine	12	10	0	-175.62	41	41	YokoyamaEtal2018
+Cairns	U-Th	325-M0056A-01R-2W_0-2	-17.1	146.57	13789	58	Coral - Platygyra	U-Th	0	0	0	-101.37	15.05	15.05	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-01R-1W_41-45	-17.1	146.57	12385	45	Coralline algae - aA2	marine	12	10	0	-106.18	10.23	10.23	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-01R-2W_4-5	-17.1	146.57	12620	30	Coral - Porites?	marine	12	10	0	-106.51	10.23	10.23	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0056A-02R-1W_27-30	-17.1	146.57	12657	55	Coral - Cyphastrea	marine	12	10	0	-93.14	5.02	5.02	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-01R-1W_56-57	-17.1	146.57	12650	60	Coralline algae -	marine	12	10	0	-106.31	10.23	10.23	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0056A-02R-1W_58-67	-17.1	146.57	12670	45	Coralline algae - aA1	marine	12	10	0	-93.48	5.02	5.02	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0056A-02R-1W_56-60Coral	-17.1	146.57	12711	53	Coral - Porites	marine	12	10	0	-93.43	5.02	5.02	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0053A-01X-1W_98-104	-17.1	146.58	12643	158	Coral - Platygyra pini?	marine	12	10	0	-176.11	41	41	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0056A-02R-1W_56-60Algae	-17.1	146.57	12828	44	Coralline algae -	marine	12	10	0	-93.43	5.02	5.02	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-01R-CCW_4-5	-17.1	146.57	12820	60	Coral - Merulinidae?	marine	12	10	0	-106.51	10.23	10.23	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0053A-01X-1W_104-106	-17.1	146.58	12860	65	Coralline algae? - NA	marine	12	10	0	-176.15	41	41	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-02R-1W_2-7B	-17.1	146.57	12950	52	Coralline algae - aA1	marine	12	10	0	-101.29	2.53	2.53	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-02R-1W_2-7A	-17.1	146.57	13074	46	Coralline algae - aA1	marine	12	10	0	-101.29	2.53	2.53	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-02R-1W_0-8	-17.1	146.57	13165	45	Coralline algae - aA1	marine	12	10	0	-101.29	2.53	2.53	YokoyamaEtal2018
+Cairns	U-Th	325-M0055A-02R-1W_8-17	-17.1	146.57	15264	69	Coral - Acropora (humils  grp.)	U-Th	0	0	0	-101.38	2.53	2.53	YokoyamaEtal2018
+Cairns	U-Th	325-M0055A-03R-1W_17-30	-17.1	146.57	15314	27	Coral - Acropora (humils  grp.)	U-Th	0	0	0	-102.48	2.62	2.62	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-02R-1W_41-45	-17.1	146.57	13255	45	Coralline algae - aA1	marine	12	10	0	-101.68	2.53	2.53	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-03R-1W_7-12	-17.1	146.57	13290	45	Coralline algae - aA1	marine	12	10	0	-102.34	2.62	2.62	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-02R-1W_23-32A	-17.1	146.57	13281	76	Coral - Acropora gr. humilis	marine	12	10	0	-101.52	2.53	2.53	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-02R-1W_41-45	-17.1	146.57	13324	76	Coralline algae - aA1	marine	12	10	0	-101.68	2.53	2.53	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-02R-1W_23-32B	-17.1	146.57	13354	129	Coral - Acropora gr. humilis	marine	12	10	0	-101.52	2.53	2.53	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-03R-1W_38-46	-17.1	146.57	13435	45	Coralline algae - aA1	marine	12	10	0	-102.67	2.62	2.62	YokoyamaEtal2018
+Cairns	U-Th	325-M0055A-03R-1W_46-51	-17.1	146.57	15570	72	Coral - Acropora (humilis gpr)	U-Th	0	0	0	-102.73	2.62	2.62	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0053A-04R-1W_7-16	-17.1	146.58	13465	208	Coral - Hydnophora	marine	12	10	0	-123.52	15.02	15.02	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-03R-1W_71-75	-17.1	146.57	13465	45	Coralline algae - aA1	marine	12	10	0	-102.98	2.62	2.62	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-02R-1W_49-53	-17.1	146.57	13498	50	Coral - Acropora	marine	12	10	0	-101.76	2.53	2.53	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-03R-1W_0-7	-17.1	146.57	13505	45	Coral - Acropora gr. humilis?	marine	12	10	0	-102.28	2.62	2.62	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-03R-1W_101-105	-17.1	146.57	13535	45	Coralline algae - aA1	marine	12	10	0	-103.28	2.62	2.62	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-03R-1W_64-72	-17.1	146.57	13545	45	Coralline algae - aA1	marine	12	10	0	-102.93	2.62	2.62	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-03R-2W_30-33Algae	-17.1	146.57	13596	84	Coralline algae - aA1	marine	12	10	0	-106.38	5.06	5.06	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-03R-1W_46-54	-17.1	146.57	13641	130	Coral - Acropora gr. humilis	marine	12	10	0	-102.75	2.62	2.62	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-03R-2W_32-34	-17.1	146.57	13595	45	Coralline algae - aA1	marine	12	10	0	-106.4	5.06	5.06	YokoyamaEtal2018
+Cairns	U-Th	325-M0055A-04R-1W_0-16	-17.1	146.57	15883	22	Coral - Isopora	U-Th	0	0	0	-107.83	5.02	5.02	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-03R-1W_83-101	-17.1	146.57	13655	45	Coral - Acropora gr. humilis	marine	12	10	0	-103.17	2.62	2.62	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-03R-2W_30-33A1	-17.1	146.57	13654	67	Coralline algae - aA1	marine	12	10	0	-106.38	5.06	5.06	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-02R-1W_56-58	-17.1	146.57	13670	70	Coral - Acropora or Isopora	marine	12	10	0	-101.82	2.53	2.53	YokoyamaEtal2018
+Cairns	U-Th	325-M0055A-04R-1W_0-16	-17.1	146.57	15942	12	Coral - Isopora	U-Th	0	0	0	-107.83	5.02	5.02	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-03R-2W_10-17	-17.1	146.57	13680	45	Coralline algae - aA1	marine	12	10	0	-106.2	5.06	5.06	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0053A-06R-1W_6-8	-17.1	146.58	13687	68	Coral - Fungiidae	marine	12	10	0	-115.47	5.08	5.08	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0054A-02R-1W_17-21	-17.1	146.58	13690	45	Coralline algae - aA3	marine	12	10	0	-187.79	41.02	41.02	YokoyamaEtal2018
+Cairns	U-Th	325-M0055A-04R-1W_0-16	-17.1	146.57	15974	10	Coral - Isopora	U-Th	0	0	0	-107.83	5.02	5.02	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-03R-2W_23-28	-17.1	146.57	13789	53	Coral - Isopora	marine	12	10	0	-106.32	5.06	5.06	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-03R-1W_123-125	-17.1	146.57	13800	60	Coral - Stylophora pistillata	marine	12	10	0	-105.99	5.06	5.06	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0054A-02R-1W_17-21B	-17.1	146.58	13809	51	Coralline algae - aA3	marine	12	10	0	-187.78	41.02	41.02	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-03R-1W_75-79	-17.1	146.57	13835	45	Coral - Acropora	marine	12	10	0	-103.02	2.62	2.62	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-03R-2W_87-90	-17.1	146.57	14175	545	Coralline algae - aA1	marine	12	10	0	-106.95	5.06	5.06	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-03R-2W_48-50	-17.1	146.57	14040	70	Coral - Seriatopora	marine	12	10	0	-106.56	5.06	5.06	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-04R-1W_28-33	-17.1	146.57	14076	48	Coralline algae - aA1	marine	12	10	0	-108.05	5.02	5.02	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0054A-02R-1W_26-30	-17.1	146.58	14110	50	Coralline algae - aA1	marine	12	10	0	-121.88	5.16	5.16	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-03R-2W_80-84A	-17.1	146.57	14106	76	Coral - Isopora	marine	12	10	0	-106.89	5.06	5.06	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-04R-1W_23-28	-17.1	146.57	14125	50	Coralline algae - aA1	marine	12	10	0	-108	5.02	5.02	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0053A-10R-1W_8-10	-17.1	146.58	14122	84	Coral - Acropora	marine	12	10	0	-119.29	5.04	5.04	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-03R-2W_80-84B	-17.1	146.57	14150	93	Coral - Isopora	marine	12	10	0	-106.89	5.06	5.06	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-04R-1W_23-28	-17.1	146.57	14225	58	Coralline algae - aA1	marine	12	10	0	-108	5.02	5.02	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0053A-03R-1W_4-5	-17.1	146.58	14020	30	Coral - Isopora	marine	12	10	0	-178.04	41.02	41.02	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-04R-1W_35-40B	-17.1	146.57	14290	61	Coralline algae - aA1?	marine	12	10	0	-108.13	5.02	5.02	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-04R-1W_19-22	-17.1	146.57	14336	48	Coral - Porites	marine	12	10	0	-107.95	5.02	5.02	YokoyamaEtal2018
+Cairns	U-Th	325-M0053A-06R-1W_1-7	-17.1	146.58	17146	11	Coral - Isopora	U-Th	0	0	0	-115.48	5.08	5.08	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0053A-03R-CCW_4-5	-17.1	146.58	14680	65	Coral - Isopora	marine	12	10	0	-178.04	41.02	41.02	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0053A-05R-1W_10-16	-17.1	146.58	14688	99	Coral - Platygyra?	marine	12	10	0	-124.53	15.01	15.01	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0054A-03R-1W_22-25	-17.1	146.58	14750	50	Coralline algae - aA1	marine	12	10	0	-123.53	5.01	5.01	YokoyamaEtal2018
+Cairns	U-Th	325-M0053A-07R-1W_12-14	-17.1	146.58	17473	15	Coral - Acropora (humilis  grp.)??	U-Th	0	0	0	-116.53	5.04	5.04	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0054A-03R-1W_56-60	-17.1	146.58	14871	57	Coral - Seriatopora?	marine	12	10	0	-123.88	5.01	5.01	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0054A-03R-AW_63-65	-17.1	146.58	14899	81	Coralline algae - aA1	marine	12	10	0	-123.94	5.01	5.01	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0054A-03R-1W_31-40	-17.1	146.58	14950	50	Coralline algae? - aA1	marine	12	10	0	-123.66	5.01	5.01	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0053A-06R-1W_1-2	-17.1	146.58	14980	70	Coralline algae - aA1	marine	12	10	0	-115.41	5.08	5.08	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0054A-03R-1W_70-78	-17.1	146.58	15015	50	Coralline algae - aA1	marine	12	10	0	-124.04	5.01	5.01	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0054A-03R-1W_79-84	-17.1	146.58	15070	50	Coralline algae - aA1	marine	12	10	0	-124.12	5.01	5.01	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0053A-07R-1W_15-18	-17.1	146.58	15150	50	Coralline algae - aA1	marine	12	10	0	-116.56	5.04	5.04	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0054A-03R-1W_114-118	-17.1	146.58	15240	50	Coralline algae - aA1	marine	12	10	0	-124.46	5.01	5.01	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0054A-03R-1W_83-90	-17.1	146.58	15320	50	Coral - Acropora	marine	12	10	0	-124.17	5.01	5.01	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0053A-08R-1W_3-8	-17.1	146.58	15350	50	Coralline algae - aA1	marine	12	10	0	-117.45	5.02	5.02	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0054B-03R-1W_7-8	-17.1	146.58	15385	90	Coral - Acropora	marine	12	10	0	-129.91	10.53	10.53	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0053A-07R-CCW_0-5	-17.1	146.58	15410	50	Coral - Acropora	marine	12	10	0	-116.66	5.04	5.04	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0053A-07R-CCW_5-11	-17.1	146.58	15445	50	Coral - Isopora	marine	12	10	0	-116.72	5.04	5.04	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0054B-03R-1W_7-8	-17.1	146.58	15650	40	Coral - Acropora	marine	12	10	0	-129.91	10.53	10.53	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0053A-06R-1W_0-2	-17.1	146.58	15577	73	Coral - Acropora	marine	12	10	0	-115.41	5.08	5.08	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0053A-08R-CCW_10-15	-17.1	146.58	15927	71	Coral - Isopora	marine	12	10	0	-117.7	5.02	5.02	YokoyamaEtal2018
+Cairns	U-Th	325-M0053A-09R-CCW_0-7	-17.1	146.58	19194	4	Coral - Isopora	U-Th	0	0	0	-118.47	5.04	5.04	YokoyamaEtal2018
+Cairns	U-Th	325-M0053A-09R-CCW_0-7	-17.1	146.58	19207	4	Coral - Isopora	U-Th	0	0	0	-118.47	5.04	5.04	YokoyamaEtal2018
+Cairns	U-Th	325-M0053A-09R-CCW_7-12	-17.1	146.58	19234	4	Coral - Isopora	U-Th	0	0	0	-118.53	5.04	5.04	YokoyamaEtal2018
+Cairns	U-Th	325-M0053A-09R-CCW_7-12	-17.1	146.58	19239	10	Coral - Isopora	U-Th	0	0	0	-118.53	5.04	5.04	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0053A-09R-1W_12-16	-17.1	146.58	16610	50	Coralline algae - aA1	marine	12	10	0	-118.34	5.04	5.04	YokoyamaEtal2018
+Cairns	U-Th	325-M0053A-11R-1W_15-16	-17.1	146.58	19694	21	Coral - Acropora	U-Th	0	0	0	-120.35	5.16	5.16	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0054B-05R-1W_0-3	-17.1	146.58	16810	50	Coralline algae - aA1	marine	12	10	0	-128.65	5	5	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0054B-04R-1W_16-19	-17.1	146.58	16816	129	Coralline algae -	marine	12	10	0	-128.41	5	5	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0053A-13R-1W_24-30	-17.1	146.58	16923	96	Coral - Unknown	marine	12	10	0	-122.97	5.03	5.03	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0053A-12R-1W_12-20	-17.1	146.58	16927	96	Coral - Unknown	marine	12	10	0	-121.86	5.04	5.04	YokoyamaEtal2018
+Cairns	U-Th	325-M0054B-05R-1W_1-9	-17.1	146.58	19910	37	Coral - Montipora	U-Th	0	0	0	-128.75	5	5	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0053A-10R-1W_19-23	-17.1	146.58	16945	50	Coralline algae - aA1	marine	12	10	0	-119.41	5.04	5.04	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0054B-06R-1W_28-34	-17.1	146.58	16950	71	Coralline algae - aA1	marine	12	10	0	-129.04	5	5	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0053A-12R-1W_7-10B	-17.1	146.58	16978	62	Coralline algae - aA1	marine	12	10	0	-121.78	5.04	5.04	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0054B-04R-1W_3-8	-17.1	146.58	16995	50	Coralline algae - aA1	marine	12	10	0	-128.28	5	5	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0054B-04R-1W_0-8	-17.1	146.58	17005	50	Coralline algae - aA1	marine	12	10	0	-128.27	5	5	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0053A-12R-1W_7-10	-17.1	146.58	17055	50	Coralline algae - aA1	marine	12	10	0	-121.78	5.04	5.04	YokoyamaEtal2018
+Cairns	U-Th	325-M0054B-04R-2W_2-3	-17.1	146.58	20100	200	Coral - Isopora	U-Th	0	0	0	-128.74	5	5	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0054B-04R-1W_20-23	-17.1	146.58	17132	68	Coral - Monipora	marine	12	10	0	-128.44	5	5	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0053A-11R-1W_11-13	-17.1	146.58	17160	55	Coralline algae - aA1	marine	12	10	0	-120.32	5.16	5.16	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0056A-02R-1W_80-82	-17.1	146.57	17160	65	Bioclast -	marine	12	10	-1	-88.66	0.5	0.5	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0053A-09R-1W_18-24	-17.1	146.58	17161	80	Coral - Isopora	marine	12	10	0	-118.41	5.04	5.04	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0054B-05R-1W_13-18	-17.1	146.58	17266	63	Coral - Isopora	marine	12	10	0	-128.78	5	5	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0054B-06R-1W_54-57	-17.1	146.58	17270	50	Coralline algae - aA1	marine	12	10	0	-129.28	5	5	YokoyamaEtal2018
+Cairns	U-Th	325-M0054B-09R-1W_14-22	-17.1	146.58	20326	6	Coral - Acropora (humilis  grp.)	U-Th	0	0	-1	-129.61	2.23	2.23	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0054B-06R-1W_64-67B	-17.1	146.58	17400	63	Coralline algae -	marine	12	10	0	-129.38	5	5	YokoyamaEtal2018
+Cairns	U-Th	325-M0054B-07R-1W_5-9	-17.1	146.58	20472	78	Coral - Acropora	U-Th	0	0	0	-150.3	10	10	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0054B-06R-1W_64-67	-17.1	146.58	17450	50	Coralline algae - aA1	marine	12	10	0	-129.38	5	5	YokoyamaEtal2018
+Cairns	U-Th	325-M0053A-13R-1W_21-25	-17.1	146.58	20514	20	Coral - Isopora	U-Th	0	0	0	-122.93	5.03	5.03	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0053A-12R-1W_3-7	-17.1	146.58	17450	50	Coralline algae - aA1	marine	12	10	0	-121.75	5.04	5.04	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0054B-06R-1W_64-67	-17.1	146.58	17410	92	Coralline algae - aA1	marine	12	10	0	-129.38	5	5	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0054B-06R-1W_23-28	-17.1	146.58	17483	63	Coral - Porites	marine	12	10	0	-128.99	5	5	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0053A-13R-CCW_0-6	-17.1	146.58	17540	55	Coralline algae - aA1	marine	12	10	0	-123.05	5.03	5.03	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0054B-06R-1W_105-107	-17.1	146.58	17612	54	Coral - Montipora	marine	12	10	0	-149.79	10	10	YokoyamaEtal2018
+Cairns	U-Th	325-M0053A-15R-1W_27-29	-17.1	146.58	20812	9	Coral - Isopora?	U-Th	0	0	0	-139.98	20	20	YokoyamaEtal2018
+Cairns	U-Th	325-M0053A-15R-1W_30-33	-17.1	146.58	20843	21	Coral - Isopora?	U-Th	0	0	0	-140.01	20	20	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0053A-13R-CCW_7-9	-17.1	146.58	17730	50	Coralline algae - aA1	marine	12	10	0	-123.1	5.03	5.03	YokoyamaEtal2018
+Cairns	U-Th	325-M0053A-15R-1W_33-37	-17.1	146.58	20899	14	Coral - Isopora?	U-Th	0	0	0	-140.05	20	20	YokoyamaEtal2018
+Cairns	U-Th	325-M0053A-15R-1W_42-48	-17.1	146.58	20930	4	Coral - Isopora?	U-Th	0	0	0	-140.15	20	20	YokoyamaEtal2018
+Cairns	U-Th	325-M0053A-15R-1W_1-4	-17.1	146.58	20936	17	Coral - Acropora	U-Th	0	0	0	-139.72	20	20	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0054B-07R-1W_16-19	-17.1	146.58	17833	105	Coral - Porites	marine	12	10	0	-150.41	10	10	YokoyamaEtal2018
+Cairns	U-Th	325-M0053A-16R-1W_5-14	-17.1	146.58	21046	7	Coral - Isopora	U-Th	0	0	0	-140.79	20.01	20.01	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0053A-17R-1W_3-5	-17.1	146.58	17854	104	Coral - Seriatopora?	marine	12	10	0	-141.74	20.01	20.01	YokoyamaEtal2018
+Cairns	U-Th	325-M0053A-16R-1W_5-14	-17.1	146.58	21094	6	Coral - Isopora	U-Th	0	0	0	-140.79	20.01	20.01	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0054B-07R-1W_23-26	-17.1	146.58	17935	55	Coralline algae? - aA3	marine	12	10	0	-150.48	10	10	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0053A-15R-CCW_7-10	-17.1	146.58	18265	55	Coralline algae - aA3	marine	12	10	0	-140.26	20	20	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0053A-16R-1W_41-43	-17.1	146.58	18390	50	Coralline algae - aA3	marine	12	10	0	-141.12	20.01	20.01	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-04R-2W_23-34	-17.1	146.57	20435	70	Coral - Tubipora	marine	12	10	0	-109.1	5.02	5.02	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-04R-1W_70-80	-17.1	146.57	18452	137	Coralline algae - aA1?	marine	12	10	0	-108.5	5.02	5.02	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-04R-1W_35-40b	-17.1	146.57	18463	60	Coralline algae - aA1?	marine	12	10	0	-108.13	5.02	5.02	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0053A-18R-1W_14-19	-17.1	146.58	18465	55	Coralline algae? - aA3	marine	12	10	0	-193.87	41	41	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0053A-19R-1W_17-18	-17.1	146.58	18620	55	Coralline algae - aA1	marine	12	10	0	-194.88	41	41	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0054B-08R-2W_73-75	-17.1	146.58	18701	99	Coral - Cyphastrea	marine	12	10	0	-153.54	10	10	YokoyamaEtal2018
+Cairns	U-Th	325-M0053A-19R-1W_0-4	-17.1	146.58	22168	5	Coral - Acropora	U-Th	0	0	0	-194.72	41	41	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0053A-20R-1W_50-53	-17.1	146.58	18834	73	Coralline algae - aA3	marine	12	10	0	-196.22	41	41	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0054B-08R-2W_25-29	-17.1	146.58	18855	60	Coralline algae? - aA3	marine	12	10	0	-153.07	10	10	YokoyamaEtal2018
+Cairns	U-Th	325-M0053A-21R-1W_9-13	-17.1	146.58	22411	5	Coral - Favites (F. abdita gr.)	U-Th	0	0	0	-196.81	41	41	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-04R-1W_60-67	-17.1	146.57	19000	50	Coralline algae - aA1	marine	12	10	0	-108.38	5.02	5.02	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0053A-20R-1W_10-14	-17.1	146.58	19015	70	Bioclast -	marine	12	10	0	-195.82	41	41	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0054B-08R-2W_15-18	-17.1	146.58	19131	96	Coral - Porites	marine	12	10	0	-152.97	10	10	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-04R-2W_9-14	-17.1	146.57	19180	55	Coralline algae - aA1	marine	12	10	0	-108.93	5.02	5.02	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-05R-1W_96-101	-17.1	146.57	19178	74	Coralline algae -	marine	12	10	0	-111.73	5.09	5.09	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-04R-1W_80-83	-17.1	146.57	19229	67	Coralline algae -	marine	12	10	0	-108.56	5.02	5.02	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-04R-1W_84-90Algae	-17.1	146.57	19278	123	Coralline algae -	marine	12	10	0	-108.62	5.02	5.02	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-04R-1W_70-80B	-17.1	146.57	19379	97	Coralline algae - aA1?	marine	12	10	0	-108.5	5.02	5.02	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-04R-1W_84-90A1	-17.1	146.57	19417	61	Coralline algae? -	marine	12	10	0	-108.62	5.02	5.02	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-04R-1W_70-80b	-17.1	146.57	19419	64	Coralline algae - aA1?	marine	12	10	0	-108.5	5.02	5.02	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-04R-2W_150-151	-17.1	146.57	19690	50	Coral - Tubipora musica or Merulinidae	marine	12	10	0	-110.32	5.02	5.02	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0054B-08R-2W_75-80	-17.1	146.58	19500	65	Coral - Dipsastrea?	marine	12	10	0	-153.57	10	10	YokoyamaEtal2018
+Cairns	U-Th	325-M0053A-25R-CCW_2-4	-17.1	146.58	23224	113	Coral? - Unknown	U-Th	0	0	-1	-129.88	0.76	0.76	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-04R-2W_106-114	-17.1	146.57	19750	60	Coralline algae - aA1	marine	12	10	0	-109.92	5.02	5.02	YokoyamaEtal2018
+Cairns	U-Th	325-M0053A-25R-2W_2-3	-17.1	146.58	23600	300	Coral - Porites/Montipora	U-Th	0	0	-1	-129.88	0.76	0.76	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-04R-2W_91-93	-17.1	146.57	20005	60	Coralline algae - aA1	marine	12	10	0	-109.74	5.02	5.02	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-05R-1W_52-59	-17.1	146.57	20255	65	Coralline algae - aA1	marine	12	10	0	-111.3	5.09	5.09	YokoyamaEtal2018
+Cairns	U-Th	325-M0055A-04R-1W_98-104	-17.1	146.57	23911	16	Coral - Acropora	U-Th	0	0	0	-108.76	5.02	5.02	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0054B-09R-1W_56-58	-17.1	146.58	20340	120	Bioclast - Halimeda?	marine	12	10	-1	-130	2.23	2.23	YokoyamaEtal2018
+Cairns	U-Th	325-M0055A-04R-2W_99-105	-17.1	146.57	23974	194	Coral - Porites	U-Th	0	0	0	-109.84	5.02	5.02	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-04R-1W_39-43	-17.1	146.57	20343	69	Coral - Seriatopora	marine	12	10	0	-108.16	5.02	5.02	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-04R-2W_23-34	-17.1	146.57	18450	65	Coral - Isopora	marine	12	10	0	-109.1	5.02	5.02	YokoyamaEtal2018
+Cairns	U-Th	325-M0055A-06R-1W_3-7	-17.1	146.57	24099	146	Coral - Acropora	U-Th	0	0	0	-113.3	5.61	5.61	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-04R-1W_57-59	-17.1	146.57	20500	110	Coral - Tubipora musica	marine	12	10	0	-108.33	5.02	5.02	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-05R-1W_2-3	-17.1	146.57	20680	60	Coralline algae - aA1	marine	12	10	0	-110.77	5.09	5.09	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-05R-1W_34-36	-17.1	146.57	20730	65	Coralline algae - aA1	marine	12	10	0	-111.1	5.09	5.09	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-05R-2W_24-33	-17.1	146.57	20725	95	Coralline algae - aA1	marine	12	10	0	-112.22	5.09	5.09	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-04R-2WR_150-151	-17.1	146.57	24190	75	Coral - Merulinidae	marine	12	10	0	-110.32	5.02	5.02	YokoyamaEtal2018
+Cairns	U-Th	325-M0055A-05R-3W_0-1	-17.1	146.57	24800	300	Coral - Pocillopora	U-Th	0	0	0	-112.69	5.09	5.09	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-04R-2W_140-145	-17.1	146.57	21060	65	Coralline algae - aA1	marine	12	10	0	-110.25	5.02	5.02	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-05R-1W_74-77	-17.1	146.57	21087	74	Coral - Porites	marine	12	10	0	-111.5	5.09	5.09	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-05R-2W_26-27	-17.1	146.57	21440	120	Coralline algae -	marine	12	10	0	-112.2	5.09	5.09	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-05R-2W_49-57	-17.1	146.57	21585	100	Coralline algae - aA1	marine	12	10	0	-112.47	5.09	5.09	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-05R-CCW_0-1	-17.1	146.57	21830	120	Coralline algae -	marine	12	10	0	-112.69	5.09	5.09	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-06R-1W_31-34	-17.1	146.57	21930	105	Coralline algae - aA1	marine	12	10	0	-113.57	5.61	5.61	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-07R-1W_17-18	-17.1	146.57	22264	84	Bioclast -	marine	12	10	-1	-111.92	2.75	2.75	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-06R-1W_48-53	-17.1	146.57	22340	105	Coralline algae - aA1	marine	12	10	0	-113.75	5.61	5.61	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-05R-2W_0-9	-17.1	146.57	22705	65	Coralline algae - aA1	marine	12	10	0	-111.98	5.09	5.09	YokoyamaEtal2018
+Cairns	U-Th	325-M0055A-06R-CCW_0-14	-17.1	146.57	27236	76	Coral - Goniopora?	U-Th	0	0	0	-114.13	5.61	5.61	YokoyamaEtal2018
+Cairns	U-Th	325-M0055A-06R-CCW_0-14	-17.1	146.57	27447	63	Coral - Goniopora?	U-Th	0	0	0	-114.13	5.61	5.61	YokoyamaEtal2018
+Cairns	U-Th	325-M0053A-27R-1W_24-26	-17.1	146.58	27486	167	Coral - Porites/Montipora?	U-Th	0	0	-1	-131.95	0.26	0.26	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-06R-1W_0-5	-17.1	146.57	23790	75	Coralline algae - aA1	marine	12	10	0	-113.27	5.61	5.61	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0055A-04R-2WR_150-151	-17.1	146.57	20960	65	Coral - Tubipora musica	marine	12	10	0	-110.32	5.02	5.02	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0053A-26X-CCW_5-9	-17.1	146.58	24274	82	Bioclast -	marine	12	10	-1	-130.77	0.9	0.9	YokoyamaEtal2018
+Cairns	radiocarbon	325-M0056A-13R-1W_13-15	-17.1	146.57	25732	125	Coral - Galaxea astreata	marine	12	10	-1	-116.47	2.39	2.39	YokoyamaEtal2018

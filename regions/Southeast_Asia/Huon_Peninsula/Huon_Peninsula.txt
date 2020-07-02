@@ -1,0 +1,57 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
+Huon_Peninsula	radiocarbon	ANU-6758	-6	147.05	7400	80	Porites - reef and forereef corals identified up to genus level in core	marine	0	0	-1	-4.139699999999998	0.52	0.52	ChappellPolach1991
+Huon_Peninsula	radiocarbon	ANU-6770	-6	147.05	7800	80	Porites - reef and forereef corals	marine	0	0	-1	-7.075000000000001	0.52	0.52	ChappellPolach1991
+Huon_Peninsula	radiocarbon	ANU-6759	-6	147.05	7980	70	Pocillopora sp - reef and forereef corals	marine	0	0	-1	-8.474000000000002	0.52	0.52	ChappellPolach1991
+Huon_Peninsula	radiocarbon	ANU-6760	-6	147.05	8100	80	Porites - reef and forereef corals	marine	0	0	-1	-10.612200000000001	0.52	0.52	ChappellPolach1991
+Huon_Peninsula	radiocarbon	ANU-6774	-6	147.05	8130	80	Porites - reef and forereef corals	marine	0	0	-1	-12.165399999999998	0.52	0.52	ChappellPolach1991
+Huon_Peninsula	radiocarbon	ANU-6771	-6	147.05	8160	70	Porites - reef and forereef corals	marine	0	0	-1	-13.528099999999998	0.52	0.52	ChappellPolach1991
+Huon_Peninsula	radiocarbon	ANU-6772	-6	147.05	8330	80	Acropora - reef and forereef corals	marine	0	0	-1	-15.475799999999998	0.52	0.52	ChappellPolach1991
+Huon_Peninsula	radiocarbon	ANU-6761	-6	147.05	8600	70	Porites - reef and forereef corals	marine	0	0	-1	-19.756	0.52	0.52	ChappellPolach1991
+Huon_Peninsula	radiocarbon	ANU-6775	-6	147.05	8930	70	Porites - reef and forereef corals	marine	0	0	-1	-21.7502	0.52	0.52	ChappellPolach1991
+Huon_Peninsula	radiocarbon	ANU-6762	-6	147.05	9000	70	Acropora - reef and forereef corals i	marine	0	0	-1	-23.9022	0.52	0.52	ChappellPolach1991
+Huon_Peninsula	radiocarbon	ANU-6776	-6	147.05	9010	70	Porites - reef and forereef corals	marine	0	0	-1	-27.236399999999996	0.52	0.52	ChappellPolach1991
+Huon_Peninsula	radiocarbon	ANU-6781	-6	147.05	9110	80	Porites - reef and forereef corals	marine	0	0	-1	-28.034000000000002	0.52	0.52	ChappellPolach1991
+Huon_Peninsula	radiocarbon	ANU-6763	-6	147.05	9290	70	Goniopora - reef and forereef corals	marine	0	0	-1	-29.952	0.52	0.52	ChappellPolach1991
+Huon_Peninsula	radiocarbon	ANU-6778	-6	147.05	9310	100	Montipora - reef and forereef corals	marine	0	0	-1	-30.8995	0.52	0.52	ChappellPolach1991
+Huon_Peninsula	radiocarbon	ANU-6777	-6	147.05	9370	70	Montipora - reef and forereef corals	marine	0	0	-1	-32.6914	0.52	0.52	ChappellPolach1991
+Huon_Peninsula	radiocarbon	ANU-6779	-6	147.05	9460	60	Porites - reef and forereef corals	marine	0	0	-1	-33.7517	0.52	0.52	ChappellPolach1991
+Huon_Peninsula	radiocarbon	ANU-6784	-6	147.05	9640	80	Porites - reef and forereef corals	marine	0	0	-1	-37.1823	0.52	0.52	ChappellPolach1991
+Huon_Peninsula	radiocarbon	ANU-6764	-6	147.05	9690	70	Montipora - reef and forereef corals	marine	0	0	-1	-38.7419	0.52	0.52	ChappellPolach1991
+Huon_Peninsula	radiocarbon	ANU-6765	-6	147.05	9870	70	Montipora - reef and forereef corals	marine	0	0	-1	-40.6074	0.52	0.52	ChappellPolach1991
+Huon_Peninsula	radiocarbon	ANU-6783	-6	147.05	9880	70	Porites - reef and forereef corals	marine	0	0	-1	-41.724500000000006	0.52	0.52	ChappellPolach1991
+Huon_Peninsula	radiocarbon	ANU-6782	-6	147.05	9900	90	Porites - reef and forereef corals	marine	0	0	-1	-42.6549	0.52	0.52	ChappellPolach1991
+Huon_Peninsula	radiocarbon	ANU-6766	-6	147.05	10100	70	Porites - reef and forereef corals	marine	0	0	-1	-45.8026	0.52	0.52	ChappellPolach1991
+Huon_Peninsula	radiocarbon	ANU-6785	-6	147.05	10260	80	Porites - reef and forereef corals	marine	0	0	-1	-48.044799999999995	0.52	0.52	ChappellPolach1991
+Huon_Peninsula	radiocarbon	ANU-6773	-6	147.05	10350	90	Porites - reef and forereef corals	marine	0	0	-1	-49.686099999999996	0.52	0.52	ChappellPolach1991
+Huon_Peninsula	radiocarbon	ANU-6767	-6	147.05	10820	70	Montipora - reef and forereef corals	marine	0	0	-1	-53.8605	0.52	0.52	ChappellPolach1991
+Huon_Peninsula	radiocarbon	ANU-6787	-6	147.05	10840	80	Porites - reef and forereef corals	marine	0	0	-1	-54.0795	0.52	0.52	ChappellPolach1991
+Huon_Peninsula	radiocarbon	ANU-6768	-6	147.05	11110	90	Poillopora - reef and forereef corals	marine	0	0	-1	-57.2046	0.52	0.52	ChappellPolach1991
+Huon_Peninsula	radiocarbon	ANU-6786	-6	147.05	11130	80	Acropora - reef and forereef corals	marine	0	0	-1	-62.0616	0.52	0.52	ChappellPolach1991
+Huon_Peninsula	radiocarbon	ANU-6769	-6	147.05	11480	90	Montipora - reef and forereef corals	marine	0	0	-1	-64.024	0.52	0.52	ChappellPolach1991
+Huon_Peninsula	U-Th	3.2	-6.25	147.667	8400	100	Porites sp.	U_Th	0	0	-1	-12	1.2	1.2	EdwardsEtal1993,HibbertEtal2016
+Huon_Peninsula	U-Th	9.9	-6.25	147.667	8800	100	Porites sp.	U_Th	0	0	-1	-19.4	1.2	1.2	EdwardsEtal1993,HibbertEtal2016
+Huon_Peninsula	U-Th	18.9	-6.25	147.667	9700	100	Porites sp.	U_Th	0	0	-1	-30	1.2	1.2	EdwardsEtal1993,HibbertEtal2016
+Huon_Peninsula	U-Th	27.7	-6.25	147.667	10600	100	Porites sp.	U_Th	0	0	-1	-40.3	1.3	1.3	EdwardsEtal1993,HibbertEtal2016
+Huon_Peninsula	U-Th	31.3	-6.25	147.667	10800	1080	Porites sp.	U_Th	0	0	-1	-44.2	1.3	1.3	EdwardsEtal1993,HibbertEtal2016
+Huon_Peninsula	U-Th	34.5	-6.25	147.667	11000	100	Porites sp.	U_Th	0	0	-1	-47.9	1.3	1.3	EdwardsEtal1993,HibbertEtal2016
+Huon_Peninsula	U-Th	38.0_a	-6.25	147.667	11000	1100	Porites sp.	U_Th	0	0	-1	-51.3	1.3	1.3	EdwardsEtal1993,HibbertEtal2016
+Huon_Peninsula	U-Th	38.4	-6.25	147.667	11100	100	Porites sp.	U_Th	0	0	-1	-51.9	1.3	1.3	EdwardsEtal1993,HibbertEtal2016
+Huon_Peninsula	U-Th	38.9	-6.25	147.667	12200	100	Porites sp.	U_Th	0	0	-1	-54.3	1.3	1.3	EdwardsEtal1993,HibbertEtal2016
+Huon_Peninsula	U-Th	41	-6.25	147.667	12300	100	Porites sp.	U_Th	0	0	-1	-56.5	1.3	1.3	EdwardsEtal1993,HibbertEtal2016
+Huon_Peninsula	U-Th	41.5	-6.25	147.667	12400	1240	Porites sp.	U_Th	0	0	-1	-57.3	1.3	1.3	EdwardsEtal1993,HibbertEtal2016
+Huon_Peninsula	U-Th	Gp_38.0	-6.6	147.85	12500	100	Acropora sp.	U_Th	0	0	-1	-59.2	2.5	2.5	CutlerEtal2003,HibbertEtal2016
+Huon_Peninsula	U-Th	Gp_40.95	-6.6	147.85	12700	100	Acropora sp.	U_Th	0	0	-1	-61.6	2.6	2.6	CutlerEtal2003,HibbertEtal2016
+Huon_Peninsula	U-Th	45.7	-6.25	147.667	12900	1290	Porites sp.	U_Th	0	0	-1	-62.4	1.4	1.4	EdwardsEtal1993,HibbertEtal2016
+Huon_Peninsula	U-Th	48.8	-6.25	147.667	12900	100	Porites sp.	U_Th	0	0	-1	-65.5	1.4	1.4	EdwardsEtal1993,HibbertEtal2016
+Huon_Peninsula	U-Th	KWA_41.24	-6.1	147.617	13000	100	unknown coral	U_Th	0	0	-1	-59.2	1.4	1.4	CutlerEtal2004,HibbertEtal2016
+Huon_Peninsula	U-Th	51.5	-6.25	147.667	13200	100	Porites sp.	U_Th	0	0	-1	-68.7	1.4	1.4	EdwardsEtal1993,HibbertEtal2016
+Huon_Peninsula	U-Th	KNM_46.7	-6.15	147.65	14600	100	Acropora sp.	U_Th	0	0	-1	-77.3	1.6	1.6	CutlerEtal2003,HibbertEtal2016
+Huon_Peninsula	U-Th	KNM_50_A	-6.15	147.65	23600	100	Acropora sp.	U_Th	0	0	-1	-103.7	2.4	2.4	CutlerEtal2003,HibbertEtal2016
+Huon_Peninsula	U-Th	KNM_50_B	-6.15	147.65	23700	100	Acropora sp.	U_Th	0	0	-1	-103.9	2.5	2.5	CutlerEtal2003,HibbertEtal2016
+Huon_Peninsula	U-Th	KNM_50_C	-6.15	147.65	23700	100	Acropora sp.	U_Th	0	0	-1	-103.8	2.5	2.5	CutlerEtal2003,HibbertEtal2016
+Huon_Peninsula	U-Th	KNM_58.7_(A)	-6.15	147.65	25100	100	Porites sp.	U_Th	0	0	-1	-115.3	2.7	2.7	CutlerEtal2003,HibbertEtal2016
+Huon_Peninsula	U-Th	KNM_58.7_(B)	-6.15	147.65	25400	100	Porites sp.	U_Th	0	0	-1	-116.2	2.8	2.8	CutlerEtal2003,HibbertEtal2016
+Huon_Peninsula	U-Th	KWA_60.2	-6.1	147.617	27300	100	unknown coral	U_Th	0	0	-1	-103.7	2.2	2.2	CutlerEtal2004,HibbertEtal2016
+Huon_Peninsula	U-Th	KWA_64.3_A	-6.1	147.617	28400	200	Porites sp.	U_Th	0	0	-1	-108.7	2.2	2.2	CutlerEtal2003,HibbertEtal2016
+Huon_Peninsula	U-Th	KWA_64.3_(C)	-6.1	147.617	28600	200	unknown coral	U_Th	0	0	-1	-109.2	2.4	2.4	CutlerEtal2003,HibbertEtal2016
+Huon_Peninsula	U-Th	KWA_64.3_(B)	-6.1	147.617	28700	200	unknown coral	U_Th	0	0	-1	-109.4	2.4	2.4	CutlerEtal2003,HibbertEtal2016

@@ -1,0 +1,42 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
+Huon_Peninsula_MIS3_MIS4	U-Th	KNM-T-2_(a)	-6.15	147.65	36900	200	Porites sp.	U_Th	0	0	-1	-69.6	4.3	4.3	CutlerEtal2003,HibbertEtal2016
+Huon_Peninsula_MIS3_MIS4	U-Th	KNM-T-2_(b)	-6.15	147.65	36900	400	Porites sp.	U_Th	0	0	-1	-69.5	4.3	4.3	CutlerEtal2003,HibbertEtal2016
+Huon_Peninsula_MIS3_MIS4	U-Th	KWA-I-1_B	-6.1	147.617	46500	200	Porites sp.	U_Th	0	0	-1	-74.1	4	4	CutlerEtal2003,HibbertEtal2016
+Huon_Peninsula_MIS3_MIS4	U-Th	KWA-I-1_A	-6.1	147.617	46800	400	Porites sp.	U_Th	0	0	-1	-74.6	4.1	4.1	CutlerEtal2003,HibbertEtal2016
+Huon_Peninsula_MIS3_MIS4	U-Th	KWA-K-1_B	-6.1	147.617	47300	200	Porites sp.	U_Th	0	0	-1	-54.5	4	4	CutlerEtal2003,HibbertEtal2016
+Huon_Peninsula_MIS3_MIS4	U-Th	KAN-C-2	-6.25	147.667	48700	300	Favia laxa	U_Th	0	0	-1	-85.2	5.7	5.7	CutlerEtal2003,HibbertEtal2016
+Huon_Peninsula_MIS3_MIS4	U-Th	KAN-D-4	-6.25	147.667	48900	400	Porites sp.	U_Th	0	0	-1	-55.7	5.8	5.8	CutlerEtal2003,HibbertEtal2016
+Huon_Peninsula_MIS3_MIS4	U-Th	KWA-K-1_A	-6.1	147.617	49900	200	Porites sp.	U_Th	0	0	-1	-59.2	4.2	4.2	CutlerEtal2003,HibbertEtal2016
+Huon_Peninsula_MIS3_MIS4	U-Th	KWA-N-1_A	-6.1	147.617	50400	400	Porites sp.	U_Th	0	0	-1	-81	4.3	4.3	CutlerEtal2003,HibbertEtal2016
+Huon_Peninsula_MIS3_MIS4	U-Th	KWA-N-1_B	-6.1	147.617	50900	300	Porites sp.	U_Th	0	0	-1	-82	4.3	4.3	CutlerEtal2003,HibbertEtal2016
+Huon_Peninsula_MIS3_MIS4	U-Th	KWA-Q-1	-6.1	147.617	60700	300	Gardineroseris planulata	U_Th	0	0	-1	-73.5	4.9	4.9	CutlerEtal2003,HibbertEtal2016
+Huon_Peninsula_MIS3_MIS4	U-Th	Sial-E-1	-6.1	147.6	68200	300	Montipora sp.	U_Th	0	0	-1	-44.8	5.4	5.4	CutlerEtal2003,HibbertEtal2016
+Huon_Peninsula_MIS3_MIS4	U-Th	Bobo_U21_	-6.3	147.8	29800	100	Faviidae	U_Th	0	0	-1	-64.4	4	4	YokoyamaEtal2001,HibbertEtal2016
+Huon_Peninsula_MIS3_MIS4	U-Th	Kanz_U16	-6.25	147.667	30500	400	Porites sp.	U_Th	0	0	-1	-52.5	3.6	3.6	YokoyamaEtal2001,HibbertEtal2016
+Huon_Peninsula_MIS3_MIS4	U-Th	Bobo_U30	-6.3	147.8	31600	100	Faviidae	U_Th	0	0	-1	-73.3	4.2	4.2	YokoyamaEtal2001,HibbertEtal2016
+Huon_Peninsula_MIS3_MIS4	U-Th	Bobo_U17	-6.3	147.8	32100	100	Faviidae	U_Th	0	0	-1	-81.7	4.3	4.3	YokoyamaEtal2001,HibbertEtal2016
+Huon_Peninsula_MIS3_MIS4	U-Th	Bobo_U24	-6.3	147.8	32300	100	Faviidae	U_Th	0	0	-1	-72.4	4.3	4.3	YokoyamaEtal2001,HibbertEtal2016
+Huon_Peninsula_MIS3_MIS4	U-Th	Bobo_U28	-6.3	147.8	32300	400	Faviidae	U_Th	0	0	-1	-80.6	4.5	4.5	YokoyamaEtal2001,HibbertEtal2016
+Huon_Peninsula_MIS3_MIS4	U-Th	Kanz_U15	-6.25	147.667	33500	100	Faviidae	U_Th	0	0	-1	-66.6	3.8	3.8	YokoyamaEtal2001,HibbertEtal2016
+Huon_Peninsula_MIS3_MIS4	U-Th	Kanz_U13	-6.25	147.667	35900	300	Faviidae	U_Th	0	0	-1	-70.2	4.1	4.1	YokoyamaEtal2001,HibbertEtal2016
+Huon_Peninsula_MIS3_MIS4	U-Th	Kanz_U8	-6.25	147.667	37100	600	Porites sp.	U_Th	0	0	-1	-72.2	4.4	4.4	YokoyamaEtal2001,HibbertEtal2016
+Huon_Peninsula_MIS3_MIS4	U-Th	Bobo_U10	-6.3	147.8	37300	100	Faviidae	U_Th	0	0	-1	-69.2	4.9	4.9	YokoyamaEtal2001,HibbertEtal2016
+Huon_Peninsula_MIS3_MIS4	U-Th	Kanz_A	-6.25	147.667	37600	100	Faviidae	U_Th	0	0	-1	-75.5	4.2	4.2	YokoyamaEtal2001,HibbertEtal2016
+Huon_Peninsula_MIS3_MIS4	U-Th	Kanz_U12	-6.25	147.667	37600	700	Faviidae	U_Th	0	0	-1	-74.5	4.6	4.6	YokoyamaEtal2001,HibbertEtal2016
+Huon_Peninsula_MIS3_MIS4	U-Th	Bobo_U20	-6.3	147.8	37700	100	Faviidae	U_Th	0	0	-1	-79.5	4.9	4.9	YokoyamaEtal2001,HibbertEtal2016
+Huon_Peninsula_MIS3_MIS4	U-Th	Bobo_U11	-6.3	147.8	38000	200	Faviidae	U_Th	0	0	-1	-71.4	5	5	YokoyamaEtal2001,HibbertEtal2016
+Huon_Peninsula_MIS3_MIS4	U-Th	Kanz_U11	-6.25	147.667	38000	200	Faviidae	U_Th	0	0	-1	-74.8	4.3	4.3	YokoyamaEtal2001,HibbertEtal2016
+Huon_Peninsula_MIS3_MIS4	U-Th	Kanz_13	-6.25	147.667	38400	500	Porites sp.	U_Th	0	0	-1	-54.8	4.5	4.5	YokoyamaEtal2001,HibbertEtal2016
+Huon_Peninsula_MIS3_MIS4	U-Th	Kanz_15	-6.25	147.667	42100	600	Porites sp.	U_Th	0	0	-1	-73.6	4.9	4.9	YokoyamaEtal2001,HibbertEtal2016
+Huon_Peninsula_MIS3_MIS4	U-Th	Kanz_U9	-6.25	147.667	42400	100	Faviidae	U_Th	0	0	-1	-85.6	4.7	4.7	YokoyamaEtal2001,HibbertEtal2016
+Huon_Peninsula_MIS3_MIS4	U-Th	Bobo_U18	-6.3	147.8	42500	100	Faviidae	U_Th	0	0	-1	-97.9	5.6	5.6	YokoyamaEtal2001,HibbertEtal2016
+Huon_Peninsula_MIS3_MIS4	U-Th	Kanz_U10	-6.25	147.667	43800	100	Porites sp.	U_Th	0	0	-1	-68.2	4.9	4.9	YokoyamaEtal2001,HibbertEtal2016
+Huon_Peninsula_MIS3_MIS4	U-Th	Kanz_11	-6.25	147.667	51500	200	Porites sp.	U_Th	0	0	-1	-59.7	5.7	5.7	YokoyamaEtal2001,HibbertEtal2016
+Huon_Peninsula_MIS3_MIS4	U-Th	Kanz_4	-6.25	147.667	51600	1500	Faviidae	U_Th	0	0	-1	-52	7	7	YokoyamaEtal2001,HibbertEtal2016
+Huon_Peninsula_MIS3_MIS4	U-Th	Kanz_9	-6.25	147.667	53600	200	Faviidae	U_Th	0	0	-1	-65.3	5.9	5.9	YokoyamaEtal2001,HibbertEtal2016
+Huon_Peninsula_MIS3_MIS4	U-Th	Kanz_U14_T	-6.25	147.667	34900	3490	Faviidae	U_Th	0	0	-1	-67.3	3.9	3.9	ChappellEtal1996,HibbertEtal2016
+Huon_Peninsula_MIS3_MIS4	U-Th	BOBO_U10	-6.3	147.8	37900	3790	unknown coral	U_Th	0	0	-1	-71.2	5	5	ChappellEtal1996,HibbertEtal2016
+Huon_Peninsula_MIS3_MIS4	U-Th	Kanz_U9_T	-6.25	147.667	42300	4230	Faviidae	U_Th	0	0	-1	-85.2	4.7	4.7	ChappellEtal1996,HibbertEtal2016
+Huon_Peninsula_MIS3_MIS4	U-Th	Kanz_34	-6.25	147.667	44600	4460	Porites sp.	U_Th	0	0	-1	-63.4	4.9	4.9	ChappellEtal1996,HibbertEtal2016
+Huon_Peninsula_MIS3_MIS4	U-Th	Kanz_9T	-6.25	147.667	54700	5470	Faviidae	U_Th	0	0	-1	-68.5	6	6	ChappellEtal1996,HibbertEtal2016
+Huon_Peninsula_MIS3_MIS4	U-Th	Kanz_1	-6.25	147.667	61600	6160	Faviidae	U_Th	0	0	-1	-59.7	6.8	6.8	ChappellEtal1996,HibbertEtal2016

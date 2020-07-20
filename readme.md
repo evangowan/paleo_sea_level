@@ -24,14 +24,15 @@ Gowan, E.J., Tregoning, P., Purcell, A., Montillet, J.P. and McClusky, S., 2016.
 
 Special thanks:
 
-- Alisa V. Baranskaya for sending me the complete references for the Russian sea level database, including translations. 
+- Alisa V. Baranskaya for sending me the complete references for the Russian sea level database, including translations.
+- Simon Engelhart for sending me the reservoir corrections for the eastern United States database.
 
 -------------
 
 In this project, there are a series of scripts and programs to plot published paleo-sea level data and calculated sea level, and create a report that shows the results. To run these scripts, it is assumed that you have compiled the Fortran programs in the "Fortran/" directory. The scripts require the following:
 
 - bash shell
-- latex
+- latex (specifically Xelatex)
 - a fortran compiler (i.e. gfortran)
 - [Generic Mapping Tools](https://www.generic-mapping-tools.org/ "GMT"), version 5 (I assume version 6 will also work, but I have not tried it).
 - Perl (used to parse the radiocarbon calibration javascript file from Oxcal)

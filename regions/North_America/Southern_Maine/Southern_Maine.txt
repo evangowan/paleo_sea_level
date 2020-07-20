@@ -1,0 +1,87 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
+Southern_Maine	radiocarbon	BETA-63124	43.701	-69.824	7490	90	M. edu	marine	90	69	-1	-25.6242	3.0242364738889056	3.0242364738889056	BarnhardtEtal1995
+Southern_Maine	radiocarbon	BETA-63125	43.701	-69.824	7310	70	M. edu	marine	90	69	-1	-25.6243	3.024252014961716	3.024252014961716	BarnhardtEtal1995
+Southern_Maine	radiocarbon	BETA-69336	44.414	-68.857	8730	70	M. are	marine	90	69	-1	-27.4044	3.0243682332017707	3.0243682332017707	BarnhardtEtal1995
+Southern_Maine	radiocarbon	BETA-69337	44.414	-68.857	8730	60	M. are	marine	90	69	-1	-27.4044	3.024413346419434	3.024413346419434	BarnhardtEtal1995
+Southern_Maine	radiocarbon	GX-11004	44.119	-68.869	5880	105	M. are	marine	90	69	-1	-11.2454	0.7953772689736613	0.7953772689736613	KelleyEtal1992
+Southern_Maine	radiocarbon	GX-11005	44.119	-68.869	5430	100	M. are	marine	90	69	-1	-7.5954	0.7953772689736613	0.7953772689736613	KelleyEtal1992
+Southern_Maine	radiocarbon	OS-1860	43.707	-69.794	8710	35	M. bal	marine	90	69	-1	-26.6244	3.0244172992495595	3.0244172992495595	KelleyEtal1992
+Southern_Maine	radiocarbon	OS-1862	43.707	-69.794	8610	40	M. bal	marine	90	69	-1	-26.6244	3.0244172992495595	3.0244172992495595	KelleyEtal1992
+Southern_Maine	radiocarbon	PITT-0585	43.7	-69.767	9090	95	M. are	marine	90	69	-1	-24.2644	3.0244172992495595	3.0244172992495595	KelleyEtal1992
+Southern_Maine	radiocarbon	PITT-0586	43.7	-69.767	9250	110	M. are	marine	90	69	-1	-24.3644	3.0244172992495595	3.0244172992495595	KelleyEtal1992
+Southern_Maine	radiocarbon	PITT-0587	43.7	-69.767	7270	105	M. are	marine	90	69	-1	-24.5144	3.0244172992495595	3.0244172992495595	KelleyEtal1992
+Southern_Maine	radiocarbon	PiTT-0737	43.717	-70.167	9130	70	M. are	marine	90	69	-1	-24.1147	3.0247479233813848	3.0247479233813848	KelleyEtal1992
+Southern_Maine	radiocarbon	PITT-0739	43.533	-70.217	785	35	A. isl	marine	90	69	-1	-54.3144	3.0244172992495595	3.0244172992495595	KelleyEtal1992
+Southern_Maine	radiocarbon	PITT-0741	43.533	-70.217	5915	155	H. arc	marine	90	69	-1	-51.5144	3.0244172992495595	3.0244172992495595	KelleyEtal1992
+Southern_Maine	radiocarbon	PITT-0744	43.7	-69.767	9000	100	M. are	marine	90	69	-1	-22.6144	3.0244172992495595	3.0244172992495595	KelleyEtal1992
+Southern_Maine	radiocarbon	PITT-0745	43.7	-69.767	9630	75	M. are	marine	90	69	-1	-22.71441729924956	3.0244172992495595	3.0244172992495595	KelleyEtal1992
+Southern_Maine	radiocarbon	PITT-0746	43.7	-69.767	9700	65	M. mod	marine	90	69	-1	-22.91441729924956	3.0244172992495595	3.0244172992495595	KelleyEtal1992
+Southern_Maine	radiocarbon	PITT-0747	43.7	-69.767	9260	100	M. are	marine	90	69	-1	-24.7144	3.0244172992495595	3.0244172992495595	KelleyEtal1992
+Southern_Maine	radiocarbon	PITT-0748	43.7	-69.767	8250	80	M. edu	marine	90	69	-1	-22.8644	3.0244172992495595	3.0244172992495595	KelleyEtal1992
+Southern_Maine	radiocarbon	PITT-0749	43.7	-69.767	9235	60	M. are	marine	90	69	-1	-23.9144	3.0244172992495595	3.0244172992495595	KelleyEtal1992
+Southern_Maine	radiocarbon	PITT-0753	43.683	-69.917	1300	35	A. isl	marine	90	69	-1	-37.9144	3.0244172992495595	3.0244172992495595	BarnhardtEtal1995
+Southern_Maine	radiocarbon	PITT-0754	43.683	-69.917	2570	50	M. are	marine	90	69	-1	-39.0144	3.0244172992495595	3.0244172992495595	BarnhardtEtal1995
+Southern_Maine	radiocarbon	PITT-0755	43.683	-69.917	2950	210	M. are	marine	90	69	-1	-42.1146	3.02456608458139	3.02456608458139	BelknapEtal1989
+Southern_Maine	radiocarbon	PITT-0756	43.8	-69.85	8270	75	A. isl	marine	90	69	-1	-46.1144	3.0244172992495595	3.0244172992495595	BelknapEtal1989
+Southern_Maine	radiocarbon	AA-33346	43.292	-70.573	465	60	Saltmarsh peat	terrestrial	0	0	0	-0.6	0.43	0.43	GehrelsEtal1996
+Southern_Maine	radiocarbon	AA-33347	43.292	-70.573	825	45	Saltmarsh peat	terrestrial	0	0	0	-0.68	0.43	0.43	GehrelsEtal1996
+Southern_Maine	radiocarbon	AA-33348	43.292	-70.573	1020	55	Saltmarsh peat	terrestrial	0	0	0	-0.77	0.43	0.43	GehrelsEtal1996
+Southern_Maine	radiocarbon	AA-33349	43.292	-70.573	1105	45	Saltmarsh peat	terrestrial	0	0	0	-0.82	0.43	0.43	GehrelsEtal1996
+Southern_Maine	radiocarbon	AA-8208	43.292	-70.573	4235	70	BM peat	terrestrial	0	0	0	-2.95	0.3847	0.3847	GehrelsEtal1996
+Southern_Maine	radiocarbon	AA-8209	43.292	-70.573	4735	70	BM peat	terrestrial	0	0	0	-4.15	0.3865	0.3865	KelleyEtal1995
+Southern_Maine	radiocarbon	AA-8212	43.742	-69.832	4945	75	LM peat	terrestrial	0	0	0	-6.49	0.41	0.41	KelleyEtal1995
+Southern_Maine	radiocarbon	AA-8937	43.752	-69.822	990	60	HM peat	terrestrial	0	0	0	-0.62	0.4	0.4	GehrelsEtal1996
+Southern_Maine	radiocarbon	AA-8938	43.752	-69.822	2675	70	HM peat	terrestrial	0	0	0	-1.89	0.4	0.4	GehrelsEtal1996
+Southern_Maine	radiocarbon	AA-8939	43.752	-69.822	4270	70	HM peat	terrestrial	0	0	0	-3.09	0.4	0.4	GehrelsEtal1996
+Southern_Maine	radiocarbon	AA-8940	43.742	-69.832	2770	65	HM peat	terrestrial	0	0	0	-1.71	0.4	0.4	BelknapEtal1989
+Southern_Maine	radiocarbon	BETA-106461	43.292	-70.573	270	60	Saltmarsh peat	terrestrial	0	0	0	-0.53	0.43	0.43	BelknapEtal1989
+Southern_Maine	radiocarbon	BETA-106462	43.292	-70.573	1140	60	Saltmarsh peat	terrestrial	0	0	0	-0.88	0.43	0.43	BelknapEtal1989
+Southern_Maine	radiocarbon	Beta-44061	43.292	-70.573	980	55	Sp	terrestrial	0	0	0	-0.67	0.3843	0.3843	BelknapEtal1989
+Southern_Maine	radiocarbon	Beta-44062	43.292	-70.573	2100	55	Sp	terrestrial	0	0	0	-1.58	0.3846	0.3846	BelknapEtal1989
+Southern_Maine	radiocarbon	Beta-44063	43.292	-70.573	2520	60	Sp	terrestrial	0	0	0	-2.38	0.39	0.39	BelknapEtal1989
+Southern_Maine	radiocarbon	Beta-44064	43.292	-70.573	3510	60	Sp	terrestrial	0	0	0	-3.01	0.3854	0.3854	BelknapEtal1989
+Southern_Maine	radiocarbon	BETA-50161	43.752	-69.822	4980	60	LM peat	terrestrial	0	0	0	-6.9	0.41	0.41	BelknapEtal1989
+Southern_Maine	radiocarbon	BETA-52188	43.752	-69.822	3760	60	HM peat	terrestrial	0	0	0	-3.03	0.41	0.41	BelknapEtal1989
+Southern_Maine	radiocarbon	GX-11006	44.176	-68.825	2145	125	HM peat	terrestrial	0	0	0	-1.51	0.9353	0.9353	KelleyEtal1995
+Southern_Maine	radiocarbon	GX-11007	44.176	-68.825	3255	150	HM peat	terrestrial	0	0	0	-2.26	0.9353	0.9353	KelleyEtal1995
+Southern_Maine	radiocarbon	PITT-0896	43.34	-70.541	300	50	HM peat	terrestrial	0	0	0	-0.725	0.3871	0.3871	GehrelsEtal1996
+Southern_Maine	radiocarbon	PITT-0897	43.34	-70.541	1090	50	HM peat	terrestrial	0	0	0	-1.265	0.3859	0.3859	KelleyEtal1995
+Southern_Maine	radiocarbon	PITT-0900	43.34	-70.541	4335	60	LM peat	terrestrial	0	0	0	-2.23	0.69	0.69	GehrelsEtal1996
+Southern_Maine	radiocarbon	PITT-0902	43.34	-70.541	705	165	LM peat	terrestrial	0	0	0	-0.36	0.76	0.76	GehrelsEtal1996
+Southern_Maine	radiocarbon	PITT-0906	43.292	-70.573	2225	60	LM peat	terrestrial	0	0	0	-1.34	0.69	0.69	GehrelsEtal1996
+Southern_Maine	radiocarbon	PITT-0907	43.292	-70.573	4255	55	BM peat	terrestrial	0	0	0	-3.595	0.3869	0.3869	KelleyEtal1995
+Southern_Maine	radiocarbon	PITT-0909	43.292	-70.573	3065	75	HM peat	terrestrial	0	0	0	-2.6	0.3856	0.3856	KelleyEtal1995
+Southern_Maine	radiocarbon	PITT-0912	43.292	-70.573	3585	60	LM peat	terrestrial	0	0	0	-2.88	0.69	0.69	KelleyEtal1995
+Southern_Maine	radiocarbon	PITT-0916	43.292	-70.573	2010	40	HM peat	terrestrial	0	0	0	-1.335	0.3898	0.3898	KelleyEtal1995
+Southern_Maine	radiocarbon	PITT-0917	43.292	-70.573	3900	145	BM peat	terrestrial	0	0	0	-2.8	0.4046	0.4046	KelleyEtal1995
+Southern_Maine	radiocarbon	PITT-0918	43.292	-70.573	3265	70	BM peat	terrestrial	0	0	0	-2.9	0.3881	0.3881	KelleyEtal1995
+Southern_Maine	radiocarbon	PITT-0920	43.292	-70.573	3340	55	BM peat	terrestrial	0	0	0	-1.75	0.39	0.39	KelleyEtal1995
+Southern_Maine	radiocarbon	PITT-0965	43.752	-69.822	4480	95	HHM peat	terrestrial	0	0	0	-4.13	0.4	0.4	KelleyEtal1995
+Southern_Maine	radiocarbon	PITT-0967	43.752	-69.822	3470	150	HHM peat	terrestrial	0	0	0	-3.57	0.41	0.41	KelleyEtal1995
+Southern_Maine	radiocarbon	PITT-0968	43.752	-69.822	3435	45	HHM peat	terrestrial	0	0	0	-2.33	0.41	0.41	KelleyEtal1995
+Southern_Maine	radiocarbon	SI-6546	43.752	-69.822	155	45	HM peat	terrestrial	0	0	0	-1	0.8424	0.8424	KelleyEtal1995
+Southern_Maine	radiocarbon	SI-6547	43.752	-69.822	2540	55	HM peat	terrestrial	0	0	0	-2.91	0.8424	0.8424	KelleyEtal1995
+Southern_Maine	radiocarbon	SI-6549	43.752	-69.822	540	60	HHM peat	terrestrial	0	0	0	-1.485	0.8426	0.8426	KelleyEtal1995
+Southern_Maine	radiocarbon	SI-6550	43.752	-69.822	1305	60	HM peat	terrestrial	0	0	0	-1.48	0.8424	0.8424	KelleyEtal1995
+Southern_Maine	radiocarbon	SI-6551	43.752	-69.822	1505	80	HHM peat	terrestrial	0	0	0	-1.85	0.8433	0.8433	GehrelsEtal2002
+Southern_Maine	radiocarbon	SI-6553	43.752	-69.822	2115	50	LM peat	terrestrial	0	0	0	-1.475	1.0804	1.0804	GehrelsEtal2002
+Southern_Maine	radiocarbon	SI-6555	43.752	-69.822	2865	70	HM peat	terrestrial	0	0	0	-1.995	0.843	0.843	GehrelsEtal2002
+Southern_Maine	radiocarbon	SI-6617	43.964	-69.571	6295	55	HHM peat	terrestrial	0	0	0	-15.31	0.4	0.4	GehrelsEtal2002
+Southern_Maine	radiocarbon	SI-6618	43.292	-70.573	1470	55	HM peat	terrestrial	0	0	0	-0.95	0.3863	0.3863	GehrelsEtal2002
+Southern_Maine	radiocarbon	SI-6619	43.292	-70.573	3080	70	HM peat	terrestrial	0	0	0	-1.555	0.386	0.386	GehrelsEtal2002
+Southern_Maine	radiocarbon	SI-6620	43.292	-70.573	3865	55	HM peat	terrestrial	0	0	0	-3.14	0.3885	0.3885	GehrelsEtal1996
+Southern_Maine	radiocarbon	SI-6621	43.292	-70.573	1345	55	HM peat	terrestrial	0	0	0	-1.17	0.3854	0.3854	GehrelsEtal1996
+Southern_Maine	radiocarbon	SI-6622	43.292	-70.573	1755	55	LM peat	terrestrial	0	0	0	-0.96	0.69	0.69	GehrelsEtal1996
+Southern_Maine	radiocarbon	SI-6623	43.292	-70.573	5135	70	HM peat	terrestrial	0	0	0	-5.845	0.3911	0.3911	GehrelsEtal1996
+Southern_Maine	radiocarbon	SI-6624	43.292	-70.573	2495	80	LM peat	terrestrial	0	0	0	-1.85	0.69	0.69	GehrelsEtal1996
+Southern_Maine	radiocarbon	SI-6625	43.292	-70.573	3780	55	HM peat	terrestrial	0	0	0	-4.19	0.3881	0.3881	GehrelsEtal1996
+Southern_Maine	radiocarbon	SI-6626	43.292	-70.573	4380	55	HM peat	terrestrial	0	0	0	-5.085	0.3886	0.3886	GehrelsEtal1996
+Southern_Maine	radiocarbon	SI-6627	43.292	-70.573	3105	70	HM peat	terrestrial	0	0	0	-2.24	0.3859	0.3859	GehrelsEtal1996
+Southern_Maine	radiocarbon	SI-6628	43.292	-70.573	3705	50	HM peat	terrestrial	0	0	0	-2.92	0.3864	0.3864	GehrelsEtal1996
+Southern_Maine	radiocarbon	SI-6629	43.292	-70.573	4220	60	HHM peat	terrestrial	0	0	0	-3.79	0.3871	0.3871	KelleyEtal1995
+Southern_Maine	radiocarbon	GX-11008	44.176	-68.825	3700	200	Wood	terrestrial	0	0	1	-0.5246	0.8	0.8	BelknapEtal1989
+Southern_Maine	radiocarbon	PITT-0913	43.32	-70.58	4480	60	wood	terrestrial	0	0	1	-2.0605	0.16449999999999998	0.16449999999999998	KelleyEtal1995
+Southern_Maine	radiocarbon	PITT-0962	43.32	-70.58	4535	35	stump	terrestrial	0	0	1	-1.2349	0.2551470164434615	0.2551470164434615	KelleyEtal1995
+Southern_Maine	radiocarbon	PITT-0963	43.32	-70.58	3260	40	stump	terrestrial	0	0	1	-1.2349	0.2551470164434615	0.2551470164434615	Bloom1963
+Southern_Maine	radiocarbon	W-396	43.32	-70.58	2980	180	white pine stump	terrestrial	0	0	1	2.8315	0.7315052973150639	0.7315052973150639	Bloom1963
+Southern_Maine	radiocarbon	W-508	43.32	-70.58	2810	200	white pine stump	terrestrial	0	0	1	3.9015	0.7315052973150639	0.7315052973150639	KelleyEtal1995

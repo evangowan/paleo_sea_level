@@ -1,45 +1,45 @@
-Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference		
-Zemlya_Georga	radiocarbon	Mo-421	80.8	47.29	1550	150.61	Driftwood	terrestrial	0	0	0	3.4625	2.895389654260718	2.895389654260718	Grosswald1973,FormanEtal2004		Grossvald 1973  (in Russian) (as in Forman et al. 2004)
-Zemlya_Georga	radiocarbon	St-12664	80.8	47.29	1655	119.83	Driftwood	terrestrial	0	0	0	3.4625	2.895389654260718	2.895389654260718	GlazovskiyEtal1992,FormanEtal2004		Glazovskiy et al. 1992 (as in Forman et al. 2004)
-Zemlya_Georga	radiocarbon	Zemlya_Georga-5	80.8	47.29	3000	111.73	Driftwood	terrestrial	0	0	0	6.9625	2.895389654260718	2.895389654260718	Kovaleva1974,FormanEtal2004		Kovaleva 1974  (in Russian) (as in Forman et al. 2004)
-Zemlya_Georga	radiocarbon	St-12668	80.8	47.29	3385	119.83	Driftwood	terrestrial	0	0	0	6.9625	2.895389654260718	2.895389654260718	GlazovskiyEtal1992,FormanEtal2004		Glazovskiy et al. 1992 (as in Forman et al. 2004)
-Zemlya_Georga	radiocarbon	Le-179	80.8	47.29	4250	132.51	Driftwood	terrestrial	0	0	0	8.4625	2.895389654260718	2.895389654260718	Dibner1965,FormanEtal2004		Dibner 1965  (in Russian)  (as in Forman et al. 2004)
-Zemlya_Georga	radiocarbon	Zemlya_Georga-9	80.8	47.29	4520	114.27	Driftwood	terrestrial	0	0	0	8.4625	2.895389654260718	2.895389654260718	Kovaleva1974,FormanEtal2004		Kovaleva 1974  (in Russian) (as in Forman et al. 2004)
-Zemlya_Georga	radiocarbon	Zemlya_Georga-11	80.8	47.29	4600	109.35	Driftwood	terrestrial	0	0	0	17.4625	2.895389654260718	2.895389654260718	Kovaleva1974,FormanEtal2004		Kovaleva 1974  (in Russian) (as in Forman et al. 2004)
-Zemlya_Georga	radiocarbon	St-12665	80.8	47.29	4980	122.81	Driftwood	terrestrial	0	0	0	13.9625	2.895389654260718	2.895389654260718	GlazovskiyEtal1992,FormanEtal2004		Glazovskiy et al. 1992 (as in Forman et al. 2004)
-Zemlya_Georga	radiocarbon	Mo-355	80.8	47.29	5940	273.28	Algae peat	marine	35	22	0	15.9625	2.895389654260718	2.895389654260718	Grosswald1973,FormanEtal2004		Grossvald 1973  (in Russian) (as in Forman et al. 2004)
-Zemlya_Georga	radiocarbon	St-12663	80.8	47.29	6090	119.83	Driftwood	terrestrial	0	0	0	21.4625	2.895389654260718	2.895389654260718	GlazovskiyEtal1992,FormanEtal2004		Glazovskiy et al. 1992 (as in Forman et al. 2004)
-Zemlya_Georga	radiocarbon	Zemlya_Georga-3	80.8	47.29	6760	119.83	Driftwood	terrestrial	0	0	0	19.4625	2.895389654260718	2.895389654260718	Kovaleva1974,FormanEtal2004		Kovaleva 1974  (in Russian) (as in Forman et al. 2004)
-Zemlya_Georga	radiocarbon	St-12666	80.8	47.29	6765	122.81	Driftwood	terrestrial	0	0	0	19.9625	2.895389654260718	2.895389654260718	GlazovskiyEtal1992,FormanEtal2004		Glazovskiy et al. 1992 (as in Forman et al. 2004)
-Zemlya_Georga	radiocarbon	St-12783	80.8	47.29	8265	479.54	Shells	marine	35	22	-1	15	2.3313086453749534	2.3313086453749534	GlazovskiyEtal1992,FormanEtal2004		Glazovskiy et al. 1992 (as in Forman et al. 2004)
-Zemlya_Georga	radiocarbon	Zemlya_Georga-2	80.79	47.68	5592.99	81.42	driftwood	terrestrial	0	0	0	13.4625	3.1832815222659776	3.1832815222659776	tocome		Kovaleva et al. 1974  (in Russian)
-Zemlya_Georga	radiocarbon	Zemlya_Georga-8	80.79	47.7	4282.99	110.59	driftwood	terrestrial	0	0	0	8.4625	3.1832815222659776	3.1832815222659776	tocome		Kovaleva et al. 1974  (in Russian)
-Zemlya_Georga	radiocarbon	Zemlya_Georga-7	80.79	47.71	6792.99	95.03	driftwood	terrestrial	0	0	0	19.4625	3.1832815222659776	3.1832815222659776	tocome		Kovaleva et al. 1974  (in Russian)
-Zemlya_Georga	radiocarbon	Zemlya_Georga-6	80.78	47.72	3032.99	84.59	driftwood	terrestrial	0	0	0	6.9625	3.1832815222659776	3.1832815222659776	tocome		Kovaleva et al. 1974  (in Russian)
-Zemlya_Georga	radiocarbon	Zemlya_Georga-1	80.79	47.72	4632.99	81.42	driftwood	terrestrial	0	0	0	17.4625	3.1832815222659776	3.1832815222659776	tocome		Kovaleva et al. 1974  (in Russian)
-Zemlya_Georga	radiocarbon	Zemlya_Georga-10	80.79	47.76	4552.99	87.92	driftwood	terrestrial	0	0	0	8.4625	3.1832815222659776	3.1832815222659776	tocome		Kovaleva et al. 1974  (in Russian)
-Zemlya_Georga	radiocarbon	LU-5147	80.15	48.84	8653.24	145.02	molluscs	marine	35	22	-1	11	2.7381563140186134	2.7381563140186134	BolshiyanovEtal2009		Bolshiyanov et al. 2009  (in Russian)
-Zemlya_Georga	U-Th	Zemlya_Georga-4	80.15	48.84	11500	1500	molluscs	U-series	0	0	-1	11	2.7381563140186134	2.7381563140186134	BolshiyanovEtal2009		Bolshiyanov et al. 2009  (in Russian)
-Zemlya_Georga	radiocarbon	GX-19477	80.46	49.22	1340	80	0.5-m long log on raised beach above storm limit	terrestrial	0	0	0	2.4625	2.895389654260718	2.895389654260718	FormanEtal1996,FormanEtal2004		Forman et al. 1996 (as in Forman et al. 2004) (as in Forman et al. 2004)
-Zemlya_Georga	radiocarbon	GX-19478	80.46	49.22	2180	80	2.5-m long log on raised beach	terrestrial	0	0	0	5.4625	2.895389654260718	2.895389654260718	FormanEtal1996,FormanEtal2004		Forman et al. 1996 (as in Forman et al. 2004)
-Zemlya_Georga	radiocarbon	GX-19479	80.46	49.22	2480	100	3-m long log in swale of raised beach	terrestrial	0	0	0	7.4625	2.895389654260718	2.895389654260718	FormanEtal1996,FormanEtal2004		Forman et al. 1996 (as in Forman et al. 2004)
-Zemlya_Georga	radiocarbon	GX-19480	80.46	49.22	3860	90	5-m long log on descending raised beach	terrestrial	0	0	0	13.4625	2.895389654260718	2.895389654260718	FormanEtal1996,FormanEtal2004		Forman et al. 1996 (as in Forman et al. 2004)
-Zemlya_Georga	radiocarbon	GX-1948	80.46	49.22	4565	115	1-m long tree root-plate fragment on raised beach	terrestrial	0	0	0	16.4625	2.895389654260718	2.895389654260718	FormanEtal1996,FormanEtal2004		Forman et al. 1996 (as in Forman et al. 2004)
-Zemlya_Georga	radiocarbon	GX-19482	80.46	49.22	4785	95	3-m long log on descending raised beach	terrestrial	0	0	0	18.4625	2.895389654260718	2.895389654260718	FormanEtal1996,FormanEtal2004		Forman et al. 1996 (as in Forman et al. 2004)
-Zemlya_Georga	radiocarbon	AA-12482	80.46	49.22	5475	70	Paired Mya tnuncata from glacial marine silt	marine	35	22	-1	20	2.3313086453749534	2.3313086453749534	FormanEtal1996,FormanEtal2004		Forman et al. 1996 (as in Forman et al. 2004)
-Zemlya_Georga	radiocarbon	GX-19476	80	49.23	1050	85	1.5-m long log on raised beach above storm limit	terrestrial	0	0	0	1.4625	2.895389654260718	2.895389654260718	FormanEtal1996,FormanEtal2004		Forman et al. 1996 (as in Forman et al. 2004) (as in Forman et al. 2004)
-Zemlya_Georga	radiocarbon	GX-19570	80	49.23	2205	110	1.5-m long log embedded into raised beach	terrestrial	0	0	0	4.4625	2.895389654260718	2.895389654260718	FormanEtal1996,FormanEtal2004		Forman et al. 1996 (as in Forman et al. 2004) (as in Forman et al. 2004)
-Zemlya_Georga	radiocarbon	GX-19471G	80	49.23	3240	85	Whale vertebrae on raised beach	marine	35	22	0	7.4625	2.895389654260718	2.895389654260718	FormanEtal1996,FormanEtal2004		Forman et al. 1996 (as in Forman et al. 2004) (as in Forman et al. 2004)
-Zemlya_Georga	radiocarbon	GX-19472G	80	49.23	4345	90	Whale skull fragment on buried in raised beach	marine	35	22	0	11.4625	2.895389654260718	2.895389654260718	FormanEtal1996,FormanEtal2004		Forman et al. 1996 (as in Forman et al. 2004) (as in Forman et al. 2004)
-Zemlya_Georga	radiocarbon	GX-19473G	80	49.23	4695	90	3-m long whale jaw bone on raised spit	marine	35	22	0	14.4625	2.895389654260718	2.895389654260718	FormanEtal1996,FormanEtal2004		Forman et al. 1996 (as in Forman et al. 2004) (as in Forman et al. 2004)
-Zemlya_Georga	radiocarbon	GX-19474G	80	49.23	5905	90	Whale skull fragment on buried in raised beach	marine	35	22	0	21.4625	2.895389654260718	2.895389654260718	FormanEtal1996,FormanEtal2004		Forman et al. 1996 (as in Forman et al. 2004) (as in Forman et al. 2004)
-Zemlya_Georga	radiocarbon	GX-19475	80	49.23	6045	125	Driftwood at marine escarpment	terrestrial	0	0	0	25.4625	2.895389654260718	2.895389654260718	FormanEtal1996,FormanEtal2004		Forman et al. 1996 (as in Forman et al. 2004) (as in Forman et al. 2004)
-Zemlya_Georga	radiocarbon	GX-17209G	80	49.23	9660	120	2-m long whale ribimb edded in raised beach	marine	35	22	0	45.4625	2.895389654260718	2.895389654260718	FormanEtal1996,FormanEtal2004		Forman et al. 1996 (as in Forman et al. 2004)
-Zemlya_Georga	radiocarbon	GX-17208	80	49.23	9705	105	Driftwood embedded into raised beach	terrestrial	0	0	0	43.4625	2.895389654260718	2.895389654260718	FormanEtal1996,FormanEtal2004		Forman et al. 1996 (as in Forman et al. 2004) (as in Forman et al. 2004)
-Zemlya_Georga	radiocarbon	GX-19483G2	80.09	51.03	1865	80	1.5-m long whale rib embedded in raised beach	marine	35	22	0	1.4625	2.895389654260718	2.895389654260718	FormanEtal1996,FormanEtal2004		Forman et al. 1996 (as in Forman et al. 2004) (as in Forman et al. 2004)
-Zemlya_Georga	radiocarbon	GX-19484G	80.09	51.03	2845	105	Whale vertebrae disc imbedded in raised beach	marine	35	22	0	6.4625	2.895389654260718	2.895389654260718	FormanEtal1996,FormanEtal2004		Forman et al. 1996 (as in Forman et al. 2004)
-Zemlya_Georga	radiocarbon	GX-19485_1	80.09	51.03	3950	110	2-m long log on raised beach	terrestrial	0	0	0	11.4625	2.895389654260718	2.895389654260718	FormanEtal1996,FormanEtal2004		Forman et al. 1996 (as in Forman et al. 2004)
-Zemlya_Georga	radiocarbon	GX-19485_2	80.09	51.03	4380	90	1.2-m long log on descending raised beach	terrestrial	0	0	0	16.4625	2.895389654260718	2.895389654260718	FormanEtal1996,FormanEtal2004		Forman et al. 1996 (as in Forman et al. 2004)
-Zemlya_Georga	radiocarbon	AA-15679	80.09	51.03	4435	70	1-m long log on raised beach	terrestrial	0	0	0	20.4625	2.895389654260718	2.895389654260718	FormanEtal1996,FormanEtal2004		Forman et al. 1996 (as in Forman et al. 2004)
-Zemlya_Georga	radiocarbon	AA-16586	80.09	51.03	6300	65	1-m long log on raised beach	terrestrial	0	0	0	28.4625	2.895389654260718	2.895389654260718	FormanEtal1996,FormanEtal2004		Forman et al. 1996 (as in Forman et al. 2004)
-Zemlya_Georga	radiocarbon	GX-19487G	80.09	51.03	9660	165	Whale vertebrae on raised beach	marine			0	34.4625	2.895389654260718	2.895389654260718	FormanEtal1996,FormanEtal2004		Forman et al. 1996 (as in Forman et al. 2004)
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
+Zemlya_Georga	radiocarbon	Mo-421	80.8	47.29	1550	150.61	Driftwood	terrestrial	0	0	0	3.4625	2.895389654260718	2.895389654260718	Grosswald1973,FormanEtal2004
+Zemlya_Georga	radiocarbon	St-12664	80.8	47.29	1655	119.83	Driftwood	terrestrial	0	0	0	3.4625	2.895389654260718	2.895389654260718	GlazovskiyEtal1992,FormanEtal2004
+Zemlya_Georga	radiocarbon	Zemlya_Georga-5	80.8	47.29	3000	111.73	Driftwood	terrestrial	0	0	0	6.9625	2.895389654260718	2.895389654260718	Kovaleva1974,FormanEtal2004
+Zemlya_Georga	radiocarbon	St-12668	80.8	47.29	3385	119.83	Driftwood	terrestrial	0	0	0	6.9625	2.895389654260718	2.895389654260718	GlazovskiyEtal1992,FormanEtal2004
+Zemlya_Georga	radiocarbon	Le-179	80.8	47.29	4250	132.51	Driftwood	terrestrial	0	0	0	8.4625	2.895389654260718	2.895389654260718	Dibner1965,FormanEtal2004
+Zemlya_Georga	radiocarbon	Zemlya_Georga-9	80.8	47.29	4520	114.27	Driftwood	terrestrial	0	0	0	8.4625	2.895389654260718	2.895389654260718	Kovaleva1974,FormanEtal2004
+Zemlya_Georga	radiocarbon	Zemlya_Georga-11	80.8	47.29	4600	109.35	Driftwood	terrestrial	0	0	0	17.4625	2.895389654260718	2.895389654260718	Kovaleva1974,FormanEtal2004
+Zemlya_Georga	radiocarbon	St-12665	80.8	47.29	4980	122.81	Driftwood	terrestrial	0	0	0	13.9625	2.895389654260718	2.895389654260718	GlazovskiyEtal1992,FormanEtal2004
+Zemlya_Georga	radiocarbon	Mo-355	80.8	47.29	5940	273.28	Algae peat	marine	35	22	0	15.9625	2.895389654260718	2.895389654260718	Grosswald1973,FormanEtal2004
+Zemlya_Georga	radiocarbon	St-12663	80.8	47.29	6090	119.83	Driftwood	terrestrial	0	0	0	21.4625	2.895389654260718	2.895389654260718	GlazovskiyEtal1992,FormanEtal2004
+Zemlya_Georga	radiocarbon	Zemlya_Georga-3	80.8	47.29	6760	119.83	Driftwood	terrestrial	0	0	0	19.4625	2.895389654260718	2.895389654260718	Kovaleva1974,FormanEtal2004
+Zemlya_Georga	radiocarbon	St-12666	80.8	47.29	6765	122.81	Driftwood	terrestrial	0	0	0	19.9625	2.895389654260718	2.895389654260718	GlazovskiyEtal1992,FormanEtal2004
+Zemlya_Georga	radiocarbon	St-12783	80.8	47.29	8265	479.54	Shells	marine	35	22	-1	15	2.3313086453749534	2.3313086453749534	GlazovskiyEtal1992,FormanEtal2004
+Zemlya_Georga	radiocarbon	Zemlya_Georga-2	80.79	47.68	5592.99	81.42	driftwood	terrestrial	0	0	0	13.4625	3.1832815222659776	3.1832815222659776	Kovaleva1974
+Zemlya_Georga	radiocarbon	Zemlya_Georga-8	80.79	47.7	4282.99	110.59	driftwood	terrestrial	0	0	0	8.4625	3.1832815222659776	3.1832815222659776	Kovaleva1974
+Zemlya_Georga	radiocarbon	Zemlya_Georga-7	80.79	47.71	6792.99	95.03	driftwood	terrestrial	0	0	0	19.4625	3.1832815222659776	3.1832815222659776	Kovaleva1974
+Zemlya_Georga	radiocarbon	Zemlya_Georga-6	80.78	47.72	3032.99	84.59	driftwood	terrestrial	0	0	0	6.9625	3.1832815222659776	3.1832815222659776	Kovaleva1974
+Zemlya_Georga	radiocarbon	Zemlya_Georga-1	80.79	47.72	4632.99	81.42	driftwood	terrestrial	0	0	0	17.4625	3.1832815222659776	3.1832815222659776	Kovaleva1974
+Zemlya_Georga	radiocarbon	Zemlya_Georga-10	80.79	47.76	4552.99	87.92	driftwood	terrestrial	0	0	0	8.4625	3.1832815222659776	3.1832815222659776	Kovaleva1974
+Zemlya_Georga	radiocarbon	LU-5147	80.15	48.84	8653.24	145.02	molluscs	marine	35	22	-1	11	2.7381563140186134	2.7381563140186134	BolshiyanovEtal2009
+Zemlya_Georga	U-Th	Zemlya_Georga-4	80.15	48.84	11500	1500	molluscs	U-series	0	0	-1	11	2.7381563140186134	2.7381563140186134	BolshiyanovEtal2009
+Zemlya_Georga	radiocarbon	GX-19477	80.46	49.22	1340	80	0.5-m long log on raised beach above storm limit	terrestrial	0	0	0	2.4625	2.895389654260718	2.895389654260718	FormanEtal1996,FormanEtal2004
+Zemlya_Georga	radiocarbon	GX-19478	80.46	49.22	2180	80	2.5-m long log on raised beach	terrestrial	0	0	0	5.4625	2.895389654260718	2.895389654260718	FormanEtal1996,FormanEtal2004
+Zemlya_Georga	radiocarbon	GX-19479	80.46	49.22	2480	100	3-m long log in swale of raised beach	terrestrial	0	0	0	7.4625	2.895389654260718	2.895389654260718	FormanEtal1996,FormanEtal2004
+Zemlya_Georga	radiocarbon	GX-19480	80.46	49.22	3860	90	5-m long log on descending raised beach	terrestrial	0	0	0	13.4625	2.895389654260718	2.895389654260718	FormanEtal1996,FormanEtal2004
+Zemlya_Georga	radiocarbon	GX-1948	80.46	49.22	4565	115	1-m long tree root-plate fragment on raised beach	terrestrial	0	0	0	16.4625	2.895389654260718	2.895389654260718	FormanEtal1996,FormanEtal2004
+Zemlya_Georga	radiocarbon	GX-19482	80.46	49.22	4785	95	3-m long log on descending raised beach	terrestrial	0	0	0	18.4625	2.895389654260718	2.895389654260718	FormanEtal1996,FormanEtal2004
+Zemlya_Georga	radiocarbon	AA-12482	80.46	49.22	5475	70	Paired Mya tnuncata from glacial marine silt	marine	35	22	-1	20	2.3313086453749534	2.3313086453749534	FormanEtal1996,FormanEtal2004
+Zemlya_Georga	radiocarbon	GX-19476	80	49.23	1050	85	1.5-m long log on raised beach above storm limit	terrestrial	0	0	0	1.4625	2.895389654260718	2.895389654260718	FormanEtal1996,FormanEtal2004
+Zemlya_Georga	radiocarbon	GX-19570	80	49.23	2205	110	1.5-m long log embedded into raised beach	terrestrial	0	0	0	4.4625	2.895389654260718	2.895389654260718	FormanEtal1996,FormanEtal2004
+Zemlya_Georga	radiocarbon	GX-19471G	80	49.23	3240	85	Whale vertebrae on raised beach	marine	35	22	0	7.4625	2.895389654260718	2.895389654260718	FormanEtal1996,FormanEtal2004
+Zemlya_Georga	radiocarbon	GX-19472G	80	49.23	4345	90	Whale skull fragment on buried in raised beach	marine	35	22	0	11.4625	2.895389654260718	2.895389654260718	FormanEtal1996,FormanEtal2004
+Zemlya_Georga	radiocarbon	GX-19473G	80	49.23	4695	90	3-m long whale jaw bone on raised spit	marine	35	22	0	14.4625	2.895389654260718	2.895389654260718	FormanEtal1996,FormanEtal2004
+Zemlya_Georga	radiocarbon	GX-19474G	80	49.23	5905	90	Whale skull fragment on buried in raised beach	marine	35	22	0	21.4625	2.895389654260718	2.895389654260718	FormanEtal1996,FormanEtal2004
+Zemlya_Georga	radiocarbon	GX-19475	80	49.23	6045	125	Driftwood at marine escarpment	terrestrial	0	0	0	25.4625	2.895389654260718	2.895389654260718	FormanEtal1996,FormanEtal2004
+Zemlya_Georga	radiocarbon	GX-17209G	80	49.23	9660	120	2-m long whale ribimb edded in raised beach	marine	35	22	0	45.4625	2.895389654260718	2.895389654260718	FormanEtal1996,FormanEtal2004
+Zemlya_Georga	radiocarbon	GX-17208	80	49.23	9705	105	Driftwood embedded into raised beach	terrestrial	0	0	0	43.4625	2.895389654260718	2.895389654260718	FormanEtal1996,FormanEtal2004
+Zemlya_Georga	radiocarbon	GX-19483G2	80.09	51.03	1865	80	1.5-m long whale rib embedded in raised beach	marine	35	22	0	1.4625	2.895389654260718	2.895389654260718	FormanEtal1996,FormanEtal2004
+Zemlya_Georga	radiocarbon	GX-19484G	80.09	51.03	2845	105	Whale vertebrae disc imbedded in raised beach	marine	35	22	0	6.4625	2.895389654260718	2.895389654260718	FormanEtal1996,FormanEtal2004
+Zemlya_Georga	radiocarbon	GX-19485_1	80.09	51.03	3950	110	2-m long log on raised beach	terrestrial	0	0	0	11.4625	2.895389654260718	2.895389654260718	FormanEtal1996,FormanEtal2004
+Zemlya_Georga	radiocarbon	GX-19485_2	80.09	51.03	4380	90	1.2-m long log on descending raised beach	terrestrial	0	0	0	16.4625	2.895389654260718	2.895389654260718	FormanEtal1996,FormanEtal2004
+Zemlya_Georga	radiocarbon	AA-15679	80.09	51.03	4435	70	1-m long log on raised beach	terrestrial	0	0	0	20.4625	2.895389654260718	2.895389654260718	FormanEtal1996,FormanEtal2004
+Zemlya_Georga	radiocarbon	AA-16586	80.09	51.03	6300	65	1-m long log on raised beach	terrestrial	0	0	0	28.4625	2.895389654260718	2.895389654260718	FormanEtal1996,FormanEtal2004
+Zemlya_Georga	radiocarbon	GX-19487G	80.09	51.03	9660	165	Whale vertebrae on raised beach	marine			0	34.4625	2.895389654260718	2.895389654260718	FormanEtal1996,FormanEtal2004

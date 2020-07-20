@@ -1,5 +1,5 @@
-Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	
-Yuzhny_Island	radiocarbon	Yuzhny_Island-1	71.63	51.6	10550	212.27	peat	terrestrial	0	0	1	50	5.100990099970789	5.100990099970789	ZhuravlevEtal2013	State Geologic Map of Russia 2013  (in Russian)
-Yuzhny_Island	radiocarbon	Yuzhny_Island-2	71.63	51.6	15120	184.01	peat	terrestrial	0	0	1	50	5.100990099970789	5.100990099970789	ZhuravlevEtal2013	State Geologic Map of Russia 2013  (in Russian)
-Yuzhny_Island	radiocarbon	TUa-4975	72.09	52.04	550	472.72	Mytilus edulis	marine	-124	22	-1	4	2.6804850307360417	2.6804850307360417	tocome	Mangerud et al. 2008
-Yuzhny_Island	radiocarbon	LU-5387	70.52	56.65	2952.99	143.28	peat	terrestrial	0	0	1	35	2.692136697866585	2.692136697866585	BolshiyanovEtal2006	Bolshiyanov et al. 2006  (in Russian)
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
+Yuzhny_Island	radiocarbon	Yuzhny_Island-1	71.63	51.6	10550	212.27	peat	terrestrial	0	0	1	50	5.100990099970789	5.100990099970789	ZhuravlevEtal2013
+Yuzhny_Island	radiocarbon	Yuzhny_Island-2	71.63	51.6	15120	184.01	peat	terrestrial	0	0	1	50	5.100990099970789	5.100990099970789	ZhuravlevEtal2013
+Yuzhny_Island	radiocarbon	TUa-4975	72.09	52.04	550	472.72	Mytilus edulis	marine	-124	22	-1	4	2.6804850307360417	2.6804850307360417	MangerudEtal2008
+Yuzhny_Island	radiocarbon	LU-5387	70.52	56.65	2952.99	143.28	peat	terrestrial	0	0	1	35	2.692136697866585	2.692136697866585	BolshiyanovEtal2006

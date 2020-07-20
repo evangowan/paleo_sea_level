@@ -1,16 +1,16 @@
-Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	
-Rugozerskiy_Peninsula	radiocarbon	GIN-12641	66.49	33.38	492.99	133.15	peat	terrestrial	0	0	1	3.8598999999999997	5.0990195135927845	5.0990195135927845	Baranskaya2015	Baranskaya 2015 (in Russian)
-Rugozerskiy_Peninsula	10Be	Rugozerskiy_Peninsula-2	66.55	33.1	9800	500	gneiss block (top)	n/a	0	0	0	79.12675	2.5345508601130895	2.5345508601130895	Baranskaya2015	Baranskaya 2015 (in Russian)
-Rugozerskiy_Peninsula	10Be	Rugozerskiy_Peninsula-1	66.55	33.11	1550	100	gneiss block (top)	n/a	0	0	0	3.1267500000000004	0.4170708123328699	0.4170708123328699	Baranskaya2015	Baranskaya 2015 (in Russian)
-Rugozerskiy_Peninsula	modern	GIN-15054	66.57	33.09	28	27	dark brown gyttja	other	0	0	1	5.8599	2.5046406927940783	2.5046406927940783	tocome	Repkina and Romanenko 2015 (in Russian)
-Rugozerskiy_Peninsula	modern	GIN-15056	66.61	33.25	45	23	gyttja above silt with pebble	other	0	0	1	-0.34010000000000007	2.5151789200770587	2.5046406927940783	tocome	Repkina and Romanenko 2015 (in Russian)
-Rugozerskiy_Peninsula	modern	GIN-15055	66.61	33.3	28	27	peat above sand+pebble (there's gyttja below sand)	other	0	0	1	-0.34010000000000007	2.5088923850974556	2.5046406927940783	tocome	Repkina and Romanenko 2015 (in Russian)
-Rugozerskiy_Peninsula	radiocarbon	IGAN-3971	66.54	33.08	4052.99	143.28	peat	terrestrial	0	0	1	35.8599	5.0990195135927845	5.0990195135927845	RomanenkoShilova2012	Romanenko and Shilova 2012 (in Russian)
-Rugozerskiy_Peninsula	radiocarbon	GIN-13125	66.54	33.1	8432.99	161.96	gyttja	terrestrial	0	0	0	87	5.224923732457728	5.224923732457728	RomanenkoShilova2012	Romanenko and Shilova 2012 (in Russian)
-Rugozerskiy_Peninsula	radiocarbon	GIN-13106	66.54	33.14	4412.99	143.28	gyttja	terrestrial	0	0	0	27.5	5.224923732457728	5.224923732457728	RomanenkoShilova2012	Romanenko and Shilova 2012 (in Russian)
-Rugozerskiy_Peninsula	radiocarbon	GIN-12655	66.55	33.04	842.99	125.42	peat	terrestrial	0	0	1	2.8598999999999997	5.0990195135927845	5.0990195135927845	RomanenkoShilova2012	Romanenko and Shilova 2012 (in Russian)
-Rugozerskiy_Peninsula	radiocarbon	IGAN-3972_GIN-13115	66.55	33.05	2132.99	149.1	gyttja	terrestrial	0	0	0	11	5.224923732457728	5.224923732457728	RomanenkoShilova2012	Romanenko and Shilova 2012 (in Russian)
-Rugozerskiy_Peninsula	radiocarbon	IGAN-3969_GIN-13094	66.55	33.08	6652.99	161.96	peat	terrestrial	0	0	1	62.8599	5.0990195135927845	5.0990195135927845	RomanenkoShilova2012	Romanenko and Shilova 2012 (in Russian)
-Rugozerskiy_Peninsula	radiocarbon	GIN-12635	66.55	33.11	8350	151.85	gyttja	terrestrial	0	0	0	72	5.224923732457728	5.224923732457728	RomanenkoShilova2012	Romanenko and Shilova 2012 (in Russian)
-Rugozerskiy_Peninsula	radiocarbon	GIN-12652	66.55	33.14	422.99	125.42	peat	terrestrial	0	0	1	3.8598999999999997	5.0990195135927845	5.0990195135927845	RomanenkoShilova2012	Romanenko and Shilova 2012 (in Russian)
-Rugozerskiy_Peninsula	radiocarbon	GIN-14388ha	66.55	33.09	7750	481.52	shells	marine	0	22	-1	25	2.5020191845787276	2.5020191845787276	tocome	Zaretskaya et al. 2013 (in Russian)
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
+Rugozerskiy_Peninsula	radiocarbon	GIN-12641	66.49	33.38	492.99	133.15	peat	terrestrial	0	0	1	3.8598999999999997	5.0990195135927845	5.0990195135927845	Baranskaya2015
+Rugozerskiy_Peninsula	10Be	Rugozerskiy_Peninsula-2	66.55	33.1	9800	500	gneiss block (top)	n/a	0	0	0	79.12675	2.5345508601130895	2.5345508601130895	Baranskaya2015
+Rugozerskiy_Peninsula	10Be	Rugozerskiy_Peninsula-1	66.55	33.11	1550	100	gneiss block (top)	n/a	0	0	0	3.1267500000000004	0.4170708123328699	0.4170708123328699	Baranskaya2015
+Rugozerskiy_Peninsula	modern	GIN-15054	66.57	33.09	28	27	dark brown gyttja	other	0	0	1	5.8599	2.5046406927940783	2.5046406927940783	RepkinaRomanenko2016
+Rugozerskiy_Peninsula	modern	GIN-15056	66.61	33.25	45	23	gyttja above silt with pebble	other	0	0	1	-0.34010000000000007	2.5151789200770587	2.5046406927940783	RepkinaRomanenko2016
+Rugozerskiy_Peninsula	modern	GIN-15055	66.61	33.3	28	27	peat above sand+pebble (there's gyttja below sand)	other	0	0	1	-0.34010000000000007	2.5088923850974556	2.5046406927940783	RepkinaRomanenko2016
+Rugozerskiy_Peninsula	radiocarbon	IGAN-3971	66.54	33.08	4052.99	143.28	peat	terrestrial	0	0	1	35.8599	5.0990195135927845	5.0990195135927845	RomanenkoShilova2012
+Rugozerskiy_Peninsula	radiocarbon	GIN-13125	66.54	33.1	8432.99	161.96	gyttja	terrestrial	0	0	0	87	5.224923732457728	5.224923732457728	RomanenkoShilova2012
+Rugozerskiy_Peninsula	radiocarbon	GIN-13106	66.54	33.14	4412.99	143.28	gyttja	terrestrial	0	0	0	27.5	5.224923732457728	5.224923732457728	RomanenkoShilova2012
+Rugozerskiy_Peninsula	radiocarbon	GIN-12655	66.55	33.04	842.99	125.42	peat	terrestrial	0	0	1	2.8598999999999997	5.0990195135927845	5.0990195135927845	RomanenkoShilova2012
+Rugozerskiy_Peninsula	radiocarbon	IGAN-3972_GIN-13115	66.55	33.05	2132.99	149.1	gyttja	terrestrial	0	0	0	11	5.224923732457728	5.224923732457728	RomanenkoShilova2012
+Rugozerskiy_Peninsula	radiocarbon	IGAN-3969_GIN-13094	66.55	33.08	6652.99	161.96	peat	terrestrial	0	0	1	62.8599	5.0990195135927845	5.0990195135927845	RomanenkoShilova2012
+Rugozerskiy_Peninsula	radiocarbon	GIN-12635	66.55	33.11	8350	151.85	gyttja	terrestrial	0	0	0	72	5.224923732457728	5.224923732457728	RomanenkoShilova2012
+Rugozerskiy_Peninsula	radiocarbon	GIN-12652	66.55	33.14	422.99	125.42	peat	terrestrial	0	0	1	3.8598999999999997	5.0990195135927845	5.0990195135927845	RomanenkoShilova2012
+Rugozerskiy_Peninsula	radiocarbon	GIN-14388ha	66.55	33.09	7750	481.52	shells	marine	0	22	-1	25	2.5020191845787276	2.5020191845787276	ZaretskayaEtal2013

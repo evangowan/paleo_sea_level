@@ -34,3 +34,4 @@ Passamaquoddy_Bay	Maritimes
 Eastern_Maine	Northeastern_United_States
 Southern_Maine	Northeastern_United_States
 Northern_Massachusetts	Northeastern_United_States
+Southern_Massachusetts	Northeastern_United_States

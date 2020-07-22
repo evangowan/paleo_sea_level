@@ -36,3 +36,4 @@ Southern_Maine	Northeastern_United_States
 Northern_Massachusetts	Northeastern_United_States
 Southern_Massachusetts	Northeastern_United_States
 Connecticut	Northeastern_United_States
+Long_Island	Northeastern_United_States

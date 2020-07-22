@@ -38,3 +38,5 @@ Southern_Massachusetts	Northeastern_United_States
 Connecticut	Northeastern_United_States
 Long_Island	Northeastern_United_States
 New_York	Northeastern_United_States
+New_Jersey	Northeastern_United_States
+Outer_Delaware	Eastern_United_States

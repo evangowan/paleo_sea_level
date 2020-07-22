@@ -1,0 +1,39 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
+Inner_Delaware	radiocarbon	I-5205	38.886	-75.265	2560	95	Spartina	terrestrial	0	0	0	-3.43	0.7927	0.7927	Belknap1975
+Inner_Delaware	radiocarbon	I-5927	39.056	-75.394	5205	110	Salt peat	terrestrial	0	0	0	-16.54	0.8633	0.8633	Belknap1975
+Inner_Delaware	radiocarbon	I-5929	39.177	-75.408	2945	95	Peat	terrestrial	0	0	1	-4.6707	0.6093	0.6093	Belknap1975
+Inner_Delaware	radiocarbon	I-5930	38.922	-75.313	5345	110	Salt peat	terrestrial	0	0	0	-14.1	1.1509	1.1509	Belknap1975
+Inner_Delaware	radiocarbon	I-5955	39.125	-75.321	4090	100	Salt peat	terrestrial	0	0	0	-8.31	0.8466	0.8466	Belknap1975
+Inner_Delaware	radiocarbon	I-5994	39.056	-75.394	7730	125	Peat	terrestrial	0	0	1	-20.79	0.65	0.65	Belknap1975
+Inner_Delaware	radiocarbon	I-6589	39.32	-75.483	6835	115	Peat	terrestrial	0	0	1	-13.803	0.627	0.627	Belknap1975
+Inner_Delaware	radiocarbon	I-6674	39.087	-75.228	2685	90	Marine shell	marine	170	50	-1	-11.4956	0.5156	0.5156	Belknap1975
+Inner_Delaware	radiocarbon	I-6675	39.087	-75.228	2855	90	Marine shell	marine	170	50	-1	-11.6744	0.5144	0.5144	Belknap1975
+Inner_Delaware	radiocarbon	P-1685	39.051	-75.3939	3314	63	Salt peat	terrestrial	0	0	0	-5.85	0.81	0.81	Belknap1975
+Inner_Delaware	radiocarbon	P-1686	39.052	-75.39	1950	55	Salt peat	terrestrial	0	0	0	-4.5	0.798	0.798	Belknap1975
+Inner_Delaware	radiocarbon	P-1687	39.049	-75.388	1952	45	Salt peat	terrestrial	0	0	0	-2.21	0.8466	0.8466	Belknap1975
+Inner_Delaware	radiocarbon	P-1688	39.052	-75.39	2999	59	Spartina	terrestrial	0	0	0	-6.02	0.85	0.85	Belknap1975
+Inner_Delaware	radiocarbon	I-9228	38.926	-75.322	1690	85	Salt peat	terrestrial	0	0	0	-2.37	0.8466	0.8466	Kraft1976
+Inner_Delaware	radiocarbon	I-9229	38.929	-75.319	285	75	Peat	terrestrial	0	0	1	1.0671	0.6071	0.6071	Kraft1976
+Inner_Delaware	radiocarbon	I-9230	38.905	-75.296	720	80	Salt peat	terrestrial	0	0	0	-1.36	0.8466	0.8466	Kraft1976
+Inner_Delaware	radiocarbon	Beta-176158	39.082	-75.44500000000001	4170	40	Organic sediment	terrestrial	0	0	0	-9.14	0.7977	0.7977	LeorriEtal2006
+Inner_Delaware	radiocarbon	Beta-176159	39.071	-75.431	3930	80	Organic sediment	terrestrial	0	0	0	-6.54	0.8	0.8	LeorriEtal2006
+Inner_Delaware	radiocarbon	Beta-176160	39.073	-75.423	2790	40	Organic sediment	terrestrial	0	0	0	-7.34	0.7958	0.7958	LeorriEtal2006
+Inner_Delaware	radiocarbon	Beta-177401	39.09	-75.458	3790	40	Plant	terrestrial	0	0	1	-7.1283	0.5217	0.5217	LeorriEtal2006
+Inner_Delaware	radiocarbon	Beta-179205	39.082	-75.445	230	60	Peat	terrestrial	0	0	1	-0.6336	0.5164	0.5164	LeorriEtal2006
+Inner_Delaware	radiocarbon	TEM-172	39.125	-75.321	2020	110	Salt peat	terrestrial	0	0	0	-5.175	0.5824	0.5824	Marx1981
+Inner_Delaware	radiocarbon	TEM-173	39.18	-75.403	2490	80	Salt peat	terrestrial	0	0	0	-6.055	0.6001	0.6001	Marx1981
+Inner_Delaware	radiocarbon	Beta-117237	39.243	-75.442	3430	70	Salt peat	terrestrial	0	0	0	-6.86	0.79	0.79	NikitinaEtal2000
+Inner_Delaware	radiocarbon	Beta-117239	39.246	-75.411	4490	80	Salt peat	terrestrial	0	0	0	-11.52	0.7949	0.7949	NikitinaEtal2000
+Inner_Delaware	radiocarbon	Beta-118799	39.253	-75.46	970	80	Salt peat	terrestrial	0	0	0	-1.51	0.7919	0.7919	NikitinaEtal2000
+Inner_Delaware	radiocarbon	Beta-118800	39.429	-75.457	1770	60	Salt peat	terrestrial	0	0	0	-3.13	0.7919	0.7919	NikitinaEtal2000
+Inner_Delaware	radiocarbon	Beta-118802	39.235	-75.436	2880	70	Salt peat	terrestrial	0	0	0	-5.25	0.79	0.79	NikitinaEtal2000
+Inner_Delaware	radiocarbon	Beta-118803	39.249	-75.469	2070	80	Salt peat	terrestrial	0	0	0	-2.79	0.7919	0.7919	NikitinaEtal2000
+Inner_Delaware	radiocarbon	GrA-9693	39.247	-75.469	3530	40	Salt peat	terrestrial	0	0	0	-7.23	0.7932	0.7932	NikitinaEtal2000
+Inner_Delaware	radiocarbon	GrA-9698	39.246	-75.47	3485	40	Salt peat	terrestrial	0	0	0	-8.54	0.7925	0.7925	NikitinaEtal2000
+Inner_Delaware	radiocarbon	GrA-9719	39.248	-75.469	3320	40	Salt peat	terrestrial	0	0	0	-5.66	0.79	0.79	NikitinaEtal2000
+Inner_Delaware	radiocarbon	GrN-18993	39.247	-75.469	3660	30	Salt peat	terrestrial	0	0	0	-6.61	0.7932	0.7932	NikitinaEtal2000
+Inner_Delaware	radiocarbon	GrN-18994	39.251	-75.469	2030	80	Salt peat	terrestrial	0	0	0	-3.14	0.7919	0.7919	NikitinaEtal2000
+Inner_Delaware	radiocarbon	GrN-18995	39.251	-75.469	1160	50	Salt peat	terrestrial	0	0	0	-2.81	0.7919	0.7919	NikitinaEtal2000
+Inner_Delaware	radiocarbon	TEM-148	39.136	-75.403	3450	100	Stump	terrestrial	0	0	1	-5.4828	0.5972	0.5972	RamseBaxter1996
+Inner_Delaware	radiocarbon	DC-3_c	39.302	-75.598	1370	110	Salt peat	terrestrial	0	0	0	-2.71	0.8057	0.8057	RogersPizzuto1994
+Inner_Delaware	radiocarbon	Inner_Delaware-1	39.243	-75.584	3515	85	Fresh peat	terrestrial	0	0	1	-1.0846	0.5354	0.5354	RogersPizzuto1994

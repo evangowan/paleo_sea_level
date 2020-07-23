@@ -1,0 +1,107 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
+Inner_Chesapeake	radiocarbon	QC-856	39	-76.1	4505	115	Salt peat	terrestrial	0	0	0	-10.87	0.3644	0.3644	CinquemaniEtal1982
+Inner_Chesapeake	radiocarbon	QC-857	39	-76.1	3365	145	Salt peat	terrestrial	0	0	0	-5.17	0.3516	0.3516	CinquemaniEtal1982
+Inner_Chesapeake	radiocarbon	QC-859	39	-76.1	1230	155	Salt peat	terrestrial	0	0	0	-1.92	0.3299	0.3299	CinquemaniEtal1982
+Inner_Chesapeake	radiocarbon	QC-860	38.4	-76.1	2835	140	Salt peat	terrestrial	0	0	0	-3.34	0.3395	0.3395	CinquemaniEtal1982
+Inner_Chesapeake	radiocarbon	QC-861	38.4	-76.1	2485	125	Salt peat	terrestrial	0	0	0	-3.64	0.3398	0.3398	CinquemaniEtal1982
+Inner_Chesapeake	radiocarbon	QC-862	38.4	-76.1	2650	180	Salt peat	terrestrial	0	0	0	-4.12	0.3319	0.3319	CinquemaniEtal1982
+Inner_Chesapeake	radiocarbon	QC-863	38.4	-76.1	3745	120	Salt peat	terrestrial	0	0	0	-5.57	0.3523	0.3523	CinquemaniEtal1982
+Inner_Chesapeake	radiocarbon	CAMS-39237	38.028	-76.22	540	50	Shell	marine	0	0	-1	-23.3786	0.6986	0.6986	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	CAMS-39238	38.028	-76.22	1240	50	Gastropod	marine	0	0	-1	-26.0587	0.6787	0.6787	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	CAMS-43708	38.544	-76.427	640	50	Shell	marine	0	0	-1	-26.1476	0.6676	0.6676	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	CAMS-43709	38.544	-76.427	1160	40	Shell	marine	0	0	-1	-27.538	0.668	0.668	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	CAMS-43710	38.544	-76.427	1980	50	Shell	marine	0	0	-1	-28.6185	0.6685	0.6685	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	CAMS-43711	38.028	-76.22	990	40	Shell	marine	0	0	-1	-24.1978	0.6778	0.6778	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-15674	38.544	-76.427	1010	85	Shell	marine	0	0	-1	-25.6276	0.6676	0.6676	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-15675	38.544	-76.427	1220	80	Forams	marine	0	0	-1	-26.3277	0.6677	0.6677	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-15676	38.544	-76.427	605	40	Shell	marine	0	0	-1	-25.7276	0.6676	0.6676	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-15677	38.544	-76.427	1190	70	Forams	marine	0	0	-1	-27.2279	0.6679	0.6679	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-15678	38.544	-76.427	1130	80	Gastropod	marine	0	0	-1	-29.0288	0.6688	0.6688	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-15679	38.028	-76.22	540	30	Shell	marine	0	0	-1	-22.76	0.68	0.68	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-15680	38.028	-76.22	885	35	Shell	marine	0	0	-1	-23.5576	0.6776	0.6776	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-15681	38.028	-76.22	1150	25	Shell	marine	0	0	-1	-24.0578	0.6778	0.6778	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-15682	38.544	-76.427	2100	80	Shell	marine	0	0	-1	-27.8282	0.6682	0.6682	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-15683	38.544	-76.427	1200	75	Forams	marine	0	0	-1	-26.9478	0.6678	0.6678	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-15684	38.544	-76.427	1310	80	Forams	marine	0	0	-1	-26.8278	0.6678	0.6678	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-15685	38.544	-76.427	2090	70	Forams	marine	0	0	-1	-28.3284	0.6684	0.6684	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-15686	38.544	-76.427	1290	75	Forams	marine	0	0	-1	-28.1283	0.6683	0.6683	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-15687	38.544	-76.427	1850	80	Shell	marine	0	0	-1	-28.1283	0.6683	0.6683	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-15689	38.028	-76.22	1530	70	Shell	marine	0	0	-1	-24.9181	0.6781	0.6781	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-15690	38.544	-76.427	2570	70	Forams	marine	0	0	-1	-28.4485	0.6685	0.6685	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-17241	38.028	-76.22	2400	85	Forams	marine	0	0	-1	-25.8686	0.6786	0.6786	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-17242	38.028	-76.22	1230	30	Forams	marine	0	0	-1	-24.2378	0.6778	0.6778	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-17508	38.028	-76.22	2450	256	Forams	marine	0	0	-1	-25.2582	0.6782	0.6782	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-17874	38.544	-76.427	1320	195	Forams E.s.	marine	0	0	-1	-27.2279	0.6679	0.6679	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-17881	38.544	-76.427	2090	30	Forams E.e	marine	0	0	-1	-28.0282	0.6682	0.6682	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-17884	38.544	-76.427	2090	55	Forams E.s.	marine	0	0	-1	-28.0282	0.6682	0.6682	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-18409	38.538	-76.43	625	35	Shell	marine	0	0	-1	-23.1076	0.6676	0.6676	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-18410	38.331	-76.378	675	45	Shell	marine	0	0	-1	-10.3376	0.6676	0.6676	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-18411	38.331	-76.378	750	45	Shell	marine	0	0	-1	-10.0576	0.6676	0.6676	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-18412	38.878	-76.446	1400	40	Shell	marine	0	0	-1	-9.3184	0.6584	0.6584	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-18413	38.331	-76.378	780	40	Shell	marine	0	0	-1	-9.77	0.67	0.67	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-18523	38.878	-76.446	1880	35	Shell	marine	0	0	-1	-10.5392	0.6592	0.6592	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-18524	38.878	-76.446	1750	35	Shell	marine	0	0	-1	-10.1785	0.6585	0.6585	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-18526	38.878	-76.446	2290	35	Shell	marine	0	0	-1	-11.9212	0.6612	0.6612	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-18527	38.878	-76.446	2050	45	Shell	marine	0	0	-1	-11.2509	0.6609	0.6609	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-18528	38.878	-76.446	1520	40	Shell	marine	0	0	-1	-9.5178	0.6578	0.6578	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-18529	38.878	-76.446	2230	50	Shell	marine	0	0	-1	-11.7011	0.6611	0.6611	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-18532	38.538	-76.43	535	35	Shell	marine	0	0	-1	-23.8777	0.6677	0.6677	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-18533	38.538	-76.43	3030	35	Shell	marine	0	0	-1	-26.1385	0.6685	0.6685	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-18534	38.331	-76.378	1210	45	Shell	marine	0	0	-1	-11.3178	0.6678	0.6678	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-18535	38.331	-76.378	580	35	Shell	marine	0	0	-1	-10.2676	0.6676	0.6676	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-18660	38.538	-76.43	815	45	Shell	marine	0	0	-1	-24.1977	0.6677	0.6677	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-18661	38.331	-76.378	905	60	Shell	marine	0	0	-1	-10.3976	0.6676	0.6676	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-18662	38.538	-76.43	3360	100	Shell	marine	0	0	-1	-26.8789	0.6689	0.6689	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-18900	38.878	-76.446	1260	30	Shell	marine	0	0	-1	-9.278	0.658	0.658	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-18901	38.878	-76.446	2030	35	Shell	marine	0	0	-1	-11.331	0.661	0.661	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-18902	38.878	-76.446	1970	30	Shell	marine	0	0	-1	-10.9408	0.6608	0.6608	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-19212	38.887	-76.392	325	60	Shell	marine	0	0	-1	-28.5578	0.6578	0.6578	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-19213	38.887	-76.392	320	60	Shell	marine	0	0	-1	-28.0577	0.6577	0.6577	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-19214	38.887	-76.392	1150	85	Shell	marine	0	0	-1	-31.7092	0.6592	0.6592	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-19215	38.887	-76.392	725	55	Shell	marine	0	0	-1	-30.5385	0.6585	0.6585	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-19216	38.887	-76.392	325	30	Shell	marine	0	0	-1	-29.168	0.658	0.658	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-19508	38.544	-76.427	1050	180	Forams E.e.	marine	0	0	-1	-27.2279	0.6679	0.6679	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-19940	38.887	-76.392	555	35	Shell	marine	0	0	-1	-29.8782	0.6582	0.6582	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-20052	38.879	-76.44	4410	45	Shell	marine	0	0	-1	-14.4019	0.7719	0.7719	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-20053	38.879	-76.44	5340	40	Oyster	marine	0	0	-1	-14.7522	0.7722	0.7722	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-20054	38.879	-76.44	5240	55	Shell	marine	0	0	-1	-14.7522	0.7722	0.7722	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-20055	38.879	-76.44	6060	55	Oyster	marine	0	0	-1	-15.33	0.77	0.77	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-20056	38.878	-76.441	3760	55	Shell	marine	0	0	-1	-13.8999	0.6599	0.6599	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-20057	38.331	-76.378	860	40	Shell	marine	0	0	-1	-11.0177	0.6677	0.6677	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-21226	38.887	-76.392	610	30	Shell	marine	0	0	-1	-30.0983	0.6583	0.6583	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-21227	38.887	-76.392	1240	30	Shell	marine	0	0	-1	-31.9894	0.6594	0.6594	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-21228	38.887	-76.392	2210	35	Shell	marine	0	0	-1	-34.4717	0.6617	0.6617	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-21229	38.887	-76.392	2500	35	Shell	marine	0	0	-1	-34.9423	0.6623	0.6623	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-21230	38.887	-76.392	5530	40	Shell	marine	0	0	-1	-36.1838	0.6638	0.6638	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-21231	38.887	-76.392	5690	40	Shell	marine	0	0	-1	-37.4457	0.6657	0.6657	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-21232	38.887	-76.392	5960	40	Shell	marine	0	0	-1	-38.7378	0.6678	0.6678	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-21233	38.887	-76.392	5980	40	Shell	marine	0	0	-1	-39.1385	0.6685	0.6685	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-21262	38.878	-76.441	2780	75	Shell	marine	0	0	-1	-12.4689	0.6589	0.6589	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-21266	38.538	-76.43	3090	90	Forams	marine	0	0	-1	-26.8289	0.6689	0.6689	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-21270	38.879	-76.44	6850	110	Shell	marine	0	0	-1	-16.0081	0.7681	0.7681	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-21381	38.887	-76.392	745	35	Shell	marine	0	0	-1	-30.8287	0.6587	0.6587	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-21382	38.887	-76.392	1150	40	Shell	marine	0	0	-1	-31.6892	0.6592	0.6592	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-21383	38.887	-76.392	1600	35	Shell	marine	0	0	-1	-32.8701	0.6601	0.6601	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-21384	38.887	-76.392	2050	40	Shell	marine	0	0	-1	-33.791	0.661	0.661	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-21385	38.887	-76.392	4230	40	Shell	marine	0	0	-1	-35.3427	0.6627	0.6627	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-21386	38.887	-76.392	6290	35	Shell	marine	0	0	-1	-43.2069	0.6769	0.6769	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-21387	38.887	-76.392	6660	45	Oyster	marine	0	0	-1	-44.0991	0.6791	0.6791	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-21388	38.887	-76.392	7050	40	Shell	marine	0	0	-1	-44.2094	0.6794	0.6794	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-21389	38.887	-76.392	7100	45	Shell	marine	0	0	-1	-44.3598	0.6798	0.6798	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-21486	38.053	-76.221	9670	50	Shell	marine	0	0	-1	-23.29	0.68	0.68	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-21487	38.031	-76.215	855	25	Shell	marine	0	0	-1	-24.1578	0.6778	0.6778	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-21488	38.887	-76.392	6250	35	Shell	marine	0	0	-1	-41.5432	0.6732	0.6732	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-21489	38.887	-76.392	8670	45	Shell	marine	0	0	-1	-44.0991	0.6791	0.6791	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-21664	38.031	-76.215	6130	55	Shell	marine	0	0	-1	-29.7219	0.6819	0.6819	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-21665	38.031	-76.215	6430	65	Shell	marine	0	0	-1	-30.29	0.68	0.68	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-21666	38.031	-76.215	9150	65	Shell	marine	0	0	-1	-30.9634	0.6834	0.6834	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-21667	38.031	-76.215	7080	60	Shell	marine	0	0	-1	-31.8847	0.6847	0.6847	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-21668	38.031	-76.215	9400	100	Shell	marine	0	0	-1	-33.57	0.69	0.69	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-21669	38.053	-76.221	9350	70	Shell	marine	0	0	-1	-22.72	0.68	0.68	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-21670	38.031	-76.215	4100	45	Shell	marine	0	0	-1	-25.8285	0.6785	0.6785	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-21671	38.031	-76.215	4470	45	Shell	marine	0	0	-1	-27.6898	0.6798	0.6798	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-25826	38.031	-76.215	4590	55	Shell	marine	0	0	-1	-28.8309	0.6809	0.6809	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-25827	38.031	-76.215	6540	45	Shell	marine	0	0	-1	-30.9634	0.6834	0.6834	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-25828	38.031	-76.215	8150	55	Shell	marine	0	0	-1	-31.5542	0.6842	0.6842	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-25829	38.031	-76.215	8930	65	Shell	marine	0	0	-1	-33.4872	0.6872	0.6872	ColmanEtal2002
+Inner_Chesapeake	radiocarbon	OS-25830	38.879	-76.44	7180	40	Oyster	marine	0	0	-1	-16.2584	0.7684	0.7684	ColmanEtal2002

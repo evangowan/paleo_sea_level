@@ -1,0 +1,61 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
+Northern_North_Carolina	radiocarbon	W-1402	36.15	-75.33	8130	400	C. virginica dredge	marine	93	52	-1	-33.9999	0.5099	0.5099	EmeryEtal1967
+Northern_North_Carolina	radiocarbon	Beta-115591	35.89	-75.72	4480	80	Crassostrea shell	marine	93	52	-1	-7.9078	0.1118	0.1118	HortonEtal2009
+Northern_North_Carolina	radiocarbon	Beta-115593	35.88	-75.71	3610	50	Macoma shell	marine	93	52	-1	-6.0059	0.5099	0.5099	HortonEtal2009
+Northern_North_Carolina	radiocarbon	Beta-115595	35.92	-75.75	4010	150	Cyrtopleura shell	marine	93	52	-1	-6.4559	0.5099	0.5099	HortonEtal2009
+Northern_North_Carolina	radiocarbon	Beta-115596	35.92	-75.75	4540	80	Crassostrea shell	marine	93	52	-1	-7.9478	0.1118	0.1118	HortonEtal2009
+Northern_North_Carolina	radiocarbon	Beta-115597	35.92	-75.74	3670	50	Cyrtopleura shell	marine	93	52	-1	-7.1259	0.5099	0.5099	HortonEtal2009
+Northern_North_Carolina	radiocarbon	Beta-115598	35.92	-75.74	3810	50	Nassarius shell	marine	93	52	-1	-7.6759	0.5099	0.5099	HortonEtal2009
+Northern_North_Carolina	radiocarbon	Beta-119895	35.9	-75.73	4130	60	Mya shell	marine	93	52	-1	-7.6559	0.5099	0.5099	HortonEtal2009
+Northern_North_Carolina	radiocarbon	BETA-183551	35.26	-75.52	160	30	Salt peat	terrestrial	0	0	0	-0.42	0.1994	0.1994	HortonEtal2009
+Northern_North_Carolina	radiocarbon	Beta-187689	35.22	-75.66	500	40	Salt peat	terrestrial	0	0	0	-0.661	0.5359	0.5359	HortonEtal2009
+Northern_North_Carolina	radiocarbon	Beta-187692	35.23	-75.68	250	40	Salt peat	terrestrial	0	0	0	-0.861	0.5359	0.5359	HortonEtal2009
+Northern_North_Carolina	radiocarbon	Beta-187694	35.97	-75.66	1580	40	Salt peat	terrestrial	0	0	0	-1.781	0.1993	0.1993	HortonEtal2009
+Northern_North_Carolina	radiocarbon	Beta-201772	35.45	-75.49	1760	40	Chione cancellata shell	marine	93	52	-1	-3.6978	0.1118	0.1118	HortonEtal2009
+Northern_North_Carolina	radiocarbon	Beta-205450	35.47	-75.53	2070	40	Chione cancellata shell	marine	93	52	-1	-4.9359	0.5099	0.5099	HortonEtal2009
+Northern_North_Carolina	radiocarbon	Beta-90661	36.11	-76.07	6140	80	Crassostrea shell	marine	93	52	-1	-15.0559	0.5099	0.5099	HortonEtal2009
+Northern_North_Carolina	radiocarbon	Beta-90666	36.11	-76.07	6060	60	Wood	terrestrial	0	0	1	-8.7061	0.5099	0.5099	HortonEtal2009
+Northern_North_Carolina	radiocarbon	Beta-90671	36.11	-76.07	2880	60	Crassostrea shell	marine	93	52	-1	-6.6759	0.5099	0.5099	HortonEtal2009
+Northern_North_Carolina	radiocarbon	Beta-90672	36.11	-76.07	4200	100	Cyrtopleura_Tegalus shell	marine	93	52	-1	-9.1059	0.5099	0.5099	HortonEtal2009
+Northern_North_Carolina	radiocarbon	Beta-90674	36.11	-76.07	4810	40	Cyrtopleura shell	marine	93	52	-1	-8.9878	0.1118	0.1118	HortonEtal2009
+Northern_North_Carolina	radiocarbon	Beta-95296	35.95	-75.65	1900	60	Articulated Crassostrea	marine	93	52	-1	-4.1578	0.1118	0.1118	HortonEtal2009
+Northern_North_Carolina	radiocarbon	I-8988	35.85	-75.62	2505	90	Paleosol	terrestrial	0	0	1	-1.7801	0.5099	0.5099	HortonEtal2009
+Northern_North_Carolina	radiocarbon	I-8990	35.87	-75.64	5315	110	Paleosol	terrestrial	0	0	1	-1.9301	0.5099	0.5099	HortonEtal2009
+Northern_North_Carolina	radiocarbon	I-9208	35.86	-75.63	3545	100	Paleosol	terrestrial	0	0	1	-1.7801	0.5099	0.5099	HortonEtal2009
+Northern_North_Carolina	radiocarbon	I-9253	35.87	-75.64	2290	110	Fresh peat	terrestrial	0	0	1	-1.7901	0.5099	0.5099	HortonEtal2009
+Northern_North_Carolina	radiocarbon	Northern_North_Carolina-2	36.05	-75.69	5225	105	Mactra_Mercenaria shell	marine	93	52	-1	-11.8778	0.1118	0.1118	HortonEtal2009
+Northern_North_Carolina	radiocarbon	Northern_North_Carolina-3	36.05	-75.69	5600	110	Ensis shell	marine	93	52	-1	-13.3678	0.1118	0.1118	HortonEtal2009
+Northern_North_Carolina	radiocarbon	OS-39722	35.26	-75.52	205	40	Salt peat	terrestrial	0	0	0	-0.706	0.7003	0.7003	HortonEtal2009
+Northern_North_Carolina	radiocarbon	OS-39790	35.65	-75.46	200	35	Salt peat	terrestrial	0	0	0	-0.425	0.1994	0.1994	HortonEtal2009
+Northern_North_Carolina	radiocarbon	OS-39792	35.16	-75.31	315	35	Undiff peat	terrestrial	0	0	1	0.5339	0.5099	0.5099	HortonEtal2009
+Northern_North_Carolina	radiocarbon	OS-53608	35.52	-75.48	1900	30	Chione cancellate	marine	93	52	-1	-2.9059	0.5099	0.5099	HortonEtal2009
+Northern_North_Carolina	radiocarbon	OS-54058	35.52	-75.48	265	35	Salt peat	terrestrial	0	0	0	-0.541	0.1993	0.1993	HortonEtal2009
+Northern_North_Carolina	radiocarbon	OS-43066	35.88	-75.68	185	30	Salt peat	terrestrial	0	0	0	-0.555	0.1994	0.1994	Kemp2009
+Northern_North_Carolina	radiocarbon	OS-43067	35.88	-75.68	900	50	Salt peat	terrestrial	0	0	0	-1.135	0.1998	0.1998	Kemp2009
+Northern_North_Carolina	radiocarbon	OS-43068	35.88	-75.68	1520	40	Salt peat	terrestrial	0	0	0	-1.835	0.5363	0.5363	Kemp2009
+Northern_North_Carolina	radiocarbon	OS-43069	35.88	-75.68	1920	45	Salt peat	terrestrial	0	0	0	-2.275	0.2009	0.2009	Kemp2009
+Northern_North_Carolina	radiocarbon	OS-43070	35.88	-75.68	2090	35	Salt peat	terrestrial	0	0	0	-2.375	0.201	0.201	Kemp2009
+Northern_North_Carolina	radiocarbon	OS-43071	35.88	-75.68	2420	35	Salt peat	terrestrial	0	0	0	-2.695	0.2016	0.2016	Kemp2009
+Northern_North_Carolina	radiocarbon	OS-43266	35.88	-75.68	2470	45	Salt peat	terrestrial	0	0	0	-2.995	0.2021	0.2021	Kemp2009
+Northern_North_Carolina	radiocarbon	OS-58710	35.88	-75.68	2120	25	Salt peat	terrestrial	0	0	0	-2.495	0.2012	0.2012	Kemp2009
+Northern_North_Carolina	radiocarbon	OS-58711	35.88	-75.68	1600	25	Salt peat	terrestrial	0	0	0	-1.985	0.2006	0.2006	Kemp2009
+Northern_North_Carolina	radiocarbon	OS-58712	35.88	-75.68	1190	30	Salt peat	terrestrial	0	0	0	-1.705	0.2003	0.2003	Kemp2009
+Northern_North_Carolina	radiocarbon	OS-58713	35.88	-75.68	1080	30	Salt peat	terrestrial	0	0	0	-1.495	0.2001	0.2001	Kemp2009
+Northern_North_Carolina	radiocarbon	OS-58896	35.88	-75.68	1000	25	Salt peat	terrestrial	0	0	0	-1.4	0.2	0.2	Kemp2009
+Northern_North_Carolina	radiocarbon	OS-58897	35.88	-75.68	535	30	Salt peat	terrestrial	0	0	0	-0.805	0.1996	0.1996	Kemp2009
+Northern_North_Carolina	radiocarbon	OS-58901	35.88	-75.68	910	30	Salt peat	terrestrial	0	0	0	-1.255	0.1999	0.1999	Kemp2009
+Northern_North_Carolina	radiocarbon	OS-58902	35.88	-75.68	315	25	Salt peat	terrestrial	0	0	0	-0.685	0.1996	0.1996	Kemp2009
+Northern_North_Carolina	radiocarbon	OS-62716	35.88	-75.68	2620	45	Salt peat	terrestrial	0	0	0	-2.665	0.2014	0.2014	Kemp2009
+Northern_North_Carolina	radiocarbon	OS-64687	35.88	-75.68	615	35	Salt peat	terrestrial	0	0	0	-0.765	0.1995	0.1995	Kemp2009
+Northern_North_Carolina	radiocarbon	OS-64688	35.88	-75.68	2410	35	Salt peat	terrestrial	0	0	0	-2.485	0.2011	0.2011	Kemp2009
+Northern_North_Carolina	radiocarbon	OS-64689	35.88	-75.68	2410	40	Salt peat	terrestrial	0	0	0	-2.675	0.2014	0.2014	Kemp2009
+Northern_North_Carolina	radiocarbon	OS-64813	35.88	-75.68	1390	110	Salt peat	terrestrial	0	0	0	-1.415	0.1999	0.1999	Kemp2009
+Northern_North_Carolina	radiocarbon	Beta-168060	36.02	-75.72	7830	50	Plant frags	terrestrial	0	0	0	-15.365	1.1	1.1	MallinsonEtal2005
+Northern_North_Carolina	radiocarbon	Beta-168063	36.05	-75.7	9720	40	Salt peat	terrestrial	0	0	0	-30.37	1.1	1.1	MallinsonEtal2005
+Northern_North_Carolina	radiocarbon	OS-36174	36.05	-75.71	9460	40	Salt peat	terrestrial	0	0	0	-35.76	1.1	1.1	MallinsonEtal2005
+Northern_North_Carolina	radiocarbon	OS-36176	36.05	-75.7	9930	45	Salt peat	terrestrial	0	0	0	-30.37	1.1	1.1	MallinsonEtal2005
+Northern_North_Carolina	radiocarbon	Northern_North_Carolina-1	35.75	-75.32	5618	100	Donax shells	marine	93	52	-1	-23.9999	0.5099	0.5099	Sears1973
+Northern_North_Carolina	radiocarbon	OS-39195	35.46	-75.57	8210	40	C. virginica	marine	93	52	-1	-18.4799	0.5099	0.5099	Stanton2008
+Northern_North_Carolina	radiocarbon	OS-39196	35.46	-75.57	8980	35	C. virginica	marine	93	52	-1	-24.9799	0.5099	0.5099	Stanton2008
+Northern_North_Carolina	radiocarbon	OS-39198	35.46	-75.57	6580	40	C. virginica	marine	93	52	-1	-13.3799	0.5099	0.5099	Stanton2008
+Northern_North_Carolina	radiocarbon	OS-39293	35.46	-75.57	7780	45	Petricola sp.	marine	93	52	-1	-18.3799	0.5099	0.5099	Stanton2008

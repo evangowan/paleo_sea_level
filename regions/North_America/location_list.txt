@@ -43,3 +43,4 @@ Outer_Delaware	Eastern_United_States
 Inner_Delaware	Eastern_United_States
 Inner_Chesapeake	Eastern_United_States
 Eastern_Shore	Eastern_United_States
+Northern_North_Carolina	Eastern_United_States

@@ -1,0 +1,25 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
+Southern_North_Carolina	radiocarbon	QC793A	34.1	-78	3390	110	Salt peat	terrestrial	0	0	0	-3.025	0.5888	0.5888	CinquemaniEtal1982
+Southern_North_Carolina	radiocarbon	QC-793B	34.1	-78	3395	110	Salt peat	terrestrial	0	0	0	-3.425	0.5995	0.5995	CinquemaniEtal1982
+Southern_North_Carolina	radiocarbon	QC-794	34.1	-78	3600	115	Salt peat	terrestrial	0	0	0	-4.225	0.6	0.6	CinquemaniEtal1982
+Southern_North_Carolina	radiocarbon	QC-796	34.1	-78	3870	175	Salt peat	terrestrial	0	0	0	-5.525	0.6335	0.6335	CinquemaniEtal1982
+Southern_North_Carolina	radiocarbon	QC-797	34.1	-78	5675	250	Salt peat	terrestrial	0	0	0	-8.025	0.5994	0.5994	CinquemaniEtal1982
+Southern_North_Carolina	radiocarbon	QC-799	34.1	-78	1385	130	Salt peat	terrestrial	0	0	0	-0.925	0.5881	0.5881	CinquemaniEtal1982
+Southern_North_Carolina	radiocarbon	QC-801	34.7	-77.1	1180	190	Salt peat	terrestrial	0	0	0	-0.77	0.5809	0.5809	CinquemaniEtal1982
+Southern_North_Carolina	radiocarbon	QC-802	34.7	-77.1	1735	110	Salt peat	terrestrial	0	0	0	-1.27	0.5811	0.5811	CinquemaniEtal1982
+Southern_North_Carolina	radiocarbon	OS-53604	34.9	-76.26	1670	30	Elphidium	marine	93	52	-1	-2.9059	0.5099	0.5099	CulverEtal2007
+Southern_North_Carolina	radiocarbon	GX-2965	33.59	-77.88	10000	300	Undiff peat	terrestrial	0	0	1	-24.6399	0.5101	0.5101	FieldEtal1979
+Southern_North_Carolina	radiocarbon	OS-54866	34.98	-76.2	835	30	Argopecten	marine	93	52	-1	-2.2478	0.1118	0.1118	HortonEtal2009
+Southern_North_Carolina	radiocarbon	OS-59675	34.97	-76.38	1350	30	Salt peat	terrestrial	0	0	0	-0.965	0.1994	0.1994	Kemp2009
+Southern_North_Carolina	radiocarbon	OS-59676	34.97	-76.38	915	35	Salt peat	terrestrial	0	0	0	-0.665	0.1994	0.1994	Kemp2009
+Southern_North_Carolina	radiocarbon	OS-59677	34.97	-76.38	350	30	Salt peat	terrestrial	0	0	0	-0.355	0.1994	0.1994	Kemp2009
+Southern_North_Carolina	radiocarbon	OS-59697	34.97	-76.38	1650	35	Salt peat	terrestrial	0	0	0	-1.185	0.1994	0.1994	Kemp2009
+Southern_North_Carolina	radiocarbon	OS-59728	34.97	-76.38	385	35	Salt peat	terrestrial	0	0	0	-0.465	0.1994	0.1994	Kemp2009
+Southern_North_Carolina	radiocarbon	OS-66915	34.97	-76.38	185	30	Salt peat	terrestrial	0	0	0	-0.55	0.21	0.21	Kemp2009
+Southern_North_Carolina	radiocarbon	OS-66916	34.97	-76.38	860	30	Salt peat	terrestrial	0	0	0	-1.04	0.21	0.21	Kemp2009
+Southern_North_Carolina	radiocarbon	OS-66917	34.97	-76.38	960	30	Salt peat	terrestrial	0	0	0	-1.15	0.21	0.21	Kemp2009
+Southern_North_Carolina	radiocarbon	OS-66999	34.97	-76.38	535	35	Salt peat	terrestrial	0	0	0	-0.8	0.21	0.21	Kemp2009
+Southern_North_Carolina	radiocarbon	Southern_North_Carolina-1	34.8	-76.49	701	230	Salt peat	terrestrial	0	0	0	-0.725	0.2495	0.2495	SpaurSnyder1999
+Southern_North_Carolina	radiocarbon	Southern_North_Carolina-2	34.8	-76.49	2130	161	Salt peat	terrestrial	0	0	0	-1.91	0.25	0.25	SpaurSnyder1999
+Southern_North_Carolina	radiocarbon	Southern_North_Carolina-3	34.8	-76.49	3330	263	Fresh peat	terrestrial	0	0	1	-2.0115	0.1885	0.1885	SpaurSnyder1999
+Southern_North_Carolina	radiocarbon	Southern_North_Carolina-4	34.8	-76.49	5710	142	Fresh peat	terrestrial	0	0	1	-2.431	0.189	0.189	SpaurSnyder1999

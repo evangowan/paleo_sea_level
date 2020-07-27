@@ -46,3 +46,4 @@ Eastern_Shore	Eastern_United_States
 Northern_North_Carolina	Eastern_United_States
 Southern_North_Carolina	Eastern_United_States
 Northern_South_Carolina	Eastern_United_States
+Southern_South_Carolina	Eastern_United_States

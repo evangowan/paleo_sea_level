@@ -1,4 +1,0 @@
-Cairns	Northeastern_Australia
-Mackay	Northeastern_Australia
-Huon_Peninsula	Papua_New_Guinea
-US_Mid_Atlantic	Eastern_United_States

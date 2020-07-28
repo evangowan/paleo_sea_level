@@ -1,0 +1,187 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
+Tahiti_MIS1_MIS2	U/Th	Ta-P6-10_1	-17.517	-149.567	9700	970	Acropora danai	U/Th	0	0	-1	-34.6	1.4	1.4	BardEtal1996
+Tahiti_MIS1_MIS2	U/Th	Ta-P6-10_2	-17.517	-149.567	9700	970	Acropora danai	U/Th	0	0	-1	-34.6	1.4	1.4	BardEtal1996
+Tahiti_MIS1_MIS2	U/Th	Ta-P6-10_3	-17.517	-149.567	9600	960	Acropora danai	U/Th	0	0	-1	-34.6	1.4	1.4	BardEtal1996
+Tahiti_MIS1_MIS2	U/Th	Ta-P6-11_1	-17.517	-149.567	9900	990	Acropora danai	U/Th	0	0	-1	-37.3	1.4	1.4	BardEtal1996
+Tahiti_MIS1_MIS2	U/Th	Ta-P6-11_2	-17.517	-149.567	9900	100	Acropora danai	U/Th	0	0	-1	-37.3	1.4	1.4	BardEtal1996
+Tahiti_MIS1_MIS2	U/Th	Ta-P6-12	-17.517	-149.567	10000	1000	Acropora sp.	U/Th	0	0	-1	-39.6	1.4	1.4	BardEtal1996
+Tahiti_MIS1_MIS2	U/Th	Ta-P6-13_1	-17.517	-149.567	10200	100	Acropora danai	U/Th	0	0	-1	-43.9	1.4	1.4	BardEtal1996
+Tahiti_MIS1_MIS2	U/Th	Ta-P6-13_2	-17.517	-149.567	10300	1030	Acropora danai	U/Th	0	0	-1	-43.9	1.4	1.4	BardEtal1996
+Tahiti_MIS1_MIS2	U/Th	Ta-P6-14_1	-17.517	-149.567	10200	100	Acropora danai	U/Th	0	0	-1	-45.9	1.4	1.4	BardEtal1996
+Tahiti_MIS1_MIS2	U/Th	Ta-P7-10	-17.517	-149.567	12000	100	Porites sp.	U/Th	0	0	-1	-61.9	1.6	1.6	BardEtal1996
+Tahiti_MIS1_MIS2	U/Th	Ta-P7-11	-17.517	-149.567	13000	1300	Pocillopora verrucosa	U/Th	0	0	-1	-68.2	1.6	1.6	BardEtal1996
+Tahiti_MIS1_MIS2	U/Th	Ta-P7-12	-17.517	-149.567	12900	1290	Pocillopora sp.	U/Th	0	0	-1	-68.2	1.6	1.6	BardEtal1996
+Tahiti_MIS1_MIS2	U/Th	Ta-P7-13	-17.517	-149.567	12800	100	Porites sp.	U/Th	0	0	-1	-69.8	1.6	1.6	BardEtal1996
+Tahiti_MIS1_MIS2	U/Th	Ta-P7-14	-17.517	-149.567	12800	100	Porites sp.	U/Th	0	0	-1	-70.5	1.6	1.6	BardEtal1996
+Tahiti_MIS1_MIS2	U/Th	Ta-P7-15	-17.517	-149.567	13000	100	Porites sp.	U/Th	0	0	-1	-70.9	1.6	1.6	BardEtal1996
+Tahiti_MIS1_MIS2	U/Th	Ta-P7-16	-17.517	-149.567	13000	100	Porites sp.	U/Th	0	0	-1	-72.4	1.6	1.6	BardEtal1996
+Tahiti_MIS1_MIS2	U/Th	Ta-P7-17	-17.517	-149.567	13200	1320	Porites sp.	U/Th	0	0	-1	-73.4	1.7	1.7	BardEtal1996
+Tahiti_MIS1_MIS2	U/Th	Ta-P7-18_1	-17.517	-149.567	13600	100	Porites sp.	U/Th	0	0	-1	-76.4	1.7	1.7	BardEtal1996
+Tahiti_MIS1_MIS2	U/Th	Ta-P7-18_2	-17.517	-149.567	13500	100	Porites sp.	U/Th	0	0	-1	-76.4	1.7	1.7	BardEtal1996
+Tahiti_MIS1_MIS2	U/Th	Ta-P7-19_1	-17.517	-149.567	13900	100	Acropora danai	U/Th	0	0	-1	-79.3	1.7	1.7	BardEtal1996
+Tahiti_MIS1_MIS2	U/Th	Ta-P7-19_2	-17.517	-149.567	13900	100	Acropora danai	U/Th	0	0	-1	-79.3	1.7	1.7	BardEtal1996
+Tahiti_MIS1_MIS2	U/Th	Ta-P7-19_3	-17.517	-149.567	13800	700	Acropora danai	U/Th	0	0	-1	-79.4	1.7	1.7	BardEtal1996
+Tahiti_MIS1_MIS2	U/Th	Ta-P7-2_1	-17.517	-149.567	9400	100	Montastraea annuligera	U/Th	0	0	-1	-32.3	1.4	1.4	BardEtal1996
+Tahiti_MIS1_MIS2	U/Th	Ta-P7-2_2	-17.517	-149.567	9300	930	Montastraea annuligera	U/Th	0	0	-1	-32.3	1.4	1.4	BardEtal1996
+Tahiti_MIS1_MIS2	U/Th	Ta-P7-4	-17.517	-149.567	10300	1030	Acropora danai	U/Th	0	0	-1	-44	1.4	1.4	BardEtal1996
+Tahiti_MIS1_MIS2	U/Th	Ta-P7-5	-17.517	-149.567	10700	100	Pocillopora verrucosa	U/Th	0	0	-1	-46.8	1.5	1.5	BardEtal1996
+Tahiti_MIS1_MIS2	U/Th	Ta-P7-6	-17.517	-149.567	10900	100	Faviidae (_Favidea_ ref 48)	U/Th	0	0	-1	-52.7	1.5	1.5	BardEtal1996
+Tahiti_MIS1_MIS2	U/Th	Ta-P7-7_1	-17.517	-149.567	11100	1110	Acropora sp.	U/Th	0	0	-1	-52.8	1.5	1.5	BardEtal1996
+Tahiti_MIS1_MIS2	U/Th	Ta-P7-7_2	-17.517	-149.567	11100	1110	Acropora sp.	U/Th	0	0	-1	-52.8	1.5	1.5	BardEtal1996
+Tahiti_MIS1_MIS2	U/Th	Ta-P7-7_3	-17.517	-149.567	11100	1110	Acropora sp.	U/Th	0	0	-1	-52.8	1.5	1.5	BardEtal1996
+Tahiti_MIS1_MIS2	U/Th	Ta-P7-7_4	-17.517	-149.567	11100	1110	Acropora sp.	U/Th	0	0	-1	-52.8	1.5	1.5	BardEtal1996
+Tahiti_MIS1_MIS2	U/Th	Ta-P7-7_5	-17.517	-149.567	11100	1110	Acropora sp.	U/Th	0	0	-1	-52.8	1.5	1.5	BardEtal1996
+Tahiti_MIS1_MIS2	U/Th	Ta-P7-8	-17.517	-149.567	11400	1140	Pocillopora verrucosa	U/Th	0	0	-1	-55.8	1.5	1.5	BardEtal1996
+Tahiti_MIS1_MIS2	U/Th	Ta-P7-9	-17.517	-149.567	11600	1160	Pocillopora verrucosa	U/Th	0	0	-1	-61.7	1.5	1.5	BardEtal1996
+Tahiti_MIS1_MIS2	U/Th	Ta-P10-333	-17.533	-149.517	12000	100	Porites sp.	U/Th	0	0	-1	-58.3	1.6	1.6	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-P10-372	-17.533	-149.517	13000	100	Porites sp.	U/Th	0	0	-1	-70.8	1.6	1.6	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-P8-162	-17.517	-149.567	9600	300	Acropora sp.	U/Th	0	0	-1	-35	1.4	1.4	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-P8-176	-17.517	-149.567	9700	970	Pocillopora sp.	U/Th	0	0	-1	-37.3	1.4	1.4	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-P8-182	-17.517	-149.567	9700	970	Pocillopora sp.	U/Th	0	0	-1	-38.6	1.4	1.4	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-P8-203	-17.517	-149.567	10300	1030	Faviidae (_Favidea_ ref 48)	U/Th	0	0	-1	-41.1	1.4	1.4	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-P8-222	-17.517	-149.567	10300	1030	Acropora sp.	U/Th	0	0	-1	-43.6	1.4	1.4	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-P8-232	-17.517	-149.567	10500	1050	Acropora sp.	U/Th	0	0	-1	-45.8	1.5	1.5	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-P8-244	-17.517	-149.567	10700	100	Pocillopora sp.	U/Th	0	0	-1	-48.2	1.5	1.5	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-P8-260	-17.517	-149.567	10800	1080	Acropora sp.	U/Th	0	0	-1	-49.7	1.5	1.5	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-P8-269	-17.517	-149.567	11200	100	Acropora sp.	U/Th	0	0	-1	-51.5	1.5	1.5	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-P8-269_2	-17.517	-149.567	11100	1110	Acropora sp.	U/Th	0	0	-1	-51.7	1.5	1.5	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-P8-295	-17.517	-149.567	11900	1190	Pocillopora sp.	U/Th	0	0	-1	-59.7	1.6	1.6	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-P8-299	-17.517	-149.567	12000	1200	Pocillopora sp.	U/Th	0	0	-1	-64.7	1.6	1.6	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-P8-307	-17.517	-149.567	12200	100	Faviidae (_Favidea_ ref 48)	U/Th	0	0	-1	-67	1.6	1.6	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-P8-319	-17.517	-149.567	12600	100	Porites sp.	U/Th	0	0	-1	-69.3	1.6	1.6	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-P8-320	-17.517	-149.567	12600	100	Porites sp. (branching)	U/Th	0	0	-1	-69.4	1.6	1.6	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-P8-322	-17.517	-149.567	12500	100	Porites sp. (branching)	U/Th	0	0	-1	-69.5	1.6	1.6	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-P8-338	-17.517	-149.567	12800	1280	Porites sp. (branching)	U/Th	0	0	-1	-70.9	1.6	1.6	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-P8-348	-17.517	-149.567	13000	100	Pocillopora sp.	U/Th	0	0	-1	-70.8	1.6	1.6	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-P8-353	-17.517	-149.567	13400	1340	Porites sp.	U/Th	0	0	-1	-79	1.7	1.7	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-P8-354	-17.517	-149.567	13400	200	Porites sp.	U/Th	0	0	-1	-79.2	1.7	1.7	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-P8-359	-17.517	-149.567	13800	100	Porites sp.	U/Th	0	0	-1	-81.3	1.7	1.7	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-P8-360	-17.517	-149.567	13900	300	Porites sp.	U/Th	0	0	-1	-81.3	1.7	1.7	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-P8-362	-17.517	-149.567	13800	1380	Porites sp.	U/Th	0	0	-1	-81.5	1.7	1.7	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-P8-363	-17.517	-149.567	13800	100	Porites sp.	U/Th	0	0	-1	-81.2	1.7	1.7	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-P8-365	-17.517	-149.567	13700	100	Porites sp.	U/Th	0	0	-1	-82.7	1.7	1.7	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-P8-369	-17.517	-149.567	13800	1380	Porites sp.	U/Th	0	0	-1	-83.9	1.7	1.7	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-P8-372	-17.517	-149.567	14000	100	Acropora sp.	U/Th	0	0	-1	-83.4	1.7	1.7	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-P9-200	-17.533	-149.517	10900	200	Acropora sp.	U/Th	0	0	-1	-49.9	1.5	1.5	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-P9-200_2	-17.533	-149.517	10800	1080	Acropora sp.	U/Th	0	0	-1	-50.1	1.5	1.5	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-P9-213	-17.533	-149.517	11400	100	Acropora sp.	U/Th	0	0	-1	-54.8	1.5	1.5	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-P9-231	-17.533	-149.517	12400	1240	Porites sp.	U/Th	0	0	-1	-60.9	1.6	1.6	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-P9-232	-17.533	-149.517	12300	100	Porites sp.	U/Th	0	0	-1	-60.9	1.6	1.6	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-P9-233	-17.533	-149.517	12400	100	Porites sp.	U/Th	0	0	-1	-62	1.6	1.6	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-P9-242	-17.533	-149.517	12600	1260	Porites sp.	U/Th	0	0	-1	-63.5	1.6	1.6	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-P9-242_2	-17.533	-149.517	12500	100	Porites sp.	U/Th	0	0	-1	-63.5	1.6	1.6	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-P9-255	-17.533	-149.517	12800	100	Pocillopora sp.	U/Th	0	0	-1	-65.8	1.6	1.6	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-P9-264	-17.533	-149.517	13000	1300	Porites sp.	U/Th	0	0	-1	-67.2	1.6	1.6	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-P9-265	-17.533	-149.517	13000	1300	Porites sp.	U/Th	0	0	-1	-69.4	1.6	1.6	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-PI0-272	-17.533	-149.517	10000	200	Acropora sp.	U/Th	0	0	-1	-35	1.4	1.4	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-PI0-302	-17.533	-149.517	10900	100	Acropora sp.	U/Th	0	0	-1	-47.4	1.5	1.5	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-PI0-321	-17.533	-149.517	11400	100	Acropora sp.	U/Th	0	0	-1	-53.6	1.5	1.5	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-PI0-338	-17.533	-149.517	12100	100	Pocillopora sp.	U/Th	0	0	-1	-59.5	1.6	1.6	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-PI0-341	-17.533	-149.517	12100	100	Acropora sp.	U/Th	0	0	-1	-59.7	1.6	1.6	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-PI0-355	-17.533	-149.517	12400	1240	Porites sp.	U/Th	0	0	-1	-64.7	1.6	1.6	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-PI0-373	-17.533	-149.517	13100	1310	Porites sp.	U/Th	0	0	-1	-73.3	1.7	1.7	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-PI0-375	-17.533	-149.517	13100	300	Porites sp.	U/Th	0	0	-1	-73.3	1.7	1.7	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-Pl0-317	-17.533	-149.517	11400	100	Porites sp.	U/Th	0	0	-1	-53.4	1.5	1.5	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	Ta-Pl0-332	-17.533	-149.517	11800	1180	Faviidae (_Favidea_ ref 48)	U/Th	0	0	-1	-58.4	1.5	1.5	BardEtal2010
+Tahiti_MIS1_MIS2	U/Th	310-M0005A-12R-1W_51-54	-17.75	-149.533	11100	1110	Porites sp. (massive)	U/Th	0	0	-1	-71.9	1.5	1.5	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0005C-11R-1W_46-59__1	-17.75	-149.533	11900	1190	Acropora sp. (tabular)	U/Th	0	0	-1	-76.4	1.6	1.6	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0005C-11R-1W_46-59__2	-17.75	-149.533	11900	1190	Acropora sp. (tabular)	U/Th	0	0	-1	-76.4	1.6	1.6	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0005C-11R-1W_46-59__3	-17.75	-149.533	11800	1180	Acropora sp. (tabular)	U/Th	0	0	-1	-76.4	1.6	1.6	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0005C-11R-1W_46-59__4	-17.75	-149.533	11800	1180	Acropora sp. (tabular)	U/Th	0	0	-1	-76.5	1.5	1.5	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0005C-11R-1W_46-59__5	-17.75	-149.533	11900	1190	Acropora sp. (tabular)	U/Th	0	0	-1	-76.4	1.6	1.6	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0005C-11R-1W_46-59__6	-17.75	-149.533	12000	1200	Acropora sp. (tabular)	U/Th	0	0	-1	-76.4	1.6	1.6	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0005D-2R-1W_107-115	-17.75	-149.533	12500	1250	Pocillopora sp. (branching)	U/Th	0	0	-1	-81.4	1.6	1.6	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0005D-5R-2W_0-5	-17.75	-149.533	13200	1320	Porites sp. (branching)	U/Th	0	0	-1	-85.3	1.7	1.7	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0005D-6R-1W_23-31	-17.75	-149.533	14000	100	Pocillopora sp. (robust branching)	U/Th	0	0	-1	-86.9	1.7	1.7	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0005D-6R-2W_0-5__1	-17.75	-149.533	13800	1380	Montipora sp. (massive)	U/Th	0	0	-1	-87.2	1.7	1.7	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0005D-6R-2W_0-5__2	-17.75	-149.533	13900	100	Montipora sp. (massive)	U/Th	0	0	-1	-87.1	1.7	1.7	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0007A-18R-1W_77-109	-17.75	-149.533	10100	1010	Porites sp. (massive)	U/Th	0	0	-1	-58.6	1.4	1.4	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0007B-21R-1W_0-20	-17.75	-149.533	11100	1110	Porites sp. (massive)	U/Th	0	0	-1	-63.8	1.5	1.5	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0009A-6R-1W_24-35	-17.5	-149.383	15000	100	Porites sp. (massive)	U/Th	0	0	-1	-105.8	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0009A-6R-1W_38-48	-17.5	-149.383	14300	1430	Porites sp. (massive)	U/Th	0	0	-1	-102.6	1.7	1.7	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0009A-9R-1W_19-22	-17.5	-149.383	14400	1440	Pavona sp. , Montipora sp. (encrusting)	U/Th	0	0	-1	-106.3	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0009B-13R-1W_11-18	-17.5	-149.383	14600	1460	Acropora sp. (tabular)	U/Th	0	0	-1	-112.6	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0009B-14R-1W_22-25	-17.5	-149.383	15200	1520	Pocillopora sp. (robust branching)	U/Th	0	0	-1	-114.5	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0009B-15R-1W_13-20__1	-17.5	-149.383	16100	100	Pocillopora sp. (robust branching)	U/Th	0	0	-1	-116.2	1.9	1.9	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0009B-15R-1W_13-20__2	-17.5	-149.383	16200	100	Pocillopora sp. (robust branching)	U/Th	0	0	-1	-116.2	1.9	1.9	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0009B-9R-2W_0-5__1	-17.5	-149.383	14400	1440	Pocillopora sp. (robust branching)	U/Th	0	0	-1	-105.7	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0009B-9R-2W_0-5__2	-17.5	-149.383	14400	1440	Pocillopora sp. (robust branching)	U/Th	0	0	-1	-105.7	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0009C-11R-2W_0-4	-17.5	-149.383	14300	1430	Porites sp. (massive)	U/Th	0	0	-1	-107.2	1.7	1.7	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0009C-13R-2W_15-18	-17.5	-149.383	14500	1450	Porites sp. (massive)	U/Th	0	0	-1	-109.8	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0009C-16R-1W_3-4	-17.5	-149.383	15000	1500	Montipora sp. (encrusting)	U/Th	0	0	-1	-113.5	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0009C-17R-2W_0-10	-17.5	-149.383	15600	1560	Porites sp. (massive)	U/Th	0	0	-1	-114.7	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0009C-6R-1W_38-43	-17.5	-149.383	13900	1390	Montipora sp. (encrusting)	U/Th	0	0	-1	-102.2	1.7	1.7	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0009D-10R-2W_74-78	-17.5	-149.383	14800	100	Porites sp. (massive)	U/Th	0	0	-1	-113.3	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0009D-10R-2W_96-107__1	-17.5	-149.383	14800	100	Porites sp. (massive)	U/Th	0	0	-1	-113.5	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0009D-10R-2W_96-107__2	-17.5	-149.383	14900	100	Porites sp. (massive)	U/Th	0	0	-1	-113.4	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0009D-11R-1W_13-26__1	-17.5	-149.383	15000	1500	Porites sp. (massive)	U/Th	0	0	-1	-114.3	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0009D-11R-1W_13-26__2	-17.5	-149.383	14900	100	Porites sp. (massive)	U/Th	0	0	-1	-114.3	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0009D-7R-1W_11-28	-17.5	-149.383	14300	100	Porites sp. (massive)	U/Th	0	0	-1	-106.9	1.7	1.7	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0009D-7R-1W_28-45__1	-17.5	-149.383	14200	1420	Porites sp. (massive)	U/Th	0	0	-1	-107	1.7	1.7	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0009D-7R-1W_28-45__2	-17.5	-149.383	14300	1430	Porites sp. (massive)	U/Th	0	0	-1	-107	1.7	1.7	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0009D-7R-2W_64-71	-17.5	-149.383	14400	1440	Pocillopora sp. (robust branching)	U/Th	0	0	-1	-108.3	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0009D-9R-1W_66-77	-17.5	-149.383	14500	1450	Porites sp. (branching)	U/Th	0	0	-1	-110.8	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0009D-9R-1W_99-103	-17.5	-149.383	14600	1460	Porites sp. (massive)	U/Th	0	0	-1	-111.1	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0009E-7R-1W_5-17	-17.5	-149.383	14200	100	Porites sp. (massive)	U/Th	0	0	-1	-102	1.7	1.7	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0009E-9R-1W_32-36	-17.5	-149.383	14400	100	Montipora sp. (encrusting)	U/Th	0	0	-1	-104.8	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0009E-9R-1W_69-73	-17.5	-149.383	14800	100	Pocillopora sp. (robust branching)	U/Th	0	0	-1	-105	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0015A-33R-1W_29-40__1	-17.75	-149.533	13700	1370	Pocillopora sp. (branching)	U/Th	0	0	-1	-99.7	1.7	1.7	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0015A-33R-1W_29-40__2	-17.75	-149.533	13600	1360	Pocillopora sp. (branching)	U/Th	0	0	-1	-99.7	1.7	1.7	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0015A-36R-1W_51-52	-17.75	-149.533	14500	1450	Montipora sp. (massive)	U/Th	0	0	-1	-103.4	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0015A-36R-2W_0-6	-17.75	-149.533	14600	1460	Montipora sp. (massive)	U/Th	0	0	-1	-103.4	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0015A-37R-1W_19-28	-17.75	-149.533	14700	1470	Montipora sp. (massive)	U/Th	0	0	-1	-104.4	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0016A-36R-2W_5-10	-17.75	-149.533	14600	1460	Porites sp. (massive)	U/Th	0	0	-1	-114	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0018A-18R-1W_40-50	-17.75	-149.533	14300	100	Acropora sp. (tabular)	U/Th	0	0	-1	-108.2	1.7	1.7	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0018A-19R-1W_107-110	-17.75	-149.533	14400	1440	Acropora sp. (tabular)	U/Th	0	0	-1	-110.9	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0018A-7R-1W_73-83	-17.75	-149.533	11500	1150	Acropora sp. (tabular)	U/Th	0	0	-1	-88.6	1.5	1.5	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0019A-10R-1W_20-28	-17.533	-149.583	11900	1190	Porites sp. (massive)	U/Th	0	0	-1	-78.2	1.6	1.6	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0020A-16R-1W_55-66	-17.533	-149.583	13800	100	Porites sp. (massive)	U/Th	0	0	-1	-100.4	1.7	1.7	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0020A-20R-1W_140-150	-17.533	-149.583	14300	100	Porites sp. (branching)	U/Th	0	0	-1	-106.9	1.7	1.7	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0020A-21R-2W_13-20	-17.533	-149.583	14200	1420	Pocillopora sp. (robust branching)	U/Th	0	0	-1	-108.9	1.7	1.7	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0020A-22R-2W_59-70	-17.533	-149.583	14500	100	Porites sp. (massive)	U/Th	0	0	-1	-111.4	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0020A-23R-1W_56-64	-17.533	-149.583	14500	100	Porites sp. (massive)	U/Th	0	0	-1	-113.1	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0020A-23R-2W_72-78	-17.533	-149.583	14800	100	Porites sp. (massive)	U/Th	0	0	-1	-114.6	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0020A-24R-1W_28-38	-17.533	-149.583	14800	100	Porites sp. (massive)	U/Th	0	0	-1	-115.8	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0020A-24R-2W_38-42	-17.533	-149.583	14700	100	Acropora sp. (robust)	U/Th	0	0	-1	-116.9	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0020A-2R-1W_31-32	-17.533	-149.583	10000	1000	Pavona sp.	U/Th	0	0	-1	-82.6	1.4	1.4	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0020A-3R-1W_19-23	-17.533	-149.583	10700	1070	Porites sp. (massive)	U/Th	0	0	-1	-83.8	1.5	1.5	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0021A-13R-2W_66-75__1	-17.5	-149.383	14100	1410	Porites sp. (massive)	U/Th	0	0	-1	-97.7	1.7	1.7	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0021A-13R-2W_66-75__2	-17.5	-149.383	14100	1410	Porites sp. (massive)	U/Th	0	0	-1	-97.7	1.7	1.7	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0021A-17R-1W_13-19	-17.5	-149.383	14400	1440	Porites sp. (branching)	U/Th	0	0	-1	-103.3	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0021B-16R-1W_39-44	-17.5	-149.383	14400	1440	Pocillopora sp. (robust branching)	U/Th	0	0	-1	-102.9	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0023A-11R-1W_22-31	-17.5	-149.383	13500	1350	Pocillopora sp. (robust branching)	U/Th	0	0	-1	-81.8	1.7	1.7	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0023A-11R-2W_112-121	-17.5	-149.383	13600	1360	Porites sp. (branching)	U/Th	0	0	-1	-83.9	1.7	1.7	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0023A-12R-1W_140-145	-17.5	-149.383	13800	1380	Leptastrea spp. (massive)	U/Th	0	0	-1	-85.7	1.7	1.7	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0023A-12R-1W_32-38	-17.5	-149.383	13600	1360	Pocillopora sp. (robust branching)	U/Th	0	0	-1	-84.6	1.7	1.7	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0023A-13R-2W_32-37	-17.5	-149.383	14400	1440	Pocillopora sp. (branching)	U/Th	0	0	-1	-87.7	1.7	1.7	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0023A-14R-1W_0-20	-17.5	-149.383	14600	1460	Pocillopora sp. (robust branching)	U/Th	0	0	-1	-89	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0023A-5R-1W_45-52	-17.5	-149.383	12400	1240	Porites sp. (massive)	U/Th	0	0	-1	-71.3	1.6	1.6	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0023A-6R-1W_117-146	-17.5	-149.383	12500	1250	Porites sp. (massive)	U/Th	0	0	-1	-73.8	1.6	1.6	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0023B-12R-1W_30-33	-17.5	-149.383	14000	1400	Montipora sp. (foliacious)	U/Th	0	0	-1	-86.2	1.7	1.7	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0023B-12R-2W_113-127__1	-17.5	-149.383	14300	1430	Pocillopora sp. (robust branching)	U/Th	0	0	-1	-87.5	1.7	1.7	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0023B-12R-2W_113-127__2	-17.5	-149.383	14300	1430	Pocillopora sp. (robust branching)	U/Th	0	0	-1	-87.5	1.7	1.7	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0023B-15R-1W_0-5	-17.5	-149.383	14300	1430	Pocillopora sp. (robust branching)	U/Th	0	0	-1	-92.3	1.7	1.7	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0024A-10R-1W_65-75	-17.5	-149.383	14600	100	Pocillopora sp. (robust branching)	U/Th	0	0	-1	-104.3	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0024A-10R-1W_98-116	-17.5	-149.383	14700	1470	Pocillopora sp. (robust branching)	U/Th	0	0	-1	-104.7	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0024A-10R-2W_69-72	-17.5	-149.383	14800	1480	Porites sp. (branching)	U/Th	0	0	-1	-105.8	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0024A-11R-2W_23-38__1	-17.5	-149.383	15000	1500	Porites sp. (massive)	U/Th	0	0	-1	-108.4	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0024A-11R-2W_23-38__2	-17.5	-149.383	15000	100	Porites sp. (massive)	U/Th	0	0	-1	-108.4	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0024A-13R-1W_32-41	-17.5	-149.383	15200	1520	Porites sp. (massive)	U/Th	0	0	-1	-111.4	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0024A-14R-1W_24-28__1	-17.5	-149.383	15200	100	Porites sp. (massive)	U/Th	0	0	-1	-112.3	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0024A-14R-1W_24-28__2	-17.5	-149.383	15300	1530	Porites sp. (massive)	U/Th	0	0	-1	-112.3	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0024A-15R-1W_16-20	-17.5	-149.383	15800	1580	Pocillopora sp. (robust branching)	U/Th	0	0	-1	-113.9	1.9	1.9	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0024A-1R-1W_36-41	-17.5	-149.383	12400	1240	Montipora sp. (massive)	U/Th	0	0	-1	-87.6	1.6	1.6	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0024A-4R-1W_137-141	-17.5	-149.383	13600	1360	Pocillopora sp. (branching)	U/Th	0	0	-1	-91.3	1.7	1.7	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0025B-10R-1W_0-5	-17.5	-149.383	14900	1490	Porites sp. (massive)	U/Th	0	0	-1	-110.3	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0025B-11R-1W_70-74	-17.5	-149.383	15300	1530	Montipora sp. (encrusting)	U/Th	0	0	-1	-112.9	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0025B-9R-1W_0-30	-17.5	-149.383	14800	100	Porites sp. (massive)	U/Th	0	0	-1	-108.4	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0025B-9R-2W_60-70	-17.5	-149.383	14800	1480	Porites sp. (massive)	U/Th	0	0	-1	-110.1	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0026A-5R-1W_117-127	-17.5	-149.383	14900	1490	Porites sp. (massive)	U/Th	0	0	-1	-111.1	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0026A-5R-1W_4-18	-17.5	-149.383	14800	1480	Porites sp. (massive)	U/Th	0	0	-1	-110.1	1.8	1.8	DeschampsEtal2012
+Tahiti_MIS1_MIS2	U/Th	310-M0009B-16R-2W-13_17	-17.5	-149.383	29600	100	Porites sp. (massive)	U/Th	0	0	-1	-115.5	3.1	3.1	ThomasEtal2009
+Tahiti_MIS1_MIS2	U/Th	310-M0009B-16R-2W-13_17_(2)	-17.5	-149.383	29600	100	Porites sp. (massive)	U/Th	0	0	-1	-115.5	3.1	3.1	ThomasEtal2009
+Tahiti_MIS1_MIS2	U/Th	310-M0009B-17R-1W-5_10	-17.5	-149.383	29800	100	Porites sp. (massive)	U/Th	0	0	-1	-115.5	3.1	3.1	ThomasEtal2009
+Tahiti_MIS1_MIS2	U/Th	310-M0009B-17R-1W-5_10_(2)	-17.5	-149.383	29900	100	Porites sp. (massive)	U/Th	0	0	-1	-115.5	3.1	3.1	ThomasEtal2009
+Tahiti_MIS1_MIS2	U/Th	310-M0009B-17R-1W-70_80	-17.5	-149.383	29500	100	Acropora sp.(branching )	U/Th	0	0	-1	-116.3	3.1	3.1	ThomasEtal2009
+Tahiti_MIS1_MIS2	U/Th	310-M0009B-17R-1W-70_80_(2)	-17.5	-149.383	29700	100	Acropora sp.(branching )	U/Th	0	0	-1	-116.2	3.1	3.1	ThomasEtal2009
+Tahiti_MIS1_MIS2	U/Th	310-M0009D-18R-1W-19_28	-17.5	-149.383	29800	100	_Foliaceous pachyseris_ (ref 43) - is this Pacyseris foliosa?	U/Th	0	0	-1	-123.1	3.1	3.1	ThomasEtal2009

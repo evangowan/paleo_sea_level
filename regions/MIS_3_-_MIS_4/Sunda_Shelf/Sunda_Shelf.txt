@@ -1,0 +1,12 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
+Sunda_Shelf	radiocarbon	KIA-5988_1	4.114	109.115	26850	170	Wood macrofossil insoluble	terrestrial	0	0	1	-103.43	5	5	HanebuthEtal2003
+Sunda_Shelf	radiocarbon	KIA-5988_3	4.114	109.115	27110	150	Bulk sediment insoluble	terrestrial	0	0	1	-103.43	5	5	HanebuthEtal2003
+Sunda_Shelf	radiocarbon	KIA-5977	4.697	109.809	36370	2400	Bulk sediment humic	terrestrial	0	0	-1	-128.73	5	5	HanebuthEtal2003
+Sunda_Shelf	radiocarbon	KIA-5618	2.203	107.045	37330	1600	Bulk sediment humic	terrestrial	0	0	0	-69.41	5	5	HanebuthEtal2003
+Sunda_Shelf	radiocarbon	KIA-3529	4.566	108.71	39210	3190	Bulk sediment insoluble	terrestrial	0	0	1	-99.8	5	5	HanebuthEtal2003
+Sunda_Shelf	radiocarbon	KIA-5977_1	4.697	109.809	39870	1070	Bulk sediment insoluble	terrestrial	0	0	-1	-128.73	5	5	HanebuthEtal2003
+Sunda_Shelf	radiocarbon	KIA-5977_2	4.697	109.809	42810	1680	Bulk sediment humic	terrestrial	0	0	-1	-128.73	5	5	HanebuthEtal2003
+Sunda_Shelf	radiocarbon	KIA-xxxx-2	5.424	110.401	31400	560	Asterorotalia sp.	marine	0	0	-1	-152.4	5	5	SteinkeEtal2003
+Sunda_Shelf	radiocarbon	KIA-xxxx-3	5.424	110.401	31680	580	Asterorotalia sp.	marine	0	0	-1	-153.6	5	5	SteinkeEtal2003
+Sunda_Shelf	radiocarbon	KIA-xxxx-1	5.424	110.401	32640	660	G. ruber	marine	0	0	-1	-151.49	5	5	SteinkeEtal2003
+Sunda_Shelf	radiocarbon	KIA-xxxx-4	5.424	110.401	34020	780	Asterorotalia sp.	marine	0	0	-1	-154.78	5	5	SteinkeEtal2003

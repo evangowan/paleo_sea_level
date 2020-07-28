@@ -1,0 +1,8 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
+Yellow_Sea	OSL	SYS-0701_1	34.662	121.45	41000	4000	quartz sand	OSL	0	0	-1	-43.19	2	2	LiuEtal2010,PicoEtal2016
+Yellow_Sea	OSL	SYS-0701_2	34.662	121.45	43000	4000	quartz sand	OSL	0	0	-1	-43.7	2	2	LiuEtal2010,PicoEtal2016
+Yellow_Sea	OSL	SYS-0701_3	34.662	121.45	45000	5000	quartz sand	OSL	0	0	-1	-48.22	2	2	LiuEtal2010,PicoEtal2016
+Yellow_Sea	radiocarbon	Beta-240034	34.662	121.45	43650	1200	mollusc shell	marine	0	0	-1	-51.41	2	2	LiuEtal2010,PicoEtal2016
+Yellow_Sea	radiocarbon	Beta-240035	34.662	121.45	45820	1600	mollusc shell	marine	0	0	-1	-53.3	2	2	LiuEtal2010,PicoEtal2016
+Yellow_Sea	OSL	SYS-0701_4	34.662	121.45	48000	5000	quartz sand	OSL	0	0	-1	-55.96	2	2	LiuEtal2010,PicoEtal2016
+Yellow_Sea	radiocarbon	YS01A	35.52	122.488	36200	280	foraminifera	marine	0	0	-1	-87.15	2	2	WangEtal2014,PicoEtal2016

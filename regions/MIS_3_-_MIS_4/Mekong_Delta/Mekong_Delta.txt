@@ -1,0 +1,2 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
+Mekong_Delta	radiocarbon	Beta-132936	9.684	106.194	43420	980	shell	marine	0	0	-1	-24.99	1	1	TaEtal2002

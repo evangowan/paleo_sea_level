@@ -1,0 +1,4 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
+Chao_Phraya_MIS3_MIS4	radiocarbon	Beta-130680	13.57	100.587	36290	710	Crassostrea sp.	marine	0	0	-1	-13.36	1	1	TanabeEtal2003
+Chao_Phraya_MIS3_MIS4	radiocarbon	Beta-115341	13.558	100.65	43870	1550	Chlamys nobilis	marine	0	0	-1	-14.8	1	1	TanabeEtal2003
+Chao_Phraya_MIS3_MIS4	radiocarbon	Beta-130679	13.57	100.587	44740	1000	Crassostrea sp.	marine	0	0	-1	-12.93	1	1	TanabeEtal2003

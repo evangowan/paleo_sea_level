@@ -1,0 +1,6 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
+Vietnam_Shelf	radiocarbon	KIA-5202_1	9.39	107.75	9580	50	piece of wood	terrestrial	0	0	0	-49.66	2.5	2.5	HanebuthEtal2000
+Vietnam_Shelf	radiocarbon	KIA-5201_1	9.39	107.75	9600	60	piece of wood	terrestrial	0	0	0	-49.27	2.5	2.5	HanebuthEtal2000
+Vietnam_Shelf	radiocarbon	KIA-4754_1	9.25	107.99	10110	60	macro-fibres	terrestrial	0	0	-1	-56.5	2.5	2.5	HanebuthEtal2000
+Vietnam_Shelf	radiocarbon	KIA-3146_1	9.25	107.99	10930	70	macro-fibres	terrestrial	0	0	0	-64.2	2.5	2.5	HanebuthEtal2000
+Vietnam_Shelf	radiocarbon	KIA-3148_1	9.25	107.99	11080	70	macro-fibres	terrestrial	0	0	0	-64.4	2.5	2.5	HanebuthEtal2000

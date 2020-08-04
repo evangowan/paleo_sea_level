@@ -4,3 +4,4 @@ Mekong_Delta	Sundaland
 Strait_Of_Malacca	Sundaland
 Sunda_Shelf	Sundaland
 Vietnam_Shelf	Sundaland
+Phuket	Sundaland

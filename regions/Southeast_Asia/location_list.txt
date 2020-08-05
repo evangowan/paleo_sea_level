@@ -6,3 +6,4 @@ Sunda_Shelf	Sundaland
 Vietnam_Shelf	Sundaland
 Phuket	Sundaland
 Thale_Noi	Sundaland
+West_Malay_Peninsula	Sundaland

@@ -1,0 +1,5 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
+East_Malay_Peninsula	radiocarbon	CM-1-28-11-12	5.49383	102.89448	6580	30	Galaxea sp. - fossil coral reef	marine	-15	38	-1	0.03	0.52	0.52	ParhamEtal2014
+East_Malay_Peninsula	radiocarbon	CM-2-28-11-12	5.49383	102.89448	6520	30	Acropora sp. - fossil coral reef	marine	-15	38	-1	0.03	0.52	0.52	ParhamEtal2014
+East_Malay_Peninsula	radiocarbon	GAK-11203	5.21851	103.26009	4570	110	coral fragments - taxa unspecified - collected from a borehole at 1.5 m below current high tide.	marine	-15	38	-1	-0.74	0.52	0.52	TjiaFujii1992
+East_Malay_Peninsula	OSL	SLCC197	5.71347	102.64635	6250	550	Quartz beach-ridge sand	OSL	0	0	1	3.08	0.52	0.52	ParhamEtal2014

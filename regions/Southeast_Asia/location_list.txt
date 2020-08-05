@@ -9,3 +9,4 @@ Thale_Noi	Sundaland
 West_Malay_Peninsula	Sundaland
 East_Malay_Peninsula	Sundaland
 Southeast_Malay_Peninsula	Sundaland
+Belitung_Island	Sundaland

@@ -150,11 +150,11 @@ END_CAT
 
 END_CAT
 
-	current_region=${region}
+
 
 	fi
 
-	if [ $counter -gt 1 ]
+	if [ "${region}" = "${current_region}" ]
 	then
 		cat << END_CAT >> figure_tex/summary.tex
 
@@ -162,7 +162,11 @@ END_CAT
 
 END_CAT
 
+
+
 	fi
+
+	current_region=${region}
 
 	cat figure_tex/${subregion}.tex >> figure_tex/summary.tex
 	cat figure_tex/${subregion}_figures.tex >> figure_tex/summary.tex

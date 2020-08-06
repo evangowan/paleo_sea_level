@@ -1,0 +1,42 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
+South_Sulawesi	radiocarbon	GaK-3602	-4.83333	119.56667	4460	139	Molluscs attached to Eocene limestone	marine	89	70	-1	5.75	0.6	0.6	TjiaEtal1972,MannEtal2016
+South_Sulawesi	radiocarbon	GaK-3603	-4.83333	119.56667	5312	139	Molluscs attached to Eocene limestone	marine	89	70	-1	6.5	0.6	0.6	TjiaEtal1972,MannEtal2016
+South_Sulawesi	radiocarbon	GrN-10491	-5.00284	119.48236	905	50	Loamy clay	terrestrial	0	0	1	1.1	0.12	0.12	deKlerk1982
+South_Sulawesi	radiocarbon	GrN-10492	-5.00284	119.48236	6840	100	Loamy clay	terrestrial	0	0	1	-0.6	0.12	0.12	deKlerk1982
+South_Sulawesi	radiocarbon	GrN-10493	-4.9494	119.56053	6175	103	Peat	terrestrial	0	0	0	-0.931	0.44	0.44	deKlerk1982
+South_Sulawesi	radiocarbon	GrN-10559	-5.58606	119.48718	1525	130	Shell accumulation	marine	89	70	-1	1.56	0.12	0.12	deKlerk1982
+South_Sulawesi	radiocarbon	GrN-10560	-5.58606	119.48718	1840	136	Shell accumulation	marine	89	70	-1	1.84	0.12	0.12	deKlerk1982
+South_Sulawesi	radiocarbon	GrN-10561	-5.58606	119.48718	6540	103	coral taxa unspecified	marine	89	70	-1	0	0.12	0.12	deKlerk1982
+South_Sulawesi	radiocarbon	GrN-10562	-5.58606	119.48718	4380	128	Beachrock - no direct evidence of intertidal origin - conservatively considered subtidal	marine	89	70	-1	1.36	0.12	0.12	deKlerk1982
+South_Sulawesi	radiocarbon	GrN-10563	-4.57482	119.59116	4520	141	Shell deposit	marine	89	70	-1	1.83	0.12	0.12	deKlerk1982
+South_Sulawesi	radiocarbon	GrN-10564	-5.00284	119.48236	2230	136	Shell accumulation	marine	89	70	-1	1.25	0.12	0.12	deKlerk1982
+South_Sulawesi	radiocarbon	GrN-10565	-5.07198	119.46815	2330	136	Shell accumulation	marine	89	70	-1	1.68	0.12	0.12	deKlerk1982
+South_Sulawesi	radiocarbon	GrN-10566	-5.12537	119.34338	5440	150	coral	marine	89	70	-1	0	0.12	0.12	deKlerk1982
+South_Sulawesi	radiocarbon	GrN-10976	-5.03615	119.27746	1735	83	Coral - shell deposit	marine	89	70	-1	1	0.12	0.12	deKlerk1982
+South_Sulawesi	radiocarbon	GrN-10978	-4.8119	119.2346	3870	99	Coral - shell deposit	marine	89	70	-1	0.7	0.12	0.12	deKlerk1982
+South_Sulawesi	radiocarbon	GrN-10979	-4.57482	119.59116	3770	92	Oysters	marine	89	70	-1	3.56	0.12	0.12	deKlerk1982
+South_Sulawesi	radiocarbon	GrN-10980	-5.07198	119.46815	5740	106	Shell deposit	marine	89	70	-1	1.9	0.12	0.12	deKlerk1982
+South_Sulawesi	radiocarbon	GrN-10981	-5.58606	119.48718	8220	100	marine calcium accumulation	marine	89	70	-1	1.53	0.12	0.12	deKlerk1982
+South_Sulawesi	radiocarbon	GrN-9883	-5.1055	119.28881	4165	64	coral - taxa unspecified	marine	89	70	-1	1.02	0.12	0.12	deKlerk1982
+South_Sulawesi	radiocarbon	GrN-9884	-5.60599	119.45858	4260	64	coral - taxa unspecified	marine	89	70	-1	1.13	0.12	0.12	deKlerk1982
+South_Sulawesi	radiocarbon	GrN-9885	-5.60599	119.45858	2755	126	Shell accumulation	marine	89	70	-1	1.22	0.12	0.12	deKlerk1982
+South_Sulawesi	radiocarbon	Poz-63504	-5.04	119.33	4505	30	coral - taxa unspecified	marine	89	70	0	-0.764	0.31	0.31	MannEtal2016
+South_Sulawesi	radiocarbon	Poz-63505	-5.04	119.33	4405	35	coral - taxa unspecified	marine	89	70	0	-0.364	0.31	0.31	MannEtal2016
+South_Sulawesi	radiocarbon	Poz-63506	-5.04	119.33	4965	35	coral - taxa unspecified	marine	89	70	0	-0.514	0.31	0.31	MannEtal2016
+South_Sulawesi	radiocarbon	Poz-63507	-4.95	119.36	5325	35	coral - taxa unspecified	marine	89	70	0	0.527	0.3	0.3	MannEtal2016
+South_Sulawesi	radiocarbon	Poz-63511	-4.95	119.36	4915	35	coral - taxa unspecified	marine	89	70	0	0.207	0.3	0.3	MannEtal2016
+South_Sulawesi	radiocarbon	Poz-63512	-4.95	119.36	3920	30	coral - taxa unspecified	marine	89	70	0	0.087	0.3	0.3	MannEtal2016
+South_Sulawesi	radiocarbon	Poz-63513	-4.95	119.36	4645	30	coral - taxa unspecified	marine	89	70	0	0.147	0.3	0.3	MannEtal2016
+South_Sulawesi	radiocarbon	Poz-63515	-4.95	119.36	4940	35	coral - taxa unspecified	marine	89	70	0	0.257	0.3	0.3	MannEtal2016
+South_Sulawesi	radiocarbon	Poz-66838	-5.04	119.33	5600	40	coral - taxa unspecified	marine	89	70	0	-0.344	0.31	0.31	MannEtal2016
+South_Sulawesi	radiocarbon	Poz-66839	-5.04	119.33	4900	35	coral - taxa unspecified	marine	89	70	0	-0.444	0.31	0.31	MannEtal2016
+South_Sulawesi	radiocarbon	Poz-66840	-5.04	119.33	4640	35	coral - taxa unspecified	marine	89	70	0	-0.574	0.31	0.31	MannEtal2016
+South_Sulawesi	radiocarbon	Poz-66842	-5.04	119.33	4830	40	coral - taxa unspecified	marine	89	70	0	-0.484	0.31	0.31	MannEtal2016
+South_Sulawesi	radiocarbon	Poz-66843	-4.95	119.36	5370	35	coral - taxa unspecified	marine	89	70	0	0.487	0.3	0.3	MannEtal2016
+South_Sulawesi	radiocarbon	Poz-66844	-4.95	119.36	5185	35	coral - taxa unspecified	marine	89	70	0	0.497	0.3	0.3	MannEtal2016
+South_Sulawesi	radiocarbon	Poz-66845	-4.95	119.36	5165	35	coral - taxa unspecified	marine	89	70	0	0.517	0.3	0.3	MannEtal2016
+South_Sulawesi	radiocarbon	Poz-66846	-4.95	119.36	4940	40	coral - taxa unspecified	marine	89	70	0	0.297	0.3	0.3	MannEtal2016
+South_Sulawesi	radiocarbon	Poz-66847	-4.95	119.36	4340	30	coral - taxa unspecified	marine	89	70	0	0.117	0.3	0.3	MannEtal2016
+South_Sulawesi	radiocarbon	Poz-66848	-4.95	119.36	4330	35	coral - taxa unspecified	marine	89	70	0	0.097	0.3	0.3	MannEtal2016
+South_Sulawesi	radiocarbon	Poz-66849	-4.95	119.36	4810	40	coral - taxa unspecified	marine	89	70	0	0.147	0.3	0.3	MannEtal2016
+South_Sulawesi	radiocarbon	Poz-66850	-4.95	119.36	5350	40	coral - taxa unspecified	marine	89	70	0	0.447	0.3	0.3	MannEtal2016

@@ -24,6 +24,12 @@ rm temp/subregion_temp/*
 
 rm temp/subregions.txt
 
+		cat << END_CAT >> statistics_tex/summary.tex
+
+\clearpage
+
+END_CAT
+
 for region in $(cat ../regions/region_list.txt)
 do
 
@@ -140,7 +146,6 @@ END_CAT
 		cat << END_CAT >> statistics_tex/summary.tex
 
 \clearpage
-
 \subsection{${region_space}}
 
 END_CAT
@@ -174,7 +179,7 @@ END_CAT
 #
 	cat << END_CAT > temp/table.tex
 
-\begin{table}[h]
+\begin{table}[h!]
 \caption{Number of data points and model scores for ${subregion_space} }
 
 \begin{scriptsize}

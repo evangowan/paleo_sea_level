@@ -11,3 +11,4 @@ East_Malay_Peninsula	Sundaland
 Southeast_Malay_Peninsula	Sundaland
 Belitung_Island	Sundaland
 Ca_Na	Sundaland
+Central_Java	Java_Sea

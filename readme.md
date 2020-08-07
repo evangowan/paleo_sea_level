@@ -32,12 +32,14 @@ Special thanks:
 In this project, there are a series of scripts and programs to plot published paleo-sea level data and calculated sea level, and create a report that shows the results. To run these scripts, it is assumed that you have compiled the Fortran programs in the "Fortran/" directory. The scripts require the following:
 
 - bash shell
-- latex (specifically Xelatex)
+- latex (specifically Xelatex, so non-Latin text can be implemented easier)
 - a fortran compiler (i.e. gfortran)
 - [Generic Mapping Tools](https://www.generic-mapping-tools.org/ "GMT"), version 5 (I assume version 6 will also work, but I have not tried it).
 - Perl (used to parse the radiocarbon calibration javascript file from Oxcal)
 
 I made these scripts in Ubuntu, and I do not guarantee it will work in other operating systems.
+
+The bibtex database is maintained using JabRef.
 
 Radiocarbon calibration
 ------------------

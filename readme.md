@@ -18,7 +18,7 @@ E.J.G. is funded by Helmholtz Exzellenznetzwerks "The Polar System and its Effec
 
 If you use this script setup, please acknowlege using the following references.
 
-Gowan, E.J., Zhang, X., Khosravi, S., Rovere, A., Stocchi, P., Hughes, A.L.C., Gyllencreutz, R., Mangerud, J., Svendsen, J.-I., and Lohmann, G., in review. A new global ice sheet reconstruction for the past 80000 years.
+Gowan, E.J., Zhang, X., Khosravi, S., Rovere, A., Stocchi, P., Hughes, A.L.C., Gyllencreutz, R., Mangerud, J., Svendsen, J.-I., and Lohmann, G., 2021. A new global ice sheet reconstruction for the past 80000 years. Nature Communications, 12, 1199. https://doi.org/10.1038/s41467-021-21469-w
 
 Gowan, E.J., Tregoning, P., Purcell, A., Montillet, J.P. and McClusky, S., 2016. A model of the western Laurentide Ice Sheet, using observations of glacial isostatic adjustment. Quaternary Science Reviews, 139, pp.1-16.
 

@@ -29,9 +29,10 @@
 \begin{document}
 
 
-\title{Comparision of calculated and measured paleo-sea level}
+\title{Comparision of calculated and measured paleo-sea level using different lower mantle viscosity values and PaleoMIST 1.0 \\
+\normalsize As a supplement to ``\emph{A new global ice sheet reconstruction for the past 80\,000 years}" by Evan J. Gowan, Xu Zhang, Sara Khosravi, Alessio Rovere, Paolo Stocchi, Anna L. C. Hughes, Richard Gyllencreutz, Jan Mangerud, John-Inge Svendsen \& Gerrit Lohmann}
 
-\author{Evan James Gowan \emph{et al}}
+\author{Evan James Gowan}
     
 \date{}
 
@@ -41,12 +42,19 @@
 
 \newpage
 
+\section{Purpose of this document}
+
+In this report there is a detailed summary, including plots, of a worldwide compilation of paleo-sea level data, and six ice sheet-Earth models. In this particular report, we compare the standard version of PaleoMIST 1.0 (with 2500 year time steps and using a lower mantle viscosity of $4\times10^{22}$ Pa~s), with five other Earth models with viscosity values ranging between $10^{21}$ and $10^{23}$. When developing PaleoMIST 1.0, a variety of lower mantle viscosity values were tested, and it was found that a value approaching $10^{23}$ Pa~s provided the best trade-off between increasing the amount of ice in the center of the Laurentide Ice Sheet and fitting the sea level data. This ended up being true for the Eurasian ice sheets as well. PaleoMIST 1.0 was tuned to an Earth model with a viscosity of $4\times10^{22}$ Pa~s, but the comparison shown in this document demonstrate that a slightly higher value of $10^{23}$ Pa~s provides an even better fit.
+
+
 \section{Summary of ice and Earth models}
 
 
 In order to make the figures compact, I have made shorthand codes for the ice and Earth models. I calculate each ice sheet separately, and the numbers refer to the ``run number", which is a sequential number that I used to distinguish git commits (see \url{https://github.com/evangowan/icesheet}). The ice model numbering scheme is as follows:
 
 ``North America"\_``Europe"\_``Antarctica"\_``Patagonia"
+
+For PaleoMIST 1.0, the minimal MIS~3 configuration reconstruction is 72\_73\_74\_75, while the maximal configuration is 82\_83\_85\_85
 
 For the Earth models, I created a shorthand scheme during my PHD, which I have continued to use. A full explanation can be found on the github page:
 

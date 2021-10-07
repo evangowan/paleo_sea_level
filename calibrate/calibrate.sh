@@ -32,6 +32,15 @@ terrestrial_sh="shcal13.14c"
 curve_marine="Marine13"
 marine="marine13.14c"
 
+curve_terrestrial="IntCal20"
+terrestrial="intcal20.14c"
+
+curve_terrestrial_sh="SHCal20"
+terrestrial_sh="shcal20.14c"
+
+curve_marine="Marine20"
+marine="marine20.14c"
+
 
 # find number of lines in the file
 

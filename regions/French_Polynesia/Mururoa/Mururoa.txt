@@ -1,15 +1,13 @@
-Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
-Mururoa	U/Th	FIL_5_30_167m__1	-21.833	-138.883	17600	100	Faviidae (_Faviid_)	U/Th	0	0	-1	-165.7	1	1	CamoinEtal2001
-Mururoa	U/Th	FIL_5_30_167m__2	-21.833	-138.883	17700	200	Faviidae (_Faviid_)	U/Th	0	0	-1	-165.7	1	1	CamoinEtal2001
-Mururoa	U/Th	FIL_5_30_167m__3	-21.833	-138.883	17700	200	Faviidae (_Faviid_)	U/Th	0	0	-1	-165.7	1	1	CamoinEtal2001
-Mururoa	U/Th	FIL_5_30_169m__1	-21.833	-138.883	15600	100	Porites sp.	U/Th	0	0	-1	-167.8	1	1	CamoinEtal2001
-Mururoa	U/Th	FIL_5_30_169m__2	-21.833	-138.883	15700	100	Porites sp.	U/Th	0	0	-1	-167.8	1	1	CamoinEtal2001
-Mururoa	U/Th	FIL_5_30_169m__3	-21.833	-138.883	15600	100	Porites sp.	U/Th	0	0	-1	-167.8	1	1	CamoinEtal2001
-Mururoa	U/Th	FIL_5_30_24m	-21.833	-138.883	9100	300	Acropora danai	U/Th	0	0	-1	-23.3	1	1	CamoinEtal2001
-Mururoa	U/Th	FIL_5_30_35.5m	-21.833	-138.883	15500	100	Acropora sp.	U/Th	0	0	-1	-34.3	1	1	CamoinEtal2001
-Mururoa	U/Th	FIL_8_30_166m	-21.833	-138.883	23600	100	Botryoidal aragonite	U/Th	0	0	-1	-164.2	1	1	CamoinEtal2001
-Mururoa	U/Th	FIL_8_30_169m	-21.833	-138.883	17300	1730	Alveopora sp.	U/Th	0	0	-1	-167.7	1	1	CamoinEtal2001
-Mururoa	U/Th	FIL_8_30_8.3m	-21.833	-138.883	8500	100	Acropora danai	U/Th	0	0	-1	-7.7	1	1	CamoinEtal2001
-Mururoa	U/Th	FIL_8_30_9.15m	-21.833	-138.883	8300	400	Acropora danai	U/Th	0	0	-1	-8.5	1	1	CamoinEtal2001
-Mururoa	U/Th	FIL_8_30_109.6m	-21.833	-138.883	59100	300	Botryoidal aragonite	U/Th	0	0	-1	-105.2	1	1	CamoinEtal2001
-Mururoa	U/Th	FIL_8_30_116.4m	-21.833	-138.883	69000	3200	Botryoidal aragonite	U/Th	0	0	-1	-111.2	1.1	1.1	CamoinEtal2001
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	original_depth	original_depth_uncertainty	depth_range_low	depth_range_high	
+Mururoa	U/Th	FIL_5_30_167m__1	-21.833	-138.883	17600	100	Faviidae (_Faviid_)	U/Th	0	0	0	-146.1	12	12	CamoinEtal2001,HibbertEtal2016	-165.7	1	31.6	7.6	
+Mururoa	U/Th	FIL_5_30_167m__2	-21.833	-138.883	17700	200	Faviidae (_Faviid_)	U/Th	0	0	0	-146.14999999999998	11.95	11.95	CamoinEtal2001,HibbertEtal2016	-165.7	1	31.5	7.6	
+Mururoa	U/Th	FIL_5_30_167m__3	-21.833	-138.883	17700	200	Faviidae (_Faviid_)	U/Th	0	0	0	-146.14999999999998	11.95	11.95	CamoinEtal2001,HibbertEtal2016	-165.7	1	31.5	7.6	
+Mururoa	U/Th	FIL_5_30_169m__1	-21.833	-138.883	15600	100	Porites sp.	U/Th	0	0	0	-133.25	29.050000000000004	29.050000000000004	CamoinEtal2001,HibbertEtal2016	-167.8	1	63.6	5.5	
+Mururoa	U/Th	FIL_5_30_169m__2	-21.833	-138.883	15700	100	Porites sp.	U/Th	0	0	0	-133.20000000000002	29.1	29.1	CamoinEtal2001,HibbertEtal2016	-167.8	1	63.7	5.5	
+Mururoa	U/Th	FIL_5_30_169m__3	-21.833	-138.883	15600	100	Porites sp.	U/Th	0	0	0	-133.25	29.050000000000004	29.050000000000004	CamoinEtal2001,HibbertEtal2016	-167.8	1	63.6	5.5	
+Mururoa	U/Th	FIL_5_30_24m	-21.833	-138.883	9100	300	Acropora danai	U/Th	0	0	0	-11.9	8.299999999999999	8.299999999999999	CamoinEtal2001,HibbertEtal2016	-23.3	1	19.7	3.1	
+Mururoa	U/Th	FIL_5_30_35.5m	-21.833	-138.883	15500	100	Acropora sp.	U/Th	0	0	0	-22.849999999999994	8.35	8.35	CamoinEtal2001,HibbertEtal2016	-34.3	1	19.8	3.1	
+Mururoa	U/Th	FIL_8_30_166m	-21.833	-138.883	23600	100	Botryoidal aragonite	U/Th	0	0	0	-141.7	7.5	7.5	CamoinEtal2001,HibbertEtal2016	-164.2	1	30	15	taken from Camoin paper
+Mururoa	U/Th	FIL_8_30_169m	-21.833	-138.883	17300	1730	Alveopora sp.	U/Th	0	0	0	-142.89999999999998	18.7	18.7	CamoinEtal2001,HibbertEtal2016	-167.7	1	43.5	6.1	
+Mururoa	U/Th	FIL_8_30_8.3m	-21.833	-138.883	8500	100	Acropora danai	U/Th	0	0	0	3.7	8.299999999999999	8.299999999999999	CamoinEtal2001,HibbertEtal2016	-7.7	1	19.7	3.1	
+Mururoa	U/Th	FIL_8_30_9.15m	-21.833	-138.883	8300	400	Acropora danai	U/Th	0	0	0	2.950000000000001	8.35	8.35	CamoinEtal2001,HibbertEtal2016	-8.5	1	19.8	3.1	

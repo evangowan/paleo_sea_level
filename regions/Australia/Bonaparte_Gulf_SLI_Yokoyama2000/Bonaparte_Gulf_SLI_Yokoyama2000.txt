@@ -1,0 +1,22 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	facies	indicative meaning	Core Name	water depth (m)	Depth in core (cm)	elevation
+Bonaparte_Gulf	radiocarbon	ANUA-7516	-12.16	127.97	11810	130	bivalve	marine	0	0	0	-122.87	5	5	YokoyamaEtal2000	shallow marine	> -10 m	GC 3	127	87	-127.87
+Bonaparte_Gulf	radiocarbon	ANUA-9304	-12.16	127.97	24100	230	bivalve	marine	0	0	0	-123.30000000000001	5	5	YokoyamaEtal2000	shallow marine	> -10 m	GC 3	127	130	-128.3
+Bonaparte_Gulf	radiocarbon	ANUA-9506	-12.16	127.97	24750	440	bivalve	marine	0	0	0	-123.6	5	5	YokoyamaEtal2000	shallow marine	> -10 m	GC 3	127	160	-128.6
+Bonaparte_Gulf	radiocarbon	ANUA-6900	-12.2	128.04	11410	180	benthic foraminifera	marine	0	0	0	-108.42	10	10	YokoyamaEtal2000	open marine	> -20 m	GC 5	118	42	-118.42
+Bonaparte_Gulf	radiocarbon	ANUA-9303	-12.17	128	24060	240	bivalve	marine	0	0	0	-113.4	10	10	YokoyamaEtal2000	open marine	>-20 m	GC 4	121	240	-123.4
+Bonaparte_Gulf	radiocarbon	ANUA-8813	-12.2	128.04	14160	200	bivalve	marine	0	0	0	-116.63	2.5	2.5	YokoyamaEtal2000	marginal marine	> -5 m	GC 5	118	113	-119.13
+Bonaparte_Gulf	radiocarbon	ANU-10750	-12.37	128.25	14720	160	Ctenocardia fornicarta	marine	0	0	0	-104.76	2.5	2.5	YokoyamaEtal2000	marginal marine	> -5 m	GC 7	107	26	-107.26
+Bonaparte_Gulf	radiocarbon	ANU-10747	-12.37	128.25	14910	210	Ctenocardia fornicarta, Paphia undulata	marine	0	0	0	-104.85	2.5	2.5	YokoyamaEtal2000	marginal marine	> -5 m	GC 7	107	35	-107.35
+Bonaparte_Gulf	radiocarbon	ANUA-9404	-12.28	128.17	15070	160	bivalve	marine	0	0	0	-107.85	2.5	2.5	YokoyamaEtal2000	marginal marine	> -5 m	GC6	110	35	-110.35
+Bonaparte_Gulf	radiocarbon	ANU-10746	-12.37	128.25	15880	160	Ctenocardia fornicarta, Paphia undulata, Marca japonica	marine	0	0	0	-104.94	2.5	2.5	YokoyamaEtal2000	marginal marine	> -5 m	GC 7	107	44	-107.44
+Bonaparte_Gulf	radiocarbon	ANUA-9324	-12.28	128.17	15980	170	bivalve	marine	0	0	0	-107.9	2.5	2.5	YokoyamaEtal2000	marginal marine	> -5 m	GC6	110	40	-110.4
+Bonaparte_Gulf	radiocarbon	ANUA-8816	-12.17	128	16730	250	bivalve	marine	0	0	0	-120.3	2.5	2.5	YokoyamaEtal2000	marginal marine	> -5 m	GC 4	121	180	-122.8
+Bonaparte_Gulf	radiocarbon	ANUA-9318	-12.17	128	18390	200	bivalve	marine	0	0	0	-120.6	2.5	2.5	YokoyamaEtal2000	marginal marine	> -5 m	GC 4	121	210	-123.1
+Bonaparte_Gulf	radiocarbon	ANUA-9319	-12.64	128.61	11590	180	bivalve	marine	0	0	0	-97.6	1.5	1.5	YokoyamaEtal2000	brackish	High tide to mean sea level (3 m is modern range)	GC 8	95	110	-96.1
+Bonaparte_Gulf	radiocarbon	ANUA-6928	-12.2	128.04	16240	240	benthic foraminifera	marine	0	0	0	-121.77	1.5	1.5	YokoyamaEtal2000	brackish	High tide to mean sea level (3 m is modern range)	GC 5	118	227	-120.27
+Bonaparte_Gulf	radiocarbon	ANUA-6807	-12.2	128.04	16540	170	bivalve	marine	0	0	0	-121.77	1.5	1.5	YokoyamaEtal2000	brackish	High tide to mean sea level (3 m is modern range)	GC 5	118	227	-120.27
+Bonaparte_Gulf	radiocarbon	ANUA-7531	-12.2	128.04	16690	190	bivalve, benthic foraminifera	marine	0	0	0	-121.79	1.5	1.5	YokoyamaEtal2000	brackish	High tide to mean sea level (3 m is modern range)	GC 5	118	229	-120.29
+Bonaparte_Gulf	radiocarbon	ANUA-6930	-12.2	128.04	17360	230	bivalve, benthic foraminifera	marine	0	0	0	-122.7	1.5	1.5	YokoyamaEtal2000	brackish	High tide to mean sea level (3 m is modern range)	GC 5	118	320	-121.2
+Bonaparte_Gulf	radiocarbon	ANUA-9317	-12.2	128.04	18040	150	bivalve	marine	0	0	0	-122.9	1.5	1.5	YokoyamaEtal2000	brackish	High tide to mean sea level (3 m is modern range)	GC 5	118	340	-121.4
+Bonaparte_Gulf	radiocarbon	ANUA-7519	-11.22	126.27	14570	180	benthic foraminifera	marine	0	0	0	-100.35	2.5	2.5	YokoyamaEtal2000	marginal beach or coastal lagoon		GC 11	101	185	-102.85
+Bonaparte_Gulf	radiocarbon	ANUA-7520	-11.16	126.28	14750	150	benthic foraminifera	marine	0	0	0	-103.37	2.5	2.5	YokoyamaEtal2000	marginal beach or coastal lagoon		GC 10	103	287	-105.87

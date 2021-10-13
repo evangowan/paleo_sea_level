@@ -1,6 +1,5 @@
 Cairns	Northeastern_Australia
 Mackay	Northeastern_Australia
 Bonaparte_Gulf	Northwestern_Australia
-Bonaparte_Gulf_ML	Northwestern_Australia
 Bonaparte_Gulf_SLI_Yokoyama2000	Northwestern_Australia
 Bonaparte_Gulf_SLI_Ishiwa2019	Northwestern_Australia

@@ -149,7 +149,7 @@ END_CAT
 	else
 
 		median_age=$(awk --field-separator '\t' '{print $6}' temp)
-		age_uncertainty=$(awk --field-separator '\t' '{print $7}' temp)
+		age_uncertainty=$(awk --field-separator '\t' '{print $7*2}' temp) # age will be in 1-sigma, change to two sigma to be the same as radiocarbon
 
 	fi
 

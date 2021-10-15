@@ -1,0 +1,12 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	comment
+Tsushima-Korea_Strait	radiocarbon	CAMS-17314	34.78	129.18	15440	60	Acila (Trunacila) insignis	marine	0	0	-1	-161.4	1	1	ParkEtal2000	nominal uncertainty of 1 m added, originally interpreted as neritic
+Tsushima-Korea_Strait	radiocarbon	CAMS-25793	34.78	129.18	21490	120	Megacardita ferrunginosa	marine	0	0	-1	-112.7	1	1	ParkEtal2000	nominal uncertainty of 1 m added, originally interpeted to represent 15-20 m depth
+Tsushima-Korea_Strait	radiocarbon	CAMS-25794	34.78	129.18	8610	60	Siphoualia filosa	marine	0	0	-1	-117.2	1	1	ParkEtal2000	nominal uncertainty of 1 m added, originally interpeted to represent 10-80 m depth
+Tsushima-Korea_Strait	radiocarbon	CAMS-25795	34.78	129.18	7280	60	Paphia euglypta	marine	0	0	-1	-77.8	1	1	ParkEtal2000	nominal uncertainty of 1 m added, originally interpreted as intertidal
+Tsushima-Korea_Strait	radiocarbon	CAMS-25797	34.78	129.18	4770	60	Megacardita ferrunginosa	marine	0	0	-1	-92.4	1	1	ParkEtal2000	nominal uncertainty of 1 m added, originally interpreted as 15-20 m water depth
+Tsushima-Korea_Strait	radiocarbon	CAMS-25798	34.78	129.18	9010	60	Paphia euglypta	marine	0	0	-1	-114.4	1	1	ParkEtal2000	nominal uncertainty of 1 m added, originally interpreted as subtidal
+Tsushima-Korea_Strait	radiocarbon	CAMS-25799	34.78	129.18	8750	60	Megacardita koreanea	marine	0	0	-1	-101.2	1	1	ParkEtal2000	nominal uncertainty of 1 m added, originally interpreted as intertidal
+Tsushima-Korea_Strait	radiocarbon	84-B-03	35.03	129.45	15080	150	Megacardita koreanea	marine	0	0	-1	-132.3	1	1	YooPark1997,ParkEtal2000	nominal uncertainty of 1 m added, originally interpreted as intertidal
+Tsushima-Korea_Strait	radiocarbon	KIGAM-26	34.78	129.18	18400	290	shell	marine	0	0	-1	-110.8	1	1	ParkEtal2000	nominal uncertainty of 1 m added
+Tsushima-Korea_Strait	radiocarbon	I-16500	34.78	129.18	16330	250	shell	marine	0	0	-1	-121.1	1	1	ParkEtal2000	nominal uncertainty of 1 m added
+Tsushima-Korea_Strait	radiocarbon	KIGAM-27	34.78	129.18	8450	640	shell	marine	0	0	-1	-102	1	1	ParkEtal2000	nominal uncertainty of 1 m added

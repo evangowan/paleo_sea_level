@@ -1,1 +1,2 @@
 Miyakojima	Ryukyu_Islands
+Tsushima-Korea_Strait	Sea_of_Japan_-_East_Sea

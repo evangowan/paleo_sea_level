@@ -46,6 +46,12 @@
 
 In this report there is a detailed summary, including plots, of a worldwide compilation of paleo-sea level data, and six ice sheet-Earth models. In this particular report, we compare the standard version of PaleoMIST 1.0 (with 2500 year time steps and using a lower mantle viscosity of $4\times10^{22}$ Pa~s), with five other Earth models with viscosity values ranging between $10^{21}$ and $10^{23}$. When developing PaleoMIST 1.0, a variety of lower mantle viscosity values were tested, and it was found that a value approaching $10^{23}$ Pa~s provided the best trade-off between increasing the amount of ice in the center of the Laurentide Ice Sheet and fitting the sea level data. This ended up being true for the Eurasian ice sheets as well. PaleoMIST 1.0 was tuned to an Earth model with a viscosity of $4\times10^{22}$ Pa~s, but the comparison shown in this document demonstrate that a slightly higher value of $10^{23}$ Pa~s provides an even better fit.
 
+The accompanying paper is \citep{GowanEtal2021b}.
+
+Update on October 22, 2021:
+
+This document has been updated to include several additional sites at the LGM and MIS 3. It also has fixed an error in the Cairns and Mackay sites caused by incorrectly subtracting half of the depth range rather than adding it. I apologize for this error. For the coral data for Tahiti and Huon Peninsula, it was originally set to be marine limiting, since the living range was tens of meters. We now use the 2-sigma range determined by \citet{HibbertEtal2016}. We include the interpretations of sea level range by \citet{IshiwaEtal2019} and \citet{YokoyamaEtal2000} for the Bonaparte Gulf shallow marine/estuary/intertidal data in addition to my conservative marine limiting assignment. I also included the interpreted sea level of Huon Peninsula by \citet{deGelderEtal2021} for MIS 3 to compare with the coral depth range interpretation by \citet{HibbertEtal2016}.
+
 
 \section{Summary of ice and Earth models}
 
@@ -58,7 +64,7 @@ For PaleoMIST 1.0, the minimal MIS~3 configuration reconstruction is 72\_73\_74\
 
 For the Earth models, I created a shorthand scheme during my PHD, which I have continued to use. A full explanation can be found on the github page:
 
-\url{https://github.com/evangowan/icesheet/blob/prelim/global/earth_model_format_codes.txt} % change when final version is pushed
+\url{hhttps://github.com/evangowan/icesheet/blob/master/global/earth_model_format_codes.txt}
 
 The full description of each model compared in this document is in this section.
 

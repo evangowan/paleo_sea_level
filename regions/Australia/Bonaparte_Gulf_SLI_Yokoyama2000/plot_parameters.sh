@@ -12,10 +12,10 @@ south_parallel=-19
 north_parallel=-11
 
 # corners of the main plot with the locations of the data
-bottom_long=126
+bottom_long=125
 bottom_lat=-14.5
 top_long=130.5
-top_lat=-10
+top_lat=-9.5
 
 R_main="-R${bottom_long}/${bottom_lat}/${top_long}/${top_lat}r"
 J_main="-JL${center_longitude}/${center_latitude}/${north_parallel}/${south_parallel}/${width}c"

@@ -27,6 +27,13 @@ Special thanks:
 - Alisa V. Baranskaya for sending me the complete references for the Russian sea level database, including translations.
 - Simon Engelhart for sending me the reservoir corrections for the eastern United States database.
 
+Version history
+-------------
+
+- **Version 1.1**: Added some new LGM sites (including alternate Bonaparte Gulf interpretations), and modified some of the LGM and MIS 3 sites that I original set to have marine limiting points (due to large uncertainties) to have the originally interpreted sea level index ranges. (November 5, 2021)
+- **Version 1.0**: initial release (February 23, 2021)
+
+Usage
 -------------
 
 In this project, there are a series of scripts and programs to plot published paleo-sea level data and calculated sea level, and create a report that shows the results. To run these scripts, it is assumed that you have compiled the Fortran programs in the "Fortran/" directory. The scripts require the following:
@@ -34,7 +41,7 @@ In this project, there are a series of scripts and programs to plot published pa
 - bash shell
 - latex (specifically Xelatex, so non-Latin text can be implemented easier)
 - a fortran compiler (i.e. gfortran)
-- [Generic Mapping Tools](https://www.generic-mapping-tools.org/ "GMT"), version 5 (I assume version 6 will also work, but I have not tried it).
+- [Generic Mapping Tools](https://www.generic-mapping-tools.org/ "GMT"), version 5 or 6.
 - Perl (used to parse the radiocarbon calibration javascript file from Oxcal)
 
 I made these scripts in Ubuntu, and I do not guarantee it will work in other operating systems.

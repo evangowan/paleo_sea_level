@@ -16,7 +16,7 @@ program radiocarbon_statistics
 	integer :: istat
 
 	real, parameter :: zero_age = 1950.5
-	real, parameter :: time_interval = 5.
+	real :: time_interval, age1, age2
 	
 	integer, parameter :: radio_unit=10
 
@@ -33,9 +33,17 @@ program radiocarbon_statistics
 
 	open(unit=radio_unit, file=radiocarbon_file, access="sequential", form="formatted", status="old")
 
-	
-	read(radio_unit,*) current_age, current_probability
+	read(radio_unit,*, iostat=istat) current_age, current_probability
 
+	
+	read(radio_unit,*) age1, current_probability
+	read(radio_unit,*) age2, current_probability
+
+	rewind(unit=radio_unit)
+
+	read(radio_unit,*) age1, current_probability
+
+	time_interval = age2 - age1
 
 	current_age = zero_age - current_age
 	current_probability = current_probability * time_interval
@@ -59,8 +67,6 @@ program radiocarbon_statistics
 		current_probability  = current_probability * time_interval
 		
 		total_probability = total_probability + current_probability
-
-	!	write(6,*) total_probability, one_sigma_low_val, one_sigma_high_val
 
 		if(total_probability >= one_sigma_low_val .and. last_probability < one_sigma_low_val) THEN
 			one_sigma_lower = calc_intermediate_value(last_probability, total_probability, one_sigma_low_val) + last_age
@@ -95,11 +101,10 @@ program radiocarbon_statistics
 	close(unit=radio_unit)
 
 	! write out results, to the nearest year
-
 !	write(6,'(I5,1X,I5,1X,I5,1X,I5,1X,I5,1X,I5,1X)') nint(median_age), nint(mode_age), nint(one_sigma_lower),  &
 !		nint(one_sigma_upper), nint(two_sigma_lower), nint(two_sigma_upper)
 	middle_age = (two_sigma_upper + two_sigma_lower) / 2.
-	write(6,'(I5,1X,I5)') nint(middle_age), nint(two_sigma_lower-middle_age)
+	write(6,'(I6,1X,I6)') nint(middle_age), nint(two_sigma_lower-middle_age)
 
 
 	

@@ -1,6 +1,6 @@
 #! /bin/bash
 
-echo -e "latitude\tlongitude\tregion\tgia_region\tlocation\tlab_id\tinidicator_type" > sl_points.txt
+echo -e "latitude\tlongitude\tregion\tgia_region\tlocation\tlab_id\tindicator_type" > sl_points.txt
 
 for region in $(cat ../regions/region_list.txt)
 do

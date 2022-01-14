@@ -57,4 +57,11 @@ To do radiocarbon calibration, I use Oxcal. Put the unzip file of the Oxcal dist
 
 If you want to recalibrate everything, it should be as simple as running the "run_all.sh" script. It will go through all the locations in the "regions" directory. If you want to calibrate a single location, you can use the "run_one.sh" script. You can also just use the "calibrate.sh" script with the region and location as command line options.
 
+Coastlines and borders
+------------------
+
+The GIS folder contains global coastlines and borders from GSHHG, which is licensed under GNU Lesser General Public License version 3.
+
+Wessel, P. and Smith, W.H., 1996. A global, self‐consistent, hierarchical, high‐resolution shoreline database. Journal of Geophysical Research: Solid Earth, 101(B4), pp.8741-8743. https://doi.org/10.1029/96JB00104
+
 

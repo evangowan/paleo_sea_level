@@ -10,8 +10,11 @@ subregion=$5
 echo ${location}
 # only do the plot if it is the data are available
 
+
 if [ -d "../regions/${region}/${location}/" ]
 then
+
+
 	plot=plots/${region}_${location}.ps
 
 
@@ -33,9 +36,9 @@ then
 
 	source ../regions/${region}/${location}/plot_parameters.sh 
 
-	echo ${location} $( mapproject -W ${R_main} ${J_main}) >> temp/map_plot_dimensions.txt # try to ensure the map is close to being square
+	echo ${location} $(gmt mapproject -W ${R_main} ${J_main}) >> temp/map_plot_dimensions.txt # try to ensure the map is close to being square
 
-	height=$(mapproject -Wh ${R_main} ${J_main})
+	height=$(gmt mapproject -Wh ${R_main} ${J_main})
 
 	gmt convert ../GIS/region_bounds.gmt -Slocation=${location} > temp/region_bound.txt
 	gmt pscoast -X${xshift} -Y${yshift} ${R_main} ${J_main}   -Df -A100  -P  -Wthinner -Slightgrey -K > ${plot}
@@ -45,17 +48,17 @@ then
 symbol_size=0.30
 	awk -F'\t'  '{if ( $6 == "-1" ) {print $3, $2}}' ${sea_level_file} >  temp/marine_limiting.txt
 
-	psxy temp/marine_limiting.txt  -Gblue  -P -K -O -J -R -St${symbol_size} -Wblack >> ${plot}
+	gmt psxy temp/marine_limiting.txt  -Gblue  -P -K -O -J -R -St${symbol_size} -Wblack >> ${plot}
 
 
 	awk -F'\t'   '{if ( $6 == "1" ) {print $3, $2} }' ${sea_level_file} >  temp/terrestrial_limiting.txt
 
-	psxy temp/terrestrial_limiting.txt  -Gred  -P -K -O -J -R -Si${symbol_size} -Wblack >> ${plot}
+	gmt psxy temp/terrestrial_limiting.txt  -Gred  -P -K -O -J -R -Si${symbol_size} -Wblack >> ${plot}
 
 symbol_size=0.25
 	awk -F'\t'  '{if ( $6 == "0" ) {print $3, $2} }' ${sea_level_file} >  temp/index_point.txt
 
-	psxy temp/index_point.txt  -Ggreen  -P -K -O -J -R -Sc${symbol_size} -Wblack >> ${plot}
+	gmt psxy temp/index_point.txt  -Ggreen  -P -K -O -J -R -Sc${symbol_size} -Wblack >> ${plot}
 
 
 	# text options for the region name
@@ -65,21 +68,21 @@ symbol_size=0.25
 	justification="+cTL" # the +c option plots relative to the corners of the map
 	#justification="+jBR" # alternatively, plots relative to the location given in the text file
 	text_angle="+a0"
-	text_options="-F+f${size},${fontname},${color} -F${justification} -F${text_angle} "
+	text_options="-F+f${size},${fontname},${color}${text_angle}${justification} "
 
 
 
 
-	psbasemap  ${R_main} ${J_main} -Bafg -BWSne --MAP_TICK_LENGTH_PRIMARY=-.0c -P -K -O  -Lf${scale_bar_long}/${scale_bar_lat}/${scale_bar_reference_lat}/${scale_bar_width}k+l"km"+jr -F+gwhite --FONT_ANNOT_PRIMARY=10p --FONT_ANNOT_SECONDARY=10p --FONT_LABEL=10p >> ${plot}
+	gmt psbasemap  ${R_main} ${J_main} -Bafg -BWSne --MAP_TICK_LENGTH_PRIMARY=-.0c -P -K -O  -Lf${scale_bar_long}/${scale_bar_lat}/${scale_bar_reference_lat}/${scale_bar_width}k+l"km"+jr -F+gwhite --FONT_ANNOT_PRIMARY=6p --FONT_ANNOT_SECONDARY=6p --FONT_LABEL=10p >> ${plot}
 
-	pstext << END_TEXT -K -O -J -R ${text_options} -P -Gwhite -D0.1/-0.25 -N >> ${plot}
+	gmt pstext << END_TEXT -K -O -J -R ${text_options} -P -Gwhite -D0.1/-0.25 -N >> ${plot}
 $(echo ${location} | sed -e 's/_/ /g')
 END_TEXT
 
 # This is the small insert map
 
-	insert_width=$(mapproject -Ww ${R_insert} ${J_insert})
-	insert_height=$(mapproject -Wh ${R_insert} ${J_insert})
+	insert_width=$(gmt mapproject -Ww ${R_insert} ${J_insert})
+	insert_height=$(gmt mapproject -Wh ${R_insert} ${J_insert})
 
 	if [ ${insert_position} = "br" ]
 	then
@@ -93,10 +96,10 @@ END_TEXT
 	fi
 
 
-	pscoast -X${x_corner} -Y${y_corner}  ${R_insert} ${J_insert}  -K -O -Di -Na -Slightgrey -P -A2000 -Wfaint -N1 --MAP_FRAME_PEN=1p,red --MAP_TICK_LENGTH_PRIMARY=-.0c -Bwens+gwhite  -B20p >> $plot #  -B20p is needed or else no map outline is drawn 
+	gmt pscoast -X${x_corner} -Y${y_corner}  ${R_insert} ${J_insert}  -K -O -Di -Na -Slightgrey -P -A2000 -Wfaint -N1 --MAP_FRAME_PEN=1p,red --MAP_TICK_LENGTH_PRIMARY=-.0c -Bwens+gwhite  -B20p >> $plot #  -B20p is needed or else no map outline is drawn 
 
 
-	psxy temp/region_bound.txt -Gyellow   -P -K -O -J -R  -Wblack -L   >> ${plot}
+	gmt psxy temp/region_bound.txt -Gyellow   -P -K -O -J -R  -Wblack -L   >> ${plot}
 
 
 
@@ -209,7 +212,7 @@ END_TEXT
 	xshift=f12
 	yshift=f18
 
-	psbasemap -X${xshift} -Y${yshift} -R${min_time}/${max_time}/${min_elevation}/${max_elevation} -JX-${x_width}/${y_width} -Bxa"${xtickint}"f"${xsubtickint}"+l"${xtext}" -Bya"${ytickint}"f"${ysubtickint}"+l"${ytext}"  -BWSne  -P -O -K --FONT_ANNOT_PRIMARY=10p --FONT_ANNOT_SECONDARY=8p --FONT_LABEL=10p --FONT_TITLE=10p >> ${plot}
+	gmt psbasemap -X${xshift} -Y${yshift} -R${min_time}/${max_time}/${min_elevation}/${max_elevation} -JX-${x_width}/${y_width} -Bxa"${xtickint}"f"${xsubtickint}"+l"${xtext}" -Bya"${ytickint}"f"${ysubtickint}"+l"${ytext}"  -BWSne  -P -O -K --FONT_ANNOT_PRIMARY=10p --FONT_ANNOT_SECONDARY=8p --FONT_LABEL=10p --FONT_TITLE=10p >> ${plot}
 
 
 
@@ -218,22 +221,22 @@ END_TEXT
 	if [ -e "temp/maximum.txt" ]
 	then
 		symbol_size=0.20
-		psxy temp/maximum.txt  -Exy+p0.1p,darkgrey+a -Gred  -P -K -O -JX -R -Si${symbol_size} -Wblack >> ${plot}
-		psxy temp/maximum.txt  -Gred  -P -K -O -JX -R -Si${symbol_size} -Wblack >> ${plot}
+		gmt psxy temp/maximum.txt  -Exy+p0.1p,darkgrey+a -Gred  -P -K -O -JX -R -Si${symbol_size} -Wblack >> ${plot}
+		gmt psxy temp/maximum.txt  -Gred  -P -K -O -JX -R -Si${symbol_size} -Wblack >> ${plot}
 	fi
 
 	if [ -e "temp/minimum.txt" ]
 	then
 		symbol_size=0.3
-		psxy temp/minimum.txt  -Exy+p0.1p,darkgrey+a -Gblue  -P -K -O -JX -R -St${symbol_size} -Wblack >> ${plot}
-		psxy temp/minimum.txt   -Gblue  -P -K -O -JX -R -St${symbol_size} -Wblack >> ${plot}
+		gmt psxy temp/minimum.txt  -Exy+p0.1p,darkgrey+a -Gblue  -P -K -O -JX -R -St${symbol_size} -Wblack >> ${plot}
+		gmt psxy temp/minimum.txt   -Gblue  -P -K -O -JX -R -St${symbol_size} -Wblack >> ${plot}
 	fi
 
 	if [ -e "temp/bounded.txt" ]
 	then
 		symbol_size=0.20
-		psxy temp/bounded.txt -Exy+p0.1p,darkgrey+a -Ggreen  -P -K  -O -JX -R -Sc${symbol_size} -Wblack >> ${plot}
-		psxy temp/bounded.txt -Ggreen  -P -K  -O -JX -R -Sc${symbol_size} -Wblack >> ${plot}
+		gmt psxy temp/bounded.txt -Exy+p0.1p,darkgrey+a -Ggreen  -P -K  -O -JX -R -Sc${symbol_size} -Wblack >> ${plot}
+		gmt psxy temp/bounded.txt -Ggreen  -P -K  -O -JX -R -Sc${symbol_size} -Wblack >> ${plot}
 	fi
 
 	# now plot the reference calculated sea level
@@ -247,13 +250,13 @@ END_TEXT
 	then
 
 
-		psxy temp/region_sl.txt -Wthinnest,black  -P  -O -JX -R -K >> ${plot}
+		gmt psxy temp/region_sl.txt -Wthinnest,black  -P  -O -JX -R -K >> ${plot}
 
 
 	fi
 
 	samples=$(awk '{print $2}' temp/region_sl_header.txt)
-	pstext << END -R -JX -O -K -P -F+f10p,Helvetica,black,+cBR -D-0.2/0.2 -Gwhite >> ${plot}
+	gmt pstext << END -R -JX -O -K -P -F+f10p,Helvetica,black,+cBR -D-0.2/0.2 -Gwhite >> ${plot}
 \# samples: ${samples}
 END
 
@@ -267,19 +270,19 @@ END
 
 symbol_size=0.20
 
-	psxy << END -X${xshift_now} -Y${yshift_now} -R0/10/0/1 -JX14c -P -K -O -Gblue -St${symbol_size} -Wblack  >> ${plot}
+	gmt psxy << END -X${xshift_now} -Y${yshift_now} -R0/10/0/1 -JX14c -P -K -O -Gblue -St${symbol_size} -Wblack  >> ${plot}
 1 0.5
 END
 
-	psxy << END  -R -JX -P -K -O -Gred -Si${symbol_size} -Wblack  >> ${plot}
+	gmt psxy << END  -R -JX -P -K -O -Gred -Si${symbol_size} -Wblack  >> ${plot}
 4 0.5
 END
 
-	psxy << END  -R -JX -P -K -O -Ggreen -Sc${symbol_size} -Wblack  >> ${plot}
+	gmt psxy << END  -R -JX -P -K -O -Ggreen -Sc${symbol_size} -Wblack  >> ${plot}
 7 0.5
 END
 
-	pstext << END -R -JX -P -K -O -F+f10p,Helvetica -F+jLM -F+a0  >> ${plot}
+	gmt pstext << END -R -JX -P -K -O -F+f10p,Helvetica+jLM+a0  >> ${plot}
 1.5 0.5 Marine Limiting
 4.5 0.5 Terrestrial Limiting
 7.5 0.5 Index Point
@@ -288,7 +291,7 @@ END
 	xshift_now=f11
 	yshift_now=f15.4
 
-	pstext << END -X${xshift_now} -Y${yshift_now} -R0/10/0/2 -JX10c/2c -P -K -O -F+f10p,Helvetica -F+jLM -F+a0  >> ${plot}
+	gmt pstext << END -X${xshift_now} -Y${yshift_now} -R0/10/0/2 -JX10c/2c -P -K -O -F+f10p,Helvetica+jLM+a0  >> ${plot}
 1 0.95 @_Reference ice model@_: ${reference_ice_model}
 1 0.45 @_Reference Earth Model@_: ${reference_earth_model}
 
@@ -393,7 +396,7 @@ END
 			xshift=f2
 			yshift=f${y_shift1}
 
-			psbasemap -X${xshift} -Y${yshift} -R${min_time}/${max_time}/${min_elevation}/${max_elevation} -JX-${x_width}/${y_width} -Bxa"${xtickint}"f"${xsubtickint}" -Bya"${ytickint}"f"${ysubtickint}"+l"${ytext}"  -BWSne+t"@_IM:@_ ${ice_model}   @_EM:@_ ${earth_model}"  -P -O -K --FONT_ANNOT_PRIMARY=${large_font} --FONT_ANNOT_SECONDARY=${small_font} --FONT_LABEL=${large_font} --FONT_TITLE=${large_font} --MAP_TITLE_OFFSET=${title_offset} >> ${plot}
+			gmt psbasemap -X${xshift} -Y${yshift} -R${min_time}/${max_time}/${min_elevation}/${max_elevation} -JX-${x_width}/${y_width} -Bxa"${xtickint}"f"${xsubtickint}" -Bya"${ytickint}"f"${ysubtickint}"+l"${ytext}"  -BWSne+t"@_IM:@_ ${ice_model}   @_EM:@_ ${earth_model}"  -P -O -K --FONT_ANNOT_PRIMARY=${large_font} --FONT_ANNOT_SECONDARY=${small_font} --FONT_LABEL=${large_font} --FONT_TITLE=${large_font} --MAP_TITLE_OFFSET=${title_offset} >> ${plot}
 
 		elif [ "${model_number}" = "2" ]
 		then
@@ -401,7 +404,7 @@ END
 			xshift=f8.5
 			yshift=f${y_shift1}
 
-			psbasemap -X${xshift} -Y${yshift} -R${min_time}/${max_time}/${min_elevation}/${max_elevation} -JX-${x_width}/${y_width} -Bxa"${xtickint}"f"${xsubtickint}" -Bya"${ytickint}"f"${ysubtickint}"  -BWSne+t"@_IM:@_ ${ice_model}   @_EM:@_ ${earth_model}"  -P -O -K --FONT_ANNOT_PRIMARY=${large_font} --FONT_ANNOT_SECONDARY=${small_font} --FONT_LABEL=${large_font} --FONT_TITLE=${large_font} --MAP_TITLE_OFFSET=${title_offset} >> ${plot}
+			gmt psbasemap -X${xshift} -Y${yshift} -R${min_time}/${max_time}/${min_elevation}/${max_elevation} -JX-${x_width}/${y_width} -Bxa"${xtickint}"f"${xsubtickint}" -Bya"${ytickint}"f"${ysubtickint}"  -BWSne+t"@_IM:@_ ${ice_model}   @_EM:@_ ${earth_model}"  -P -O -K --FONT_ANNOT_PRIMARY=${large_font} --FONT_ANNOT_SECONDARY=${small_font} --FONT_LABEL=${large_font} --FONT_TITLE=${large_font} --MAP_TITLE_OFFSET=${title_offset} >> ${plot}
 
 		elif [ "${model_number}" = "3" ]
 		then
@@ -409,7 +412,7 @@ END
 			xshift=f15
 			yshift=f${y_shift1}
 
-			psbasemap -X${xshift} -Y${yshift} -R${min_time}/${max_time}/${min_elevation}/${max_elevation} -JX-${x_width}/${y_width} -Bxa"${xtickint}"f"${xsubtickint}" -Bya"${ytickint}"f"${ysubtickint}"  -BWSne+t"@_IM:@_ ${ice_model}   @_EM:@_ ${earth_model}"  -P -O -K --FONT_ANNOT_PRIMARY=${large_font} --FONT_ANNOT_SECONDARY=${small_font} --FONT_LABEL=${large_font} --FONT_TITLE=${large_font} --MAP_TITLE_OFFSET=${title_offset} >> ${plot}
+			gmt psbasemap -X${xshift} -Y${yshift} -R${min_time}/${max_time}/${min_elevation}/${max_elevation} -JX-${x_width}/${y_width} -Bxa"${xtickint}"f"${xsubtickint}" -Bya"${ytickint}"f"${ysubtickint}"  -BWSne+t"@_IM:@_ ${ice_model}   @_EM:@_ ${earth_model}"  -P -O -K --FONT_ANNOT_PRIMARY=${large_font} --FONT_ANNOT_SECONDARY=${small_font} --FONT_LABEL=${large_font} --FONT_TITLE=${large_font} --MAP_TITLE_OFFSET=${title_offset} >> ${plot}
 
 		elif [ "${model_number}" = "4" ]
 		then
@@ -417,7 +420,7 @@ END
 			xshift=f2
 			yshift=f${y_shift2}
 
-			psbasemap -X${xshift} -Y${yshift} -R${min_time}/${max_time}/${min_elevation}/${max_elevation} -JX-${x_width}/${y_width} -Bxa"${xtickint}"f"${xsubtickint}"+l"${xtext}" -Bya"${ytickint}"f"${ysubtickint}"+l"${ytext}"  -BWSne+t"@_IM:@_ ${ice_model}   @_EM:@_ ${earth_model}"  -P -O -K --FONT_ANNOT_PRIMARY=${large_font} --FONT_ANNOT_SECONDARY=${small_font} --FONT_LABEL=${large_font} --FONT_TITLE=${large_font} --MAP_TITLE_OFFSET=${title_offset} >> ${plot}
+			gmt psbasemap -X${xshift} -Y${yshift} -R${min_time}/${max_time}/${min_elevation}/${max_elevation} -JX-${x_width}/${y_width} -Bxa"${xtickint}"f"${xsubtickint}"+l"${xtext}" -Bya"${ytickint}"f"${ysubtickint}"+l"${ytext}"  -BWSne+t"@_IM:@_ ${ice_model}   @_EM:@_ ${earth_model}"  -P -O -K --FONT_ANNOT_PRIMARY=${large_font} --FONT_ANNOT_SECONDARY=${small_font} --FONT_LABEL=${large_font} --FONT_TITLE=${large_font} --MAP_TITLE_OFFSET=${title_offset} >> ${plot}
 
 		elif [ "${model_number}" = "5" ]
 		then
@@ -425,7 +428,7 @@ END
 			xshift=f8.5
 			yshift=f${y_shift2}
 
-			psbasemap -X${xshift} -Y${yshift} -R${min_time}/${max_time}/${min_elevation}/${max_elevation} -JX-${x_width}/${y_width} -Bxa"${xtickint}"f"${xsubtickint}"+l"${xtext}" -Bya"${ytickint}"f"${ysubtickint}"  -BWSne+t"@_IM:@_ ${ice_model}   @_EM:@_ ${earth_model}"  -P -O -K --FONT_ANNOT_PRIMARY=${large_font} --FONT_ANNOT_SECONDARY=${small_font} --FONT_LABEL=${large_font} --FONT_TITLE=${large_font} --MAP_TITLE_OFFSET=${title_offset} >> ${plot}
+			gmt psbasemap -X${xshift} -Y${yshift} -R${min_time}/${max_time}/${min_elevation}/${max_elevation} -JX-${x_width}/${y_width} -Bxa"${xtickint}"f"${xsubtickint}"+l"${xtext}" -Bya"${ytickint}"f"${ysubtickint}"  -BWSne+t"@_IM:@_ ${ice_model}   @_EM:@_ ${earth_model}"  -P -O -K --FONT_ANNOT_PRIMARY=${large_font} --FONT_ANNOT_SECONDARY=${small_font} --FONT_LABEL=${large_font} --FONT_TITLE=${large_font} --MAP_TITLE_OFFSET=${title_offset} >> ${plot}
 
 		elif [ "${model_number}" = "6" ]
 		then
@@ -433,7 +436,7 @@ END
 			xshift=f15
 			yshift=f${y_shift2}
 
-			psbasemap -X${xshift} -Y${yshift} -R${min_time}/${max_time}/${min_elevation}/${max_elevation} -JX-${x_width}/${y_width} -Bxa"${xtickint}"f"${xsubtickint}"+l"${xtext}" -Bya"${ytickint}"f"${ysubtickint}"  -BWSne+t"@_IM:@_ ${ice_model}   @_EM:@_ ${earth_model}"  -P -O -K --FONT_ANNOT_PRIMARY=${large_font} --FONT_ANNOT_SECONDARY=${small_font} --FONT_LABEL=${large_font} --FONT_TITLE=${large_font} --MAP_TITLE_OFFSET=${title_offset} >> ${plot}
+			gmt psbasemap -X${xshift} -Y${yshift} -R${min_time}/${max_time}/${min_elevation}/${max_elevation} -JX-${x_width}/${y_width} -Bxa"${xtickint}"f"${xsubtickint}"+l"${xtext}" -Bya"${ytickint}"f"${ysubtickint}"  -BWSne+t"@_IM:@_ ${ice_model}   @_EM:@_ ${earth_model}"  -P -O -K --FONT_ANNOT_PRIMARY=${large_font} --FONT_ANNOT_SECONDARY=${small_font} --FONT_LABEL=${large_font} --FONT_TITLE=${large_font} --MAP_TITLE_OFFSET=${title_offset} >> ${plot}
 
 		fi
 
@@ -443,29 +446,29 @@ END
 		if [ -e "temp/maximum.txt" ]
 		then
 			symbol_size=0.15
-			psxy temp/maximum.txt  -Exy+p0.1p,darkgrey+a -Gred  -P -K -O -JX -R -Si${symbol_size} -Wblack >> ${plot}
-			psxy temp/maximum.txt  -Gred  -P -K -O -JX -R -Si${symbol_size} -Wblack >> ${plot}
+			gmt psxy temp/maximum.txt  -Exy+p0.1p,darkgrey+a -Gred  -P -K -O -JX -R -Si${symbol_size} -Wblack >> ${plot}
+			gmt psxy temp/maximum.txt  -Gred  -P -K -O -JX -R -Si${symbol_size} -Wblack >> ${plot}
 		fi
 
 		if [ -e "temp/minimum.txt" ]
 		then
 			symbol_size=0.22
-			psxy temp/minimum.txt  -Exy+p0.1p,darkgrey+a -Gblue  -P -K -O -JX -R -St${symbol_size} -Wblack >> ${plot}
-			psxy temp/minimum.txt   -Gblue  -P -K -O -JX -R -St${symbol_size} -Wblack >> ${plot}
+			gmt psxy temp/minimum.txt  -Exy+p0.1p,darkgrey+a -Gblue  -P -K -O -JX -R -St${symbol_size} -Wblack >> ${plot}
+			gmt psxy temp/minimum.txt   -Gblue  -P -K -O -JX -R -St${symbol_size} -Wblack >> ${plot}
 		fi
 
 		if [ -e "temp/bounded.txt" ]
 		then
 			symbol_size=0.15
-			psxy temp/bounded.txt -Exy+p0.1p,darkgrey+a -Ggreen  -P -K  -O -JX -R -Sc${symbol_size} -Wblack >> ${plot}
-			psxy temp/bounded.txt -Ggreen  -P -K  -O -JX -R -Sc${symbol_size} -Wblack >> ${plot}
+			gmt psxy temp/bounded.txt -Exy+p0.1p,darkgrey+a -Ggreen  -P -K  -O -JX -R -Sc${symbol_size} -Wblack >> ${plot}
+			gmt psxy temp/bounded.txt -Ggreen  -P -K  -O -JX -R -Sc${symbol_size} -Wblack >> ${plot}
 		fi
 
 
 		if [ -e "temp/region_sl.txt" ]
 		then
 
-			psxy temp/region_sl.txt -Wthinnest,black  -P  -O -JX -R -K >> ${plot}
+			gmt psxy temp/region_sl.txt -Wthinnest,black  -P  -O -JX -R -K >> ${plot}
 
 
 		fi
@@ -477,13 +480,13 @@ END
 		if [ "${model_number}" = "6" ]
 		then
 
-			pstext << END -R -JX -O -P -F+f${large_font},Helvetica,black,+cTR -D-0.2/-0.2 -Gwhite >> ${plot}
+			gmt pstext << END -R -JX -O -P -F+f${large_font},Helvetica,black,+cTR -D-0.2/-0.2 -Gwhite >> ${plot}
 Score: ${score}
 END
 
 		else
 
-			pstext << END -R -JX -O  -K -P -F+f${large_font},Helvetica,black,+cTR -D-0.2/-0.2 -Gwhite >> ${plot}
+			gmt pstext << END -R -JX -O  -K -P -F+f${large_font},Helvetica,black,+cTR -D-0.2/-0.2 -Gwhite >> ${plot}
 Score: ${score}
 END
 
@@ -491,6 +494,10 @@ END
 
 	done
 
-	psconvert -A -Tf ${plot}
+	gmt psconvert -A -Tf ${plot}
+
+else
+
+	echo could not find ${region}/${location}
 
 fi

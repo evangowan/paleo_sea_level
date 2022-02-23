@@ -1,0 +1,27 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	notes
+Achterwasser	radiocarbon	Hv-23981	54.17	13.68	920	55	peat. bulk	terrestrial	-	-	0	-0.15	0.25	0.25	LampeJanke2004	
+Achterwasser	radiocarbon	Gd-15292	54.14	13.39	1420	80	peat. bulk	terrestrial	-	-	0	-0.04999999999999999	0.25	0.25	LampeJanke2004	
+Achterwasser	radiocarbon	Erl-2160	54.14	13.39	1919	184	peat. bulk	terrestrial	-	-	0	-0.15	0.25	0.25	LampeJanke2004	
+Achterwasser	radiocarbon	Gd-12355	54.14	13.39	3730	70	peat. bulk	terrestrial	-	-	0	-0.25	0.25	0.25	LampeJanke2004	
+Achterwasser	radiocarbon	Gd-15311	54.14	13.39	3690	310	peat. bulk	terrestrial	-	-	0	-0.44999999999999996	0.25	0.25	LampeJanke2004	
+Achterwasser	radiocarbon	Hv-23982	54.17	13.68	3880	145	peat. bulk	terrestrial	-	-	0	-0.55	0.25	0.25	LampeJanke2004	
+Achterwasser	radiocarbon	Gd-15308	54.14	13.39	4500	140	peat. bulk	terrestrial	-	-	0	-0.35	0.25	0.25	LampeJanke2004	
+Achterwasser	radiocarbon	Hv-23983	54.17	13.68	4555	130	peat. bulk	terrestrial	-	-	0	-0.65	0.25	0.25	LampeJanke2004	
+Achterwasser	radiocarbon	Hv-23670	54.16	13.39	5035	105	peat. bulk	terrestrial	-	-	0	-0.75	0.25	0.25	LampeJanke2004	
+Achterwasser	radiocarbon	Gd-12351	54.17	13.68	5550	75	peat. bulk	terrestrial	-	-	0	-1.05	0.25	0.25	LampeJanke2004	
+Achterwasser	radiocarbon	Gd-12354	54.17	13.68	5734	70	peat. bulk	terrestrial	-	-	0	-1.15	0.25	0.25	LampeJanke2004	
+Achterwasser	radiocarbon	Hv-24550	54.17	13.39	1190	45	tree stump	terrestrial	-	-	1	-1.1	0.2	0.2	LampeJanke2004	
+Achterwasser	radiocarbon	Erl-2515	54.14	13.39	1410	40	tree stump	terrestrial	-	-	1	-1	0.2	0.2	LampeJanke2004	
+Achterwasser	radiocarbon	Gds-246	54.17	13.68	4280	85	tree stump	terrestrial	-	-	1	-0.8	0.2	0.2	LampeJanke2004	
+Achterwasser	radiocarbon	Gd-15309	54.17	13.68	5000	160	peat. bulk	terrestrial	-	-	1	-0.8	0.2	0.2	LampeJanke2004	
+Achterwasser	radiocarbon	Gd-11350	54.17	13.68	5175	160	tree stump	terrestrial	-	-	1	-0.8	0.2	0.2	LampeJanke2004	
+Achterwasser	radiocarbon	Gd-11350	54.17	13.68	5175	72	tree stump	terrestrial	-	-	1	-0.8	0.2	0.2	LampeJanke2004	
+Achterwasser	radiocarbon	Hv-23726	54.06	13.87	5965	70	intercalated organic layer	terrestrial	-	-	0	-4.25	0.559017	0.559017	HoffmannEtal2009	2 = compaction
+Achterwasser	radiocarbon	Hv-24533	53.99	14.05	6360	90	intercalated organic layer	terrestrial	-	-	0	-5.45	0.559017	0.559017	HoffmannEtal2009	2 = compaction
+Achterwasser	radiocarbon	Gd-12358	54	14.1	6520	70	organic layer. swash mark	terrestrial	-	-	0	-2.85	0.559017	0.559017	HoffmannEtal2009	2 = compaction
+Achterwasser	radiocarbon	Hv-24534	53.99	14.05	7180	65	peat	terrestrial	-	-	0	-7.75	0.559017	0.559017	HoffmannEtal2009	2 = compaction
+Achterwasser	radiocarbon	Hv-24532	53.98	14.06	7430	65	organic layer	terrestrial	-	-	0	-6.85	0.559017	0.559017	HoffmannEtal2009	2 = compaction
+Achterwasser	radiocarbon	Hv-24535	53.99	14.1	7440	65	peat	terrestrial	-	-	0	-6.65	0.522015	0.522015	HoffmannEtal2009	2 = compaction
+Achterwasser	radiocarbon	KIA-19816	53.99	14.06	4490	25	wood in organic detritus	terrestrial	-	-	0	-3.75	0.559017	0.559017	HoffmannEtal2009	2 = compaction
+Achterwasser	radiocarbon	KIA-19814	54	13.86	6810	35	peat	terrestrial	-	-	0	-4.85	0.522015	0.522015	HoffmannEtal2009	2 = compaction
+Achterwasser	radiocarbon	Hv-24531	53.99	14.05	975	50	peat	terrestrial	-	-	0	-0.15	0.522015	0.522015	HoffmannEtal2009	2 = compaction

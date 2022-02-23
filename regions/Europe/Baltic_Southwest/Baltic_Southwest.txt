@@ -1,0 +1,4 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	notes
+Baltic_Southwest	radiocarbon	Ua-4861	54.79	14.55	5185	90	Mytilus edulis shell	marine	10	0	-1	-23.1	1.118033988749895	1.118033988749895	NielsenEtal2004	
+Baltic_Southwest	radiocarbon	Ua-4862	54.81	14.5	1980	75	Mytilus edulis shell	marine	10	0	-1	-22.4	1.118033988749895	1.118033988749895	NielsenEtal2004	
+Baltic_Southwest	radiocarbon	AAR-4131	54.93	13.67	6475	50	Foraminifera tests	marine	10	0	-1	-51	1.118033988749895	1.118033988749895	BennikeJensen1998	

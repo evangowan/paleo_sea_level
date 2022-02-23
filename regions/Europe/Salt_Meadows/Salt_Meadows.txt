@@ -1,0 +1,44 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	notes
+Salt_Meadows	radiocarbon	KIA-22879	54.27	12.36	6255	74	mr (insect remains)	terrestrial	-	-	0	-3.65	0.25	0.25	LampeEtal2010	
+Salt_Meadows	radiocarbon	KIA-22880	54.27	12.36	6150	40	mr (Schoenopl.)	terrestrial	-	-	0	-3.4499999999999997	0.25	0.25	LampeEtal2010	
+Salt_Meadows	radiocarbon	KIA-22881	54.27	12.36	5881	36	mr (Schoenopl.)	terrestrial	-	-	0	-2.9499999999999997	0.25	0.25	LampeEtal2010	
+Salt_Meadows	radiocarbon	KIA-22882	54.27	12.36	5285	65	indet. mr	terrestrial	-	-	0	-2.25	0.25	0.25	LampeEtal2010	
+Salt_Meadows	radiocarbon	KIA-22883	54.27	12.36	4657	56	indet mr	terrestrial	-	-	0	-1.95	0.25	0.25	LampeEtal2010	
+Salt_Meadows	radiocarbon	KIA-22884	54.27	12.36	3611	54	indet mr	terrestrial	-	-	0	-1.15	0.25	0.25	LampeEtal2010	
+Salt_Meadows	radiocarbon	KIA-25992	54.27	12.36	780	25	ha. leach.res.	terrestrial	-	-	0	-0.25	0.25	0.25	LampeEtal2010	
+Salt_Meadows	radiocarbon	KIA-25993	54.27	12.36	2175	25	ha. leach.res.	terrestrial	-	-	0	-0.35	0.25	0.25	LampeEtal2010	
+Salt_Meadows	radiocarbon	KIA-25994	54.27	12.36	2745	30	ha. leach.res.	terrestrial	-	-	0	-0.9500000000000001	0.25	0.25	LampeEtal2010	
+Salt_Meadows	radiocarbon	KIA-25995	54.27	12.36	3225	30	ha. leach.res.	terrestrial	-	-	0	-1.05	0.25	0.25	LampeEtal2010	
+Salt_Meadows	radiocarbon	KIA-25996	54.27	12.36	3835	30	ha. leach.res.	terrestrial	-	-	0	-1.25	0.25	0.25	LampeEtal2010	
+Salt_Meadows	radiocarbon	KIA-25997	54.27	12.36	4095	30	ha. leach.res.	terrestrial	-	-	0	-1.45	0.25	0.25	LampeEtal2010	
+Salt_Meadows	radiocarbon	KIA-25998	54.27	12.36	4390	30	ha. leach.res.	terrestrial	-	-	0	-1.65	0.25	0.25	LampeEtal2010	
+Salt_Meadows	radiocarbon	KIA-25999	54.27	12.36	4655	30	ha. leach.res.	terrestrial	-	-	0	-1.8499999999999999	0.25	0.25	LampeEtal2010	
+Salt_Meadows	radiocarbon	KIA-26000	54.27	12.36	4920	30	ha. leach.res.	terrestrial	-	-	0	-2.05	0.25	0.25	LampeEtal2010	
+Salt_Meadows	radiocarbon	KIA-26001	54.27	12.36	4550	25	ha. leach.res.	terrestrial	-	-	0	-1.75	0.25	0.25	LampeEtal2010	
+Salt_Meadows	radiocarbon	KIA-26002	54.27	12.36	4920	30	ha. leach.res.	terrestrial	-	-	0	-2.05	0.25	0.25	LampeEtal2010	
+Salt_Meadows	radiocarbon	KIA-26003	54.27	12.36	5325	30	ha. leach.res.	terrestrial	-	-	0	-2.65	0.25	0.25	LampeEtal2010	
+Salt_Meadows	radiocarbon	KIA-26004	54.27	12.36	5845	30	ha. leach.res.	terrestrial	-	-	0	-3.25	0.25	0.25	LampeEtal2010	
+Salt_Meadows	radiocarbon	KIA-26005	54.27	12.36	6135	35	ha. leach.res.	terrestrial	-	-	0	-3.85	0.25	0.25	LampeEtal2010	
+Salt_Meadows	radiocarbon	KIA-26006	54.27	12.36	6475	30	ha. leach.res.	terrestrial	-	-	0	-4.3500000000000005	0.25	0.25	LampeEtal2010	
+Salt_Meadows	radiocarbon	KIA-26573	54.27	12.37	6670	35	Pinus bark from peat	terrestrial	-	-	0	-4.05	0.5220153254455275	0.5220153254455275	LampeEtal2010	
+Salt_Meadows	radiocarbon	KIA-35282	54.46	12.68	7395	40	indet mr	terrestrial	-	-	0	-9.65	0.5220153254455275	0.5220153254455275	LampeEtal2010	
+Salt_Meadows	radiocarbon	KIA-35288	54.39	12.81	7100	35	peat. bulk	terrestrial	-	-	0	-6.95	0.5220153254455275	0.5220153254455275	LampeEtal2010	
+Salt_Meadows	radiocarbon	KIA-35276	54.42	12.76	7020	30	peat	terrestrial	-	-	0	-5.15	0.25	0.25	NaumannLampe2011	
+Salt_Meadows	radiocarbon	KIA-35277	54.44	12.74	7005	40	peat. wood remnants	terrestrial	-	-	0	-5.95	0.25	0.25	NaumannLampe2011	
+Salt_Meadows	radiocarbon	KIA-35289	54.38	12.78	6585	30	peat	terrestrial	-	-	0	-3.75	0.25	0.25	NaumannLampe2011	
+Salt_Meadows	radiocarbon	KIA-35290	54.38	12.78	4125	30	peat	terrestrial	-	-	0	-1.45	0.25	0.25	NaumannLampe2011	
+Salt_Meadows	radiocarbon	Gd-15284	54.27	12.36	4490	100	peat. bulk	terrestrial	-	-	0	-1.25	0.25	0.25	LampeEtal2010	
+Salt_Meadows	radiocarbon	Hv-23673	54.27	12.36	595	65	peat. bulk	terrestrial	-	-	0	-0.25	0.25	0.25	LampeEtal2010	
+Salt_Meadows	radiocarbon	Hv-23674	54.27	12.36	820	80	peat. bulk	terrestrial	-	-	0	-0.25	0.25	0.25	LampeEtal2010	
+Salt_Meadows	radiocarbon	Hv-23675	54.27	12.36	710	80	peat. bulk	terrestrial	-	-	0	-0.25	0.25	0.25	LampeEtal2010	
+Salt_Meadows	radiocarbon	Hv-23676	54.27	12.36	2555	70	peat. bulk	terrestrial	-	-	0	-0.65	0.25	0.25	LampeEtal2010	
+Salt_Meadows	radiocarbon	Hv-23677	54.27	12.36	2410	90	peat. bulk	terrestrial	-	-	0	-0.55	0.25	0.25	LampeEtal2010	
+Salt_Meadows	radiocarbon	Hv-23976	54.27	12.36	355	85	peat. bulk	terrestrial	-	-	0	-0.15	0.25	0.25	LampeEtal2010	
+Salt_Meadows	radiocarbon	KIA-35275	54.42	12.87	7195	40	wood from fossil soil	terrestrial	-	-	1	-7.8	0.2	0.2	NaumannLampe2011	
+Salt_Meadows	radiocarbon	Hv-23979	54.37	12.69	780	105	peat. bulk	terrestrial	-	-	0	-0.44999999999999996	0.25	0.25	LampeJanke2004	
+Salt_Meadows	radiocarbon	Hv-23978	54.37	12.69	1505	240	peat. bulk	terrestrial	-	-	0	-0.35	0.25	0.25	LampeJanke2004	
+Salt_Meadows	radiocarbon	Hv-23977	54.27	12.36	2410	90	peat. bulk	terrestrial	-	-	0	-0.55	0.25	0.25	LampeJanke2004	
+Salt_Meadows	radiocarbon	Hv-23980	54.37	12.69	3000	135	peat. bulk	terrestrial	-	-	0	-0.65	0.25	0.25	LampeJanke2004	
+Salt_Meadows	radiocarbon	Ki-3561	54.25	12.47	4990	75	peat. bulk	terrestrial	-	-	0	-0.65	0.25	0.25	LampeJanke2004	
+Salt_Meadows	radiocarbon	Bln-2946	54.38	12.78	5520	100	peat. bulk	terrestrial	-	-	0	-1.25	0.25	0.25	LampeJanke2004	
+Salt_Meadows	radiocarbon	Hv-23976	54.27	12.36	355	85	peat. bulk	terrestrial	-	-	0	-0.15	0.25	0.25	LampeJanke2004	

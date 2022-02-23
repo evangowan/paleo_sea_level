@@ -8,3 +8,4 @@ Rotterdam	North_Sea
 Achterwasser	Baltic_Sea
 Baltic_Southwest	Baltic_Sea
 Rugen	Baltic_Sea
+Salt_Meadows	Baltic_Sea

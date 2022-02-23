@@ -73,7 +73,7 @@ symbol_size=0.25
 
 
 
-	gmt psbasemap  ${R_main} ${J_main} -Bafg -BWSne --MAP_TICK_LENGTH_PRIMARY=-.0c -P -K -O  -Lf${scale_bar_long}/${scale_bar_lat}/${scale_bar_reference_lat}/${scale_bar_width}k+l"km"+jr -F+gwhite --FONT_ANNOT_PRIMARY=6p --FONT_ANNOT_SECONDARY=6p --FONT_LABEL=10p >> ${plot}
+	gmt psbasemap  ${R_main} ${J_main} -Bafg -BWSne --MAP_TICK_LENGTH_PRIMARY=-.0c -P -K -O -Lg${scale_bar_long}/${scale_bar_lat}+c${scale_bar_reference_lat}+w${scale_bar_width}k+l"km"+jr+f+ar -Fl+gwhite --FONT_ANNOT_PRIMARY=6p --FONT_ANNOT_SECONDARY=6p --FONT_LABEL=10p >> ${plot}
 
 	gmt pstext << END_TEXT -K -O -J -R ${text_options} -P -Gwhite -D0.1/-0.25 -N >> ${plot}
 $(echo ${location} | sed -e 's/_/ /g')

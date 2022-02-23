@@ -1,0 +1,7 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	notes
+Arkona_Basin_East	radiocarbon	K-6588	54.65	12.95	5720	110	Cerastoderma lamarcki shell	marine	10	0	-1	-19.7	1.118033988749895	1.118033988749895	BennikeJensen1998	
+Arkona_Basin_East	radiocarbon	AAR-2647	54.82	12.52	7090	90	Mytilus edulis shell	marine	10	0	-1	-26.3	1.118033988749895	1.118033988749895	BennikeJensen1998	
+Arkona_Basin_East	radiocarbon	AAR-2645	54.8	12.35	6940	70	Mytilus edulis  shell	marine	10	0	-1	-25	1.118033988749895	1.118033988749895	BennikeJensen1998	
+Arkona_Basin_East	radiocarbon	AAR-2643	54.73	12.96	6650	80	Mytilus edulis shell	marine	10	0	-1	-28.3	1.118033988749895	1.118033988749895	BennikeJensen1998	
+Arkona_Basin_East	radiocarbon	AAR-2375	54.89	12.97	2810	80	Astarte elliptica shell	marine	10	0	-1	-36.6	1.118033988749895	1.118033988749895	BennikeJensen1998	
+Arkona_Basin_East	radiocarbon	AAR-1555	54.65	12.91	6265	65	Cerastoderma sp. shell	marine	10	0	-1	-19.2	1.118033988749895	1.118033988749895	BennikeJensen1998	

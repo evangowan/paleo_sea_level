@@ -1,0 +1,13 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	notes
+Arkona_Basin_West	radiocarbon	K-6341	54.37	12.11	7800	125	Peat	terrestrial	-	-	1	-20.6	1.118033988749895	1.118033988749895	BennikeJensen1998	
+Arkona_Basin_West	radiocarbon	K-6338	54.43	12.04	10330	160	Peat	terrestrial	-	-	1	-19.6	1.118033988749895	1.118033988749895	JensenEtal1997	
+Arkona_Basin_West	radiocarbon	AAR-3702	54.4	12.01	10150	75	Peat	terrestrial	-	-	1	-20.7	1.118033988749895	1.118033988749895	BennikeJensen1998	
+Arkona_Basin_West	radiocarbon	AAR-2376	54.42	11.98	7730	110	Alnus glutinosa remains	terrestrial	-	-	-1	-22.3	1.118033988749895	1.118033988749895	BennikeJensen1998	
+Arkona_Basin_West	radiocarbon	AAR-2373	54.37	12.11	7820	80	Cladium mariscus fruits	terrestrial	-	-	1	-20.6	1.118033988749895	1.118033988749895	BennikeJensen1998	
+Arkona_Basin_West	radiocarbon	AAR-2288	54.48	12.06	5340	90	Cerastoderma sp. shell	marine	10	-	-1	-16.1	1.118033988749895	1.118033988749895	BennikeJensen1998	
+Arkona_Basin_West	radiocarbon	AAR-2287	54.51	11.9	2600	70	Cerastoderma lamarcki shell	marine	10	-	-1	-12.3	1.118033988749895	1.118033988749895	BennikeJensen1998	
+Arkona_Basin_West	radiocarbon	AAR-2286	54.49	11.89	2300	75	Cerastoderma lamarcki shell	marine	10	-	-1	-14.9	1.118033988749895	1.118033988749895	BennikeJensen1998	
+Arkona_Basin_West	radiocarbon	AAR-2285	54.49	11.99	6390	90	Cerastoderma lamarcki shell	marine	10	-	-1	-17.3	1.118033988749895	1.118033988749895	BennikeJensen1998	
+Arkona_Basin_West	radiocarbon	AAR-1913	54.33	12.17	1160	90	Astarte borealis shell	marine	10	0	-1	-17.3	1.118033988749895	1.118033988749895	BennikeJensen1998	
+Arkona_Basin_West	radiocarbon	AAR-1716	54.58	12.5	1470	120	Cerastoderma sp. shell	marine	10	0	-1	-16	1.118033988749895	1.118033988749895	BennikeJensen1998	
+Arkona_Basin_West	radiocarbon	AAR-1556	54.58	12.5	910	45	Cerastoderma sp. shell	marine	10	0	-1	-15.9	1.118033988749895	1.118033988749895	BennikeJensen1998	

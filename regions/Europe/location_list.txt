@@ -9,3 +9,5 @@ Achterwasser	Baltic_Sea
 Baltic_Southwest	Baltic_Sea
 Rugen	Baltic_Sea
 Salt_Meadows	Baltic_Sea
+Arkona_Basin_East	Baltic_Sea
+Arkona_Basin_West	Baltic_Sea

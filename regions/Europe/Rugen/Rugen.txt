@@ -1,0 +1,54 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	notes
+Rugen	radiocarbon	KIA-24245	54.55	13.29	5393	29	wooden post	terrestrial	-	-	-1	-0.6000000000000001	0.2	0.2	LampeEtal2010	
+Rugen	radiocarbon	KIA-24249	54.55	13.29	5704	30	Cervus bone	terrestrial	-	-	-1	-0.6000000000000001	0.2	0.2	LampeEtal2010	
+Rugen	radiocarbon	KIA-24248	54.55	13.29	5802	30	Sus bone	terrestrial	-	-	-1	-0.6000000000000001	0.2	0.2	LampeEtal2010	
+Rugen	radiocarbon	KIA-24250	54.55	13.29	5879	35	Capreolus bone	terrestrial	-	-	-1	-0.8999999999999999	0.2	0.2	LampeEtal2010	
+Rugen	radiocarbon	KIA-27247	54.58	13.34	6005	26	wood	terrestrial	-	-	-1	-1.3	0.2	0.2	LampeEtal2010	
+Rugen	radiocarbon	KIA-25985	54.48	13.49	5030	35	mr (A.glutinosa)	terrestrial	-	-	0	-1.15	0.25	0.25	LampeEtal2010	
+Rugen	radiocarbon	KIA-25986	54.48	13.49	5980	35	indet mr	terrestrial	-	-	0	-2.35	0.25	0.25	LampeEtal2010	
+Rugen	radiocarbon	KIA-25987	54.48	13.49	1065	30	indet mr	terrestrial	-	-	0	0.65	0.25	0.25	LampeEtal2010	
+Rugen	radiocarbon	KIA-25989	54.48	13.49	4580	30	mr (A.glutinosa)	terrestrial	-	-	0	-0.44999999999999996	0.25	0.25	LampeEtal2010	
+Rugen	radiocarbon	KIA-26563	54.48	13.49	4770	50	mr (A.glutinosa)	terrestrial	-	-	0	-1.05	0.25	0.25	LampeEtal2010	
+Rugen	radiocarbon	KIA-26565	54.48	13.49	5080	90	mr (Carex riparia)	terrestrial	-	-	0	-1.65	0.25	0.25	LampeEtal2010	
+Rugen	radiocarbon	KIA-26566	54.48	13.49	5530	35	mr (Cladium/Schoenopl.)	terrestrial	-	-	0	-1.75	0.25	0.25	LampeEtal2010	
+Rugen	radiocarbon	KIA-26567	54.48	13.49	5810	55	mr (Chenopodium)	terrestrial	-	-	0	-1.95	0.25	0.25	LampeEtal2010	
+Rugen	radiocarbon	KIA-26568	54.48	13.49	6205	35	indet mr	terrestrial	-	-	0	-2.15	0.25	0.25	LampeEtal2010	
+Rugen	radiocarbon	KIA-26569	54.48	13.49	6300	30	mr (A.glutinosa)	terrestrial	-	-	0	-2.4499999999999997	0.25	0.25	LampeEtal2010	
+Rugen	radiocarbon	KIA-26571	54.48	13.49	6905	45	mr (A.glutinosa)	terrestrial	-	-	0	-3.25	0.25	0.25	LampeEtal2010	
+Rugen	radiocarbon	KIA-19818	54.47	13.57	3890	30	mr (Chenopodium)	terrestrial	-	-	0	-0.15	0.5220153254455275	0.5220153254455275	LampeEtal2010	
+Rugen	radiocarbon	Hv-24832	54.47	13.57	4240	70	peat. bulk	terrestrial	-	-	0	-0.25	0.5220153254455275	0.5220153254455275	LampeEtal2010	
+Rugen	radiocarbon	KIA-26574	54.55	13.21	1440	25	peat. bulk	terrestrial	-	-	0	-0.15	0.25	0.25	LampeEtal2010	
+Rugen	radiocarbon	Hv-23671	54.55	13.21	1155	100	peat. bulk	terrestrial	-	-	0	-0.15	0.25	0.25	LampeEtal2010	
+Rugen	radiocarbon	Hv-23672	54.55	13.21	1120	100	peat. bulk	terrestrial	-	-	0	-0.15	0.25	0.25	LampeEtal2010	
+Rugen	radiocarbon	KIA-26575	54.55	13.21	2755	45	peat. bulk	terrestrial	-	-	0	-0.25	0.25	0.25	LampeEtal2010	
+Rugen	radiocarbon	KIA-26577	54.55	13.21	4290	50	peat. bulk	terrestrial	-	-	0	-0.55	0.25	0.25	LampeEtal2010	
+Rugen	radiocarbon	KIA-26576	54.55	13.21	4300	40	peat. bulk	terrestrial	-	-	0	-0.55	0.25	0.25	LampeEtal2010	
+Rugen	radiocarbon	KIA-24246	54.55	13.29	6181	35	trunk	terrestrial	-	-	1	-1.6	0.2	0.2	LampeEtal2010	
+Rugen	radiocarbon	KIA-24247	54.55	13.29	6574	35	charcoal. fireplace	terrestrial	-	-	1	-1.6	0.2	0.2	LampeEtal2010	
+Rugen	radiocarbon	KIA-27248	54.58	13.34	6577	32	trunk	terrestrial	-	-	1	-2.2	0.2	0.2	LampeEtal2010	
+Rugen	radiocarbon	Bln-1559	54.4	13.61	5844	70	peat. bulk	terrestrial	-	-	0	-2.05	0.5220153254455275	0.5220153254455275	LampeEtal2010	
+Rugen	radiocarbon	Bln-1560	54.4	13.61	7698	46	peat. bulk	terrestrial	-	-	0	-7.75	0.5220153254455275	0.5220153254455275	LampeEtal2010	
+Rugen	radiocarbon	Bln-1875	54.4	13.61	8060	80	peat. bulk	terrestrial	-	-	0	-9.25	0.5220153254455275	0.5220153254455275	LampeEtal2010	
+Rugen	radiocarbon	Hv-24433	54.55	13.28	6840	100	peat. bulk	terrestrial	-	-	0	-3.85	0.5220153254455275	0.5220153254455275	LampeEtal2010	
+Rugen	radiocarbon	Hv-24432	54.55	13.28	6700	90	peat. bulk	terrestrial	-	-	0	-3.65	0.5220153254455275	0.5220153254455275	LampeEtal2010	
+Rugen	radiocarbon	Hv-24425	54.58	13.1	8010	195	peat. bulk	terrestrial	-	-	0	-11.950000000000001	0.5220153254455275	0.5220153254455275	LampeEtal2010	
+Rugen	radiocarbon	Hv-24423	54.53	13.12	7400	55	wood	terrestrial	-	-	0	-6.75	0.5220153254455275	0.5220153254455275	LampeEtal2010	
+Rugen	radiocarbon	Hv-24430	54.57	13.14	595	65	peat. bulk	terrestrial	-	-	0	-0.65	0.5220153254455275	0.5220153254455275	LampeEtal2010	
+Rugen	radiocarbon	Hv-24421	54.5	13.07	7475	90	peat. bulk	terrestrial	-	-	0	-8.25	0.5220153254455275	0.5220153254455275	LampeEtal2010	
+Rugen	radiocarbon	Hv-24420	54.53	13.13	7260	135	wood	terrestrial	-	-	0	-4.15	0.5220153254455275	0.5220153254455275	LampeEtal2010	
+Rugen	radiocarbon	KIA-24217	54.48	13.53	4632	38	bone	terrestrial	-	-	1	-0.7	0.2	0.2	LampeEtal2010	
+Rugen	radiocarbon	KIA-24220	54.48	13.53	5324	39	antler fragment	terrestrial	-	-	1	-0.9	0.2	0.2	LampeEtal2010	
+Rugen	radiocarbon	KIA-24218	54.48	13.53	5368	38	bone	terrestrial	-	-	1	-1.1	0.2	0.2	LampeEtal2010	
+Rugen	radiocarbon	KIA-24219	54.48	13.53	5645	39	bone	terrestrial	-	-	1	-1.2	0.2	0.2	LampeEtal2010	
+Rugen	radiocarbon	KIA-35279	54.54	13.11	7600	35	peat	terrestrial	-	-	0	-9.55	0.5220153254455275	0.5220153254455275	NaumannLampe2011	
+Rugen	radiocarbon	KIA-35287	54.56	13.07	7220	50	root remnant. A-horizon	terrestrial	-	-	1	-9.7	0.5	0.5	NaumannLampe2011	
+Rugen	radiocarbon	Hv-24831	54.31	13.71	7810	110	peat	terrestrial	-	-	0	-7.55	0.522015	0.522015	HoffmannEtal2009	2 = compaction
+Rugen	radiocarbon	KIA-19370	54.33	13.72	4600	55	seed. swash mark	terrestrial	-	-	0	-1.65	0.522015	0.522015	HoffmannEtal2009	2 = compaction
+Rugen	radiocarbon	KIA-19372	54.32	13.72	5690	150	seed	terrestrial	-	-	0	-0.95	0.522015	0.522015	HoffmannEtal2009	2 = compaction
+Rugen	radiocarbon	KIA-19373	54.33	13.72	6390	25	charcoal from intercalated organic layer	terrestrial	-	-	0	-3.35	0.559017	0.559017	HoffmannEtal2009	2 = compaction
+Rugen	radiocarbon	Hv-24833	54.31	13.7	7320	70	peat	terrestrial	-	-	0	-6.05	0.522015	0.522015	HoffmannEtal2009	2 = compaction
+Rugen	radiocarbon	Hv-24829	54.31	13.7	7840	70	peat	terrestrial	-	-	0	-5.55	0.522015	0.522015	HoffmannEtal2009	2 = compaction
+Rugen	radiocarbon	Hv-24830	54.31	13.71	8025	85	peat	terrestrial	-	-	0	-14.15	0.522015	0.522015	HoffmannEtal2009	2 = compaction
+Rugen	radiocarbon	Hv-24834	54.29	13.71	8050	85	peat	terrestrial	-	-	0	-14.85	0.522015	0.522015	HoffmannEtal2009	2 = compaction
+Rugen	radiocarbon	KIA-19371	54.31	13.7	6355	25	charcoal in peat	terrestrial	-	-	0	-2.05	0.522015	0.522015	HoffmannEtal2009	2 = compaction
+Rugen	radiocarbon	Hv-24835	54.31	13.72	8070	90	peat	terrestrial	-	-	0	-6.05	0.522015	0.522015	HoffmannEtal2009	2 = compaction

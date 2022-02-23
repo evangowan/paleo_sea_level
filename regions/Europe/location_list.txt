@@ -7,3 +7,4 @@ Frosta	Western_Norway
 Rotterdam	North_Sea
 Achterwasser	Baltic_Sea
 Baltic_Southwest	Baltic_Sea
+Rugen	Baltic_Sea

@@ -12,8 +12,8 @@ center_latitude=90
 # corners of the main plot with the locations of the data
 bottom_long=13
 bottom_lat=54.5
-top_long=15
-top_lat=55
+top_long=15.25
+top_lat=55.25
 
 R_main="-R${bottom_long}/${bottom_lat}/${top_long}/${top_lat}r"
 J_main="-JA${center_longitude}/${center_latitude}/${width}c"
@@ -34,7 +34,7 @@ scale_bar_long=13.6
 # this is the latitude where it measures the width of the scale bar. Remember, the width will change depending on latitude!
 scale_bar_reference_lat=54.75
 # width is in km
-scale_bar_width=50
+scale_bar_width=30
 
 
 # shift where the insert map should go. 

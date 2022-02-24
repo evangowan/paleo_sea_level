@@ -1,0 +1,19 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	notes
+Lillebaelt	radiocarbon	Poz-8821	55.21	9.76	7140	40	Mytilus edulis and Macoma balthica shells	marine	10	0	-1	-25.3	1.118033988749895	1.118033988749895	BennikeJensen2011	
+Lillebaelt	radiocarbon	Poz-8820	55.21	9.78	6590	40	Arctica islandica shell	marine	10	0	-1	-25	1.118033988749895	1.118033988749895	BennikeJensen2011	
+Lillebaelt	radiocarbon	Poz-5805	55.38	9.81	7420	50	Betula Albae remains from peat	terrestrial	-	-	1	-9.8	1.118033988749895	1.118033988749895	BennikeJensen2011	
+Lillebaelt	radiocarbon	AAR-9341	55.39	9.82	6820	55	Homo sapiens bone	terrestrial	-	-	1	-2.7	1.118033988749895	1.118033988749895	Andersen2013	
+Lillebaelt	radiocarbon	AAR-9342	55.39	9.83	6905	55	Homo sapiens bone	terrestrial	-	-	1	-2.7	1.118033988749895	1.118033988749895	Andersen2013	
+Lillebaelt	radiocarbon	K-3558	55.39	9.83	6550	80	Homo sapiens bone	terrestrial	-	-	1	-2.7	1.118033988749895	1.118033988749895	Andersen2013	
+Lillebaelt	radiocarbon	K-4149	55.39	9.83	5370	100	Tilia sp. wood	terrestrial	-	-	1	-2.8	1.118033988749895	1.118033988749895	Andersen2013	
+Lillebaelt	radiocarbon	K-4150	55.39	9.83	6380	100	Alnus glutinosa wood	terrestrial	-	-	1	4.7	1.118033988749895	1.118033988749895	Andersen2013	
+Lillebaelt	radiocarbon	K-5680	55.39	9.83	5940	70	Ostrea edulis shells	marine	10	0	-1	-5	1.118033988749895	1.118033988749895	PetersenRasmussen1995	
+Lillebaelt	radiocarbon	K-5681	55.39	9.83	5780	70	Ostrea edulis shells	marine	10	0	-1	-4	1.118033988749895	1.118033988749895	PetersenRasmussen1995	
+Lillebaelt	radiocarbon	Poz-5753	55.22	9.84	7880	50	Menyanthes trifoliata and Cladium mariscus remains	terrestrial	-	-	-1	-16.7	1.118033988749895	1.118033988749895	BennikeJensen2011	
+Lillebaelt	radiocarbon	K-1028	54.99	10.32	8990	140	Peat	terrestrial	-	-	1	-20.8	1.118033988749895	1.118033988749895	Tauber1966	
+Lillebaelt	radiocarbon	K-1030	54.99	10.32	7400	150	Peat	terrestrial	-	-	1	-19.4	1.118033988749895	1.118033988749895	Krog1979	
+Lillebaelt	radiocarbon	K-852	54.99	10.32	9550	140	Peat	terrestrial	-	-	1	-20.9	1.118033988749895	1.118033988749895	Tauber1966	
+Lillebaelt	radiocarbon	K-5640	54.9	10.43	5910	75	Wood from boat	terrestrial	-	-	1	-5	1.118033988749895	1.118033988749895	SkaarupGron2004	
+Lillebaelt	radiocarbon	K-6040	54.9	10.43	6170	85	Human bone	terrestrial	-	-	1	-4.75	1.118033988749895	1.118033988749895	SkaarupGron2004	
+Lillebaelt	radiocarbon	K-6681	54.9	10.43	6290	75	Corylus stake	terrestrial	-	-	-1	-4.5	1.118033988749895	1.118033988749895	SkaarupGron2004	
+Lillebaelt	radiocarbon	K-6682	54.9	10.43	6270	80	Corylus stake	terrestrial	-	-	-1	-4.5	1.118033988749895	1.118033988749895	SkaarupGron2004	

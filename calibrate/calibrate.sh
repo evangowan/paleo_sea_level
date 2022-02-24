@@ -154,7 +154,7 @@ END_CAT
 		then
 			rm run.oxcal ${sample_code}.prior run.js run.log correction.prior run.txt ${sample_code}.posterior.prior correction.posterior.prior
 		else
-			rm run.oxcal ${sample_code}.prior run.js run.log correction.prior run.txt
+			rm run.oxcal ${sample_code}.prior run.js run.log run.txt
 		fi
 
 	else

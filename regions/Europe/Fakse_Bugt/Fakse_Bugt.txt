@@ -1,0 +1,5 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	notes
+Fakse_Bugt	radiocarbon	K-5531	55.07	12.45	7900	135	Peat	terrestrial	-	-	1	-13.4	1.118033988749895	1.118033988749895	JensenStecher1992	
+Fakse_Bugt	radiocarbon	K-5532	55.07	12.45	8090	125	Peat	terrestrial	-	-	1	-13.8	1.118033988749895	1.118033988749895	JensenStecher1992	
+Fakse_Bugt	radiocarbon	K-5533	55.08	12.42	8010	105	Peat	terrestrial	-	-	1	-14.6	1.118033988749895	1.118033988749895	JensenStecher1992	
+Fakse_Bugt	radiocarbon	K-5548	55.05	12.34	9430	135	Peat	terrestrial	-	-	1	-12.5	1.118033988749895	1.118033988749895	JensenStecher1992	

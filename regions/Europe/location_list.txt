@@ -13,3 +13,4 @@ Arkona_Basin_East	Baltic_Sea
 Arkona_Basin_West	Baltic_Sea
 Fakse_Bugt	Baltic_Sea
 Lubeck	Baltic_Sea
+Kieler_Bucht	Baltic_Sea

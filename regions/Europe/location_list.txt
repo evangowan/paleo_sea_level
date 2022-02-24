@@ -21,3 +21,4 @@ Kattegat	Baltic_Sea
 Treoa_Moellebugt	Baltic_Sea
 Vendsyssel_Thy	Baltic_Sea
 Laesoe	Baltic_Sea
+Bohuslan	Baltic_Sea

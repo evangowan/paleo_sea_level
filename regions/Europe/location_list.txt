@@ -16,3 +16,4 @@ Lubeck	Baltic_Sea
 Kieler_Bucht	Baltic_Sea
 Storebaelt	Baltic_Sea
 Lillebaelt	Baltic_Sea
+Samso_Belt	Baltic_Sea

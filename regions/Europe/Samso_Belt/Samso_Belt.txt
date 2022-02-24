@@ -1,0 +1,68 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	notes
+Samso_Belt	radiocarbon	AAR-1177	56.25	10.42	7620	110	Corylus avellana nut	terrestrial	-	-	-1	-6.2	1.118033988749895	1.118033988749895	FischerEtal2005	
+Samso_Belt	radiocarbon	AAR-8413	56.25	10.42	7690	45	Quercus sp. root	terrestrial	-	-	1	-6.7	1.118033988749895	1.118033988749895	FischerEtal2005	
+Samso_Belt	radiocarbon	AAR-8414	56.25	10.42	7560	35	Hedera helix stem	terrestrial	-	-	1	-6.4	1.118033988749895	1.118033988749895	FischerEtal2005	
+Samso_Belt	radiocarbon	AAR-8415	56.25	10.42	7550	40	Corylus avellana wood	terrestrial	-	-	1	-6.4	1.118033988749895	1.118033988749895	FischerEtal2005	
+Samso_Belt	radiocarbon	AAR-1178	56.25	10.42	7390	160	Antler	terrestrial	-	-	-1	-6.1	1.118033988749895	1.118033988749895	FischerEtal2005	
+Samso_Belt	radiocarbon	K-3681	56.31	10.55	3860	85	Cerastoderma edule shells	marine	10	0	-1	0.8	1.118033988749895	1.118033988749895	PetersenRasmussen1995	
+Samso_Belt	radiocarbon	K-3984	56.31	10.55	3850	85	Cerastoderma edule shells	marine	10	0	-1	1	1.118033988749895	1.118033988749895	PetersenRasmussen1995	
+Samso_Belt	radiocarbon	K-3986	56.31	10.55	4600	90	Mytilus edulis shells	marine	10	0	-1	-4	1.118033988749895	1.118033988749895	PetersenRasmussen1995	
+Samso_Belt	radiocarbon	K-3987	56.31	10.55	4910	90	Ostrea edulis shells	marine	10	0	-1	-5.5	1.118033988749895	1.118033988749895	PetersenRasmussen1995	
+Samso_Belt	radiocarbon	K-3988	56.31	10.55	7240	110	Corbula gibba shells	marine	10	0	-1	-8.5	1.118033988749895	1.118033988749895	PetersenRasmussen1995	
+Samso_Belt	radiocarbon	K-3989	56.31	10.55	7370	110	Cerastoderma edule shells	marine	10	0	-1	-8.7	1.118033988749895	1.118033988749895	PetersenRasmussen1995	
+Samso_Belt	radiocarbon	K-3990	56.31	10.55	7380	110	Corbula gibba shells	marine	10	0	-1	-8.7	1.118033988749895	1.118033988749895	PetersenRasmussen1995	
+Samso_Belt	radiocarbon	K-3996	55.89	10.63	6030	100	Alnus glutinosa stem	terrestrial	-	-	-1	-0.8	1.118033988749895	1.118033988749895	Rasmussen1995	
+Samso_Belt	radiocarbon	K-3997	55.89	10.63	7150	110	Charcoal from lake deposit	terrestrial	-	-	1	-1.1	1.118033988749895	1.118033988749895	Rasmussen1995	
+Samso_Belt	radiocarbon	K-4000	55.89	10.63	5480	95	Cerastoderma and Littorina shells	marine	10	0	-1	0	1.118033988749895	1.118033988749895	Rasmussen1995	
+Samso_Belt	radiocarbon	K-4001	55.89	10.63	5580	70	Cerastoderma and Littorina shells	marine	10	0	-1	0	1.118033988749895	1.118033988749895	Rasmussen1995	
+Samso_Belt	radiocarbon	K-4002	55.89	10.63	6030	100	Ostrea edulis shells	marine	10	0	-1	-0.8	1.118033988749895	1.118033988749895	Rasmussen1995	
+Samso_Belt	radiocarbon	K-4233	56.31	10.55	3960	65	Cerastoderma edule shells	marine	10	0	-1	1.7	1.118033988749895	1.118033988749895	Petersen1993	
+Samso_Belt	radiocarbon	K-4234	56.31	10.55	3880	65	Cerastoderma edule shells	marine	10	0	-1	1.3	1.118033988749895	1.118033988749895	Petersen1993	
+Samso_Belt	radiocarbon	K-4235	56.31	10.55	6750	100	Cerastoderma edule shells	marine	10	0	-1	-4.4	1.118033988749895	1.118033988749895	Petersen1993	
+Samso_Belt	radiocarbon	K-4236	56.31	10.55	6990	100	Ostrea edulis shells	marine	10	0	-1	-4.5	1.118033988749895	1.118033988749895	Petersen1993	
+Samso_Belt	radiocarbon	K-4237	56.31	10.55	7990	100	Mytilus edulis and Cerastoderma edule shells	marine	10	0	-1	-5.5	1.118033988749895	1.118033988749895	Petersen1993	
+Samso_Belt	radiocarbon	K-4594	56.31	10.05	4030	85	Cerastoderma edule shells	marine	10	0	-1	3.5	1.118033988749895	1.118033988749895	PetersenRasmussen1995	
+Samso_Belt	radiocarbon	K-5761	56.16	10.71	4260	90	Cerastoderma edulis shells	marine	10	0	-1	2	1.118033988749895	1.118033988749895	PetersenRasmussen1995	
+Samso_Belt	radiocarbon	K-6107	56	10.23	6130	135	Peat	terrestrial	-	-	1	-2	1.118033988749895	1.118033988749895	RahbekRasmussen1994	
+Samso_Belt	radiocarbon	Poz-10512	56.1	10.45	1840	30	Artica islandica shell	marine	10	0	-1	-28.2	1.118033988749895	1.118033988749895	JensenBennike2009	
+Samso_Belt	radiocarbon	Poz-10514	56.1	10.45	2860	35	Nucula nucleus shell	marine	10	0	-1	-29.7	1.118033988749895	1.118033988749895	JensenBennike2009	
+Samso_Belt	radiocarbon	Poz-10516	56.12	10.35	7870	50	Mytilus edulis shell	marine	10	0	-1	-16.4	1.118033988749895	1.118033988749895	JensenBennike2009	
+Samso_Belt	radiocarbon	Poz-10517	56.12	10.35	8240	50	Cerastoderma lamarcki shell	marine	10	0	-1	-17.4	1.118033988749895	1.118033988749895	JensenBennike2009	
+Samso_Belt	radiocarbon	Poz-10518	56.12	10.35	3290	35	Nucula nucleus shell	marine	10	0	-1	-16	1.118033988749895	1.118033988749895	JensenBennike2009	
+Samso_Belt	radiocarbon	KIA46678	55.93	10.63	5085	30	Bulk sediment	marine	10	0	-1	-0.56	1.118033988749895	1.118033988749895	SanderEtal2015	
+Samso_Belt	radiocarbon	KIA46679	55.93	10.63	6410	35	Bulk sediment	marine	10	0	-1	-1.54	1.118033988749895	1.118033988749895	SanderEtal2015	
+Samso_Belt	radiocarbon	KIA46676	55.93	10.63	6015	35	Bulk sediment	marine	10	0	-1	-0.44	1.118033988749895	1.118033988749895	SanderEtal2015	
+Samso_Belt	radiocarbon	KIA46677	55.93	10.63	6385	50	Bulk sediment	marine	10	0	-1	-0.85	1.118033988749895	1.118033988749895	SanderEtal2015	
+Samso_Belt	radiocarbon	Poz-52084	55.89	10.6	5915	35	Bulk sediment	marine	10	0	-1	-0.43	1.118033988749895	1.118033988749895	SanderEtal2015	
+Samso_Belt	radiocarbon	Poz-52085	55.89	10.6	7270	40	Bulk sediment	marine	10	0	-1	-2.76	1.118033988749895	1.118033988749895	SanderEtal2015	
+Samso_Belt	radiocarbon	Poz-59461	55.89	10.6	5700	40	Bulk sediment	marine	10	0	-1	-2.56	1.118033988749895	1.118033988749895	SanderEtal2015	
+Samso_Belt	radiocarbon	Poz-60534	55.77	10.56	4495	30	Bulk sediment	marine	10	0	-1	-1.17	1.118033988749895	1.118033988749895	SanderEtal2015	
+Samso_Belt	radiocarbon	Poz-60532	55.77	10.56	7220	40	Bulk sediment	marine	10	0	-1	-4.1	1.118033988749895	1.118033988749895	SanderEtal2015	
+Samso_Belt	radiocarbon	Poz-60533	55.77	10.56	4860	35	Bulk sediment	marine	10	0	-1	-0.09	1.118033988749895	1.118033988749895	SanderEtal2015	
+Samso_Belt	radiocarbon	Poz-60531	55.77	10.56	4640	35	Bulk sediment	marine	10	0	-1	-1.21	1.118033988749895	1.118033988749895	SanderEtal2015	
+Samso_Belt	radiocarbon	Poz-60530	55.77	10.56	5505	35	Bulk sediment	marine	10	0	-1	-0.74	1.118033988749895	1.118033988749895	SanderEtal2015	
+Samso_Belt	radiocarbon	Poz-60528	55.77	10.56	5825	35	Bulk sediment	marine	10	0	-1	-2.09	1.118033988749895	1.118033988749895	SanderEtal2015	
+Samso_Belt	radiocarbon	Poz-59240	55.89	10.6	7350	50	Cerastoderma edule shell	marine	10	0	-1	-3.82	1.118033988749895	1.118033988749895	SanderEtal2015	
+Samso_Belt	radiocarbon	Poz-59241	55.89	10.6	7170	50	Cerastoderma edule shell	marine	10	0	-1	-5.2	1.118033988749895	1.118033988749895	SanderEtal2015	
+Samso_Belt	radiocarbon	Poz-59242	55.93	10.63	7310	50	Cerastoderma edule shell	marine	10	0	-1	-2.74	1.118033988749895	1.118033988749895	SanderEtal2015	
+Samso_Belt	radiocarbon	Poz-59376	55.89	10.6	7440	35	Bulk peat	terrestrial	-	-	1	-5.35	1.118033988749895	1.118033988749895	SanderEtal2015	
+Samso_Belt	radiocarbon	Poz-59377	55.89	10.6	5825	35	Plant remains	terrestrial	-	-	-1	0.15	1.118033988749895	1.118033988749895	SanderEtal2015	
+Samso_Belt	radiocarbon	Poz-59378	55.89	10.6	6595	35	Wood	terrestrial	-	-	1	-0.76	1.118033988749895	1.118033988749895	SanderEtal2015	
+Samso_Belt	radiocarbon	Poz-59462	55.89	10.6	6910	40	Wood	terrestrial	-	-	0	-3.37	1.2247448713915892	1.2247448713915892	SanderEtal2015	
+Samso_Belt	radiocarbon	Poz-59463	55.89	10.6	6595	35	Wood in peat	terrestrial	-	-	1	-0.97	1.118033988749895	1.118033988749895	SanderEtal2015	
+Samso_Belt	radiocarbon	Poz-60181	55.77	10.56	6715	35	Littorina littorea shell	marine	-	-	-1	-2.59	1.118033988749895	1.118033988749895	SanderEtal2015	
+Samso_Belt	radiocarbon	Poz-7845	56.1	10.45	6565	35	Turritella communis shell	marine	10	0	-1	-24.4	1.118033988749895	1.118033988749895	JensenBennike2009	
+Samso_Belt	radiocarbon	Poz-7846	56.1	10.45	7600	40	Turritella communis shell	marine	10	0	-1	-25.5	1.118033988749895	1.118033988749895	JensenBennike2009	
+Samso_Belt	radiocarbon	Poz-7847	56.12	10.43	5740	35	Turritella communis shell	marine	10	0	-1	-24.2	1.118033988749895	1.118033988749895	JensenBennike2009	
+Samso_Belt	radiocarbon	Poz-7848	56.12	10.43	8290	40	Cerastoderma edule shell	marine	10	0	-1	-25.8	1.118033988749895	1.118033988749895	JensenBennike2009	
+Samso_Belt	OSL	Samso_Belt-10	55.93	10.59	0	0	Sample size for OSL dating: 20 cm long cylinder with a diameter of 5 cm.		-	-	0	2.1	0.3429285639896449	0.3429285639896449	HedeEtal2015	
+Samso_Belt	OSL	Samso_Belt-09	55.93	10.59	0	0	Sample size for OSL dating: 20 cm long cylinder with a diameter of 5 cm.		-	-	0	2.7	0.3429285639896449	0.3429285639896449	HedeEtal2015	
+Samso_Belt	OSL	Samso_Belt-08	55.93	10.59	0	0	Sample size for OSL dating: 20 cm long cylinder with a diameter of 5 cm.		-	-	0	1.8	0.3429285639896449	0.3429285639896449	HedeEtal2015	
+Samso_Belt	OSL	Samso_Belt-05	55.93	10.59	0	0	Sample size for OSL dating: 20 cm long cylinder with a diameter of 5 cm.		-	-	0	0.9	0.3429285639896449	0.3429285639896449	HedeEtal2015	
+Samso_Belt	OSL	Samso_Belt-07	55.93	10.59	0	0	Sample size for OSL dating: 20 cm long cylinder with a diameter of 5 cm.		-	-	0	0.9	0.3429285639896449	0.3429285639896449	HedeEtal2015	
+Samso_Belt	OSL	Samso_Belt-06	55.93	10.59	0	0	Sample size for OSL dating: 20 cm long cylinder with a diameter of 5 cm.		-	-	0	0.5	0.3429285639896449	0.3429285639896449	HedeEtal2015	
+Samso_Belt	OSL	Samso_Belt-04	55.93	10.59	0	0	Sample size for OSL dating: 20 cm long cylinder with a diameter of 5 cm.		-	-	0	0.7	0.3429285639896449	0.3429285639896449	HedeEtal2015	
+Samso_Belt	OSL	Samso_Belt-03	55.93	10.59	0	0	Sample size for OSL dating: 20 cm long cylinder with a diameter of 5 cm.		-	-	0	0.4	0.3429285639896449	0.3429285639896449	HedeEtal2015	
+Samso_Belt	OSL	Samso_Belt-02	55.93	10.59	0	0	Sample size for OSL dating: 20 cm long cylinder with a diameter of 5 cm.		-	-	0	0.1	0.3429285639896449	0.3429285639896449	HedeEtal2015	
+Samso_Belt	OSL	Samso_Belt-01	55.93	10.59	0	0	Sample size for OSL dating: 20 cm long cylinder with a diameter of 5 cm.		-	-	0	0	0.3429285639896449	0.3429285639896449	HedeEtal2015	
+Samso_Belt	OSL	Samso_Belt-11	55.93	10.6	0	0	Sample size for OSL dating: 20 cm long cylinder with a diameter of 5 cm.		-	-	0	-0.3	0.3429285639896449	0.3429285639896449	HedeEtal2015	

@@ -1,0 +1,6 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	notes
+Asa	radiocarbon	St_1528	57.39	12.51	7935.484	170	nd	terrestrial	-	-	0	15.2	0.5099019513592785	0.5099019513592785	Morner1969	
+Asa	radiocarbon	St_1529	57.39	12.51	8930.484	170	nd	terrestrial	-	-	0	14.3	0.5099019513592785	0.5099019513592785	Morner1969	
+Asa	radiocarbon	St_1531	57.4	12.52	7680.484	165	nd	terrestrial	-	-	0	15.6	0.5099019513592785	0.5099019513592785	Morner1969	
+Asa	radiocarbon	St_1532	57.4	12.52	7495.484	150	nd	terrestrial	-	-	0	14.75	0.5099019513592785	0.5099019513592785	Morner1969	
+Asa	radiocarbon	St_1534	57.4	12.52	12115.484	230	nd	terrestrial	-	-	0	14.3	0.5099019513592785	0.5099019513592785	Morner1969	

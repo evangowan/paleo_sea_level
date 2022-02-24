@@ -23,3 +23,5 @@ Vendsyssel_Thy	Baltic_Sea
 Laesoe	Baltic_Sea
 Bohuslan	Baltic_Sea
 Goteborg	Baltic_Sea
+Halmstad	Baltic_Sea
+Asa	Baltic_Sea

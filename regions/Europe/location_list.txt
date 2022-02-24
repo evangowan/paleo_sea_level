@@ -28,3 +28,4 @@ Asa	Baltic_Sea
 Sund	Baltic_Sea
 Havang	Baltic_Sea
 Blekinge	Baltic_Sea
+Ustka	Baltic_Sea

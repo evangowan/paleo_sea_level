@@ -17,3 +17,5 @@ Kieler_Bucht	Baltic_Sea
 Storebaelt	Baltic_Sea
 Lillebaelt	Baltic_Sea
 Samso_Belt	Baltic_Sea
+Kattegat	Baltic_Sea
+Treoa_Moellebugt	Baltic_Sea

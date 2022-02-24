@@ -27,3 +27,4 @@ Halmstad	Baltic_Sea
 Asa	Baltic_Sea
 Sund	Baltic_Sea
 Havang	Baltic_Sea
+Blekinge	Baltic_Sea

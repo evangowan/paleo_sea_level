@@ -25,3 +25,4 @@ Bohuslan	Baltic_Sea
 Goteborg	Baltic_Sea
 Halmstad	Baltic_Sea
 Asa	Baltic_Sea
+Sund	Baltic_Sea

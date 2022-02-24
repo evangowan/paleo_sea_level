@@ -6,7 +6,7 @@ program radiocarbon_statistics
 	implicit none
 
 
-	character(len=80) :: radiocarbon_name, radiocarbon_file
+	character(len=80) :: radiocarbon_file
 
 	real :: median_age, mode_age, one_sigma_upper, one_sigma_lower, two_sigma_upper, two_sigma_lower, maximum_probability
 	real :: last_age, last_probability, current_age, current_probability, total_probability, one_sigma_low_val
@@ -27,9 +27,8 @@ program radiocarbon_statistics
 	two_sigma_high_val = 1. - two_sigma_low_val
 
 
-	call getarg(1,radiocarbon_name)
+	call getarg(1,radiocarbon_file)
 
-	radiocarbon_file = trim(trim(adjustl(radiocarbon_name)) // ".prior")
 
 	open(unit=radio_unit, file=radiocarbon_file, access="sequential", form="formatted", status="old")
 

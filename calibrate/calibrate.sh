@@ -80,7 +80,6 @@ do
 
 		correction_amount=$(awk --field-separator '\t' '{print $10}' temp)
 
-
 		correction_error=$(awk --field-separator '\t' '{print $11}' temp)
 
 		cal_curve=$(awk --field-separator '\t' '{print $9}' temp)
@@ -125,7 +124,7 @@ END_CAT
 
 
 		# run oxcal and extract the information from the resulting javascript file
-
+		echo ${cal_curve}
 		OxCal/bin/OxCalLinux run.oxcal
 	
 		perl parse_javascript.pl run.js
@@ -137,14 +136,26 @@ END_CAT
 			echo "${sample_code}: Oxcal did not work"
 		fi
 
-		age_output="$(./../Fortran/radiocarbon_statistics ${sample_code})"
+		if  [  "${cal_curve}" = "marine" ] 
+		then
+			age_output="$(./../Fortran/radiocarbon_statistics ${sample_code}.posterior.prior)"
+		else
+			age_output="$(./../Fortran/radiocarbon_statistics ${sample_code}.prior)"
+		fi
 
 
 		median_age=$(echo ${age_output} | awk '{print $1}')
 		age_uncertainty=$(echo ${age_output} | awk '{print $2}')
 
 		# clean up files
-		rm run.oxcal ${sample_code}.prior run.js run.log correction.prior run.txt
+
+
+		if  [  "${cal_curve}" = "marine" ] 
+		then
+			rm run.oxcal ${sample_code}.prior run.js run.log correction.prior run.txt ${sample_code}.posterior.prior correction.posterior.prior
+		else
+			rm run.oxcal ${sample_code}.prior run.js run.log correction.prior run.txt
+		fi
 
 	else
 

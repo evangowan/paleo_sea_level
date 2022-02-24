@@ -19,3 +19,5 @@ Lillebaelt	Baltic_Sea
 Samso_Belt	Baltic_Sea
 Kattegat	Baltic_Sea
 Treoa_Moellebugt	Baltic_Sea
+Vendsyssel_Thy	Baltic_Sea
+Laesoe	Baltic_Sea

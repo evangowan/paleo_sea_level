@@ -47,3 +47,4 @@ Lahemaa	Baltic_Sea
 Narva-Luga	Baltic_Sea
 St_Petersburg	Baltic_Sea
 Virolahti	Baltic_Sea
+Porvoo	Baltic_Sea

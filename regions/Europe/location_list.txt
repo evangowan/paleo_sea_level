@@ -45,3 +45,4 @@ Paldiski	Baltic_Sea
 Tallinn	Baltic_Sea
 Lahemaa	Baltic_Sea
 Narva-Luga	Baltic_Sea
+St_Petersburg	Baltic_Sea

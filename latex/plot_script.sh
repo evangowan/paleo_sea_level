@@ -123,7 +123,7 @@ END_TEXT
 
 	# find time extremes
 
-	min_time=$(awk -F'\t' 'BEGIN {extreme=100000} {if ( $4 - $5 < extreme) {extreme=$4-$5}} END {if (extreme < 8000) {print 0} else{print int(extreme/2000)*2000}}' ${sea_level_file})
+	min_time=$(awk -F'\t' 'BEGIN {extreme=100000} {if ( $4 - $5 < extreme) {extreme=$4-$5}} END {if (extreme < 8000) {print 0} else{print int((extreme-2000)/2000)*2000}}' ${sea_level_file})
 	max_time=$(awk -F'\t' 'BEGIN {extreme=-100000} {if ( $4 + $5 > extreme) {extreme=$4+$5}} END {print int((extreme+2000)/2000)*2000}' ${sea_level_file})
 
 

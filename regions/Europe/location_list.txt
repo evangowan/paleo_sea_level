@@ -29,4 +29,5 @@ Sund	Baltic_Sea
 Havang	Baltic_Sea
 Blekinge	Baltic_Sea
 Ustka	Baltic_Sea
-West_Gulf_Of_Gdansk
+West_Gulf_Of_Gdansk	Baltic_Sea
+South_Vistula	Baltic_Sea

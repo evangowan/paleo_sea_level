@@ -43,3 +43,4 @@ Ostergotland	Baltic_Sea
 Sodermanland	Baltic_Sea
 Paldiski	Baltic_Sea
 Tallinn	Baltic_Sea
+Lahemaa	Baltic_Sea

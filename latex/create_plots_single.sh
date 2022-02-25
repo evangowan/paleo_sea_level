@@ -21,8 +21,10 @@ then
   mkdir statistics
 fi
 
-
-rm temp/map_plot_dimensions.txt
+if [ -f "temp/map_plot_dimensions.txt" ]
+then
+	rm temp/map_plot_dimensions.txt
+fi
 
 reference_ice_model="72_73_74_75"
 reference_earth_model="ehgr"
@@ -36,7 +38,7 @@ cat << END_CAT > temp/compare_models.txt
 72_73_74_75 ehgK
 END_CAT
 
-rm temp/map_plot_dimensions.txt
+
 
 for region in $(cat ../regions/region_list.txt)
 do

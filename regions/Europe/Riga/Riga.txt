@@ -1,0 +1,21 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	notes
+Riga	radiocarbon	Poz-48438	57.18	24.35	9630	60	wood	terrestrial	-	-	1	-11.57	0.557068218443666	0.5027176145710432	GrudzinskaEtal2017	
+Riga	radiocarbon	Poz-48439	57.18	24.35	9710	50	wood	terrestrial	-	-	1	-11.75	0.561449018166387	0.5027176145710432	GrudzinskaEtal2017	
+Riga	radiocarbon	Poz-48440	56.96	23.55	7460	90	wood	terrestrial	-	-	1	-0.78	0.5043064544500695	0.5027176145710432	Grudzinska2015	
+Riga	radiocarbon	Poz-56229	57.12	24.27	5170	40	twig	terrestrial	-	-	1	-5.37	0.5192542729723079	0.5027176145710432	Grudzinska2015	
+Riga	radiocarbon	Poz-56230	57.12	24.27	9220	50	wood	terrestrial	-	-	1	-6.37	0.5246189093046495	0.5027176145710432	Grudzinska2015	
+Riga	radiocarbon	Poz-56231	57.12	24.27	5290	35	bark	terrestrial	-	-	1	-4.15	0.5149757275833493	0.5030904491242106	Grudzinska2015	
+Riga	radiocarbon	Poz-56233	57.13	24.33	9100	50	bark	terrestrial	-	-	-1	-5.34	0.5246903848937962	0.5027922035990614	Grudzinska2015	
+Riga	radiocarbon	Poz-56234	57.13	24.33	9640	50	wood/bark	terrestrial	-	-	1	-5.69	0.5246189093046495	0.5027176145710432	Grudzinska2015	
+Riga	radiocarbon	Poz-56237	57.03	24.24	6810	40	bark	terrestrial	-	-	1	-4.71	0.5275651618520693	0.5027176145710432	Grudzinska2015	
+Riga	radiocarbon	Poz-56239	57.06	24.27	9570	50	twig	terrestrial	-	-	1	-7.63	0.5488169093604898	0.5027922035990614	Grudzinska2015	
+Riga	radiocarbon	Poz-56240	57.06	24.27	8150	50	twig	terrestrial	-	-	1	-6.01	0.5374941860150675	0.5027922035990614	Grudzinska2015	
+Riga	radiocarbon	Poz-57601	57.18	24.35	6370	40	bulk gyttja	terrestrial	-	-	-1	-8.13	0.5339709729938511	0.5027176145710432	GrudzinskaEtal2017	
+Riga	radiocarbon	Poz-63856	57.18	24.35	2385	30	bulk gyttja	terrestrial	-	-	-1	-3.15	0.5090432201689754	0.5027176145710432	GrudzinskaEtal2017	
+Riga	radiocarbon	Poz-63857	57.18	24.35	4880	30	bulk gyttja	terrestrial	-	-	-1	-5.95	0.5192542729723079	0.5027176145710432	GrudzinskaEtal2017	
+Riga	radiocarbon	Poz-63858	57.18	24.35	7810	35	bulk gyttja	terrestrial	-	-	-1	-9.85	0.5448164828637254	0.5027176145710432	GrudzinskaEtal2017	
+Riga	radiocarbon	Tln-3101	56.97	23.91	6134	70	bulk gyttja	terrestrial	-	-	1	-0.8	0.07810249675906655	0.06	Eberhards2008	
+Riga	radiocarbon	Tln-3102	56.97	23.91	6476	65	bulk gyttja	terrestrial	-	-	1	-1	0.07810249675906655	0.06	Eberhards2008	
+Riga	radiocarbon	Tln-3103	56.97	23.91	6055	75	bulk gyttja	terrestrial	-	-	1	-1.2	0.08485281374238571	0.06	Eberhards2008	
+Riga	radiocarbon	Tln-3497	57.18	24.35	3920	55	bulk gyttja	terrestrial	-	-	-1	-4.77	0.5151941381654105	0.5033140172894055	GrudzinskaEtal2017	
+Riga	radiocarbon	Tln-3500	57.18	24.35	3793	60	bulk gyttja	terrestrial	-	-	-1	-4.52	0.5131520242579191	0.5033140172894055	GrudzinskaEtal2017	

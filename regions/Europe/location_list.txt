@@ -35,3 +35,4 @@ Curonian_Spit	Baltic_Sea
 Lithuania	Baltic_Sea
 Ventspils	Baltic_Sea
 West_Gulf_Of_Riga	Baltic_Sea
+Riga	Baltic_Sea

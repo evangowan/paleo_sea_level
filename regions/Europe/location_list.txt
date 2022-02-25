@@ -33,3 +33,4 @@ West_Gulf_Of_Gdansk	Baltic_Sea
 South_Vistula	Baltic_Sea
 Curonian_Spit	Baltic_Sea
 Lithuania	Baltic_Sea
+Ventspils	Baltic_Sea

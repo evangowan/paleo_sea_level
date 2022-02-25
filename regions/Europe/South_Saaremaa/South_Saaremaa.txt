@@ -1,0 +1,8 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	notes
+South_Saaremaa	radiocarbon	Tln-2554	58.31	22.65	7730	120	peat	terrestrial	-	-	1	14.1	0.5036864103785211	0.5036864103785211	ReintamEtal2008	
+South_Saaremaa	radiocarbon	Tln-2558	58.31	22.65	7370	70	peat	terrestrial	-	-	1	14.23	0.5049752469181039	0.5049752469181039	ReintamEtal2008	
+South_Saaremaa	radiocarbon	Tln-3078	58.38	22.11	7490	60	peat upper part	terrestrial	-	-	1	17.16	0.5014977567247934	0.5010987926547019	SaarseEtal2009	
+South_Saaremaa	radiocarbon	Tln-3085	58.26	22.09	7365	75	peat	terrestrial	-	-	1	16.09	0.5019960159204453	0.5010987926547019	SaarseEtal2009	
+South_Saaremaa	radiocarbon	Tln-3086	58.26	22.09	7650	70	peat	terrestrial	-	-	1	16.04	0.5019960159204453	0.5010987926547019	SaarseEtal2009	
+South_Saaremaa	radiocarbon	Tln-3087	58.26	22.09	7760	75	peat	terrestrial	-	-	1	15.98	0.5019960159204453	0.5010987926547019	SaarseEtal2009	
+South_Saaremaa	radiocarbon_calibrated	South_Saaremaa-01	58.26	22.09	8200	85	lime	-	-	-	0	16.11	0.7079548008171143	0.7073188814106407	SaarseEtal2009	

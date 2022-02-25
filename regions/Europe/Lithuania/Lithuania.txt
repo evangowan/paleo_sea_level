@@ -1,0 +1,44 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	notes
+Lithuania	OSL	Lithuania-01	55.3	21	5645	200	Marine/lagoon sand	-	-	-	-1	11	0.5024937512050175	0.5024937512050175	BitinasEtal2017	
+Lithuania	OSL	Lithuania-02	55.3	21	5645	200	Marine/lagoon sand	-	-	-	-1	-12	0.5099019317476744	0.5099019317476744	BitinasEtal2017	
+Lithuania	OSL	Lithuania-03	55.3	21	5745	200	Marine/lagoon sand	-	-	-	-1	-12.5	0.5024937512050175	0.5024937512050175	BitinasEtal2017	
+Lithuania	OSL	Lithuania-04	55.3	21	5845	250	Marine/lagoon sand	-	-	-	-1	-14	0.5099019317476744	0.5099019317476744	BitinasEtal2017	
+Lithuania	OSL	Lithuania-05	55.3	21	6045	250	Marine/lagoon sand	-	-	-	-1	-15	0.5024938009568277	0.5024938009568277	BitinasEtal2017	
+Lithuania	OSL	Lithuania-06	55.3	21	6345	250	Marine/lagoon sand	-	-	-	-1	-15.5	0.5099019513592785	0.5099019513592785	BitinasEtal2017	
+Lithuania	OSL	Lithuania-07	55.3	21	6545	250	Marine/lagoon sand	-	-	-	-1	-17	0.5024938009568277	0.5024938009568277	BitinasEtal2017	
+Lithuania	OSL	Lithuania-08	55.3	21	6645	250	Marine/lagoon sand	-	-	-	-1	-18.5	0.5024938009568277	0.5024938009568277	BitinasEtal2017	
+Lithuania	OSL	Lithuania-09	55.3	21	6645	250	Marine/lagoon sand	-	-	-	-1	-19.5	0.5099019513592785	0.5099019513592785	BitinasEtal2017	
+Lithuania	OSL	Lithuania-10	55.38	20.75	6745	250	Marine sand	-	-	-	-1	-34	0.5	0.5	Gelumbauskaite2009	
+Lithuania	OSL	Lithuania-11	55.43	21.26	4750	300	Marine sand	-	-	-	-1	-2	0.5024937810560445	0.5024937810560445	Damusyte2011	
+Lithuania	OSL	Lithuania-12	55.43	21.26	4850	250	Marine sand	-	-	-	-1	-1	0.5099019513592785	0.5099019513592785	Damusyte2011	
+Lithuania	OSL	Lithuania-13	55.43	21.26	6850	450	Marine sand	-	-	-	-1	-4	0.5024937810560445	0.5024937810560445	Damusyte2011	
+Lithuania	OSL	Lithuania-14	55.43	21.26	8350	450	Marine sand	-	-	-	-1	-3	0.5099019513592785	0.5099019513592785	Damusyte2011	
+Lithuania	OSL	Lithuania-15	55.43	21.27	5750	250	Marine sand	-	-	-	-1	-0.5	0.5099019513592785	0.5099019513592785	Damusyte2011	
+Lithuania	OSL	Lithuania-16	55.43	21.27	7850	300	Marine sand	-	-	-	-1	-1.5	0.5099019513592785	0.5099019513592785	Damusyte2011	
+Lithuania	OSL	Lithuania-17	55.45	20.72	4345	250	Marine sand	-	-	-	-1	-47.5	0.5	0.5	Gelumbauskaite2009	
+Lithuania	OSL	Lithuania-18	55.67	21.11	7950	500	Marine sand	-	-	-	-1	-12.5	0.5099019317476744	0.5099019317476744	BitinasEtal2000,BitinasEtal2001	
+Lithuania	OSL	Lithuania-19	56.05	21.07	5450	425	Marine sand	-	-	-	-1	-5	0.5220153254455275	0.5220153254455275	BitinasEtal2000,BitinasEtal2001	
+Lithuania	OSL	Lithuania-20	56.05	21.07	6950	500	Marine sand	-	-	-	-1	-8.5	0.5220153254455275	0.5220153254455275	BitinasEtal2000,BitinasEtal2001	
+Lithuania	radiocarbon_calbrated	Lithuania-21	55.72	21.07	9480	30	Fishing wooden fence	terrestrial	-	-	-1	-17.5	0.7071067811865476	0.7071067811865476	GirininkasZulkus2017	
+Lithuania	radiocarbon_calbrated	Tln-2067	56.06	21.07	7115	75	Marine shells	terrestrial	-	-	-1	-11	0.6726812023536856	0.6726812023536856	BitinasEtal2000	
+Lithuania	radiocarbon_calbrated	Tln-2069	55.76	21.09	6130	77.5	Marine shells	terrestrial	-	-	-1	-9	0.7433034373659253	0.7433034373659253	BitinasEtal2000	
+Lithuania	radiocarbon_calbrated	UGAMS-03138	55.4	20.77	4605	100	Marine shells	terrestrial	-	-	-1	-36	0.5	0.5	Gelumbauskaite2009	
+Lithuania	radiocarbon_calbrated	UGAMS-03139	55.38	20.75	6875	35	Marine shells	terrestrial	-	-	-1	-34	0.5	0.5	Gelumbauskaite2009	
+Lithuania	radiocarbon_calbrated	Vs-1152	55.35	21.2	12545	140	Peat	terrestrial	-	-	1	2.3	0.5003998401278722	0.5003998401278722	BitinasEtal2002	
+Lithuania	radiocarbon_calbrated	Vs-1153	55.35	21.2	12325	190	Peat	terrestrial	-	-	1	2.2	0.5003998401278722	0.5003998401278722	BitinasEtal2002	
+Lithuania	radiocarbon_calbrated	Vs-1161	55.35	21.2	13540	215	Gyttja	terrestrial	-	-	1	2.1	0.5002249493977684	0.5002249493977684	BitinasEtal2002	
+Lithuania	radiocarbon_calbrated	Vs-1372	55.52	21.04	10335	80	Rooted tree stump (in situ)	terrestrial	-	-	1	-35.5	0.7071067811865476	0.7071067811865476	BitinasEtal2003	
+Lithuania	radiocarbon_calbrated	Vs-1388	55.85	21.05	7775	115	Rooted tree stump (in situ)	terrestrial	-	-	1	-21.5	0.7071067811865476	0.7071067811865476	Damusyte2011	
+Lithuania	radiocarbon_calbrated	Vs-1496	55.72	21.1	7750	90	Peat	terrestrial	-	-	1	-13	0.5024937810560445	0.5024937810560445	Damusyte2011	
+Lithuania	radiocarbon_calbrated	Vs-1589	55.67	21.13	9760	195	Peat	terrestrial	-	-	1	-15	0.5024937810560445	0.5024937810560445	Damusyte2011	
+Lithuania	radiocarbon_calbrated	Vs-1646	55.52	21.04	10890	135	Rooted tree stump (in situ)	terrestrial	-	-	1	-36.5	0.7071067811865476	0.7071067811865476	Damusyte2011	
+Lithuania	radiocarbon_calbrated	Vs-1657	55.47	20.95	10410	150	Gyttja	terrestrial	-	-	1	-33	0.5099019513592785	0.5099019513592785	TrimonisEtal2007,Gelumbauskaite2009	
+Lithuania	radiocarbon_calbrated	Vs-1660	55.67	21.13	9260	127.5	Peat	terrestrial	-	-	1	-14	0.5006246048687679	0.5006246048687679	Damusyte2011	
+Lithuania	radiocarbon_calbrated	Vs-1765	55.67	21	9540	100	Rooted tree stump (in situ)	terrestrial	-	-	1	-20.5	0.7071067811865476	0.7071067811865476	Damusyte2011	
+Lithuania	radiocarbon_calbrated	Vs-2018	55.52	21.04	10365	150	Rooted tree stump (in situ)	terrestrial	-	-	1	-33.5	0.75	0.75	ZulkusGirininkas2012	
+Lithuania	radiocarbon_calbrated	Vs-2019	55.52	21.04	10365	150	Rooted tree stump (in situ)	terrestrial	-	-	1	-33	0.75	0.75	ZulkusGirininkas2012	
+Lithuania	radiocarbon_calbrated	Vs-2254	55.52	21.04	10905	135	Rooted tree stump (in situ)	terrestrial	-	-	1	-34	0.75	0.75	ZulkusGirininkas2012	
+Lithuania	radiocarbon_calbrated	Vs-2255	55.52	21.04	10490	112.5	Rooted tree stump (in situ)	terrestrial	-	-	1	-33.5	0.75	0.75	ZulkusGirininkas2012	
+Lithuania	radiocarbon_calbrated	Vs-2257	55.52	20.96	11180	207.5	Rooted tree stump (in situ)	terrestrial	-	-	1	-38.5	1.0307764064044151	1.0307764064044151	ZulkusGirininkas2012	
+Lithuania	radiocarbon_calbrated	Vs-2272	55.52	21.04	11090	70	Rooted tree stump (in situ)	terrestrial	-	-	1	-33.5	0.75	0.75	ZulkusGirininkas2012	
+Lithuania	radiocarbon_calbrated	Vs-2273	55.52	21.04	10650	215	Rooted tree stump (in situ)	terrestrial	-	-	1	-34	0.75	0.75	ZulkusGirininkas2012	

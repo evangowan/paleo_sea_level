@@ -39,3 +39,4 @@ Riga	Baltic_Sea
 Parnu	Baltic_Sea
 South_Saaremaa	Baltic_Sea
 Hiiumaa	Baltic_Sea
+Ostergotland	Baltic_Sea

@@ -1,0 +1,10 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	notes
+Sodermanland	radiocarbon	St_10762	59.33	16.38	4043.34621	70	nd	terrestrial	-	-	0	30.2	0.223606797749979	0.223606797749979	Robertsson1991	
+Sodermanland	radiocarbon	St_10765	59.37	16.38	3823.6077	130	nd	terrestrial	-	-	0	37	0.223606797749979	0.223606797749979	Robertsson1991	
+Sodermanland	radiocarbon	St_10774	59.36	16.33	3715.736	180	nd	terrestrial	-	-	0	28	0.223606797749979	0.223606797749979	Robertsson1991	
+Sodermanland	radiocarbon	St_9444	59.34	16.44	4240.484	195	nd	terrestrial	-	-	0	25	0.223606797749979	0.223606797749979	Robertsson1991	
+Sodermanland	radiocarbon	St_9599	59.16	16.3	8439.288	150	nd	terrestrial	-	-	0	80.3	0.223606797749979	0.223606797749979	Robertsson1991	
+Sodermanland	radiocarbon	St_9603	59.16	16.35	7290.7942	210	nd	terrestrial	-	-	0	61.4	0.223606797749979	0.223606797749979	Robertsson1991	
+Sodermanland	radiocarbon	St_9631	59.16	16.32	8930.2084	325	nd	terrestrial	-	-	0	92.8	0.223606797749979	0.223606797749979	Robertsson1991	
+Sodermanland	radiocarbon	St_9986	59.2	16.19	5578.7895	155	nd	terrestrial	-	-	0	52	0.223606797749979	0.223606797749979	Robertsson1991	
+Sodermanland	radiocarbon	St_9995	59.18	16.24	6681.69816	175	nd	terrestrial	-	-	0	45.5	0.223606797749979	0.223606797749979	Robertsson1991	

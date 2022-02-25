@@ -40,3 +40,4 @@ Parnu	Baltic_Sea
 South_Saaremaa	Baltic_Sea
 Hiiumaa	Baltic_Sea
 Ostergotland	Baltic_Sea
+Sodermanland	Baltic_Sea

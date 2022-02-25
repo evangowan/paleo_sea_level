@@ -36,3 +36,4 @@ Lithuania	Baltic_Sea
 Ventspils	Baltic_Sea
 West_Gulf_Of_Riga	Baltic_Sea
 Riga	Baltic_Sea
+Parnu	Baltic_Sea

@@ -1,0 +1,11 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	notes
+West_Gulf_Of_Gdansk	radiocarbon	GdA-1639	54.72	18.4	880	35	peat	terrestrial	-	-	1	-0.635	0.011180339887498949	0.011180339887498949	UscinowiczEtal2013	
+West_Gulf_Of_Gdansk	radiocarbon	GdA-1677	54.72	18.41	1560	30	peat	terrestrial	-	-	1	-0.805	0.011180339887498949	0.011180339887498949	UscinowiczEtal2013	
+West_Gulf_Of_Gdansk	radiocarbon	GdA-1679	54.72	18.41	101.9	0	peat	terrestrial	-	-	1	-0.055	0.011180339887498949	0.011180339887498949	UscinowiczEtal2013	
+West_Gulf_Of_Gdansk	radiocarbon	GdA-1686	54.72	18.41	1190	30	Cerastoderma shell	marine	-	-	-1	-1.24	0.01	0.01	UscinowiczEtal2013	
+West_Gulf_Of_Gdansk	radiocarbon	GdA-1691	54.72	18.4	2660	35	peat	terrestrial	-	-	1	-0.765	0.011180339887498949	0.011180339887498949	UscinowiczEtal2013	
+West_Gulf_Of_Gdansk	radiocarbon	Poz-15105	54.46	18.72	8000	50	alder trunk in situ	terrestrial	-	-	1	-16.5	1.118033988749895	1.118033988749895	UscinowiczEtal2011	
+West_Gulf_Of_Gdansk	radiocarbon	Poz-22483	54.46	18.72	7940	40	oak trunk in situ	terrestrial	-	-	1	-16.5	1.118033988749895	1.118033988749895	UscinowiczEtal2011	
+West_Gulf_Of_Gdansk	radiocarbon	Poz-22484	54.46	18.72	7920	50	alder trunk in situ	terrestrial	-	-	1	-16.5	1.118033988749895	1.118033988749895	UscinowiczEtal2011	
+West_Gulf_Of_Gdansk	radiocarbon	Poz-22485	54.46	18.72	7960	40	alder trunk in situ	terrestrial	-	-	1	-16.5	1.118033988749895	1.118033988749895	UscinowiczEtal2011	
+West_Gulf_Of_Gdansk	radiocarbon	Poz-33100	54.72	18.41	1050	30	peat	terrestrial	-	-	1	-0.555	0.011180339887498949	0.011180339887498949	UscinowiczEtal2013	

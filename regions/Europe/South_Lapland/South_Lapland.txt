@@ -1,0 +1,5 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	notes
+South_Lapland	radiocarbon	Hel-1335	66.6	25.61	6220	120	bulk sediment	terrestrial	-	-	0	79.2	0.5099019513592785	0.5099019513592785	Saarnisto1981	
+South_Lapland	radiocarbon	Hel-285	66.19	24.21	6000	130	bulk sediment	terrestrial	-	-	0	94.89	0.5099019513592785	0.5099019513592785	Eronen1974	
+South_Lapland	radiocarbon	Hel-938	66.24	23.81	4820	170	bulk sediment	terrestrial	-	-	0	70.39	0.5099019513592785	0.5099019513592785	Saarnisto1981	
+South_Lapland	radiocarbon	Hel-984	66.78	24.02	7860	150	bulk sediment	terrestrial	-	-	0	92.17	0.223606797749979	0.223606797749979	Saarnisto1981	

@@ -1,0 +1,10 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	notes
+Helsinki	radiocarbon	Hel-1131	60.3	25.2	7250	120	bulk sediment	terrestrial	-	-	0	32.5	0.223606797749979	0.223606797749979	Hyvarinen1979	
+Helsinki	radiocarbon	Hel-1435	60.24	24.76	5700	120	bulk sediment	terrestrial	-	-	0	28.95	0.5099019513592785	0.5099019513592785	Hyvarinen1982	
+Helsinki	radiocarbon	Hel-1669	60.23	24.64	6110	120	bulk sediment	terrestrial	-	-	0	26.55	0.5099019513592785	0.5099019513592785	Hyvarinen1984	
+Helsinki	radiocarbon	Hel-1995	60.22	24.58	5420	160	bulk sediment	terrestrial	-	-	0	25.85	0.5099019513592785	0.5099019513592785	Hyvarinen1984	
+Helsinki	radiocarbon	Hel-2197	60.23	24.73	5070	100	bulk sediment	terrestrial	-	-	0	20.06	0.5099019513592785	0.5099019513592785	Hyvarinen1984	
+Helsinki	radiocarbon	Hel-350	60.22	24.73	6180	230	bulk sediment	terrestrial	-	-	0	31.25	0.5099019513592785	0.5099019513592785	Alhonen1972	
+Helsinki	radiocarbon	Hel-999	60.26	24.8	6550	170	bulk sediment	terrestrial	-	-	0	32.05	0.223606797749979	0.223606797749979	AlhonenEtal1978	
+Helsinki	radiocarbon	Helsinki-01	60.27	25.31	4040	120	bulk sediment	terrestrial	-	-	0	18.25	0.5099019513592785	0.5099019513592785	SeppaEtal2000	
+Helsinki	radiocarbon	Helsinki-02	60.33	25.33	5120	110	bulk sediment	terrestrial	-	-	0	21.25	0.5099019513592785	0.5099019513592785	SeppaEtal2000	

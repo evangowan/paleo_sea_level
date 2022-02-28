@@ -49,3 +49,4 @@ St_Petersburg	Baltic_Sea
 Virolahti	Baltic_Sea
 Porvoo	Baltic_Sea
 Helsinki	Baltic_Sea
+Salo	Baltic_Sea

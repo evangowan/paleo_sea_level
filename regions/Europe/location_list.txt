@@ -51,3 +51,4 @@ Porvoo	Baltic_Sea
 Helsinki	Baltic_Sea
 Salo	Baltic_Sea
 Turku	Baltic_Sea
+Aland	Baltic_Sea

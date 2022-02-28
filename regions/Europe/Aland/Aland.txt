@@ -1,0 +1,4 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	notes
+Aland	radiocarbon	Hel-879	60.39	19.86	6090	190	bulk sediment	terrestrial	-	-	0	59.31	0.223606797749979	0.223606797749979	Gluckert1978	
+Aland	radiocarbon	Su-709	60.27	20.22	5500	100	bulk sediment	terrestrial	-	-	0	53.3	0.5099019513592785	0.5099019513592785	Gluckert1978	
+Aland	radiocarbon	Su-715	60.35	20.06	5800	50	bulk sediment	terrestrial	-	-	0	58.31	0.223606797749979	0.223606797749979	Gluckert1978	

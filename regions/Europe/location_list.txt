@@ -60,3 +60,4 @@ South_Lapland	Baltic_Sea
 Oulu	Baltic_Sea
 South_Ostrobothnia	Baltic_Sea
 Satakunta	Baltic_Sea
+Central_Finland	Baltic_Sea

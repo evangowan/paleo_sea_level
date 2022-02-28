@@ -57,3 +57,4 @@ Angermanland	Baltic_Sea
 Alvsbyn	Baltic_Sea
 Gunnarsbyn	Baltic_Sea
 South_Lapland	Baltic_Sea
+Oulu	Baltic_Sea

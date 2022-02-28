@@ -1,0 +1,17 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	notes
+Gastrikland	radiocarbon	Ua-16061	60.44	17.64	2903.8311	75	nd	terrestrial	-	-	0	22.5	0.223606797749979	0.223606797749979	HedenstromRisberg2003	
+Gastrikland	radiocarbon	Ua-18970	60.44	17.9	2189.99409692	60	nd	terrestrial	-	-	0	16	0.223606797749979	0.223606797749979	HedenstromRisberg2003	
+Gastrikland	radiocarbon_calibrated	Gastrikland-01	60.44	16.4	10800	100	nd	-	-	-	0	178	1.0199509792141974	1.0199509792141974	Berglund2005,Berglund2012	
+Gastrikland	radiocarbon_calibrated	Gastrikland-02	60.45	16.33	10600	150	nd	-	-	-	0	163.8	0.5387949517209678	0.5387949517209678	Berglund2005,Berglund2012	
+Gastrikland	radiocarbon_calibrated	Gastrikland-03	60.45	16.73	7600	75	nd	-	-	-	0	78.2	0.22427661492005807	0.22427661492005807	Berglund2005,Berglund2010	
+Gastrikland	radiocarbon_calibrated	Gastrikland-04	60.46	16.4	9600	100	nd	-	-	-	0	132.81	0.5387949517209678	0.5387949517209678	Berglund2012	
+Gastrikland	radiocarbon_calibrated	Gastrikland-05	60.46	16.72	7400	75	nd	-	-	-	0	74.5	0.22427661492005807	0.22427661492005807	Berglund2005	
+Gastrikland	radiocarbon_calibrated	Gastrikland-06	60.48	16.29	10200	200	nd	-	-	-	0	152	1.0199509792141974	1.0199509792141974	Berglund2012	
+Gastrikland	radiocarbon_calibrated	Gastrikland-07	60.48	16.47	8200	100	nd	-	-	-	0	89.2	0.5387949517209678	0.5387949517209678	Berglund2005	
+Gastrikland	radiocarbon_calibrated	Gastrikland-08	60.5	16.43	8700	150	nd	-	-	-	0	100.71	0.5387949517209678	0.5387949517209678	Berglund2005	
+Gastrikland	radiocarbon_calibrated	Gastrikland-09	60.56	16.51	6500	100	nd	-	-	-	0	69.2	1.0199509792141974	1.0199509792141974	Berglund2005,Berglund2010	
+Gastrikland	radiocarbon_calibrated	Gastrikland-10	60.56	16.6	6500	100	nd	-	-	-	0	64.7	0.5387949517209678	0.5387949517209678	Berglund2010	
+Gastrikland	radiocarbon_calibrated	Gastrikland-11	60.61	16.47	9100	175	nd	-	-	-	0	114.5	1.0199509792141974	1.0199509792141974	Berglund2005	
+Gastrikland	radiocarbon_calibrated	Gastrikland-12	60.63	17.2	4300	150	nd	-	-	-	0	37.19	1.0199509792141974	1.0199509792141974	Berglund2005	
+Gastrikland	radiocarbon_calibrated	Gastrikland-13	60.65	17.23	3100	75	nd	-	-	-	0	26.3	0.22427661492005807	0.22427661492005807	Berglund2005	
+Gastrikland	radiocarbon_calibrated	Gastrikland-14	60.71	17.02	5100	100	nd	-	-	-	0	56.2	0.5387949517209678	0.5387949517209678	Berglund2005	

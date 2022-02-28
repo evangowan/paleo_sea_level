@@ -54,3 +54,4 @@ Turku	Baltic_Sea
 Aland	Baltic_Sea
 Gastrikland	Baltic_Sea
 Angermanland	Baltic_Sea
+Alvsbyn	Baltic_Sea

@@ -20,10 +20,10 @@ J_main="-JA${center_longitude}/${center_latitude}/${width}c"
 
 
 # corners for the inset map
-small_west_latitude=50
+small_west_latitude=50.5
 small_west_longitude=-2
-small_east_latitude=60
-small_east_longitude=16
+small_east_latitude=58
+small_east_longitude=12
 
 R_insert="-R${small_west_longitude}/${small_west_latitude}/${small_east_longitude}/${small_east_latitude}r"
 J_insert="-JA${center_longitude}/${center_latitude}/${insert_width}c"

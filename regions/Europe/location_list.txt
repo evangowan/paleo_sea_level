@@ -62,3 +62,4 @@ South_Ostrobothnia	Baltic_Sea
 Satakunta	Baltic_Sea
 Central_Finland	Baltic_Sea
 Langeoog	North_Sea
+Netherlands_Wadden_Sea	North_Sea

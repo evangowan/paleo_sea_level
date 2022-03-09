@@ -1,0 +1,23 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	note
+Belgium	radiocarbon	IRPA-681	51.092	2.704	8440	130	reed peat	terrestrial	-	-	0	-21	0.3	0.3	VinkEtal2007,DenysBaeteman1995	
+Belgium	radiocarbon	IRPA-734	51.044	2.725	8170	90	amorphous peat	terrestrial	-	-	0	-19.58	0.31	0.31	VinkEtal2007,DenysBaeteman1995	
+Belgium	radiocarbon	IRPA-616	51.061	2.731	8120	100	peaty, clayey sand	terrestrial	-	-	0	-13.97	0.3	0.3	VinkEtal2007,DenysBaeteman1995	
+Belgium	radiocarbon	Utc-2625	51.067	2.656	7490	130	clayey peat	terrestrial	-	-	0	-11.38	0.32	0.32	VinkEtal2007,DenysBaeteman1995	
+Belgium	radiocarbon	Hv-8797	51.078	2.757	7170	275	sandy amorphous peat	terrestrial	-	-	0	-9.5	0.29	0.29	VinkEtal2007,DenysBaeteman1995	
+Belgium	radiocarbon	IRPA-534	51.056	2.792	7110	90	amorphous peat	terrestrial	-	-	0	-9.26	0.3	0.3	VinkEtal2007,DenysBaeteman1995	
+Belgium	radiocarbon	IRPA-542	51.02	2.803	6870	70	peaty clay	terrestrial	-	-	0	-8.05	0.3	0.3	VinkEtal2007,DenysBaeteman1995	
+Belgium	radiocarbon	IRPA-615	51.165	2.78	6780	80	sandy peat	terrestrial	-	-	0	-6.58	0.58	0.58	VinkEtal2007,DenysBaeteman1995	
+Belgium	radiocarbon	IRPA-541	51.02	2.803	6680	80	peaty clay	terrestrial	-	-	0	-5.42	0.3	0.3	VinkEtal2007,DenysBaeteman1995	
+Belgium	radiocarbon	IRPA-927	51.074	2.8	6665	60	clayey peat	terrestrial	-	-	0	-5.28	0.32	0.32	VinkEtal2007,DenysBaeteman1995	
+Belgium	radiocarbon	ANTW-136	51.07	2.693	5830	115	peat	terrestrial	-	-	0	-2.16	0.3	0.3	VinkEtal2007,DenysBaeteman1995	
+Belgium	radiocarbon	IRPA-729	51.185	2.889	5770	100	peat	terrestrial	-	-	0	-2.16	0.3	0.3	VinkEtal2007,DenysBaeteman1995	
+Belgium	radiocarbon	IRPA-519	51.131	2.854	5650	70	clayey reed peat	terrestrial	-	-	0	-2.16	0.3	0.3	VinkEtal2007,DenysBaeteman1995	
+Belgium	radiocarbon	ANTW-251	51.031	2.764	5310	190	peat	terrestrial	-	-	0	-2.16	0.3	0.3	VinkEtal2007,DenysBaeteman1995	
+Belgium	radiocarbon	ANTW-250	51.031	2.764	5100	140	peat	terrestrial	-	-	0	-17.96	0.11	2.01	VinkEtal2007,DenysBaeteman1995	
+Belgium	radiocarbon	Utc-2636	50.975	2.785	4720	100	peat	terrestrial	-	-	0	-7.43	0.1	2.01	VinkEtal2007,DenysBaeteman1995	
+Belgium	radiocarbon	IRPA-337	51.144	2.87	3340	185	fen peat	terrestrial	-	-	0	-7.52	0.11	2.01	VinkEtal2007,DenysBaeteman1995	
+Belgium	radiocarbon	IRPA-338	51.144	2.87	3225	160	wood	terrestrial	-	-	0	-4.7	0.12	2.01	VinkEtal2007,DenysBaeteman1995	
+Belgium	radiocarbon	IRPA-283	51.144	2.87	3140	165	fen peat	terrestrial	-	-	0	-3.58	0.14	2.02	VinkEtal2007,DenysBaeteman1995	
+Belgium	radiocarbon	Hv-8800	51.144	2.87	2960	50	fen peat	terrestrial	-	-	0	-2.19	0.3	2.03	VinkEtal2007,DenysBaeteman1995	
+Belgium	radiocarbon	IRPA-520	50.961	2.825	7030	80	clayey peat	terrestrial	-	-	0	-9.18	0.14	2.02	VinkEtal2007,DenysBaeteman1995	
+Belgium	radiocarbon	Lv-855	51.317	3.212	4880	65	wood	terrestrial	-	-	0	-1.83	0.12	1.72	VinkEtal2007,DenysBaeteman1995	

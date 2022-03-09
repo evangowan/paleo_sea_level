@@ -64,3 +64,4 @@ Central_Finland	Baltic_Sea
 Langeoog	North_Sea
 Netherlands_Wadden_Sea	North_Sea
 Belgium	North_Sea
+Southern_Bight	North_Sea

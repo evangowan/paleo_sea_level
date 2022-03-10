@@ -101,13 +101,13 @@ Rotterdam	radiocarbon	UtC-14941	51.92	4.47	7211	40	SL regional peat_ Bottom peat
 Rotterdam	radiocarbon	UtC-15342	51.95	4.37	7290	60	GW local peat_ Mentha_ Stacchus_ Scirpus lacustris	terrestrial	0	0	1	-15.2	0.66	0.61	HijmaEtal2009,HijmaCohen2019
 Rotterdam	radiocarbon	UtC-15344	51.96	4	7700	60	SL regional peat_ Near top peat_ Alnus fruit	terrestrial	0	0	0	-20.54	0.23	0.1	HijmaCohen2010,HijmaCohen2019
 Rotterdam	radiocarbon	UtC-15404	51.96	4	7910	80	SL regional peat_ Bottom peat_ Mentha_ Alisma_ Carex_	terrestrial	0	0	0	-22.35	0.24	0.24	HijmaCohen2010,HijmaCohen2019
-Rotterdam	radiocarbon	GrN-1121	51.351	3.973	5340	80	Phragmites peat	terrestrial	-	-	0	-7.56	0.1	1.72	VinkEtal2007,Kiden1995
-Rotterdam	radiocarbon	GrN-16941	51.43	4.229	6290	45	Phragmites peat	terrestrial	-	-	0	-3.18	0.22	1.92	VinkEtal2007,Kiden1995,Vos1992
-Rotterdam	radiocarbon	GrN-16942	51.43	4.229	6330	70	sandy organic soil	terrestrial	-	-	0	-8	0.1	1.72	VinkEtal2007,Kiden1995,Vos1992
-Rotterdam	radiocarbon	GrN-191	51.845	4.756	4590	150	fen-wood peat	terrestrial	-	-	0	-5.27	0.15	1.03	VinkEtal2007,vandePlassche1982,Jelgersma1961
-Rotterdam	radiocarbon	GrN-192	51.845	4.756	2830	135	fen-wood peat	terrestrial	-	-	0	-5.44	0.12	1.03	VinkEtal2007,vandePlassche1982,Jelgersma1961
-Rotterdam	radiocarbon	GrN-405	51.454	3.627	5720	120	peat	terrestrial	-	-	0	-7.62	0.1	1.72	VinkEtal2007,Kiden1995,Jelgersma1961
-Rotterdam	radiocarbon	GrN-8763	52.07	4.75	6430	45	Phragmites and wood	terrestrial	-	-	0	-1.5	0.1	0.69	VinkEtal2007,vandePlassche1982
-Rotterdam	radiocarbon	IRPA-712	51.117	4.304	4220	65	wood peat	terrestrial	-	-	0	-3.8	0.11	1.72	VinkEtal2007,Kiden1995,Kiden1989
-Rotterdam	radiocarbon	IRPA-713	51.243	4.386	3890	65	wood peat	terrestrial	-	-	0	-2.71	0.12	1.72	VinkEtal2007,Kiden1995,Kiden1989
-Rotterdam	radiocarbon	IRPA-770	51.35	4.267	4480	70	wood peat	terrestrial	-	-	0	-4.44	0.12	1.72	VinkEtal2007,Kiden1995,Kiden1989
+Rotterdam	radiocarbon	GrN-1121	51.351	3.973	5340	80	Phragmites peat	terrestrial	-	-	0	-3.8	0.11	1.72	VinkEtal2007,Kiden1995
+Rotterdam	radiocarbon	GrN-16938	51.637	4.119	7510	150	organic soil	terrestrial	-	-	0	-13.73	0.11	1.72	VinkEtal2007,Kiden1995,Vos1992
+Rotterdam	radiocarbon	GrN-16937	51.637	4.119	7290	50	wood peat	terrestrial	-	-	0	-13.63	0.11	1.72	VinkEtal2007,Kiden1995,Vos1992
+Rotterdam	radiocarbon	GrN-192	51.845	4.756	2830	135	fen-wood peat	terrestrial	-	-	0	-1.15	0.15	0.7	VinkEtal2007,vandePlassche1982,Jelgersma1961
+Rotterdam	radiocarbon	GrN-191	51.845	4.756	4590	150	fen-wood peat	terrestrial	-	-	0	-3.31	0.12	0.69	VinkEtal2007,vandePlassche1982,Jelgersma1961
+Rotterdam	radiocarbon	GrN-405	51.454	3.627	5720	120	peat	terrestrial	-	-	0	-4.44	0.12	1.72	VinkEtal2007,Kiden1995,Jelgersma1961
+Rotterdam	radiocarbon	GrN-8763	52.07	4.75	6430	45	Phragmites and wood	terrestrial	-	-	0	-8.75	0.2	1.04	VinkEtal2007,vandePlassche1982
+Rotterdam	radiocarbon	IRPA-770	51.35	4.267	4480	70	wood peat	terrestrial	-	-	0	-2.71	0.12	1.72	VinkEtal2007,Kiden1995,Kiden1989
+Rotterdam	radiocarbon	IRPA-712	51.117	4.304	4220	65	wood peat	terrestrial	-	-	0	-1.83	0.12	1.72	VinkEtal2007,Kiden1995,Kiden1989
+Rotterdam	radiocarbon	IRPA-713	51.243	4.386	3890	65	wood peat	terrestrial	-	-	0	-2.01	0.12	1.72	VinkEtal2007,Kiden1995,Kiden1989

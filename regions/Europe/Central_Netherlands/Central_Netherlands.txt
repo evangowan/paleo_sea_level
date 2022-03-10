@@ -1,0 +1,28 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	note
+Central_Netherlands	radiocarbon	GrN-476	52.912	4.761	4925	90	fen peat	terrestrial	-	-	0	-4.72	0.2	0.8	VinkEtal2007,vandePlassche1982,Jelgersma1961	
+Central_Netherlands	radiocarbon	GrN-1633	52.812	4.746	6080	60	fen peat	terrestrial	-	-	0	-7.22	0.11	0.64	VinkEtal2007,vandePlassche1982,Jelgersma1961	
+Central_Netherlands	radiocarbon	GrN-8098	52.687	5.083	6980	40	fen peat	terrestrial	-	-	0	-12.6	0.1	0.78	VinkEtal2007,vandePlassche1982	
+Central_Netherlands	radiocarbon	GrN-75	52.444	4.656	7140	200	wood in basal peat	terrestrial	-	-	0	-14.5	0.55	0.55	VinkEtal2007,vandePlassche1982,Bennema1954	
+Central_Netherlands	radiocarbon	Not_stated-03	52.302	4.631	4500	200	peat on sea-clay	terrestrial	-	-	0	-4.55	0.25	0.25	VinkEtal2007,vandePlassche1982,Bennema1954	
+Central_Netherlands	radiocarbon	GrN-161	52.444	4.656	7745	200	Alnus roots	terrestrial	-	-	0	-16.45	0.17	0.17	VinkEtal2007,vandePlassche1982,Jelgersma1961	
+Central_Netherlands	radiocarbon	UtC-9100	52.32	5.28	5490	45	peat	terrestrial	-	-	0	-6.89	0.3	0.3	VinkEtal2007,MakaskeEtal2003	
+Central_Netherlands	radiocarbon	UtC-9101	52.32	5.28	5719	43	peat	terrestrial	-	-	0	-7.52	0.3	0.3	VinkEtal2007,MakaskeEtal2003	
+Central_Netherlands	radiocarbon	UtC-9102	52.32	5.28	5861	43	peat	terrestrial	-	-	0	-7.88	0.3	0.3	VinkEtal2007,MakaskeEtal2003	
+Central_Netherlands	radiocarbon	UtC-9103	52.32	5.28	5980	46	peat	terrestrial	-	-	0	-8.36	0.3	0.3	VinkEtal2007,MakaskeEtal2003	
+Central_Netherlands	radiocarbon	UtC-9109-9111-9112	52.35	5.22	6334	30	peat	terrestrial	-	-	0	-10.14	0.3	0.3	VinkEtal2007,MakaskeEtal2003	
+Central_Netherlands	radiocarbon	UtC-9113-9114-av	52.35	5.22	6330	35	peat	terrestrial	-	-	0	-9.99	0.3	0.3	VinkEtal2007,MakaskeEtal2003	
+Central_Netherlands	radiocarbon	GrN-5067	52.55	5.65	5610	60	fen peat	terrestrial	-	-	0	-6.95	0.29	0.29	VinkEtal2007,vandePlassche1982,LouweKooijmans1976	
+Central_Netherlands	radiocarbon	GrN-7043	52.55	5.65	5300	50	tidal creek levee	terrestrial	-	-	0	-5.95	0.29	0.29	VinkEtal2007,vandePlassche1982,LouweKooijmans1976	
+Central_Netherlands	radiocarbon	GrN-15130	52.62	5.78	4720	90	Juncus	terrestrial	-	-	0	-4.68	0.12	0.64	VinkEtal2007,RoeleveldGotje1993	
+Central_Netherlands	radiocarbon	GrN-16367	52.62	5.78	4320	60	sedge with birch	terrestrial	-	-	0	-4	0.12	0.26	VinkEtal2007,RoeleveldGotje1993	
+Central_Netherlands	radiocarbon	GrN-16373	52.62	5.78	4350	45	dry sedge with birch	terrestrial	-	-	0	-4.13	0.14	0.27	VinkEtal2007,RoeleveldGotje1993	
+Central_Netherlands	radiocarbon	GrN-16366	52.62	5.78	4790	70	dry sedge with birch	terrestrial	-	-	0	-4.42	0.2	0.66	VinkEtal2007,RoeleveldGotje1993	
+Central_Netherlands	radiocarbon	GrN-16370	52.62	5.78	4880	60	sedge with birch	terrestrial	-	-	0	-4.81	0.15	0.84	VinkEtal2007,RoeleveldGotje1993	
+Central_Netherlands	radiocarbon	GrN-16369	52.62	5.78	4920	60	sedge	terrestrial	-	-	0	-4.93	0.15	0.84	VinkEtal2007,RoeleveldGotje1993	
+Central_Netherlands	radiocarbon	GrN-16368	52.62	5.78	4990	60	sedge	terrestrial	-	-	0	-5.19	0.15	0.84	VinkEtal2007,RoeleveldGotje1993	
+Central_Netherlands	radiocarbon	GrN-16372	52.62	5.78	5000	60	very wet sedge	terrestrial	-	-	0	-5.38	0.15	0.84	VinkEtal2007,RoeleveldGotje1993	
+Central_Netherlands	radiocarbon	GrN-16371	52.62	5.78	5160	40	sedge with birch	terrestrial	-	-	0	-5.73	0.15	0.84	VinkEtal2007,RoeleveldGotje1993	
+Central_Netherlands	radiocarbon	GrA-16219-16225av	52.62	5.78	3365	40	peat	terrestrial	-	-	0	-2.37	0.1	0.25	VinkEtal2007,vandePlasscheEtal2005	
+Central_Netherlands	radiocarbon	GrA-16216-16217av	52.62	5.78	3655	40	peat	terrestrial	-	-	0	-2.86	0.1	0.25	VinkEtal2007,vandePlasscheEtal2005	
+Central_Netherlands	radiocarbon	GrA-12714	52.62	5.78	4340	50	peat	terrestrial	-	-	0	-3.89	0.1	0.25	VinkEtal2007,vandePlasscheEtal2005	
+Central_Netherlands	radiocarbon	GrA-12718	52.62	5.78	4570	50	peat	terrestrial	-	-	0	-4.68	0.1	0.42	VinkEtal2007,vandePlasscheEtal2005	

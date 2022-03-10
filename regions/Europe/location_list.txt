@@ -68,3 +68,4 @@ Southern_Bight	North_Sea
 Central_Netherlands	North_Sea
 Oyster_Ground	North_Sea
 Dogger_Bank	North_Sea
+Norderney	North_Sea

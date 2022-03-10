@@ -1,0 +1,14 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
+German_Bight	radiocarbon	Hv-7095	54.943	5.75	8190	140	fen peat	terrestrial	-	-	0	-38.88	1.04	1.04	VinkEtal2007,Behre2003,Behre2007,LudwigEtal1979
+German_Bight	radiocarbon	Hv-7094	54.943	5.75	8485	125	fen peat	terrestrial	-	-	0	-38.98	1.04	1.04	VinkEtal2007,LudwigEtal1979
+German_Bight	pollen	Vink-51	54.697	6.192	9000	200	fen peat	terrestrial	-	-	0	-46.7	1.04	1.04	VinkEtal2007,StreifEtal1983
+German_Bight	pollen	Vink-52	54.957	5.708	9000	200	peat	terrestrial	-	-	0	-43.5	1.04	1.04	VinkEtal2007,StreifEtal1983,LudwigEtal1979
+German_Bight	radiocarbon	Hv-15375	55.077	5.828	9165	230	fen-wood peat	terrestrial	-	-	0	-48.74	1.04	1.04	VinkEtal2007,Menke1996
+German_Bight	pollen	Vink-53	55.323	6.517	8400	200	peat	terrestrial	-	-	0	-38.18	1.04	1.04	VinkEtal2007,Behre2003,Behre2007,LudwigEtal1979
+German_Bight	radiocarbon	Hv-25340	54.903	6.877	8440	100	fen peat	terrestrial	-	-	0	-34.16	1.04	1.04	VinkEtal2007
+German_Bight	radiocarbon	Hv-25342	54.913	6.951	8840	45	fen-wood peat	terrestrial	-	-	0	-37.36	1.04	1.04	VinkEtal2007
+German_Bight	radiocarbon	Hv-10336	54.17	6.983	8975	90	fen peat	terrestrial	-	-	0	-39.35	1.04	1.04	VinkEtal2007,StreifEtal1983
+German_Bight	radiocarbon	Hv-11603	54.11	6.92	8535	150	fen peat	terrestrial	-	-	0	-37.4	1.04	1.04	VinkEtal2007,StreifEtal1983
+German_Bight	pollen	Vink-54	54.118	7.213	9000	200	fen peat	terrestrial	-	-	0	-38.95	1.04	1.04	VinkEtal2007,StreifEtal1983,LudwigEtal1979
+German_Bight	radiocarbon	Hv-25406	53.947	6.944	8170	70	wood peat	terrestrial	-	-	0	-32.99	1.04	1.04	VinkEtal2007
+German_Bight	radiocarbon	Hv-25407	53.845	6.812	8140	180	wood peat	terrestrial	-	-	0	-29.54	1.04	1.04	VinkEtal2007

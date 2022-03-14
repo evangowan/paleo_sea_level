@@ -73,3 +73,4 @@ Bremerhaven	North_Sea
 Elbe	North_Sea
 German_Bight	North_Sea
 Ho_Bugt	North_Sea
+Limfjord	North_Sea

@@ -1,0 +1,28 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	notes
+Limfjord	radiocarbon	AAR-13957	56.97	9.31	8560	40	Cerastoderma	marine	0	0	-1	-9.4	0.5	0.5	JessenEtal2019	nominal uncertainty of 1 m applied
+Limfjord	radiocarbon	AAR-13958	56.97	9.31	8520	40	Plant material	terrestrial	-	-	1	-9.5	0.5	0.5	JessenEtal2019	nominal uncertainty of 1 m applied
+Limfjord	radiocarbon	AAR-13959	56.97	9.31	10070	40	Plant material	terrestrial	-	-	1	-10.1	0.5	0.5	JessenEtal2019	nominal uncertainty of 1 m applied
+Limfjord	radiocarbon	K-2872	57.07	8.85	5860	95	Shell material	marine	0	0	-1	-14	0.71	0.71	JessenEtal2019,Petersen1981	nominal uncertainty of 1 m applied
+Limfjord	radiocarbon	K-2873	57.07	8.85	6950	110	Corbula	marine	0	0	-1	-20.75	0.56	0.56	JessenEtal2019,Petersen1981	nominal uncertainty of 1 m applied
+Limfjord	radiocarbon	K-2874	57.07	8.85	7210	110	Corbula	marine	0	0	-1	-23.25	0.56	0.56	JessenEtal2019,Petersen1981	nominal uncertainty of 1 m applied
+Limfjord	radiocarbon	K-3282	57.07	8.85	7780	110	Cyprina	marine	0	0	-1	-24.75	0.56	0.56	JessenEtal2019,Petersen1981	nominal uncertainty of 1 m applied
+Limfjord	radiocarbon	K-2755	57.07	8.85	7980	120	Ostrea	marine	0	0	-1	-24.75	0.56	0.56	JessenEtal2019,Petersen1981	nominal uncertainty of 1 m applied
+Limfjord	radiocarbon	K-3280	57.07	8.85	8060	115	Mytilus	marine	0	0	-1	-24.75	0.56	0.56	JessenEtal2019,Petersen1981	nominal uncertainty of 1 m applied
+Limfjord	radiocarbon	K-3281	57.07	8.85	8260	115	Cirripedia	marine	0	0	-1	-24.75	0.56	0.56	JessenEtal2019,Petersen1981	nominal uncertainty of 1 m applied
+Limfjord	radiocarbon	K-2875	57.07	8.85	9830	115	Peat	terrestrial	-	-	1	-25.75	0.56	0.56	JessenEtal2019,Petersen1981	nominal uncertainty of 1 m applied
+Limfjord	radiocarbon	K-4291	56.72	8.24	7690	110	Shell material	marine	0	0	-1	-23	0.5	0.5	JessenEtal2019,Petersen1985	nominal uncertainty of 1 m applied
+Limfjord	radiocarbon	AAR-1827	56.72	8.24	9270	90	Littorina	marine	0	0	-1	-24	0.5	0.5	JessenEtal2019,Petersen1998	nominal uncertainty of 1 m applied
+Limfjord	radiocarbon	AAR-1828	56.72	8.24	9900	140	Macoma	marine	0	0	-1	-33	0.5	0.5	JessenEtal2019,Petersen1998	nominal uncertainty of 1 m applied
+Limfjord	radiocarbon	AAR-1819	56.85	7.96	8320	110	Tellina	marine	0	0	-1	-33.3	0.5	0.5	JessenEtal2019,Petersen1998	nominal uncertainty of 1 m applied
+Limfjord	radiocarbon	AAR-1818	56.85	7.96	9330	150	Littorina	marine	0	0	-1	-46	0.5	0.5	JessenEtal2019,Petersen1998	nominal uncertainty of 1 m applied
+Limfjord	radiocarbon	AAR-1820	56.85	7.96	9480	90	Cerastoderma	marine	0	0	-1	-33.7	0.5	0.5	JessenEtal2019,Petersen1998	nominal uncertainty of 1 m applied
+Limfjord	radiocarbon	AAR-1822	56.85	7.96	9750	100	Cerastoderma	marine	0	0	-1	-34.5	0.5	0.5	JessenEtal2019,Petersen1998	nominal uncertainty of 1 m applied
+Limfjord	radiocarbon	K-6147	56.65	8.2	6420	100	Ostrea	marine	0	0	-1	-3.75	0.56	0.56	JessenEtal2019,Petersen1998	nominal uncertainty of 1 m applied
+Limfjord	radiocarbon	K-6148	56.65	8.2	6490	140	Ostrea	marine	0	0	-1	-4.25	0.56	0.56	JessenEtal2019,Petersen1998	nominal uncertainty of 1 m applied
+Limfjord	radiocarbon	K-6149	56.65	8.2	8180	155	Ostrea, Cerastoderma	marine	0	0	-1	-11.75	0.56	0.56	JessenEtal2019,Petersen1998	nominal uncertainty of 1 m applied
+Limfjord	radiocarbon	K-6150	56.65	8.2	8400	140	Freshwater gyttja	terrestrial	-	-	1	-10.5	0.5	0.5	JessenEtal2019,Petersen1998	nominal uncertainty of 1 m applied
+Limfjord	radiocarbon	AAR-7843	57.11	8.61	8810	100	Shell material	marine	0	0	-1	-7.5	0.5	0.5	JessenEtal2019,PetersenVonPlatenHallermund2018	nominal uncertainty of 1 m applied
+Limfjord	radiocarbon	KIA-42408	56.99	9.26	7645	45	Peat	terrestrial	-	-	1	-1.15	0.5	0.5	JessenEtal2019,Nielsen2010,Nielsen2013	nominal uncertainty of 1 m applied
+Limfjord	radiocarbon	K-2474	56.93	8.85	7040	110	Wood, Tilia	terrestrial	-	-	1	-0.5	0.5	0.5	JessenEtal2019,Petersen1975	nominal uncertainty of 1 m applied
+Limfjord	radiocarbon	K-2476	56.93	8.85	7460	120	Tree stump, Ulmus	terrestrial	-	-	1	0	0.5	0.5	JessenEtal2019,Petersen1975	nominal uncertainty of 1 m applied
+Limfjord	radiocarbon	K-2480	57.03	9.16	7380	110	Ostrea, Cerastoderma	marine	0	0	-1	3.5	0.5	0.5	JessenEtal2019,Petersen1981	nominal uncertainty of 1 m applied

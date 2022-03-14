@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUser="evan" saveDateTime="2022-03-10T17:48:51" version="3.22.3-Białowieża" projectname="" saveUserFull="Evan Gowan">
+<qgis saveUser="evan" saveDateTime="2022-03-11T18:19:56" version="3.22.3-Białowieża" projectname="" saveUserFull="Evan Gowan">
   <homePath path=""/>
   <title></title>
   <autotransaction active="0"/>
@@ -22,17 +22,27 @@
     <customproperties>
       <Option/>
     </customproperties>
-    <layer-tree-layer legend_split_behavior="0" name="Scheder" patch_size="-1,-1" source="./temp/Scheder.txt?type=csv&amp;delimiter=\t&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=Longitude&amp;yField=Latitude&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=yes" checked="Qt::Checked" legend_exp="" providerKey="delimitedtext" id="Scheder_6de5df9f_d74b_444a_b069_ebfeb642bfa8" expanded="1">
+    <layer-tree-layer legend_split_behavior="0" name="Scheder" patch_size="-1,-1" source="./temp/Scheder.txt?type=csv&amp;delimiter=\t&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=Longitude&amp;yField=Latitude&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=yes" checked="Qt::Unchecked" legend_exp="" providerKey="delimitedtext" id="Scheder_6de5df9f_d74b_444a_b069_ebfeb642bfa8" expanded="1">
       <customproperties>
         <Option/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer legend_split_behavior="0" name="north_sea" patch_size="-1,-1" source="./temp/north_sea.txt?type=csv&amp;delimiter=\t&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=longitude&amp;yField=latitude&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=yes" checked="Qt::Checked" legend_exp="" providerKey="delimitedtext" id="north_sea_a2e72cf9_fec6_44e4_a36e_0795b5909b5c" expanded="1">
+    <layer-tree-layer legend_split_behavior="0" name="limfjord" patch_size="-1,-1" source="Point?crs=EPSG:4326&amp;field=latitude:double(10,6)&amp;field=longitude:double(10,6)&amp;uid={ae8223e3-a4ed-4951-9683-918c77469a3a}" checked="Qt::Checked" legend_exp="" providerKey="memory" id="limfjord_014f838a_33c2_4998_8392_bad1ecfdcffd" expanded="1">
       <customproperties>
         <Option/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer legend_split_behavior="0" name="baltic" patch_size="0,0" source="./temp/baltic.csv?type=csv&amp;detectTypes=yes&amp;xField=Longitude&amp;yField=Latitude&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no" checked="Qt::Checked" legend_exp="" providerKey="delimitedtext" id="baltic_5c227ade_7492_4883_8579_5764728f2c18" expanded="0">
+    <layer-tree-layer legend_split_behavior="0" name="jessen_geo" patch_size="-1,-1" source="./temp/jessen_geo.tiff" checked="Qt::Unchecked" legend_exp="" providerKey="gdal" id="jessen_geo_4a037520_962b_47e0_8857_de067278d13c" expanded="1">
+      <customproperties>
+        <Option/>
+      </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer legend_split_behavior="0" name="north_sea" patch_size="-1,-1" source="./temp/north_sea.txt?type=csv&amp;delimiter=\t&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=longitude&amp;yField=latitude&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=yes" checked="Qt::Unchecked" legend_exp="" providerKey="delimitedtext" id="north_sea_a2e72cf9_fec6_44e4_a36e_0795b5909b5c" expanded="1">
+      <customproperties>
+        <Option/>
+      </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer legend_split_behavior="0" name="baltic" patch_size="0,0" source="./temp/baltic.csv?type=csv&amp;detectTypes=yes&amp;xField=Longitude&amp;yField=Latitude&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no" checked="Qt::Unchecked" legend_exp="" providerKey="delimitedtext" id="baltic_5c227ade_7492_4883_8579_5764728f2c18" expanded="0">
       <customproperties>
         <Option/>
       </customproperties>
@@ -83,12 +93,15 @@
       <item>north_sea_a2e72cf9_fec6_44e4_a36e_0795b5909b5c</item>
       <item>Scheder_6de5df9f_d74b_444a_b069_ebfeb642bfa8</item>
       <item>british_6486f722_4aba_4883_9408_645538f70213</item>
+      <item>jessen_geo_4a037520_962b_47e0_8857_de067278d13c</item>
+      <item>limfjord_014f838a_33c2_4998_8392_bad1ecfdcffd</item>
     </custom-order>
   </layer-tree-group>
   <snapping-settings maxScale="0" scaleDependencyMode="0" enabled="1" unit="2" minScale="0" mode="1" type="1" self-snapping="0" tolerance="0.05" intersection-snapping="0">
     <individual-layer-settings>
       <layer-setting maxScale="0" enabled="1" minScale="0" units="2" id="region_bounds20200526100611284" type="1" tolerance="5000"/>
       <layer-setting maxScale="0" enabled="1" minScale="0" units="1" id="Scheder_6de5df9f_d74b_444a_b069_ebfeb642bfa8" type="1" tolerance="20"/>
+      <layer-setting maxScale="0" enabled="1" minScale="0" units="1" id="limfjord_014f838a_33c2_4998_8392_bad1ecfdcffd" type="1" tolerance="20"/>
       <layer-setting maxScale="0" enabled="0" minScale="0" units="1" id="WDBII_border_i_L1_ce76cee1_3576_42aa_aae4_c5c57ccaba82" type="1" tolerance="12"/>
       <layer-setting maxScale="0" enabled="0" minScale="0" units="1" id="WDBII_border_i_L2_d5bade09_bc97_46e4_8500_60f96472fb8a" type="1" tolerance="12"/>
       <layer-setting maxScale="0" enabled="0" minScale="0" units="1" id="GSHHS_i_L2_b3c4dbd9_7bd2_489e_a0a3_2e66873409f6" type="1" tolerance="12"/>
@@ -104,10 +117,10 @@
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>degrees</units>
     <extent>
-      <xmin>4.00782147988506221</xmin>
-      <ymin>52.08056988745209281</ymin>
-      <xmax>12.06329022988505173</xmax>
-      <ymax>57.90478863745209281</ymax>
+      <xmin>6.90057480618413699</xmin>
+      <ymin>55.62098638574586573</ymin>
+      <xmax>10.92830918118415973</xmax>
+      <ymax>58.53309576074586573</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -128,19 +141,29 @@
   </mapcanvas>
   <projectModels/>
   <legend updateDrawingOrder="true">
-    <legendlayer showFeatureCount="0" drawingOrder="-1" name="Scheder" checked="Qt::Checked" open="true">
+    <legendlayer showFeatureCount="0" drawingOrder="-1" name="Scheder" checked="Qt::Unchecked" open="true">
       <filegroup hidden="false" open="true">
-        <legendlayerfile isInOverview="0" layerid="Scheder_6de5df9f_d74b_444a_b069_ebfeb642bfa8" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Scheder_6de5df9f_d74b_444a_b069_ebfeb642bfa8" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer showFeatureCount="0" drawingOrder="-1" name="north_sea" checked="Qt::Checked" open="true">
+    <legendlayer showFeatureCount="0" drawingOrder="-1" name="limfjord" checked="Qt::Checked" open="true">
       <filegroup hidden="false" open="true">
-        <legendlayerfile isInOverview="0" layerid="north_sea_a2e72cf9_fec6_44e4_a36e_0795b5909b5c" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="limfjord_014f838a_33c2_4998_8392_bad1ecfdcffd" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer showFeatureCount="0" drawingOrder="-1" name="baltic" checked="Qt::Checked" open="false">
+    <legendlayer showFeatureCount="0" drawingOrder="-1" name="jessen_geo" checked="Qt::Unchecked" open="true">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" layerid="jessen_geo_4a037520_962b_47e0_8857_de067278d13c" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" drawingOrder="-1" name="north_sea" checked="Qt::Unchecked" open="true">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" layerid="north_sea_a2e72cf9_fec6_44e4_a36e_0795b5909b5c" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" drawingOrder="-1" name="baltic" checked="Qt::Unchecked" open="false">
       <filegroup hidden="false" open="false">
-        <legendlayerfile isInOverview="0" layerid="baltic_5c227ade_7492_4883_8579_5764728f2c18" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="baltic_5c227ade_7492_4883_8579_5764728f2c18" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer showFeatureCount="0" drawingOrder="-1" name="sl_points" checked="Qt::Unchecked" open="true">
@@ -181,6 +204,31 @@
   </legend>
   <mapViewDocks/>
   <mapViewDocks3D/>
+  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
   <main-annotation-layer autoRefreshTime="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" legendPlaceholderImage="" autoRefreshEnabled="0" type="annotation">
     <id>Annotations_e96ec2fd_39d0_4da5_9b2d_2337ff313f2c</id>
     <datasource></datasource>
@@ -11021,6 +11069,509 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>"Unique sample ID"</previewExpression>
       <mapTip></mapTip>
     </maplayer>
+    <maplayer autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" maxScale="0" refreshOnNotifyMessage="" legendPlaceholderImage="" styleCategories="AllStyleCategories" autoRefreshEnabled="0" minScale="1e+08" type="raster">
+      <extent>
+        <xmin>7.49453696096812649</xmin>
+        <ymin>56.24725013963819009</ymin>
+        <xmax>11.34354208792135132</xmax>
+        <ymax>57.74517924488468879</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>7.49453696096812649</xmin>
+        <ymin>56.24725013963819009</ymin>
+        <xmax>11.34354208792135132</xmax>
+        <ymax>57.74517924488468879</ymax>
+      </wgs84extent>
+      <id>jessen_geo_4a037520_962b_47e0_8857_de067278d13c</id>
+      <datasource>./temp/jessen_geo.tiff</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>jessen_geo</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial maxx="0" minz="0" maxz="0" maxy="0" minx="0" crs="" miny="0" dimensions="2"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList useSrcNoData="0" bandNo="1"/>
+        <noDataList useSrcNoData="0" bandNo="2"/>
+        <noDataList useSrcNoData="0" bandNo="3"/>
+        <noDataList useSrcNoData="0" bandNo="4"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <metadataUrls/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal fetchMode="0" enabled="0" mode="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <customproperties>
+        <Option type="Map">
+          <Option name="WMSBackgroundLayer" type="bool" value="false"/>
+          <Option name="WMSPublishDataSourceUrl" type="bool" value="false"/>
+          <Option name="embeddedWidgets/count" type="int" value="0"/>
+          <Option name="identify/format" type="QString" value="Value"/>
+        </Option>
+      </customproperties>
+      <pipe-data-defined-properties>
+        <Option type="Map">
+          <Option name="name" type="QString" value=""/>
+          <Option name="properties"/>
+          <Option name="type" type="QString" value="collection"/>
+        </Option>
+      </pipe-data-defined-properties>
+      <pipe>
+        <provider>
+          <resampling zoomedOutResamplingMethod="nearestNeighbour" enabled="false" zoomedInResamplingMethod="nearestNeighbour" maxOversampling="2"/>
+        </provider>
+        <rasterrenderer nodataColor="" greenBand="2" opacity="0.459" alphaBand="4" redBand="1" blueBand="3" type="multibandcolor">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0" gamma="1"/>
+        <huesaturation invertColors="0" colorizeGreen="128" colorizeBlue="128" colorizeStrength="100" colorizeRed="255" colorizeOn="0" saturation="0" grayscaleMode="0"/>
+        <rasterresampler maxOversampling="2"/>
+        <resamplingStage>resamplingFilter</resamplingStage>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer autoRefreshTime="0" simplifyMaxScale="1" styleCategories="AllStyleCategories" simplifyDrawingHints="0" autoRefreshEnabled="0" maxScale="0" labelsEnabled="0" geometry="Point" type="vector" simplifyLocal="1" readOnly="0" simplifyAlgorithm="0" symbologyReferenceScale="-1" simplifyDrawingTol="1" wkbType="Point" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" minScale="100000000" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="">
+      <extent>
+        <xmin>7.96070757752634606</xmin>
+        <ymin>56.65375314445638821</ymin>
+        <xmax>9.30658188158525235</xmax>
+        <ymax>57.11353541965993941</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>7.96070757752634606</xmin>
+        <ymin>56.65375314445638821</ymin>
+        <xmax>9.30658188158525235</xmax>
+        <ymax>57.11353541965993941</ymax>
+      </wgs84extent>
+      <id>limfjord_014f838a_33c2_4998_8392_bad1ecfdcffd</id>
+      <datasource>memory?geometry=Point&amp;crs=EPSG:4326&amp;field=latitude:double(10,6)&amp;field=longitude:double(10,6)&amp;field=location:string(30,0)</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>limfjord</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial maxx="0" minz="0" maxz="0" maxy="0" minx="0" crs="" miny="0" dimensions="2"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="">memory</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <metadataUrls/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal durationUnit="min" limitMode="0" endField="" durationField="" startField="" endExpression="" fixedDuration="0" enabled="0" accumulate="0" mode="0" startExpression="">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <renderer-v2 referencescale="-1" symbollevels="0" enableorderby="0" type="singleSymbol" forceraster="0">
+        <symbols>
+          <symbol alpha="1" name="0" force_rhr="0" clip_to_extent="1" type="marker">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer class="SimpleMarker" locked="0" pass="0" enabled="1">
+              <Option type="Map">
+                <Option name="angle" type="QString" value="0"/>
+                <Option name="cap_style" type="QString" value="square"/>
+                <Option name="color" type="QString" value="255,158,23,255"/>
+                <Option name="horizontal_anchor_point" type="QString" value="1"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="name" type="QString" value="circle"/>
+                <Option name="offset" type="QString" value="0,0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="outline_color" type="QString" value="35,35,35,255"/>
+                <Option name="outline_style" type="QString" value="solid"/>
+                <Option name="outline_width" type="QString" value="0"/>
+                <Option name="outline_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="outline_width_unit" type="QString" value="MM"/>
+                <Option name="scale_method" type="QString" value="diameter"/>
+                <Option name="size" type="QString" value="2"/>
+                <Option name="size_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="size_unit" type="QString" value="MM"/>
+                <Option name="vertical_anchor_point" type="QString" value="1"/>
+              </Option>
+              <prop k="angle" v="0"/>
+              <prop k="cap_style" v="square"/>
+              <prop k="color" v="255,158,23,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <Option type="Map">
+          <Option name="dualview/previewExpressions" type="List">
+            <Option type="QString" value="&quot;latitude&quot;"/>
+          </Option>
+          <Option name="embeddedWidgets/count" type="int" value="0"/>
+          <Option name="variableNames"/>
+          <Option name="variableValues"/>
+        </Option>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory width="15" sizeType="MM" scaleDependency="Area" penWidth="0" backgroundColor="#ffffff" height="15" spacingUnit="MM" barWidth="5" scaleBasedVisibility="0" enabled="0" spacing="5" sizeScale="3x:0,0,0,0,0,0" labelPlacementMethod="XHeight" showAxis="1" penAlpha="255" spacingUnitScale="3x:0,0,0,0,0,0" lineSizeType="MM" backgroundAlpha="255" minimumSize="0" minScaleDenominator="0" penColor="#000000" direction="0" opacity="1" maxScaleDenominator="1e+08" lineSizeScale="3x:0,0,0,0,0,0" diagramOrientation="Up" rotationOffset="270">
+          <fontProperties description="Sans,9,-1,5,50,0,0,0,0,0" style=""/>
+          <axisSymbol>
+            <symbol alpha="1" name="" force_rhr="0" clip_to_extent="1" type="line">
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+              <layer class="SimpleLine" locked="0" pass="0" enabled="1">
+                <Option type="Map">
+                  <Option name="align_dash_pattern" type="QString" value="0"/>
+                  <Option name="capstyle" type="QString" value="square"/>
+                  <Option name="customdash" type="QString" value="5;2"/>
+                  <Option name="customdash_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                  <Option name="customdash_unit" type="QString" value="MM"/>
+                  <Option name="dash_pattern_offset" type="QString" value="0"/>
+                  <Option name="dash_pattern_offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                  <Option name="dash_pattern_offset_unit" type="QString" value="MM"/>
+                  <Option name="draw_inside_polygon" type="QString" value="0"/>
+                  <Option name="joinstyle" type="QString" value="bevel"/>
+                  <Option name="line_color" type="QString" value="35,35,35,255"/>
+                  <Option name="line_style" type="QString" value="solid"/>
+                  <Option name="line_width" type="QString" value="0.26"/>
+                  <Option name="line_width_unit" type="QString" value="MM"/>
+                  <Option name="offset" type="QString" value="0"/>
+                  <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                  <Option name="offset_unit" type="QString" value="MM"/>
+                  <Option name="ring_filter" type="QString" value="0"/>
+                  <Option name="trim_distance_end" type="QString" value="0"/>
+                  <Option name="trim_distance_end_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                  <Option name="trim_distance_end_unit" type="QString" value="MM"/>
+                  <Option name="trim_distance_start" type="QString" value="0"/>
+                  <Option name="trim_distance_start_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                  <Option name="trim_distance_start_unit" type="QString" value="MM"/>
+                  <Option name="tweak_dash_pattern_on_corners" type="QString" value="0"/>
+                  <Option name="use_custom_dash" type="QString" value="0"/>
+                  <Option name="width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                </Option>
+                <prop k="align_dash_pattern" v="0"/>
+                <prop k="capstyle" v="square"/>
+                <prop k="customdash" v="5;2"/>
+                <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop k="customdash_unit" v="MM"/>
+                <prop k="dash_pattern_offset" v="0"/>
+                <prop k="dash_pattern_offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop k="dash_pattern_offset_unit" v="MM"/>
+                <prop k="draw_inside_polygon" v="0"/>
+                <prop k="joinstyle" v="bevel"/>
+                <prop k="line_color" v="35,35,35,255"/>
+                <prop k="line_style" v="solid"/>
+                <prop k="line_width" v="0.26"/>
+                <prop k="line_width_unit" v="MM"/>
+                <prop k="offset" v="0"/>
+                <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="ring_filter" v="0"/>
+                <prop k="trim_distance_end" v="0"/>
+                <prop k="trim_distance_end_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop k="trim_distance_end_unit" v="MM"/>
+                <prop k="trim_distance_start" v="0"/>
+                <prop k="trim_distance_start_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop k="trim_distance_start_unit" v="MM"/>
+                <prop k="tweak_dash_pattern_on_corners" v="0"/>
+                <prop k="use_custom_dash" v="0"/>
+                <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <data_defined_properties>
+                  <Option type="Map">
+                    <Option name="name" type="QString" value=""/>
+                    <Option name="properties"/>
+                    <Option name="type" type="QString" value="collection"/>
+                  </Option>
+                </data_defined_properties>
+              </layer>
+            </symbol>
+          </axisSymbol>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings placement="0" obstacle="0" linePlacementFlags="18" priority="0" showAll="1" dist="0" zIndex="0">
+        <properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend showLabelLegend="0" type="default-vector"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field configurationFlags="None" name="latitude">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="longitude">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="location">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="latitude"/>
+        <alias index="1" name="" field="longitude"/>
+        <alias index="2" name="" field="location"/>
+      </aliases>
+      <defaults>
+        <default field="latitude" applyOnUpdate="0" expression=""/>
+        <default field="longitude" applyOnUpdate="0" expression=""/>
+        <default field="location" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" unique_strength="0" field="latitude" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="longitude" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="location" notnull_strength="0" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="latitude"/>
+        <constraint exp="" desc="" field="longitude"/>
+        <constraint exp="" desc="" field="location"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="1" actionWidgetStyle="dropDown" sortExpression="&quot;location&quot;">
+        <columns>
+          <column name="latitude" width="-1" hidden="0" type="field"/>
+          <column name="longitude" width="-1" hidden="0" type="field"/>
+          <column name="location" width="-1" hidden="0" type="field"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="latitude" editable="1"/>
+        <field name="longitude" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="latitude" labelOnTop="0"/>
+        <field name="longitude" labelOnTop="0"/>
+      </labelOnTop>
+      <reuseLastValue>
+        <field name="latitude" reuseLastValue="0"/>
+        <field name="longitude" reuseLastValue="0"/>
+      </reuseLastValue>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression>"latitude"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
     <maplayer autoRefreshTime="0" simplifyMaxScale="1" styleCategories="AllStyleCategories" simplifyDrawingHints="0" autoRefreshEnabled="0" maxScale="0" labelsEnabled="0" geometry="Point" type="vector" simplifyLocal="1" readOnly="0" simplifyAlgorithm="0" symbologyReferenceScale="-1" simplifyDrawingTol="1" wkbType="Point" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" minScale="100000000" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="">
       <extent>
         <xmin>2.65560000000000018</xmin>
@@ -12548,6 +13099,8 @@ def my_form_open(dialog, layer, feature):
     <layer id="north_sea_a2e72cf9_fec6_44e4_a36e_0795b5909b5c"/>
     <layer id="Scheder_6de5df9f_d74b_444a_b069_ebfeb642bfa8"/>
     <layer id="british_6486f722_4aba_4883_9408_645538f70213"/>
+    <layer id="jessen_geo_4a037520_962b_47e0_8857_de067278d13c"/>
+    <layer id="limfjord_014f838a_33c2_4998_8392_bad1ecfdcffd"/>
   </layerorder>
   <properties>
     <DefaultStyles>
@@ -12738,7 +13291,7 @@ def my_form_open(dialog, layer, feature):
   <Bookmarks/>
   <ProjectViewSettings UseProjectScales="0">
     <Scales/>
-    <DefaultViewExtent ymin="52.08056988745209281" xmax="12.28656609195402183" xmin="3.78454561781609122" ymax="57.90478863745209281">
+    <DefaultViewExtent ymin="55.62098638574586573" xmax="11.03994711221863056" xmin="6.78893687514966615" ymax="58.53309576074586573">
       <spatialrefsys>
         <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
         <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>

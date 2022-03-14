@@ -49,6 +49,9 @@ do
 done
 
 # for SELEN input
-awk  --field-separator '\t'  '{if(NR>1) {print $2, $1}}' sl_points.txt > test_sl.txt
+awk  --field-separator '\t'  '{if(NR>1) {print $2, $1}}' sl_points.txt > temp2.txt
 
-rm temp.txt
+sort -k1,1 -k2,2n -u  temp2.txt > test_sl.txt
+
+
+rm temp.txt  temp2.txt 

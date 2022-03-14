@@ -19,14 +19,14 @@ do
 		for counter2 in $(seq 2 ${number_points} )
 		do
 
-			awk -v line=${counter2} '{if (NR == line) {print $0}}' ${input_file} > temp
+			awk -v line=${counter2} '{if (NR == line) {print $0}}' ${input_file} > temp.txt
 
-			sample_code=$(awk --field-separator '\t' '{print $3}' temp)
+			sample_code=$(awk --field-separator '\t' '{print $3}' temp.txt)
 
-			latitude=$(awk --field-separator '\t' '{print $4}' temp)
+			latitude=$(awk --field-separator '\t' '{print $4}' temp.txt)
 
-			longitude=$(awk --field-separator '\t' '{print $5}' temp)
-			indicator_type=$(awk --field-separator '\t' '{print $12}' temp)
+			longitude=$(awk --field-separator '\t' '{print $5}' temp.txt)
+			indicator_type=$(awk --field-separator '\t' '{print $12}' temp.txt)
 
 			if [ "${indicator_type}" = "-1" ]
 			then
@@ -51,4 +51,4 @@ done
 # for SELEN input
 awk  --field-separator '\t'  '{if(NR>1) {print $2, $1}}' sl_points.txt > test_sl.txt
 
-rm temp
+rm temp.txt

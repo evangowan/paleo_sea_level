@@ -92,7 +92,10 @@ END_TEXT
 	then
 		x_corner=$( echo ${width} ${insert_width} | awk '{print $1 - $2}')
 		y_corner=$( echo ${height} ${insert_height} | awk '{print $1 - $2}')
-
+	elif [ ${insert_position} = "bl" ]
+	then
+		x_corner=0
+		y_corner=0
 	fi
 
 

@@ -31,7 +31,7 @@ R_insert="-R${small_west_longitude}/${small_west_latitude}/${small_east_longitud
 J_insert="-JL${center_longitude}/${center_latitude}/${north_parallel}/${south_parallel}/${insert_width}c"
 
 # location of where the scale bar is plotted. Takes some trial and error to get it in the right spot.
-scale_bar_lat=11
+scale_bar_lat=10.1
 scale_bar_long=45.5
 # this is the latitude where it measures the width of the scale bar. Remember, the width will change depending on latitude!
 scale_bar_reference_lat=12
@@ -40,4 +40,4 @@ scale_bar_width=100
 
 
 # shift where the insert map should go. 
-insert_position="bl" # can be tr or br
+insert_position="bl" # can be tr or br or bl

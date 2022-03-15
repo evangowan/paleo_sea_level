@@ -31,7 +31,7 @@ J_insert="-JA${center_longitude}/${center_latitude}/${insert_width}c"
 
 # location of where the scale bar is plotted. Takes some trial and error to get it in the right spot.
 scale_bar_lat=61
-scale_bar_long=-89
+scale_bar_long=-87
 # this is the latitude where it measures the width of the scale bar. Remember, the width will change depending on latitude!
 scale_bar_reference_lat=63
 # width is in km

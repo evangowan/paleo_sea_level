@@ -29,8 +29,8 @@ R_insert="-R${small_west_longitude}/${small_west_latitude}/${small_east_longitud
 J_insert="-JA${center_longitude}/${center_latitude}/${insert_width}c"
 
 # location of where the scale bar is plotted. Takes some trial and error to get it in the right spot.
-scale_bar_lat=43.2
-scale_bar_long=-67
+scale_bar_lat=43.1
+scale_bar_long=-66.7
 # this is the latitude where it measures the width of the scale bar. Remember, the width will change depending on latitude!
 scale_bar_reference_lat=43.9
 # width is in km

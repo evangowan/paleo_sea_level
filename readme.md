@@ -14,7 +14,7 @@ This project was made possible through the wide efforts of the paleo sea level c
 
 [HOLSEA website](https://www.holsea.org/ "HOLSEA")
 
-E.J.G. is funded by Helmholtz Exzellenznetzwerks "The Polar System and its Effects on the Ocean Floor (POSY)" and Helmholtz Climate Initiative REKLIM (Regional Climate Change), a joint research project at the Helmholtz Association of German research centres (HGF). Funding is also supported by the PACES-II program at the Alfred Wegener Institute and the Bundesministerium für Bildung und Forschung funded project, PalMod. Earlier work was funded from an Australian National University Postgraduate Research Scholarship.
+E.J.G. is currently funded by a Japan Society for the Promotion of Science Postdoctoral Fellowship. The bulk of the work was done while funded by Helmholtz Exzellenznetzwerks "The Polar System and its Effects on the Ocean Floor (POSY)" and Helmholtz Climate Initiative REKLIM (Regional Climate Change), a joint research project at the Helmholtz Association of German research centres (HGF). Funding is also supported by the PACES-II program at the Alfred Wegener Institute and the Bundesministerium für Bildung und Forschung funded project, PalMod. Earlier work was funded from an Australian National University Postgraduate Research Scholarship.
 
 If you use this script setup, please acknowlege using the following references.
 
@@ -26,10 +26,12 @@ Special thanks:
 
 - Alisa V. Baranskaya for sending me the complete references for the Russian sea level database, including translations.
 - Simon Engelhart for sending me the reservoir corrections for the eastern United States database.
+- Annemiek Vink and Juliane Scheder for sending me the spreadsheets with North Sea data.
 
 Version history
 -------------
 
+- **Version 1.2**: Updated the database with an update of the Baltic Sea dataset, and added sites from the North Sea.
 - **Version 1.1**: Added some new LGM sites (including alternate Bonaparte Gulf interpretations), and modified some of the LGM and MIS 3 sites that I original set to have marine limiting points (due to large uncertainties) to have the originally interpreted sea level index ranges. (November 5, 2021)
 - **Version 1.0**: initial release (February 23, 2021)
 
@@ -41,7 +43,7 @@ In this project, there are a series of scripts and programs to plot published pa
 - bash shell
 - latex (specifically Xelatex, so non-Latin text can be implemented easier)
 - a fortran compiler (i.e. gfortran)
-- [Generic Mapping Tools](https://www.generic-mapping-tools.org/ "GMT"), version 5 or 6.
+- [Generic Mapping Tools](https://www.generic-mapping-tools.org/ "GMT"), version 6.3 or later.
 - Perl (used to parse the radiocarbon calibration javascript file from Oxcal)
 
 I made these scripts in Ubuntu, and I do not guarantee it will work in other operating systems.

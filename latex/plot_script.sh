@@ -255,11 +255,11 @@ END_TEXT
 
 	
 
-		gmt psxy temp/bounded2.txt    -P -K -O -J -R -Sr -W0.75p,limegreen -Glimegreen@50 >> ${plot}
+		gmt psxy temp/bounded2.txt    -P -K -O -J -R -Sr -W0.25p,black -Glimegreen@50 >> ${plot}
 
 		awk -v plotwidth=${x_width} -v plotheight=${y_width} -v elevdiff=${elevation_diff} -v timediff=${time_diff}  -v x_threshold=${threshold_dim} -v x_threshold=${threshold_dim}  -v index_limit=${index_limit} '{x_error =2*$3/timediff*plotwidth; if(x_error < x_threshold){x_error=x_threshold}; y_error = 2*$5/elevdiff*plotheight; if(y_error < y_threshold){y_error=y_threshold}; if($5+$6 <= index_limit) print $1, $2, x_error,y_error}' temp/bounded.txt > temp/bounded2.txt
 
-		gmt psxy temp/bounded2.txt    -P -K -O -J -R -Sr -W0.75p,darkgreen -Gdarkgreen@30 >> ${plot}
+		gmt psxy temp/bounded2.txt    -P -K -O -J -R -Sr -W0.25p,black -Gdarkgreen@30 >> ${plot}
 
 #		gmt psxy temp/bounded2.txt    -P -K -O -J -R -Sr  -Glimegreen@50 >> ${plot}
 
@@ -320,7 +320,7 @@ END
 5.2 0.51
 END
 
-	gmt pstext << END -R -JX -P -K -O -F+f10p,Helvetica -F+jLM -F+a0  >> ${plot}
+	gmt pstext << END -R -JX -P -K -O -F+f10p,Helvetica+jLM+a0  >> ${plot}
 2.5 0.56 Marine Limiting
 5.5 0.56 Terrestrial Limiting
 2.5 0.51 Index point (@%12%\243@%%${index_limit}m)
@@ -506,11 +506,11 @@ END
 
 	
 
-			gmt psxy temp/bounded2.txt    -P -K -O -J -R -Sr -W0.75p,limegreen -Glimegreen@50 >> ${plot}
+			gmt psxy temp/bounded2.txt    -P -K -O -J -R -Sr -W0.25p,black -Glimegreen@50 >> ${plot}
 
 			awk -v plotwidth=${x_width} -v plotheight=${y_width} -v elevdiff=${elevation_diff} -v timediff=${time_diff}  -v x_threshold=${threshold_dim} -v x_threshold=${threshold_dim}  -v index_limit=${index_limit} '{x_error =2*$3/timediff*plotwidth; if(x_error < x_threshold){x_error=x_threshold}; y_error = 2*$5/elevdiff*plotheight; if(y_error < y_threshold){y_error=y_threshold}; if($5+$6 <= index_limit) print $1, $2, x_error,y_error}' temp/bounded.txt > temp/bounded2.txt
 
-			gmt psxy temp/bounded2.txt    -P -K -O -J -R -Sr -W0.75p,darkgreen -Gdarkgreen@30 >> ${plot}
+			gmt psxy temp/bounded2.txt    -P -K -O -J -R -Sr -W0.25p,black -Gdarkgreen@30 >> ${plot}
 		fi
 
 

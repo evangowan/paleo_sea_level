@@ -146,7 +146,7 @@ END_CAT
 			fraction_uncertainty=$(echo ${cal_curve_temp} | awk --field-separator ',' '{if ($4 > 0) {print $4} else {print 0}}' )
 
 			# first calculate the marine portion
-			cal_line="Curve(\"marine_correction\",\"../bin/${marine}\");"
+			cal_line="Curve(\"${curve_marine}\",\"../bin/${marine}\");"
 			delta_r="Delta_R(\"correction\", ${correction_amount}, ${correction_error});"
 
 			cat << END_CAT >> run.oxcal
@@ -173,7 +173,7 @@ END_CAT
 				exit 0
 			fi
 
-				mix_curve="Mix_Curves(\"Mixed1\",\"marine_correction\",\"${terrestrial_name}\",${fraction_terrestrial},${fraction_uncertainty});"
+				mix_curve="Mix_Curves(\"Mixed1\",\"correction\",\"${terrestrial_name}\",${fraction_terrestrial},${fraction_uncertainty});"
 
 
 
@@ -237,7 +237,11 @@ END_CAT
 
             mv ${sample_code}.posterior.prior temp_folder/${sample_code}.posterior.prior
             mv ${sample_code}.prior temp_folder/${sample_code}.prior
+
+			mv marine_part.prior temp_folder/${sample_code}_marine_part.prior
+			mv terrestrial_part.prior temp_folder/${sample_code}_terrestrial_part.prior
         fi
+
 
 		# clean up files
 

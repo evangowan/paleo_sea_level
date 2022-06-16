@@ -46,4 +46,5 @@ latex/report2.out
 latex/report2.pdf
 latex/report2.tex
 latex/report2.toc
-
+calibrate/temp_folder/
+calibrate/test/calibrated.txt

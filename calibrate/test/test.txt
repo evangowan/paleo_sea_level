@@ -1,0 +1,14 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
+test_region	radiocarbon	test_001	44.8	-62.5	10000	100	northern hemisphere marine	marine	250	50	0	0	1	1	GowanEtal2021b
+test_region	radiocarbon	test_002	44.8	-62.5	10000	100	northern hemisphere terrestrial	terrestrial	0	0	0	0	1	1	GowanEtal2021b
+test_region	radiocarbon	test_003	44.8	-62.5	10000	100	northern hemisphere mixed	mixed,terrestrial,50	250	50	0	0	1	1	GowanEtal2021b
+test_region	radiocarbon	test_004	44.8	-62.5	10000	100	northern hemisphere mixed	mixed,terrestrial,70,10	250	50	0	0	1	1	GowanEtal2021b
+test_region	radiocarbon	test_005	-40.5	-62.1	10000	100	southern hemisphere terrestrial	terrestrial_sh	0	0	0	0	1	1	GowanEtal2021b
+test_region	radiocarbon	test_006	-40.5	-62.1	10000	100	southern hemisphere mixed	mixed,terrestrial_sh,50	250	50	0	0	1	1	GowanEtal2021b
+test_region	radiocarbon	test_007	-40.5	-62.1	10000	100	southern hemisphere mixed	mixed,terrestrial_sh,70,10	250	50	0	0	1	1	GowanEtal2021b
+test_region	radiocarbon	test_008	-40.5	-62.1	10000	100	southern hemisphere mixed	mixed,terrestrial_sh,10,10	250	50	0	0	1	1	GowanEtal2021b
+test_region	radiocarbon	test_009	-40.5	-62.1	10000	100	southern hemisphere mixed	mixed,terrestrial_sh,1	250	50	0	0	1	1	GowanEtal2021b
+test_region	radiocarbon	test_010	-40.5	-62.1	10000	100	southern hemisphere mixed	mixed,terrestrial_sh,99	250	50	0	0	1	1	GowanEtal2021b
+test_region	radiocarbon	test_011	-40.5	-62.1	10000	100	southern hemisphere mixed	mixed,terrestrial_sh,100	250	50	0	0	1	1	GowanEtal2021b
+test_region	radiocarbon	test_012	-40.5	-62.1	10000	100	southern hemisphere mixed	mixed,terrestrial_sh,0	250	50	0	0	1	1	GowanEtal2021b
+test_region	radiocarbon	test_013	44.8	-62.5	10000	100	northern hemisphere marine	marine	0	0	0	0	1	1	GowanEtal2021b

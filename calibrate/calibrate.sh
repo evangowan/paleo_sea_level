@@ -1,13 +1,24 @@
 #! /bin/bash
 
 
-# temporary for testing
 
+if [ "$1" == "test" ]
+then
+
+mkdir temp_folder
+
+input_file="test/test.txt"
+output_file="test/calibrated.txt"
+
+else
 region=$1
 location=$2
 
 input_file="../regions/${region}/${location}/${location}.txt"
 output_file="../regions/${region}/${location}/calibrated.txt"
+
+fi
+
 rm ${output_file}
 
 output_folder=priors
@@ -46,6 +57,8 @@ marine="marine20.14c"
 
 number_lines=$(wc -l < ${input_file})
 
+echo ${number_lines}
+
 for counter in $( seq 2 ${number_lines})
 do
 
@@ -82,43 +95,111 @@ do
 
 		correction_error=$(awk --field-separator '\t' '{print $11}' temp)
 
-		cal_curve=$(awk --field-separator '\t' '{print $9}' temp)
+		cal_curve_temp=$(awk --field-separator '\t' '{print $9}' temp)
 
+		cal_curve=$(echo ${cal_curve_temp} | awk --field-separator ',' '{print $1}' )
 
 
 		# next, generate the file to be read into OxCal
+		cat << END_CAT > run.oxcal
+ Plot()
+ {
+END_CAT
 
 		if [ "${cal_curve}" = "marine" ] 
 		then
 			cal_line="Curve(\"${curve_marine}\",\"../bin/${marine}\");"
+			delta_r="Delta_R(\"correction\", ${correction_amount}, ${correction_error});"
+
+			cat << END_CAT >> run.oxcal
+	$cal_line
+  	${delta_r}
+  	R_Date("${sample_code}", ${age}, ${error_val});
+END_CAT
+
 		elif [ "${cal_curve}" = "terrestrial" ] 
 		then
 			cal_line="Curve(\"${curve_terrestrial}\",\"../bin/${terrestrial}\");"
+
+			cat << END_CAT >> run.oxcal
+	$cal_line
+  	R_Date("${sample_code}", ${age}, ${error_val});
+END_CAT
 		elif [ "${cal_curve}" = "terrestrial_sh" ] 
 		then
 			cal_line="Curve(\"${curve_terrestrial_sh}\",\"../bin/${terrestrial_sh}\");"
+
+			cat << END_CAT >> run.oxcal
+	$cal_line
+  	R_Date("${sample_code}", ${age}, ${error_val});
+END_CAT
+
+		elif [ "${cal_curve}" = "mixed" ] 
+		then
+
+
+
+			# go back to the original entry. It is expected that it has the terrestrial curve and the percentage that is terrestrial
+
+			cal_curve_terrestrial=$(echo ${cal_curve_temp} | awk --field-separator ',' '{print $2}' )
+			fraction_terrestrial=$(echo ${cal_curve_temp} | awk --field-separator ',' '{print $3}' )
+			fraction_uncertainty=$(echo ${cal_curve_temp} | awk --field-separator ',' '{if ($4 > 0) {print $4} else {print 0}}' )
+
+			# first calculate the marine portion
+			cal_line="Curve(\"marine_correction\",\"../bin/${marine}\");"
+			delta_r="Delta_R(\"correction\", ${correction_amount}, ${correction_error});"
+
+			cat << END_CAT >> run.oxcal
+	$cal_line
+  	${delta_r}
+  	R_Date("marine_part", ${age}, ${error_val});
+END_CAT
+
+
+			if [ "${cal_curve_terrestrial}" = "terrestrial" ] 
+			then
+
+				
+				cal_line="Curve(\"${curve_terrestrial}\",\"../bin/${terrestrial}\");"
+				terrestrial_name=${curve_terrestrial}
+
+			elif [ "${cal_curve_terrestrial}" = "terrestrial_sh" ] 
+			then
+				cal_line="Curve(\"${curve_terrestrial_sh}\",\"../bin/${terrestrial_sh}\");"
+				terrestrial_name=${curve_terrestrial_sh}
+			else
+				echo "invalid curve for mixed options: " ${cal_curve_terrestrial}
+				echo "check input file and rerun"
+				exit 0
+			fi
+
+				mix_curve="Mix_Curves(\"Mixed1\",\"marine_correction\",\"${terrestrial_name}\",${fraction_terrestrial},${fraction_uncertainty});"
+
+
+
+			cat << END_CAT >> run.oxcal
+	${cal_line}
+  	R_Date("terrestrial_part", ${age}, ${error_val});
+	${mix_curve}
+  	R_Date("${sample_code}", ${age}, ${error_val});
+END_CAT
+
+
+
 		else
+
 
 			echo "invalid curve: " ${cal_curve}
 			echo "check input file and rerun"
 			exit 0
 		fi
 
-		if  [  "${cal_curve}" = "marine" ] 
-		then
-			delta_r="Delta_R(\"correction\", ${correction_amount}, ${correction_error});"
-		else
-			delta_r=""
-		fi
 
 
-		cat << END_CAT > run.oxcal
- Plot()
- {
-	$cal_line
-  	${delta_r}
-  	R_Date("${sample_code}", ${age}, ${error_val});
 
+
+
+		cat << END_CAT >> run.oxcal
  };
 END_CAT
 
@@ -132,8 +213,10 @@ END_CAT
 		if [ -e ${sample_code}.prior ] 
 		then
 			echo "${sample_code}: Oxcal successful run"
+
 		else
 			echo "${sample_code}: Oxcal did not work"
+			exit 0
 		fi
 
 		if  [  "${cal_curve}" = "marine" ] 
@@ -147,15 +230,27 @@ END_CAT
 		median_age=$(echo ${age_output} | awk '{print $1}')
 		age_uncertainty=$(echo ${age_output} | awk '{print $2}')
 
+		if [ "$1" == "test" ]
+		then
+			mv run.oxcal temp_folder/${sample_code}.oxcal
+			mv run.log temp_folder/${sample_code}.log
+
+            mv ${sample_code}.posterior.prior temp_folder/${sample_code}.posterior.prior
+            mv ${sample_code}.prior temp_folder/${sample_code}.prior
+        fi
+
 		# clean up files
 
 
-		if  [  "${cal_curve}" = "marine" ] 
-		then
-			rm run.oxcal ${sample_code}.prior run.js run.log correction.prior run.txt ${sample_code}.posterior.prior correction.posterior.prior
-		else
-			rm run.oxcal ${sample_code}.prior run.js run.log run.txt
-		fi
+#		if  [  "${cal_curve}" = "marine" ] 
+#		then
+#			rm run.oxcal ${sample_code}.prior run.js run.log correction.prior run.txt ${sample_code}.posterior.prior correction.posterior.prior
+#		elif  [  "${cal_curve}" = "mixed" ] 
+#		then
+#			rm run.oxcal ${sample_code}.prior run.js run.log correction.prior run.txt ${sample_code}.posterior.prior correction.posterior.prior terrestrial_part.prior terrestrial_part.posterior.prior Mixed1.prior Mixed1.posterior.prior marine_part.prior marine_part.posterior.prior
+#		else
+#			rm run.oxcal ${sample_code}.prior run.js run.log run.txt
+#		fi
 
 	else
 

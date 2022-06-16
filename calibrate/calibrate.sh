@@ -242,15 +242,15 @@ END_CAT
 		# clean up files
 
 
-#		if  [  "${cal_curve}" = "marine" ] 
-#		then
-#			rm run.oxcal ${sample_code}.prior run.js run.log correction.prior run.txt ${sample_code}.posterior.prior correction.posterior.prior
-#		elif  [  "${cal_curve}" = "mixed" ] 
-#		then
-#			rm run.oxcal ${sample_code}.prior run.js run.log correction.prior run.txt ${sample_code}.posterior.prior correction.posterior.prior terrestrial_part.prior terrestrial_part.posterior.prior Mixed1.prior Mixed1.posterior.prior marine_part.prior marine_part.posterior.prior
-#		else
-#			rm run.oxcal ${sample_code}.prior run.js run.log run.txt
-#		fi
+		if  [  "${cal_curve}" = "marine" ] 
+		then
+			rm run.oxcal ${sample_code}.prior run.js run.log correction.prior run.txt ${sample_code}.posterior.prior correction.posterior.prior
+		elif  [  "${cal_curve}" = "mixed" ] 
+		then
+			rm run.oxcal ${sample_code}.prior run.js run.log correction.prior run.txt ${sample_code}.posterior.prior correction.posterior.prior terrestrial_part.prior terrestrial_part.posterior.prior Mixed1.prior Mixed1.posterior.prior marine_part.prior marine_part.posterior.prior
+		else
+			rm run.oxcal ${sample_code}.prior run.js run.log run.txt
+		fi
 
 	else
 

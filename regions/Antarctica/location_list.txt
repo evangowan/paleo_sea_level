@@ -1,0 +1,4 @@
+Langhovde	East_Antarctica
+Ongul_Islands	East_Antarctica
+Rauer_Group	East_Antarctica
+Larsemann_Hills	East_Antarctica

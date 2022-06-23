@@ -1,0 +1,6 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
+Larsemann_Hills	radiocarbon	Beta-196950	-69.371	76.143	26650	220	unknown organic fraction	terrestrial_sh			1	8	0.5	0.5	IshiwaEtal2021,HodgsonEtal2009
+Larsemann_Hills	radiocarbon	Beta-196951	-69.371	76.143	27000	230	unknown organic fraction	terrestrial_sh			1	8	0.5	0.5	IshiwaEtal2021,HodgsonEtal2009
+Larsemann_Hills	radiocarbon	Beta-196952	-69.371	76.143	28750	300	unknown organic fraction	marine	500	0	-1	8	0.5	0.5	IshiwaEtal2021,HodgsonEtal2009
+Larsemann_Hills	thermoluminescence	Larsemann_Hills-01	-69.371	76.143	35000	12000	glaciomarine till and freshwater sediments	-			1	8	0.5	0.5	IshiwaEtal2021,HodgsonEtal2009
+Larsemann_Hills	thermoluminescence	Larsemann_Hills-02	-69.371	76.143	43000	15000	glaciomarine till and freshwater sediments	-			1	8	0.5	0.5	IshiwaEtal2021,HodgsonEtal2009

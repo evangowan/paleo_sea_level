@@ -1,0 +1,13 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
+Larsemann_Hills	radiocarbon	AA-35717	-69.371	76.143	0	50	extant ﬁlamentous cyanobacterial mat	terrestrial_sh			1	8	0.5	0.5	IshiwaEtal2021,HodgsonEtal2009
+Larsemann_Hills	radiocarbon	AA-35742	-69.371	76.143	1755	40	extant ﬁlamentous cyanobacterial mat	terrestrial_sh			1	8	0.5	0.5	IshiwaEtal2021,HodgsonEtal2009
+Larsemann_Hills	radiocarbon	AA-35743	-69.371	76.143	2084	45	extant ﬁlamentous cyanobacterial mat	terrestrial_sh			1	8	0.5	0.5	IshiwaEtal2021,HodgsonEtal2009
+Larsemann_Hills	radiocarbon	AA-35751	-69.407	76.055	2150	45	Organic fraction	terrestrial_sh			1	8	0.5	0.5	IshiwaEtal2021,VerleyenEtal2005
+Larsemann_Hills	radiocarbon	AA-35736	-69.376	76.382	2620	45	Cyanobacteria	terrestrial_sh			1	8	0.5	0.5	IshiwaEtal2021,VerleyenEtal2005
+Larsemann_Hills	radiocarbon	AA-35744	-69.371	76.143	6205	50	Cyanobacteria	terrestrial_sh			1	8	0.5	0.5	IshiwaEtal2021,HodgsonEtal2009
+Larsemann_Hills	radiocarbon	AA-35745	-69.371	76.143	7825	70	Organic fraction	marine	500	0	-1	8	0.5	0.5	IshiwaEtal2021,HodgsonEtal2009
+Larsemann_Hills	radiocarbon	AA-35739	-69.376	76.382	8070	75	Organic fraction	terrestrial_sh			1	8	0.5	0.5	IshiwaEtal2021,VerleyenEtal2005
+Larsemann_Hills	radiocarbon	AA-41164	-69.376	76.382	8508	59	Organic fraction	terrestrial_sh			1	8	0.5	0.5	IshiwaEtal2021,VerleyenEtal2005
+Larsemann_Hills	radiocarbon	AA-35746	-69.371	76.143	8545	60	Cyanobacteria	terrestrial_sh			1	8	0.5	0.5	IshiwaEtal2021,HodgsonEtal2009
+Larsemann_Hills	radiocarbon	AA-41633	-69.376	76.382	10314	65	Organic plus silt	marine	500	0	-1	8	0.5	0.5	IshiwaEtal2021,VerleyenEtal2005
+Larsemann_Hills	radiocarbon	AA-35747	-69.371	76.143	10400	65	Cyano. org. silt	terrestrial_sh			1	8	0.5	0.5	IshiwaEtal2021,HodgsonEtal2009

@@ -1,0 +1,19 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
+Langhovde	radiocarbon	Beta-100346	-69.179	39.68	32430	270	Laternula elliptica	marine	720	0	-1	2.8	1	1	IshiwaEtal2021,MiuraEtal1998,MaemokuEtal1997
+Langhovde	radiocarbon	NUTA-Ishiwa04	-69.177	39.63	33410	510	Laternula elliptica	marine	720	0	-1	-6	1.2000000000000002	1.2000000000000002	IshiwaEtal2021,MiuraEtal1998,IgarashiEtal1995a,IgarashiEtal1995b
+Langhovde	radiocarbon	Beta-109403	-69.177	39.63	34720	330	Laternula elliptica	marine	720	0	-1	2.4	1	1	IshiwaEtal2021,MiuraEtal1998
+Langhovde	radiocarbon	NUTA-Ishiwa07	-69.177	39.63	34940	460	Adamusium colbecki	marine	720	0	-1	8	1.6	1.6	IshiwaEtal2021,MiuraEtal1998,IgarashiEtal1995a,IgarashiEtal1995b
+Langhovde	radiocarbon	Beta-94675	-69.179	39.68	35970	410	Laternula elliptica	marine	720	0	-1	6.2	1.2400000000000002	1.2400000000000002	IshiwaEtal2021,MiuraEtal1998,MaemokuEtal1997
+Langhovde	radiocarbon	NUTA-Ishiwa05	-69.177	39.63	37200	910	fragment of shell (La)	marine	720	0	-1	0	1	1	IshiwaEtal2021,MiuraEtal1998,IgarashiEtal1995a,IgarashiEtal1995b
+Langhovde	radiocarbon	Beta-109404	-69.177	39.63	37240	700	Laternula elliptica	marine	720	0	-1	2.1	1	1	IshiwaEtal2021,MiuraEtal1998
+Langhovde	radiocarbon	Beta-109396	-69.179	39.68	37620	390	Laternula elliptica	marine	720	0	-1	5.9	1.1800000000000002	1.1800000000000002	IshiwaEtal2021,MiuraEtal1998
+Langhovde	radiocarbon	Beta-116852	-69.177	39.63	37890	360	tubes of polychaeta	marine	720	0	-1	6.5	1.3	1.3	IshiwaEtal2021,MiuraEtal1998
+Langhovde	radiocarbon	Beta-109421	-69.177	39.63	38920	900	foram (Elphidium magellanicum)	marine	720	0	-1	2	1	1	IshiwaEtal2021,MiuraEtal1998
+Langhovde	radiocarbon	Beta-109397	-69.179	39.68	39420	590	Laternula elliptica	marine	720	0	-1	4.8	1	1	IshiwaEtal2021,MiuraEtal1998
+Langhovde	radiocarbon	Beta-100345	-69.179	39.68	39440	580	Laternula elliptica	marine	720	0	-1	2.4	1	1	IshiwaEtal2021,MiuraEtal1998,MaemokuEtal1997
+Langhovde	radiocarbon	Bata-94676	-69.179	39.68	39760	600	Laternula elliptica	marine	720	0	-1	5.2	1.04	1.04	IshiwaEtal2021,MiuraEtal1998,MaemokuEtal1997
+Langhovde	radiocarbon	Beta-109393	-69.177	39.63	41630	960	Laternula elliptica	marine	720	0	-1	3.5	1	1	IshiwaEtal2021,MiuraEtal1998
+Langhovde	radiocarbon	Beta-94677	-69.179	39.68	42710	920	Laternula elliptica	marine	720	0	-1	4.7	1	1	IshiwaEtal2021,MiuraEtal1998,MaemokuEtal1997
+Langhovde	radiocarbon	Beta-109405	-69.177	39.63	42820	690	Laternula elliptica	marine	720	0	-1	1.8	1	1	IshiwaEtal2021,MiuraEtal1998
+Langhovde	radiocarbon	Beta-109394	-69.177	39.63	42930	2000	Laternula elliptica	marine	720	0	-1	3.2	1	1	IshiwaEtal2021,MiuraEtal1998
+Langhovde	radiocarbon	Beta-94668	-69.177	39.63	46120	1000	Laternula elliptica	marine	720	0	-1	3	1	1	IshiwaEtal2021,MiuraEtal1998

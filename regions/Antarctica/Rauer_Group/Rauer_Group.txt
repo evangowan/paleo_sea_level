@@ -1,0 +1,33 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
+Rauer_Group	radiocarbon	KIA37742	-68.825	77.773	890	25	humic acid of bulk organic matter	marine	500	0	-1	-4	0.4	0.4	IshiwaEtal2021,BergEtal2010b
+Rauer_Group	radiocarbon	KIA34076	-68.801	77.89	920	80	humic acid free of bulk organic matter	marine	500	0	-1	-12	2.4000000000000004	2.4000000000000004	IshiwaEtal2021,BergEtal2010b
+Rauer_Group	radiocarbon	KIA37742	-68.825	77.773	985	30	humic acid free of bulk organic matter	marine	500	0	-1	-4	0.4	0.4	IshiwaEtal2021,BergEtal2010b
+Rauer_Group	radiocarbon	KIA38366	-68.833	77.927	1000	25	humic acid free of bulk organic matter	marine	500	0	-1	-2	1	1	IshiwaEtal2021,BergEtal2010a
+Rauer_Group	radiocarbon	COL2092	-68.811	77.868	1320	35	humins	terrestrial_sh			1	11.5	2.3000000000000003	2.3000000000000003	IshiwaEtal2021,BergEtal2016
+Rauer_Group	radiocarbon	KIA38367	-68.833	77.927	1815	30	humic acid free of bulk organic matter	marine	500	0	-1	-2	1	1	IshiwaEtal2021,BergEtal2010a
+Rauer_Group	radiocarbon	KIA35015	-68.801	77.89	2335	35	humic acid free of bulk organic matter	marine	500	0	-1	-12	2.4000000000000004	2.4000000000000004	IshiwaEtal2021,BergEtal2010b
+Rauer_Group	radiocarbon	KIA38368	-68.833	77.927	2785	30	humic acid free of bulk organic matter	marine	500	0	-1	-2	1	1	IshiwaEtal2021,BergEtal2010a
+Rauer_Group	radiocarbon	KIA37743	-68.825	77.773	3370	30	humic acid of bulk organic matter	marine	500	0	-1	-4	0.4	0.4	IshiwaEtal2021,BergEtal2010b
+Rauer_Group	radiocarbon	KIA35016	-68.801	77.89	4230	70	humic acid free of bulk organic matter	marine	500	0	-1	-12	2.4000000000000004	2.4000000000000004	IshiwaEtal2021,BergEtal2010b
+Rauer_Group	radiocarbon	KIA38366	-68.833	77.927	5000	35	humic acid free of bulk organic matter	marine	500	0	-1	-2	1	1	IshiwaEtal2021,BergEtal2010a
+Rauer_Group	radiocarbon	KIA35017	-68.801	77.89	5690	55	humic acid free of bulk organic matter	marine	500	0	-1	-12	2.4000000000000004	2.4000000000000004	IshiwaEtal2021,BergEtal2010b
+Rauer_Group	radiocarbon	COL2093	-68.811	77.868	6770	40	humins	terrestrial_sh			1	11.5	2.3000000000000003	2.3000000000000003	IshiwaEtal2021,BergEtal2016
+Rauer_Group	radiocarbon	KIA35019	-68.801	77.89	7140	80	humic acid free of bulk organic matter	marine	500	0	-1	-12	2.4000000000000004	2.4000000000000004	IshiwaEtal2021,BergEtal2010b
+Rauer_Group	radiocarbon	KIA37745	-68.825	77.773	7210	40	humic acid of bulk organic matter	marine	500	0	-1	-4	0.4	0.4	IshiwaEtal2021,BergEtal2010b
+Rauer_Group	radiocarbon	KIA37745	-68.825	77.773	7265	45	humic acid free of bulk organic matter	marine	500	0	-1	-4	0.4	0.4	IshiwaEtal2021,BergEtal2010b
+Rauer_Group	radiocarbon	COL1399	-68.811	77.868	7720	110	humins	terrestrial_sh			1	11.5	2.3000000000000003	2.3000000000000003	IshiwaEtal2021,BergEtal2016
+Rauer_Group	radiocarbon	KIA35021	-68.801	77.89	7750	260	humic acid free of bulk organic matter	marine	500	0	-1	-12	2.4000000000000004	2.4000000000000004	IshiwaEtal2021,BergEtal2010b
+Rauer_Group	radiocarbon	KIA35020	-68.801	77.89	7810	70	humic acid free of bulk organic matter	marine	500	0	-1	-12	2.4000000000000004	2.4000000000000004	IshiwaEtal2021,BergEtal2010b
+Rauer_Group	radiocarbon	KIA35020	-68.801	77.89	8130	40	humic acid of bulk organic matter	marine	500	0	-1	-12	2.4000000000000004	2.4000000000000004	IshiwaEtal2021,BergEtal2010b
+Rauer_Group	radiocarbon	KIA37746	-68.825	77.773	8530	45	bulk marine sediment	marine	500	0	-1	-4	0.4	0.4	IshiwaEtal2021,BergEtal2010b,HodgsonEtal2016
+Rauer_Group	radiocarbon	Beta305737	-68.825	77.773	9020	40	bulk transition sediment	mixed,terrestrial_sh,74	500	0	1	-4	0.4	0.4	IshiwaEtal2021,HodgsonEtal2016
+Rauer_Group	radiocarbon	KIA37749	-68.801	77.89	9125	50	humic acid free of bulk organic matter	marine	500	0	-1	-12	2.4000000000000004	2.4000000000000004	IshiwaEtal2021,BergEtal2010b
+Rauer_Group	radiocarbon	Beta305736	-68.825	77.773	9220	50	bulk marine sediment	marine	500	0	-1	-4	0.4	0.4	IshiwaEtal2021,HodgsonEtal2016
+Rauer_Group	radiocarbon	KIA37749	-68.801	77.89	9445	55	humic acid of bulk organic matter	marine	500	0	-1	-12	2.4000000000000004	2.4000000000000004	IshiwaEtal2021,BergEtal2010b
+Rauer_Group	radiocarbon	Beta305738	-68.825	77.773	9610	50	Bulk lacustrine sediment	terrestrial_sh			1	-4	0.4	0.4	IshiwaEtal2021,HodgsonEtal2016
+Rauer_Group	radiocarbon	Beta305951	-68.825	77.773	9640	50	plant macrofossil	terrestrial_sh			1	-4	0.4	0.4	IshiwaEtal2021,HodgsonEtal2016
+Rauer_Group	radiocarbon	KIA37748	-68.825	77.773	9890	60	plant macrofossil	terrestrial_sh			1	-4	0.4	0.4	IshiwaEtal2021,BergEtal2010b,HodgsonEtal2016
+Rauer_Group	radiocarbon	KIA34077	-68.801	77.89	10505	40	humic acid of bulk organic matter	marine	500	0	-1	-12	2.4000000000000004	2.4000000000000004	IshiwaEtal2021,BergEtal2010b
+Rauer_Group	radiocarbon	KIA34077	-68.801	77.89	10880	40	humic acid free of bulk organic matter	marine	500	0	-1	-12	2.4000000000000004	2.4000000000000004	IshiwaEtal2021,BergEtal2010b
+Rauer_Group	radiocarbon	Beta305739	-68.825	77.773	10880	50	Bulk lacustrine sediment	terrestrial_sh			1	-4	0.4	0.4	IshiwaEtal2021,HodgsonEtal2016
+Rauer_Group	radiocarbon	KIA35022	-68.801	77.89	12490	80	humic acid free of bulk organic matter	marine	500	0	-1	-12	2.4000000000000004	2.4000000000000004	IshiwaEtal2021,BergEtal2010b

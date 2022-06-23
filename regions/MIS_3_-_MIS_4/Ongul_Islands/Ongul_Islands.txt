@@ -1,0 +1,36 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
+Ongul_Islands	radiocarbon	Beta-100325	-69.015	39.568	30360	290	Laternula elliptica	marine	720	0	-1	10.4	2.08	2.08	IshiwaEtal2021,MiuraEtal1998
+Ongul_Islands	radiocarbon	Beta-116846	-69.015	39.568	32840	220	Laternula elliptica	marine	720	0	-1	10.4	2.08	2.08	IshiwaEtal2021,MiuraEtal1998
+Ongul_Islands	radiocarbon	Beta-100323	-69.015	39.568	34090	400	Laternula elliptica	marine	720	0	-1	10.2	2.04	2.04	IshiwaEtal2021,MiuraEtal1998
+Ongul_Islands	radiocarbon	NUTA-Ishiwa02	-69.015	39.568	34350	550	fragment of shell	marine	720	0	-1	18	3.6	3.6	IshiwaEtal2021,MiuraEtal1998,IgarashiEtal1995a,IgarashiEtal1995b
+Ongul_Islands	radiocarbon	Beta-100327	-69.015	39.568	34650	500	Laternula elliptica	marine	720	0	-1	9.7	1.94	1.94	IshiwaEtal2021,MiuraEtal1998
+Ongul_Islands	radiocarbon	Beta-10340	-69.015	39.568	34830	350	Laternula elliptica	marine	720	0	-1	5.4	1.08	1.08	IshiwaEtal2021,MiuraEtal1998
+Ongul_Islands	radiocarbon	NUTA-Ishiwa03	-69.015	39.568	35040	480	fragment of shell (Ad)	marine	720	0	-1	17	3.4000000000000004	3.4000000000000004	IshiwaEtal2021,MiuraEtal1998,IgarashiEtal1995a,IgarashiEtal1995b
+Ongul_Islands	radiocarbon	Beta-100330	-69.015	39.568	35160	350	Laternula elliptica	marine	720	0	-1	8.6	1.72	1.72	IshiwaEtal2021,MiuraEtal1998
+Ongul_Islands	radiocarbon	Beta-116847	-69.015	39.568	35200	330	Laternula elliptica	marine	720	0	-1	9.8	1.9600000000000002	1.9600000000000002	IshiwaEtal2021,MiuraEtal1998
+Ongul_Islands	radiocarbon	Beta-100324	-69.015	39.568	35320	520	Laternula elliptica	marine	720	0	-1	10.4	2.08	2.08	IshiwaEtal2021,MiuraEtal1998
+Ongul_Islands	radiocarbon	Beta-90954	-69.015	39.568	35690	1630	Adamussium colbecki	marine	720	0	-1	3	1	1	IshiwaEtal2021,MiuraEtal1998,HirakawaSawagaki1998
+Ongul_Islands	radiocarbon	NUTA-Ishiwa01	-69.015	39.568	36180	630	fragment of shell	marine	720	0	-1	13	2.6	2.6	IshiwaEtal2021,MiuraEtal1998,IgarashiEtal1995a
+Ongul_Islands	radiocarbon	Beta-100329	-69.015	39.568	36520	430	Laternula elliptica	marine	720	0	-1	8.5	1.7000000000000002	1.7000000000000002	IshiwaEtal2021,MiuraEtal1998
+Ongul_Islands	radiocarbon	Beta-80994	-69.015	39.568	36660	1480	tubes of polychaeta	marine	720	0	-1	10	2	2	IshiwaEtal2021,MiuraEtal1998,HirakawaSawagaki1998
+Ongul_Islands	radiocarbon	Beta-10334	-69.015	39.568	36730	420	Laternula elliptica	marine	720	0	-1	6	1.2000000000000002	1.2000000000000002	IshiwaEtal2021,MiuraEtal1998
+Ongul_Islands	radiocarbon	Beta-80999	-69.015	39.568	37060	950	tubes of polychaeta	marine	720	0	-1	4	1	1	IshiwaEtal2021,MiuraEtal1998,HirakawaSawagaki1998
+Ongul_Islands	radiocarbon	Beta-10336	-69.015	39.568	37560	470	Laternula elliptica	marine	720	0	-1	5	1	1	IshiwaEtal2021,MiuraEtal1998
+Ongul_Islands	radiocarbon	Beta-10338	-69.015	39.568	37560	470	Laternula elliptica	marine	720	0	-1	3	1	1	IshiwaEtal2021,MiuraEtal1998
+Ongul_Islands	radiocarbon	Beta-10337	-69.015	39.568	37700	470	Laternula elliptica	marine	720	0	-1	4.1	1	1	IshiwaEtal2021,MiuraEtal1998
+Ongul_Islands	radiocarbon	Beta-100328	-69.015	39.568	37740	490	Laternula elliptica	marine	720	0	-1	9.7	1.94	1.94	IshiwaEtal2021,MiuraEtal1998
+Ongul_Islands	radiocarbon	Beta-100331	-69.015	39.568	37840	570	Laternula elliptica	marine	720	0	-1	7	1.4000000000000001	1.4000000000000001	IshiwaEtal2021,MiuraEtal1998
+Ongul_Islands	radiocarbon	Beta-100322	-69.015	39.568	38400	640	Laternula elliptica	marine	720	0	-1	10.2	2.04	2.04	IshiwaEtal2021,MiuraEtal1998
+Ongul_Islands	radiocarbon	Beta-90958	-69.015	39.568	38910	550	tubes of polychaeta	marine	720	0	-1	17	3.4000000000000004	3.4000000000000004	IshiwaEtal2021,MiuraEtal1998,HirakawaSawagaki1998
+Ongul_Islands	radiocarbon	Beta-110487	-69.015	39.568	39230	950	fragment of shell (La)	marine	720	0	-1	12	2.4000000000000004	2.4000000000000004	IshiwaEtal2021,MiuraEtal1998
+Ongul_Islands	radiocarbon	Beta-10339	-69.015	39.568	39290	600	Laternula elliptica	marine	720	0	-1	2.9	1	1	IshiwaEtal2021,MiuraEtal1998
+Ongul_Islands	radiocarbon	Beta-90959	-69.015	39.568	39300	580	Adamussium colbecki	marine	720	0	-1	6	1.2000000000000002	1.2000000000000002	IshiwaEtal2021,MiuraEtal1998,HirakawaSawagaki1998
+Ongul_Islands	radiocarbon	Beta-90957	-69.015	39.568	39810	610	tubes of polychaeta	marine	720	0	-1	12	0.5	0.5	IshiwaEtal2021,MiuraEtal1998,HirakawaSawagaki1998
+Ongul_Islands	radiocarbon	Beta-110486	-69.015	39.568	41960	1100	fragment of shell (La)	marine	720	0	-1	12	2.4000000000000004	2.4000000000000004	IshiwaEtal2021,MiuraEtal1998
+Ongul_Islands	radiocarbon	Beta-110488	-69.011	39.574	42270	1070	fragment of shell (La)	marine	720	0	-1	11	2.2	2.2	IshiwaEtal2021,MiuraEtal1998
+Ongul_Islands	radiocarbon	Beta-110485	-69.015	39.568	42630	1120	fragment of shell (Ad)	marine	720	0	-1	16	3.2	3.2	IshiwaEtal2021,MiuraEtal1998
+Ongul_Islands	radiocarbon	Beta-10335	-69.015	39.568	42840	930	Laternula elliptica	marine	720	0	-1	5.7	1.1400000000000001	1.1400000000000001	IshiwaEtal2021,MiuraEtal1998
+Ongul_Islands	radiocarbon	Beta-90140	-69.015	39.568	42930	990	fragment of shell (La)	marine	720	0	-1	12	2.4000000000000004	2.4000000000000004	IshiwaEtal2021,MiuraEtal1998
+Ongul_Islands	radiocarbon	Beta-116848	-69.015	39.568	43080	690	Laternula elliptica	marine	720	0	-1	6.5	1.3	1.3	IshiwaEtal2021,MiuraEtal1998
+Ongul_Islands	radiocarbon	Beta-10333	-69.015	39.568	43710	990	Laternula elliptica	marine	720	0	-1	5.7	1.1400000000000001	1.1400000000000001	IshiwaEtal2021,MiuraEtal1998
+Ongul_Islands	radiocarbon	Beta-10332	-69.015	39.568	43810	1100	Laternula elliptica	marine	720	0	-1	6.2	1.2400000000000002	1.2400000000000002	IshiwaEtal2021,MiuraEtal1998

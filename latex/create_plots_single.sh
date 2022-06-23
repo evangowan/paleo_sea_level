@@ -2,7 +2,7 @@
 
 # This uses GMT, so make sure it is installed first!
 
-region=$1
+region_input=$1
 
 location=$2
 
@@ -38,28 +38,57 @@ cat << END_CAT > temp/compare_models.txt
 72_73_74_75 ehgK
 END_CAT
 
-
+found_region=false
+found_location=false
 
 for region in $(cat ../regions/region_list.txt)
 do
 
-	number_locations=$(wc -l < ../regions/${region}/location_list.txt)
-	
+	if [ "${region}" = "${region_input}" ]
+	then
 
-	for counter in $(seq 1 ${number_locations} )
-	do
-		location_temp=$(awk -v line=${counter} --field-separator '\t' '{if (NR==line) {print $1}}' ../regions/${region}/location_list.txt)
+		found_region=true
 
-		if [ "${location}" = "${location_temp}" ]
-		then
+		number_locations=$(wc -l < ../regions/${region}/location_list.txt)
+		
 
-			subregion=$(awk -v line=${counter} --field-separator '\t' '{if (NR==line) {print $2}}' ../regions/${region}/location_list.txt)
-			source plot_script.sh ${region} ${location} ${reference_ice_model} ${reference_earth_model} ${subregion}
+		for counter in $(seq 1 ${number_locations} )
+		do
+			location_temp=$(awk -v line=${counter} --field-separator '\t' '{if (NR==line) {print $1}}' ../regions/${region}/location_list.txt)
 
-		fi
+			if [ "${location}" = "${location_temp}" ]
+			then
 
-	done
+				found_location=true
+				subregion=$(awk -v line=${counter} --field-separator '\t' '{if (NR==line) {print $2}}' ../regions/${region}/location_list.txt)
+				source plot_script.sh ${region} ${location} ${reference_ice_model} ${reference_earth_model} ${subregion}
 
+			fi
+
+		done
+
+
+
+	fi
 
 
 done
+
+
+if [ "${found_region}" == "false"  ]
+then
+
+		echo "invalid region: ${region_input}"
+
+else
+	if [ "${found_location}" == "false"  ]
+	then
+
+			echo "invalid location: ${location}"
+
+	fi
+
+fi
+
+
+

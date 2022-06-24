@@ -134,6 +134,31 @@ END_CAT
   	R_Date("${sample_code}", ${age}, ${error_val});
 END_CAT
 
+
+		elif [ "${cal_curve}" = "corr_terrestrial" ] 
+		then
+			cal_line="Curve(\"${curve_terrestrial}\",\"../bin/${terrestrial}\");"
+			delta_r="Delta_R(\"correction\", ${correction_amount}, ${correction_error});"
+
+			cat << END_CAT >> run.oxcal
+	$cal_line
+  	${delta_r}
+  	R_Date("${sample_code}", ${age}, ${error_val});
+END_CAT
+
+
+
+		elif [ "${cal_curve}" = "corr_terrestrial_sh" ] 
+		then
+			cal_line="Curve(\"${curve_terrestrial_sh}\",\"../bin/${terrestrial_sh}\");"
+			delta_r="Delta_R(\"correction\", ${correction_amount}, ${correction_error});"
+
+			cat << END_CAT >> run.oxcal
+	$cal_line
+  	${delta_r}
+  	R_Date("${sample_code}", ${age}, ${error_val});
+END_CAT
+
 		elif [ "${cal_curve}" = "mixed" ] 
 		then
 
@@ -219,7 +244,7 @@ END_CAT
 			exit 0
 		fi
 
-		if  [  "${cal_curve}" = "marine" ] 
+		if  [  "${cal_curve}" = "marine" ] ||  [  "${cal_curve}" = "corr_terrestrial" ] ||  [  "${cal_curve}" = "corr_terrestrial_sh" ]
 		then
 			age_output="$(./../Fortran/radiocarbon_statistics ${sample_code}.posterior.prior)"
 		else
@@ -246,7 +271,7 @@ END_CAT
 		# clean up files
 
 
-		if  [  "${cal_curve}" = "marine" ] 
+		if  [  "${cal_curve}" = "marine" ]  ||  [  "${cal_curve}" = "corr_terrestrial" ] ||  [  "${cal_curve}" = "corr_terrestrial_sh" ]
 		then
 			rm run.oxcal ${sample_code}.prior run.js run.log correction.prior run.txt ${sample_code}.posterior.prior correction.posterior.prior
 		elif  [  "${cal_curve}" = "mixed" ] 

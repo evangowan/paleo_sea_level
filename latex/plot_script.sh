@@ -245,7 +245,7 @@ END_TEXT
 	symbol_size=0.20
 	if [ -e "temp/maximum.txt" ]
 	then
-		symbol_size=0.20
+		symbol_size=0.30
 		gmt psxy temp/maximum.txt  -Exy+p0.1p,darkgrey+a -G${maximum_colour}  -P -K -O -JX -R -Si${symbol_size} -Wblack >> ${plot}
 		gmt psxy temp/maximum.txt  -G${maximum_colour}  -P -K -O -JX -R -Si${symbol_size} -Wblack >> ${plot}
 	fi

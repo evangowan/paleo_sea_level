@@ -1,0 +1,14 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
+Vestfold_Hills	radiocarbon	Organic_Lml	-68.46	78.19	2895	165	Marine to lacustrine	terrestrial_sh	0	0	0	3.5	0.1	0.1	BriggsTarasov2013,ZwartzEtal1998
+Vestfold_Hills	radiocarbon	watts_Lml	-68.6	78.22	3630	200	Marine to lacustrine	terrestrial_sh	0	0	0	4.3	0.1	0.1	BriggsTarasov2013,ZwartzEtal1998
+Vestfold_Hills	radiocarbon	highway_Mml	-68.46	78.22	4755	435	Marine to lacustrine	marine	1300	100	0	7.7	0.1	0.1	BriggsTarasov2013,ZwartzEtal1998
+Vestfold_Hills	radiocarbon	druzhby_Lml	-68.59	78.3	5720	220	Marine to lacustrine	terrestrial_sh	0	0	0	8	0.1	0.1	BriggsTarasov2013,ZwartzEtal1998
+Vestfold_Hills	radiocarbon	anderson_Llm	-68.61	78.18	6440	420	Lacustrine to marine sediment	terrestrial_sh	0	0	0	8.4	0.1	0.1	BriggsTarasov2013,ZwartzEtal1998
+Vestfold_Hills	radiocarbon	anderson_Mml	-68.61	78.18	5505	415	Marine to lacustrine	marine	1300	100	0	8.4	0.1	0.1	BriggsTarasov2013,ZwartzEtal1998
+Vestfold_Hills	radiocarbon	ace_Llm	-68.47	78.19	6605	255	Lacustrine to marine sediment	terrestrial_sh	0	0	0	8.8	0.1	0.1	BriggsTarasov2013,ZwartzEtal1998
+Vestfold_Hills	radiocarbon	ace_Lml	-68.47	78.19	5935	935	Marine to lacustrine	terrestrial_sh	0	0	0	8.8	0.1	0.1	BriggsTarasov2013,ZwartzEtal1998
+Vestfold_Hills	radiocarbon	ZDL69	-68.65	77.94	3500	86	Shell in-situ	marine	1300	100	-1	5	2	2	BriggsTarasov2013,ZwartzEtal1998,ZhangPeterson1984
+Vestfold_Hills	radiocarbon	ZDL66	-68.65	77.94	3325	103	Shell in-situ	marine	1300	100	-1	5	2	2	BriggsTarasov2013,ZwartzEtal1998,ZhangPeterson1984
+Vestfold_Hills	radiocarbon	ZDL79	-68.56	78.05	5600	77	Shell in-situ	marine	1300	100	-1	8	2	2	BriggsTarasov2013,ZwartzEtal1998,ZhangPeterson1984
+Vestfold_Hills	radiocarbon	ZDL80	-68.55	78.17	6632	118	Shell in-situ	marine	1300	100	-1	8	2	2	BriggsTarasov2013,ZwartzEtal1998,ZhangPeterson1984
+Vestfold_Hills	radiocarbon	ZDL78	-68.53	78.22	6141	90	Shell in-situ	marine	1300	100	-1	8	2	2	BriggsTarasov2013,ZwartzEtal1998,ZhangPeterson1984

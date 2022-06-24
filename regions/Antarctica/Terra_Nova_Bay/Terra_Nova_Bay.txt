@@ -1,0 +1,14 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
+Terra_Nova_Bay	radiocarbon	TO-4959(4)	-74.88	163.75	3890	80	Penguin remains (bone, collagen, guano)	marine	1130	134	1	4.2	1.3	1.3	BriggsTarasov2013,BaroniHall2004
+Terra_Nova_Bay	radiocarbon	GX-13612(2)	-74.88	163.75	6235	110	Penguin remains (bone, collagen, guano)	marine	1130	134	1	17.5	1.3	1.3	BriggsTarasov2013,BaroniHall2004
+Terra_Nova_Bay	radiocarbon	OS-36631	-74.9	163.73	6270	50	Penguin remains (bone, collagen, guano)	marine	1130	134	1	28	1.3	1.3	BriggsTarasov2013,BaroniHall2004
+Terra_Nova_Bay	radiocarbon	GX-13615(2)	-74.88	163.75	6335	110	Penguin remains (bone, collagen, guano)	marine	1130	134	1	18.5	1.3	1.3	BriggsTarasov2013,BaroniHall2004
+Terra_Nova_Bay	radiocarbon	AA-48524	-74.88	163.75	6085	80	Shell in-situ	marine	1300	100	-1	10	1.3	1.3	BriggsTarasov2013,BaroniHall2004
+Terra_Nova_Bay	radiocarbon	TO-7713	-74.88	163.9	6260	70	Shell in-situ	marine	1300	100	-1	16	1.3	1.3	BriggsTarasov2013,BaroniHall2004
+Terra_Nova_Bay	radiocarbon	TO-6648	-74.88	163.9	6500	70	Shell in-situ	marine	1300	100	-1	16	1.3	1.3	BriggsTarasov2013,BaroniHall2004
+Terra_Nova_Bay	radiocarbon	TO-6649	-74.88	163.9	6570	70	Shell in-situ	marine	1300	100	-1	17	1.3	1.3	BriggsTarasov2013,BaroniHall2004
+Terra_Nova_Bay	radiocarbon	AA-48531	-74.9	163.73	4817	43	Seal remains	marine	1424	200	0	9.5	1.3	1.3	BriggsTarasov2013,BaroniHall2004
+Terra_Nova_Bay	radiocarbon	AA-42242	-74.88	163.75	6740	59	Seal remains	marine	1424	200	0	22	1.3	1.3	BriggsTarasov2013,BaroniHall2004
+Terra_Nova_Bay	radiocarbon	AA-48536	-74.88	163.75	6883	52	Seal remains	marine	1424	200	0	26	1.3	1.3	BriggsTarasov2013,BaroniHall2004
+Terra_Nova_Bay	radiocarbon	AA-52677	-74.9	163.73	6923	73	Penguin remains (bone, collagen, guano)	marine	1130	134	0	22	1.3	1.3	BriggsTarasov2013,BaroniHall2004
+Terra_Nova_Bay	radiocarbon	AA-48518	-74.9	163.73	7365	60	Penguin remains (bone, collagen, guano)	marine	1424	200	0	28	1.3	1.3	BriggsTarasov2013,BaroniHall2004

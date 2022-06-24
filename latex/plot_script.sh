@@ -9,6 +9,12 @@ subregion=$5
 # this limits the "finely resolved" index points versus ones with larger vertical uncertainties
 index_limit=10
 
+
+minimum_colour=deepskyblue
+maximum_colour=red
+large_index_colour=limegreen@50
+small_index_colour=darkgreen@30
+
 echo ${location}
 # only do the plot if it is the data are available
 
@@ -41,28 +47,7 @@ then
 
 	gmt convert ../GIS/region_bounds.gmt -Slocation=${location} > temp/region_bound.txt
 	gmt pscoast -X${xshift} -Y${yshift} ${R_main} ${J_main}   -Df -A100  -P  -Wthinner -Slightgrey -K > ${plot}
-	gmt psxy temp/region_bound.txt    -P -K -O -J -R  -W2p,black -L   >> ${plot}
-	gmt psxy temp/region_bound.txt    -P -K -O -J -R  -Wyellow -L   >> ${plot}
 
-symbol_size=0.30
-	awk -F'\t'  '{if ( $6 == "-1" ) {print $3, $2}}' ${sea_level_file} >  temp/marine_limiting.txt
-
-	gmt psxy temp/marine_limiting.txt  -Gblue  -P -K -O -J -R -St${symbol_size} -Wblack >> ${plot}
-
-
-	awk -F'\t'   '{if ( $6 == "1" ) {print $3, $2} }' ${sea_level_file} >  temp/terrestrial_limiting.txt
-
-	gmt psxy temp/terrestrial_limiting.txt  -Gred  -P -K -O -J -R -Si${symbol_size} -Wblack >> ${plot}
-
-symbol_size=0.25
-
-	awk -F'\t' -v index_limit=${index_limit}  '{if ( $6 == "0" && $8 + $9 > index_limit  ) {print $3, $2} }' ${sea_level_file} >  temp/index_point.txt
-
-	gmt psxy temp/index_point.txt    -P -K -O -J -R -Ss${symbol_size} -W0.5p,black -Glimegreen >> ${plot}
-
-	awk -F'\t' -v index_limit=${index_limit}  '{if ( $6 == "0" && $8 + $9 <= index_limit  ) {print $3, $2} }' ${sea_level_file} >  temp/index_point.txt
-
-	gmt psxy temp/index_point.txt   -P -K -O -J -R -Ss${symbol_size} -W0.5p,black -Gdarkgreen >> ${plot}
 
 
 
@@ -79,6 +64,30 @@ symbol_size=0.25
 
 
 	gmt psbasemap  ${R_main} ${J_main} -Bafg -BWSne --MAP_TICK_LENGTH_PRIMARY=-.0c -P -K -O -Lg${scale_bar_long}/${scale_bar_lat}+c${scale_bar_reference_lat}+w${scale_bar_width}k+l"km"+jr+f+ar -Fl+gwhite --FONT_ANNOT_PRIMARY=6p --FONT_ANNOT_SECONDARY=6p --FONT_LABEL=10p >> ${plot}
+
+
+	gmt psxy temp/region_bound.txt    -P -K -O -J -R  -W2p,black -L   >> ${plot}
+	gmt psxy temp/region_bound.txt    -P -K -O -J -R  -Wyellow -L   >> ${plot}
+
+symbol_size=0.30
+	awk -F'\t'  '{if ( $6 == "-1" ) {print $3, $2}}' ${sea_level_file} >  temp/marine_limiting.txt
+
+	gmt psxy temp/marine_limiting.txt  -G${minimum_colour}  -P -K -O -J -R -St${symbol_size} -Wblack >> ${plot}
+
+
+	awk -F'\t'   '{if ( $6 == "1" ) {print $3, $2} }' ${sea_level_file} >  temp/terrestrial_limiting.txt
+
+	gmt psxy temp/terrestrial_limiting.txt  -G${maximum_colour}  -P -K -O -J -R -Si${symbol_size} -Wblack >> ${plot}
+
+symbol_size=0.25
+
+	awk -F'\t' -v index_limit=${index_limit}  '{if ( $6 == "0" && $8 + $9 > index_limit  ) {print $3, $2} }' ${sea_level_file} >  temp/index_point.txt
+
+	gmt psxy temp/index_point.txt    -P -K -O -J -R -Ss${symbol_size} -W0.5p,black -Glimegreen >> ${plot}
+
+	awk -F'\t' -v index_limit=${index_limit}  '{if ( $6 == "0" && $8 + $9 <= index_limit  ) {print $3, $2} }' ${sea_level_file} >  temp/index_point.txt
+
+	gmt psxy temp/index_point.txt   -P -K -O -J -R -Ss${symbol_size} -W0.5p,black -Gdarkgreen >> ${plot}
 
 	gmt pstext << END_TEXT -K -O -J -R ${text_options} -P -Gwhite -D0.1/-0.25 -N >> ${plot}
 $(echo ${location} | sed -e 's/_/ /g')
@@ -218,7 +227,7 @@ END_TEXT
 
 	# ensure the width and height of the index points are above a minimum threshold
 
-	threshold_dim=0.11
+	threshold_dim=0.15
 
 	x_threshold=$( echo ${x_width} ${threshold_dim} ${time_diff} | awk '{print $2 / $1 * $3}')
 	y_threshold=$( echo ${y_width} ${threshold_dim} ${elevation_diff} | awk '{print $2 / $1 * $3}')
@@ -237,31 +246,31 @@ END_TEXT
 	if [ -e "temp/maximum.txt" ]
 	then
 		symbol_size=0.20
-		gmt psxy temp/maximum.txt  -Exy+p0.1p,darkgrey+a -Gred  -P -K -O -JX -R -Si${symbol_size} -Wblack >> ${plot}
-		gmt psxy temp/maximum.txt  -Gred  -P -K -O -JX -R -Si${symbol_size} -Wblack >> ${plot}
+		gmt psxy temp/maximum.txt  -Exy+p0.1p,darkgrey+a -G${maximum_colour}  -P -K -O -JX -R -Si${symbol_size} -Wblack >> ${plot}
+		gmt psxy temp/maximum.txt  -G${maximum_colour}  -P -K -O -JX -R -Si${symbol_size} -Wblack >> ${plot}
 	fi
 
 	if [ -e "temp/minimum.txt" ]
 	then
 		symbol_size=0.3
-		gmt psxy temp/minimum.txt  -Exy+p0.1p,darkgrey+a -Gblue  -P -K -O -JX -R -St${symbol_size} -Wblack >> ${plot}
-		gmt psxy temp/minimum.txt   -Gblue  -P -K -O -JX -R -St${symbol_size} -Wblack >> ${plot}
+		gmt psxy temp/minimum.txt  -Exy+p0.1p,darkgrey+a -G${minimum_colour}  -P -K -O -JX -R -St${symbol_size} -Wblack >> ${plot}
+		gmt psxy temp/minimum.txt   -G${minimum_colour}  -P -K -O -JX -R -St${symbol_size} -Wblack >> ${plot}
 	fi
 
 	if [ -e "temp/bounded.txt" ]
 	then
 
-		awk -v plotwidth=${x_width} -v plotheight=${y_width} -v elevdiff=${elevation_diff} -v timediff=${time_diff} -v x_threshold=${threshold_dim} -v x_threshold=${threshold_dim} -v index_limit=${index_limit} '{x_error =2*$3/timediff*plotwidth; if(x_error < x_threshold){x_error=x_threshold}; y_error = 2*$5/elevdiff*plotheight; if(y_error < y_threshold){y_error=y_threshold}; if($5+$6 > index_limit) print $1, $2, x_error,y_error}' temp/bounded.txt > temp/bounded2.txt
+		awk -v plotwidth=${x_width} -v plotheight=${y_width} -v elevdiff=${elevation_diff} -v timediff=${time_diff} -v x_threshold=${threshold_dim} -v y_threshold=${threshold_dim} -v index_limit=${index_limit} '{x_error =2*$3/timediff*plotwidth; if(x_error < x_threshold){x_error=x_threshold}; y_error = 2*$5/elevdiff*plotheight; if(y_error < y_threshold){y_error=y_threshold}; if($5+$6 > index_limit) print $1, $2, x_error,y_error}' temp/bounded.txt > temp/bounded2.txt
 
 	
 
-		gmt psxy temp/bounded2.txt    -P -K -O -J -R -Sr -W0.25p,black -Glimegreen@50 >> ${plot}
+		gmt psxy temp/bounded2.txt    -P -K -O -J -R -Sr -W0.25p,black -G${large_index_colour} >> ${plot}
 
-		awk -v plotwidth=${x_width} -v plotheight=${y_width} -v elevdiff=${elevation_diff} -v timediff=${time_diff}  -v x_threshold=${threshold_dim} -v x_threshold=${threshold_dim}  -v index_limit=${index_limit} '{x_error =2*$3/timediff*plotwidth; if(x_error < x_threshold){x_error=x_threshold}; y_error = 2*$5/elevdiff*plotheight; if(y_error < y_threshold){y_error=y_threshold}; if($5+$6 <= index_limit) print $1, $2, x_error,y_error}' temp/bounded.txt > temp/bounded2.txt
+		awk -v plotwidth=${x_width} -v plotheight=${y_width} -v elevdiff=${elevation_diff} -v timediff=${time_diff}  -v x_threshold=${threshold_dim} -v y_threshold=${threshold_dim}  -v index_limit=${index_limit} '{x_error =2*$3/timediff*plotwidth; if(x_error < x_threshold){x_error=x_threshold}; y_error = 2*$5/elevdiff*plotheight; if(y_error < y_threshold){y_error=y_threshold}; if($5+$6 <= index_limit) print $1, $2, x_error,y_error}' temp/bounded.txt > temp/bounded2.txt
 
-		gmt psxy temp/bounded2.txt    -P -K -O -J -R -Sr -W0.25p,black -Gdarkgreen@30 >> ${plot}
+		gmt psxy temp/bounded2.txt    -P -K -O -J -R -Sr -W0.25p,black -G${small_index_colour} >> ${plot}
 
-#		gmt psxy temp/bounded2.txt    -P -K -O -J -R -Sr  -Glimegreen@50 >> ${plot}
+#		gmt psxy temp/bounded2.txt    -P -K -O -J -R -Sr  -G${large_index_colour} >> ${plot}
 
 
 		symbol_size=0.20
@@ -302,11 +311,11 @@ END
 
 symbol_size=0.25
 
-	gmt psxy << END -X${xshift_now} -Y${yshift_now} -R0/10/0/1 -JX14c -P -K -O -Gblue -St${symbol_size} -Wblack  >> ${plot}
+	gmt psxy << END -X${xshift_now} -Y${yshift_now} -R0/10/0/1 -JX14c -P -K -O -G${minimum_colour} -St${symbol_size} -Wblack  >> ${plot}
 2.2 0.56
 END
 
-	gmt psxy << END  -R -JX -P -K -O -Gred -Si${symbol_size} -Wblack  >> ${plot}
+	gmt psxy << END  -R -JX -P -K -O -G${maximum_colour} -Si${symbol_size} -Wblack  >> ${plot}
 5.2 0.56
 END
 
@@ -485,15 +494,15 @@ END
 		if [ -e "temp/maximum.txt" ]
 		then
 			symbol_size=0.15
-			gmt psxy temp/maximum.txt  -Exy+p0.1p,darkgrey+a -Gred  -P -K -O -JX -R -Si${symbol_size} -Wblack >> ${plot}
-			gmt psxy temp/maximum.txt  -Gred  -P -K -O -JX -R -Si${symbol_size} -Wblack >> ${plot}
+			gmt psxy temp/maximum.txt  -Exy+p0.1p,darkgrey+a -G${maximum_colour}  -P -K -O -JX -R -Si${symbol_size} -Wblack >> ${plot}
+			gmt psxy temp/maximum.txt  -G${maximum_colour}  -P -K -O -JX -R -Si${symbol_size} -Wblack >> ${plot}
 		fi
 
 		if [ -e "temp/minimum.txt" ]
 		then
 			symbol_size=0.22
-			gmt psxy temp/minimum.txt  -Exy+p0.1p,darkgrey+a -Gblue  -P -K -O -JX -R -St${symbol_size} -Wblack >> ${plot}
-			gmt psxy temp/minimum.txt   -Gblue  -P -K -O -JX -R -St${symbol_size} -Wblack >> ${plot}
+			gmt psxy temp/minimum.txt  -Exy+p0.1p,darkgrey+a -G${minimum_colour}  -P -K -O -JX -R -St${symbol_size} -Wblack >> ${plot}
+			gmt psxy temp/minimum.txt   -G${minimum_colour}  -P -K -O -JX -R -St${symbol_size} -Wblack >> ${plot}
 		fi
 
 		if [ -e "temp/bounded.txt" ]
@@ -502,15 +511,15 @@ END
 #			gmt psxy temp/bounded.txt -Exy+p0.1p,darkgrey+a -Ggreen  -P -K  -O -JX -R -Sc${symbol_size} -Wblack >> ${plot}
 #			gmt psxy temp/bounded.txt -Ggreen  -P -K  -O -JX -R -Sc${symbol_size} -Wblack >> ${plot}
 
-			awk -v plotwidth=${x_width} -v plotheight=${y_width} -v elevdiff=${elevation_diff} -v timediff=${time_diff} -v x_threshold=${threshold_dim} -v x_threshold=${threshold_dim} -v index_limit=${index_limit} '{x_error =2*$3/timediff*plotwidth; if(x_error < x_threshold){x_error=x_threshold}; y_error = 2*$5/elevdiff*plotheight; if(y_error < y_threshold){y_error=y_threshold}; if($5+$6 > index_limit) print $1, $2, x_error,y_error}' temp/bounded.txt > temp/bounded2.txt
+			awk -v plotwidth=${x_width} -v plotheight=${y_width} -v elevdiff=${elevation_diff} -v timediff=${time_diff} -v x_threshold=${threshold_dim} -v y_threshold=${threshold_dim} -v index_limit=${index_limit} '{x_error =2*$3/timediff*plotwidth; if(x_error < x_threshold){x_error=x_threshold}; y_error = 2*$5/elevdiff*plotheight; if(y_error < y_threshold){y_error=y_threshold}; if($5+$6 > index_limit) print $1, $2, x_error,y_error}' temp/bounded.txt > temp/bounded2.txt
 
 	
 
-			gmt psxy temp/bounded2.txt    -P -K -O -J -R -Sr -W0.25p,black -Glimegreen@50 >> ${plot}
+			gmt psxy temp/bounded2.txt    -P -K -O -J -R -Sr -W0.25p,black -G${large_index_colour} >> ${plot}
 
-			awk -v plotwidth=${x_width} -v plotheight=${y_width} -v elevdiff=${elevation_diff} -v timediff=${time_diff}  -v x_threshold=${threshold_dim} -v x_threshold=${threshold_dim}  -v index_limit=${index_limit} '{x_error =2*$3/timediff*plotwidth; if(x_error < x_threshold){x_error=x_threshold}; y_error = 2*$5/elevdiff*plotheight; if(y_error < y_threshold){y_error=y_threshold}; if($5+$6 <= index_limit) print $1, $2, x_error,y_error}' temp/bounded.txt > temp/bounded2.txt
+			awk -v plotwidth=${x_width} -v plotheight=${y_width} -v elevdiff=${elevation_diff} -v timediff=${time_diff}  -v x_threshold=${threshold_dim} -v y_threshold=${threshold_dim}  -v index_limit=${index_limit} '{x_error =2*$3/timediff*plotwidth; if(x_error < x_threshold){x_error=x_threshold}; y_error = 2*$5/elevdiff*plotheight; if(y_error < y_threshold){y_error=y_threshold}; if($5+$6 <= index_limit) print $1, $2, x_error,y_error}' temp/bounded.txt > temp/bounded2.txt
 
-			gmt psxy temp/bounded2.txt    -P -K -O -J -R -Sr -W0.25p,black -Gdarkgreen@30 >> ${plot}
+			gmt psxy temp/bounded2.txt    -P -K -O -J -R -Sr -W0.25p,black -G${small_index_colour} >> ${plot}
 		fi
 
 

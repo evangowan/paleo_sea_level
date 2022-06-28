@@ -9,3 +9,4 @@ Southern_Scott_Coast	East_Antarctica
 Marguerite_Bay	West_Antarctica
 King_George_Island	West_Antarctica
 Pine_Island_Bay	West_Antarctica
+James_Ross_Island	West_Antarctica

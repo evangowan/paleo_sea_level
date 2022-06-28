@@ -1,0 +1,10 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	notes
+James_Ross_Island	radiocarbon	Lu-3605	-63.927	-57.507	8560	100	Mollusc fragments   	marine	1200	0	-1	5	2	2	HjortEtal1997	elevation uncertainty stated in paper
+James_Ross_Island	radiocarbon	Lu-3607	-63.927	-57.507	8260	100	Laternula elliptica 	marine	1200	0	-1	7	2	2	HjortEtal1997	elevation uncertainty stated in paper
+James_Ross_Island	radiocarbon	Lu-2876	-63.927	-57.507	7920	60	Laternula elliptica 	marine	1200	0	-1	8	2	2	HjortEtal1997	elevation uncertainty stated in paper
+James_Ross_Island	radiocarbon	Lu-3606	-63.927	-57.507	7680	90	Laternula elliptica 	marine	1200	0	-1	12.5	2	2	HjortEtal1997	elevation uncertainty stated in paper
+James_Ross_Island	radiocarbon	Lu-3608	-63.927	-57.507	7580	110	Nacella concinna    	marine	1200	0	-1	12.9	2	2	HjortEtal1997	elevation uncertainty stated in paper
+James_Ross_Island	radiocarbon	Lu-3603	-63.913	-57.461	7980	90	Laternula elliptica 	marine	1200	0	-1	2	2	2	HjortEtal1997	elevation uncertainty stated in paper
+James_Ross_Island	radiocarbon	Ua-3223	-63.962	-57.478	8190	65	Laternula elliptica 	marine	1200	0	-1	2	2	2	HjortEtal1997	elevation uncertainty stated in paper
+James_Ross_Island	radiocarbon	Lu-3604	-63.962	-57.478	7050	90	Laternula elliptica 	marine	1200	0	-1	2.5	2	2	HjortEtal1997	elevation uncertainty stated in paper
+James_Ross_Island	radiocarbon	Ua-3222	-63.97	-57.55	5455	90	Yoldia eightsii     	marine	1200	0	-1	2	2	2	HjortEtal1997	elevation uncertainty stated in paper

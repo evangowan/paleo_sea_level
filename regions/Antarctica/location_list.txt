@@ -8,3 +8,4 @@ Terra_Nova_Bay	East_Antarctica
 Southern_Scott_Coast	East_Antarctica
 Marguerite_Bay	West_Antarctica
 King_George_Island	West_Antarctica
+Pine_Island_Bay	West_Antarctica

@@ -20,6 +20,9 @@ fi
 
 rm temp/map_plot_dimensions.txt
 
+# This is where you modify the script to change the calculated sea level, using six different ice sheet/Earth model 
+# combinations. These are placed in the "calculated_sea_level" folder. Look at the readme in that folder.
+
 reference_ice_model="72_73_74_75"
 reference_earth_model="ehgr"
 

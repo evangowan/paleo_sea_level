@@ -1,0 +1,9 @@
+In this folder, you should place your calculated sea level files. The files should be placed
+into folders that are named after the ice sheet reconstruction you are using. The name of the
+files should be "earth_model.dat", where "earth_model" is the name of the earth model
+you are using.
+
+The file "create_plots.sh" in the folder above creates the input files that are used to
+access the files placed here. So it is important to have things in the format:
+
+ice_sheet_model/earth_model.dat

@@ -14,7 +14,15 @@ This project was made possible through the wide efforts of the paleo sea level c
 
 [HOLSEA website](https://www.holsea.org/ "HOLSEA")
 
-E.J.G. is currently funded by a Japan Society for the Promotion of Science Postdoctoral Fellowship. The bulk of the work was done while funded by Helmholtz Exzellenznetzwerks "The Polar System and its Effects on the Ocean Floor (POSY)" and Helmholtz Climate Initiative REKLIM (Regional Climate Change), a joint research project at the Helmholtz Association of German research centres (HGF). Funding is also supported by the PACES-II program at the Alfred Wegener Institute and the Bundesministerium für Bildung und Forschung funded project, PalMod. Earlier work was funded from an Australian National University Postgraduate Research Scholarship.
+E.J.G acknowledges the following funding sources that made all this possible:
+
+- Japan Society for the Promotion of Science International Postdoctoral Fellowship (2021-2023)
+- Helmholtz Exzellenznetzwerks "The Polar System and its Effects on the Ocean Floor (POSY)" (2018-2020)
+- Helmholtz Climate Initiative REKLIM (Regional Climate Change), a joint research project at the Helmholtz Association of German research centres (HGF) (2016-2018)
+- the PACES-II program at the Alfred Wegener Institute (2016-2021)
+- Bundesministerium für Bildung und Forschung funded project, PalMod (2016-2021)
+- Swedish Research Council FORMAS grant (grant 2013-1600) (2014-2015)
+- Australian National University Postgraduate Research Scholarship. (2010-2014)
 
 If you use this script setup, please acknowlege using the following references.
 
@@ -31,7 +39,8 @@ Special thanks:
 Version history
 -------------
 
-- **Version 1.2**: Updated the database with an update of the Baltic Sea dataset, and added sites from the North Sea.
+- **Version 1.3**: Added Antarctica data for the Holocene and MIS 3, improved the presentation of index points on the plots, added the ability to calibrate mixed dates and terrestrial reservoir corrections, and improved documentation. (July 4, 2022)
+- **Version 1.2**: Updated the database with an update of the Baltic Sea dataset, and added sites from the North Sea. (March 15, 2022)
 - **Version 1.1**: Added some new LGM sites (including alternate Bonaparte Gulf interpretations), and modified some of the LGM and MIS 3 sites that I original set to have marine limiting points (due to large uncertainties) to have the originally interpreted sea level index ranges. (November 5, 2021)
 - **Version 1.0**: initial release (February 23, 2021)
 
@@ -50,6 +59,20 @@ I made these scripts in Ubuntu, and I do not guarantee it will work in other ope
 
 The bibtex database is maintained using JabRef.
 
+In the Fortran directory, compile the programs:
+
+- make radiocarbon\_statistics
+- make sl\_diff\_params2
+- make extract\_calc\_sea\_level
+
+An example of the workflow in the latex folder to create the report:
+
+- place the calculated sea level in the "paleo\_sea\_level" folder (see instructions on the format in the readme file)
+- edit the "create\_plots.sh" file with the ice sheet/earth model combinations that you want to plot (six models can be plotted)
+- run create\_plots.sh
+- run create\_report.sh
+
+
 Radiocarbon calibration
 ------------------
 
@@ -57,7 +80,7 @@ To do radiocarbon calibration, I use Oxcal. Put the unzip file of the Oxcal dist
 
 [Oxcal website](https://c14.arch.ox.ac.uk/oxcal.html "Oxcal")
 
-If you want to recalibrate everything, it should be as simple as running the "run_all.sh" script. It will go through all the locations in the "regions" directory. If you want to calibrate a single location, you can use the "run_one.sh" script. You can also just use the "calibrate.sh" script with the region and location as command line options.
+If you want to recalibrate everything, it should be as simple as running the "run\_all.sh" script. It will go through all the locations in the "regions" directory. If you want to calibrate a single location, you can use the "run\_one.sh" script. You can also just use the "calibrate.sh" script with the region and location as command line options.
 
 Coastlines and borders
 ------------------

@@ -1,0 +1,16 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	comment
+Kikaijima	U/Th	KM-04 	28.36	130	66200	900	Favia sp.             	-	-	-	0	-51.461703526765916	11.17199319617337	11.17199319617337	SasakiEtal2004	reliable
+Kikaijima	U/Th	AO351 	28.36	130	67800	2000	Cyphastrea sp.        	-	-	-	0	-54.68493315601896	12.968245631439169	12.968245631439169	SasakiEtal2004	reliable
+Kikaijima	U/Th	KM-13 	28.36	130	74900	900	Favia speciosa        	-	-	-	0	-76.398178936602	11.821909855030887	11.821909855030887	SasakiEtal2004	reliable
+Kikaijima	U/Th	KM-21 	28.36	130	65000	900	Favidae               	-	-	-	0	-64.12563795299542	11.084570533835192	11.084570533835192	SasakiEtal2004	reliable
+Kikaijima	U/Th	KM-23 	28.36	130	63700	900	Acropora palifera     	-	-	-	0	-86.59490024807741	8.413764750612712	8.413764750612712	SasakiEtal2004	reliable
+Kikaijima	U/Th	KM-01 	28.36	130	61200	900	Montastorea curta     	-	-	-	0	-86.22809696938887	10.811614212862558	10.811614212862558	SasakiEtal2004	reliable
+Kikaijima	U/Th	KM-05 	28.36	130	67600	1000	Favia sp.             	-	-	-	0	-102.19697477473079	11.420787403849749	11.420787403849749	SasakiEtal2004	reliable
+Kikaijima	U/Th	KS-60 	28.36	130	61400	800	Oulophyllia crispa    	-	-	-	0	-90.10757981978463	8.012294741019216	8.012294741019216	SasakiEtal2004	reliable
+Kikaijima	U/Th	KM-15 	28.36	130	62400	800	Goniastrea sp.        	-	-	-	0	-81.05430113126005	10.756762947699189	10.756762947699189	SasakiEtal2004	reliable
+Kikaijima	U/Th	KS-56 	28.36	130	52300	800	Oulophyllia crispa    	-	-	-	0	-67.39241588535839	10.066768160976496	10.066768160976496	SasakiEtal2004	reliable
+Kikaijima	U/Th	KM-20 	28.36	130	51300	600	Acropora palifera     	-	-	-	0	-79.42597175008436	6.710048102520643	6.710048102520643	SasakiEtal2004	reliable
+Kikaijima	U/Th	KM-19 	28.36	130	61800	1600	Favia pallida         	-	-	-	0	-87.96515963956926	11.876769145283712	11.876769145283712	SasakiEtal2004	reliable
+Kikaijima	U/Th	KM-17 	28.36	130	54300	700	Acropora palifera     	-	-	-	0	-85.2759970964099	7.167576697950876	7.167576697950876	SasakiEtal2004	reliable
+Kikaijima	U/Th	KM-14 	28.36	130	56100	900	Caurastrea sp.        	-	-	-	0	-83.79981828086427	7.7013664232932975	7.7013664232932975	SasakiEtal2004	reliable
+Kikaijima	U/Th	KM-27 	28.36	130	56500	800	Caurastrea sp.        	-	-	-	0	-84.56864539355513	7.554714230789566	7.554714230789566	SasakiEtal2004	reliable

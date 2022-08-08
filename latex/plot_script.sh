@@ -46,7 +46,7 @@ then
 	height=$(gmt mapproject -Wh ${R_main} ${J_main})
 
 	gmt convert ../GIS/region_bounds.gmt -Slocation=${location} > temp/region_bound.txt
-	gmt pscoast -X${xshift} -Y${yshift} ${R_main} ${J_main}   -Df -A100  -P  -Wthinner -Slightgrey -K > ${plot}
+	gmt pscoast -X${xshift} -Y${yshift} ${R_main} ${J_main}   -Df -A10  -P  -Wthinner -Slightgrey -K > ${plot}
 
 
 
@@ -113,7 +113,7 @@ END_TEXT
 	fi
 
 
-	gmt pscoast -X${x_corner} -Y${y_corner}  ${R_insert} ${J_insert}  -K -O -Di -Na -Slightgrey -P -A2000 -Wfaint -N1 --MAP_FRAME_PEN=1p,red --MAP_TICK_LENGTH_PRIMARY=-.0c -Bwens+gwhite  -B20p >> $plot #  -B20p is needed or else no map outline is drawn 
+	gmt pscoast -X${x_corner} -Y${y_corner}  ${R_insert} ${J_insert}  -K -O -Di -Na -Slightgrey -P -A100 -Wfaint -N1 --MAP_FRAME_PEN=1p,red --MAP_TICK_LENGTH_PRIMARY=-.0c -Bwens+gwhite  -B20p >> $plot #  -B20p is needed or else no map outline is drawn 
 
 
 	gmt psxy temp/region_bound.txt -Gyellow   -P -K -O -J -R  -Wblack -L   >> ${plot}

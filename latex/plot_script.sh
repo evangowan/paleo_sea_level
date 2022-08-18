@@ -178,7 +178,7 @@ END_TEXT
 		xsubtickint=2000
 		relative_time=30000
 		x_width=$( echo "scale=3; ${time_diff} / ${relative_time} * ${plot_max_width}" | bc )
-	elif [ ${time_diff} -lt 50000 ]
+	elif [ ${time_diff} -lt 45000 ]
 	then
 		xtickint=10000
 		xsubtickint=5000
@@ -374,7 +374,7 @@ END
 		xsubtickint=2000
 		relative_time=30000
 		x_width=$( echo "scale=3; ${time_diff} / ${relative_time} * ${plot_max_width}" | bc )
-	elif [ ${time_diff} -lt 50000 ]
+	elif [ ${time_diff} -lt 45000 ]
 	then
 		xtickint=10000
 		xsubtickint=5000

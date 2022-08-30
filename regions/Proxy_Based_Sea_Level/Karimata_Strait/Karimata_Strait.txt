@@ -1,0 +1,16 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	comment
+Karmata_Strait	age_model	MIS_3_early	-2.16	108.83	60000	500	18O_proxy	-	-	-	1	-22	6	6	WeissEtal2022	corrected for tectonics, 0.25+/-0.5 m
+Karmata_Strait	age_model	MIS_3_late	-2.16	108.83	32000	500	18O_proxy	-	-	-	1	-29	5	5	WeissEtal2022	corrected for tectonics, 0.25+/-0.5 m
+Karmata_Strait	age_model	interpolated_1	-2.16	108.83	34000	500	18O_proxy	-	-	-	1	-29	6	6	WeissEtal2022	digitized from plot
+Karmata_Strait	age_model	interpolated_2	-2.16	108.83	36000	500	18O_proxy	-	-	-	1	-27	6	6	WeissEtal2022	digitized from plot
+Karmata_Strait	age_model	interpolated_3	-2.16	108.83	38000	500	18O_proxy	-	-	-	1	-27	6	6	WeissEtal2022	digitized from plot
+Karmata_Strait	age_model	interpolated_4	-2.16	108.83	40000	500	18O_proxy	-	-	-	1	-26	6	6	WeissEtal2022	digitized from plot
+Karmata_Strait	age_model	interpolated_5	-2.16	108.83	42000	500	18O_proxy	-	-	-	1	-26	6	6	WeissEtal2022	digitized from plot
+Karmata_Strait	age_model	interpolated_6	-2.16	108.83	44000	500	18O_proxy	-	-	-	1	-25	6	6	WeissEtal2022	digitized from plot
+Karmata_Strait	age_model	interpolated_7	-2.16	108.83	46000	500	18O_proxy	-	-	-	1	-24	6	6	WeissEtal2022	digitized from plot
+Karmata_Strait	age_model	interpolated_8	-2.16	108.83	48000	500	18O_proxy	-	-	-	1	-24	6	6	WeissEtal2022	digitized from plot
+Karmata_Strait	age_model	interpolated_9	-2.16	108.83	50000	500	18O_proxy	-	-	-	1	-23	6	6	WeissEtal2022	digitized from plot
+Karmata_Strait	age_model	interpolated_10	-2.16	108.83	52000	500	18O_proxy	-	-	-	1	-23	6	6	WeissEtal2022	digitized from plot
+Karmata_Strait	age_model	interpolated_11	-2.16	108.83	54000	500	18O_proxy	-	-	-	1	-23	6	6	WeissEtal2022	digitized from plot
+Karmata_Strait	age_model	interpolated_12	-2.16	108.83	56000	500	18O_proxy	-	-	-	1	-23	6	6	WeissEtal2022	digitized from plot
+Karmata_Strait	age_model	interpolated_13	-2.16	108.83	58000	500	18O_proxy	-	-	-	1	-23	6	6	WeissEtal2022	digitized from plot

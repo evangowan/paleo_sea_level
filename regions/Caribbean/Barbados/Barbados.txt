@@ -150,7 +150,7 @@ Barbados	U-Th	RGF_9-20-2	13.0433	-59.5556	18116	37	A. palmate	-	-	-	0	-108.9	2.7
 Barbados	U-Th	RGF_9-21-6	13.0433	-59.5556	18174	33	A. palmate	-	-	-	0	-109.5	2.7	2.7	PeltierFairbanks2006,Fairbanks1988
 Barbados	U-Th	RGF_9-21-11	13.0433	-59.5556	18176	56	A. palmate	-	-	-	0	-109.7	2.7	2.7	PeltierFairbanks2006,Fairbanks1988
 Barbados	U-Th	RGF_9-21-10	13.0433	-59.5556	18218	44	A. palmate	-	-	-	0	-109.7	2.7	2.7	PeltierFairbanks2006,Fairbanks1988
-Barbados	U-Th	RGF15-9-5	13.0366	-59.5475	18408	26	A. palmate	-	-	-	0	-105.4	2.7	2.7	PeltierFairbanks2006,Fairbanks1988,MortlockEtal2016
+Barbados	U-Th	RGF15-9-5	13.0366	-59.5475	18408	26	A. palmate	-	-	-	0	-111.9	2.7	2.7	PeltierFairbanks2006,Fairbanks1988,MortlockEtal2016
 Barbados	U-Th	RGF_9-21-9	13.0433	-59.5556	18448	50	A. palmate	-	-	-	0	-109.7	2.7	2.7	PeltierFairbanks2006,Fairbanks1988
 Barbados	U-Th	RGF_9-22-4	13.0433	-59.5556	18549	26	A. palmate	-	-	-	0	-110.7	2.7	2.7	PeltierFairbanks2006,Fairbanks1988
 Barbados	U-Th	RGF_9-24-2	13.0433	-59.5556	18716	28	A. palmate	-	-	-	0	-113	2.7	2.7	PeltierFairbanks2006,Fairbanks1988
@@ -201,5 +201,3 @@ Barbados	U-Th	RGF_12-29-2	13.0483	-59.5531	30225	75	A. palmate	-	-	-	0	-85.7	2.7
 Barbados	U-Th	RGF_12-30-3	13.0483	-59.5531	30242	48	A. palmate	-	-	-	0	-86.4	2.7	2.7	PeltierFairbanks2006,Fairbanks1988
 Barbados	U-Th	RGF_12-30-2	13.0483	-59.5531	30298	110	A. palmate	-	-	-	0	-86.3	2.7	2.7	PeltierFairbanks2006,Fairbanks1988
 Barbados	U-Th	RGF_9-43-3	13.0433	-59.5556	31366	56	Diploria	-	-	-	0	-125.5	25	25	PeltierFairbanks2006,Fairbanks1988
-Barbados	U-Th	RGF_7-27-6_(MIS4)	13.0401	-59.5408	57746	44	A. palmata	-	-	-	0	-58	2.7	2.7	AbdulEtal2016
-Barbados	U-Th	RGF_8-25-2_(MIS4)	13.0401	-59.5408	64210	422	A. palmata	-	-	-	0	-62.1	2.7	2.7	AbdulEtal2016

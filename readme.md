@@ -82,6 +82,8 @@ To do radiocarbon calibration, I use Oxcal. Put the unzip file of the Oxcal dist
 
 If you want to recalibrate everything, it should be as simple as running the "run\_all.sh" script. It will go through all the locations in the "regions" directory. If you want to calibrate a single location, you can use the "run\_one.sh" script. You can also just use the "calibrate.sh" script with the region and location as command line options.
 
+The calibrated radiocarbon dates are recorded with 2-sigma uncertainties. In order to make the comparisons the same, the calibration script also takes other dates (which are recorded with 1-sigma uncertainties in the database) and converts them to use 2-sigma limits. All of the "calibrated.txt" dates have 2-sigma uncertainty ranges.
+
 Coastlines and borders
 ------------------
 

@@ -40,6 +40,9 @@ class IMCalc:
 		# gravity at the surface of the Earth
 		self.g = 9.81
 
+		# radius of the earth
+		self.radius_earth = 6371000.0
+
 		# default lagoonal depth
 		#     This value is derived by averaging 40 maximum depths of modern lagoons distributed around 
 		#     the world reported in Rovere et al. [15]
@@ -55,7 +58,7 @@ class IMCalc:
 
 		# checked against this site: https://www.movable-type.co.uk/scripts/latlong.html
 
-		radius_earth = 6371000.0
+
 		
 		phi1 = np.radians(latitude1)
 		phi2 = np.radians(latitude2)
@@ -66,16 +69,17 @@ class IMCalc:
 		a = np.power(np.sin((phi2-phi1)/2.0),2)+np.cos(phi1) * np.cos(phi2) * np.power(np.sin((lamda2-lamda1)/2.0),2)
 		c = 2.0 * np.arctan2(np.sqrt(a), np.sqrt(1.0-a))
 
-		distance = radius_earth * c
+		distance = self.radius_earth * c
  
 		return distance
 
+
+	# this is very slow
 	def closest_point(self, latitude1, longitude1):
 
 		closest_distance = 999999999.0
 		closest_index = 0
 
-#		start = time.time()
 
 		for index, row in self.CPD.iterrows():
 		
@@ -88,7 +92,30 @@ class IMCalc:
 					closest_distance=distance
 					closest_index=index
 
+		return closest_distance, self.CPD.loc[closest_index]
 
+	# much faster
+	def closest_point2(self, latitude1, longitude1):
+
+#		start = time.time()
+		latitude2 = self.CPD['LatCPD'].to_numpy()
+		longitude2 = self.CPD['LonCPD'].to_numpy()
+
+		distance_array = self.distance(latitude1, longitude1, latitude2, longitude2)
+
+		closest_distance = 999999999.0
+		closest_index = 0
+
+		index = -1
+
+		for distance in distance_array:
+
+			index = index + 1
+
+			if distance < closest_distance:
+					closest_distance=distance
+					closest_index=index
+		
 #		end = time.time()
 
 #		print("Execution time:",  (end-start) , "s")	
@@ -305,7 +332,7 @@ if __name__ == "__main__":
 
 	IMCalc_object = IMCalc()
 	#print(IMCalc_object.data.head())
-	distance, closest_point = IMCalc_object.closest_point(37.74344,-75.4424)
+	distance, closest_point = IMCalc_object.closest_point2(37.74344,-75.4424)
 
 	IMCalc_object.calculate_parameters(closest_point, elevation=10.0, elevation_uncertainty=3.0)
 

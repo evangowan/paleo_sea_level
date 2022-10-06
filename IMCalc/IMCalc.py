@@ -23,7 +23,7 @@ import numpy as np
 import pandas as pd
 
 
-
+#import time
 
 class IMCalc:
 
@@ -75,12 +75,23 @@ class IMCalc:
 		closest_distance = 999999999.0
 		closest_index = 0
 
+#		start = time.time()
+
 		for index, row in self.CPD.iterrows():
-			distance = self.distance(latitude1, longitude1, row['LatCPD'], row['LonCPD'])
-			#print( row['LatCPD'], row['LonCPD'], distance)
-			if distance < closest_distance:
-				closest_distance=distance
-				closest_index=index
+		
+
+			if np.absolute(latitude1 - row['LatCPD']) < 2.0: # to reduce the amount of computations
+
+				distance = self.distance(latitude1, longitude1, row['LatCPD'], row['LonCPD'])
+
+				if distance < closest_distance:
+					closest_distance=distance
+					closest_index=index
+
+
+#		end = time.time()
+
+#		print("Execution time:",  (end-start) , "s")	
 
 		return closest_distance, self.CPD.loc[closest_index]
 

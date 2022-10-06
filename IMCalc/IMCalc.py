@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# This is a python conversion of IMCalc, which was originally written in Java by Thomas Lorcheid. If you use this, please reference:
+# This is a python conversion of IMCalc, which was originally written in Java by Thomas Lorscheid. If you use this, please reference:
 
 #     Lorscheid, T. and Rovere, A., 2019. The indicative meaning calculator–quantification of paleo sea-level 
 #     relationships by using global wave and tide datasets. Open Geospatial Data, Software and Standards, 4(1), pp.1-8.
@@ -39,6 +39,12 @@ class IMCalc:
 
 		# gravity at the surface of the Earth
 		self.g = 9.81
+
+		# default lagoonal depth
+		#     This value is derived by averaging 40 maximum depths of modern lagoons distributed around 
+		#     the world reported in Rovere et al. [15]
+
+		self.default_ld = -2.0
 
 		# dictionary template for sea level data ranges
 		self.indicator = {'indicator_type': '', 'LL': '', 'UL': '', 'Indicative_Range': '', 'Reference_Water_Level': '', 'RSL': '', 'RSL_uncertainty': ''}
@@ -97,7 +103,7 @@ class IMCalc:
 
 		return uncertainty
 
-	def calculate_parameters(self, tide_wave_data, slope='', Hs='', Hs_std='', Tp='', Tp_std='', MHHW='', elevation='', elevation_uncertainty=''):
+	def calculate_parameters(self, tide_wave_data, slope='', Hs='', Hs_std='', Tp='', Tp_std='', MHHW='', ld='', elevation='', elevation_uncertainty=''):
 
 		#tide_wave_data is a numpy array taken from the CPD file
 
@@ -130,6 +136,10 @@ class IMCalc:
 		if not MHHW:
 			MHHW = tide_wave_data['MHHW']
 
+		# ld is the lagoonal depth. If it is not entered, it uses the default value.
+		if not ld:
+			ld = self.default_ld
+
 		# HSMAX an elevated wave height to calculate SWSH, using an estimate of twice the wave height standard deviation
 
 		if Hs:
@@ -156,7 +166,7 @@ class IMCalc:
 			else:
 				TPMAX = tide_wave_data['TpMEAN'] + (tide_wave_data['TpSTD'] * 2.0)
 
-		
+
 
 		# Lo: deepwater wave length
 
@@ -211,12 +221,9 @@ class IMCalc:
 
 		temp_indicator['indicator_type'] = "Coral Reef Terrace"
 
-		if (tide_wave_data['MLLW'] > -2.0):
-			temp_indicator['UL'] = tide_wave_data['MLLW']
-			temp_indicator['LL'] = -2.0
-		else:
-			temp_indicator['UL'] = NaN
-			temp_indicator['LL'] = NaN
+		temp_indicator['UL'] = tide_wave_data['MLLW']
+		temp_indicator['LL'] = db
+
 
 		indicator_array.append(temp_indicator)
 
@@ -226,8 +233,13 @@ class IMCalc:
 		temp_indicator = self.indicator.copy()
 
 		temp_indicator['indicator_type'] = "Lagoonal Deposit"
-		temp_indicator['UL'] = SWSH
-		temp_indicator['LL'] = db
+
+		if tide_wave_data['MLLW'] > ld:
+			temp_indicator['UL'] = tide_wave_data['MLLW']
+			temp_indicator['LL'] = ld
+		else:
+			temp_indicator['UL'] = np.nan
+			temp_indicator['LL'] = np.nan
 
 		indicator_array.append(temp_indicator)
 

@@ -52,6 +52,44 @@ class IMCalc:
 		# dictionary template for sea level data ranges
 		self.indicator = {'indicator_type': '', 'LL': '', 'UL': '', 'Indicative_Range': '', 'Reference_Water_Level': '', 'RSL': '', 'RSL_uncertainty': ''}
 
+		self.indicator_types = [
+		    {'indicator_number' : '1', 'indicator_type' : 'Beach Deposit (Beachrock)' },
+		    {'indicator_number' : '2', 'indicator_type' : 'Beach-Ridge' },
+		    {'indicator_number' : '3', 'indicator_type' : 'Coral Reef Terrace' },
+		    {'indicator_number' : '4', 'indicator_type' : 'Lagoonal Deposit' },
+		    {'indicator_number' : '5', 'indicator_type' : 'Marine Terrace' },
+		    {'indicator_number' : '6', 'indicator_type' : 'Shore Platform' },
+		    {'indicator_number' : '7', 'indicator_type' : 'Tidal Notch' }
+		  ]
+
+	def print_indicator_types(self):
+		print("Indicator types:")
+		for indicator in self.indicator_types:
+			print(f"{indicator['indicator_number']}) {indicator['indicator_type']}")
+
+	def select_indicator_type(self):
+		self.print_indicator_types()
+
+		print("\nSelect the number of the indicator you want")
+		indicator_number = input(">>> ")
+
+		self.check_indicator(indicator_number)
+
+		return indicator_number
+
+
+	def check_indicator(self, indicator_number):
+		found = False
+		for indicator in self.indicator_types:
+			if indicator_number == indicator['indicator_number']:
+				found = True
+
+
+		if not found:
+			print("invalid indicator number, exiting")
+			sys.exit()
+
+
 	def distance(self, latitude1, longitude1, latitude2, longitude2):
 
 		# Haversine Formula for calculating distance between two points on a sphere
@@ -141,14 +179,14 @@ class IMCalc:
 
 		return uncertainty
 
-	def calculate_parameters(self, tide_wave_data, slope='', Hs='', Hs_std='', Tp='', Tp_std='', MHHW='', ld='', elevation='', elevation_uncertainty=''):
+	def calculate_parameters(self, tide_wave_data, slope='', Hs='', Hs_std='', Tp='', Tp_std='', MHHW='', ld='', elevation='', elevation_uncertainty='', indicator_number=''):
 
 		#tide_wave_data is a numpy array taken from the CPD file
 
 		# check if there is elevation and elevation uncertainty
 
 		if elevation and not elevation_uncertainty:
-			elevation_uncertainty = calc_elevation_uncertainty(elevation)
+			elevation_uncertainty = self.calc_elevation_uncertainty(elevation)
 		elif not elevation:
 			elevation = 0
 
@@ -323,17 +361,61 @@ class IMCalc:
 			indicator['RSL'] = elevation - indicator['Reference_Water_Level']
 			indicator['RSL_uncertainty'] = np.sqrt(np.power(elevation_uncertainty,2)+np.power(indicator['Indicative_Range'],2))
 
+		# find the indicator that is wanted
+
+		found = False
+
+		if indicator_number:
+
+			for indicator_list in self.indicator_types:
+				if indicator_number == indicator_list['indicator_number']:
+					found = True
+					selected_indicator = indicator_list['indicator_type']
 
 
-		print(indicator_array)
+		for indicator_range in indicator_array:
+
+			if found:
+				if selected_indicator == indicator_range['indicator_type']:
+					self.print_range(indicator_range)
+			else: # prints everything
+				self.print_range(indicator_range)
+	
+
+	def print_range(self, indicator):
+		# this assumes that indicator array is the input
+
+		print(f"Indicator: [{indicator['indicator_type']}]")
+		print(f"Upper and lower limits: {np.round_(indicator['UL'])} {np.round_(indicator['LL'])}")
+		print(f"Indicative range: {np.round_(indicator['Indicative_Range'])}")
+		print(f"RSL: {np.round_(indicator['RSL'],3)} ± {np.round_(indicator['RSL_uncertainty'])}")
+
+
+#		print(indicator_array)
 
 
 if __name__ == "__main__":
 
 	IMCalc_object = IMCalc()
-	#print(IMCalc_object.data.head())
-	distance, closest_point = IMCalc_object.closest_point2(37.74344,-75.4424)
 
-	IMCalc_object.calculate_parameters(closest_point, elevation=10.0, elevation_uncertainty=3.0)
+
+	latitude = float(input("Enter Latitude: "))
+	longitude = float(input("Enter Longitude: "))
+
+
+	distance, closest_point = IMCalc_object.closest_point2(latitude,longitude)
+
+	try:
+		elevation = float(input("Enter the elevation of the sample (enter to just get the range): "))
+	except ValueError:
+		elevation = ''
+	try:
+		elevation_uncertainty = float(input("Enter the elevation uncertainy (enter if not known): "))
+	except ValueError:
+		elevation_uncertainty = ''
+	
+	indicator_number = IMCalc_object.select_indicator_type()	
+
+	IMCalc_object.calculate_parameters(closest_point, elevation=elevation, elevation_uncertainty=elevation_uncertainty, indicator_number=indicator_number)
 
 	#print(IMCalc_object.distance(-45.0, 45, -45.1, 45.1)/1000)

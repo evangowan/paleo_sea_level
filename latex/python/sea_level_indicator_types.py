@@ -21,6 +21,7 @@ data_list = pd.read_csv (filename, sep='\t', header=None, names=col_names)
 # find if there are points within the minimum and maximum times, which will depend on the MIS
 
 holocene = False
+deglacial=False
 stage_2 = False
 stage_3_4 = False
 stage_5_a_d = False
@@ -38,7 +39,11 @@ for index, row in data_list.iterrows():
 	if row['median_age'] <=10000.0: 
 		holocene = True
 		stage_1_2_data.append(row)
-	elif row['median_age'] <= 27000.0 and row['median_age'] > 10000.0:
+	elif row['median_age'] <= 19000.0 and row['median_age'] > 10000.0:
+		deglacial = True
+		stage_1_2_data.append(row)
+
+	elif row['median_age'] <= 27000.0 and row['median_age'] > 19000.0:
 		stage_2 = True
 
 		stage_1_2_data.append(row)
@@ -60,30 +65,40 @@ selected_data = []
 if mis == "MIS_1-2":
 	if holocene and stage_2:
 
-		min_time=0
-		max_time=30
-		age_tick=5
-		age_subtick=2.5
+		min_time=-1
+		max_time=29
+		age_tick=4
+		age_subtick=1
 
 		selected_data = stage_1_2_data.copy()
 		data_found = True
 
-	if holocene and not stage_2:
+	if holocene and not deglacial and not stage_2:
 
-		min_time=0
-		max_time=12
+		min_time=-0.5
+		max_time=11.5
+		age_tick=1
+		age_subtick=0.5
+
+		selected_data = stage_1_2_data.copy()
+		data_found = True
+
+	if stage_2 and deglacial and not holocene:
+
+		min_time=9
+		max_time=29
 		age_tick=2
 		age_subtick=1
 
 		selected_data = stage_1_2_data.copy()
 		data_found = True
 
-	if stage_2 and not holocene:
+	if not stage_2 and deglacial and holocene:
 
-		min_time=8
-		max_time=28
-		age_tick=4
-		age_subtick=2
+		min_time=-0.5
+		max_time=19.5
+		age_tick=2
+		age_subtick=1
 
 		selected_data = stage_1_2_data.copy()
 		data_found = True

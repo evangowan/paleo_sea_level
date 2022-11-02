@@ -136,7 +136,7 @@ then
 
 gmt begin test_figure pdf
 
-	gmt subplot begin 1x2 -Fs${map_plot_width}/${map_plot_height} -B
+	gmt subplot begin 1x2 -Fs${map_plot_width}/${map_plot_height} -B -M1c
 
 
 
@@ -187,9 +187,11 @@ ENDCAT
 		gmt inset end
 
 
-		gmt subplot set
+		gmt subplot set 
 
-		gmt basemap ${J_sl_plot} ${R_sl_plot} -BneSW 
+		xtext="Age (kyr BP)"
+		ytext="Elevation (m)"
+		gmt basemap ${J_sl_plot} ${R_sl_plot} -BneSW  -Bxa"${age_tick}"f"${age_subtick}"+l"${xtext}" -Bya"${ytickint}"f"${ysubtickint}"+l"${ytext}" --FONT_ANNOT_PRIMARY=10p --FONT_ANNOT_SECONDARY=8p --FONT_LABEL=12p --FONT_TITLE=10p 
 
 		symbol_size=0.20
 		if [ -f "${terrestrial_limiting_data}" ]
@@ -223,6 +225,12 @@ ENDCAT
 			gmt plot temp/converted_rectangle.txt ${J_sl_plot} ${R_sl_plot} -Sr -W0.25p,black -G${small_index_colour}${small_index_transparency}
 
 		fi
+
+
+
+		gmt text << END -F+f10p,Helvetica,black,+cBL -D0.2/0.2 -Gwhite 
+\# samples: ${number_data_points}
+END
 
 
 	gmt subplot end

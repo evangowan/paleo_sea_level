@@ -30,8 +30,10 @@ echo ${location}
 
 
 map_plot_width=9
-map_plot_height=11
+map_plot_height=9
 sub_map_plot_width=2
+
+plot_buffer=1
 
 # in km
 sub_map_distance=1000
@@ -136,7 +138,8 @@ then
 
 gmt begin test_figure pdf
 
-	gmt subplot begin 1x2 -Fs${map_plot_width}/${map_plot_height} -B -M1c
+
+	gmt subplot begin 1x2 -Y20c -Fs${map_plot_width}/${map_plot_height} -B -M${plot_buffer}c
 
 
 
@@ -235,6 +238,135 @@ END
 
 	gmt subplot end
 
+	legend_y_shift=-2
+	legend_height=2
+	legend_width=$(echo "${map_plot_width} * 2 + ${plot_buffer} * 2" | bc)
+	reference_x=$(echo "${legend_width} - 0.25" | bc )
+
+	J_legend="-JX${legend_width}c/${legend_height}c"
+	R_legend="-R0/${legend_width}/0/${legend_height}"
+
+	symbol_size=0.25
+
+	top_position=1.0
+	bottom_position=0.5
+
+	left_position=0.2
+	right_position=4
+
+	text_buffer=0.3
+
+	left_text=$(echo "${left_position} + ${text_buffer}" | bc )
+	right_text=$(echo "${right_position} + ${text_buffer}" | bc )
+
+	heading_x=1.9
+	heading_y=1.5
+
+
+
+	gmt plot << END -Y${legend_y_shift}c ${J_legend} ${R_legend}  -G${minimum_colour} -St${symbol_size} -Wblack
+${left_position} ${top_position}
+END
+
+	gmt plot << END  ${J_legend} ${R_legend} -G${maximum_colour} -Si${symbol_size} -Wblack
+${right_position} ${top_position}
+END
+
+
+	gmt plot << END   ${J_legend} ${R_legend} -Ss${symbol_size} -W0.5p,black -Gdarkgreen 
+${left_position} ${bottom_position}
+END
+
+
+	gmt plot << END  ${J_legend} ${R_legend}  -Ss${symbol_size} -W0.5p,black -Glimegreen
+${right_position} ${bottom_position}
+END
+
+	gmt text << END  ${J_legend} ${R_legend}  -F+f10p,Helvetica+jLM+a0 
+${left_text} ${top_position} Marine Limiting
+${right_text} ${top_position} Terrestrial Limiting
+${left_text} ${bottom_position} Index point (@%12%\243@%%${index_limit}m)
+${right_text} ${bottom_position} Index point (>${index_limit}m)
+END
+
+	gmt text << END  ${J_legend} ${R_legend}  -F+f10p,Helvetica-Bold+jLM+a0 
+${heading_x} ${heading_y} Sea level proxy type
+END
+
+
+
+	gmt text << END  ${J_legend} ${R_legend} -F+f10p,Helvetica+jRM+a0
+${reference_x} ${bottom_position} @_Reference ice model@_: ${reference_ice_model}      @_Reference Earth Model@_: ${reference_earth_model}
+ 
+END
+
+	large_font="9p"
+	small_font="5p"
+	title_offset=2p
+
+	sl_plot_width_small=$(echo ${sl_plot_width} | awk '{print 2.0*$1/3.0}')
+	sl_plot_height_small=$(echo ${elevation_plot_height} | awk '{print 2.0*$1/3.0}')
+	J_sl_plot_small="-JX-${sl_plot_width_small}/${sl_plot_height_small}"
+
+	map_plot_width_small=$(echo ${map_plot_width} | awk '{print 2.0*$1/3.0}')
+
+	echo "widths: ${sl_plot_width_small} ${sl_plot_width}"
+	echo "j: ${J_sl_plot} ${J_sl_plot_small}"
+
+	grid_y_shift=-$(echo ${elevation_plot_height} ${sl_plot_height_small} | awk '{print  $2 * 2 + 1.5 }')
+	echo  -Y${grid_y_shift}c
+	gmt subplot begin 2x3 -M0.1c/0.3c -Y${grid_y_shift}c -X1c -Fs${map_plot_width_small}c/0 -Scb+l"${xtext}" -Srl+l"${ytext}"  ${R_sl_plot} ${J_sl_plot_small} -BWSne   -Bxa"${age_tick}"f"${age_subtick}" -Bya"${ytickint}"f"${ysubtickint}"  --FONT_ANNOT_PRIMARY=${large_font} --FONT_ANNOT_SECONDARY=${small_font} --FONT_LABEL=${large_font} --FONT_TITLE=${large_font} --MAP_TITLE_OFFSET=${title_offset}
+
+		counter=1
+		for row in 0 1
+		do
+			for column in 0 1 2
+			do
+
+				
+				ice_model=$(awk -v line=${counter} '{if (NR == line) {print $1}}' temp/compare_models.txt )
+				earth_model=$(awk -v line=${counter} '{if (NR == line) {print $2}}' temp/compare_models.txt )
+
+
+				gmt basemap -B+t"@_IM:@_ ${ice_model}   @_EM:@_ ${earth_model}" -c${row},${column}
+				symbol_size=0.20
+				if [ -f "${terrestrial_limiting_data}" ]
+				then
+					symbol_size=0.30
+					gmt plot ${terrestrial_limiting_data}   -Exy+p0.1p,darkgrey+a -G${maximum_colour} -Si${symbol_size} -Wblack -c${row},${column}
+					gmt plot ${terrestrial_limiting_data}   -G${maximum_colour} -Si${symbol_size} -Wblack -c${row},${column}
+				fi
+
+				if [ -f "${marine_limiting_data}" ]
+				then
+					symbol_size=0.3
+					gmt plot ${marine_limiting_data}   -Exy+p0.1p,darkgrey+a -G${minimum_colour}  -St${symbol_size} -Wblack -c${row},${column}
+					gmt plot ${marine_limiting_data}   -G${minimum_colour}  -St${symbol_size} -Wblack -c${row},${column}
+				fi
+
+				if [ -f "${index_point_large_data}" ]
+				then
+
+					python3 python/rectangle_convert.py ${index_point_large_data} ${sl_plot_width_small} ${sl_plot_height_small} ${min_time} ${max_time} ${min_elevation} ${max_elevation}
+
+					gmt plot temp/converted_rectangle.txt  -Sr -W0.25p,black -G${large_index_colour}${large_index_transparency} -c${row},${column}
+
+				fi
+
+				if [ -f "${index_point_small_data}" ]
+				then
+
+					python3 python/rectangle_convert.py ${index_point_small_data} ${sl_plot_width_small} ${sl_plot_height_small} ${min_time} ${max_time} ${min_elevation} ${max_elevation}
+
+					gmt plot temp/converted_rectangle.txt -Sr -W0.25p,black -G${small_index_colour}${small_index_transparency} -c${row},${column}
+
+				fi
+
+				counter=$(echo "${counter} + 1" | bc)
+
+			done
+		done
+	gmt subplot end
 gmt end
 
 fi

@@ -305,6 +305,12 @@ if data_found:
 	index_point_small_data="temp/index_point_small_data.txt"
 	index_point_large_data="temp/index_point_large_data.txt"
 
+	number_marine_limiting = len(marine_limiting_datapoints)
+	print(f"number_marine_limiting={number_marine_limiting}")
+	number_terrestrial_limiting = len(terrestrial_limiting_datapoints)
+	print(f"number_terrestrial_limiting={number_terrestrial_limiting}")
+	number_index_points = len(index_point_small_datapoints) + len(index_point_large_datapoints)
+	print(f"number_index_points={number_index_points}")
 
 	if marine_limiting:
 
@@ -372,4 +378,8 @@ else:
 	print(f'ysubtickint=0')
 	print(f'elevation_plot_height=0')
 	print(f"number_data_points={0}")
+	print(f"number_marine_limiting={0}")
+	print(f"number_terrestrial_limiting={0}")
+	print(f"number_index_points={0}")
+
 

@@ -13,6 +13,8 @@ then
 fi
 
 
+statistics_file="statistics/${region}_${location}.txt"
+
 # this limits the "finely resolved" index points versus ones with larger vertical uncertainties
 index_limit=10
 
@@ -278,6 +280,11 @@ ENDCAT
 \# samples: ${number_data_points}
 END
 
+		echo ${number_data_points} >  ${statistics_file}
+		echo ${number_marine_limiting} >>  ${statistics_file}
+		echo ${number_terrestrial_limiting} >>  ${statistics_file}
+		echo ${number_index_points} >>  ${statistics_file}
+
 
 	gmt subplot end
 
@@ -424,8 +431,10 @@ END
 					gmt text << END  -F+f${large_font},Helvetica,black,+cTR -D-0.2/-0.2 -Gwhite
 Score: ${score}
 END
+					echo ${score} >> ${statistics_file}
 				else
 					echo "Could not find: calculated_sea_level/${ice_model}/${earth_model}.dat"
+					echo "-" >> ${statistics_file}
 				fi
 
 				counter=$(echo "${counter} + 1" | bc)

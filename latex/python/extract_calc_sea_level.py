@@ -45,12 +45,7 @@ def closest_point(latitude_array,longitude_array, latitude, longitude):
 		return distance
 
 	distance_array = distance(latitude, longitude, latitude_array, longitude_array)
-#	counter = 0
-#	for distance_val in distance_array:
-#		print(longitude_array[counter], latitude_array[counter], longitude, latitude, distance_val)
-#		counter = counter + 1
 
-#	sys.exit()
 	closest_distance = 999999999.0
 	closest_index = 0
 
@@ -65,6 +60,117 @@ def closest_point(latitude_array,longitude_array, latitude, longitude):
 				closest_index=index
 	
 	return closest_distance, closest_index
+
+
+
+def find_score(sea_level_curve,data_point):
+
+	def intermediate_elevation(age1, age2, elevation1, elevation2, intermediate_age):
+		
+		slope = (elevation1 - elevation2) / (age1 - age2)
+		intercept = elevation1 - slope * age1
+
+		elevation = slope * intermediate_age + intercept
+		return elevation
+
+	score = 0
+
+
+	old_age = (data_point['median_age'] + data_point['age_uncertainty']) / 1000.0
+	young_age = (data_point['median_age'] - data_point['age_uncertainty']) / 1000.0
+
+	data_dict = {'age':'', 'calc_sl':''}
+
+	check_points = []
+
+	number_points = len(sea_level_curve)
+
+	# add points between the age ranges
+	for index_number in range(number_points-1):
+		if sea_level_curve[index_number]['age'] <= old_age and sea_level_curve[index_number]['age'] >= young_age: # add the point
+			data_dict['age'] = sea_level_curve[index_number]['age']
+			data_dict['calc_sl'] = sea_level_curve[index_number]['sea_level']
+			check_points.append(data_dict.copy())
+
+	# add points from the old and young ages
+
+	for index_number in range(number_points-2):
+		if sea_level_curve[index_number]['age'] < old_age and sea_level_curve[index_number+1]['age'] > old_age: # add the point
+
+			data_dict['age'] = old_age
+			data_dict['calc_sl'] = intermediate_elevation(sea_level_curve[index_number]['age'], sea_level_curve[index_number+1]['age'],sea_level_curve[index_number]['sea_level'], sea_level_curve[index_number+1]['sea_level'], old_age)
+			check_points.append(data_dict.copy())
+
+
+		if sea_level_curve[index_number]['age'] < young_age and sea_level_curve[index_number+1]['age'] > young_age: # add the point
+
+			data_dict['age'] = young_age
+			data_dict['calc_sl'] = intermediate_elevation(sea_level_curve[index_number]['age'], sea_level_curve[index_number+1]['age'],sea_level_curve[index_number]['sea_level'], sea_level_curve[index_number+1]['sea_level'], young_age)
+			check_points.append(data_dict.copy())
+
+	if check_points:
+
+		found_score = True
+
+		# marine limiting
+		if data_point['indicator_type'] == -1:
+
+			check_elevation = data_point['rsl'] - data_point['rsl_lower']
+
+
+			score = 999999.0
+
+			for point in check_points:
+				temp_score = check_elevation - point['calc_sl']
+				if temp_score < score:
+					score = temp_score
+
+			if score < 0:
+				score = 0
+
+
+		# terrestrial limiting
+		elif data_point['indicator_type'] == 1:
+
+			check_elevation = data_point['rsl'] + data_point['rsl_upper']
+
+			score = 999999.0
+
+			for point in check_points:
+				temp_score = point['calc_sl'] - check_elevation
+				if temp_score < score:
+					score = temp_score
+
+			if score < 0:
+				score = 0
+
+
+		# terrestrial limiting
+		elif data_point['indicator_type'] == 0:
+
+			check_elevation_upper = data_point['rsl'] + data_point['rsl_upper']
+			check_elevation_lower = data_point['rsl'] - data_point['rsl_lower']
+
+			score = 9999999.0
+			for point in check_points:
+				if point['calc_sl'] > check_elevation_upper:
+					temp_score = point['calc_sl'] - check_elevation_upper
+				elif point['calc_sl'] < check_elevation_lower:
+					temp_score = check_elevation_lower - point['calc_sl']
+				else:
+					temp_score = 0
+
+				if temp_score < score:
+					score = temp_score
+
+		else:
+			print(f"invalid indicator type: {data_point['sample_code']}")
+			found_score = False
+
+	else:
+		found_score = False
+
+	return found_score, score
 
 
 # start of program
@@ -123,39 +229,52 @@ if has_data:
 	
 	closest_index_list = []
 
+	valid_score = True
+	total_score = 0
+
 	for data_point in relevant_data:
 
 		# find the closest point
-			closest_distance, closest_index = closest_point(latitude,longitude,data_point['latitude'],data_point['longitude'])
+		closest_distance, closest_index = closest_point(latitude,longitude,data_point['latitude'],data_point['longitude'])
 
-			if closest_index in closest_index_list:
-				writeout = False
+		if closest_index in closest_index_list:
+			writeout = False
+		else:
+			writeout = True
+			closest_index_list.append(closest_index)
+
+		if closest_distance < threshold_distance:
+
+			sea_level_curve = sl_only.iloc[closest_index]
+			
+			sea_level_curve_array = []
+			for age, sea_level in sea_level_curve.iteritems():
+
+				sl_dict['age'] = float(age)
+				sl_dict['sea_level'] = float(sea_level)
+				sea_level_curve_array.append(sl_dict.copy())
+
+			sorted_sea_level_curve_array = sorted(sea_level_curve_array, key=lambda ele: ele['age'])
+			if writeout:
+				fout.write(">\n")
+				for ts_element in sorted_sea_level_curve_array:
+					fout.write(f"{ts_element['age']} {ts_element['sea_level']}\n")
+
+			# find the score
+
+			found_score, score = find_score(sorted_sea_level_curve_array,data_point)
+
+			print(f"{data_point['sample_code']} {data_point['indicator_type']} {score}")
+			if found_score:
+				total_score = total_score + score
 			else:
-				writeout = True
-				closest_index_list.append(closest_index)
+				valid_score = false
 
-			if closest_distance < threshold_distance:
+		else:
+			print(f"Warning, no calculated sea level at: {data_point['longitude']}, {data_point['latitude']}")
 
-				sea_level_curve = sl_only.iloc[closest_index]
-				
-				sea_level_curve_array = []
-				for age, sea_level in sea_level_curve.iteritems():
-
-					sl_dict['age'] = float(age)
-					sl_dict['sea_level'] = float(sea_level)
-					sea_level_curve_array.append(sl_dict.copy())
-
-				sorted_sea_level_curve_array = sorted(sea_level_curve_array, key=lambda ele: ele['age'])
-				if writeout:
-					fout.write(">\n")
-					for ts_element in sorted_sea_level_curve_array:
-						fout.write(f"{ts_element['age']} {ts_element['sea_level']}\n")
-
-				
-
-			else:
-				print(f"Warning, no calculated sea level at: {data_point['longitude']}, {data_point['latitude']}")
-
+	total_score = int(np.rint(total_score))
+	print(f"score:  {total_score}")
 	fout.close()
 
 else:

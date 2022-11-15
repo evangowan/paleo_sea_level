@@ -229,7 +229,15 @@ ENDCAT
 
 		fi
 
+		# plot calculated curves:
 
+		rm temp/calc_sl_curves.txt
+
+		python3 python/extract_calc_sea_level.py calculated_sea_level/${reference_ice_model}/${reference_earth_model}.dat ${sea_level_file} ${mis_stage}
+
+		gmt plot temp/calc_sl_curves.txt -Wthinnest,black  ${J_sl_plot} ${R_sl_plot}
+
+		# number of data points
 
 		gmt text << END -F+f10p,Helvetica,black,+cBL -D0.2/0.2 -Gwhite 
 \# samples: ${number_data_points}
@@ -360,6 +368,24 @@ END
 
 					gmt plot temp/converted_rectangle.txt -Sr -W0.25p,black -G${small_index_colour}${small_index_transparency} -c${row},${column}
 
+				fi
+
+				# plot calculated curves:
+
+				if [ -f "calculated_sea_level/${ice_model}/${earth_model}.dat" ]
+				then
+					rm temp/calc_sl_curves.txt
+
+					python3 python/extract_calc_sea_level.py calculated_sea_level/${ice_model}/${earth_model}.dat ${sea_level_file} ${mis_stage}
+
+					if [ -f "temp/calc_sl_curves.txt" ]
+					then
+						gmt plot temp/calc_sl_curves.txt -Wthinnest,black
+					else
+						echo "Could not find valid calculated curves in: calculated_sea_level/${ice_model}/${earth_model}.dat"
+					fi
+				else
+					echo "Could not find: calculated_sea_level/${ice_model}/${earth_model}.dat"
 				fi
 
 				counter=$(echo "${counter} + 1" | bc)

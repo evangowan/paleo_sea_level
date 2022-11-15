@@ -119,8 +119,8 @@ elif mis == "MIS_5_a_d":
 
 	if stage_5_a_d:
 
-		min_time=25
-		max_time=75
+		min_time=70
+		max_time=120
 		age_tick=10
 		age_subtick=5
 

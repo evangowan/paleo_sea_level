@@ -46,7 +46,7 @@ do
 		if [ -d ../regions/${region}/${location} ]
 		then
 
-			stats=$(cat statistics/${subregion}_${location}.txt | tr '\n' ' ')
+			stats=$(cat statistics/${region}_${location}.txt | tr '\n' ' ')
 
 			echo ${location} ${stats} >> temp/subregion_temp/${subregion}.txt
 

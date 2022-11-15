@@ -384,6 +384,12 @@ END
 					else
 						echo "Could not find valid calculated curves in: calculated_sea_level/${ice_model}/${earth_model}.dat"
 					fi
+
+					score=$(awk '{print $1}' temp/score.txt)
+
+					gmt text << END  -F+f${large_font},Helvetica,black,+cTR -D-0.2/-0.2 -Gwhite
+Score: ${score}
+END
 				else
 					echo "Could not find: calculated_sea_level/${ice_model}/${earth_model}.dat"
 				fi

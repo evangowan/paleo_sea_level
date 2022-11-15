@@ -221,6 +221,12 @@ for index, row in data_list.iterrows():
 
 sl_dict = {'age':'','sea_level':'' }
 
+
+
+scorefile="temp/score.txt"
+
+scoreout = open(scorefile,'wt')
+
 if has_data:
 
 	fileout="temp/calc_sl_curves.txt"
@@ -264,7 +270,7 @@ if has_data:
 
 			found_score, score = find_score(sorted_sea_level_curve_array,data_point)
 
-			print(f"{data_point['sample_code']} {data_point['indicator_type']} {score}")
+
 			if found_score:
 				total_score = total_score + score
 			else:
@@ -272,10 +278,20 @@ if has_data:
 
 		else:
 			print(f"Warning, no calculated sea level at: {data_point['longitude']}, {data_point['latitude']}")
+			valid_score = false
 
-	total_score = int(np.rint(total_score))
-	print(f"score:  {total_score}")
 	fout.close()
 
+	total_score = int(np.rint(total_score))
+	if valid_score:
+		
+		scoreout.write(f'{total_score}')
+
+	else:
+		scoreout.write('-')
+
 else:
+
 	print("no relevant data")
+
+	scoreout.write('-')

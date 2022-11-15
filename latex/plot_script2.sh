@@ -13,8 +13,6 @@ then
 fi
 
 
-
-
 # this limits the "finely resolved" index points versus ones with larger vertical uncertainties
 index_limit=10
 
@@ -113,7 +111,46 @@ terrestrial_limiting_data="temp/terrestrial_limiting_data.txt"
 index_point_small_data="temp/index_point_small_data.txt"
 index_point_large_data="temp/index_point_large_data.txt"
 
-rm ${marine_limiting_map} ${terrestrial_limiting_map} ${index_point_small_map}  ${index_point_large_map} ${marine_limiting_data} ${terrestrial_limiting_data} ${index_point_small_data}  ${index_point_large_data} 
+if [ -f "${marine_limiting_map}" ]
+then
+	rm ${marine_limiting_map}
+fi
+
+if [ -f "${marine_limiting_map}" ]
+then
+	rm ${terrestrial_limiting_map}
+fi
+
+if [ -f "${index_point_small_map}" ]
+then
+	rm ${index_point_small_map}
+fi
+
+if [ -f "${index_point_large_map}" ]
+then
+	rm ${index_point_large_map}
+fi
+
+if [ -f "${marine_limiting_data}" ]
+then
+	rm ${marine_limiting_data}
+fi
+
+
+if [ -f "${terrestrial_limiting_data}" ]
+then
+	rm ${terrestrial_limiting_data}
+fi
+
+if [ -f "${index_point_small_data}" ]
+then
+	rm ${index_point_small_data}
+fi
+
+if [ -f "${index_point_large_data}" ]
+then
+	rm ${index_point_large_data}
+fi
 
 
 sl_plot_width=${map_plot_width}
@@ -130,8 +167,6 @@ source temp/sl_plot_options.sh
 J_sl_plot="-JX-${sl_plot_width}/${elevation_plot_height}"
 R_sl_plot="-R${min_time}/${max_time}/${min_elevation}/${max_elevation}"
 
-
-echo ${data_found}
 
 if [ "${data_found}" = "True" ]
 then
@@ -318,11 +353,10 @@ END
 
 	map_plot_width_small=$(echo ${map_plot_width} | awk '{print 2.0*$1/3.0}')
 
-	echo "widths: ${sl_plot_width_small} ${sl_plot_width}"
-	echo "j: ${J_sl_plot} ${J_sl_plot_small}"
+
 
 	grid_y_shift=-$(echo ${elevation_plot_height} ${sl_plot_height_small} | awk '{print  $2 * 2 + 1.5 }')
-	echo  -Y${grid_y_shift}c
+
 	gmt subplot begin 2x3 -M0.1c/0.3c -Y${grid_y_shift}c -X1c -Fs${map_plot_width_small}c/0 -Scb+l"${xtext}" -Srl+l"${ytext}"  ${R_sl_plot} ${J_sl_plot_small} -BWSne   -Bxa"${age_tick}"f"${age_subtick}" -Bya"${ytickint}"f"${ysubtickint}"  --FONT_ANNOT_PRIMARY=${large_font} --FONT_ANNOT_SECONDARY=${small_font} --FONT_LABEL=${large_font} --FONT_TITLE=${large_font} --MAP_TITLE_OFFSET=${title_offset}
 
 		counter=1

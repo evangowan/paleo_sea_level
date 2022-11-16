@@ -1,2 +1,2 @@
-Red_Sea_proxy_30ka	Red_Sea
+Red_Sea_proxy	Red_Sea
 Karimata_Strait	Southeast_Asia

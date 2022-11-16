@@ -170,9 +170,21 @@ if data_found:
 
 	# let's round it
 
-	max_elevation = np.ceil(max_elevation/interval_basis) * interval_basis
+	max_elevation_temp = np.ceil(max_elevation/interval_basis) * interval_basis
 
-	min_elevation = np.floor(min_elevation/interval_basis) * interval_basis
+	min_elevation_temp = np.floor(min_elevation/interval_basis) * interval_basis
+
+
+	if max_elevation_temp - max_elevation < interval_basis:
+		max_elevation = max_elevation_temp + interval_basis
+	else:
+		max_elevation = max_elevation_temp
+
+
+	if min_elevation - min_elevation_temp  < interval_basis:
+		min_elevation = min_elevation_temp - interval_basis
+	else:
+		min_elevation = min_elevation_temp
 
 	elevation_range = max_elevation - min_elevation
 

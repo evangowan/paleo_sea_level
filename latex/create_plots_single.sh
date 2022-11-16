@@ -6,6 +6,8 @@ region_input=$1
 
 location=$2
 
+mis=$3
+
 if [ ! -d plots ]
 then
   mkdir plots
@@ -61,8 +63,8 @@ do
 
 				found_location=true
 				subregion=$(awk -v line=${counter} --field-separator '\t' '{if (NR==line) {print $2}}' ../regions/${region}/location_list.txt)
-				source plot_script.sh ${region} ${location} ${reference_ice_model} ${reference_earth_model} ${subregion}
-
+				#source plot_script.sh ${region} ${location} ${reference_ice_model} ${reference_earth_model} ${subregion}
+				source plot_script2.sh  ${region}  ${location} ${mis} ${reference_ice_model} ${reference_earth_model} 
 			fi
 
 		done

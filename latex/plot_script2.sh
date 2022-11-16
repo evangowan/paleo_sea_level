@@ -13,7 +13,7 @@ then
 fi
 
 
-statistics_file="statistics/${region}_${location}.txt"
+statistics_file="statistics/${region}_${location}_${mis_stage}.txt"
 
 # this limits the "finely resolved" index points versus ones with larger vertical uncertainties
 index_limit=10
@@ -173,7 +173,7 @@ R_sl_plot="-R${min_time}/${max_time}/${min_elevation}/${max_elevation}"
 if [ "${data_found}" = "True" ]
 then
 
-gmt begin test_figure pdf
+gmt begin plots/${region}_${location}_${mis_stage} pdf
 
 
 	gmt subplot begin 1x2 -Y20c -Fs${map_plot_width}/${map_plot_height} -B -M${plot_buffer}c
@@ -219,7 +219,7 @@ END_TEXT
 
 
 		gmt inset begin -DjTR+w${sub_map_plot_width}c/${sub_map_plot_width}c 
-			gmt coast  ${R_insert} ${J_insert}  -Di -Na -Slightgrey  -A500 -Wfaint -N1 --MAP_FRAME_PEN=1p,red --MAP_TICK_LENGTH_PRIMARY=-.0c -Bwens+gwhite  -B20
+			gmt coast  ${R_insert} ${J_insert}  -Di -Na -Slightgrey  -A500 -Wfaint -N1 --MAP_FRAME_PEN=2p,red --MAP_TICK_LENGTH_PRIMARY=-.0c -Bwens+gwhite  -B20
 	#		gmt plot temp/region_bound.txt -Gyellow    ${R_insert} ${J_insert}   -Wblack -L 
 			gmt plot -Gyellow -Ss0.25 -W1p,black ${R_insert} ${J_insert} << ENDCAT
 ${center_longitude} ${center_latitude}

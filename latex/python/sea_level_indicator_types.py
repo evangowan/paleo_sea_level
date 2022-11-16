@@ -181,13 +181,13 @@ if data_found:
 	# expand the range so it is at least 80
 	if elevation_range == 40:
 		max_elevation = max_elevation + interval_basis
-		min_elevation = min_elevation + interval_basis
+		min_elevation = min_elevation - interval_basis
 
 		elevation_range = 80
 
 	elif elevation_range == 60:
 		if elevation_midpoint <= 0.:
-			min_elevation = min_elevation + interval_basis
+			min_elevation = min_elevation - interval_basis
 		else:
 			max_elevation = max_elevation + interval_basis
 

@@ -22,11 +22,43 @@ rm figure_tex/*
 rm statistics_tex/*
 rm temp/subregion_temp/*
 
-rm temp/subregions.txt
+rm figure_tex/summary.tex
 
-		cat << END_CAT >> statistics_tex/summary.tex
+for MIS in 'MIS_1-2' 'MIS_3-4' #'MIS_5_a_d' 'MIS_5e' # for now, no MIS 5
+do
+
+if [ -f "temp/subregions.txt" ]
+then
+rm temp/subregions.txt
+fi
+
+if [ "${MIS}" == "MIS_1-2" ]
+then
+	MIS_header="MIS 1 and 2 (LGM to present)"
+
+	MIS_text="The Holocene (roughly equivalent to MIS 1) spans from 11.65 kyr before present to present. MIS 2 encompasses the Last Glacial Maximum (27-19 kyr BP) and the deglacial period that goes until the end of the Younger Dryas. In general, paleo sea level proxies are abundant in the Holocene, when sea level was within 30 m of present, but are uncommon before that. The lack of proxies older than the Holocene is in a large part due to their inaccessibility (in water to deep for typical coring methods). In most cases, MIS 2 aged sea level proxies are from drowned coral reefs in tropical areas, or in relatively broad continental shelves."
+elif [ "${MIS}" == "MIS_3-4" ]
+then
+	MIS_header="MIS 3 and 4"
+	MIS_text="MIS 3 is an interstadial period that stretches between about 55 and 27 kyr before present. MIS 4 is a glacial period when the ice sheets significantly expanded in North America and Europe, between about 70 and 55 kyr. There are few sea level proxies from this time interval for three main reasons. First, such deposits are hard to date, because the material is near or beyond the limits of radiocarbon dating. Second, the geological evidence in many areas was eroded by the subsequent rise in sea level during the MIS 1 and 2 deglaciation. As a result, many of the proxies are only preserved in places where there is a substantial tectonic uplift rate. Third, relative sea level during MIS 3 and 4 likely never exceeded -30 m, so the deposits are likely below the depth limit of most coring survey methods."
+elif [ "${MIS}" == "MIS_5_a_d" ]
+then
+	MIS_header="MIS 5 a-d"
+	MIS_text="MIS 5 a-d represents the period between about 115-70 kyr before present. MIS 5d and 5b represent stadial periods, where the northern hemisphere ice sheets expanded, though to what extent is not well constrained. The MIS 5c and 5a periods were interstadial periods where the ice sheets in the Northern Hemisphere, and there was a relative sea level highstand. Exactly how much ice there was in excess of the present amount is not well understood, but it seems unlikely that sea level exceeded present level."
+elif [ "${MIS}" == "MIS_5e" ]
+
+then
+	MIS_header="MIS 5e (last interglacial)"
+	MIS_text="MIS 5e, also known as the last interglacial, was a period of relatively high sea level between 135 and 115 kyr before present. It is very likely that sea level was higher than present during MIS 5e, but how that relates to global sea level is not well constrained. This is in part due to the differences in the MIS 6 glaciation compared to the MIS 5-2 glaciation. It is also probable that the Greenland and Antarctic ice sheet volume was less."
+else
+	echo "error in MIS stages"
+fi
+
+cat << END_CAT >> statistics_tex/summary.tex
 
 \clearpage
+
+\subsection{${MIS_header}}
 
 END_CAT
 
@@ -43,12 +75,15 @@ do
 		location=$(awk -v line=${counter} --field-separator '\t' '{if (NR==line) {print $1}}' ../regions/${region}/location_list.txt)
 		subregion=$(awk -v line=${counter} --field-separator '\t' '{if (NR==line) {print $2}}' ../regions/${region}/location_list.txt)
 
-		if [ -d ../regions/${region}/${location} ]
+		plot=plots/${region}_${location}_${MIS}.pdf
+
+
+		if [ -f ${plot} ]
 		then
 
-			stats=$(cat statistics/${region}_${location}.txt | tr '\n' ' ')
+			stats=$(cat statistics/${region}_${location}_${MIS}.txt | tr '\n' ' ')
 
-			echo ${location} ${stats} >> temp/subregion_temp/${subregion}.txt
+			echo ${location} ${stats} >> temp/subregion_temp/${subregion}_${MIS}.txt
 
 			echo -e "${region}\t${subregion}" >> temp/subregions.txt
 
@@ -57,8 +92,8 @@ do
 
 			if [ ! -f figure_tex/${subregion}.tex ]
 			then
-				cat << END_CAT > figure_tex/${subregion}.tex 
-\subsection{${subregion_space}}
+				cat << END_CAT > figure_tex/${subregion}_${MIS}.tex 
+\subsubsection{${subregion_space}}
 
 References for the data used in each location.
 
@@ -67,7 +102,7 @@ END_CAT
 
 			fi
 
-			plot=plots/${region}_${location}.pdf
+
 
 			data_file="../regions/${region}/${location}/${location}.txt"
 
@@ -82,7 +117,7 @@ END_CAT
 
 
 
-			cat << END_CAT >> figure_tex/${subregion}.tex 
+			cat << END_CAT >> figure_tex/${subregion}_${MIS}.tex 
 
 \textbf{${location_space}}: \citet{$(cat temp/references3.txt)}
 
@@ -92,7 +127,7 @@ END_CAT
 			# now make the file for the figures
 
 
-			cat << END_CAT >> figure_tex/${subregion}_figures.tex 
+			cat << END_CAT >> figure_tex/${subregion}_${MIS}_figures.tex 
 \clearpage
 
 \begin{figure}[t]
@@ -113,7 +148,20 @@ done
 # make summary file
 ###################
 
-rm figure_tex/summary.tex
+if [ -f "temp/subregions.txt" ]
+then
+
+	cat << END_CAT >> figure_tex/summary.tex
+
+\clearpage
+
+\section{${MIS_header}}
+
+
+${MIS_text}
+
+END_CAT
+
 
 sort temp/subregions.txt > temp/subregions2.txt
 
@@ -137,7 +185,7 @@ do
 
 \clearpage
 
-\section{${region_space}}
+\subsection{${region_space}}
 
 END_CAT
 
@@ -145,8 +193,8 @@ END_CAT
 
 		cat << END_CAT >> statistics_tex/summary.tex
 
-\clearpage
-\subsection{${region_space}}
+
+\subsubsection{${region_space}}
 
 END_CAT
 
@@ -168,8 +216,8 @@ END_CAT
 
 	current_region=${region}
 
-	cat figure_tex/${subregion}.tex >> figure_tex/summary.tex
-	cat figure_tex/${subregion}_figures.tex >> figure_tex/summary.tex
+	cat figure_tex/${subregion}_${MIS}.tex >> figure_tex/summary.tex
+	cat figure_tex/${subregion}_${MIS}_figures.tex >> figure_tex/summary.tex
 
 
 	# create statistics table
@@ -199,9 +247,9 @@ END_CAT
 			# do 
 			# done
 
-	awk '{sum2 += $2; sum3 += $3; sum4 += $4; sum5 += $5; sum6 += $6; sum7 += $7; sum8 += $8; sum9 += $9; sum10 += $10; sum11 += $11; } END {print "Total & ", sum2, "& ", sum3, "& ", sum4, "& ", sum5, "& ", sum6, "& ", sum7, "& ", sum8, "& ", sum9, "& ", sum10, "& ", sum11, "\\\\" }' temp/subregion_temp/${subregion}.txt | sed 's/_/ /g' >> temp/table.tex
+	awk '{sum2 += $2; sum3 += $3; sum4 += $4; sum5 += $5; sum6 += $6; sum7 += $7; sum8 += $8; sum9 += $9; sum10 += $10; sum11 += $11; } END {print "Total & ", sum2, "& ", sum3, "& ", sum4, "& ", sum5, "& ", sum6, "& ", sum7, "& ", sum8, "& ", sum9, "& ", sum10, "& ", sum11, "\\\\" }' temp/subregion_temp/${subregion}_${MIS}.txt | sed 's/_/ /g' >> temp/table.tex
 
-	awk '{print $1, "& ", $2, "& ", $3, "& ", $4, "& ", $5, "& ", $6, "& ", $7, "& ", $8, "& ", $9, "& ", $10, "& ", $11, "\\\\"}'  temp/subregion_temp/${subregion}.txt | sed 's/_/ /g' >> temp/table.tex
+	awk '{print $1, "& ", $2, "& ", $3, "& ", $4, "& ", $5, "& ", $6, "& ", $7, "& ", $8, "& ", $9, "& ", $10, "& ", $11, "\\\\"}'  temp/subregion_temp/${subregion}_${MIS}.txt | sed 's/_/ /g' >> temp/table.tex
 
 	cat << END_CAT >> temp/table.tex
 
@@ -216,6 +264,13 @@ END_CAT
 	cat temp/table.tex >> statistics_tex/summary.tex
 
 done
+else
+
+echo "no data yet"  >> statistics_tex/summary.tex
+
+fi
+done # cycled through all MIS stages
+
 
 # create tex file with Ice and Earth model parameters
 awk '{print $1}' temp/compare_models.txt > temp/ice_models.txt

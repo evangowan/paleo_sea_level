@@ -39,7 +39,15 @@ plot_buffer=1
 sub_map_distance=1000
 
 # extract the region bounds and find the central point
-gmt convert ../GIS/region_bounds.gmt -Slocation=${location} > temp/region_bound.txt
+
+# sometimes it is required to substitute the more general location
+
+#awk -v location=${location} '{if($1 == location && $3 != "") {print $3} else {print location}}' ../regions/${region}/location_list.txt
+map_location=$(python3 python/check_region.py ${location} ../regions/${region}/location_list.txt)
+
+
+
+gmt convert ../GIS/region_bounds.gmt -Slocation=${map_location} > temp/region_bound.txt
 
 awk --field-separator='\t' '{if ($1 != ">") print $1, $2}' temp/region_bound.txt > temp/region_bound_nocarrot.txt
 

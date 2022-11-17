@@ -189,8 +189,8 @@ for row_number, row in sl_data.iterrows():
 			median_age=float(row['age'])
 			age_uncertainty=float(row['error']) * 2.0 # age will be in 1-sigma, change to two sigma to be the same as radiocarbon
 
-			data_out.write(f"median_age=\"{median_age}\"\n")
-			data_out.write(f"age_uncertainty=\"{age_uncertainty}\"\n")
+			data_out.write(f"median_age=\"{int(median_age)}\"\n")
+			data_out.write(f"age_uncertainty=\"{int(age_uncertainty)}\"\n")
 
 		except ValueError:
 			

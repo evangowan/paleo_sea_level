@@ -99,9 +99,11 @@ do
 
 			if  [  "${cal_curve}" = "marine" ] ||  [  "${cal_curve}" = "corr_terrestrial" ] ||  [  "${cal_curve}" = "corr_terrestrial_sh" ]
 			then
-				age_output="$(./../Fortran/radiocarbon_statistics ${sample_code}.posterior.prior)"
+#				age_output="$(./../Fortran/radiocarbon_statistics ${sample_code}.posterior.prior)"
+				age_output="$(python3 python/radiocarbon_statistics.py ${sample_code}.posterior.prior)"
 			else
-				age_output="$(./../Fortran/radiocarbon_statistics ${sample_code}.prior)"
+#				age_output="$(./../Fortran/radiocarbon_statistics ${sample_code}.prior)"
+				age_output="$(python3 python/radiocarbon_statistics.py ${sample_code}.prior)"
 			fi
 
 

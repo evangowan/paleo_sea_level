@@ -1,2 +1,2 @@
-Red_Sea_proxy	Red_Sea
+Red_Sea_proxy	Red_Sea	Bab-el-Mandeb
 Karimata_Strait	Southeast_Asia

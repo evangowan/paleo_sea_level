@@ -5,6 +5,15 @@ by:
 Evan James Gowan  
 <evangowan@gmail.com>
 
+Introduction
+-------------
+
+My research since around 2010 has focused on reconstructing ice sheets using glacial isostatic adjustment (GIA) methods. One of the primary observations of GIA is changes in sea level. During a glaciation, sea level in some areas can drop as low as -130 m below present sea level! Due to factors such as the deformation of the Earth due to shifting water/ice loads, gravitational field changes due to the redistribution of mass, and changes to the Earth's rotation, the magnitude of sea level change is spatially variable. Using this information, it is possible to infer the size of the ice sheets.
+
+When I started doing GIA modelling, there was no publicly available repository of sea level data that could be easily used for analysis. As a result, it was necessary to create something. During my PHD in 2013/2014, I created a bunch of scripts to compare sea level data from western Canada with an ice sheet reconstruction I made. This was done in a very chaotic and disorganized way, which was fine for when I was looking at a small area. In 2018-2020, I started working on a global reconstruction, and the demands for me to "show my work" in a model-data comparison forced me to create a more organized structure. This led me to create scripts to create reports that contain these plots.
+
+This was still done in a very tedious way. In 2022, I decided to rewrite the plotting scripts. This allowed me to move away from the clumsy Fortran files I created in my PHD. The updates significantly reduced the time it takes to add data, as I no longer had to manually set up the plot map, nor do I have to create separate folders for different time periods. 
+
 Acknowledgements
 -------------
 

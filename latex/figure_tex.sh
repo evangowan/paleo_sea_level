@@ -90,7 +90,7 @@ do
 			subregion_space=$(echo ${subregion} | sed 's/_/ /g')
 			location_space=$(echo ${location} | sed 's/_/ /g')
 
-			if [ ! -f figure_tex/${subregion}.tex ]
+			if [ ! -f figure_tex/${subregion}_${MIS}.tex ]
 			then
 				cat << END_CAT > figure_tex/${subregion}_${MIS}.tex 
 \subsubsection{${subregion_space}}
@@ -102,24 +102,13 @@ END_CAT
 
 			fi
 
-
-
-#			data_file="../regions/${region}/${location}/${location}.txt"
-
 			# extract references
 
-
-#			awk --field-separator '\t'  '{if(NR > 1 && $16 != "tocome") print $16}' ${data_file} | sed 's/,/\n/g' > temp/references.txt
-
-#			sort temp/references.txt > temp/references2.txt
-
-#			awk 'BEGIN {last="FFF"; collect=""} {if ($1 != last) {if(collect == "") {collect=$1} else {collect=collect","$1}}; last = $1} END {print collect}' temp/references2.txt > temp/references3.txt
-
-			
+			references=$(awk '{print "\\citet{"$1"}"}' references/${region}_${location}_${MIS}.txt)
 
 			cat << END_CAT >> figure_tex/${subregion}_${MIS}.tex 
 
-\textbf{${location_space}}: \citet{$(cat references/${region}_${location}_${MIS}.txt)}
+\textbf{${location_space}}: ${references}
 
 END_CAT
 

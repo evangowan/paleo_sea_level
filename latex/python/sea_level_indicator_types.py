@@ -162,7 +162,7 @@ if data_found:
 	references_no_duplicates.sort()
 
 	fout = open("temp/references.txt", 'w')
-	csvout = csv.writer(fout,delimiter =',')
+	csvout = csv.writer(fout,delimiter =',',lineterminator="\n")
 	csvout.writerows([references_no_duplicates])
 	fout.close
 

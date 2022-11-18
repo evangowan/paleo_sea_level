@@ -1,13 +1,13 @@
-Organic_Lml	-68.46	78.19	3238	212	0	3.5	0.1	0.1
-watts_Lml	-68.6	78.22	4269	329	0	4.3	0.1	0.1
-highway_Mml	-68.46	78.22	3907	690	0	7.7	0.1	0.1
-druzhby_Lml	-68.59	78.3	6830	315	0	8	0.1	0.1
-anderson_Llm	-68.61	78.18	7779	497	0	8.4	0.1	0.1
-anderson_Mml	-68.61	78.18	4781	631	0	8.4	0.1	0.1
-ace_Llm	-68.47	78.19	7732	269	0	8.8	0.1	0.1
-ace_Lml	-68.47	78.19	8254	1427	0	8.8	0.1	0.1
-ZDL69	-68.65	77.94	1834	195	-1	5	2	2
-ZDL66	-68.65	77.94	1648	200	-1	5	2	2
-ZDL79	-68.56	78.05	4454	211	-1	8	2	2
-ZDL80	-68.55	78.17	5721	203	-1	8	2	2
-ZDL78	-68.53	78.22	5147	207	-1	8	2	2
+Organic_Lml	-68.46	78.19	3000	410	0.0	3.5	0.1	0.1	BriggsTarasov2013,ZwartzEtal1998
+watts_Lml	-68.6	78.22	3975	527	0.0	4.3	0.1	0.1	BriggsTarasov2013,ZwartzEtal1998
+highway_Mml	-68.46	78.22	3275	1143	0.0	7.7	0.1	0.1	BriggsTarasov2013,ZwartzEtal1998
+druzhby_Lml	-68.59	78.3	6546	529	0.0	8.0	0.1	0.1	BriggsTarasov2013,ZwartzEtal1998
+anderson_Llm	-68.61	78.18	7279	862	0.0	8.4	0.1	0.1	BriggsTarasov2013,ZwartzEtal1998
+anderson_Mml	-68.61	78.18	4182	1086	0.0	8.4	0.1	0.1	BriggsTarasov2013,ZwartzEtal1998
+ace_Llm	-68.47	78.19	7419	518	0.0	8.8	0.1	0.1	BriggsTarasov2013,ZwartzEtal1998
+ace_Lml	-68.47	78.19	7013	2236	0.0	8.8	0.1	0.1	BriggsTarasov2013,ZwartzEtal1998
+ZDL69	-68.65	77.94	1650	329	-1.0	5.0	2.0	2.0	BriggsTarasov2013,ZwartzEtal1998,ZhangPeterson1984
+ZDL66	-68.65	77.94	1455	345	-1.0	5.0	2.0	2.0	BriggsTarasov2013,ZwartzEtal1998,ZhangPeterson1984
+ZDL79	-68.56	78.05	4238	371	-1.0	8.0	2.0	2.0	BriggsTarasov2013,ZwartzEtal1998,ZhangPeterson1984
+ZDL80	-68.55	78.17	5490	387	-1.0	8.0	2.0	2.0	BriggsTarasov2013,ZwartzEtal1998,ZhangPeterson1984
+ZDL78	-68.53	78.22	4926	372	-1.0	8.0	2.0	2.0	BriggsTarasov2013,ZwartzEtal1998,ZhangPeterson1984

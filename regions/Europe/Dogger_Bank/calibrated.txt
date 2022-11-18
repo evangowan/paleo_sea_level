@@ -1,1 +1,1 @@
-Dogger_Bank-1	54.768	3.462	8750	600	0	-46.6	1.04	1.04
+Dogger_Bank-1	54.768	3.462	8750	600	0.0	-46.6	1.04	1.04	VinkEtal2007,Behre2003,Behre2007,BehreMenke1969

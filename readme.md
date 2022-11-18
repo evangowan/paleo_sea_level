@@ -26,9 +26,11 @@ E.J.G acknowledges the following funding sources that made all this possible:
 
 If you use this script setup, please acknowlege using the following references.
 
+Gowan, E.J., Zhang, X., Khosravi, S., Rovere, A., Stocchi, P., Hughes, A.L., Gyllencreutz, R., Mangerud, J., Svendsen, J.I. and Lohmann, G., 2022. Reply to: Towards solving the missing ice problem and the importance of rigorous model data comparisons. Nature communications, 13(1), pp.1-5. https://doi.org/10.1038/s41467-022-33954-x
+
 Gowan, E.J., Zhang, X., Khosravi, S., Rovere, A., Stocchi, P., Hughes, A.L.C., Gyllencreutz, R., Mangerud, J., Svendsen, J.-I., and Lohmann, G., 2021. A new global ice sheet reconstruction for the past 80000 years. Nature Communications, 12, 1199. https://doi.org/10.1038/s41467-021-21469-w
 
-Gowan, E.J., Tregoning, P., Purcell, A., Montillet, J.P. and McClusky, S., 2016. A model of the western Laurentide Ice Sheet, using observations of glacial isostatic adjustment. Quaternary Science Reviews, 139, pp.1-16.
+Gowan, E.J., Tregoning, P., Purcell, A., Montillet, J.P. and McClusky, S., 2016. A model of the western Laurentide Ice Sheet, using observations of glacial isostatic adjustment. Quaternary Science Reviews, 139, pp.1-16. https://doi.org/10.1016/j.quascirev.2016.03.003
 
 Special thanks:
 
@@ -47,11 +49,11 @@ Version history
 Usage
 -------------
 
-In this project, there are a series of scripts and programs to plot published paleo-sea level data and calculated sea level, and create a report that shows the results. To run these scripts, it is assumed that you have compiled the Fortran programs in the "Fortran/" directory. The scripts require the following:
+In this project, there are a series of scripts and programs to plot published paleo-sea level data and calculated sea level, and create a report that shows the results. The scripts require the following:
 
 - bash shell
 - latex (specifically Xelatex, so non-Latin text can be implemented easier)
-- a fortran compiler (i.e. gfortran)
+- Python 3, with pandas, numpy and pandas\_ods\_reader packages installed
 - [Generic Mapping Tools](https://www.generic-mapping-tools.org/ "GMT"), version 6.3 or later.
 - Perl (used to parse the radiocarbon calibration javascript file from Oxcal)
 
@@ -59,11 +61,6 @@ I made these scripts in Ubuntu, and I do not guarantee it will work in other ope
 
 The bibtex database is maintained using JabRef.
 
-In the Fortran directory, compile the programs:
-
-- make radiocarbon\_statistics
-- make sl\_diff\_params2
-- make extract\_calc\_sea\_level
 
 An example of the workflow in the latex folder to create the report:
 

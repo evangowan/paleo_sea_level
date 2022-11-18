@@ -12,48 +12,22 @@ Ultimately, the files are read into the FORTRAN program "extract_calc_sea_level"
 important to have the format of the file names correct.
 
 
-The dat files themselves are text files that have a format like this (no header):
+The dat files themselves are text files that have a format like this (with header):
 
-AGE (ka)    LONGITUDE    LATITUDE   SEA_LEVEL
-----------------------------------------------
+-------------------
 
-    0.0000   100.0000    13.0500     0.0000
-    2.5000   100.0000    13.0500     1.3357
-    5.0000   100.0000    13.0500    -1.4904
-    7.5000   100.0000    13.0500    -1.8864
-   10.0000   100.0000    13.0500   -19.5369
-   12.5000   100.0000    13.0500   -43.2456
-   15.0000   100.0000    13.0500   -67.7084
-   17.5000   100.0000    13.0500   -95.4426
-   20.0000   100.0000    13.0500  -105.4232
-   22.5000   100.0000    13.0500  -103.3801
-   25.0000   100.0000    13.0500   -92.5684
-   27.5000   100.0000    13.0500   -76.7721
-   30.0000   100.0000    13.0500   -58.7215
-   32.5000   100.0000    13.0500   -49.6899
-   35.0000   100.0000    13.0500   -42.4962
-   37.5000   100.0000    13.0500   -38.4343
-   40.0000   100.0000    13.0500   -27.2874
-   42.5000   100.0000    13.0500   -22.0884
-   45.0000   100.0000    13.0500   -34.9222
-   47.5000   100.0000    13.0500   -38.6654
-   50.0000   100.0000    13.0500   -32.6621
-   52.5000   100.0000    13.0500   -40.8881
-   55.0000   100.0000    13.0500   -50.7220
-   57.5000   100.0000    13.0500   -59.8645
-   60.0000   100.0000    13.0500   -75.6252
-   62.5000   100.0000    13.0500   -69.8842
-   65.0000   100.0000    13.0500   -50.7430
-   67.5000   100.0000    13.0500   -38.3520
-   70.0000   100.0000    13.0500   -27.4070
-   72.5000   100.0000    13.0500   -20.2409
-   75.0000   100.0000    13.0500   -13.9131
-   77.5000   100.0000    13.0500    -9.1378
-   80.0000   100.0000    13.0500   -10.4626
+ longitude latitude    0.0000     2.5000     5.0000     7.5000    10.0000 
+ 100.0000  13.0500     0.0000     1.6664    -0.9832    -1.4584   -18.8897 
+ 100.0000  13.7500     0.0000     1.8098    -0.6776    -0.4818   -17.7793 
 
+-------------------
 
-----------------------------------------------
+Note that the entries should be separated by spaces, not tabs or anything else!
 
+The header row should start with "longitude latitude t(0) t(1) t(2)" and subsequently have the time
+intervals of your calculated sea level data, in ka. The header is necessary, because the
+pythons scripts use this to identify the ages!
 
-The times must be in sequential order per location!
+The data will have the "longitude latitude sl(0) sl(1) sl(2) ...." and so on
+
 

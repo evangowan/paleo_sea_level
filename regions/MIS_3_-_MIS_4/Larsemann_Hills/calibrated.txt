@@ -1,5 +1,0 @@
-Beta-196950	-69.371	76.143	30734	397	1.0	8.0	0.5	0.5	IshiwaEtal2021,HodgsonEtal2009
-Beta-196951	-69.371	76.143	31123	417	1.0	8.0	0.5	0.5	IshiwaEtal2021,HodgsonEtal2009
-Beta-196952	-69.371	76.143	31708	712	-1.0	8.0	0.5	0.5	IshiwaEtal2021,HodgsonEtal2009
-Larsemann_Hills-01	-69.371	76.143	35000	24000	1.0	8.0	0.5	0.5	IshiwaEtal2021,HodgsonEtal2009
-Larsemann_Hills-02	-69.371	76.143	43000	30000	1.0	8.0	0.5	0.5	IshiwaEtal2021,HodgsonEtal2009

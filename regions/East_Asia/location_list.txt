@@ -1,2 +1,6 @@
 Miyakojima	Ryukyu_Islands
 Tsushima-Korea_Strait	Sea_of_Japan_-_East_Sea
+South_Bohai_Sea	Yellow_Sea
+Yellow_Sea	Yellow_Sea
+Kikaijima_(1.9_mm)	Ryukyu_Islands	Kikaijima
+Kikaijima_(2.1_mm)	Ryukyu_Islands	Kikaijima

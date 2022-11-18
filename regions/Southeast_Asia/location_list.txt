@@ -1,4 +1,5 @@
 Huon_Peninsula	Papua_New_Guinea
+Huon_Peninsula_(de_Gelder)	Papua_New_Guinea	Huon_Peninsula
 Chao_Phraya	Sundaland
 Mekong_Delta	Sundaland
 Strait_Of_Malacca	Sundaland
@@ -13,3 +14,4 @@ Belitung_Island	Sundaland
 Ca_Na	Sundaland
 Central_Java	Java_Sea
 South_Sulawesi	Java_Sea
+Berhala_Strait	Sundaland

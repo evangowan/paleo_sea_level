@@ -31,9 +31,12 @@ rm ${output_file}
 
 output_folder=priors
 
-mkdir $output_folder
+mkdir -p $output_folder
 
-rm test_file.txt
+if [ -f test_file.txt ]
+then
+	rm test_file.txt
+fi
 
 # using this bash script, you take in a text file (this will be tab delimited), and output everything needed to do the calibration using OxCal
 # The text file will be in the format:

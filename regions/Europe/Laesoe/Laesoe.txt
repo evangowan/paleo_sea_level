@@ -1,4 +1,0 @@
-Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	notes
-Laesoe	radiocarbon	K-2576	57.26	11.01	2920	85	Physeter macrocephalus tooth	terrestrial	-	-	0	4.1	1.2247448713915892	1.2247448713915892	Hansen1977	
-Laesoe	radiocarbon	K-5321	57.23	11	13850	205	Macoma calcarea shells	marine	10	0	-1	0.6	1.118033988749895	1.118033988749895	PetersenRasmussen1995	
-Laesoe	radiocarbon	K-5420	57.23	11	7350	110	Ostrea edulis shells	marine	10	0	-1	8	1.118033988749895	1.118033988749895	PetersenRasmussen1995	

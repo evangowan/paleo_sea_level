@@ -1,3 +1,0 @@
-Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	notes
-Goteborg	radiocarbon	St_2004	57.68	11.95	9230.484	130	nd	terrestrial	-	-	0	15.67	0.5099019513592785	0.5099019513592785	Morner1969	
-Goteborg	radiocarbon	St_2170	57.68	11.95	9730.484	200	nd	terrestrial	-	-	0	15.59	0.5099019513592785	0.5099019513592785	Morner1969	

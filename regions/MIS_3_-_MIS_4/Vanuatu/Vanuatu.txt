@@ -1,7 +1,0 @@
-Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	comment
-Vanuatu	U/Th	np6_(+17m)	-15.99	167.19	39470	340	Platygyra cf. Daedalea	-	-	-	0	-52	10	10	CabiochAyliffe2001	taken from Table 4 of the paper. It doesn't say if the uncertainties are 1-sigma or 2-sigma, I am assuming 1-sigma
-Vanuatu	U/Th	np7_(+24m)	-15.99	167.19	42050	500	Platygyra cf. Lamellina	-	-	-	0	-60	7	7	CabiochAyliffe2001	taken from Table 4 of the paper. It doesn't say if the uncertainties are 1-sigma or 2-sigma, I am assuming 1-sigma
-Vanuatu	U/Th	np8_(+45m)	-15.99	167.19	48180	370	cf. Platygyra	-	-	-	0	-42	9	9	CabiochAyliffe2001	taken from Table 4 of the paper. It doesn't say if the uncertainties are 1-sigma or 2-sigma, I am assuming 1-sigma
-Vanuatu	U/Th	np7_bis_(+46m)	-15.99	167.19	48650	390	Favites cf. Complanata	-	-	-	0	-49	9	9	CabiochAyliffe2001	taken from Table 4 of the paper. It doesn't say if the uncertainties are 1-sigma or 2-sigma, I am assuming 1-sigma
-Vanuatu	U/Th	np10_(+54m)	-15.99	167.19	47130	360	Platygyra cf. Daedalea	-	-	-	0	-31	9	9	CabiochAyliffe2001	taken from Table 4 of the paper. It doesn't say if the uncertainties are 1-sigma or 2-sigma, I am assuming 1-sigma
-Vanuatu	U/Th	np11_(+54m)	-15.99	167.19	66980	580	Platygyra cf. Daedalea	-	-	-	0	-66	10	10	CabiochAyliffe2001	taken from Table 4 of the paper. It doesn't say if the uncertainties are 1-sigma or 2-sigma, I am assuming 1-sigma

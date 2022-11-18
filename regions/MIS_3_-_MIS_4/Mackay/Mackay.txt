@@ -1,7 +1,0 @@
-Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
-Mackay	radiocarbon	325-M0035A-23R-CCW_0-4	-19.67	150.24	27948	101	Bioclast -	marine	12	10	-1	-133.3	1.58	1.58	YokoyamaEtal2018
-Mackay	radiocarbon	325-M0036A-20R-CCW_0-5	-19.67	150.24	28650	136	Bioclast -	marine	12	10	-1	-131.84	1.13	1.13	YokoyamaEtal2018
-Mackay	radiocarbon	325-M0032A-18R-CCW_6-9	-19.68	150.24	41608	615	Coral - Dipsastrea	marine	12	10	-1	-121.22	1.84	1.84	YokoyamaEtal2018
-Mackay	radiocarbon	325-M0033A-23R-1W_27-32	-19.68	150.24	46119	359	Bioclast -	marine	12	10	-1	-122.09	2.53	2.53	YokoyamaEtal2018
-Mackay	U-Th	325-M0032A-18R-2W_8-10	-19.68	150.24	61100	800	Coral - Merulinidae (Dipsastrea?)	U-Th	0	0	-1	-121.23	1.84	1.84	YokoyamaEtal2018
-Mackay	U-Th	325-M0032A-19R-1W_3-5	-19.68	150.24	61504	369	Coral - Porites	U-Th	0	0	-1	-123.14	1.79	1.79	YokoyamaEtal2018

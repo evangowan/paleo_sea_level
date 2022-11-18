@@ -1,7 +1,0 @@
-Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
-Central_Java	radiocarbon	TA-H1-2	-6.64	110.64	5400	80	Fossile Coral Microatolls - Porites lobata	marine	42	70	0	1.424	0.59	0.59	AzmyEtal2010
-Central_Java	radiocarbon	TA-H1-5	-6.64	110.64	5720	80	Fossile Coral Microatolls - Porites lobata	marine	42	70	0	1.624	0.59	0.59	AzmyEtal2010
-Central_Java	radiocarbon	TA-H1-6	-6.64	110.64	6280	80	Fossile Coral Microatolls - Porites lobata	marine	42	70	0	1.524	0.59	0.59	AzmyEtal2010
-Central_Java	radiocarbon	TA-H2-1	-6.64	110.64	6120	80	Fossile Coral Microatolls - Porites lobata	marine	42	70	0	1.724	0.59	0.59	AzmyEtal2010
-Central_Java	radiocarbon	TA-H2-6	-6.64	110.64	5470	80	Fossile Coral Microatolls - Porites lobata	marine	42	70	0	1.824	0.59	0.59	AzmyEtal2010
-Central_Java	radiocarbon	TA-H2-7	-6.64	110.64	6010	80	Fossile Coral Microatolls - Porites lobata	marine	42	70	0	1.824	0.59	0.59	AzmyEtal2010

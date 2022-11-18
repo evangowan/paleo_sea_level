@@ -1,9 +1,0 @@
-Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	notes
-Gunnarsbyn	radiocarbon	Poz-3435	66.08	21.52	8750	50	bulk materal (1 cm thick)	terrestrial	-	-	0	140.2	0.5385164807134505	0.5385164807134505	LindenEtal2006	
-Gunnarsbyn	radiocarbon	Poz-3468	66	21.71	7680	40	bulk materal (1 cm thick)	terrestrial	-	-	0	114.21	0.5385164807134505	0.5385164807134505	LindenEtal2006	
-Gunnarsbyn	radiocarbon	Poz-3477	66.12	21.6	8350	40	bulk materal (1 cm thick)	terrestrial	-	-	0	127.21	0.5385164807134505	0.5385164807134505	LindenEtal2006	
-Gunnarsbyn	radiocarbon	Poz-3484	65.99	21.72	6700	40	bulk materal (1 cm thick)	terrestrial	-	-	0	98.81	0.5385164807134505	0.5385164807134505	LindenEtal2006	
-Gunnarsbyn	radiocarbon	Poz-3504	66	21.8	4465	35	bulk materal (1 cm thick)	terrestrial	-	-	0	41.71	0.5385164807134505	0.5385164807134505	LindenEtal2006	
-Gunnarsbyn	radiocarbon	Poz-3510	66.1	21.51	8800	50	bulk materal (1 cm thick)	terrestrial	-	-	0	150.2	0.5385164807134505	0.5385164807134505	LindenEtal2006	
-Gunnarsbyn	radiocarbon	Poz-3519	66	21.68	5690	40	bulk materal (1 cm thick)	terrestrial	-	-	0	73.61	0.5385164807134505	0.5385164807134505	LindenEtal2006	
-Gunnarsbyn	radiocarbon_calibrated	Gunnarsbyn-01	66.01	21.73	9650	150	bulk materal (1 cm thick)	-	-	-	0	169.21	0.5385164807134505	0.5385164807134505	LindenEtal2006	

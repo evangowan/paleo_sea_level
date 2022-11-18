@@ -1,3 +1,0 @@
-Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
-West_Malay_Peninsula	radiocarbon	GaK-3308	6.28333	99.81667	3000	122	Molluscs attached to U. Paleozoic marble cliff	marine	32	70	-1	1.65	0.6	0.6	TjiaEtal1972
-West_Malay_Peninsula	radiocarbon	I-9888	4.18333	100.6	865	80	oyster in growth position attached to granite 0.45 m above the top limit of living oysters.	marine	-45	65	-1	1.23	0.52	0.52	TjiaFujii1992

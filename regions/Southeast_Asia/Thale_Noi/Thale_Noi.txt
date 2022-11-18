@@ -1,4 +1,0 @@
-Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
-Thale_Noi	radiocarbon	SLCC362	7.75	100.16667	2435	112	fibrous peat sediments characterized by freshwater plant macrofossils	terrestrial	0	0	1	-1.47	0.51	0.51	HortonEtal2005
-Thale_Noi	radiocarbon	SRR-6574	7.75	100.16667	6980	112	organic clay sedimentological information and plant macrofossils referring to a high marsh environment	terrestrial	0	0	0	-2.808	0.52	0.52	HortonEtal2005
-Thale_Noi	radiocarbon	SRR-6575	7.75	100.16667	7535	114	basal clay sedimentological information and plant macrofossils referring to a high marsh environment	terrestrial	0	0	0	-5.518	0.52	0.52	HortonEtal2005

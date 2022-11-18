@@ -1,2 +1,0 @@
-Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	notes
-Satakunta	radiocarbon	Hel-1367	61.98	21.95	6760	150	bulk sediment	terrestrial	-	-	0	80.98	0.5099019513592785	0.5099019513592785	Salomaa1982	

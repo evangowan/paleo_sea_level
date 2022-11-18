@@ -1,2 +1,0 @@
-Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	notes
-St_Petersburg	radiocarbon	SPb-20	60	30.1	9160	150	nd	terrestrial	-	-	0	-0.4	0.17521415467935234	0.17521415467935234	Morozov2014	

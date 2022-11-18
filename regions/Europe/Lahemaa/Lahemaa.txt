@@ -1,4 +1,0 @@
-Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	notes									
-Lahemaa	radiocarbon	Poz–33490	59.57	25.58	7280	50	wood	terrestrial	-	-	0	18.98	0.7158212067269312	0.7073188814106407	SaarseEtal2009,MuruEtal2017		1	1203	92; Aabla-1	Saarse et al. 2009 (as in Muru et al. 2017)	Estonia; Tallinn; Aabla	0	n/a	8095	90
-Lahemaa	radiocarbon_calibrated	Lahemaa-01	59.55	25.69	2240	45	nd	-	-	-	0	6.23	0.543323108288245	0.5387949517209678	GrudzinskaEtal2013,MuruEtal2017		#REF!	1220	110; Lohja-3	Grudzinska et al. 2013 (as in Muru et al. 2017)	Estonia; Tallinn; Lohja	0	n/a	2240	90
-Lahemaa	radiocarbon_calibrated	Lahemaa-02	59.59	25.89	1840	35	nd	-	-	-	0	4.73	0.5462600113499065	0.5387949517209678	GrudzinskaEtal2013,MuruEtal2017		#REF!	1213	102; Käsmu-3	Grudzinska et al. 2013 (as in Muru et al. 2017)	Estonia; Tallinn; Käsmu	0	n/a	1840	70

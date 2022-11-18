@@ -1,9 +1,0 @@
-Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
-Southern_Scott_Coast	radiocarbon	AA-18215	-77.083	163.333	4569	57	Seal remains	marine	1424	200	0	6.5	2	2	BriggsTarasov2013,HallEtal2004
-Southern_Scott_Coast	radiocarbon	AA-17345	-77.25	163.5	5649	59	Shell fragments	marine	1300	100	0	11	3	3	BriggsTarasov2013,HallEtal2004
-Southern_Scott_Coast	radiocarbon	AA-26515	-77.333	163.5	6840	50	Shell in-situ	marine	1300	100	-1	14.5	2	2	BriggsTarasov2013,HallEtal2004
-Southern_Scott_Coast	radiocarbon	AA-26510	-77.333	163.667	6520	55	Shell fragments	marine	1300	100	0	18.5	2	2	BriggsTarasov2013,HallEtal2004
-Southern_Scott_Coast	radiocarbon	AA-26512	-77.333	163.667	6430	60	Shell fragments	marine	1300	100	0	16.5	2	2	BriggsTarasov2013,HallEtal2004
-Southern_Scott_Coast	radiocarbon	AA-18912	-77.417	163.75	6780	56	Shell fragments	marine	1300	100	0	16	2	2	BriggsTarasov2013,HallEtal2004
-Southern_Scott_Coast	radiocarbon	AA-26505	-77.417	163.75	4345	55	Shell fragments	marine	1300	100	0	8.5	3	3	BriggsTarasov2013,HallEtal2004
-Southern_Scott_Coast	radiocarbon	AA-14040	-77.417	163.75	5864	96	Shell fragments	marine	1300	100	0	14.5	2	2	BriggsTarasov2013,HallEtal2004

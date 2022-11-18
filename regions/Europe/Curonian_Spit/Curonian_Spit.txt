@@ -1,2 +1,0 @@
-Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	notes
-Curonian_Spit	radiocarbon	SPb-697	55.08	20.46	4350	100	nd	terrestrial	-	-	-1	-1.4	0.22934689882359433	0.22934689882359433	SergeevEtal2015	

@@ -1,5 +1,0 @@
-Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
-South_Bohai_Sea	radiocarbon	Beta-174600	38.152	118.928	42530	1300	gastropod	marine	0	0	-1	-39.83	2	2	LiuEtal2009,PicoEtal2016
-South_Bohai_Sea	radiocarbon	Beta-172529	38.152	118.928	43940	1610	mollusc shell	marine	0	0	-1	-43.25	2	2	LiuEtal2009,PicoEtal2016
-South_Bohai_Sea	radiocarbon	Beta-172530	38.152	118.928	38490	880	plant fragment	terrestrial	0	0	-1	-57.94	2	2	LiuEtal2009,PicoEtal2016
-South_Bohai_Sea	radiocarbon	Beta-172531	38.152	118.928	41350	1210	plant fragment	terrestrial	0	0	-1	-65.32	2	2	LiuEtal2009,PicoEtal2016

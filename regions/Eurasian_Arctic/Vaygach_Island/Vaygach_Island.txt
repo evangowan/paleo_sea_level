@@ -1,4 +1,0 @@
-Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
-Vaygach_Island	radiocarbon	GX-27228	70.33	58.57	270	40	Partially buried root section of log	terrestrial	0	0	0	-0.575	2.959940877787933	2.959940877787933	ZeebergEtal2001,FormanEtal2004
-Vaygach_Island	radiocarbon	GX-27229	70.33	58.57	470	40	Partially buried B2-m long log	terrestrial	0	0	0	-0.575	2.959940877787933	2.959940877787933	ZeebergEtal2001,FormanEtal2004
-Vaygach_Island	radiocarbon	GX-27227	70.33	58.57	540	50	Partially buried 2.5-m long log	terrestrial	0	0	0	0.025000000000000133	2.959940877787933	2.959940877787933	ZeebergEtal2001,FormanEtal2004

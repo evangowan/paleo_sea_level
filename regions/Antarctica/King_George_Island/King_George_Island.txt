@@ -1,9 +1,0 @@
-Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
-King_George_Island	radiocarbon	HD8426-9106	-62.167	-58.95	6560	55	Penguin remains (bone, collagen, guano)	marine	1130	134	1	16	1.2	1.2	BriggsTarasov2013,BentleyEtal2005,BarschMausbacher1986
-King_George_Island	radiocarbon	HD9425-9100	-62.167	-58.95	6650	90	Penguin remains (bone, collagen, guano)	marine	1130	134	1	16	1.2	1.2	BriggsTarasov2013,BentleyEtal2005,BarschMausbacher1986
-King_George_Island	radiocarbon	HD1116310998	-62.167	-58.95	6180	150	Lacustrine sediment	terrestrial_sh	0	0	0	16	0.2	0.2	BriggsTarasov2013,BentleyEtal2005,BarschMausbacher1986
-King_George_Island	radiocarbon	Gd4641	-62.167	-58.95	2460	260	Moss	terrestrial_sh	0	0	1	16	0.2	0.2	BriggsTarasov2013,BentleyEtal2005,MartinezMacchiavelloEtal1996
-King_George_Island	radiocarbon	Lu3679	-62.167	-58.95	3460	140	Unknown	terrestrial_sh	0	0	1	16	0.2	0.2	BriggsTarasov2013,BentleyEtal2005,MartinezMacchiavelloEtal1996
-King_George_Island	radiocarbon	HD1116111420	-62.167	-58.95	5380	165	Lacustrine sediment	terrestrial_sh	0	0	1	18	0.2	0.2	BriggsTarasov2013,BentleyEtal2005,SchmidtEtal1990
-King_George_Island	radiocarbon	Pingfo-a	-62.167	-58.95	5750	40	Penguin remains (bone, collagen, guano)	marine	1130	134	1	14	1.2	1.2	BriggsTarasov2013,BentleyEtal2005,DelValleEtal2002
-King_George_Island	radiocarbon	Pingfo-b	-62.167	-58.95	5840	80	Penguin remains (bone, collagen, guano)	marine	1130	134	1	13	1.2	1.2	BriggsTarasov2013,BentleyEtal2005,DelValleEtal2002

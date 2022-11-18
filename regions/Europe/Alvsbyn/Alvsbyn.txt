@@ -1,5 +1,0 @@
-Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	notes
-Alvsbyn	radiocarbon	Poz-7725	65.61	20.76	9320	50	bulk materal (1 cm thick)	terrestrial	-	-	0	186.24	0.5385164807134505	0.5385164807134505	LindenEtal2006	
-Alvsbyn	radiocarbon	Poz-7769	65.63	20.76	8750	50	bulk materal (1 cm thick)	terrestrial	-	-	0	173.23	0.5385164807134505	0.5385164807134505	LindenEtal2006	
-Alvsbyn	radiocarbon	Poz-7778	65.56	20.65	9290	50	bulk materal (1 cm thick)	terrestrial	-	-	0	209.24	0.5385164807134505	0.5385164807134505	LindenEtal2006	
-Alvsbyn	radiocarbon	Poz-7808	65.6	20.57	9240	50	bulk materal (1 cm thick)	terrestrial	-	-	0	202.23	0.5385164807134505	0.5385164807134505	LindenEtal2006	

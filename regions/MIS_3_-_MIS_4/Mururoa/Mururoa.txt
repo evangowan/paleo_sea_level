@@ -1,3 +1,0 @@
-Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	original_depth	original_depth_uncertainty	depth_range_low	depth_range_high	
-Mururoa_MIS3_MIS4	U/Th	FIL_8_30_109.6m	-21.833	-138.883	59100	300	Botryoidal aragonite	U/Th	0	0	0	-82.7	7.5	7.5	CamoinEtal2001,HibbertEtal2016	-105.2	1	30	15	taken from Camoin et al
-Mururoa_MIS3_MIS4	U/Th	FIL_8_30_116.4m	-21.833	-138.883	69000	3200	Botryoidal aragonite	U/Th	0	0	0	-89.7	7.5	7.5	CamoinEtal2001,HibbertEtal2016	-112.2	1	30	15	taken from Camoin et al

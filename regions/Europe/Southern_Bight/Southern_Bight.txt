@@ -1,5 +1,0 @@
-Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	note
-Southern_Bight	pollen-A	Vink-55	52.5	3.8	8400	300	peat	terrestrial	-	-	0	-26.8	1.04	1.04	VinkEtal2007,Jelgersma1961,KidenEtal2002	
-Southern_Bight	pollen-D	Vink-56	52.5	3.5	8500	300	peat	terrestrial	-	-	0	-28.8	1.04	1.04	VinkEtal2007,Jelgersma1961,KidenEtal2002	
-Southern_Bight	pollen-C	Vink-57	52.5	3.25	8700	300	peat	terrestrial	-	-	0	-33.8	1.04	1.04	VinkEtal2007,Jelgersma1961,KidenEtal2002	
-Southern_Bight	pollen-B	Vink-58	52.5	2.92	9000	300	peat	terrestrial	-	-	0	-35.8	1.04	1.04	VinkEtal2007,Jelgersma1961,KidenEtal2002	

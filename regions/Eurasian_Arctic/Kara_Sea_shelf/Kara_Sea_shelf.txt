@@ -1,3 +1,0 @@
-Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
-Kara_Sea_shelf	radiocarbon	Poz-12678	74.01	73.12	8560	473.67	Portlandia arctica	marine	35	22	-1	-40.8	1.1936861228983102	1.187476315553283	LevitanEtal2007
-Kara_Sea_shelf	radiocarbon	KIA-10230	73.55	79.83	8725	40	bivalve	marine	35	22	-1	-39	1.1215279755761778	1.112755588617734	PolyakovaStein2004

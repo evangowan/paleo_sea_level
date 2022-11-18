@@ -1,5 +1,0 @@
-Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
-Zemlya_Zichy	U-Th	Zemlya_Zichy-1	81.19	55.76	3900	600	molluscs	U-series	0	0	-1	24.7	2.7381563140186134	2.7381563140186134	BolshiyanovEtal2009
-Zemlya_Zichy	radiocarbon	LU-5125	81.19	55.76	10423.24	842.45	molluscs	marine	-124	22	-1	24.7	2.7381563140186134	2.7381563140186134	BolshiyanovEtal2009
-Zemlya_Zichy	radiocarbon	Le-6250	81.53	57.05	7182.99	143.28	peat	terrestrial	0	0	0	57	2.745450782658469	2.745450782658469	BolshiyanovEtal2009
-Zemlya_Zichy	radiocarbon	LU-5712	79.89	58.87	6370	477.77	molluscs	marine	-137	40	-1	5	2.726719640887196	2.726719640887196	GusevEtal2013a

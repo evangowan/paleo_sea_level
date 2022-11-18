@@ -1,2 +1,0 @@
-Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	notes
-Central_Finland	radiocarbon	Su-1338	62.26	25.81	8650	90	bulk sediment	terrestrial	-	-	0	155.8	0.223606797749979	0.223606797749979	Ristaniemi1987	

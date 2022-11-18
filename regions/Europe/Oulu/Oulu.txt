@@ -1,3 +1,0 @@
-Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	notes									
-Oulu	radiocarbon	Hel-453	64.65	26.45	8370	280	bulk sediment	terrestrial	-	-	0	98.36	0.5099019513592785	0.5099019513592785	Eronen1974		1	19	1063; 77; 6	Eronen 1974	Finland; Finland N; Utajärvi, Ahmasjärvi (Lake)	0	Ancylus Lake, late stage (10000-9000 cal BP, 8050-7050 BC)	9335	815
-Oulu	radiocarbon	Hel-486	64.93	26.5	6980	220	bulk sediment	terrestrial	-	-	0	93.87	0.223606797749979	0.223606797749979	Eronen1974		2	17	1059; 73; 4	Eronen 1974	Finland; Finland N; Oulu, Vähä Vuotunki (Lake)	0	n/a	7830	465

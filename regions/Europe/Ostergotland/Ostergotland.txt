@@ -1,7 +1,0 @@
-Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	notes
-Ostergotland	radiocarbon	St_4973	58.75	16	9450.484	270	nd	terrestrial	-	-	0	88	0.223606797749979	0.223606797749979	Persson1979	
-Ostergotland	radiocarbon	St_5266	58.8	16.05	10020.484	325	nd	terrestrial	-	-	0	91.5	0.223606797749979	0.223606797749979	Persson1979	
-Ostergotland	radiocarbon	St_5268	58.76	16.22	8810.484	455	nd	terrestrial	-	-	0	84	0.223606797749979	0.223606797749979	Persson1979	
-Ostergotland	radiocarbon	St_5272	58.73	15.95	8365.484	555	nd	terrestrial	-	-	0	85.5	0.223606797749979	0.223606797749979	Persson1979	
-Ostergotland	radiocarbon	St_5273	58.82	16.11	8555.484	280	nd	terrestrial	-	-	0	71.5	0.223606797749979	0.223606797749979	Persson1979	
-Ostergotland	radiocarbon	St-xxxx	58.8	15.89	6465.484	110	nd	terrestrial	-	-	0	58.5	0.223606797749979	0.223606797749979	Persson1979	

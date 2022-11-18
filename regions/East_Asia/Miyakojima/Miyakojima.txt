@@ -1,8 +1,0 @@
-Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	comment
-Miyako	interval	freshwater_phreatic_phase	24.73611111111111	125.0586111111111	19111	1418.5	Interval of subaerial exposure	-	-	-	1	-126.2	1	1	SasakiEtal2006	Nominal uncertainty of 1 m added to account for vertical uncertainties 
-Miyako	radiocarbon	NZA6207	24.73611111111111	125.0586111111111	19080	300	Scleractinian coral (Platygyra sp.)	marine	-256	40	-1	-126.2	1	1	SasakiEtal2006	Nominal uncertainty of 1 m added to account for vertical uncertainties 
-Miyako	U/Th	TMW-04	24.73611111111111	125.0586111111111	22180	315	Scleractinian coral (Platygyra sp.)	-	-	-	-1	-126.2	1	1	SasakiEtal2006	Nominal uncertainty of 1 m added to account for vertical uncertainties 
-Miyako	radiocarbon	NZA6205	24.73611111111111	125.0586111111111	13340	200	Scleractinian coral (Favia sp.)	marine	-256	40	-1	-125.4	1	1	SasakiEtal2006	Nominal uncertainty of 1 m added to account for vertical uncertainties 
-Miyako	U/Th	TMW-01	24.73611111111111	125.0586111111111	16170	270	Scleractinian coral (Favia sp.)	-	-	-	-1	-125.4	1	1	SasakiEtal2006	Nominal uncertainty of 1 m added to account for vertical uncertainties 
-Miyako	radiocarbon	NZA6206	24.73611111111111	125.0586111111111	20310	290	Scleractinian coral (Platygyra sp.)	marine	-256	40	-1	-130.7	1	1	SasakiEtal2006	Nominal uncertainty of 1 m added to account for vertical uncertainties 
-Miyako	U/Th	TMW-02	24.73611111111111	125.0586111111111	25150	365	Scleractinian coral (Platygyra sp.)	-	-	-	-1	-130.7	1	1	SasakiEtal2006	Nominal uncertainty of 1 m added to account for vertical uncertainties 

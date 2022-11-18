@@ -1,7 +1,0 @@
-Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	comment	water_depth	min_depth	max_depth
-Tsushima-Korea_Strait	radiocarbon	CAMS-17315	34.78	129.18	42150	800	Japeuthria sp.	marine	0	0	0	-116	6	6	ParkEtal2000	depth range taken from Figure 3 in Park et al (2000)	-124.4	-110	-122
-Tsushima-Korea_Strait	radiocarbon	CAMS-25793	34.78	129.18	21490	120	Megacardita ferrunginosa	marine	0	0	0	-96	6	6	ParkEtal2000	depth range taken from Figure 3 in Park et al (2000)	-112.7	-90	-102
-Tsushima-Korea_Strait	radiocarbon	CAMS-25796	34.78	129.18	40100	1100	Arca boucardi	marine	0	0	0	-81	6	6	ParkEtal2000	depth range taken from Figure 3 in Park et al (2000)	-89.6	-75	-87
-Tsushima-Korea_Strait	radiocarbon	I-16681	34.78	129.18	23300	600	shell	marine	0	0	-1	-107.8	1	1	ParkEtal2000	nominal uncertainty of 1 m added	-107.8		
-Tsushima-Korea_Strait	radiocarbon	R18539-1	34.78	129.18	26800	370	peat	terrestrial	0	0	1	-72.1	1	1	ParkEtal2000	nominal uncertainty of 1 m added	-72.1		
-Tsushima-Korea_Strait	radiocarbon	I-16680	34.78	129.18	25660	810	shell	marine	0	0	-1	-102.4	1	1	ParkEtal2000	nominal uncertainty of 1 m added	-102.4		

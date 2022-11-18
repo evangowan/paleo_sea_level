@@ -1,3 +1,0 @@
-Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference	note
-Oyster_Ground	radiocarbon	Hv-12092	53.74	4.5	8750	110	Phragmites peat	terrestrial	-	-	0	-43.2	1.04	1.04	VinkEtal2007,Behre2003,BehreEtal1984	
-Oyster_Ground	radiocarbon	GrN-5759	54	4.7	9445	80	peat	terrestrial	-	-	0	-47.7	1.04	1.04	VinkEtal2007,Jelgersma1979,KidenEtal2002	

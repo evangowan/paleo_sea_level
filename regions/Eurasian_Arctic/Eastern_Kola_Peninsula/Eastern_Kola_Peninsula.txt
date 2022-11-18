@@ -1,6 +1,0 @@
-Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
-Eastern_Kola_Peninsula	radiocarbon	LU-317	66.11	37.75	1800	190.68	peat on the surface of a marine terrace	terrestrial	0	0	1	14.879249999999999	3.5781770673067594	3.5781770673067594	ArslanovEtal1974
-Eastern_Kola_Peninsula	radiocarbon	LU-316	66.19	39.54	3490	177.65	buried peat within a marine terrace	terrestrial	0	0	1	7.27925	3.5781770673067594	3.5781770673067594	ArslanovEtal1974
-Eastern_Kola_Peninsula	radiocarbon	Eastern_Kola_Peninsula-1	66.2	39.51	4170	119.83	coal from a Neolitic settlement	terrestrial	0	0	1	6.2	0.9669539802906858	0.9669539802906858	Koshechkin1979
-Eastern_Kola_Peninsula	radiocarbon	Eastern_Kola_Peninsula-3	66.52	40.57	4840	119.83	coal from a Neolitic settlement	terrestrial	0	0	1	7	0.9669539802906858	0.9669539802906858	Koshechkin1979
-Eastern_Kola_Peninsula	radiocarbon	Eastern_Kola_Peninsula-2	66.52	40.61	4300	119.83	coal from a Neolitic settlement	terrestrial	0	0	1	6.2	0.9669539802906858	0.9669539802906858	Koshechkin1979

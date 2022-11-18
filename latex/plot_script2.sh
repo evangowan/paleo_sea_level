@@ -169,7 +169,7 @@ sl_plot_height=${map_plot_height}
 
 python3 python/sea_level_indicator_types.py ${sea_level_file} ${index_limit} ${mis_stage} ${sl_plot_height} > temp/sl_plot_options.sh
 
-mv temp/references.txt ${reference_file}
+
 
 source temp/sl_plot_options.sh
 
@@ -180,6 +180,8 @@ R_sl_plot="-R${min_time}/${max_time}/${min_elevation}/${max_elevation}"
 
 if [ "${data_found}" = "True" ]
 then
+
+	mv temp/references.txt ${reference_file}
 
 gmt begin plots/${region}_${location}_${mis_stage} pdf
 

@@ -1,4 +1,5 @@
-North_America
+North_America_Arctic
+North_America_Atlantic
 Europe
 Eurasian_Arctic
 Caribbean
@@ -8,5 +9,5 @@ French_Polynesia
 South_Asia
 East_Asia
 Melanesia
-Proxy_Based_Sea_Level
 Antarctica
+Proxy_Based_Sea_Level

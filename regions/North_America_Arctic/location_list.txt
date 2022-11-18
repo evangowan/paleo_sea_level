@@ -1,0 +1,11 @@
+Kivalliq	Hudson_Bay
+Churchill	Hudson_Bay
+West_James_Bay	Hudson_Bay
+East_James_Bay	Hudson_Bay
+Umiujaq	Hudson_Bay
+Inukjuak	Hudson_Bay
+Ivujivik	Hudson_Bay
+Sugluk	Hudson_Strait
+Kangiqsujuaq	Hudson_Strait
+Western_Ungava_Bay	Hudson_Strait
+Southern_Ungava_Bay	Hudson_Strait

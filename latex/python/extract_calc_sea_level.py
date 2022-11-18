@@ -196,7 +196,7 @@ longitude = calculated_sea_level['longitude'].to_numpy()
 sl_only = calculated_sea_level[calculated_sea_level.columns.difference(['latitude','longitude'])]
 
 
-col_names = ["sample_code", "latitude", "longitude", "median_age", "age_uncertainty", "indicator_type", "rsl", "rsl_upper", "rsl_lower"]
+col_names = ["sample_code", "latitude", "longitude", "median_age", "age_uncertainty", "indicator_type", "rsl", "rsl_upper", "rsl_lower", "references"]
 
 data_list = pd.read_csv (sl_file, sep='\t', header=None, names=col_names)
 
@@ -274,11 +274,11 @@ if has_data:
 			if found_score:
 				total_score = total_score + score
 			else:
-				valid_score = false
+				valid_score = False
 
 		else:
 			print(f"Warning, no calculated sea level at: {data_point['longitude']}, {data_point['latitude']}")
-			valid_score = false
+			valid_score = False
 
 	fout.close()
 

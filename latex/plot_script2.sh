@@ -7,13 +7,11 @@ reference_ice_model=$4
 reference_earth_model=$5
 
 
-if [ ! -d temp ]
-then
-  mkdir temp
-fi
-
+mkdir -p temp
+mkdir -p references
 
 statistics_file="statistics/${region}_${location}_${mis_stage}.txt"
+reference_file="references/${region}_${location}_${mis_stage}.txt"
 
 # this limits the "finely resolved" index points versus ones with larger vertical uncertainties
 index_limit=10
@@ -170,6 +168,8 @@ sl_plot_height=${map_plot_height}
 
 
 python3 python/sea_level_indicator_types.py ${sea_level_file} ${index_limit} ${mis_stage} ${sl_plot_height} > temp/sl_plot_options.sh
+
+mv temp/references.txt ${reference_file}
 
 source temp/sl_plot_options.sh
 

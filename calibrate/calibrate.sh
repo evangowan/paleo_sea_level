@@ -124,7 +124,7 @@ do
 
 
 			# clean up files
-
+			rm *.prior
 
 #			if  [  "${cal_curve}" = "marine" ]  ||  [  "${cal_curve}" = "corr_terrestrial" ] ||  [  "${cal_curve}" = "corr_terrestrial_sh" ]
 #			then
@@ -140,11 +140,11 @@ do
 
 		fi
 
-		echo -e "${sample_code}\t${latitude}\t${longitude}\t${median_age}\t${age_uncertainty}\t${indicator_type}\t${rsl}\t${rsl_upper}\t${rsl_lower}" >> ${output_file}
+		echo -e "${sample_code}\t${latitude}\t${longitude}\t${median_age}\t${age_uncertainty}\t${indicator_type}\t${rsl}\t${rsl_upper}\t${rsl_lower}\t${references}" >> ${output_file}
 
 	fi
 
 done
 
-rm *.prior
+
 

@@ -104,22 +104,22 @@ END_CAT
 
 
 
-			data_file="../regions/${region}/${location}/${location}.txt"
+#			data_file="../regions/${region}/${location}/${location}.txt"
 
 			# extract references
 
 
-			awk --field-separator '\t'  '{if(NR > 1 && $16 != "tocome") print $16}' ${data_file} | sed 's/,/\n/g' > temp/references.txt
+#			awk --field-separator '\t'  '{if(NR > 1 && $16 != "tocome") print $16}' ${data_file} | sed 's/,/\n/g' > temp/references.txt
 
-			sort temp/references.txt > temp/references2.txt
+#			sort temp/references.txt > temp/references2.txt
 
-			awk 'BEGIN {last="FFF"; collect=""} {if ($1 != last) {if(collect == "") {collect=$1} else {collect=collect","$1}}; last = $1} END {print collect}' temp/references2.txt > temp/references3.txt
+#			awk 'BEGIN {last="FFF"; collect=""} {if ($1 != last) {if(collect == "") {collect=$1} else {collect=collect","$1}}; last = $1} END {print collect}' temp/references2.txt > temp/references3.txt
 
-
+			
 
 			cat << END_CAT >> figure_tex/${subregion}_${MIS}.tex 
 
-\textbf{${location_space}}: \citet{$(cat temp/references3.txt)}
+\textbf{${location_space}}: \citet{$(cat references/${region}_${location}_${MIS}.txt)}
 
 END_CAT
 

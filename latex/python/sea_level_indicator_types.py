@@ -14,7 +14,7 @@ plot_height=float(sys.argv[4])
 # this list contains the possible MIS stages that can be plotted right now
 mis_options = ['MIS_1-2', 'MIS_3-4', 'MIS_5_a_d', 'MIS_5e' ]
 
-col_names = ["sample_code", "latitude", "longitude", "median_age", "age_uncertainty", "indicator_type", "rsl", "rsl_upper", "rsl_lower"]
+col_names = ["sample_code", "latitude", "longitude", "median_age", "age_uncertainty", "indicator_type", "rsl", "rsl_upper", "rsl_lower", "references"]
 
 data_list = pd.read_csv (filename, sep='\t', header=None, names=col_names)
 
@@ -31,6 +31,7 @@ stage_1_2_data = []
 stage_3_4_data = []
 stage_5_a_d_data = []
 stage_5e_data = []
+
 
 
 
@@ -144,12 +145,26 @@ else:
 	print(mis_options)
 print(f'data_found={data_found}')
 
+references=[]
+
 if data_found:
 	
 	for row in selected_data:
+
 		row['median_age'] =  row['median_age']  / 1000.0
 		row['age_uncertainty'] =  row['age_uncertainty']  / 1000.0
 
+		reference_list = row['references'].split(",")
+		for ref in reference_list:
+			references.append(ref)
+
+	references_no_duplicates =list(dict.fromkeys(references))
+	references_no_duplicates.sort()
+
+	fout = open("temp/references.txt", 'w')
+	csvout = csv.writer(fout,delimiter =',')
+	csvout.writerows([references_no_duplicates])
+	fout.close
 
 
 	print(f'min_time={min_time}')

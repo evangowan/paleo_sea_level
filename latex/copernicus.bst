@@ -69,6 +69,10 @@ ENTRY
     journal
     key
     month
+    language
+    language-author
+    language-journal
+    language-title
     note
     number
     organization
@@ -264,6 +268,20 @@ FUNCTION {bbl.mthesis}
 
 FUNCTION {bbl.phdthesis}
 { "Ph.D. thesis" }
+
+% added functions
+
+FUNCTION {bbl.language}
+{ "Language: " }
+
+FUNCTION {bbl.language-author}
+{ "Authors (in original language): " }
+
+FUNCTION {bbl.language-title}
+{ "Title (in original language): " }
+
+FUNCTION {bbl.language-journal}
+{ "Journal/book (in original language): " }
 
 MACRO {jan} {"Jan."}
 
@@ -631,6 +649,56 @@ FUNCTION {format.names}
   while$
   } if$
 }
+
+FUNCTION {format.names.allfirst}
+{ 'bibinfo :=
+  duplicate$ empty$ 'skip$ {
+  's :=
+  "" 't :=
+  #1 'nameptr :=
+  s num.names$ 'numnames :=
+  numnames 'namesleft :=
+    { namesleft #0 > }
+    { s nameptr
+      "{vv~}{ll}{, jj}{, ff}"
+      format.name$
+      bibinfo bibinfo.check
+      't :=
+      nameptr #1 >
+        {
+          namesleft #1 >
+            { ", " * t * }
+            {
+              s nameptr "{ll}" format.name$ duplicate$ "others" =
+                { 't := }
+                { pop$ }
+              if$
+              numnames #2 >
+                { "," * }
+                'skip$
+              if$
+              t "others" =
+                {
+                  " " * bbl.etal *
+                }
+                {
+                  bbl.and
+                  space.word * t *
+                }
+              if$
+            }
+          if$
+        }
+        't
+      if$
+      nameptr #1 + 'nameptr :=
+      namesleft #1 - 'namesleft :=
+    }
+  while$
+  } if$
+}
+
+
 FUNCTION {format.names.ed}
 {
   format.names
@@ -689,6 +757,9 @@ FUNCTION {format.note}
   if$
 }
 
+
+
+
 FUNCTION {format.title}
 { title
   "title" bibinfo.check
@@ -736,6 +807,9 @@ FUNCTION {format.full.names}
   while$
 }
 
+
+
+
 FUNCTION {author.editor.key.full}
 { author empty$
     { editor empty$
@@ -773,6 +847,7 @@ FUNCTION {editor.key.full}
   if$
 }
 
+
 FUNCTION {make.full.names}
 { type$ "book" =
   type$ "inbook" =
@@ -785,6 +860,8 @@ FUNCTION {make.full.names}
     }
   if$
 }
+
+
 
 FUNCTION {output.bibitem}
 { newline$
@@ -1121,6 +1198,54 @@ FUNCTION {format.organization.address}
 { organization "organization" bibinfo.check format.org.or.pub
 }
 
+% adding functions
+
+
+
+FUNCTION {format.language}
+{
+
+   language empty$
+    { "" }
+   { bbl.language language * 
+    }
+  if$
+
+}
+
+
+FUNCTION {format.language-author}
+{
+
+   language-author empty$
+    { "" }
+   {  bbl.language-author language-author bbl.language-author  format.names.allfirst *
+    }
+  if$
+}
+
+FUNCTION {format.language-title}
+{
+
+   language-title empty$
+    { "" }
+   { bbl.language-title language-title * 
+    }
+  if$
+
+}
+
+FUNCTION {format.language-journal}
+{
+
+   language-journal empty$
+    { "" }
+   { bbl.language-journal language-journal * 
+    }
+  if$
+
+}
+
 FUNCTION {article}
 { output.bibitem
   format.authors "author" output.check
@@ -1140,6 +1265,10 @@ FUNCTION {article}
     }
   if$
   format.note output
+  format.language output
+  format.language-author output
+  format.language-title output
+  format.language-journal output
   format.date "year" output.check
   fin.entry
 }
@@ -1171,6 +1300,10 @@ FUNCTION {book}
   format.edition output
   format.doi output
   format.note output
+  format.language output
+  format.language-author output
+  format.language-title output
+  format.language-journal output
   format.date "year" output.check
   fin.entry
 }
@@ -1184,6 +1317,10 @@ FUNCTION {booklet}
   address "address" bibinfo.check output
   format.doi output
   format.note output
+  format.language output
+  format.language-author output
+  format.language-title output
+  format.language-journal output
   format.date "year" output.check
   fin.entry
 }
@@ -1219,6 +1356,10 @@ FUNCTION {inbook}
   format.edition output
   format.doi output
   format.note output
+  format.language output
+  format.language-author output
+  format.language-title output
+  format.language-journal output
   format.date "year" output.check
   fin.entry
 }
@@ -1243,6 +1384,10 @@ FUNCTION {incollection}
   if$
   format.doi output
   format.note output
+  format.language output
+  format.language-author output
+  format.language-title output
+  format.language-journal output
   format.date "year" output.check
   fin.entry
 }
@@ -1270,6 +1415,10 @@ FUNCTION {inproceedings}
   if$
   format.doi output
   format.note output
+  format.language output
+  format.language-author output
+  format.language-title output
+  format.language-journal output
   format.date "year" output.check
   fin.entry
 }
@@ -1285,6 +1434,10 @@ FUNCTION {manual}
   format.edition output
   format.doi output
   format.note output
+  format.language output
+  format.language-author output
+  format.language-title output
+  format.language-journal output
   format.date "year" output.check
   fin.entry
 }
@@ -1301,6 +1454,10 @@ FUNCTION {mastersthesis}
   address "address" bibinfo.check output
   format.doi output
   format.note output
+  format.language output
+  format.language-author output
+  format.language-title output
+  format.language-journal output
   format.date "year" output.check
   fin.entry
 }
@@ -1314,6 +1471,10 @@ FUNCTION {misc}
   howpublished "howpublished" bibinfo.check output
   format.doi output
   format.note output
+  format.language output
+  format.language-author output
+  format.language-title output
+  format.language-journal output
   format.date "year" output.check
   fin.entry
 }
@@ -1329,6 +1490,10 @@ FUNCTION {phdthesis}
   address "address" bibinfo.check output
   format.doi output
   format.note output
+  format.language output
+  format.language-author output
+  format.language-title output
+  format.language-journal output
   format.date "year" output.check
   fin.entry
 }
@@ -1349,6 +1514,10 @@ FUNCTION {proceedings}
   if$
   format.doi output
   format.note output
+  format.language output
+  format.language-author output
+  format.language-title output
+  format.language-journal output
   format.date "year" output.check
   fin.entry
 }
@@ -1365,6 +1534,10 @@ FUNCTION {techreport}
   address "address" bibinfo.check output
   format.doi output
   format.note output
+  format.language output
+  format.language-author output
+  format.language-title output
+  format.language-journal output
   format.date "year" output.check
   fin.entry
 }
@@ -1377,6 +1550,10 @@ FUNCTION {unpublished}
   format.title "title" output.check
   format.doi output
   format.note "note" output.check
+  format.language output
+  format.language-author output
+  format.language-title output
+  format.language-journal output
   format.date output
   fin.entry
 }

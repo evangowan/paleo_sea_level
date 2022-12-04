@@ -160,17 +160,19 @@ number_subregions=$(wc -l < temp/subregions3.txt)
 
 current_region="dummy"
 
-for counter in $(seq 1 ${number_subregions} )
-do
-	region=$(awk -v line=${counter} '{if (NR==line) {print $1}}' temp/subregions3.txt)
-	region_space=$(echo ${region} | sed 's/_/ /g')
-	subregion=$(awk -v line=${counter} '{if (NR==line) {print $2}}' temp/subregions3.txt)
-	subregion_space=$(echo ${subregion} | sed 's/_/ /g')
+	for counter in $(seq 1 ${number_subregions} )
+	do
+		region=$(awk -v line=${counter} '{if (NR==line) {print $1}}' temp/subregions3.txt)
+		region_space=$(echo ${region} | sed 's/_/ /g')
+		subregion=$(awk -v line=${counter} '{if (NR==line) {print $2}}' temp/subregions3.txt)
+		subregion_space=$(echo ${subregion} | sed 's/_/ /g')
 
-	if [ "${region}" != "${current_region}" ]
-	then
 
-		cat << END_CAT >> figure_tex/summary.tex
+
+		if [ "${region}" != "${current_region}" ]
+		then
+
+			cat << END_CAT >> figure_tex/summary.tex
 
 \clearpage
 
@@ -179,8 +181,19 @@ do
 END_CAT
 
 
+		if [ "${region}" != "${current_region}" ] && [ "${current_region}" != "dummy" ]
+		then
 
 		cat << END_CAT >> statistics_tex/summary.tex
+
+\clearpage
+
+
+END_CAT
+
+fi
+
+			cat << END_CAT >> statistics_tex/summary.tex
 
 
 \subsubsection{${region_space}}
@@ -189,11 +202,11 @@ END_CAT
 
 
 
-	fi
+		fi
 
-	if [ "${region}" = "${current_region}" ]
-	then
-		cat << END_CAT >> figure_tex/summary.tex
+		if [ "${region}" = "${current_region}" ]
+		then
+			cat << END_CAT >> figure_tex/summary.tex
 
 \clearpage
 
@@ -201,24 +214,24 @@ END_CAT
 
 
 
-	fi
+		fi
 
-	current_region=${region}
+		current_region=${region}
 
-	cat figure_tex/${subregion}_${MIS}.tex >> figure_tex/summary.tex
-	cat figure_tex/${subregion}_${MIS}_figures.tex >> figure_tex/summary.tex
+		cat figure_tex/${subregion}_${MIS}.tex >> figure_tex/summary.tex
+		cat figure_tex/${subregion}_${MIS}_figures.tex >> figure_tex/summary.tex
 
 
-	# create statistics table
+		# create statistics table
 
-	line1="& \tiny $(awk '{if (NR == 1) print $1}' temp/compare_models.txt)  & \tiny $(awk '{if (NR == 2) print $1}' temp/compare_models.txt)  & \tiny $(awk '{if (NR == 3) print $1}' temp/compare_models.txt)  & \tiny $(awk '{if (NR == 4) print $1}' temp/compare_models.txt)   & \tiny $(awk '{if (NR == 5) print $1}' temp/compare_models.txt)   & \tiny $(awk '{if (NR == 6) print $1}' temp/compare_models.txt)"
+		line1="& \tiny $(awk '{if (NR == 1) print $1}' temp/compare_models.txt)  & \tiny $(awk '{if (NR == 2) print $1}' temp/compare_models.txt)  & \tiny $(awk '{if (NR == 3) print $1}' temp/compare_models.txt)  & \tiny $(awk '{if (NR == 4) print $1}' temp/compare_models.txt)   & \tiny $(awk '{if (NR == 5) print $1}' temp/compare_models.txt)   & \tiny $(awk '{if (NR == 6) print $1}' temp/compare_models.txt)"
 
-	line1a=$( echo ${line1} | sed 's/_/\\textunderscore{}/g')
+		line1a=$( echo ${line1} | sed 's/_/\\textunderscore{}/g')
 
-	line2="& $(awk '{if (NR == 1) print $2}' temp/compare_models.txt)  & $(awk '{if (NR == 2) print $2}' temp/compare_models.txt)  & $(awk '{if (NR == 3) print $2}' temp/compare_models.txt)  & $(awk '{if (NR == 4) print $2}' temp/compare_models.txt)   & $(awk '{if (NR == 5) print $2}' temp/compare_models.txt)   & $(awk '{if (NR == 6) print $2}' temp/compare_models.txt)"
+		line2="& $(awk '{if (NR == 1) print $2}' temp/compare_models.txt)  & $(awk '{if (NR == 2) print $2}' temp/compare_models.txt)  & $(awk '{if (NR == 3) print $2}' temp/compare_models.txt)  & $(awk '{if (NR == 4) print $2}' temp/compare_models.txt)   & $(awk '{if (NR == 5) print $2}' temp/compare_models.txt)   & $(awk '{if (NR == 6) print $2}' temp/compare_models.txt)"
 
 #
-	cat << END_CAT > temp/table.tex
+		cat << END_CAT > temp/table.tex
 
 \begin{table}[h!]
 \caption{Number of data points and model scores for ${subregion_space} }
@@ -236,11 +249,11 @@ END_CAT
 			# do 
 			# done
 
-	awk '{sum2 += $2; sum3 += $3; sum4 += $4; sum5 += $5; sum6 += $6; sum7 += $7; sum8 += $8; sum9 += $9; sum10 += $10; sum11 += $11; } END {print "Total & ", sum2, "& ", sum3, "& ", sum4, "& ", sum5, "& ", sum6, "& ", sum7, "& ", sum8, "& ", sum9, "& ", sum10, "& ", sum11, "\\\\" }' temp/subregion_temp/${subregion}_${MIS}.txt | sed 's/_/ /g' >> temp/table.tex
+		awk '{sum2 += $2; sum3 += $3; sum4 += $4; sum5 += $5; sum6 += $6; sum7 += $7; sum8 += $8; sum9 += $9; sum10 += $10; sum11 += $11; } END {print "Total & ", sum2, "& ", sum3, "& ", sum4, "& ", sum5, "& ", sum6, "& ", sum7, "& ", sum8, "& ", sum9, "& ", sum10, "& ", sum11, "\\\\" }' temp/subregion_temp/${subregion}_${MIS}.txt | sed 's/_/ /g' >> temp/table.tex
 
-	awk '{print $1, "& ", $2, "& ", $3, "& ", $4, "& ", $5, "& ", $6, "& ", $7, "& ", $8, "& ", $9, "& ", $10, "& ", $11, "\\\\"}'  temp/subregion_temp/${subregion}_${MIS}.txt | sed 's/_/ /g' >> temp/table.tex
+		awk '{print $1, "& ", $2, "& ", $3, "& ", $4, "& ", $5, "& ", $6, "& ", $7, "& ", $8, "& ", $9, "& ", $10, "& ", $11, "\\\\"}'  temp/subregion_temp/${subregion}_${MIS}.txt | sed 's/_/ /g' >> temp/table.tex
 
-	cat << END_CAT >> temp/table.tex
+		cat << END_CAT >> temp/table.tex
 
 \hline
 
@@ -248,16 +261,25 @@ END_CAT
 \end{scriptsize}
 \end{table}
 
+
 END_CAT
 
-	cat temp/table.tex >> statistics_tex/summary.tex
+		cat temp/table.tex >> statistics_tex/summary.tex
 
-done
+
+
+	done
+
+
+
+
+
 else
 
-echo "no data yet"  >> statistics_tex/summary.tex
+	echo "no data yet"  >> statistics_tex/summary.tex
 
 fi
+
 done # cycled through all MIS stages
 
 

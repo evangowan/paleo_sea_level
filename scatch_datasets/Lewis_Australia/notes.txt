@@ -1,0 +1,8 @@
+- Location values were not given in the original spreadsheets. I tried to track down the coordinates in the original papers, sometimes by approximating from the paper's map. If I could not find a download of the original publication, I apprixmated the location based on the site name in the spreadsheet
+- Lewis told me that no correction was made for fractionation, so I made these corrections when appropriate. See https://github.com/evangowan/radiocarbon_labs
+- For New South Wales, a lot of the samples from the Sloss 2007 compilation did not make it into the Lewis one. If the sample was in Lewis, I used that interpretation (which set them as sea level indicators with very conservative error bars). For the remaining points, I set them to be marine or terrestrial limiting as appropriate.
+- Bulk radiocarbon errors are set to be 100 years, which was recommended in the HOLSEA documentation
+- New South Wales reservoir age is -143+/-39, taken from five points from NSW in http://calib.org/marine/
+- organic mud (with zostera) is set to use the terrestrial calibration with bulk correction
+- Fractionation corrections are based on the values stated in Stuiver and Polach (1977), which can be found in the calibrate folder
+- GaK ages are probably unreliable (see Blake 1980), but I have not made any correction.

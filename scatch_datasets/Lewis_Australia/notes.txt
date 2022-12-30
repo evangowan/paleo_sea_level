@@ -14,3 +14,4 @@
 - A number of the dates from the Belperio 2002 dataset do not have any indication of the original references, and the locations can only be generally inferred from the name of the city
 - The Lewis paper did not have a dataset for Tasmania, but there is somewhat of a dataset in the PHD thesis by Morrison. There isn't a lot of data, and much of it only gives calibrated dates.
 - There are a bunch of dates in Murray-Wallace and Goede (1995) that are presented using a very early calibration. I have doubled the uncertainty to account for the likely difference with the modern calibration.
+- I used two reservoir corrections for Western Australia. For places south of -21 N, I used -83+/-27, based on five points. For places north of -21 N, I used -91+/-31, based on 14 points

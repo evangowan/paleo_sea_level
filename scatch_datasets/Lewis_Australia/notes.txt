@@ -1,4 +1,4 @@
-- Location values were not given in the original spreadsheets. I tried to track down the coordinates in the original papers, sometimes by approximating from the paper's map. If I could not find a download of the original publication, I apprixmated the location based on the site name in the spreadsheet
+- Location values were not given in the original spreadsheets. I tried to track down the coordinates in the original papers, sometimes by approximating from the paper's map. If I could not find a download of the original publication, I approximated the location based on the site name in the spreadsheet
 - Lewis told me that no correction was made for fractionation, so I made these corrections when appropriate. See https://github.com/evangowan/radiocarbon_labs
 - For New South Wales, a lot of the samples from the Sloss 2007 compilation did not make it into the Lewis one. If the sample was in Lewis, I used that interpretation (which set them as sea level indicators with very conservative error bars). For the remaining points, I set them to be marine or terrestrial limiting as appropriate.
 - Bulk radiocarbon errors are set to be 100 years, which was recommended in the HOLSEA documentation
@@ -16,3 +16,11 @@
 - There are a bunch of dates in Murray-Wallace and Goede (1995) that are presented using a very early calibration. I have doubled the uncertainty to account for the likely difference with the modern calibration.
 - I used two reservoir corrections for Western Australia. For places south of -21 N, I used -83+/-27, based on five points. For places north of -21 N, I used -91+/-31, based on 14 points
 - The reservoir correction for Northern Territory is -109+/-40, which is based on only one data point
+- I could not find the references to Bloom 1975 and 1980 in the Queensland dataset. I have referenced Hopley 1980, which gives a pers comms to Bloom
+- Many of the dates from Chappell et al 1983 do not have a lab code, so I do not know what lab they are from. However, in the paper they state all the dates are corrected for fractionation, so there should be no problems.
+- Most of the samples that are exclusively from Larcombe et al. 1995 do not have precise locations. They are described on the reefs the cores were from. Some do not have a reef where they are from, but presumably are from the same surveys around Flora Pass. I put the location in that area.
+- There is no digital copy of Hopley 1983, so I approximated the location based on what is in the spreadsheet
+- The reference Marshall 1995 does not exist. The dates listed as Marshall 1995 are actually from the Zwartz 1995 PHD thesis, with a pers comms from Marshall (and a reference to a paper that was never published). The exact location of where the data are from is not stated, just "near Cooktown"
+- The lab codes from Larcombe et al 1995 are almost certainly from Wk (Waikato), though it is not explicitly stated in the paper.
+- Ohlenbusch 1991 is an honours thesis that is not online, the location of the samples are just "mid-shelf", so the location is very approximate
+

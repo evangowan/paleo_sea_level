@@ -25,3 +25,5 @@
 - Ohlenbusch 1991 is an honours thesis that is not online, the location of the samples are just "mid-shelf", so the location is very approximate
 - There are a number of samples without uncertainty ranges. For the mangroves from Zwartz, I set an uncertainty of 3 m, a bit more conservative than the rest of the mangroves from other studies since I do not know the context for which they assigned the errors. For marine samples without uncertainties, I set them to be marine limiting with an error of 1 m. For peat, I set them to be terrestrial limiting with an error of 1 m.
 - The reservoir correction for Queensland is based on 12 points from coastal Queensland, -156+/-15
+- For the Bonaparte Gulf samples from Nicholas et al 2014, I used the indicative meaning of +/-3 m for brackish samples, taken from Yokoyama et al 2000, and +15 m for the rest from Ishiwa et al 2019.
+- In the general spreadsheet with samples from New Zealand and southeastern Asia, I only took the remaining samples from Australia, as there are newer compilations for the other areas.

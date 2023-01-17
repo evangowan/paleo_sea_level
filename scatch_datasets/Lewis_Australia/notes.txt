@@ -28,3 +28,4 @@
 - For the Bonaparte Gulf samples from Nicholas et al 2014, I used the indicative meaning of +/-3 m for brackish samples, taken from Yokoyama et al 2000, and +15 m for the rest from Ishiwa et al 2019.
 - In the general spreadsheet with samples from New Zealand and southeastern Asia, I only took the remaining samples from Australia, as there are newer compilations for the other areas.
 - For Bonaparte Gulf, I took the Yokoyama 2000 definitions for data from that paper, and the Ishiwa et al 2019 definitions for values from that paper
+- I once again went through the Yokoyama et al 2018 spreadsheet, which is included here. The results should plot identically to before, but I have changed the definitions of the upper and lower limits to match the depth range of the coral, rather than adjusting the elevation to be at the midpoint.

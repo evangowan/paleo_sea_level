@@ -1,5 +1,41 @@
-Cairns	Northeastern_Australia
-Mackay	Northeastern_Australia
-Bonaparte_Gulf	Northwestern_Australia
-Bonaparte_Gulf_SLI_Yokoyama2000	Northwestern_Australia	Bonaparte_Gulf
-Bonaparte_Gulf_SLI_Ishiwa2019	Northwestern_Australia	Bonaparte_Gulf
+Cairns	Queensland
+Hydrographers_Passage	Queensland
+Bonaparte_Gulf	Western_Australia
+Bonaparte_Gulf_SLI_Yokoyama2000	Western_Australia	Bonaparte_Gulf
+Bonaparte_Gulf_SLI_Ishiwa2019	Western_Australia	Bonaparte_Gulf
+Albany	Western_Australia
+Bowen	Queensland
+Brisbane	Queensland
+Broome	Western_Australia
+Bunbury	Western_Australia
+Cambridge_Gulf	Western_Australia
+Cape_Melville	Queensland
+Circular_Head	Tasmania
+Darwin	Northern_Territory
+Eastern_Timor_Sea	Western_Australia
+Esperance	Western_Australia
+Exmouth_Gulf	Western_Australia
+Flinders_Island	Tasmania
+Franklin_Harbour	South_Australia
+Geraldton	Western_Australia
+Gladstone	Queensland
+Glamorgan-Spring_Bay	Tasmania
+Gulf_St_Vincent	South_Australia
+Hobart	Tasmania
+King_Island	Tasmania
+Lord_Howe_Island	New_South_Wales
+Nambucca_Heads	New_South_Wales
+Newcastle	New_South_Wales
+Perth	Western_Australia
+Port_Lincoln	South_Australia
+Redcliff	South_Australia
+Rowley_Shoals	Western_Australia
+Sahul_Shelf	Western_Australia
+Shark_Bay	Western_Australia
+Smoky_Bay	South_Australia
+South_Alligator_River	Northern_Territory
+Sunshine_Coast	Queensland
+Sydney	New_South_Wales
+Townsville	Queensland
+Ulladulla	New_South_Wales
+Wollongong	New_South_Wales

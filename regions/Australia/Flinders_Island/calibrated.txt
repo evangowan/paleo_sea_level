@@ -1,0 +1,4 @@
+SUA-3002	-40.23	148.039	3580	0	0	1.2	2.0	2.0	MurrayWallaceGoede1995,Morrison2019
+SUA-3010	-40.202	148.035	5580	0	-1	-0.1	1.0	1.0	MurrayWallaceGoede1995,Morrison2019
+SUA-3001	-40.108	148.263	3600	0	0	1.4	2.0	2.0	MurrayWallaceGoede1995,Morrison2019
+SUA-3015	-40.093	148.239	2060	0	0	1.3	2.0	2.0	MurrayWallaceGoede1995,Morrison2019

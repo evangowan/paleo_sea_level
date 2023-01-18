@@ -94,6 +94,26 @@ if mis == "MIS_1-2":
 		selected_data = stage_1_2_data.copy()
 		data_found = True
 
+	if stage_2 and not deglacial and not holocene:
+
+		min_time=17
+		max_time=29
+		age_tick=2
+		age_subtick=1
+
+		selected_data = stage_1_2_data.copy()
+		data_found = True
+
+	if deglacial and not stage_2 and not holocene:
+
+		min_time=9
+		max_time=21
+		age_tick=2
+		age_subtick=1
+
+		selected_data = stage_1_2_data.copy()
+		data_found = True
+
 	if not stage_2 and deglacial and holocene:
 
 		min_time=-0.5

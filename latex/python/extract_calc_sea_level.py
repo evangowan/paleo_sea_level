@@ -108,6 +108,7 @@ def find_score(sea_level_curve,data_point):
 			data_dict['calc_sl'] = intermediate_elevation(sea_level_curve[index_number]['age'], sea_level_curve[index_number+1]['age'],sea_level_curve[index_number]['sea_level'], sea_level_curve[index_number+1]['sea_level'], young_age)
 			check_points.append(data_dict.copy())
 
+
 	if check_points:
 
 		found_score = True
@@ -164,7 +165,7 @@ def find_score(sea_level_curve,data_point):
 					score = temp_score
 
 		else:
-			print(f"invalid indicator type: {data_point['sample_code']}")
+			print(f"invalid indicator type: {data_point['sample_code']} - {data_point['indicator_type']}")
 			found_score = False
 
 	else:

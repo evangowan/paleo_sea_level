@@ -2,7 +2,7 @@
 
 
 
-J_options="-JR-30/15c"
+J_options="-JR10/15c"
 R_options="-Rg"
 
 plot="data_map.ps"

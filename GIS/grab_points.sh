@@ -12,21 +12,21 @@ do
 	do
 		location=$(awk -v line=${counter} --field-separator '\t' '{if (NR==line) {print $1}}' ../regions/${region}/location_list.txt)
 		gia_region=$(awk -v line=${counter} --field-separator '\t' '{if (NR==line) {print $2}}' ../regions/${region}/location_list.txt)
-		input_file="../regions/${region}/${location}/${location}.txt"
+		input_file="../regions/${region}/${location}/calibrated.txt"
 
 		number_points=$(wc -l < ${input_file})
 
-		for counter2 in $(seq 2 ${number_points} )
+		for counter2 in $(seq 1 ${number_points} )
 		do
 
 			awk -v line=${counter2} '{if (NR == line) {print $0}}' ${input_file} > temp.txt
 
-			sample_code=$(awk --field-separator '\t' '{print $3}' temp.txt)
+			sample_code=$(awk --field-separator '\t' '{print $1}' temp.txt)
 
-			latitude=$(awk --field-separator '\t' '{print $4}' temp.txt)
+			latitude=$(awk --field-separator '\t' '{print $2}' temp.txt)
 
-			longitude=$(awk --field-separator '\t' '{print $5}' temp.txt)
-			indicator_type=$(awk --field-separator '\t' '{print $12}' temp.txt)
+			longitude=$(awk --field-separator '\t' '{print $3}' temp.txt)
+			indicator_type=$(awk --field-separator '\t' '{print int($6)}' temp.txt)
 
 			if [ "${indicator_type}" = "-1" ]
 			then

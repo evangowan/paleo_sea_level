@@ -7,7 +7,6 @@ Fortran/shared_subs.o
 Fortran/sl_diff_params2
 latex/plots/
 latex/temp/
-GIS/sl_points.txt
 latex/figure_tex/
 latex/gmt.history
 latex/report.pdf

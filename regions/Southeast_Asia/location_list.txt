@@ -15,3 +15,4 @@ Ca_Na	Sundaland
 Central_Java	Java_Sea
 South_Sulawesi	Java_Sea
 Berhala_Strait	Sundaland
+Xisha_Islands	South_China_Sea

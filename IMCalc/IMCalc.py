@@ -153,6 +153,7 @@ class IMCalc:
 			if distance < closest_distance:
 					closest_distance=distance
 					closest_index=index
+
 		
 #		end = time.time()
 
@@ -201,11 +202,18 @@ class IMCalc:
 		# Hs is the mean deepwater significant wave height, which could potentially be entered by the user
 		if not Hs:
 			Hs = tide_wave_data['HsMEAN']
+		if np.isnan(Hs):
+			print("mean deepwater significant wave height reported as NaN, enter a value manually")
+			Hs = float(input(">>> "))
 
 		# Tp is the mean deepwater wave period, which could potentially be entered by the user
 
 		if not Tp:
 			Tp = tide_wave_data['TpMEAN']
+
+		if np.isnan(Tp):
+			print("mean deepwater wave period reported as NaN, enter a value manually")
+			Tp = float(input(">>> "))
 
 		# MHHW is the Mean Higher High Water, which could potentially be entered by the user
 
@@ -256,7 +264,6 @@ class IMCalc:
 
 		# Sz: Spray zone
 		Sz = Ob * 2.0;
-
 
 
 		Lo_Max = (self.g * np.power(TPMAX, 2)) / (2.0 * np.pi)

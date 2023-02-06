@@ -27,10 +27,13 @@ import pandas as pd
 
 class IMCalc:
 
-	def __init__(self):
+	def __init__(self, enforce_cawcr=False):
 		CPD_names = ["HsMEAN", "TpMEAN", "HsSTD", "TpSTD", "MLLW", "MHHW", "LonCPD", "LatCPD", "HsMAX", "HsMIN", "TpMAX", "TpMIN", "MTL", "MLW", "MHW", "LAT", "HAT"]
 
-		self.CPD = pd.read_csv (r'CPD.cpd', sep=';', header=None, names=CPD_names)
+		if enforce_cawcr:
+			self.CPD = pd.read_csv (r'CPD_cawcr.cpd', sep=';', header=None, names=CPD_names)
+		else:
+			self.CPD = pd.read_csv (r'CPD.cpd', sep=';', header=None, names=CPD_names)
 
 		# default beach slope, from Lorcheid and Rovere (2019):
 		#     "For this study, the slope of beaches s was calculated averaging the slope of beaches 
@@ -61,6 +64,8 @@ class IMCalc:
 		    {'indicator_number' : '6', 'indicator_type' : 'Shore Platform' },
 		    {'indicator_number' : '7', 'indicator_type' : 'Tidal Notch' }
 		  ]
+
+
 
 	def print_indicator_types(self):
 		print("Indicator types:")
@@ -403,7 +408,17 @@ class IMCalc:
 
 if __name__ == "__main__":
 
-	IMCalc_object = IMCalc()
+	args = sys.argv[1:]
+	enforce_cawcr=False
+
+	if len(args) > 0:
+		if args[0] == '-enforce_cawcr':
+			enforce_cawcr=True
+
+
+
+	IMCalc_object = IMCalc(enforce_cawcr=enforce_cawcr)
+
 
 
 	latitude = float(input("Enter Latitude: "))

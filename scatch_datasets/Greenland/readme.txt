@@ -9,3 +9,4 @@ Mesters Vig, Lasca 1966 - Several of the samples were reported with information 
 Funder 1971 - I added the relevant dates from this report.
 Hjort and Funder 1974 - most of these dates are described in more detail in the Lund date lists, Lasca 1966, Washburn and Stuiver 1962 and Funder 1971.
 Pedersen et al 2011 - They provide a detailed explanation of how their data relate to past sea level, and I have used their index points as is. The coordinates were given in UTM, I converted them to lat/long using this website: https://www.engineeringtoolbox.com/utm-latitude-longitude-d_1370.html 
+Christiansen et al 2002 - They provided interpretations of their data in terms of marine and terrestrial limiting. There is no information on elevation measurements, so I applied a 20% uncertainty.

@@ -10,3 +10,7 @@ Funder 1971 - I added the relevant dates from this report.
 Hjort and Funder 1974 - most of these dates are described in more detail in the Lund date lists, Lasca 1966, Washburn and Stuiver 1962 and Funder 1971.
 Pedersen et al 2011 - They provide a detailed explanation of how their data relate to past sea level, and I have used their index points as is. The coordinates were given in UTM, I converted them to lat/long using this website: https://www.engineeringtoolbox.com/utm-latitude-longitude-d_1370.html 
 Christiansen et al 2002 - They provided interpretations of their data in terms of marine and terrestrial limiting. There is no information on elevation measurements, so I applied a 20% uncertainty.
+Bennike and Wagner 2012 - No uncertainty was provided on the elevation, so I applied a 20% uncertainty.
+Bjorck et al 1994a - I got the coordinates from Google Earth based on the map in the paper. I applied a 20% uncertainty on elevation, since it is not clear how they measured it.
+Bjorck et al 1994 - only one date was regarded as being reliable (Lu-3275), so that is the only one I added.
+Landvik 1994 - The dates were reported reservoir corrected, so I had to add 550 years. I assume everything here is marine limiting, the geological context is not given for some of the dates. There are a few dates with identical lab codes reported, these are suffixed with an underscore and number. The method of elevation measurement is not stated, so I applied a 20% uncertainty.

@@ -371,7 +371,7 @@ class IMCalc:
 			indicator['Reference_Water_Level'] = (indicator['UL'] + indicator['LL']) / 2.0
 
 			indicator['RSL'] = elevation - indicator['Reference_Water_Level']
-			indicator['RSL_uncertainty'] = np.sqrt(np.power(elevation_uncertainty,2)+np.power(indicator['Indicative_Range'],2))
+			indicator['RSL_uncertainty'] = np.sqrt(np.power(elevation_uncertainty,2)+np.power(indicator['Indicative_Range']/2.0,2))
 
 		# find the indicator that is wanted
 

@@ -62,7 +62,7 @@ In this project, there are a series of scripts and programs to plot published pa
 
 - bash shell
 - latex (specifically Xelatex, so non-Latin text can be implemented easier)
-- Python 3, with pandas, numpy and pandas\_ods\_reader packages installed
+- Python 3, with pandas, numpy, pandas\_ods\_reader and odfpy packages installed
 - [Generic Mapping Tools](https://www.generic-mapping-tools.org/ "GMT"), version 6.3 or later.
 - Perl (used to parse the radiocarbon calibration javascript file from Oxcal)
 

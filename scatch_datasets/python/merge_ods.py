@@ -26,6 +26,10 @@ for file_line in files:
 	sl_data = read_ods(file_name, sheet_name, headers=True)
 	output_dataframe= pd.DataFrame(pd.concat([output_dataframe,sl_data]), columns=output_dataframe.columns)
 
+output_dataframe = output_dataframe.fillna("")
+
+print(output_dataframe)
+
 with pd.ExcelWriter('merged.ods', engine="odf") as doc:
-    output_dataframe.to_excel(doc, sheet_name=sheet_name)
+    output_dataframe.to_excel(doc, sheet_name=sheet_name, index=False)
 

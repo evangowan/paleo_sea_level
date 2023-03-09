@@ -1,0 +1,1022 @@
+Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
+	Radiocarbon	AAR-5768	81.177	-63.342	8820.0	75.0	Hiatella arctica	marine			-1.0	105.0	10.0	10.0	Bennike2002
+	Radiocarbon	AAR-5769	81.168	-63.082	8010.0	75.0	Hiatella arctica	marine			-1.0	96.0	10.0	10.0	Bennike2002
+	Radiocarbon	AAR-5765	79.92	-63.84	4330.0	50.0	Hiatella arctica	marine			-1.0	72.0	10.0	10.0	Bennike2002
+	Radiocarbon	AAR-5764	79.923	-63.973	1355.0	40.0	Hiatella arctica	marine			-1.0	50.0	10.0	10.0	Bennike2002
+	Radiocarbon	AAR-6677	79.908	-64.037	1245.0	45.0	Hiatella arctica	marine			-1.0	20.0	4.0	4.0	Bennike2002
+	Radiocarbon	AAR-5766	79.925	-64.072	6870.0	50.0	Hiatella arctica	marine			-1.0	40.0	8.0	8.0	Bennike2002
+	Radiocarbon	AAR-5767	79.927	-64.205	5455.0	50.0	Astarte borealis	marine			-1.0	7.0	1.4000000000000001	1.4000000000000001	Bennike2002
+	Radiocarbon	AAR-5763	79.928	-64.163	6555.0	60.0	Mya truncata	marine			-1.0	36.0	7.2	7.2	Bennike2002
+	Radiocarbon	AAR-6676	79.928	-64.163	6400.0	100.0	Hiatellaarctica	marine			-1.0	41.0	8.200000000000001	8.200000000000001	Bennike2002
+	Radiocarbon	AAR-5762	79.942	-64.285	7240.0	65.0	Mya truncata	marine			-1.0	41.0	8.200000000000001	8.200000000000001	Bennike2002
+	Radiocarbon	AAR-5755	80.147	-64.337	5165.0	50.0	Hiatella arctica	marine			-1.0	40.0	8.0	8.0	Bennike2002
+	Radiocarbon	AAR-5759	80.097	-64.657	6410.0	55.0	Hiatella arctica	marine			-1.0	49.0	9.8	9.8	Bennike2002
+	Radiocarbon	AAR-5758	80.4	-66.97	7090.0	80.0	Hiatella arctica	marine			-1.0	48.0	9.600000000000001	9.600000000000001	Bennike2002
+	Radiocarbon	AAR-5757	80.21	-67.198	7570.0	65.0	Mya truncata	marine			-1.0	67.0	10.0	10.0	Bennike2002
+	Radiocarbon	AAR-5761	80.358	-67.312	6890.0	60.0	Chlamys islandica	marine			-1.0	10.0	2.0	2.0	Bennike2002
+	Radiocarbon	AAR-5760	80.312	-67.393	7580.0	55.0	Hiatella arctica	marine			-1.0	56.0	10.0	10.0	Bennike2002
+	Radiocarbon	AAR-5770	80.408	-67.01	3640.0	80.0	Dryas integrifoli a	terrestrial			1.0	2.0	1.0	1.0	Bennike2002
+	Radiocarbon	Ua-946	82.157	-30.267	4420.0	75.0	Ovibos moschatus	terrestrial			1.0	4.0	1.0	1.0	Bennike2002
+	radiocarbon	LuS-8773	74.548	-18.86	2940.0	50.0	Dryas, Salix	terrestrial	-	-	1.0	35.0	7.0	7.0	BennikeWagner2012
+	radiocarbon	LuS-8774	74.548	-18.86	5320.0	50.0	Dryas, Salix	terrestrial	-	-	1.0	35.0	7.0	7.0	BennikeWagner2012
+	radiocarbon	LuS-8775	74.548	-18.86	7910.0	55.0	Carex, Potentilla, moss	terrestrial	-	-	1.0	35.0	7.0	7.0	BennikeWagner2012
+	radiocarbon	LuS-8776	74.548	-18.86	8995.0	75.0	Carex, Potentilla, Ranunculus, Juncus, moss	terrestrial	-	-	1.0	35.0	7.0	7.0	BennikeWagner2012
+	radiocarbon	LuS-8777	74.548	-18.86	9655.0	100.0	Polytrichum s.l. Sp.	terrestrial	-	-	-1.0	35.0	7.0	7.0	BennikeWagner2012
+	radiocarbon	AAR-3909	79.638	-22.82	4500.0	40.0	Dryas integrifolia	terrestrial	-	-	-1.0	10.0	2.0	2.0	BennikeWeidick2001
+	radiocarbon	AAR-3837	79.62	-22.583	5955.0	55.0	Larix sp.	terrestrial	-	-	-1.0	1.0	1.0	1.0	BennikeWeidick2001
+	radiocarbon	AAR-3834	79.627	-22.55	5080.0	55.0	Larix sp.	terrestrial	-	-	-1.0	5.0	1.0	1.0	BennikeWeidick2001
+	radiocarbon	AAR-4121	79.627	-21.925	6080.0	55.0	Larix sp.	terrestrial	-	-	-1.0	27.0	5.4	5.4	BennikeWeidick2001
+	radiocarbon	AAR-3835	79.627	-22.55	6035.0	55.0	?Larix sp.	terrestrial	-	-	-1.0	24.0	4.800000000000001	4.800000000000001	BennikeWeidick2001
+	radiocarbon	K-6894	79.613	-22.515	6455.0	110.0	Mya truncata	marine			-1.0	32.0	6.4	6.4	BennikeWeidick2001
+	radiocarbon	AAR-3833	79.613	-22.515	4590.0	45.0	Pusa hispida	marine			-1.0	9.0	1.8	1.8	BennikeWeidick2001
+	radiocarbon	AAR-4120	79.61	-22.305	5775.0	60.0	Serripes groenlandicus	marine			-1.0	12.0	2.4000000000000004	2.4000000000000004	BennikeWeidick2001
+	radiocarbon	AAR-4215	79.577	-22.622	5585.0	65.0	?Pusa hispida	marine			-1.0	11.0	2.2	2.2	BennikeWeidick2001
+	radiocarbon	AAR-4693	79.577	-22.622	6940.0	75.0	?Pusa hispida	marine			-1.0	11.0	2.2	2.2	BennikeWeidick2001
+	radiocarbon	AAR-4216	79.548	-22.623	4645.0	55.0	?Pusa hispida	marine			-1.0	1.0	1.0	1.0	BennikeWeidick2001
+	radiocarbon	K-6891	79.572	-22.388	5354.0	77.0	?Balaena mysticetus	marine			-1.0	20.0	4.0	4.0	BennikeWeidick2001
+	radiocarbon	AAR-3838	79.582	-22.303	6755.0	55.0	?Pusa hispida	marine			-1.0	7.0	1.4000000000000001	1.4000000000000001	BennikeWeidick2001
+	radiocarbon	AAR-3839	79.538	-22.443	6805.0	65.0	Mya truncata	marine			-1.0	33.0	6.6000000000000005	6.6000000000000005	BennikeWeidick2001
+	radiocarbon	K-6895	79.827	-19.565	5945.0	96.0	Mya truncata, Hiatella arctica	marine			-1.0	20.0	4.0	4.0	BennikeWeidick2001
+	radiocarbon	AAR-4124	79.827	-19.565	7710.0	70.0	Portlandia arctica	marine			-1.0	45.0	9.0	9.0	BennikeWeidick2001
+	radiocarbon	AAR-4123	79.748	-18.86	9130.0	65.0	Portlandia arctica	marine			-1.0	59.0	10.0	10.0	BennikeWeidick2001
+	radiocarbon	AAR-3840	79.748	-18.86	9280.0	55.0	Portlandia arctica	marine			-1.0	54.0	10.0	10.0	BennikeWeidick2001
+	radiocarbon	AAR-4125	79.74	-18.805	5215.0	55.0	Serripes groenlandicus	marine			-1.0	24.0	4.800000000000001	4.800000000000001	BennikeWeidick2001
+	radiocarbon	AAR-4700	79.107	-19.753	7595.0	55.0	Mya truncata	marine			-1.0	48.0	9.600000000000001	9.600000000000001	BennikeWeidick2001
+	radiocarbon	AAR-4126	79.285	-19.462	4110.0	55.0	Serripes groenlandicus	marine			-1.0	4.0	1.0	1.0	BennikeWeidick2001
+	radiocarbon	AAR-3841	79.232	-19.095	8700.0	70.0	Mya truncata	marine			-1.0	52.0	10.0	10.0	BennikeWeidick2001
+	radiocarbon	AAR-5587	64.61566666666666	-51.224833333333336	3665.0	45.0	charcoal	terrestrial	-	-	1.0	11.0	2.2	2.2	Berglund2003,HinnersonBerglund2004
+	radiocarbon	AAR-7801	64.615	-51.217	3834.0	41.0	charcoal	terrestrial	-	-	1.0	11.0	2.2	2.2	Berglund2003,HinnersonBerglund2004
+	radiocarbon	AAR-6605	64.62899999999999	-51.3819	3600.0	40.0	charcoal	terrestrial	-	-	1.0	4.0	1.0	1.0	Berglund2003,HinnersonBerglund2004
+	radiocarbon	AAR-5588	64.69452777777778	-51.171166666666664	3585.0	45.0	charcoal	terrestrial	-	-	1.0	4.0	1.0	1.0	Berglund2003,HinnersonBerglund2004
+	radiocarbon	AAR-5589	64.69452777777778	-51.171166666666664	3605.0	50.0	charcoal	terrestrial	-	-	1.0	4.0	1.0	1.0	Berglund2003,HinnersonBerglund2004
+	radiocarbon	AAR-6606	64.48388888888888	-51.490833333333335	3615.0	40.0	betula	terrestrial	-	-	1.0	0.5	0.5	0.5	HinnersonBerglund2004
+	radiocarbon	AAR-6601	64.36805555555554	-51.505	3590.0	45.0	betula	terrestrial	-	-	1.0	0.15	0.15	0.15	HinnersonBerglund2004
+	radiocarbon	AAR-6602	64.36805555555554	-51.505	3465.0	50.0	salix	terrestrial	-	-	1.0	0.15	0.15	0.15	HinnersonBerglund2004
+	radiocarbon	AAR-6603	64.36805555555554	-51.505	3460.0	50.0	betula	terrestrial	-	-	1.0	0.15	0.15	0.15	HinnersonBerglund2004
+	radiocarbon	AAR-6604	64.36805555555554	-51.505	3685.0	45.0	betula	terrestrial	-	-	1.0	0.15	0.15	0.15	HinnersonBerglund2004
+	cosmogenic 10Be	GLX27B	60.996	-45.431	11500.0	100.0	Beach cobbles	-	-	-	-1.0	35.4	0.3	0.3	BiermanEtal2018
+	cosmogenic 10Be	GLX28A	60.995	-45.431	11600.0	400.0	Erratic boulder	-	-	-	-1.0	43.3	0.3	0.3	BiermanEtal2018
+	cosmogenic 10Be	GLX28B	60.995	-45.431	11200.0	300.0	Bedrock	-	-	-	-1.0	44.8	0.3	0.3	BiermanEtal2018
+	cosmogenic 10Be	GLX29	60.991	-45.428	11500.0	400.0	Beach cobbles	-	-	-	-1.0	44.6	0.3	0.3	BiermanEtal2018
+	cosmogenic 10Be	GLX30	60.989	-45.426	11500.0	200.0	Bedrock	-	-	-	-1.0	35.0	0.3	0.3	BiermanEtal2018
+	cosmogenic 10Be	GLX31	60.991	-45.423	11200.0	300.0	Bedrock	-	-	-	-1.0	19.1	0.3	0.3	BiermanEtal2018
+	cosmogenic 10Be	GLX32	60.992	-45.42	10200.0	300.0	Bedrock	-	-	-	-1.0	9.1	0.3	0.3	BiermanEtal2018
+	cosmogenic 10Be	GLX33	60.992	-45.42	9500.0	300.0	Bedrock	-	-	-	-1.0	0.9	0.3	0.3	BiermanEtal2018
+	cosmogenic 10Be	KLR1	67.008	-50.682	3330.0	300.0	Exposed bedrock ridge	-	-	-	-1.0	16.13	0.13	0.13	BiermanEtal2018
+	cosmogenic 10Be	KLR2	67.008	-50.682	5560.0	160.0	Exposed bedrock ridge	-	-	-	-1.0	21.51	0.34	0.34	BiermanEtal2018
+	cosmogenic 10Be	KLR3	67.008	-50.683	5930.0	150.0	Exposed bedrock ridge	-	-	-	-1.0	27.93	0.26	0.26	BiermanEtal2018
+	cosmogenic 10Be	KLR4	67.008	-50.685	6570.0	170.0	Exposed bedrock ridge	-	-	-	-1.0	34.78	0.29	0.29	BiermanEtal2018
+	cosmogenic 10Be	KLR5	67.006	-50.686	4990.0	160.0	Strath terrace bedrock	-	-	-	-1.0	18.59	0.18	0.18	BiermanEtal2018
+	cosmogenic 10Be	KLR6	67.005	-50.689	4890.0	180.0	Strath terrace bedrock	-	-	-	-1.0	16.39	0.13	0.13	BiermanEtal2018
+	cosmogenic 10Be	KLR7	67.005	-50.693	4720.0	100.0	Strath terrace bedrock	-	-	-	-1.0	15.04	0.24	0.24	BiermanEtal2018
+	radiocarbon	Ua-2787	75.146	-19.77	10260.0	105.0	Portlandia arctica	marine			-1.0	50.0	10.0	10.0	BjorckEtal1994a
+	radiocarbon	Lu-3516	75.311	-20.03	9640.0	90.0	Hiatella arctica	marine			-1.0	20.0	4.0	4.0	BjorckEtal1994a
+	radiocarbon	Ua-3356	75.311	-20.03	7470.0	150.0	Astarte sp.	marine			-1.0	22.0	4.4	4.4	BjorckEtal1994a
+	radiocarbon	AAR-1193	75.311	-20.03	5960.0	110.0	Betula nana	terrestrial			1.0	22.0	4.4	4.4	BjorckEtal1994a
+	radiocarbon	Ua-3353	75.341	-20.063	7650.0	80.0	aquatic mosses	terrestrial			1.0	65.0	10.0	10.0	BjorckEtal1994a
+	radiocarbon	Lu-3275	70.736	-24.051	7490.0	100.0	bulk sediment	terrestrial			1.0	54.0	10.0	10.0	BjorckEtal1994
+	radiocarbon	K-6579	74.5	-20.5	9495.0	105.0	Mya truncata shells	marine			-1.0	30.0	6.0	6.0	ChristiansenEtal2002
+	radiocarbon	AAR-3102	74.5	-20.5	6255.0	60.0	Plant fragments	terrestrial			1.0	30.0	6.0	6.0	ChristiansenEtal2002
+	radiocarbon	AAR-1217	74.5	-20.5	7140.0	140.0	Salix herbacea leaves	terrestrial			-1.0	9.0	1.8	1.8	ChristiansenEtal2002
+	radiocarbon	K-6580	74.5	-20.5	8705.0	91.0	Mya truncata shells	marine			-1.0	8.0	1.6	1.6	ChristiansenEtal2002
+	radiocarbon	K-6032	74.5	-20.5	6475.0	105.0	Mya truncata shells	marine			-1.0	0.5	1.0	1.0	ChristiansenEtal2002
+	radiocarbon	AAR-4689	74.5	-20.5	620.0	35.0	Seal bone, Phoca hispida hispida	marine			1.0	0.5	1.0	1.0	ChristiansenEtal2002
+	radiocarbon	S-2309	82.017	-58.917	8610.0	139.0	Hiatella arctica, Mya trucata	marine			-1.0	80.0	2.0	2.0	England1985
+	radiocarbon	SI-5856	82.017	-58.917	8635.0	91.0	Hiatella arctica, Mya trucata	marine			-1.0	80.0	2.0	2.0	England1985
+	radiocarbon	GSC-3674	82.033	-58.917	6590.0	100.0	Astarte sp.	marine			-1.0	35.0	2.0	2.0	England1985,McNeelyBrennan2005,McNeelyMcCuaig1991
+	radiocarbon	S-2307	81.817	-58.667	9475.0	154.0	Hiatella arctica	marine			-1.0	92.0	2.0	2.0	England1985
+	radiocarbon	S-2308	81.767	-58.583	9150.0	154.0	Hiatella arctica	marine			-1.0	87.0	2.0	2.0	England1985
+	radiocarbon	S-2315	81.783	-59.133	8930.0	287.0	Portlandia arctica	marine			-1.0	14.0	2.0	2.0	England1985
+	radiocarbon	S-2316	81.783	-59.133	9760.0	1325.0	Thyasira sp.	marine			-1.0	14.0	2.0	2.0	England1985
+	radiocarbon	SI-5854	81.8	-59.15	8965.0	82.0	Hiatella arctica	marine			-1.0	82.0	2.0	2.0	England1985
+	radiocarbon	S-2314	81.767	-59.1	5095.0	168.0	Shells	marine			-1.0	10.0	2.0	2.0	England1985
+	radiocarbon	S-2305	81.767	-59.1	6170.0	105.0	Shells	marine			-1.0	8.0	2.0	2.0	England1985
+	radiocarbon	S-2302	81.65	-59.967	9390.0	124.0	Hiatella arctica	marine			-1.0	105.0	2.0	2.0	England1985
+	radiocarbon	GSC-3744	81.7	-59.6	9980.0	140.0	Portlandia arctica	marine			-1.0	110.0	2.0	2.0	England1985,McNeelyBrennan2005,McNeelyMcCuaig1991
+	radiocarbon	S-2301	81.767	-59.133	8370.0	120.0	Hiatella arctica	marine			-1.0	55.0	2.0	2.0	England1985
+	radiocarbon	S-2408	81.767	-59.133	8230.0	134.0	Hiatella arctica	marine			-1.0	55.0	2.0	2.0	England1985
+	radiocarbon	GSC-3693	81.767	-59.133	8140.0	90.0	Hiatella arctica	marine			-1.0	55.0	2.0	2.0	England1985,McNeelyBrennan2005,McNeelyMcCuaig1991
+	radiocarbon	S-2311	81.633	-58.6	4915.0	105.0	Mya truncata	marine			-1.0	13.0	2.0	2.0	England1985
+	radiocarbon	S-2306	81.6	-60.85	8150.0	139.0	Hiatella arctica, Mya truncata	marine			-1.0	77.0	2.0	2.0	England1985
+	radiocarbon	SI-5855	81.583	-60.917	8685.0	96.0	Portlandia arctica	marine			-1.0	20.0	2.0	2.0	England1985
+	radiocarbon	S-2313	81.583	-60.917	8312.0	124.0	Wood	terrestrial			-1.0	56.0	2.0	2.0	England1985
+	radiocarbon	S-2312	81.583	-60.9	6965.0	188.0	Mya truncata, Hiatella arctica	marine			-1.0	72.0	2.0	2.0	England1985
+	radiocarbon	S-2317	81.583	-60.817	7790.0	193.0	Shells	marine			-1.0	102.0	2.0	2.0	England1985
+	radiocarbon	S-2409	81.3	-61.35	8245.0	129.0	Mya truncata	marine			-1.0	68.0	2.0	2.0	England1985
+	radiocarbon	K-3740	77.494	-66.662	3610.0	80.0	gyttja	corr_terrestrial	0.0	100.0	1.0	22.0	1.0	1.0	Fredskild1985
+	radiocarbon	K-3739	77.494	-66.662	4370.0	85.0	gyttja	corr_terrestrial	0.0	100.0	1.0	22.0	1.0	1.0	Fredskild1985
+	radiocarbon	K-3738	77.494	-66.662	8370.0	95.0	gyttja	corr_terrestrial	0.0	100.0	1.0	22.0	1.0	1.0	Fredskild1985
+	radiocarbon	K-3502	77.494	-66.662	6800.0	85.0	gyttja	corr_terrestrial	0.0	100.0	1.0	22.0	1.0	1.0	Fredskild1985
+	radiocarbon	K-3503	77.494	-66.662	8337.0	124.0	Cardium ciliatum	marine			-1.0	22.5	4.5	4.5	Fredskild1985
+	radiocarbon	K-3504	77.494	-66.662	9027.0	129.0	Hiatella arctica, Myatruncata	marine			-1.0	43.0	8.6	8.6	Fredskild1985,BlakeEtal1996
+	radiocarbon	K-3276	75.367	-58.6	8540.0	120.0	gyttja	corr_terrestrial	0.0	100.0	1.0	15.0	1.0	1.0	Fredskild1985,Blake1987a
+	radiocarbon	K-1741	70.767	-24.117	8728.0	154.0	lake mud	corr_terrestrial	0	100	1.0	53.0	10.0	10.0	Funder1971
+	radiocarbon	I-5420	71.15	-27.833	7055.0	129.0	Mya truncata, Hiatella arctica, Macoma calcaria	marine			-1.0	30.0	6.0	6.0	Funder1971,HjortFunder1974
+	radiocarbon	I-5421	70.95	-28.15	7545.0	134.0	Mya truncata	marine			-1.0	46.0	9.200000000000001	9.200000000000001	Funder1971
+	radiocarbon	I-5422	70.417	-27.817	6855.0	124.0	Mya truncata, Hiatella arctica	marine			-1.0	22.0	4.4	4.4	Funder1971,HjortFunder1974
+	radiocarbon	I-5423	70.45	-26.2	7245.0	129.0	Mya truncata, Hiatella arctica, Astarte borealis, Astarte elliptica	marine			-1.0	3.0	1.0	1.0	Funder1971,HjortFunder1974
+	radiocarbon	K-1742	70.983	-27.717	6348.0	154.0	lake mud	corr_terrestrial	0	100	1.0	60.0	10.0	10.0	Funder1971
+	radiocarbon	K-3494	83.033	-34.35	4814.0	100.0	peat	corr_terrestrial	0.0	100.0	1.0	47.0	9.4	9.4	Funder1982
+	radiocarbon	HAR-3567	83.05	-32.517	8400.0	100.0	Hiatella arctica	marine			-1.0	52.0	10.0	10.0	Funder1982
+	radiocarbon	K-3287	83.65	-33.517	8866.0	124.0	Mya truncata, Hiatella arctica	marine			-1.0	32.0	6.4	6.4	Funder1982
+	radiocarbon	K-3405	83.65	-33.517	8320.0	119.0	Hiatella arctica	marine			-1.0	8.0	1.6	1.6	Funder1982
+	radiocarbon	K-3406	83.65	-33.517	8481.0	124.0	Hiatella arctica, Mya truncata	marine			-1.0	20.0	4.0	4.0	Funder1982
+	radiocarbon	K-3407	83.667	-30.633	8316.0	96.0	Hiatella arctica, Mya truncata	marine			-1.0	18.0	3.6	3.6	Funder1982
+	radiocarbon	K-3288	83.6	-31.967	8816.0	124.0	Hiatella arctica	marine			-1.0	35.0	7.0	7.0	Funder1982
+	radiocarbon	HAR-3560	82.517	-20.033	8980.0	110.0	Hiatella arctica	marine			0.0	31.2	6.0	6.0	Funder1982
+	radiocarbon	K-3408	82.517	-19.833	6538.0	100.0	Astarte borealis	marine			-1.0	12.0	2.4000000000000004	2.4000000000000004	Funder1982
+	radiocarbon	K-3409	82.517	-19.767	3583.0	86.0	Hiatella arctica, Astarte borealis	marine			-1.0	1.0	1.0	1.0	Funder1982
+	radiocarbon	HAR-3559	82.6	-20.233	12050.0	150.0	Hiatella arctica, Astarte borealis, Mya truncata	marine			-1.0	45.0	9.0	9.0	Funder1982
+	radiocarbon	HAR-3568	82.017	-21.483	8470.0	80.0	Hiatella arctica	marine			-1.0	60.0	10.0	10.0	Funder1982
+	radiocarbon	HAR-3563	81.567	-27.233	7280.0	90.0	Mya truncata	marine			-1.0	40.0	8.0	8.0	Funder1982
+	radiocarbon	HAR-3562	81.183	-22.367	7890.0	110.0	Mya truncata	marine			-1.0	50.0	10.0	10.0	Funder1982
+	radiocarbon	HAR-3570	80.683	-23.667	6190.0	130.0	Hiatella arctica	marine			-1.0	35.0	7.0	7.0	Funder1982
+	radiocarbon	HAR-3561	81.583	-16.533	8290.0	90.0	Hiatella arctica	marine			-1.0	49.0	9.8	9.8	Funder1982,FunderAbrahamsen1988
+	radiocarbon	K-3610	81.6	-16.667	6540.0	82.0	basal gyttja	corr_terrestrial	0.0	100.0	1.0	25.0	5.0	5.0	Funder1982,FunderAbrahamsen1988
+	radiocarbon	K-3285	82.283	-30.083	7790.0	115.0	Mya truncata, Hiatella arctica	marine			-1.0	27.0	5.4	5.4	Funder1982,FunderAbrahamsen1988
+	radiocarbon	K-4780	76.6	-69.7	8607.0	91.0	Mya truncata, Hiatella arctica	marine			-1.0	21.0	4.2	4.2	Funder1990a
+	radiocarbon	AAR-1	76.6	-69.7	9450.0	200.0	Mya truncata	marine			0.0	39.5	8.0	8.0	Funder1990a
+	radiocarbon	K-4781	76.667	-68.633	9557.0	100.0	Hiatella arctica, Mya truncata	marine			-1.0	1.0	1.0	1.0	Funder1990a
+	radiocarbon	St-10734	76.45	-69.583	9295.0	100.0	Mya truncata, Balanus crenatus	marine			-1.0	7.2	1.4400000000000002	1.4400000000000002	Funder1990a
+	radiocarbon	St-10739	76.533	-68.917	9405.0	85.0	Mya truncata	marine			-1.0	4.9	1.0	1.0	Funder1990a
+	radiocarbon	St-10736	76.533	-68.917	9365.0	85.0	Mya truncata	marine			-1.0	5.35	1.07	1.07	Funder1990a
+	radiocarbon	St-10737	76.533	-68.917	8760.0	180.0	Mya truncata	marine			-1.0	7.4	1.4800000000000002	1.4800000000000002	Funder1990a
+	radiocarbon	St-10738	76.533	-68.917	8570.0	95.0	Mya truncata	marine			-1.0	8.4	1.6800000000000002	1.6800000000000002	Funder1990a
+	radiocarbon	K-4784	76.65	-68.0	9447.0	100.0	Mya truncata, Hiatella arctica	marine			-1.0	0.0	1.0	1.0	Funder1990a
+	radiocarbon	K-4124	82.21	-21.12	5270.0	91.0	marine shells	marine			-1.0	5.0	1.0	1.0	FunderAbrahamsen1988
+	radiocarbon	K-4129	82.19	-21.36	7600.0	110.0	marine shells	marine			-1.0	29.0	5.800000000000001	5.800000000000001	FunderAbrahamsen1988
+	radiocarbon	K-4128	82.19	-21.38	8316.0	119.0	marine shells	marine			-1.0	41.0	8.200000000000001	8.200000000000001	FunderAbrahamsen1988
+	radiocarbon	K-4126	82.24	-21.11	8668.0	124.0	marine shells	marine			-1.0	55.0	10.0	10.0	FunderAbrahamsen1988
+	radiocarbon	K-4125	82.24	-21.1	9295.0	124.0	marine shells	marine			-1.0	55.0	10.0	10.0	FunderAbrahamsen1988
+	radiocarbon	AAR-1829	70.959	-24.114	10140.0	100.0	Bivalve shell (Hiatella arctica)	marine			-1.0	59.0	1.0	1.0	FunderHansen1996
+	radiocarbon	AAR-2107	70.959	-24.114	9420.0	100.0	Plant remains (Polytri- churn s.L, Saxifraga oppositifolia leaves, Oxyria digyna fruits)2'	terrestrial	-	-	1.0	59.0	1.0	1.0	FunderHansen1996
+	radiocarbon	K-3109	70.5	-23.45	10565.0	149.0	Bivalve shells (Mya truncata)	marine			-1.0	40.0	1.0	1.0	Funder1990,FunderHansen1996
+	radiocarbon	K-1915	71.35	-24.833	10305.0	124.0	Bivalve shells (Hiatella arctica, Mya truncata)	marine			-1.0	89.5	1.5	1.5	Funder1978,FunderHansen1996
+	radiocarbon	Lu-3284	71.067	-24.05	7860.0	100.0	Bivalve shells (Mya truncata)	marine			-1.0	4.0	1.0	1.0	IngolfssonEtal1994,FunderHansen1996
+	radiocarbon	Lu-3282	70.914	-24.207	9420.0	110.0	Bivalve shells (Mya truncata)	marine			-1.0	19.0	1.0	1.0	IngolfssonEtal1994,FunderHansen1996
+	radiocarbon	AAR-644	70.914	-24.207	9670.0	180.0	Bivalve shell (Hiatella arctica)	marine			-1.0	17.5	1.0	1.0	IngolfssonEtal1994,FunderHansen1996
+	radiocarbon	Lu-3283	70.936	-24.206	8710.0	100.0	Bivalve shells (Mya truncata)	marine			-1.0	27.0	1.0	1.0	IngolfssonEtal1994,FunderHansen1996
+	radiocarbon	AAR-643	70.913	-24.216	8730.0	130.0	Bivalve shell (Chlamys islandica)	marine			-1.0	30.0	1.0	1.0	IngolfssonEtal1994,FunderHansen1996
+	radiocarbon	Lu-3400	70.733	-24.1	9760.0	110.0	Bivalve shells (Hiatella arctica, Mya truncata)	marine			-1.0	33.0	1.0	1.0	IngolfssonEtal1994,FunderHansen1996
+	radiocarbon	AAR-995	70.917	-24.217	9310.0	105.0	Bivalve shell (Astarte elliptica)	marine			-1.0	40.0	1.0	1.0	IngolfssonEtal1994,FunderHansen1996
+	radiocarbon	AAR-965	70.683	-24.967	9510.0	150.0	periostracum (Astarte sp.)	marine			-1.0	55.0	1.0	1.0	BjorckEtal1994,FunderHansen1996
+	radiocarbon	S-ANU-67721	81.56639	-61.4173	5142.0	26.0	A. borealis	marine			0.0	30.81	7.68	7.29	GluederEtal2022
+	radiocarbon	UCIAMS-163890	81.20012	-63.3355	5715.0	15.0	H. arctica	marine			0.0	-30.94	23.13	24.45	GluederEtal2022
+	radiocarbon	S-ANU-65910	81.182	-63.3375	7671.0	35.0	H. arctica	marine			0.0	77.95	4.51	5.58	GluederEtal2022
+	radiocarbon	S-ANU-65624	81.17882	-63.3451	7553.0	25.0	H. arctica	marine			0.0	88.85	3.97	4.9	GluederEtal2022
+	radiocarbon	UCIAMS-163887	81.17818	-63.3457	7385.0	20.0	H. arctica	marine			0.0	91.9	3.18	4.44	GluederEtal2022
+	radiocarbon	UCIAMS-163890	81.55489	-61.5521	5180.0	15.0	H. arctica	marine			0.0	-0.14	3.95	4.86	GluederEtal2022
+	radiocarbon	S-ANU-67725	81.56283	-61.4357	6325.0	26.0	H. arctica	marine			0.0	31.1	4.09	4.89	GluederEtal2022
+	radiocarbon	UCIAMS-163892	81.56283	-61.4357	6420.0	15.0	H. arctica	marine			0.0	20.52	13.82	13.51	GluederEtal2022
+	radiocarbon	UCIAMS-163893	81.57773	-61.2244	8365.0	20.0	H. arctica	marine			0.0	63.11	4.55	5.58	GluederEtal2022
+	radiocarbon	S-ANU-65911	81.60323	-60.7112	7526.0	33.0	H. arctica	marine			0.0	81.97	7.6	8.16	GluederEtal2022
+	radiocarbon	UCIAMS-175987	81.49185	-61.2898	4795.0	15.0	H. arctica	marine			0.0	-6.67	13.08	13.82	GluederEtal2022
+	radiocarbon	UCIAMS-175988	81.49139	-61.3038	2760.0	15.0	A. borealis	marine			0.0	-9.14	13.86	13.95	GluederEtal2022
+	radiocarbon	UCIAMS-175993	81.48935	-61.3252	1335.0	15.0	A. borealis	marine			0.0	-17.32	13.2	14.87	GluederEtal2022
+	radiocarbon	UCIAMS-175992	81.48907	-61.329	1120.0	15.0	A. borealis	marine			0.0	-5.3	5.58	6.27	GluederEtal2022
+	radiocarbon	S-ANU-66427	81.48907	-61.329	4474.0	28.0	H. arctica	marine			0.0	-41.86	22.73	23.82	GluederEtal2022
+	radiocarbon	UCIAMS-163896	81.57894	-61.1721	8175.0	20.0	H. arctica	marine			0.0	94.2	3.9	4.83	GluederEtal2022
+	radiocarbon	UCIAMS-163895	81.58368	-61.1884	8350.0	20.0	H. arctica	marine			0.0	91.73	3.31	4.78	GluederEtal2022
+	radiocarbon	S-ANU-65737	81.5826	-61.1996	8356.0	25.0	H. arctica	marine			0.0	90.48	4.47	5.57	GluederEtal2022
+	radiocarbon	S-ANU-67731	81.58343	-61.2104	8555.0	31.0	H. arctica	marine			0.0	86.2	5.34	6.22	GluederEtal2022
+	radiocarbon	S-ANU-67732	81.58343	-61.2104	8446.0	37.0	H. arctica	marine			0.0	87.26	3.93	4.84	GluederEtal2022
+	radiocarbon	S-ANU-65510	81.57721	-61.1986	8002.0	30.0	H. arctica	marine			0.0	58.49	3.74	4.78	GluederEtal2022
+	radiocarbon	UCIAMS-175998	80.7434	-63.1306	4565.0	20.0	H. arctica	marine			0.0	-35.61	23.6	25.55	GluederEtal2022
+	radiocarbon	S-ANU-67718	80.7434	-63.1306	4535.0	23.0	H. arctica	marine			0.0	-5.1	8.61	9.53	GluederEtal2022
+	radiocarbon	S-ANU-67719	80.7434	-63.1306	4698.0	25.0	A. borealis	marine			0.0	-0.37	4.15	5.12	GluederEtal2022
+	radiocarbon	S-ANU-67720	80.7498	-63.1069	1303.0	21.0	A. borealis	marine			0.0	-12.73	13.48	13.63	GluederEtal2022
+	radiocarbon	UCIAMS-175995	80.7469	-63.0983	3780.0	20.0	A. borealis	marine			0.0	-22.31	13.11	15.23	GluederEtal2022
+	radiocarbon	UCIAMS-175997	80.74373	-63.0978	4285.0	20.0	A. borealis	marine			0.0	5.8	4.77	5.71	GluederEtal2022
+	radiocarbon	UCIAMS-175996	80.74373	-63.0978	4650.0	15.0	A. borealis	marine			0.0	-13.6	13.2	16.8	GluederEtal2022
+	radiocarbon	S-ANU-65437	80.7435	-63.1293	5166.0	35.0	A. borealis	marine			0.0	-15.05	13.88	14.41	GluederEtal2022
+	radiocarbon	S-ANU-65912	80.75087	-63.1077	2335.0	27.0	A. borealis	marine			0.0	-11.75	13.87	13.97	GluederEtal2022
+	radiocarbon	S-ANU-67737	80.75087	-63.1077	3949.0	24.0	A. borealis	marine			0.0	-32.36	21.6	23.77	GluederEtal2022
+	radiocarbon	S-ANU-65438	80.74634	-63.0864	5915.0	25.0	H. arctica	marine			0.0	11.69	4.79	5.73	GluederEtal2022
+	radiocarbon	S-ANU-67738	80.74659	-63.0896	6075.0	29.0	H. arctica	marine			0.0	-6.98	8.54	9.74	GluederEtal2022
+	radiocarbon	S-ANU-67933	80.74661	-63.0909	4416.0	27.0	H. arctica	marine			0.0	-13.21	10.57	11.76	GluederEtal2022
+	radiocarbon	S-ANU-65907	80.74972	-63.1133	5250.0	39.0	A. borealis	marine			0.0	-11.53	13.81	13.0	GluederEtal2022
+	radiocarbon	OS-154612 	81.79623	-59.5537	7360.0	30.0	H. arctica	marine			0.0	69.09	3.15	4.91	GluederEtal2022
+	radiocarbon	OS-154611 	81.79763	-59.5419	6960.0	30.0	H. arctica	marine			0.0	53.39	4.52	5.58	GluederEtal2022
+	radiocarbon	OS-154610 	81.79778	-59.5347	7020.0	30.0	H. arctica	marine			0.0	46.36	4.24	5.48	GluederEtal2022
+	radiocarbon	OS-154609 	81.79917	-59.513	6150.0	25.0	H. arctica	marine			0.0	13.85	7.28	6.38	GluederEtal2022
+	radiocarbon	S-ANU-65504	81.79924	-59.5085	4774.0	23.0	H. arctica	marine			0.0	-2.28	10.95	12.26	GluederEtal2022
+	radiocarbon	S-ANU-65735	81.7993	-59.5075	3960.0	21.0	H. arctica	marine			0.0	0.61	7.66	7.11	GluederEtal2022
+	radiocarbon	S-ANU-67937	81.7992	-59.506	3918.0	24.0	A. borealis	marine			0.0	-18.63	12.61	14.44	GluederEtal2022
+	radiocarbon	OS-154608 	81.79936	-59.5019	3060.0	20.0	A. borealis	marine			0.0	-17.93	13.28	15.27	GluederEtal2022
+	radiocarbon	S-ANU-66431	81.79981	-59.5101	4360.0	29.0	A. borealis	marine			0.0	4.64	7.72	7.22	GluederEtal2022
+	radiocarbon	OS-154701 	81.69994	-59.7548	8800.0	40.0	H. arctica	marine			0.0	89.02	4.76	5.69	GluederEtal2022
+	radiocarbon	OS-154700 	81.70158	-59.7399	9390.0	30.0	H. arctica	marine			0.0	81.91	1.87	3.57	GluederEtal2022
+	radiocarbon	OS-154607 	81.49041	-61.3255	1240.0	20.0	A. borealis	marine			0.0	-9.22	8.71	9.65	GluederEtal2022
+	radiocarbon	OS-154703 	81.19465	-63.3826	6860.0	25.0	H. arctica	marine			0.0	-1.28	13.52	14.35	GluederEtal2022
+	radiocarbon	OS-154702 	81.19546	-63.3906	6020.0	25.0	A. borealis	marine			0.0	-13.69	13.01	14.26	GluederEtal2022
+	radiocarbon	OS-154704 	81.19393	-63.3852	6720.0	30.0	H. arctica	marine			0.0	17.24	7.41	6.36	GluederEtal2022
+	radiocarbon	OS-154705 	81.19335	-63.388	7200.0	25.0	Macoma sp?	marine			0.0	24.62	3.98	4.91	GluederEtal2022
+	radiocarbon	S-ANU-65506	81.19335	-63.388	6091.0	24.0	H. arctica	marine			0.0	14.03	13.82	13.51	GluederEtal2022
+	radiocarbon	S-ANU-65807	81.19269	-63.388	6785.0	24.0	H. arctica	marine			0.0	21.61	11.6	12.46	GluederEtal2022
+	radiocarbon	OS-154751 	81.19235	-63.3888	6630.0	25.0	Macoma sp?	marine			0.0	32.51	1.87	3.57	GluederEtal2022
+	radiocarbon	OS-154752 	81.19222	-63.3903	6630.0	25.0	H. arctica	marine			0.0	34.04	5.26	6.15	GluederEtal2022
+	radiocarbon	S-ANU-66510	81.1901	-63.3932	7360.0	25.0	H. arctica	marine			0.0	34.99	11.56	12.28	GluederEtal2022
+	radiocarbon	OS-154753 	81.18993	-63.3923	7650.0	30.0	Macoma sp?	marine			0.0	39.5	8.63	9.53	GluederEtal2022
+	radiocarbon	S-ANU-65738	81.18899	-63.3913	6915.0	24.0	H. arctica	marine			0.0	48.51	3.97	4.87	GluederEtal2022
+	radiocarbon	OS-154754 	81.18825	-63.3894	7160.0	30.0	H. arctica	marine			0.0	52.32	7.27	6.38	GluederEtal2022
+	radiocarbon	OS-154755 	81.18541	-63.3927	8150.0	35.0	H. arctica	marine			0.0	66.36	3.18	4.48	GluederEtal2022
+	radiocarbon	OS-154756 	81.18327	-63.3938	8290.0	35.0	H. arctica	marine			0.0	76.11	3.07	4.83	GluederEtal2022
+	radiocarbon	OS-154706 	81.19218	-63.3878	7410.0	25.0	A. borealis	marine			0.0	16.19	13.14	16.03	GluederEtal2022
+	radiocarbon	OS-65405	71.557	-24.475	13550.0	55.0	shell fragment	marine			-1.0	76.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-62986	71.557	-24.475	12700.0	50.0	Portlandia arctica	marine			-1.0	76.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-62852	71.549	-24.492	10200.0	60.0	Portlandia arctica	marine			0.0	101.0	5.0	5.0	HallEtal2008,HallEtal2010
+	radiocarbon	OS-65398	71.556	-24.46	10050.0	50.0	Portlandia arctica	marine			-1.0	60.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-58509	71.556	-24.47	9740.0	40.0	Portlandia arctica	marine			-1.0	84.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-58609	71.554	-24.474	9620.0	50.0	Portlandia arctica	marine			-1.0	71.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-65406	71.562	-24.472	9320.0	40.0	shell fragment	marine			-1.0	81.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-62851	71.557	-24.469	9290.0	50.0	Mya truncata	marine			-1.0	76.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-65438	71.574	-24.456	8310.0	65.0	Hiatella (likely) 	marine			-1.0	47.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-55729	71.663	-24.361	9650.0	40.0	shell fragment	marine			-1.0	70.0	5.0	5.0	HallEtal2008,HallEtal2010
+	radiocarbon	OS-55611	71.695	-24.369	9470.0	60.0	shell fragment	marine			-1.0	59.0	5.0	5.0	HallEtal2008,HallEtal2010
+	radiocarbon	OS-64766	71.66	-24.358	9440.0	35.0	Mya (likely)	marine			-1.0	69.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-55724	71.652	-24.466	9420.0	60.0	Mya truncata	marine			-1.0	72.0	5.0	5.0	HallEtal2008,HallEtal2010
+	radiocarbon	OS-55728	71.688	-24.368	9410.0	40.0	Mya truncata	marine			-1.0	66.0	5.0	5.0	HallEtal2008,HallEtal2010
+	radiocarbon	OS-55610	71.652	-24.466	9300.0	50.0	shell fragment	marine			-1.0	76.0	5.0	5.0	HallEtal2008,HallEtal2010
+	radiocarbon	OS-51882	71.668	-24.365	9290.0	55.0	shell fragment	marine			0.0	73.0	5.0	5.0	HallEtal2008,HallEtal2010
+	radiocarbon	OS-64849	71.63	-24.462	9280.0	40.0	Mya (likely)	marine			-1.0	48.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-55725	71.647	-24.458	9230.0	45.0	Mya truncata	marine			-1.0	74.0	5.0	5.0	HallEtal2008,HallEtal2010
+	radiocarbon	OS-55613	71.655	-24.348	9210.0	50.0	Mya truncata	marine			0.0	61.0	5.0	5.0	HallEtal2008,HallEtal2010
+	radiocarbon	OS-64755	71.668	-24.365	9160.0	45.0	Mya truncata	marine			-1.0	62.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-55612	71.66	-24.358	9110.0	50.0	shell fragment	marine			0.0	81.0	5.0	5.0	HallEtal2008,HallEtal2010
+	radiocarbon	OS-55609	71.671	-24.467	9100.0	50.0	Mya truncata	marine			-1.0	60.0	5.0	5.0	HallEtal2008,HallEtal2010
+	radiocarbon	OS-64843	71.685	-24.364	9080.0	40.0	Mya sp.	marine			-1.0	58.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-64760	71.685	-24.364	9060.0	40.0	Mya (likely)	marine			-1.0	70.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-64765	71.685	-24.364	9060.0	40.0	Mya sp.	marine			0.0	61.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-64756	71.69	-24.367	9050.0	45.0	Mya truncata	marine			-1.0	65.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-64845	71.685	-24.364	9020.0	35.0	Mya truncata	marine			0.0	66.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-55730	71.66	-24.358	8970.0	60.0	Mya truncata	marine			-1.0	50.0	5.0	5.0	HallEtal2008,HallEtal2010
+	radiocarbon	OS-62994	71.51	-24.5	10500.0	55.0	Portlandia arctica	marine			-1.0	70.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-65435	71.503	-24.509	10200.0	50.0	Portlandia arctica	marine			-1.0	49.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-65399	71.51	-24.5	9760.0	45.0	Hiatella arctica	marine			-1.0	59.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-58250	71.478	-24.509	9730.0	45.0	shell fragment	marine			-1.0	83.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-58735	71.455	-24.501	9500.0	40.0	Mya truncata	marine			-1.0	78.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-65401	71.51	-24.5	9460.0	45.0	Portlandia arctica	marine			-1.0	70.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-62985	71.454	-24.506	9410.0	50.0	Mya truncata	marine			0.0	73.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-58607	71.455	-24.502	9390.0	40.0	Mya truncata	marine			-1.0	78.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-58249	71.483	-24.496	9380.0	40.0	Mya (likely)	marine			0.0	69.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-62855	71.51	-24.5	9340.0	45.0	Mya truncata	marine			0.0	75.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-58674	71.51	-24.5	9320.0	45.0	Mya truncata	marine			0.0	75.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-62992	71.5	-24.503	9320.0	45.0	Mya truncata	marine			0.0	81.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-62849	71.51	-24.5	9290.0	50.0	Mya truncata	marine			0.0	75.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-58705	71.459	-24.497	9220.0	45.0	Mya truncata	marine			-1.0	64.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-65436	71.49	-24.507	9190.0	45.0	shell fragment	marine			-1.0	84.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-64759	71.454	-24.506	8900.0	40.0	Mya truncata	marine			-1.0	59.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-62850	71.455	-24.495	8900.0	45.0	shell fragment	marine			0.0	57.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-58327	71.455	-24.495	8620.0	35.0	Macoma calcarea	marine			0.0	40.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-64764	71.453	-24.494	8430.0	30.0	shell fragment	marine			0.0	49.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-65437	71.455	-24.495	8460.0	60.0	Mya truncata	marine			-1.0	34.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-58704	71.456	-24.494	8230.0	35.0	Mya truncata	marine			-1.0	52.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-64762	71.45	-24.492	8070.0	40.0	Mya truncata	marine			-1.0	34.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-64844	71.448	-24.488	7750.0	35.0	Mya truncata	marine			-1.0	27.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-52957	71.524	-24.336	9130.0	45.0	Mya truncata	marine			-1.0	70.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-52962	71.522	-24.342	9020.0	50.0	Mya truncata	marine			-1.0	32.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-51766	71.526	-24.343	9000.0	50.0	Mya truncata	marine			0.0	58.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-55734	71.522	-24.342	8440.0	40.0	Mya truncata	marine			-1.0	29.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-55732	71.597	-24.319	9650.0	45.0	Mya truncata	marine			0.0	67.0	5.0	5.0	HallEtal2008,HallEtal2010
+	radiocarbon	OS-51568	71.629	-24.329	9620.0	45.0	Mya truncata	marine			0.0	63.0	5.0	5.0	HallEtal2008,HallEtal2010
+	radiocarbon	OS-52956	71.593	-24.327	9540.0	55.0	Mya truncata	marine			0.0	61.0	5.0	5.0	HallEtal2008,HallEtal2010
+	radiocarbon	OS-51774	71.505	-24.342	9420.0	55.0	Mya (likely)	marine			0.0	67.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-51845	71.505	-24.342	9350.0	45.0	Mya (likely)	marine			0.0	67.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-55731	71.619	-24.331	9150.0	45.0	Mya truncata	marine			0.0	52.0	5.0	5.0	HallEtal2008,HallEtal2010
+	radiocarbon	OS-51759	71.501	-24.348	8800.0	45.0	Mya (likely)	marine			-1.0	34.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-51846	71.501	-24.348	8770.0	45.0	Mya (likely)	marine			0.0	58.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-55733	71.593	-24.332	8020.0	40.0	shell fragment	marine			-1.0	32.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-52964	71.557	-24.326	9950.0	45.0	Mya truncata	marine			0.0	89.0	5.0	5.0	HallEtal2008,HallEtal2010
+	radiocarbon	OS-51765	71.518	-24.334	9800.0	55.0	Mya truncata	marine			0.0	78.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-52963	71.567	-24.325	9610.0	40.0	Mya truncata	marine			0.0	75.0	5.0	5.0	HallEtal2008,HallEtal2010
+	radiocarbon	OS-52967	71.518	-24.334	9590.0	60.0	shell fragment	marine			0.0	72.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-55736	71.567	-24.325	9510.0	45.0	Mya truncata	marine			-1.0	66.0	5.0	5.0	HallEtal2008,HallEtal2010
+	radiocarbon	OS-52966	71.542	-24.329	9420.0	50.0	Mya (likely)	marine			-1.0	73.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-64754	71.547	-24.331	9140.0	40.0	Mya truncata	marine			0.0	62.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-55735	71.574	-24.324	9060.0	45.0	shell fragment	marine			0.0	72.0	5.0	5.0	HallEtal2008,HallEtal2010
+	radiocarbon	OS-55737	71.56	-24.326	9030.0	55.0	shell fragment	marine			-1.0	58.0	5.0	5.0	HallEtal2008,HallEtal2010
+	radiocarbon	OS-55614	71.574	-24.324	8890.0	45.0	Mya truncata	marine			-1.0	43.0	5.0	5.0	HallEtal2008,HallEtal2010
+	radiocarbon	OS-51874	71.446	-24.384	9900.0	40.0	Mya truncata	marine			0.0	73.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-52112	71.446	-24.384	9670.0	60.0	Mya truncata (soft parts)	marine			0.0	73.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-52970	71.448	-24.394	9560.0	40.0	Mya truncata	marine			0.0	74.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-51884	71.448	-24.394	9460.0	35.0	Mya truncata	marine			-1.0	35.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-51716	71.458	-24.392	9380.0	50.0	Hiatella arctica	marine			-1.0	35.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-51883	71.452	-24.397	8970.0	35.0	Mya (likely)	marine			-1.0	13.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-52968	71.448	-24.394	8650.0	40.0	shell fragment	marine			-1.0	32.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-51770	71.282	-24.54	9440.0	55.0	Macoma calcarea	marine			-1.0	32.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-51760	71.297	-24.531	9150.0	45.0	Macoma calcarea	marine			-1.0	27.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-51767	71.297	-24.531	8780.0	55.0	Macoma calcarea	marine			-1.0	12.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-51775	71.297	-24.531	8480.0	50.0	Mya truncata	marine			0.0	37.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-51847	71.297	-24.531	8460.0	60.0	Macoma calcarea	marine			-1.0	12.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-51776	71.297	-24.531	8430.0	45.0	Astarte elliptica	marine			-1.0	10.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-51769	71.287	-24.54	8000.0	45.0	Mya truncata	marine			0.0	33.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-51875	71.284	-24.553	7260.0	30.0	Mya truncata	marine			-1.0	3.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-52969	71.297	-24.531	6780.0	40.0	shell fragment	marine			-1.0	10.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-51885	71.316	-24.653	8250.0	30.0	Mya truncata	marine			-1.0	8.0	5.0	5.0	HallEtal2010
+	radiocarbon	OS-64844	71.316	-24.653	7750.0	35.0	Mya truncata	marine			-1.0	3.0	5.0	5.0	HallEtal2010
+	radiocarbon	Lu-2574	81.194	-12.858	9550.0	90.0	bivalves	marine			-1.0	34.0	6.800000000000001	6.800000000000001	Hjort1997,FunderEtal2011
+	radiocarbon	Lu-3782	80.896	-14.387	9080.0	110.0	bivalves	marine			-1.0	65.0	10.0	10.0	Hjort1997,FunderEtal2011
+	radiocarbon	Lu-3783	80.896	-14.387	8530.0	100.0	bivalves	marine			-1.0	50.0	10.0	10.0	Hjort1997,FunderEtal2011
+	radiocarbon	Lu-2572	81.194	-12.858	8340.0	80.0	bivalves	marine			-1.0	15.0	3.0	3.0	Hjort1997,FunderEtal2011
+	radiocarbon	Lu-2570	81.194	-12.858	8320.0	80.0	bivalves	marine			-1.0	22.0	4.4	4.4	Hjort1997,FunderEtal2011
+	radiocarbon	Lu-3702	80.437	-15.854	8290.0	80.0	bivalves	marine			-1.0	46.0	9.200000000000001	9.200000000000001	Hjort1997,FunderEtal2011
+	radiocarbon	Lu-3701	80.458	-16.128	7730.0	100.0	Narwhale	marine			0.0	54.5	10.0	10.0	Hjort1997,FunderEtal2011
+	radiocarbon	Lu-3700	80.458	-16.128	7300.0	90.0	moss, seaweed	terrestrial	-	-	0.0	38.8	8.0	8.0	Hjort1997,FunderEtal2011
+	radiocarbon	Lu-3699	80.458	-16.128	6500.0	90.0	moss, seaweed	terrestrial	-	-	0.0	25.8	5.0	5.0	Hjort1997,FunderEtal2011
+	radiocarbon	Lu-3781	80.896	-14.387	3400.0	70.0	driftwood	terrestrial	-	-	-1.0	8.0	2.0	2.0	Hjort1997,FunderEtal2011
+	radiocarbon	Lu-1289	75.717	-19.667	9190.0	90.0	Portlandia arctica	marine			-1.0	22.0	4.4	4.4	Hakansson1978,Hjort1979,Hjort1981
+	radiocarbon	Lu-1389	75.333	-18.917	9370.0	90.0	Hiatella arctica	marine			-1.0	41.0	8.2	8.2	Hakansson1978,Hjort1979,Hjort1981
+	radiocarbon	Lu-1386	75.317	-19.417	9400.0	90.0	Mya truncata	marine			-1.0	30.0	6.0	6.0	Hakansson1978,Hjort1979,Hjort1981
+	radiocarbon	Lu-1300-1	75.283	-19.467	9470.0	90.0	Hiatella arctica	marine			-1.0	13.0	2.6	2.6	Hakansson1978,Hjort1979,Hjort1981
+	radiocarbon	Lu-1384	75.167	-19.85	9810.0	95.0	Mya truncata	marine			-1.0	30.0	6.0	6.0	Hakansson1978,Hjort1979,Hjort1981
+	radiocarbon	Lu-1390	75.217	-20.667	8570.0	85.0	Mya truncata	marine			-1.0	40.0	8.0	8.0	Hakansson1978,Hjort1979,Hjort1981
+	radiocarbon	Lu-1303	75.25	-20.917	8930.0	90.0	Mya truncata	marine			-1.0	25.0	5.0	5.0	Hakansson1978,Hjort1979,Hjort1981
+	radiocarbon	K-2385	71.717	-24.717	9075.0	134.0	marine shells	marine			-1.0	51.0	10.0	10.0	Street1977,Hjort1979
+	radiocarbon	K-2386	71.717	-24.717	8975.0	134.0	marine shells	marine			-1.0	85.0	10.0	10.0	Street1977
+	radiocarbon	K-1916	70.867	-22.45	9778.0	136.0	clay gyttja	corr_terrestrial	0	100	1.0	48.0	9.6	9.6	Funder1972
+	radiocarbon	K-1919	70.867	-22.483	9415.0	124.0	Mya truncata	marine			-1.0	33.0	6.6	6.6	Funder1972,Funder1978,Hjort1979
+	radiocarbon	K-1915	71.35	-24.833	10305.0	144.0	Hiatella arctica, Mya truncata	marine			-1.0	100.0	10.0	10.0	Funder1972,Funder1978,Hjort1979
+	radiocarbon	W-1072	80.417	-20.117	7055.0	601.0	Hiatella arctica, Mya truncata	marine			-1.0	53.0	10.0	10.0	IvesEtal1964
+	radiocarbon	W-1063	80.083	-21.833	6440.0	302.0	Hiatella arctica	marine			-1.0	41.0	8.200000000000001	8.200000000000001	IvesEtal1964
+	radiocarbon	W-1066	81.6	-16.683	4217.0	322.0	driftwood	terrestrial			-1.0	4.0	1.0	1.0	IvesEtal1964
+	radiocarbon	W-1073	82.167	-29.833	4987.0	262.0	driftwood	terrestrial			-1.0	9.0	2.2	2.2	IvesEtal1964
+	radiocarbon	W-1067	82.8	-22.967	6505.0	1001.0	Hiatella arctica	marine			-1.0	9.0	1.8	1.8	IvesEtal1964
+	radiocarbon	W-1076	82.833	-23.0	7285.0	302.0	Hiatella arctica	marine			0.0	8.0	2.0	2.0	IvesEtal1964
+	radiocarbon	W-1083	82.833	-23.0	7465.0	302.0	Hiatella arctica, Mya truncata	marine			-1.0	12.0	2.4000000000000004	2.4000000000000004	IvesEtal1964
+	radiocarbon	W-1084	83.133	-26.417	6385.0	302.0	Hiatella arctica, Mya truncata	marine			0.0	15.7	3.0	3.0	IvesEtal1964
+	radiocarbon	W-1090	83.6	-30.5	8135.0	401.0	Hiatella arctica	marine			-1.0	11.0	2.2	2.2	IvesEtal1964
+	radiocarbon	W-1088	83.6	-30.5	1605.0	302.0	Mya truncata, Astarte elliptica	marine			-1.0	3.0	1.0	1.0	IvesEtal1964
+	radiocarbon	Ua-1228	81.583	-61.167	8555.0	160.0	Arca glacialis	marine			-1.0	44.0	5.0	5.0	KellyBennike1992
+	radiocarbon	HAR-6287	81.513	-51.078	6480.0	100.0	Mya truncata	marine			-1.0	26.0	5.0	5.0	KellyBennike1985,KellyBennike1992
+	radiocarbon	HAR-6288	82.927	-41.78	7980.0	120.0	Mya truncata	marine			-1.0	41.0	5.0	5.0	KellyBennike1985,KellyBennike1992
+	radiocarbon	HAR-6289	82.297	-55.063	9390.0	90.0	Hiatella arctica	marine			-1.0	93.0	5.0	5.0	KellyBennike1985,KellyBennike1992
+	radiocarbon	HAR-6291	81.7	-58.838	9060.0	100.0	Hiatella arctica	marine			-1.0	104.0	5.0	5.0	KellyBennike1985,KellyBennike1992
+	radiocarbon	HAR-6292	81.578	-61.173	8090.0	120.0	Mya truncata, Hiatella arctica	marine			-1.0	105.0	5.0	5.0	KellyBennike1985,KellyBennike1992
+	radiocarbon	HAR-6293	81.58	-61.122	8420.0	200.0	Mya truncata	marine			-1.0	82.0	5.0	5.0	KellyBennike1985,KellyBennike1992
+	radiocarbon	HAR-6294	81.547	-58.033	8060.0	170.0	Mya truncata, Hiatella arctica	marine			-1.0	59.0	5.0	5.0	KellyBennike1985,KellyBennike1992
+	radiocarbon	HAR-6295	81.313	-61.595	8040.0	150.0	Mya truncata, Hiatella arctica	marine			-1.0	69.0	5.0	5.0	KellyBennike1985,KellyBennike1992
+	radiocarbon	HAR-6290	81.758	-53.9	8210.0	120.0	Mya truncata, Hiatella arctica	marine			-1.0	70.0	5.0	5.0	KellyBennike1985,KellyBennike1992
+	radiocarbon	K-4373	82.417	-50.517	7187.0	110.0	Arca glacialis, Hiatella arctica, Mya truncata	marine			-1.0	28.0	5.0	5.0	KellyBennike1992,BennikeKelly1987
+	radiocarbon	K-4374	82.1	-48.583	8407.0	119.0	Hiatella arctica, Mya truncata	marine			-1.0	62.0	5.0	5.0	KellyBennike1992,BennikeKelly1987
+	radiocarbon	K-4375	81.933	-59.7	9237.0	100.0	Astarte borealis	marine			-1.0	28.0	5.0	5.0	KellyBennike1992,BennikeKelly1987
+	radiocarbon	K-4376	81.7	-58.9	5047.0	96.0	Serripes groenlandicus	marine			-1.0	13.0	2.6	2.6	KellyBennike1992,BennikeKelly1987
+	radiocarbon	K-4377	81.583	-61.167	8487.0	119.0	Mya truncata, Hiatella arctica	marine			-1.0	73.0	5.0	5.0	KellyBennike1992,BennikeKelly1987
+	radiocarbon	HAR-6745	81.75	-59.583	8870.0	100.0	Hiatella arctica, Mya truncata	marine			-1.0	89.0	5.0	5.0	KellyBennike1992,BennikeKelly1987
+	radiocarbon	K-4687	81.25	-59.6	9087.0	124.0	Phoca hispida (ringed seal)	marine			-1.0	89.0	5.0	5.0	KellyBennike1992,BennikeKelly1987
+	radiocarbon	K-4378	81.8	-59.583	9047.0	119.0	Hiatella arctica	marine			-1.0	101.0	5.0	5.0	KellyBennike1992,BennikeKelly1987
+	radiocarbon	K-4379	81.833	-61.4	8147.0	119.0	Hiatella arctica, Mya truncata	marine			-1.0	76.0	5.0	5.0	KellyBennike1992,BennikeKelly1987
+	radiocarbon	Ua-260	83.05	-43.4	9700.0	100.0	Hiatella arctica	marine			-1.0	71.0	5.0	5.0	KellyBennike1992,BennikeKelly1987
+	radiocarbon	HAR-6746	83.167	-44.7	6100.0	100.0	Hiatella arctica	marine			-1.0	11.0	2.2	2.2	KellyBennike1992,BennikeKelly1987
+	radiocarbon	K-4380	81.467	-54.65	5277.0	86.0	Hiatella arctica, Mya truncata	marine			-1.0	24.0	4.800000000000001	4.800000000000001	KellyBennike1992,BennikeKelly1987
+	radiocarbon	K-4381	81.833	-46.933	5587.0	96.0	Hiatella arctica, Mya truncata	marine			-1.0	5.0	1.0	1.0	KellyBennike1992,BennikeKelly1987
+	radiocarbon	W-555	82.133	-31.167	5775.0	203.0	shells	marine			-1.0	12.0	2.4000000000000004	2.4000000000000004	RubinAlexander1960
+	radiocarbon	W-815	81.667	-59.083	4185.0	302.0	Hiatella arctica, Astarte borealis	marine			-1.0	12.0	2.4000000000000004	2.4000000000000004	KellyBennike1992,RubinAlexander1960
+	radiocarbon	W-816	81.617	-60.25	6505.0	302.0	Hiatella arctica, Mya truncata	marine			-1.0	82.0	10.0	10.0	KellyBennike1992,RubinAlexander1960
+	radiocarbon	AAR-1402	76.536	-68.85	9730.0	140.0	Mya truncata	marine			-1.0	4.0	1.0	1.0	KellyEtal1999
+	radiocarbon	SRR-3764	76.713	-69.362	9325.0	65.0	Hiatella arctica, Mya truncata	marine			-1.0	15.0	3.0	3.0	KellyEtal1999
+	radiocarbon	AAR-1399	76.721	-73.092	7840.0	90.0	Mya truncata	marine			-1.0	4.0	1.0	1.0	KellyEtal1999
+	radiocarbon	AAR-135	76.721	-73.092	8930.0	160.0	Hiatella arctica	marine			-1.0	13.0	2.6	2.6	KellyEtal1999
+	radiocarbon	AAR-1400	76.721	-73.092	8820.0	110.0	Mya truncata	marine			-1.0	7.0	1.4000000000000001	1.4000000000000001	KellyEtal1999
+	radiocarbon	T-9361	76.917	-20.117	8190.0	95.0	Mya truncata	marine			-1.0	4.5	1.0	1.0	Landvik1994
+	radiocarbon	T-9362	76.917	-20.117	5745.0	70.0	Mya truncata	marine			-1.0	8.5	1.7000000000000002	1.7000000000000002	Landvik1994
+	radiocarbon	TUa-123	76.933	-20.25	8685.0	95.0	Nuculana pernula	marine			-1.0	27.0	5.4	5.4	Landvik1994
+	radiocarbon	TUa-124	76.933	-20.25	9045.0	90.0	Nuculana pernula	marine			-1.0	27.0	5.4	5.4	Landvik1994
+	radiocarbon	Ua-2759	76.9	-20.167	7990.0	100.0	Mya truncata	marine			-1.0	0.6	1.0	1.0	Landvik1994
+	radiocarbon	T-9363	76.9	-20.167	6730.0	90.0	Hiatella arctica	marine			-1.0	5.5	1.1	1.1	Landvik1994
+	radiocarbon	T-9364_1	76.9	-20.167	5820.0	80.0	Mya truncata	marine			-1.0	4.8	1.0	1.0	Landvik1994
+	radiocarbon	T-9364_2	77.833	-17.633	9205.0	100.0	Mya truncata	marine			-1.0	47.0	9.4	9.4	Landvik1994
+	radiocarbon	T-9367	77.85	-17.683	7505.0	40.0	Whale rib	marine			-1.0	19.5	3.9000000000000004	3.9000000000000004	Landvik1994
+	radiocarbon	T-9368	77.267	-19.467	7790.0	55.0	Mya truncata	marine			-1.0	18.0	3.6	3.6	Landvik1994
+	radiocarbon	T-9369	77.267	-19.467	8305.0	95.0	Mya truncata	marine			-1.0	35.0	7.0	7.0	Landvik1994
+	radiocarbon	T-9370	76.933	-20.05	8480.0	120.0	Mya truncata, Hiatella arctica	marine			-1.0	37.0	7.4	7.4	Landvik1994
+	radiocarbon	T-9371	76.933	-20.05	8040.0	115.0	Mya truncata	marine			-1.0	18.0	3.6	3.6	Landvik1994
+	radiocarbon	T-9372	76.85	-19.95	8265.0	95.0	Mya truncata, Hiatella arctica	marine			-1.0	23.0	4.6000000000000005	4.6000000000000005	Landvik1994
+	radiocarbon	T-11769	82.895	-36.153	7810.0	55.0	Mya truncata				-1.0	32.0	6.4	6.4	LandvikEtal2001
+	radiocarbon	T-11773	82.915	-36.39	7795.0	95.0	Mya truncata				-1.0	37.0	7.4	7.4	LandvikEtal2001
+	radiocarbon	T-11768	82.897	-36.143	7635.0	95.0	Hiatella arctica, Mya truncata				-1.0	49.0	9.8	9.8	LandvikEtal2001
+	radiocarbon	T-11772	82.912	-36.175	7460.0	140.0	Hiatella arctica, Mya truncata				0.0	42.7	9.0	9.0	LandvikEtal2001
+	radiocarbon	T-11771	82.9	-36.185	7000.0	120.0	Hiatella arctica				-1.0	18.0	3.6	3.6	LandvikEtal2001
+	radiocarbon	T-11770	82.895	-36.152	5855.0	50.0	Picea sp.				-1.0	22.0	4.800000000000001	4.800000000000001	LandvikEtal2001
+	radiocarbon	TUa-1079	82.97	-37.732	7230.0	70.0	Hiatella arctica				-1.0	29.0	5.800000000000001	5.800000000000001	LandvikEtal2001
+	radiocarbon	T-11774	82.99	-39.668	7690.0	85.0	Hiatella arctica, Mya truncata				-1.0	33.0	6.6000000000000005	6.6000000000000005	LandvikEtal2001
+	radiocarbon	T-11775	82.99	-36.677	5470.0	100.0	Larix?				-1.0	11.0	2.6	2.6	LandvikEtal2001
+	radiocarbon	TUa-1078	82.988	-39.67	36980.0	60.0	Shell fragment				-1.0	46.0	9.200000000000001	9.200000000000001	LandvikEtal2001
+	radiocarbon	Ua-4586	82.283	-39.917	5635.0	60.0	Hiatella arctica				-1.0	25.0	5.0	5.0	LandvikEtal2001
+	radiocarbon	Ua-4587	82.272	-39.983	6030.0	80.0	Hiatella arctica				-1.0	36.0	7.2	7.2	LandvikEtal2001
+	radiocarbon	LuS8622	63.43	-51.12	9325.0	65.0	Marine bivalve	marine			-1.0	40.0	8.0	8.0	LarsenEtal2014
+	radiocarbon	LuS8621	63.43	-51.2	9620.0	60.0	Marine bivalve	marine			-1.0	6.0	1.2000000000000002	1.2000000000000002	LarsenEtal2014
+	radiocarbon	LuS8624	63.51	-51.31	9240.0	65.0	Marine bivalve	marine			-1.0	12.0	2.4000000000000004	2.4000000000000004	LarsenEtal2014
+	radiocarbon	LuS8623	63.51	-51.31	9325.0	70.0	Marine bivalve	marine			-1.0	0.0	1.0	1.0	LarsenEtal2014
+	radiocarbon	UBA-17023	64.3	-50.18	8797.0	48.0	Humic acid	corr_terrestrial	0.0	100.0	1.0	196.0	10.0	10.0	LarsenEtal2014
+	radiocarbon	UBA-17089	64.4	-50.2	9326.0	40.0	Humic acid	corr_terrestrial	0.0	100.0	1.0	100.0	10.0	10.0	LarsenEtal2014
+	radiocarbon	UBA-15885	64.42	-50.2	8016.0	36.0	Marine bivalve	marine			-1.0	41.0	8.200000000000001	8.200000000000001	LarsenEtal2014
+	radiocarbon	UBA-15886	64.43	-50.2	7662.0	35.0	Marine bivalve	marine			-1.0	46.0	9.200000000000001	9.200000000000001	LarsenEtal2014
+	radiocarbon	UBA-15882	64.75	-51.05	8794.0	41.0	Marine bivalve	marine			-1.0	11.0	2.2	2.2	LarsenEtal2014
+	radiocarbon	UBA-15881	64.75	-51.05	6496.0	34.0	Marine bivalve	marine			-1.0	0.0	1.0	1.0	LarsenEtal2014
+	radiocarbon	UBA-15883	64.75	-51.05	6563.0	39.0	Marine bivalve	marine			-1.0	0.0	1.0	1.0	LarsenEtal2014
+	radiocarbon	UBA-16277	64.75	-51.05	6003.0	29.0	Marine bivalve	marine			-1.0	4.0	1.0	1.0	LarsenEtal2014
+	radiocarbon	UBA-15884	64.76	-51.03	8217.0	29.0	Marine bivalve	marine			-1.0	18.0	3.6	3.6	LarsenEtal2014
+	radiocarbon	UBA-16276	64.79	-51.01	8525.0	31.0	Marine bivalve	marine			-1.0	30.0	6.0	6.0	LarsenEtal2014
+	radiocarbon	AAR25707	64.13	-51.33	6599.0	31.0	Bulk (humic acid)	corr_terrestrial	0.0	100.0	1.0	38.0	7.6000000000000005	7.6000000000000005	LarsenEtal2017
+	radiocarbon	AAR25708	64.13	-51.33	7924.0	39.0	Terrestrial macrofossil	terrestrial	-	-	1.0	38.0	7.6000000000000005	7.6000000000000005	LarsenEtal2017
+	radiocarbon	AAR25709	64.13	-51.33	8138.0	43.0	Terrestrial macrofossil	terrestrial	-	-	-1.0	38.0	7.6000000000000005	7.6000000000000005	LarsenEtal2017
+	radiocarbon	AAR23025	64.13	-51.36	7426.0	47.0	Terrestrial macrofossil	terrestrial	-	-	1.0	34.0	6.800000000000001	6.800000000000001	LarsenEtal2017
+	radiocarbon	AAR23026	64.13	-51.36	7727.0	50.0	Terrestrial macrofossil	terrestrial	-	-	-1.0	34.0	6.800000000000001	6.800000000000001	LarsenEtal2017
+	radiocarbon	OS-135046	63.757	-51.356	1910.0	20.0	Plant/Wood	terrestrial	-	-	1.0	17.0	3.4000000000000004	3.4000000000000004	LasherEtal2020
+	radiocarbon	OS-125559	63.757	-51.356	4540.0	20.0	Plant/Wood	terrestrial	-	-	1.0	17.0	3.4000000000000004	3.4000000000000004	LasherEtal2020
+	radiocarbon	OS-125586	63.757	-51.356	6360.0	30.0	Plant/Wood	terrestrial	-	-	1.0	17.0	3.4000000000000004	3.4000000000000004	LasherEtal2020
+	radiocarbon	OS-125558	63.757	-51.356	6440.0	20.0	Plant/Wood	terrestrial	-	-	1.0	17.0	3.4000000000000004	3.4000000000000004	LasherEtal2020
+	radiocarbon	OS-135047	63.757	-51.356	7690.0	35.0	Plant/Wood	terrestrial	-	-	1.0	17.0	3.4000000000000004	3.4000000000000004	LasherEtal2020
+	radiocarbon	OS-125585	63.757	-51.356	8060.0	20.0	Plant/Wood	terrestrial	-	-	-1.0	17.0	3.4000000000000004	3.4000000000000004	LasherEtal2020
+	radiocarbon	OS-125545	63.757	-51.356	8550.0	30.0	Carbonate fragments	marine			-1.0	17.0	3.4000000000000004	3.4000000000000004	LasherEtal2020
+	radiocarbon	OS-125526	63.757	-51.356	8460.0	25.0	Bivalve ( H. arctica )	marine			-1.0	17.0	3.4000000000000004	3.4000000000000004	LasherEtal2020
+	radiocarbon	OS-135044	63.756	-51.363	2230.0	20.0	Plant/Wood	terrestrial	-	-	1.0	40.0	8.0	8.0	LasherEtal2020
+	radiocarbon	OS-125544	63.756	-51.363	3090.0	30.0	Plant/Wood	terrestrial	-	-	1.0	40.0	8.0	8.0	LasherEtal2020
+	radiocarbon	OS-135045	63.756	-51.363	5490.0	25.0	Plant/Wood	terrestrial	-	-	1.0	40.0	8.0	8.0	LasherEtal2020
+	radiocarbon	OS-125652	63.756	-51.363	7690.0	140.0	Plant/Wood	terrestrial	-	-	1.0	40.0	8.0	8.0	LasherEtal2020
+	radiocarbon	OS-125655	63.756	-51.363	8870.0	190.0	Plant/Wood	terrestrial	-	-	-1.0	40.0	8.0	8.0	LasherEtal2020
+Innaarsuit	radiocarbon	AA39654	68.63333333333334	-52.1	8780.0	80.0	bulk sediment	terrestrial	-	-	0.0	79.61	0.36	0.36	LongEtal2003,LongEtal2011
+Innaarsuit	radiocarbon	AA39653	68.61666666666666	-53.083333333333336	6530.0	70.0	bulk sediment	terrestrial	-	-	0.0	31.96	0.52	0.52	LongEtal2003,LongEtal2011
+Innaarsuit	radiocarbon	AA39652	68.61666666666666	-52.083333333333336	5440.0	60.0	bulk sediment	terrestrial	-	-	0.0	20.28	0.59	0.59	LongEtal2003,LongEtal2011
+Innaarsuit	radiocarbon	AA39650	68.6	-52.1	3620.0	60.0	bulk sediment	terrestrial	-	-	0.0	1.98	0.48	0.48	LongEtal2003,LongEtal2011
+Innaarsuit	radiocarbon	AA39649	68.6	-52.06666666666667	2380.0	60.0	bulk sediment	terrestrial	-	-	0.0	-2.62	0.48	0.48	LongEtal2003,LongEtal2011
+Innaarsuit	radiocarbon	AA39648	68.6	-52.06666666666667	1260.0	60.0	bulk sediment	terrestrial	-	-	0.0	-2.62	0.48	0.48	LongEtal2003,LongEtal2011
+Innaarsuit	radiocarbon	AA-39655	68.61666666666666	-52.1	9180.0	80.0	bulk sediment	terrestrial	-	-	1.0	110.75	1.0	1.0	LongEtal2003
+Qeqertarsuatsiaq	radiocarbon	AA38842	68.43333333333334	-52.95	9330.0	99.0	bulk sediment	terrestrial	-	-	1.0	127.74	0.59	0.59	LongRoberts2003,LongEtal2011
+Qeqertarsuatsiaq	radiocarbon	AA38844	68.53333333333333	-52.85	9185.0	62.0	bulk sediment	terrestrial	-	-	1.0	113.29	0.46	0.46	LongRoberts2003,LongEtal2011
+Qeqertarsuatsiaq	radiocarbon	AA38841	68.43333333333334	-52.96666666666667	9270.0	61.0	bulk sediment	terrestrial	-	-	0.0	97.09	0.56	0.56	LongRoberts2003,LongEtal2011
+Qeqertarsuatsiaq	radiocarbon	AA38840	68.45	-52.983333333333334	8136.0	57.0	bulk sediment	terrestrial	-	-	0.0	50.7	0.73	0.73	LongRoberts2003,LongEtal2011
+Qeqertarsuatsiaq	radiocarbon	AA38843	68.53333333333333	-52.85	6662.0	54.0	bulk sediment	terrestrial	-	-	0.0	31.18	0.54	0.54	LongRoberts2003,LongEtal2011
+Qeqertarsuatsiaq	radiocarbon	AA38839	68.45	-52.983333333333334	4397.0	45.0	bulk sediment	terrestrial	-	-	0.0	7.41	0.5	0.5	LongRoberts2003,LongEtal2011
+Qeqertarsuatsiaq	radiocarbon	AA38838	68.45	-52.95	3988.0	43.0	bulk sediment	terrestrial	-	-	0.0	1.89	0.6	0.6	LongRoberts2003,LongEtal2011
+Qeqertarsuatsiaq	radiocarbon	AA-38837	68.45	-52.96666666666667	218.0	51.0	bulk sediment	terrestrial	-	-	0.0	-0.89	0.14	0.14	LongRoberts2003
+Arveprinsens_Ejland	radiocarbon	Beta-107879	69.76	-51.235	8820.0	100.0	bulk sediment	terrestrial	-	-	0.0	68.45	0.46	0.46	LongEtal1999,LongEtal2011
+Arveprinsens_Ejland	radiocarbon	Beta-112544	69.767	-51.233	7780.0	120.0	bulk sediment	terrestrial	-	-	0.0	45.91	0.38	0.38	LongEtal1999,LongEtal2011
+Arveprinsens_Ejland	radiocarbon	Beta-112543	69.774	-51.249	6950.0	150.0	bulk sediment	terrestrial	-	-	0.0	24.36	0.78	0.78	LongEtal1999,LongEtal2011
+Arveprinsens_Ejland	radiocarbon	Beta-110748	69.768	-51.255	6290.0	40.0	bulk sediment	terrestrial	-	-	0.0	17.11	0.25	0.25	LongEtal1999,LongEtal2011
+Arveprinsens_Ejland	radiocarbon	Beta-110747	69.768	-51.26	4510.0	50.0	bulk sediment	terrestrial	-	-	0.0	12.97	0.93	0.93	LongEtal1999,LongEtal2011
+Arveprinsens_Ejland	radiocarbon	Beta_110457	69.844	-51.094	3750.0	130.0	bulk sediment	terrestrial	-	-	0.0	-2.75	0.37	0.37	LongEtal1999,LongEtal2011
+Arveprinsens_Ejland	radiocarbon	Beta_110456	69.844	-51.094	1360.0	90.0	bulk sediment	terrestrial	-	-	0.0	-2.8	0.37	0.37	LongEtal1999,LongEtal2011
+Upernivik	radiocarbon	Beta-178170	69.123	-50.586	6910.0	40.0	gyttja	terrestrial	-	-	1.0	250.0	1.0	1.0	LongEtal2006,LongEtal2011
+Upernivik	radiocarbon	Beta-178169	69.122	-50.625	6750.0	40.0	gyttja	terrestrial	-	-	1.0	175.0	1.0	1.0	LongEtal2006,LongEtal2011
+Upernivik	radiocarbon	Beta-178168	69.114	-50.63	7960.0	40.0	gyttja	terrestrial	-	-	1.0	43.32	1.0	1.0	LongEtal2006,LongEtal2011
+Upernivik	radiocarbon	Beta-178165	69.122	-50.675	6760.0	40.0	gyttja	terrestrial	-	-	0.0	30.59	0.28	0.28	LongEtal2006,LongEtal2011
+Upernivik	radiocarbon	Beta-178171	69.1	-50.625	5980.0	40.0	gyttja	terrestrial	-	-	0.0	24.67	0.32	0.32	LongEtal2006,LongEtal2011
+Upernivik	radiocarbon	Beta-178166	69.117	-50.682	5060.0	40.0	silt gyttja	terrestrial	-	-	0.0	11.15	0.35	0.35	LongEtal2006,LongEtal2011
+Upernivik	radiocarbon	Beta-179167	69.114	-50.666	4150.0	40.0	gyttja	terrestrial	-	-	0.0	0.56	0.33	0.33	LongEtal2006,LongEtal2011
+Upernivik	radiocarbon	Beta_178172	69.12	-50.676	3540.0	40.0	gyttja	terrestrial	-	-	0.0	-4.38	0.32	0.32	LongEtal2006,LongEtal2011
+Upernivik	radiocarbon	Beta_178173	69.12	-50.676	1750.0	40.0	gyttja	terrestrial	-	-	0.0	-4.38	0.32	0.32	LongEtal2006,LongEtal2011
+Pakitsoq	radiocarbon	KIA-23028	69.479	-50.706	6814.0	38.0	gyttja	terrestrial	-	-	1.0	41.21	1.0	1.0	LongEtal2006,LongEtal2011
+Pakitsoq	radiocarbon	KIA-23026	69.501	-50.726	6475.0	30.0	gyttja	terrestrial	-	-	0.0	31.97	1.0	1.0	LongEtal2006,LongEtal2011
+Pakitsoq	radiocarbon	KIA-23027	69.501	-50.712	6113.0	121.0	gyttja	terrestrial	-	-	1.0	36.08	1.0	1.0	LongEtal2006,LongEtal2011
+Akulliit-Nuuk	radiocarbon	AA39659	68.668	-51.122	8585.0	86.0	gyttja	terrestrial	-	-	1.0	89.11	1.0	1.0	LongRoberts2002,LongEtal2011
+Akulliit-Nuuk	radiocarbon	AA39658	68.642	-51.078	7741.0	71.0	gyttja	terrestrial	-	-	0.0	56.56	0.59	0.59	LongRoberts2002,LongEtal2011
+Akulliit-Nuuk	radiocarbon	AA39657	68.661	-51.123	6812.0	61.0	gyttja	terrestrial	-	-	0.0	35.84	0.22	0.22	LongRoberts2002,LongEtal2011
+Akulliit-Nuuk	radiocarbon	AA39656	68.662	-51.107	5682.0	75.0	gyttja	terrestrial	-	-	0.0	16.4	0.79	0.79	LongRoberts2002,LongEtal2011
+Akulliit-Nuuk	radiocarbon	AA39664	68.629	-50.963	7414.0	72.0	gyttja	terrestrial	-	-	0.0	56.0	0.22	0.22	LongRoberts2002,LongEtal2011
+Akulliit-Nuuk	radiocarbon	AA39665	68.637	-50.983	7733.0	56.0	gyttja	terrestrial	-	-	0.0	56.38	0.82	0.82	LongRoberts2002,LongEtal2011
+Akulliit-Nuuk	radiocarbon	AA39661	68.624	-50.936	7059.0	62.0	gyttja	terrestrial	-	-	0.0	43.62	0.69	0.69	LongRoberts2002,LongEtal2011
+Akulliit-Nuuk	radiocarbon	AA39660	68.623	-50.924	6490.0	75.0	gyttja	terrestrial	-	-	0.0	33.27	0.57	0.57	LongRoberts2002,LongEtal2011
+Kangerluarsuk	radiocarbon	Beta-183253	69.524	-53.722	9700.0	100.0	bulk sediment	terrestrial	-	-	0.0	79.65	0.28	0.28	LongEtal2011
+Kangerluarsuk	radiocarbon	Beta-183252	69.52	-53.721	7590.0	50.0	bulk sediment	terrestrial	-	-	0.0	26.69	0.28	0.28	LongEtal2011
+Kangerluarsuk	radiocarbon	Beta-183251	69.52	-53.804	5580.0	40.0	bulk sediment	terrestrial	-	-	0.0	13.56	0.28	0.28	LongEtal2011
+Kangerluarsuk	radiocarbon	Beta-183250	69.523	-53.792	3830.0	40.0	bulk sediment	terrestrial	-	-	0.0	2.06	0.28	0.28	LongEtal2011
+Kangerluarsuk	radiocarbon	K-5776	69.44166666666666	-53.666666666666664	4730.0	115.0	bulk sediment	terrestrial	-	-	0.0	13.0	0.5	0.5	Bennike1995,LongEtal2011
+Kangerluarsuk	radiocarbon	K-3505	69.53333333333333	-53.68333333333333	6750.0	105.0	basal gyttja	terrestrial	-	-	0.0	22.5	2.5	2.5	Foged1989,Rasch1997,LongEtal2011
+Sisimiut	radiocarbon	LuS-8462	66.957	-53.707	9020.0	60.0	Gyttja	terrestrial	-	-	0.0	129.9	0.5	0.5	BennikeEtal2011,LongEtal2011
+Sisimiut	radiocarbon	KIA-35512	66.979	-53.709	9070.0	70.0	Daphnia	terrestrial	-	-	0.0	94.9	0.5	0.5	BennikeEtal2011,LongEtal2011
+Sisimiut	radiocarbon	LuS-8461	66.979	-53.709	9270.0	60.0	Gyttja	terrestrial	-	-	0.0	94.9	0.5	0.5	BennikeEtal2011,LongEtal2011
+Sisimiut	radiocarbon	KIA-35509	66.981	-53.691	8170.0	120.0	Empetrum	terrestrial	-	-	0.0	98.4	0.5	0.5	BennikeEtal2011,LongEtal2011
+Sisimiut	radiocarbon	KIA-35510	66.981	-53.691	8630.0	150.0	Daphnia	terrestrial	-	-	0.0	98.4	0.5	0.5	BennikeEtal2011,LongEtal2011
+Sisimiut	radiocarbon	LuS-8460	66.981	-53.691	8485.0	60.0	Gyttja	terrestrial	-	-	0.0	98.4	0.5	0.5	BennikeEtal2011,LongEtal2011
+Sisimiut	radiocarbon	LuS-8459	66.935	-53.602	7595.0	55.0	Gyttja	terrestrial	-	-	0.0	39.8	0.5	0.5	BennikeEtal2011,LongEtal2011
+Sisimiut	radiocarbon	LuS-8783	66.948	-53.666	4430.0	50.0	Fruits	terrestrial	-	-	0.0	18.4	0.5	0.5	BennikeEtal2011,LongEtal2011
+Sisimiut	radiocarbon	KIA-35511	66.981	-53.691	9900.0	50.0	Macoma calcerea	marine	0.0	50.0	-1.0	98.4	0.5	0.5	BennikeEtal2011,LongEtal2011
+Sisimiut	radiocarbon	SUERC-15780	66.449	-53.599	4975.0	38.0	bulk sediment	terrestrial	-	-	0.0	13.0	0.075	0.075	LongEtal2009,LongEtal2011
+Sisimiut	radiocarbon	SUERC-15783	66.45	-53.615	4102.0	38.0	bulk sediment	terrestrial	-	-	0.0	7.68	0.16	0.16	LongEtal2009,LongEtal2011
+Sisimiut	radiocarbon	SUERC-17228	66.462	-53.625	3268.0	37.0	bulk sediment	terrestrial	-	-	0.0	0.69	0.41	0.41	LongEtal2009,LongEtal2011
+Sisimiut	radiocarbon	SUERC-15785	66.452	-53.626	2246.0	37.0	bulk sediment	terrestrial	-	-	0.0	-2.19	0.31	0.31	LongEtal2009,LongEtal2011
+Sisimiut	radiocarbon	SUERC-15787	66.489	-53.596	1363.0	37.0	bulk sediment	terrestrial	-	-	0.0	-4.22	0.28	0.28	LongEtal2009,LongEtal2011
+Sisimiut	radiocarbon	SUERC-15789	66.475	-53.594	2190.0	35.0	bulk sediment	terrestrial	-	-	0.0	-4.025	0.41	0.41	LongEtal2009,LongEtal2011
+Sisimiut	radiocarbon	SUERC-15790	66.475	-53.594	2144.0	37.0	bulk sediment	terrestrial	-	-	0.0	-4.025	0.41	0.41	LongEtal2009,LongEtal2011
+Sisimiut	radiocarbon	SUERC-15786	66.452	-53.626	1258.0	35.0	bulk sediment	terrestrial	-	-	0.0	-1.835	0.31	0.31	LongEtal2009,LongEtal2011
+Sisimiut	radiocarbon	SUERC-15788	66.489	-53.596	1480.0	37.0	bulk sediment	terrestrial	-	-	0.0	-3.865	0.41	0.41	LongEtal2009,LongEtal2011
+Qaqortoq	radiocarbon	LuS-5877	60.66688333333333	-46.17678333333333	9640.0	70.0	Gyttja	terrestrial	-	-	0.0	31.19	0.7	0.7	SparrenbomEtal2006a,LongEtal2011
+Qaqortoq	radiocarbon	LuS-5875	60.67746666666667	-46.07845	8930.0	60.0	Chara, Juniperus, Empetrum, Batrachium,  Bryopsida, Nitella , Daphnia	terrestrial	-	-	0.0	22.49	0.7	0.7	SparrenbomEtal2006a,LongEtal2011
+Qaqortoq	radiocarbon	LuS-5873	60.6778	-46.087783333333334	8215.0	110.0	Hippuris, Batrachium, Nitella, Bryopsida	terrestrial	-	-	0.0	12.49	0.6	0.6	SparrenbomEtal2006a,LongEtal2011
+Qaqortoq	radiocarbon	LuS-5910	60.8175	-46.00743333333333	8404.0	80.0	Gyttja	terrestrial	-	-	0.0	7.39	0.6	0.6	SparrenbomEtal2006a,LongEtal2011
+Qaqortoq	radiocarbon	LuS-5911	60.8175	-46.00743333333333	8505.0	70.0	Gyttja silt	terrestrial	-	-	0.0	7.39	0.6	0.6	SparrenbomEtal2006a,LongEtal2011
+Qaqortoq	radiocarbon	LuS-5960	60.8669	-45.947766666666666	8255.0	70.0	Carex	terrestrial	-	-	0.0	4.09	0.5	0.5	SparrenbomEtal2006a,LongEtal2011
+Qaqortoq	radiocarbon	LuS-5927	60.67106666666667	-46.14868333333333	7835.0	60.0	Empetrum, Hippuris, Carex, Potamogeton Batrachium	terrestrial	-	-	0.0	-0.81	0.5	0.5	SparrenbomEtal2006a,LongEtal2011
+Qaqortoq	radiocarbon	LuS-5914	60.67106666666667	-46.14868333333333	7625.0	60.0	Gyttja	terrestrial	-	-	0.0	-0.81	0.5	0.5	SparrenbomEtal2006a,LongEtal2011
+Qaqortoq	radiocarbon	LuS-5926	60.67106666666667	-46.14868333333333	7955.0	70.0	Empetrum, Potamogeton, Bryopsida, Carex Leaf, Batrachium	terrestrial	-	-	0.0	-0.81	0.5	0.5	SparrenbomEtal2006a,LongEtal2011
+Qaqortoq	radiocarbon	LuS-5918	60.67583333333333	-46.11063333333333	8060.0	70.0	Gyttja	terrestrial	-	-	0.0	-2.51	0.5	0.5	SparrenbomEtal2006a,LongEtal2011
+Qaqortoq	radiocarbon	LuS-5925	60.67583333333333	-46.11063333333333	7945.0	70.0	Potamogeton, Bryopsida, Empetrum, Juniperus Leaf, Salix , Hippuris, Carex, Isoetes Chironomidae Daphnia, Plumatella	terrestrial	-	-	0.0	-2.51	0.5	0.5	SparrenbomEtal2006a,LongEtal2011
+Qaqortoq	radiocarbon	LuS-5913	60.67106666666667	-46.14868333333333	2890.0	50.0	Gyttja	terrestrial	-	-	0.0	-0.81	0.5	0.5	SparrenbomEtal2006a,LongEtal2011
+Qaqortoq	radiocarbon	LuS-5923	60.67583333333333	-46.11063333333333	3470.0	50.0	Hippuris , Empetrum, Potamogeton, Bryopsida Leaf, Twig, Vaccinium	terrestrial	-	-	0.0	-2.51	0.5	0.5	SparrenbomEtal2006a,LongEtal2011
+Qaqortoq	radiocarbon	LuS-5920	61.12198333333333	-45.62851666666667	9700.0	60.0	Chara, Bryopsida	terrestrial	-	-	0.0	9.89	0.6	0.6	SparrenbomEtal2006a,LongEtal2011
+Qaqortoq	radiocarbon	LuS-5878	61.12198333333333	-45.62851666666667	9845.0	60.0	Chara, Batrachium, Bryopsida, Nitella Potamogeton	terrestrial	-	-	0.0	9.89	0.6	0.6	SparrenbomEtal2006a,LongEtal2011
+Nanortalik	radiocarbon	LuA-5312	60.0408	-44.9033	1020.0	80.0	Juniperus communis, Empetrum                                                        	terrestrial	-	-	0.0	-0.26	0.6	0.6	SparrenbomEtal2006b,LongEtal2011
+Nanortalik	radiocarbon	Poz-7172	60.1321	-45.0513	1550.0	30.0	Gyttja                                                                              	terrestrial	-	-	0.0	-2.3	0.5	0.5	SparrenbomEtal2006b,LongEtal2011
+Nanortalik	radiocarbon	Poz-7173	60.1321	-45.0513	2810.0	30.0	Gyttja                                                                              	terrestrial	-	-	0.0	-2.3	0.5	0.5	SparrenbomEtal2006b,LongEtal2011
+Nanortalik	radiocarbon	Poz-7176	60.03	-44.9303	2290.0	30.0	Gyttja                                                                              	terrestrial	-	-	0.0	-2.96	1.1	2.1	SparrenbomEtal2006b,LongEtal2011
+Nanortalik	radiocarbon	LuA-5849	60.03	-44.9303	2395.0	85.0	Bryopsida indet., Nitella, Empetrum, Isoetes, Daphnia, Juniperus, Chironomidae adult	terrestrial	-	-	0.0	-2.96	1.1	2.1	SparrenbomEtal2006b,LongEtal2011
+Nanortalik	radiocarbon	LuA-5316	60.03	-44.9303	7300.0	95.0	Silty gyttja                                                                        	terrestrial	-	-	0.0	-2.96	1.1	2.1	SparrenbomEtal2006b,LongEtal2011
+Nanortalik	radiocarbon	LuA-5846	60.1896	-45.076	2450.0	85.0	Bryopsida indet., Nitella, Empetrum, Isoetes, Daphnia, Batrachium and Chironomidae  	terrestrial	-	-	0.0	-6.01	0.6	0.6	SparrenbomEtal2006b,LongEtal2011
+Nanortalik	radiocarbon	LuA-5351	60.0316	-44.9083	4375.0	95.0	Gyttja                                                                              	terrestrial	-	-	0.0	-7.46	1.1	2.1	SparrenbomEtal2006b,LongEtal2011
+Nanortalik	radiocarbon	LuA-5315	60.03	-44.9303	8085.0	95.0	Silty gyttja                                                                        	terrestrial	-	-	0.0	-2.96	1.1	2.1	SparrenbomEtal2006b,LongEtal2011
+Nanortalik	radiocarbon	Poz-7320	60.1896	-45.076	8560.0	50.0	Gyttja                                                                              	terrestrial	-	-	0.0	-6.01	0.6	0.6	SparrenbomEtal2006b,LongEtal2011
+Nanortalik	radiocarbon	Poz-7178	60.0316	-44.9083	8250.0	50.0	Gyttja                                                                              	terrestrial	-	-	0.0	-7.46	1.1	2.1	SparrenbomEtal2006b,LongEtal2011
+Nanortalik	radiocarbon	LuA-5350	60.0316	-44.9083	8310.0	95.0	Gyttja                                                                              	terrestrial	-	-	0.0	-7.46	1.1	2.1	SparrenbomEtal2006b,LongEtal2011
+Nanortalik	radiocarbon	LuA-5348	60.1321	-45.0513	8410.0	115.0	Gyttja                                                                              	terrestrial	-	-	0.0	-3.81	0.5	0.5	SparrenbomEtal2006b,LongEtal2011
+Nanortalik	radiocarbon	LuA-5311	60.0408	-44.9033	8350.0	80.0	Empetrum and Hippuris vulgaris                                                      	terrestrial	-	-	0.0	-1.6	0.6	0.6	SparrenbomEtal2006b,LongEtal2011
+Nanortalik	radiocarbon	LuA-5225	60.1278	-45.0621	8845.0	115.0	Gyttja                                                                              	terrestrial	-	-	0.0	3.49	0.5	0.5	SparrenbomEtal2006b,LongEtal2011
+Nanortalik	radiocarbon	LuA-5226	60.1278	-45.0621	9110.0	110.0	Gyttja                                                                              	terrestrial	-	-	0.0	3.49	0.5	0.5	SparrenbomEtal2006b,LongEtal2011
+Nanortalik	radiocarbon	LuA-5227	60.1278	-45.0621	9130.0	105.0	Gyttja                                                                              	terrestrial	-	-	0.0	3.49	0.5	0.5	SparrenbomEtal2006b,LongEtal2011
+Nanortalik	radiocarbon	Ua-15418	60.030833333333334	-44.913666666666664	8930.0	80.0	B. confervoides, E. nigrum	terrestrial	-	-	0.0	1.49	2.0	2.0	BennikeEtal2002,LongEtal2011
+Nanortalik	radiocarbon	Ua-15419	60.033	-44.9315	8905.0	90.0	B. confervoides, H. vulgaris, E. nigrum, Bryum sp., W. exannulata	terrestrial	-	-	0.0	2.49	2.0	2.0	BennikeEtal2002,LongEtal2011
+Nanortalik	radiocarbon	Ua-15412	60.03666666666667	-44.92283333333334	9240.0	95.0	B. confervoides, E. nigrum	terrestrial	-	-	0.0	9.49	2.0	2.0	BennikeEtal2002,LongEtal2011
+Nanortalik	radiocarbon	Ua-15417	60.04233333333333	-44.95333333333333	9810.0	175.0	W. exannulata	terrestrial	-	-	0.0	22.49	2.0	2.0	BennikeEtal2002,LongEtal2011
+Nanortalik	radiocarbon	Ua-15902	60.08116666666667	-45.12916666666667	10015.0	120.0	Bulk sediment	terrestrial	-	-	0.0	24.49	2.0	2.0	BennikeEtal2002,LongEtal2011
+Nanortalik	radiocarbon	Ua-15414	60.036	-44.95933333333333	10200.0	110.0	D. pulex	terrestrial	-	-	0.0	28.49	2.0	2.0	BennikeEtal2002,LongEtal2011
+Nanortalik	radiocarbon	Ua-14844	59.98116666666667	-45.17933333333333	11665.0	125.0	Bryum sp.	terrestrial	-	-	0.0	31.49	2.0	2.0	BennikeEtal2002,LongEtal2011
+Narsaq	radiocarbon	Ua-2425	60.906666666666666	-46.06666666666667	3080.0	110.0	Mya truncata fragment	marine	0.0	50.0	-1.0	-8.25	0.5	0.5	BennikeEtal2002
+Tasiusaq	radiocarbon	LuS-7498	61.13778333333333	-45.65611666666667	7590.0	60.0	Clayey algae gyttja	terrestrial	-	-	0.0	23.33	0.5	0.5	Randsalu2008,LongEtal2011
+Tasiusaq	radiocarbon	LuS-7500	61.135216666666665	-45.663333333333334	8105.0	60.0	Brown mosses, Saxifraga, Draba, Polypodiaceae, bark	terrestrial	-	-	0.0	9.42	0.6	0.6	Randsalu2008,LongEtal2011
+Tasiusaq	radiocarbon	LuS-7521	61.134166666666665	-45.653333333333336	7305.0	60.0	Brown moss	terrestrial	-	-	0.0	-4.02	0.6	0.6	Fredh2008,LongEtal2011
+Tasiusaq	radiocarbon	LuS-7524	61.134166666666665	-45.653333333333336	1320.0	55.0	Brown moss, Sphagnum sp.	terrestrial	-	-	0.0	-4.02	0.6	0.6	Fredh2008,LongEtal2011
+Ammassalik	radiocarbon	SUERC-9428	65.755	-37.273	9659.0	67.0	gytjja	terrestrial	-	-	1.0	97.0	1.0	1.0	LongEtal2008,LongEtal2011
+Ammassalik	radiocarbon	SUERC-9426	65.757	-37.269	9376.0	65.0	gytjja	terrestrial	-	-	1.0	93.0	1.0	1.0	LongEtal2008,LongEtal2011
+Ammassalik	radiocarbon	SUERC-9425	65.727	-37.295	8523.0	67.0	gytjja	terrestrial	-	-	0.0	21.13	0.64	0.64	LongEtal2008,LongEtal2011
+Ammassalik	radiocarbon	SUERC-9424	65.736	-37.267	7594.0	53.0	gytjja	terrestrial	-	-	0.0	9.85	0.29	0.29	LongEtal2008,LongEtal2011
+Ammassalik	radiocarbon	SUERC-9421	65.728	-37.285	7202.0	51.0	gytjja	terrestrial	-	-	0.0	5.65	0.34	0.34	LongEtal2008,LongEtal2011
+Ammassalik	radiocarbon	SUERC-9420	65.727	-37.278	5868.0	46.0	gytjja	terrestrial	-	-	0.0	1.25	0.3	0.3	LongEtal2008,LongEtal2011
+	radiocarbon	Lu-485	72.0	-23.333	9120.0	90.0	Mya truncata, Hiatella arctica, Macoma calcarea	marine			-1.0	40.0	8.0	8.0	Hakansson1972
+	radiocarbon	Lu-487	72.283	-24.167	7760.0	80.0	Mya truncata, Hiatella arctica, Macoma calcarea, Astarte borealis	marine			-1.0	12.0	2.4000000000000004	2.4000000000000004	Hakansson1972,HjortFunder1974
+	radiocarbon	Lu-489	72.517	-23.967	8680.0	85.0	Mya truncata, Hiatella arctica, Macoma calcarea	marine			-1.0	33.0	6.6000000000000005	6.6000000000000005	Hakansson1972
+	radiocarbon	Lu-491	72.45	-25.417	8060.0	80.0	Mya truncata	marine			-1.0	40.0	8.0	8.0	Hakansson1972
+	radiocarbon	Lu-528	72.133	-23.633	9590.0	75.0	Hiatella arctica	marine			-1.0	55.0	10.0	10.0	Hakansson1972
+	radiocarbon	Lu-529	72.517	-23.967	9320.0	90.0	Mya truncata, Hiatella arctica, Portlandia arctica	marine			-1.0	68.0	10.0	10.0	Hakansson1972,Hjort1979
+	radiocarbon	Lu-530	72.383	-25.0	8170.0	80.0	shells (probably Mya truncata)	marine			-1.0	41.0	8.200000000000001	8.200000000000001	Hakansson1972
+	radiocarbon	Lu-531	72.133	-23.583	8940.0	85.0	Mya truncata, Hiatella arctica, Macoma calcarea	marine			-1.0	35.0	7.0	7.0	Hakansson1972
+	radiocarbon	Lu-533	72.9	-21.967	9610.0	95.0	Hiatella arctica, Mya truncata	marine			-1.0	53.0	10.0	10.0	Hakansson1973,Hjort1979
+	radiocarbon	Lu-584	72.8	-22.917	5100.0	75.0	organic material (mainly algae)	terrestrial			0.0	1.3	1.0	1.0	Hakansson1973,Hjort1973
+	radiocarbon	Lu-585	72.8	-22.917	6190.0	70.0	Hiatella arctica, Mya truncata	marine			-1.0	3.0	2.0	2.0	Hakansson1973,Hjort1973
+	radiocarbon	Lu-586	72.8	-22.917	6470.0	70.0	Hiatella arctica, Mya truncata	marine			-1.0	3.0	2.0	2.0	Hakansson1973,Hjort1973,HjortFunder1974
+	radiocarbon	Lu-608	72.917	-24.8	8090.0	80.0	Hiatella arctica, Mya truncata, Mytilus edulis	marine			-1.0	52.0	10.0	10.0	Hakansson1973,HjortFunder1974
+	radiocarbon	Lu-645	72.733	-23.0	9660.0	95.0	Mya truncata	marine			-1.0	55.0	10.0	10.0	Hakansson1973
+	radiocarbon	Lu-646	72.883	-23.417	9540.0	105.0	Mya truncata	marine			-1.0	57.0	10.0	10.0	Hakansson1973,Hjort1979
+	radiocarbon	Lu-647	72.117	-23.567	9610.0	95.0	Hiatella arctica	marine			-1.0	57.0	10.0	10.0	Hakansson1973,Hjort1979
+	radiocarbon	Lu-648	72.567	-24.7	8860.0	90.0	Hiatella arctica, Mya truncata	marine			-1.0	50.0	10.0	10.0	Hakansson1973
+	radiocarbon	Lu-649	72.1	-23.833	8660.0	85.0	Hiatella arctica, Mya truncata	marine			-1.0	40.0	8.0	8.0	Hakansson1973
+	radiocarbon	Lu-710	72.933	-22.667	9820.0	95.0	Mya truncata, Hiatella arctica	marine			-1.0	40.0	8.0	8.0	Hakansson1974
+	radiocarbon	Lu-711	72.6	-24.733	8920.0	85.0	Mya truncata	marine			-1.0	85.0	10.0	10.0	Hakansson1974
+	radiocarbon	Lu-712	72.5	-23.083	9980.0	95.0	Hiatella arctica	marine			-1.0	90.0	10.0	10.0	Hakansson1974,Hjort1979
+	radiocarbon	Lu-713	72.6	-26.383	7310.0	85.0	Mya truncata, Hiatella arctica, Macoma calcarea	marine			-1.0	26.0	5.2	5.2	Hakansson1974
+	radiocarbon	Lu-714	72.7	-22.967	9070.0	90.0	Mya truncata	marine			-1.0	25.0	5.0	5.0	Hakansson1974
+	radiocarbon	Lu-764	71.883	-22.917	9880.0	95.0	Mya truncata, Hiatella arctica	marine			-1.0	35.0	7.0	7.0	Hakansson1974,Hjort1979
+	radiocarbon	Lu-765	72.917	-25.75	7320.0	75.0	Mya truncata, Hiatella arctica, Macoma calcarea, Clinocardium ciliatum, Mytilus edulis	marine			-1.0	10.0	2.0	2.0	Hakansson1974,HjortFunder1974
+	radiocarbon	Lu-766	72.633	-22.683	8420.0	80.0	Hiatella arctica, Mya truncata, Nicania montagui	marine			-1.0	10.0	2.0	2.0	Hakansson1974
+	radiocarbon	Lu-767	72.733	-26.167	7860.0	80.0	Mya truncata, Hiatella arctica	marine			-1.0	40.0	8.0	8.0	Hakansson1974
+	radiocarbon	Lu-768	72.817	-23.283	9030.0	85.0	Mya truncata, Hiatella arctica, Tridonta borealis, Nicania montagui, Bathyarca glacialis	marine			-1.0	22.0	4.4	4.4	Hakansson1974
+	radiocarbon	Lu-789	72.0	-23.333	9510.0	100.0	Mya truncata	marine			-1.0	40.0	8.0	8.0	Hakansson1974,Hjort1979
+	radiocarbon	Lu-790	72.417	-24.583	9130.0	90.0	Mya truncata, Hiatella arctica, Macoma calcarea	marine			-1.0	55.0	10.0	10.0	Hakansson1974
+	radiocarbon	Lu-791	72.733	-25.083	7970.0	80.0	Mya truncata, Hiatella arctica, Macoma calcarea	marine			-1.0	32.0	6.4	6.4	Hakansson1974
+	radiocarbon	Lu-792	72.4	-24.917	8550.0	85.0	Mya truncata, Hiatella arctica, Macoma calcarea	marine			-1.0	38.0	7.6000000000000005	7.6000000000000005	Hakansson1974,Hjort1979
+	radiocarbon	Lu-793	72.883	-23.417	8830.0	85.0	Mya truncata	marine			-1.0	20.0	4.0	4.0	Hakansson1974
+	radiocarbon	Lu-825	72.733	-25.083	8270.0	80.0	Mya truncata, Hiatella arctica, Macoma calcarea	marine			-1.0	24.0	4.800000000000001	4.800000000000001	Hakansson1974,Hjort1979
+	radiocarbon	Lu-826	72.517	-23.967	8910.0	85.0	Mya truncata, Hiatella arctica, Macoma calcarea	marine			-1.0	45.0	9.0	9.0	Hakansson1974
+	radiocarbon	Lu-827	72.517	-23.967	7190.0	75.0	Mya truncata, Hiatella arctica, Macoma calcarea, Nicania montagui	marine			-1.0	15.0	3.0	3.0	Hakansson1974
+	radiocarbon	Lu-828	72.517	-23.967	5570.0	65.0	Mya truncata, Macoma calcarea, Serri fees groenlandica, Clinocardium ciliatum	marine			-1.0	8.0	1.6	1.6	Hakansson1974
+	radiocarbon	Lu-829	72.7	-22.967	8250.0	80.0	Mya truncata, Hiatella arctica, Tridonta borealis	marine			-1.0	12.0	2.4000000000000004	2.4000000000000004	Hakansson1974,HjortFunder1974
+	radiocarbon	Lu-830	72.817	-23.283	8270.0	80.0	Mya truncata, Hiatella arctica, 1Iacoma calcarea, Nicania montagui, Mytilus edulis	marine			-1.0	30.0	6.0	6.0	Hakansson1974,HjortFunder1974
+	radiocarbon	Lu-831	72.217	-23.883	4130.0	60.0	Mya truncata, Hiatella arctica, Macoma calcarea, Clinocardium ciliatum	marine			-1.0	4.0	1.0	1.0	Hakansson1974
+	radiocarbon	Lu-866	72.4	-26.233	7140.0	75.0	Mya truncata, Hiatella arctica	marine			-1.0	21.0	4.2	4.2	Hakansson1975,HjortFunder1974
+	radiocarbon	Lu-867	73.667	-21.833	6500.0	75.0	Mytilus edulus	marine			-1.0	7.5	1.5	1.5	Hakansson1975,HjortFunder1974
+	radiocarbon	Lu-868	73.617	-22.35	6460.0	70.0	Mya truncata, Macoma calcarea, Clinocardium ciliatum	marine			-1.0	2.0	1.0	1.0	Hakansson1975,HjortFunder1974
+	radiocarbon	Lu-882	73.55	-20.75	10720.0	150.0	Hiatella arctica	marine			-1.0	45.0	9.0	9.0	Hakansson1975,Hjort1979
+	radiocarbon	Lu-883	73.667	-22.0	9220.0	90.0	Mya truncata, Hiatella arctica	marine			-1.0	35.0	7.0	7.0	Hakansson1975
+	radiocarbon	Lu-884	73.483	-21.617	6520.0	70.0	Mya truncata, Tridonta borealis, Nicania montagui	marine			0.0	6.9	2.0	2.0	Hakansson1975
+	radiocarbon	Lu-885	73.733	-20.75	9540.0	90.0	Mya truncata, Hiatella arctica	marine			-1.0	20.0	4.0	4.0	Hakansson1975
+	radiocarbon	Lu-886	73.683	-21.833	9290.0	90.0	Mya truncata	marine			-1.0	40.0	8.0	8.0	Hakansson1975,Hjort1979
+	radiocarbon	Lu-1069	72.417	-25.917	6400.0	70.0	Hiatella arctica	marine			-1.0	7.0	1.4000000000000001	1.4000000000000001	Hakansson1976
+	radiocarbon	Lu-1070	72.717	-26.833	7530.0	75.0	Hiatella arctica	marine			-1.0	4.0	1.0	1.0	Hakansson1976
+	radiocarbon	Lu-1095	72.133	-23.633	8580.0	85.0	whale vertebra (probably Balanea mysticetus)	marine			-1.0	40.0	8.0	8.0	Hakansson1976
+	radiocarbon	Lu-1103	72.133	-23.633	8850.0	85.0	Mya truncata, Hiatella arctica, and Macoma calcarea	marine			-1.0	40.0	8.0	8.0	Hakansson1976
+	radiocarbon	Lu-1741	75.317	-20.05	7440.0	95.0	clay gyttja	corr_terrestrial	0	100	1.0	16.0	3.2	3.2	Hakansson1981
+	radiocarbon	Lu-1742	75.317	-20.05	5140.0	130.0	clay gyttja with moss remains	corr_terrestrial	0	100	1.0	16.0	3.2	3.2	Hakansson1981
+	radiocarbon	Lu-1743	75.317	-20.05	4530.0	130.0	clay gyttja with moss remains	corr_terrestrial	0	100	1.0	16.0	3.2	3.2	Hakansson1981
+	radiocarbon	Lu-1744	75.317	-20.05	3670.0	150.0	clay gyttja with moss remains	corr_terrestrial	0	100	1.0	16.0	3.2	3.2	Hakansson1981
+	radiocarbon	Lu-1745	75.317	-20.05	2390.0	120.0	clay gyttja with moss remains	corr_terrestrial	0	100	1.0	16.0	3.2	3.2	Hakansson1981
+	radiocarbon	Lu-1746	75.317	-19.667	11540.0	135.0	clay gyttja with moss remains	corr_terrestrial	0	100	1.0	87.5	12.5	12.5	Hakansson1981
+	radiocarbon	Lu-1874	80.283	-16.167	7490.0	75.0	Mya truncata, Hiatella arctica, and Astarte borealis	marine			-1.0	22.0	4.4	4.4	Hakansson1982
+	radiocarbon	Lu-2574	81.167	-14.0	10100.0	90.0	Hiatella arctica, Mya truncata	marine			-1.0	34.0	6.800000000000001	6.800000000000001	Hakansson1987,Hjort1997
+	radiocarbon	Y-596	72.218	-23.938	9310.0	250.0	Mya truncata L.	marine			-1.0	59.0	2.0	2.0	WashburnStuiver1962
+	radiocarbon	Y-599	72.252	-23.977	9330.0	250.0	Mya truncata L., Hiafella arctica L.	marine			-1.0	67.5	2.5	2.5	WashburnStuiver1962
+	radiocarbon	Y-600	72.223	-23.906	7240.0	210.0	Mya truncata L.	marine			-1.0	3.0	1.1	1.1	WashburnStuiver1962
+	radiocarbon	Y-602	72.242	-23.853	8090.0	180.0	Hiatella arctica L.	marine			-1.0	7.5	1.1	1.1	WashburnStuiver1962
+	radiocarbon	Y-606	72.26	-23.913	550.0	70.0	Astarte borealis Schumacker, Astarte crenata, Gray Cardium ciliaturn, Fabricius, Hiatella arctica L., Margarites undalata, Sowerby, Mya arenaria L.?, Mya truncata L.	marine			-	-			WashburnStuiver1962
+	radiocarbon	Y-702	72.223	-23.896	1285.0	110.0	Driftwood	terrestrial	-	-	-1.0	3.0	0.5	0.5	WashburnStuiver1962
+	radiocarbon	Y-703	72.222	-23.899	3530.0	120.0	Driftwood	terrestrial	-	-	-1.0	4.0	0.5	0.5	WashburnStuiver1962
+	radiocarbon	Y-704	72.245	-23.834	8280.0	210.0	Mya truncata L.	marine			-1.0	31.0	2.0	2.0	WashburnStuiver1962
+	radiocarbon	Y-708	72.245	-23.952	7220.0	250.0	Mytilus edilus L	marine			-1.0	18.0	2.2	2.2	WashburnStuiver1962,HjortFunder1974
+	radiocarbon	Y-711	72.185	-23.745	9050.0	250.0	Hiatella arctic L., Mya truncata L.	marine			-1.0	71.5	4.9	4.9	WashburnStuiver1962
+	radiocarbon	Y-712	72.12	-23.903	9030.0	140.0	Mya truncata L.	marine			-1.0	48.5	4.0	4.0	WashburnStuiver1962
+	radiocarbon	Y-713	72.12	-23.903	8910.0	140.0	Mya truncata L.	marine			-1.0	54.5	3.2	3.2	WashburnStuiver1962
+	radiocarbon	Y-714	72.134	-23.861	7460.0	200.0	Hiatella arctica L., Mya truncata L., Serripes groenlandica, Bruguiere	marine			-1.0	8.5	1.8	1.8	WashburnStuiver1962
+	radiocarbon	Y-716	72.185	-23.745	9330.0	210.0	Hiatella arctica L., Mya truncata L.	marine			-1.0	71.5	4.9	4.9	WashburnStuiver1962
+	radiocarbon	Y-717	72.245	-23.952	7200.0	200.0	Mya truncata L.	marine			-1.0	18.0	2.2	2.2	WashburnStuiver1962
+	radiocarbon	Y-876	72.249	-24.021	8550.0	160.0	Hiatella arctica L., Mya truncata L.	marine			-1.0	29.0	2.0	2.0	WashburnStuiver1962
+	radiocarbon	Y-878	72.245	-24.006	7500.0	150.0	Hiatella arctica L., Mya truncata L.	marine			-1.0	19.5	1.1	1.1	WashburnStuiver1962
+	radiocarbon	Y-879	72.245	-24.006	8010.0	130.0	Driftwood	terrestrial	-	-	-1.0	20.0	1.0	1.0	WashburnStuiver1962
+	radiocarbon	Y-882	72.125	-23.876	6140.0	140.0	Driftwood	terrestrial	-	-	-1.0	4.0	0.5	0.5	WashburnStuiver1962
+	radiocarbon	Y-883	72.125	-23.876	7390.0	210.0	Astarte borealis, Schumacker, Clinocardium ciliatum, Fabricius, Hiatella arctica L., Mya truncata L., Mytilus edulis L.	marine			-1.0	3.5	0.7	0.7	WashburnStuiver1962,HjortFunder1974
+	radiocarbon	Y-884	72.123	-23.879	5510.0	320.0	Astarte borealis, Schumacker	marine			-1.0	2.0	1.1	1.1	WashburnStuiver1962
+	radiocarbon	I-365	80.05	-20.667	5430.0	154.0	Hiatella arctica and Mya truncata	marine			-1.0	20.7	4.1	4.1	Trautman1963
+	radiocarbon	I-366	80.1	-20.667	7305.0	154.0	Hiatella arctica and Mya truncata	marine			-1.0	39.6	7.9	7.9	Trautman1963
+	radiocarbon	I-367	80.1	-20.667	7205.0	154.0	Hiatella arctica and Mya truncata	marine			-1.0	41.2	8.2	8.2	Trautman1963
+	radiocarbon	I-369	80.1	-20.667	3780.0	129.0	Mya truncata	marine			-1.0	7.0	1.4	1.4	Trautman1963
+	radiocarbon	I-370	80.467	-20.75	7105.0	154.0	Hiatella arctica and Mya truncata	marine			-1.0	57.9	10.0	10.0	Trautman1963
+	radiocarbon	I(UM)-429	72.0	-24.0	7514.0	193.0	baleen	marine			0.0	15.4	4.0	4.0	Trautman1963
+	radiocarbon	I-432	72.0	-24.0	6935.0	203.0	Hiatella arctica	marine			-1.0	12.2	2.4	2.4	Trautman1963
+	radiocarbon	I-430	72.0	-24.0	8005.0	232.0	Mya truncata and Hiatella arctica	marine			-1.0	16.2	3.2	3.2	Trautman1963
+	radiocarbon	M-1611	72.25	-24.25	7740.0	250.0	Mya truncata, Macoma calcarea	marine			-1.0	31.0	2.0	2.0	Lasca1966
+	radiocarbon	M-1612	72.25	-24.25	8490.0	300.0	Hiatella arctica, Mya truncata	marine			-1.0	60.0	2.0	2.0	Lasca1966
+	radiocarbon	M-1613	72.25	-24.25	8840.0	300.0	Macoma calcarea, Hitatella arctica, Mya truncata	marine			-1.0	60.0	2.0	2.0	Lasca1966
+	radiocarbon	M-1614	72.25	-24.25	7010.0	250.0	Macoma sp., Hiatella arctica, Mya truncata	marine			-1.0	14.0	1.0	1.0	Lasca1966
+	radiocarbon	M-1615	72.25	-24.25	9140.0	300.0	Mya truncata, Hiatella arctica	marine			-1.0	59.0	2.0	2.0	Lasca1966
+	radiocarbon	M-1616	72.25	-24.25	7770.0	250.0	Mya truncata	marine			0.0	35.8	2.0	2.0	Lasca1966
+	radiocarbon	M-1617	72.25	-24.25	6960.0	220.0	Hiatella arctica, Mya truncata, Macoma calcarea, Mytilus edulis	marine			0.0	20.8	1.0	1.0	Lasca1966,HjortFunder1974
+	radiocarbon	M-1618	72.25	-24.25	7270.0	250.0	Hiatella arctica, Mya truncata, Astarte sp.	marine			-1.0	21.0	1.0	1.0	Lasca1966
+	radiocarbon	M-1619	72.25	-24.25	5980.0	200.0	Macoma calcarea, Mya truncata, Mya arenaria, Hiatella arctica	marine			-1.0	4.0	0.5	0.5	Lasca1966
+	radiocarbon	M-1620	72.25	-24.25	6830.0	200.0	Mya truncata, Macoma calcarea	marine			-1.0	17.0	1.0	1.0	Lasca1966
+	radiocarbon	M-1621	72.25	-24.25	5680.0	200.0	Astarte sp. Macoma sp. Serripes groenlandicus, Mya truncata, Mya arenaria, Mytilus edulus	marine			-1.0	4.0	0.5	0.5	Lasca1966,HjortFunder1974
+	radiocarbon	M-1622	72.25	-24.25	7160.0	250.0	Hiatella arctica, Mya truncata	marine			-1.0	11.0	1.0	1.0	Lasca1966
+	radiocarbon	M-1623	72.25	-24.25	6790.0	220.0	Hiatella arctica, Mya truncata	marine			-1.0	9.0	1.0	1.0	Lasca1966
+	radiocarbon	LuS-7051	83.6019	-32.00162	8345.0	50.0	Hiatella arctica	marine			-1.0	4.6	1.0	1.0	MollerEtal2010,FunderEtal2011
+	radiocarbon	LuS-7059	83.6019	-32.00162	9085.0	55.0	Sea weed	marine			-1.0	4.6	1.0	1.0	MollerEtal2010,FunderEtal2011
+	radiocarbon	LuS-7471	83.53597	-32.17235	4495.0	50.0	terrestrial plant detritus	terrestrial	-	-	1.0	18.7	3.74	3.74	MollerEtal2010,FunderEtal2011
+	radiocarbon	LuS-7469	83.58128	-32.21093	9135.0	120.0	terrestrial plant detritus	terrestrial	-	-	1.0	106.8	10.0	10.0	MollerEtal2010,FunderEtal2011
+	radiocarbon	LuS-7478	83.59265	-32.02757	9485.0	65.0	Hiatella arctica	marine			-1.0	25.0	5.0	5.0	MollerEtal2010,FunderEtal2011
+	radiocarbon	LuS-7479	83.59265	-32.02757	9100.0	75.0	Hiatella arctica	marine			-1.0	25.0	5.0	5.0	MollerEtal2010,FunderEtal2011
+	radiocarbon	LuS-7477	83.59975	-32.11957	9380.0	60.0	Hiatella arctica	marine			-1.0	22.5	4.5	4.5	MollerEtal2010,FunderEtal2011
+	radiocarbon	LuS-7476	83.59975	-32.11957	8805.0	60.0	Mya truncata	marine			-1.0	22.5	4.5	4.5	MollerEtal2010,FunderEtal2011
+	radiocarbon	LuS-9067	83.5954	-31.1144	8870.0	70.0	Hiatella arctica	marine			-1.0	39.2	7.840000000000001	7.840000000000001	MollerEtal2010,FunderEtal2011
+	radiocarbon	LuS-7474	83.5954	-32.02757	9470.0	60.0	Hiatella arctica	marine			-1.0	30.0	6.0	6.0	MollerEtal2010,FunderEtal2011
+	radiocarbon	K-5977	81.56961	-16.50156	6450.0	105.0	?Balaena mysticetus (whale)	marine			-1.0	20.0	4.0	4.0	FunderEtal2011,Bennike1997
+	radiocarbon	AAR-11912	83.65108	-31.4273	5845.0	60.0	Monodon monoceros (Narwhale)	marine			-1.0	2.0	1.0	1.0	FunderEtal2011
+	radiocarbon	AAR-10242	83.65	-31.05	33900.0	600.0	Macoma calcarea	marine			-1.0	32.0	6.4	6.4	FunderEtal2011
+	radiocarbon	AAR-10243	82.41667	-20.13333	38900.0	1000.0	Hiatella arctica	marine			-1.0	51.0	10.0	10.0	FunderEtal2011
+	radiocarbon	AAR-10244	82.62402	-20.44818	8595.0	55.0	Mya truncata	marine			-1.0	45.0	9.0	9.0	FunderEtal2011
+	radiocarbon	AAR-10245	82.62402	-20.44818	28950.0	300.0	Hiatella arctica	marine			-1.0	45.0	9.0	9.0	FunderEtal2011
+	radiocarbon	AAR-10374	81.59833	-16.481	3671.0	48.0	Astarte borealis	marine			-1.0	1.0	1.0	1.0	FunderEtal2011
+	radiocarbon	AAR-10375	81.58667	-16.26389	8865.0	60.0	Mya truncata	marine			-1.0	42.0	8.4	8.4	FunderEtal2011
+	radiocarbon	AAR-10376	81.52167	-16.75383	7100.0	55.0	Astarte borealis	marine			-1.0	20.0	4.0	4.0	FunderEtal2011
+	radiocarbon	AAR-10377	81.57361	-16.78917	7585.0	55.0	Mya truncata	marine			-1.0	25.0	5.0	5.0	FunderEtal2011
+	radiocarbon	AAR-11138	80.4407	-15.904	6925.0	43.0	Hiatella, Mya	marine			-1.0	13.0	2.6	2.6	FunderEtal2011
+	radiocarbon	AAR-11139	80.41892	-16.0134	8965.0	50.0	Hiatella arctica	marine			-1.0	54.0	10.0	10.0	FunderEtal2011
+	radiocarbon	AAR-11905	83.41203	-25.63628	9255.0	50.0	Hiatella arctica	marine			-1.0	26.0	5.2	5.2	FunderEtal2011
+	radiocarbon	AAR-11906	83.42318	-25.82528	8806.0	48.0	Mya truncata	marine			-1.0	25.0	5.0	5.0	FunderEtal2011
+	radiocarbon	AAR-11907	83.4403	-25.84162	9268.0	49.0	Hiatella arctica	marine			-1.0	13.0	2.6	2.6	FunderEtal2011
+	radiocarbon	AAR-11908	83.43093	-25.97575	9593.0	48.0	Hiatella arctica	marine			-1.0	12.0	2.4000000000000004	2.4000000000000004	FunderEtal2011
+	radiocarbon	AAR-11909	83.4223	-25.90527	9190.0	55.0	Hiatella arctica	marine			-1.0	27.0	5.4	5.4	FunderEtal2011
+	radiocarbon	AAR-11910	83.41677	-25.69437	9398.0	50.0	Hiatella arctica	marine			-1.0	24.0	4.800000000000001	4.800000000000001	FunderEtal2011
+	radiocarbon	AAR-11911	83.6509	-31.16435	8315.0	60.0	Hiatella arctica	marine			-1.0	18.0	3.6	3.6	FunderEtal2011
+	radiocarbon	AAR-11913	83.64755	-31.48855	9170.0	70.0	Hiatella arctica	marine			-1.0	1.0	1.0	1.0	FunderEtal2011
+	radiocarbon	AAR-11914	83.64298	-31.4818	9109.0	50.0	Mya truncata	marine			-1.0	23.0	4.6000000000000005	4.6000000000000005	FunderEtal2011
+	radiocarbon	AAR-11915	83.6435	-31.39783	41250.0	800.0	Astarte borealis	marine			-1.0	23.0	4.6000000000000005	4.6000000000000005	FunderEtal2011
+	radiocarbon	AAR-11916	83.64385	-30.9755	7887.0	41.0	Mya truncata	marine			-1.0	12.0	2.4000000000000004	2.4000000000000004	FunderEtal2011
+	radiocarbon	AAR-11917	83.64448	-30.94842	8377.0	40.0	Mya truncata	marine			-1.0	8.0	1.6	1.6	FunderEtal2011
+	radiocarbon	AAR-11918	83.6472	-30.9407	4657.0	36.0	Hiatella arctica	marine			-1.0	0.0	1.0	1.0	FunderEtal2011
+	radiocarbon	AAR-11919	83.64603	-31.00147	9560.0	55.0	Hiatella arctica	marine			-1.0	23.0	4.6000000000000005	4.6000000000000005	FunderEtal2011
+	radiocarbon	AAR-11920	83.63662	-30.92632	9235.0	55.0	Hiatella arctica	marine			-1.0	32.0	6.4	6.4	FunderEtal2011
+	radiocarbon	AAR-11921	83.6425	-31.06055	35800.0	500.0	Hiatella arctica	marine			-1.0	24.0	4.800000000000001	4.800000000000001	FunderEtal2011
+	radiocarbon	AAR-11922	83.62803	-30.68772	8648.0	46.0	Hiatella arctica	marine			-1.0	11.0	2.2	2.2	FunderEtal2011
+	radiocarbon	AAR-11923	83.54008	-29.64741	4398.0	40.0	Mya truncata	marine			-1.0	2.0	1.0	1.0	FunderEtal2011
+	radiocarbon	AAR-12111	83.52147	-28.35303	7238.0	48.0	Marine algae	marine			-1.0	13.0	2.6	2.6	FunderEtal2011
+	radiocarbon	K-5345	81.56667	-16.25	9080.0	125.0	Hiatella arctica	marine			-1.0	58.0	10.0	10.0	FunderEtal2011
+	radiocarbon	K-5346	81.55	-16.28333	9320.0	125.0	Mya truncata	marine			-1.0	49.0	9.8	9.8	FunderEtal2011
+	radiocarbon	K-5347	81.51667	-16.88333	8430.0	115.0	Mya truncata	marine			-1.0	39.0	7.800000000000001	7.800000000000001	FunderEtal2011
+	radiocarbon	K-5348	81.51667	-16.78333	5850.0	95.0	Astarte borealis	marine			-1.0	3.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7052	83.61667	-30.51728	7055.0	50.0	Hiatella arctica	marine			-1.0	8.0	1.6	1.6	FunderEtal2011
+	radiocarbon	LuS-7053	83.62248	-30.55827	9125.0	50.0	shell	marine			-1.0	12.0	2.4000000000000004	2.4000000000000004	FunderEtal2011
+	radiocarbon	LuS-7054	83.62197	-30.51458	6795.0	50.0	Mya truncata	marine			-1.0	6.0	1.2000000000000002	1.2000000000000002	FunderEtal2011
+	radiocarbon	LuS-7060	83.62205	-30.51335	6495.0	50.0	Terrestrial plant detritus	terrestrial	-	-	1.0	8.0	1.6	1.6	FunderEtal2011
+	radiocarbon	LuS-7270	83.39893	-25.5221	8130.0	60.0	Hiatella arctica	marine			-1.0	10.0	2.0	2.0	FunderEtal2011
+	radiocarbon	LuS-7272	83.41248	-25.58845	38880.0	1800.0	Hiatella arctica	marine			-1.0	17.0	3.4000000000000004	3.4000000000000004	FunderEtal2011
+	radiocarbon	LuS-7273	83.40837	-25.68902	9365.0	65.0	Hiatella arctica	marine			-1.0	30.0	6.0	6.0	FunderEtal2011
+	radiocarbon	LuS-7274	80.4628	-16.06815	4925.0	50.0	shell	marine			-1.0	4.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7275	80.45309	-16.11071	9695.0	70.0	Hiatella arctica	marine			-1.0	62.0	10.0	10.0	FunderEtal2011
+	radiocarbon	LuS-7276	80.45868	-16.12817	7660.0	60.0	Mya truncata	marine			-1.0	6.0	1.2000000000000002	1.2000000000000002	FunderEtal2011
+	radiocarbon	LuS-7277	80.45655	-16.12161	8325.0	65.0	Hiatella arctica	marine			-1.0	18.0	3.6	3.6	FunderEtal2011
+	radiocarbon	LuS-7278	80.43552	-15.94032	9600.0	80.0	Hiatella arctica	marine			-1.0	30.0	6.0	6.0	FunderEtal2011
+	radiocarbon	LuS-7279	83.57213	-32.0286	6880.0	50.0	Cassiope tetragona (plant)	terrestrial	-	-	1.0	4.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7280	83.57213	-32.0286	8430.0	60.0	Hiatella arctica	marine			-1.0	1.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7281	83.53443	-28.74228	8090.0	55.0	Hiatella arctica	marine			-1.0	4.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7282	83.5496	-29.1033	8450.0	50.0	Hiatella arctica	marine			-1.0	8.0	1.6	1.6	FunderEtal2011
+	radiocarbon	LuS-7283	83.55695	-29.25638	6175.0	50.0	Hiatella arctica	marine			-1.0	2.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7284	83.56493	-29.44367	6505.0	50.0	Hiatella arctica	marine			-1.0	4.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7472	83.64537	-33.38433	8705.0	60.0	Terrestrial plant detritus	terrestrial	-	-	1.0	22.0	4.4	4.4	FunderEtal2011
+	radiocarbon	LuS-7475	83.63597	-32.87472	7920.0	60.0	Hiatella arctica	marine			-1.0	2.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7480	83.64903	-33.27585	6905.0	60.0	Astarte borealis	marine			-1.0	2.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7481	83.64903	-33.27585	6740.0	60.0	Hiatella arctica	marine			-1.0	2.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7657	82.58111	-20.0075	6720.0	50.0	Hiatella arctica	marine			-1.0	32.0	6.4	6.4	FunderEtal2011
+	radiocarbon	LuS-7658	82.5825	-20.03	8465.0	60.0	Hiatella arctica	marine			-1.0	34.0	6.800000000000001	6.800000000000001	FunderEtal2011
+	radiocarbon	LuS-7659	82.59028	-19.88389	5535.0	55.0	Hiatella arctica	marine			-1.0	16.0	3.2	3.2	FunderEtal2011
+	radiocarbon	LuS-7660	82.59167	-19.88972	5625.0	50.0	shell	marine			-1.0	16.0	3.2	3.2	FunderEtal2011
+	radiocarbon	LuS-7661	82.59056	-19.92167	7005.0	55.0	Hiatella arctica	marine			-1.0	16.0	3.2	3.2	FunderEtal2011
+	radiocarbon	LuS-7662	82.58028	-20.00194	8030.0	55.0	Hiatella arctica	marine			-1.0	32.0	6.4	6.4	FunderEtal2011
+	radiocarbon	LuS-7663	82.5825	-20.03	8560.0	60.0	Hiatella arctica	marine			-1.0	34.0	6.800000000000001	6.800000000000001	FunderEtal2011
+	radiocarbon	LuS-7664	82.58833	-20.05278	8560.0	60.0	Hiatella arctica	marine			-1.0	34.0	6.800000000000001	6.800000000000001	FunderEtal2011
+	radiocarbon	LuS-7665	82.58028	-20.01194	8855.0	60.0	Mya truncata	marine			-1.0	32.0	6.4	6.4	FunderEtal2011
+	radiocarbon	LuS-7666	82.59306	-19.80056	3740.0	60.0	Hiatella arctica	marine			-1.0	4.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7667	82.59417	-19.795	3430.0	50.0	Hiatella arctica ?	marine			-1.0	3.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7668	82.57056	-20.12194	9120.0	60.0	shell	marine			-1.0	43.0	8.6	8.6	FunderEtal2011
+	radiocarbon	LuS-7669	82.57083	-20.13528	8860.0	70.0	Hiatella arctica ?	marine			-1.0	48.0	9.600000000000001	9.600000000000001	FunderEtal2011
+	radiocarbon	LuS-7670	82.56806	-20.19583	23950.0	200.0	Hiatella/Mya ?	marine			-1.0	59.0	10.0	10.0	FunderEtal2011
+	radiocarbon	LuS-7671	82.59361	-20.19	30250.0	300.0	Hiatella/Mya ?	marine			-1.0	62.0	10.0	10.0	FunderEtal2011
+	radiocarbon	LuS-7672	82.5725	-20.17083	8850.0	60.0	Hiatella arctica ?	marine			-1.0	53.0	10.0	10.0	FunderEtal2011
+	radiocarbon	LuS-7797	83.61093	-30.56612	8940.0	70.0	plant	terrestrial	-	-	1.0	30.0	6.0	6.0	FunderEtal2011
+	radiocarbon	K-753	80.9	-23.75	3680.0	120.0	Larix	terrestrial	-	-	-1.0	10.0	2.4000000000000004	2.4000000000000004	FunderEtal2011,Tauber1964
+	radiocarbon	K-565	80.65	-23.43333	3000.0	120.0	wood	terrestrial	-	-	-1.0	4.0	1.2000000000000002	1.2000000000000002	FunderEtal2011,Tauber1961
+	radiocarbon	K-563	80.65	-23.43333	3610.0	120.0	wood	terrestrial	-	-	-1.0	10.0	2.4000000000000004	2.4000000000000004	FunderEtal2011,Tauber1960
+	radiocarbon	K-564	80.65	-23.93333	3700.0	120.0	wood	terrestrial	-	-	-1.0	10.0	2.4000000000000004	2.4000000000000004	FunderEtal2011,Tauber1960
+	radiocarbon	K-933	82.15	-30.21667	3180.0	110.0	Larix	terrestrial	-	-	-1.0	4.0	1.2000000000000002	1.2000000000000002	FunderEtal2011,Tauber1966
+	radiocarbon	K-934	82.15	-30.21667	2740.0	100.0	Picea	terrestrial	-	-	-1.0	4.0	1.2000000000000002	1.2000000000000002	FunderEtal2011,Tauber1966
+	radiocarbon	K-756	82.83333	-24.0	3850.0	120.0	Larix	terrestrial	-	-	-1.0	13.0	3.0	3.0	FunderEtal2011,Tauber1964
+	radiocarbon	K-138	81.6	-16.68333	4040.0	170.0	wood	terrestrial	-	-	-1.0	10.0	2.4000000000000004	2.4000000000000004	FunderEtal2011,Tauber1961
+	radiocarbon	LuS-7975	81.49972	-16.68861	6005.0	50.0	Larix	terrestrial	-	-	-1.0	0.0	1.0	1.0	FunderEtal2011
+	radiocarbon	AAR-11134	83.63667	-31.52122	595.0	37.0	wood	terrestrial	-	-	-1.0	-2.0	1.0	1.0	FunderEtal2011
+	radiocarbon	AAR-11135	83.44288	-27.91167	6378.0	49.0	wood	terrestrial	-	-	-1.0	14.0	3.2	3.2	FunderEtal2011
+	radiocarbon	AAR-11136	83.61005	-30.47833	7112.0	47.0	wood	terrestrial	-	-	-1.0	13.0	3.0	3.0	FunderEtal2011
+	radiocarbon	AAR-3452	81.55802	-16.16025	3870.0	90.0	wood	terrestrial	-	-	-1.0	8.0	2.0	2.0	FunderEtal2011
+	radiocarbon	AAR-3453	81.55742	-16.21868	2470.0	75.0	wood	terrestrial	-	-	-1.0	13.0	3.0	3.0	FunderEtal2011
+	radiocarbon	K-7086	82.5	-31.16667	5350.0	100.0	Larix	terrestrial	-	-	-1.0	18.0	4.0	4.0	FunderEtal2011
+	radiocarbon	LuS-7718	82.59028	-19.88389	5080.0	50.0	Picea	terrestrial	-	-	-1.0	14.0	3.2	3.2	FunderEtal2011
+	radiocarbon	LuS-7719	82.59028	-19.88389	5110.0	50.0	Larix	terrestrial	-	-	-1.0	14.0	3.2	3.2	FunderEtal2011
+	radiocarbon	LuS-7720	83.65048	-31.11172	6385.0	50.0	Larix	terrestrial	-	-	-1.0	7.0	1.8	1.8	FunderEtal2011
+	radiocarbon	LuS-7721	83.64385	-30.9755	6205.0	50.0	Larix	terrestrial	-	-	-1.0	10.0	2.4000000000000004	2.4000000000000004	FunderEtal2011
+	radiocarbon	LuS-7722	83.65077	-31.43543	140.0	45.0	Picea	terrestrial	-	-	-1.0	0.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7723	83.6461	-30.92465	3775.0	50.0	Larix	terrestrial	-	-	-1.0	0.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7724	83.6454	-30.97107	5080.0	50.0	Larix	terrestrial	-	-	-1.0	3.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7725	83.64935	-31.0146	7065.0	50.0	Larix	terrestrial	-	-	-1.0	3.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7726	83.65023	-31.06473	185.0	45.0	Picea	terrestrial	-	-	-1.0	-2.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7727	83.65587	-31.21442	3485.0	50.0	Larix	terrestrial	-	-	-1.0	5.0	1.4000000000000001	1.4000000000000001	FunderEtal2011
+	radiocarbon	LuS-7728	83.65375	-31.34205	3060.0	50.0	wood	terrestrial	-	-	-1.0	-1.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7729	81.55802	-16.16025	125.0	45.0	Populus	terrestrial	-	-	-1.0	-2.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7730	81.57278	-16.86778	865.0	45.0	Picea	terrestrial	-	-	-1.0	-2.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7731	81.57278	-16.86778	125.0	45.0	Larix	terrestrial	-	-	-1.0	-2.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7883	81.49972	-16.68861	855.0	45.0	Larix	terrestrial	-	-	-1.0	-2.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7884	81.49972	-16.68861	140.0	45.0	Larix	terrestrial	-	-	-1.0	-2.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7885	81.5775	-16.34583	3890.0	50.0	Larix	terrestrial	-	-	-1.0	0.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7963	81.57611	-16.20222	4860.0	60.0	Picea	terrestrial	-	-	-1.0	0.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7964	81.55802	-16.16025	2770.0	50.0	Larix	terrestrial	-	-	-1.0	-1.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7965	81.5775	-16.34583	115.0	50.0	Picea	terrestrial	-	-	-1.0	0.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7966	81.5775	-16.34583	1955.0	50.0	Larix	terrestrial	-	-	-1.0	0.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7967	81.5775	-16.34583	1915.0	50.0	Larix	terrestrial	-	-	-1.0	0.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7968	81.5775	-16.34583	2690.0	50.0	Picea	terrestrial	-	-	-1.0	0.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7969	81.61528	-16.69639	60.0	45.0	Picea	terrestrial	-	-	-1.0	-1.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7970	81.49972	-16.68861	2975.0	50.0	Picea	terrestrial	-	-	-1.0	0.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7971	81.49972	-16.68861	905.0	50.0	Picea	terrestrial	-	-	-1.0	0.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7972	81.49972	-16.68861	240.0	50.0	Picea	terrestrial	-	-	-1.0	0.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7973	81.49972	-16.68861	3990.0	50.0	Larix	terrestrial	-	-	-1.0	0.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7974	81.49972	-16.68861	3540.0	50.0	Larix	terrestrial	-	-	-1.0	0.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7976	81.49972	-16.68861	720.0	50.0	Larix	terrestrial	-	-	-1.0	0.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7977	81.61528	-16.69639	1025.0	45.0	Larix	terrestrial	-	-	-1.0	-1.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7978	81.49972	-16.68861	1885.0	50.0	Larix	terrestrial	-	-	-1.0	0.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7979	81.49972	-16.68861	540.0	45.0	Larix	terrestrial	-	-	-1.0	0.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7980	81.61528	-16.69639	4400.0	50.0	Larix	terrestrial	-	-	-1.0	-1.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7981	81.58194	-16.76194	4495.0	50.0	Larix	terrestrial	-	-	-1.0	-1.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7982	81.58194	-16.76194	890.0	50.0	Larix	terrestrial	-	-	-1.0	-1.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7983	81.58194	-16.76194	930.0	50.0	Larix	terrestrial	-	-	-1.0	-1.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7984	81.58194	-16.76194	845.0	45.0	Larix	terrestrial	-	-	-1.0	-1.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7985	81.61528	-16.69639	4380.0	50.0	Larix	terrestrial	-	-	-1.0	-1.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7986	81.61528	-16.69639	95.0	45.0	Populus	terrestrial	-	-	-1.0	-1.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7987	83.64833	-30.95953	180.0	45.0	Larix	terrestrial	-	-	-1.0	-2.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7988	83.64523	-30.93852	5135.0	50.0	Larix	terrestrial	-	-	-1.0	4.0	1.2000000000000002	1.2000000000000002	FunderEtal2011
+	radiocarbon	LuS-7989	83.64523	-30.93852	1880.0	50.0	Picea	terrestrial	-	-	-1.0	-1.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7990	83.64913	-31.00782	145.0	50.0	Populus	terrestrial	-	-	-1.0	2.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7991	83.6541	-31.151	215.0	45.0	wood	terrestrial	-	-	-1.0	-2.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7992	83.65468	-31.16228	145.0	50.0	Picea	terrestrial	-	-	-1.0	-2.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7993	83.65445	-31.3701	1320.0	50.0	Larix	terrestrial	-	-	-1.0	-2.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7994	83.65685	-31.25128	3105.0	50.0	wood	terrestrial	-	-	-1.0	2.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-7995	83.6524	-31.1165	2465.0	50.0	Picea	terrestrial	-	-	-1.0	-1.0	1.0	1.0	FunderEtal2011
+	radiocarbon	LuS-8015	81.61528	-16.69639	1155.0	45.0	Picea	terrestrial	-	-	-1.0	-1.0	1.0	1.0	FunderEtal2011
+	radiocarbon	K-2294	64.4	-50.2	8788.0	145.0	gyttja	corr_terrestrial	0.0	100.0	1.0	100.0	10.0	10.0	Fredskild1983,WeidickEtal2012
+	radiocarbon	K-2460	64.4	-50.2	8640.0	120.0	gyttja	corr_terrestrial	0.0	100.0	1.0	100.0	10.0	10.0	Fredskild1983
+	radiocarbon	K-2461	64.4	-50.2	8640.0	80.0	gyttja	corr_terrestrial	0.0	100.0	1.0	100.0	10.0	10.0	Fredskild1983
+	radiocarbon	K-2292	64.46666666666667	-51.583333333333336	8788.0	154.0	gyttja	corr_terrestrial	0.0	100.0	1.0	61.0	10.0	10.0	Fredskild1983
+	radiocarbon	K-2717	64.46666666666667	-51.583333333333336	8640.0	120.0	gyttja	corr_terrestrial	0.0	100.0	1.0	61.0	10.0	10.0	Fredskild1983
+	radiocarbon	K-2718	64.46666666666667	-51.583333333333336	8640.0	120.0	gyttja	corr_terrestrial	0.0	100.0	1.0	61.0	10.0	10.0	Fredskild1983
+	radiocarbon	K-2293	64.45833333333333	-51.583333333333336	8788.0	145.0	gyttja	corr_terrestrial	0.0	100.0	1.0	51.0	10.0	10.0	Fredskild1983
+	radiocarbon	K-2750	64.4	-51.68333333333333	8640.0	190.0	Drepanocladus exannulatus	terrestrial	-	-	1.0	140.0	10.0	10.0	Fredskild1983
+	radiocarbon	K-3190	64.4	-51.68333333333333	8640.0	110.0	gyttja	corr_terrestrial	0.0	100.0	1.0	140.0	10.0	10.0	Fredskild1983
+	radiocarbon	K-2295	64.39166666666667	-50.358333333333334	7578.0	119.0	gyttja	corr_terrestrial	0.0	100.0	1.0	57.3	1.0	1.0	Fredskild1983,WeidickEtal2012
+	radiocarbon	K-4597	64.244	-50.19	900.0	65.0	cattle bone	terrestrial	-	-	1.0	1.0	1.0	1.0	McGovernEtal1996
+	radiocarbon	K-4598	64.244	-50.19	870.0	65.0	caribou bone	terrestrial	-	-	1.0	1.0	1.0	1.0	McGovernEtal1996
+	radiocarbon	K-4599	64.244	-50.19	910.0	65.0	sea bone	terrestrial	-	-	1.0	1.0	1.0	1.0	McGovernEtal1996
+	radiocarbon	K-4600	64.244	-50.19	930.0	65.0	cattle bone	terrestrial	-	-	1.0	1.0	1.0	1.0	McGovernEtal1996
+	radiocarbon	K-4601	64.244	-50.19	800.0	65.0	caribou bone	terrestrial	-	-	1.0	1.0	1.0	1.0	McGovernEtal1996
+	radiocarbon	K-4602	64.244	-50.19	770.0	65.0	walrus bone	terrestrial	-	-	1.0	1.0	1.0	1.0	McGovernEtal1996
+	radiocarbon	K-4603	64.244	-50.19	830.0	65.0	walrus bone	terrestrial	-	-	1.0	1.0	1.0	1.0	McGovernEtal1996
+	radiocarbon	K-4604	64.244	-50.19	820.0	50.0	walrus bone	terrestrial	-	-	1.0	1.0	1.0	1.0	McGovernEtal1996
+	radiocarbon	K-4605	64.244	-50.19	730.0	50.0	caribou bone	terrestrial	-	-	1.0	1.0	1.0	1.0	McGovernEtal1996
+	radiocarbon	K-4606	64.244	-50.19	760.0	50.0	cattle bone	terrestrial	-	-	1.0	1.0	1.0	1.0	McGovernEtal1996
+	radiocarbon	K-1036	64.43333333333334	-50.166666666666664	7965.0	154.0	Mya truncata	marine			0.0	37.25	5.0	5.0	WeidickEtal2012,Weidick1972,Weidick1968
+	radiocarbon	K-802	64.43333333333334	-50.2	4745.0	124.0	gyttja	corr_terrestrial	0.0	100.0	1.0	8.0	1.6	1.6	WeidickEtal2012,Fredskild1973
+	OSL	81202.0	74.237	-20.336	6600.0	150.0	Sand	-	-	-	0.0	5.56	0.22	0.22	PedersenEtal2011
+	OSL	81203.0	74.236	-20.336	7600.0	200.0	Sand	-	-	-	0.0	8.04	0.22	0.22	PedersenEtal2011
+	OSL	81204.0	74.236	-20.336	7500.0	300.0	Sand	-	-	-	0.0	10.17	0.22	0.22	PedersenEtal2011
+	OSL	81205.0	74.235	-20.336	3800.0	150.0	Gravel	-	-	-	0.0	14.8	0.22	0.22	PedersenEtal2011
+	OSL	81206.0	74.234	-20.337	1000.0	50.0	Gravel	-	-	-	0.0	21.24	0.22	0.22	PedersenEtal2011
+	OSL	21214.0	74.281	-20.137	4300.0	150.0	Sand	-	-	-	0.0	1.96	0.22	0.22	PedersenEtal2011
+	OSL	81216.0	74.281	-20.138	5500.0	200.0	Sand	-	-	-	0.0	2.82	0.22	0.22	PedersenEtal2011
+	OSL	51002.0	74.54	-18.835	4200.0	150.0	Sand	-	-	-	0.0	2.28	0.22	0.22	PedersenEtal2011
+	radiocarbon	KIA37739	74.097	-21.267	645.0	25.0	Small twig	terrestrial	-	-	0.0	-0.28	0.22	0.22	PedersenEtal2011
+	radiocarbon	KIA37740	74.097	-21.267	285.0	25.0	Small twig	terrestrial	-	-	0.0	-0.08	0.22	0.22	PedersenEtal2011
+	radiocarbon	KIA36014	74.151	-20.425	205.0	25.0	Straw	terrestrial	-	-	0.0	-0.14	0.22	0.22	PedersenEtal2011
+	radiocarbon	KIA37967	74.151	-20.425	290.0	25.0	Straw	terrestrial	-	-	0.0	-0.21	0.22	0.22	PedersenEtal2011
+	radiocarbon	KIA36016	74.151	-20.425	2260.0	30.0	Straw	terrestrial	-	-	0.0	-0.53	0.22	0.22	PedersenEtal2011
+	OSL	T106XR1	69.312	-53.874	4059.9999999999995	520.0	cobbles	-	-	-	0.0	11.3	1.0	2.0	SouzaEtal2021
+	OSL	T106XR2	69.312	-53.874	3450.0	400.0	cobbles	-	-	-	0.0	11.3	1.0	2.0	SouzaEtal2021
+	OSL	T107R1	69.312	-53.874	2009.9999999999998	200.0	cobbles	-	-	-	0.0	5.8	1.0	2.0	SouzaEtal2021
+	radiocarbon	Curl-10994	67.003	-50.766	6275.0	15.0	Shell	marine			-1.0	12.0	5.0	5.0	StormsEtal2012
+	radiocarbon	Curl-10990	67.004	-50.766	7725.0	20.0	Shell	marine			-1.0	12.0	5.0	5.0	StormsEtal2012
+	radiocarbon	Curl-10995	67.008	-50.763	6430.0	20.0	Shell	marine			-1.0	25.0	5.0	5.0	StormsEtal2012
+	radiocarbon	Curl-10988	66.999	-50.681	6245.0	15.0	Shell	marine			-1.0	26.0	5.0	5.0	StormsEtal2012
+	radiocarbon	Curl-10986	66.999	-50.681	6460.0	15.0	Shell	marine			-1.0	13.0	5.0	5.0	StormsEtal2012
+	radiocarbon	Curl-11000	66.978	-50.919	7625.0	15.0	Shell	marine			-1.0	46.0	5.0	5.0	StormsEtal2012
+	radiocarbon	Ua-57570	81.42059	-18.25471	8976.0	80.0	Mixed benthic foraminifera	marine			0.0	59.2	1.0	1.0	StrunkEtal2018
+	radiocarbon	Ua-56351	81.42059	-18.25471	9349.0	49.0	Mixed benthic foraminifera	marine			-1.0	59.2	1.0	1.0	StrunkEtal2018
+	radiocarbon	Ua-57571	81.42059	-18.25471	10009.0	48.0	Mixed benthic foraminifera	marine			-1.0	59.2	1.0	1.0	StrunkEtal2018
+	radiocarbon	Ua-57572	81.41301	-18.89223	8987.0	45.0	Mixed benthic foraminifera	marine			-1.0	42.2	1.0	1.0	StrunkEtal2018
+	radiocarbon	Ua-56353	81.41301	-18.89223	9016.0	40.0	Mixed benthic foraminifera	marine			-1.0	42.2	1.0	1.0	StrunkEtal2018
+	radiocarbon	Ua-57573	81.41301	-18.89223	8970.0	40.0	Mixed benthic foraminifera	marine			-1.0	42.2	1.0	1.0	StrunkEtal2018
+	radiocarbon	Ua-57574	81.41301	-18.89223	9748.0	52.0	Mixed benthic foraminifera	marine			-1.0	42.2	1.0	1.0	StrunkEtal2018
+	radiocarbon	Ua-56352	81.41301	-18.89223	9627.0	40.0	Mixed benthic foraminifera	marine			-1.0	42.2	1.0	1.0	StrunkEtal2018
+	radiocarbon	Ua-56349	81.45019	-18.30312	9302.0	59.0	Mixed benthic foraminifera	marine			-1.0	19.6	1.0	1.0	StrunkEtal2018
+	radiocarbon	Ua-57568	81.45019	-18.30312	9439.0	80.0	Mixed benthic foraminifera	marine			-1.0	19.6	1.0	1.0	StrunkEtal2018
+	radiocarbon	Ua-56350	81.40395	-18.03681	9522.0	80.0	Mixed benthic Foraminifera and ostracods	marine			-1.0	34.6	1.0	1.0	StrunkEtal2018
+	radiocarbon	Ua-57569	81.40395	-18.03681	11587.0	146.0	Mixed benthic Foraminifera and ostracods	marine			-1.0	34.6	1.0	1.0	StrunkEtal2018
+	age_model	T2_isolation	81.41301	-18.89223	9100.0	100.0	-	-	-	-	0.0	42.2	1.0	1.0	StrunkEtal2018
+	age_model	I2_isolation	81.45019	-18.30312	8000.0	100.0					0.0	19.6	1.0	1.0	StrunkEtal2018
+Sondre	radiocarbon	UW-172	66.637	-52.427	9075.0	105.0	marine shells	marine	0.0	50.0	0.0	115.0	5.0	5.0	TenBrinkWeidick1974,TenBrink1975,vanTatenhoveEtal1996,Weidick1972a
+Sondre	radiocarbon	K-1663	67.027	-51.407	8635.0	144.0	marine shells	marine	0.0	50.0	0.0	100.0	10.0	10.0	Weidick1972,TenBrinkWeidick1974,vanTatenhoveEtal1996
+Sondre	radiocarbon	UtC-3522	67.007	-50.687	7500.0	70.0	marine shells	marine	0.0	50.0	-1.0	21.0	2.0	2.0	vanTatenhoveEtal1996
+Sondre	radiocarbon	K-1664	67.027	-50.727	7545.0	134.0	marine shells	marine	0.0	50.0	0.0	47.5	2.5	2.5	Weidick1972,TenBrinkWeidick1974,vanTatenhoveEtal1996
+Sondre	radiocarbon	I-5512	67.007	-50.697	7430.0	124.0	marine shells	marine	0.0	50.0	0.0	47.0	7.0	7.0	TenBrinkWeidick1974,TenBrink1975,vanTatenhoveEtal1996,Weidick1972a
+Sondre	radiocarbon	I-5589	67.037	-50.627	6910.0	124.0	marine shells	marine	0.0	50.0	0.0	40.0	5.0	5.0	TenBrinkWeidick1974,TenBrink1975,vanTatenhoveEtal1996,Weidick1972a
+Sondre	radiocarbon	I-5506	66.737	-51.477	6250.0	120.0	marine shells	marine	0.0	50.0	0.0	11.0	1.0	1.0	TenBrinkWeidick1974,TenBrink1975,vanTatenhoveEtal1996,,Weidick1972a
+Sondre	radiocarbon	K-1715	67.057	-50.567	6035.0	115.0	marine shells	marine	0.0	50.0	0.0	12.5	2.5	2.5	Weidick1972,TenBrinkWeidick1974,vanTatenhoveEtal1996
+Sondre	radiocarbon	I-5510	66.717	-51.437	6020.0	120.0	marine shells	marine	0.0	50.0	0.0	5.0	1.0	1.0	TenBrinkWeidick1974,TenBrink1975,vanTatenhoveEtal1996,Weidick1972a
+Sondre	radiocarbon	I-5587	66.837	-50.107	4740.0	115.0	marine shells	marine	0.0	50.0	0.0	4.0	1.0	1.0	TenBrinkWeidick1974,TenBrink1975,vanTatenhoveEtal1996,Weidick1972a
+	radiocarbon	K-1916	70.867	-22.45	9778.0	136.0	clay gyttja	terrestrial	-	-	1.0	45.0	9.0	9.0	Weidick1972a
+	radiocarbon	K-1915	71.35	-24.833	10305.0	124.0	Hiatella arctica, Mya truncata	marine			-1.0	97.0	10.0	10.0	Weidick1972a
+	radiocarbon	I-5591	83.083	-32.25	1952.0	95.0	driftwood (Picea sp.)	terrestrial	-	-	-1.0	2.2	1.0	1.0	Weidick1972a
+	radiocarbon	I-5592	83.083	-32.25	4662.0	119.0	driftwood (Picea sp.)	terrestrial	-	-	-1.0	13.1	3.02	3.02	Weidick1972a
+	radiocarbon	I-5593	83.083	-32.25	4832.0	119.0	driftwood (Larix sp.)	terrestrial	-	-	-1.0	16.5	3.7	3.7	Weidick1972a
+	radiocarbon	I-5415	66.417	-53.617	7415.0	129.0	Mya truncata	marine			-1.0	4.0	1.0	1.0	Weidick1972a
+	radiocarbon	I-5416	66.417	-53.617	8885.0	134.0	Mya truncata	marine			-1.0	8.0	1.6	1.6	Weidick1972a
+	radiocarbon	I-5417	67.033	-53.8	8075.0	129.0	Mya truncata, Hiatella arctica	marine			0.0	9.7	3.0	3.0	Weidick1972a
+	radiocarbon	UW-171	66.583	-52.367	9015.0	77.0	Mya truncata, Hiatella arctica, Pecten islandicus	marine			-1.0	105.0	5.0	5.0	Weidick1972a
+	radiocarbon	UW-173	66.867	-50.633	2716.0	102.0	basal peat	corr_terrestrial	0.0	100.0	1.0	35.0	3.0	3.0	Weidick1972a
+	radiocarbon	I-5424	66.833	-50.933	3976.0	111.0	lacustrine peat	corr_terrestrial	0.0	100.0	1.0	57.0	2.0	2.0	Weidick1972a
+	radiocarbon	I-5504	66.833	-50.717	6555.0	120.0	Mya truncata, Hiatella arctica, Balanus balanus, Macoma calcarea, Cardium ciliatum, Serripes groenlandicum	marine			-1.0	34.0	4.0	4.0	Weidick1972a
+	radiocarbon	I-5505	66.733	-51.467	6250.0	120.0	Mytilus edulis, Balanus sp., Hiatella arctica, Macoma torelli, Mya truncata, Macoma calcarea and Serripes groenlandicum	marine			-1.0	9.0	1.8	1.8	Weidick1972a
+	radiocarbon	I-5507	66.717	-51.433	2696.0	102.0	lacustine peat	corr_terrestrial	0.0	100.0	1.0	12.0	1.0	1.0	Weidick1972a
+	radiocarbon	I-5508	66.717	-51.4	7665.0	124.0	Balanus balanus, Mya truncata, Hiatella arctica, Cardium ciliatum, Astarte montagui	marine			-1.0	14.0	1.0	1.0	Weidick1972a
+	radiocarbon	I-5509	66.7	-51.4	3566.0	106.0	lacustrine peat	terrestrial			1.0	25.0	2.0	2.0	Weidick1972a
+	radiocarbon	I-5511	66.983	-50.7	6450.0	120.0	Mytilus edulis, Balanus balanus, Hiatella arcttca, Mya truncata, Macoma calcarea, Serripes sp., Cardium ciliatum	marine			-1.0	24.0	2.0	2.0	Weidick1972a
+	radiocarbon	I-5588	66.833	-51.083	6435.0	120.0	Mya truncata, Mya truncata forma ovata, Hiatella arctica, Macoma calcarea, Astarte borealis, Astarte cf. Montagui, Cardium ciliatum, Serripes groenlandicum	marine			-1.0	0.0	1.0	1.0	Weidick1972a
+	radiocarbon	K-1814	68.617	-50.85	6765.0	124.0	Mya truncata, Pecten islandicus, Macoma calcarea	marine			-1.0	3.0	1.0	1.0	Weidick1972a
+	radiocarbon	K-1815	68.617	-50.85	6225.0	115.0	Pecten islandicus	marine			-1.0	3.6	1.0	1.0	Weidick1972a
+	radiocarbon	K-1816	68.617	-50.85	5275.0	115.0	Zirphaea crispata, Mya truncata, Hiatella arctica	marine			-1.0	6.8	1.36	1.36	Weidick1972a
+	radiocarbon	K-1817	68.617	-50.85	7435.0	134.0	Balanus hammeri	marine			-1.0	2.0	1.0	1.0	Weidick1972a
+	radiocarbon	K-1818	69.1	-51.067	9035.0	144.0	Macoma calcarea	marine			-1.0	7.5	2.5	2.5	Weidick1972a
+	radiocarbon	K-1819	67.683	-53.517	8935.0	144.0	Mya truncata	marine			-1.0	12.0	2.4000000000000004	2.4000000000000004	Weidick1972a
+	radiocarbon	K-1820	67.683	-53.517	8345.0	134.0	Mya truncata	marine			-1.0	17.0	3.4000000000000004	3.4000000000000004	Weidick1972a
+	radiocarbon	K-1821	67.683	-53.517	8945.0	144.0	Pecten islandicus, Hiatella arctica, Balanus hammeri	marine			-1.0	25.0	5.0	5.0	Weidick1972a
+	radiocarbon	K-1822	67.683	-53.517	9045.0	144.0	Pecten islandicus	marine			-1.0	25.0	5.0	5.0	Weidick1972a
+	radiocarbon	K-1919	70.867	-22.483	9415.0	144.0	Mya truncata	marine			-1.0	33.0	6.6000000000000005	6.6000000000000005	Weidick1973
+	radiocarbon	UW-229	83.0	-38.333	4825.0	86.0	Astarte borealis	marine			-1.0	4.0	1.0	1.0	Weidick1973
+	radiocarbon	UW-230	82.917	-37.333	7645.0	77.0	Mya truncata	marine			-1.0	60.0	10.0	10.0	Weidick1973
+	radiocarbon	UW-235	83.15	-35.25	6455.0	68.0	Hiatella arctica, Mya truncata	marine			-1.0	30.0	6.0	6.0	Weidick1973
+	radiocarbon	UW-236	83.05	-29.583	8605.0	124.0	Hiatella arctica	marine			-1.0	35.0	7.0	7.0	Weidick1973
+	radiocarbon	UW-240	65.583	-52.8	8525.0	105.0	Mya truncata	marine			-1.0	5.0	1.0	1.0	Weidick1973
+	radiocarbon	UW-241	65.417	-52.933	8505.0	77.0	Balanus balanus	marine			-1.0	24.0	4.800000000000001	4.800000000000001	Weidick1973
+	radiocarbon	I-6236	65.433	-52.917	8975.0	129.0	Balanus balanus	marine			-1.0	25.0	5.0	5.0	Weidick1973
+	radiocarbon	I-6240	65.783	-52.683	8415.0	134.0	Chlamys islandica, Mya truncata	marine			-1.0	10.0	2.0	2.0	Weidick1973
+	radiocarbon	I-6244	64.75	-51.05	8370.0	129.0	Chlamys islandica	marine			-1.0	5.0	5.0	5.0	Weidick1973
+	radiocarbon	I-6374	66.817	-52.367	7805.0	124.0	Mya truncata	marine			-1.0	17.0	3.4000000000000004	3.4000000000000004	Weidick1973
+	radiocarbon	I-6434	66.983	-51.167	7295.0	124.0	Mya truncata, Hiatella arctica, Mytilus edulis, Balanus balanus	marine			0.0	47.7	10.0	10.0	Weidick1973
+	radiocarbon	I-6433	66.983	-51.167	6315.0	120.0	Mya truncata, Macoma calcarea	marine			0.0	22.8	5.0	5.0	Weidick1973
+	radiocarbon	I-6483	66.95	-51.983	7260.0	124.0	Balanus balanus, Mya truncata, Hiatella arctica	marine			0.0	52.8	10.0	10.0	Weidick1973
+	radiocarbon	I-6241	65.783	-52.683	6315.0	120.0	Balanus balanus	marine			-1.0	19.0	3.8000000000000003	3.8000000000000003	Weidick1973
+	radiocarbon	I-6242	68.933	-51.0	5800.0	115.0	Mya truncata	marine			-1.0	2.0	1.0	1.0	Weidick1973
+	radiocarbon	I-6243	69.083	-51.133	7240.0	129.0	Mya truncata	marine			0.0	28.7	6.0	6.0	Weidick1973
+	radiocarbon	I-6245	66.933	-52.567	7950.0	129.0	Balanus balanus	marine			-1.0	10.0	2.0	2.0	Weidick1973
+	radiocarbon	I-6375	66.917	-52.267	7240.0	120.0	Chlamys islandica	marine			-1.0	3.0	1.0	1.0	Weidick1973
+	radiocarbon	UW-242	66.983	-53.2	6565.0	96.0	Mya truncata	marine			-1.0	8.0	1.6	1.6	Weidick1973
+	radiocarbon	I-6428	67.1	-53.35	5020.0	105.0	Mya truncata	marine			-1.0	7.0	1.4000000000000001	1.4000000000000001	Weidick1973
+	radiocarbon	I-6429	66.95	-52.567	6250.0	120.0	Mytilus edulis, Hiatella arctica	marine			-1.0	18.0	3.6	3.6	Weidick1973
+	radiocarbon	I-6430	67.017	-51.233	8175.0	129.0	Balanus balanus, Tellina calcarea, Cardium echinatum	marine			-1.0	43.0	8.6	8.6	Weidick1973
+	radiocarbon	K-2019	68.617	-50.667	6785.0	115.0	Mya truncata	marine			-1.0	37.0	7.4	7.4	Weidick1974
+	radiocarbon	K-2025	67.7	-53.5	8625.0	134.0	Claymys islandicus, Hiatella arctica	marine			-1.0	64.0	10.0	10.0	Weidick1974
+	radiocarbon	K-2026	68.617	-52.333	5865.0	105.0	shells	marine			-1.0	3.0	1.0	1.0	Weidick1974
+	radiocarbon	K-2096	70.65	-23.933	9415.0	134.0	Mya truncata, Hiatella arctica, Tridonta (Astarte) elliptica	marine			-1.0	25.0	5.0	5.0	Weidick1974,Funder1973
+	radiocarbon	I-7616	63.428333333333335	-51.20166666666667	9435.0	129.0	Mya truncata	marine			-1.0	5.0	1.0	1.0	Weidick1975
+	radiocarbon	I-7617	63.43	-51.12833333333333	9215.0	124.0	Balanus balanus	marine			-1.0	60.0	10.0	10.0	Weidick1975
+	radiocarbon	I-7618	63.42666666666667	-51.141666666666666	8930.0	120.0	Balanus balanus, Mya truncata and Chlamys islandica	marine			-1.0	10.0	2.0	2.0	Weidick1975
+	radiocarbon	I-7619	63.43	-51.13333333333333	9310.0	124.0	Balanus balanus	marine			-1.0	55.0	10.0	10.0	Weidick1975
+	radiocarbon	I-7620	63.43	-51.13	8725.0	120.0	Mya truncata	marine			-1.0	70.0	10.0	10.0	Weidick1975
+	radiocarbon	I-7621	63.205	-50.333333333333336	8240.0	115.0	Mya truncata	marine			-1.0	3.5	1.0	1.0	Weidick1975
+	radiocarbon	I-7623	63.333333333333336	-51.108333333333334	9120.0	124.0	Mya truncata	marine			-1.0	4.0	1.0	1.0	Weidick1975
+	radiocarbon	I-7665	64.33333333333333	-50.4	9190.0	124.0	Mya truncata and Balanus balanus	marine			-1.0	5.0	1.0	1.0	Weidick1975
+	radiocarbon	I-7666	64.33333333333333	-50.4	9215.0	124.0	Chlamys islandica, Hiatella arctica and Balanus balanus	marine			-1.0	4.0	1.0	1.0	Weidick1975
+	radiocarbon	I-7667	61.15	-46.43333333333333	9165.0	124.0	Balanus balanus, Mya truncata, Hiatella arctica	marine			-1.0	15.0	5.0	5.0	Weidick1975
+	radiocarbon	I-7664	60.925	-46.05	9427.0	129.0	Larex sp	terrestrial	-	-	-1.0	15.0	3.4000000000000004	3.4000000000000004	Weidick1975
+	radiocarbon	I-8895	77.15	-66.883	5645.0	105.0	Mya truncata, Hiatella arctica	marine			-1.0	5.6	1.1199999999999999	1.1199999999999999	Weidick1976
+	radiocarbon	I-8896	77.15	-66.883	5955.0	105.0	Mya truncata, Hiatella arctica	marine			-1.0	9.3	1.8600000000000003	1.8600000000000003	Weidick1976
+	radiocarbon	I-8897	77.15	-66.883	6170.0	105.0	Mya truncata, Hiatella arctica	marine			-1.0	14.8	2.9600000000000004	2.9600000000000004	Weidick1976
+	radiocarbon	I-8898	77.15	-66.883	7470.0	115.0	Mya truncata, Hiatella arctica	marine			-1.0	20.5	4.1000000000000005	4.1000000000000005	Weidick1976
+	radiocarbon	I-8489	64.173	-52.067	8500.0	134.0	Astarte borealis	marine			-1.0	0.0	1.0	1.0	Weidick1976
+	radiocarbon	I-8490	64.123	-51.7	9760.0	144.0	Hiatella arctica and Mya truncata	marine			-1.0	3.4	1.0	1.0	Weidick1976
+	radiocarbon	I-8491	64.183	-51.95	9190.0	134.0	Hiatella arctica, Astarte borealis and Mya truncata	marine			-1.0	1.0	1.0	1.0	Weidick1976
+	radiocarbon	I-8492	64.2	-51.967	9045.0	134.0	Mya truncata	marine			-1.0	4.5	1.0	1.0	Weidick1976
+	radiocarbon	I-8493	64.2	-51.967	9865.0	144.0	Hiatella arctica, Mya truncata and Macoma calcarea	marine			-1.0	8.0	1.6	1.6	Weidick1976
+	radiocarbon	I-8494	64.267	-51.933	9045.0	134.0	Mya truncata	marine			-1.0	0.0	1.0	1.0	Weidick1976
+	radiocarbon	I-8506	64.267	-51.933	9120.0	134.0	Mya truncata, Chlamys islandica and Mytilus edulus	marine			-1.0	2.5	1.0	1.0	Weidick1976
+	radiocarbon	I-8507	64.263	-51.95	6625.0	115.0	Mya truncata	marine			-1.0	0.0	1.0	1.0	Weidick1976
+	radiocarbon	I-8508	64.293	-51.742	9120.0	134.0	Chlamys islandica	marine			-1.0	15.0	3.0	3.0	Weidick1976
+	radiocarbon	I-8509	64.272	-51.667	9260.0	134.0	Hiatella arctica and Mya truncata	marine			-1.0	27.0	5.4	5.4	Weidick1976
+	radiocarbon	I-8510	64.3	-52.05	8725.0	134.0	Mya truncata	marine			-1.0	2.5	1.0	1.0	Weidick1976
+	radiocarbon	I-8565	64.3	-52.067	10265.0	144.0	Hiatella arctica	marine			-1.0	1.0	1.0	1.0	Weidick1976
+	radiocarbon	I-8566	64.325	-51.883	9635.0	139.0	Mya truncata	marine			-1.0	20.0	4.0	4.0	Weidick1976
+	radiocarbon	I-8567	64.34	-51.883	9805.0	144.0	Mya truncata, Chlamys islandica and Balanus sp.	marine			-1.0	28.0	5.6000000000000005	5.6000000000000005	Weidick1976
+	radiocarbon	I-8568	64.367	-51.733	8930.0	134.0	Mya truncata, Chlamys islandica and Balanus sp.	marine			-1.0	30.0	6.0	6.0	Weidick1976
+	radiocarbon	I-8595	64.367	-52.007	8725.0	134.0	Mya truncata	marine			-1.0	1.5	1.0	1.0	Weidick1976
+	radiocarbon	I-8596	64.537	-50.467	7075.0	115.0	Mya truncata and Chlamys islandica	marine			-1.0	1.0	1.0	1.0	Weidick1976,WeidickEtal2012
+	radiocarbon	I-8597	64.567	-50.667	7825.0	115.0	Chlamys islandica	marine			-1.0	7.5	1.5	1.5	Weidick1976
+	radiocarbon	I-8598	64.583	-50.8	8610.0	134.0	Chlamys islandica	marine			-1.0	6.0	1.2000000000000002	1.2000000000000002	Weidick1976
+	radiocarbon	I-8599	64.75	-50.15	7605.0	115.0	Hiatella arctica, Chlamys islandica and Mya truncata	marine			-1.0	2.0	1.0	1.0	Weidick1976
+	radiocarbon	Hel-359	68.65	-52.033	4486.0	134.0	Balanus sp.	marine			0.0	6.5	2.0	2.0	Weidick1976,Jungner1979
+	radiocarbon	Hel-360	68.567	-52.983	6571.0	144.0	Balanus sp.	marine			0.0	13.7	3.0	3.0	Weidick1976,Jungner1979
+	radiocarbon	Hel-361	68.567	-52.983	5887.0	134.0	Balanus sp.	marine			0.0	20.2	4.0	4.0	Weidick1976,Jungner1979
+	radiocarbon	Hel-341	68.567	-52.967	8735.0	203.0	Hiatella arctica	marine			0.0	41.8	9.0	9.0	Weidick1976,Jungner1979
+	radiocarbon	Hel-455	68.567	-52.967	8205.0	262.0	Mya truncata	marine			0.0	41.8	9.0	9.0	Weidick1976,Jungner1979
+	radiocarbon	Hel-362	68.6	-52.567	9425.0	173.0	Hiatella arctica	marine			0.0	17.1	4.0	4.0	Weidick1976,Jungner1979
+	radiocarbon	Hel-342	68.6	-52.533	7205.0	168.0	Mya truncata	marine			0.0	20.0	4.0	4.0	Weidick1976,Jungner1979
+	radiocarbon	Hel-363	68.617	-52.35	7555.0	213.0	Balanus sp.	marine			0.0	15.8	3.0	3.0	Weidick1976,Jungner1979
+	radiocarbon	Hel-343	68.633	-52.267	5745.0	149.0	Mya truncata	marine			-1.0	-0.2	1.0	1.0	Weidick1976,Jungner1979
+	radiocarbon	Hel-344	68.633	-52.267	6705.0	163.0	Chlamys islandica	marine			-1.0	0.8	1.0	1.0	Weidick1976,Jungner1979
+	radiocarbon	Hel-365	68.65	-52.25	5735.0	213.0	Balanus sp.	marine			0.0	7.4	2.0	2.0	Weidick1976,Jungner1979
+	radiocarbon	Hel-345	68.65	-52.25	8982.0	193.0	Hiatella arctica	marine			0.0	14.0	3.0	3.0	Weidick1976,Jungner1979
+	radiocarbon	Hel-436	68.65	-52.25	6505.0	163.0	Balanus sp.	marine			0.0	14.0	3.0	3.0	Weidick1976,Jungner1979
+	radiocarbon	Hel-364	68.65	-52.25	6625.0	163.0	Balanus sp.	marine			0.0	28.4	6.0	6.0	Weidick1976,Jungner1979
+	radiocarbon	Hel-437	68.65	-52.25	9035.0	203.0	Hiatella arctica	marine			0.0	28.4	6.0	6.0	Weidick1976,Jungner1979
+	radiocarbon	Hel-347	68.6	-51.883	7415.0	173.0	Mya truncata	marine			0.0	23.0	5.0	5.0	Weidick1976,Jungner1979
+	radiocarbon	Hel-346	68.6	-51.85	7624.0	173.0	Balanus sp.	marine			0.0	42.5	5.0	5.0	Weidick1976,Jungner1979
+	radiocarbon	Hel-329	68.517	-51.65	8245.0	154.0	Mya truncata and Macoma calcarea	marine			-1.0	50.0	10.0	10.0	Weidick1976,Jungner1979
+	radiocarbon	Hel-368	68.517	-51.633	8285.0	252.0	Mya truncata and Macoma calcarea	marine			-1.0	50.0	10.0	10.0	Weidick1976,Jungner1979
+	radiocarbon	Hel-366	68.55	-51.483	7186.0	163.0	Mytilus edulus	marine			0.0	39.0	8.0	8.0	Weidick1976,Jungner1979
+	radiocarbon	Hel-438	68.55	-51.483	6865.0	213.0	Hiatella arctica	marine			0.0	39.0	8.0	8.0	Weidick1976,Jungner1979
+	radiocarbon	Hel-367	68.55	-51.483	6445.0	154.0	Mytilus edulus	marine			0.0	28.5	6.0	6.0	Weidick1976,Jungner1979
+	radiocarbon	Hel-371	68.65	-51.25	7095.0	163.0	Balanus Sp.	marine			0.0	36.6	8.0	8.0	Weidick1976,Jungner1979
+	radiocarbon	Hel-454	68.65	-51.25	6965.0	213.0	Hiatella arctica	marine			0.0	36.6	8.0	8.0	Weidick1976,Jungner1979
+	radiocarbon	Hel-370	68.633	-51.167	7085.0	163.0	Mya truncata	marine			0.0	18.4	4.0	4.0	Weidick1976,Jungner1979
+	radiocarbon	Hel-369	68.617	-50.867	7615.0	173.0	Mya truncata	marine			-1.0	10.7	2.1	2.1	Weidick1976,Jungner1979
+	radiocarbon	Hel-328	68.617	-50.867	6380.0	134.0	Clamys islandica	marine			-1.0	14.1	2.8	2.8	Weidick1976,Jungner1979
+	radiocarbon	Hel-330	68.617	-50.867	5456.0	144.0	Zirphaea crispata	marine			-1.0	12.9	2.6	2.6	Weidick1976,Jungner1979
+	radiocarbon	K-2417	73.717	-23.417	8517.0	124.0	Mya truncata and Hiatella arctica	marine			-1.0	46.5	9.3	9.3	Weidick1976
+	radiocarbon	K-2376	73.1	-21.383	9767.0	115.0	Mya truncata and Hiatella arctica	marine			-1.0	31.0	6.2	6.2	Weidick1976
+	radiocarbon	K-2379	73.717	-24.617	8807.0	134.0	Mya truncata and Hiatella arctica	marine			-1.0	48.0	9.6	9.6	Weidick1976
+	radiocarbon	K-2418	73.717	-24.617	9097.0	134.0	Hiatella arctica	marine			-1.0	26.0	5.2	5.2	Weidick1976
+	radiocarbon	K-2380	73.783	-24.383	8477.0	105.0	Mya truncata, Hiatella arctica, Macoma calcarea	marine			-1.0	39.0	7.8	7.8	Weidick1976
+	radiocarbon	K-2381	73.883	-24.417	8637.0	134.0	Mya truncata, Hiatella arctica	marine			-1.0	60.0	10.0	10.0	Weidick1976
+	radiocarbon	K-2419	73.917	-25.783	4647.0	105.0	Mya truncata, Hiatella arctica, Macoma calcarea	marine			-1.0	12.5	2.5	2.5	Weidick1976
+	radiocarbon	I-9119	82.133	-31.35	3467.0	95.0	driftwood	terrestrial	-	-	0.0	10.6	2.0	2.0	Weidick1977
+	radiocarbon	I-9129	82.133	-31.35	3602.0	105.0	driftwood	terrestrial	-	-	0.0	10.6	2.0	2.0	Weidick1977
+	radiocarbon	I-9116	82.133	-31.35	6085.0	115.0	Astarte borealis	marine			-1.0	17.0	3.4000000000000004	3.4000000000000004	Weidick1977
+	radiocarbon	I-9118	82.133	-31.35	6640.0	115.0	Mya truncata	marine			-1.0	12.0	2.4000000000000004	2.4000000000000004	Weidick1977
+	radiocarbon	I-9115	83.117	-31.3	7825.0	124.0	Hiatella arctica  and Mya truncata	marine			-1.0	45.0	9.0	9.0	Weidick1977
+	radiocarbon	GSC-2370	79.9	-63.967	6800.0	100.0	Mya truncata	marine			-1.0	55.0	10.0	10.0	Weidick1977,McNeelyBrennan2005,Blake1987
+	radiocarbon	GSC-2334	81.125	-63.583	6380.0	70.0	Hiatella arctica	marine			-1.0	46.0	9.200000000000001	9.200000000000001	Weidick1977,McNeelyBrennan2005,Blake1987
+	radiocarbon	K-2637	73.917	-21.967	6642.0	115.0	Mya truncata	marine			-1.0	11.5	2.3000000000000003	2.3000000000000003	Weidick1977
+	radiocarbon	K-2572	75.917	-21.967	8177.0	124.0	Mya truncata and Hiatella arctica	marine			-1.0	8.0	1.6	1.6	Weidick1977
+	radiocarbon	K-2573	75.883	-21.867	8477.0	124.0	Mya truncata	marine			-1.0	9.0	1.8	1.8	Weidick1977
+	radiocarbon	I-9102	73.45	-21.783	9612.0	252.0	Mya truncata and Hiatella arctica	marine			-1.0	35.0	7.0	7.0	Weidick1977,Hjort1979
+	radiocarbon	I-9131	74.083	-22.317	8482.0	134.0	Mya truncata	marine			-1.0	27.5	5.5	5.5	Weidick1977
+	radiocarbon	I-9132	74.317	-22.05	8527.0	134.0	Mya truncata	marine			-1.0	22.0	4.4	4.4	Weidick1977
+	radiocarbon	I-9133	74.4	-20.25	9242.0	134.0	Mya truncata	marine			-1.0	31.0	6.2	6.2	Weidick1977,Hjort1979,ChristiansenEtal2002
+	radiocarbon	I-9139	74.1	-21.267	9662.0	144.0	Mya truncata	marine			-1.0	38.5	7.7	7.7	Weidick1977,Hjort1979
+	radiocarbon	I-9104	73.35	-26.467	7767.0	120.0	Mya truncata and Hiatella arctica	marine			-1.0	16.5	3.3000000000000003	3.3000000000000003	Weidick1977
+	radiocarbon	SUERC-34122	61.915	-49.49	9154.0	41.0	Bulk gyttja	terrestrial	-	-	0.0	52.55	0.95	0.95	WoodroffeEtal2014
+	radiocarbon	SUERC-34121	61.912	-49.495	9673.0	40.0	Bulk gyttja	terrestrial	-	-	0.0	37.23	0.12	0.12	WoodroffeEtal2014
+	radiocarbon	SUERC-34126	61.922	-49.481	9027.0	43.0	Bulk gyttja	terrestrial	-	-	0.0	23.27	0.17	0.17	WoodroffeEtal2014
+	radiocarbon	SUERC-34123	61.909	-49.514	8630.0	38.0	Bulk gyttja	terrestrial	-	-	0.0	10.64	0.27	0.27	WoodroffeEtal2014
+	radiocarbon	SUERC-34115	61.915	-49.506	8451.0	40.0	Bulk gyttja	terrestrial	-	-	0.0	0.4	0.18	0.18	WoodroffeEtal2014
+	radiocarbon	SUERC-34116	61.911	-49.512	8339.0	40.0	Bulk gyttja	terrestrial	-	-	0.0	-0.95	0.15	0.15	WoodroffeEtal2014
+	radiocarbon	SUERC-34124	61.898	-49.518	8539.0	37.0	Bulk gyttja	terrestrial	-	-	0.0	-2.66	0.21	0.21	WoodroffeEtal2014
+	radiocarbon	SUERC-34125	61.898	-49.518	941.0	37.0	Bulk gyttja	terrestrial	-	-	0.0	-2.66	0.21	0.21	WoodroffeEtal2014
+	radiocarbon	SUERC-34118	61.911	-49.512	1439.0	37.0	Bulk gyttja	terrestrial	-	-	0.0	-1.14	0.15	0.15	WoodroffeEtal2014
+	radiocarbon	SUERC-34117	61.911	-49.512	2268.0	37.0	Bulk gyttja	terrestrial	-	-	1.0	-1.14	0.15	0.15	WoodroffeEtal2014

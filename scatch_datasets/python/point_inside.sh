@@ -8,4 +8,12 @@ qgis_process run native:joinattributesbylocation --distance_units=meters --area_
 
 ogr2ogr -f CSV joined.csv temp.shp -lco GEOMETRY=AS_XYZ
 
+
+
+qgis_process run native:joinattributesbylocation --distance_units=meters --area_units=m2 --ellipsoid=EPSG:7030 --INPUT=merge.shp --PREDICATE=5 --JOIN=../../GIS/delta_r.shp --METHOD=0 --DISCARD_NONMATCHING=false --PREFIX= --OUTPUT=temp2.shp
+
+
+ogr2ogr -f CSV joined2.csv temp2.shp -lco GEOMETRY=AS_XYZ
+
+
 python3 ../python/location_ods.py

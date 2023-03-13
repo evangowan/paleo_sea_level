@@ -78,6 +78,13 @@ An example of the workflow in the latex folder to create the report:
 - run create\_plots.sh
 - run create\_report.sh
 
+Scratch datasets
+------------------
+
+This folder contains the rough spreadsheets where I gather the information I need to add the sea level proxies to the main database. Because of major changes to the marine reservoir corrections with Marine20, it was necessary to change the reservoir correction for all of the datasets. I made scripts to do that, as well as to automatically assigning the region to all the datasets.
+
+In order to determine the region and reservoir correction, I make use of a QGIS tool *qgis\_process*. As such, you need to have QGIS installed to use this. However, for most end users this step is unnecessary since I include the final database to use with the latex scripts.
+
 
 Radiocarbon calibration
 ------------------

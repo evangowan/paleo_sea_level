@@ -1,0 +1,17 @@
+BedMachineGreenland-v5.nc
+floating_countours_C.gmt
+floating_countours_C_geo.gmt
+floating_countours_O.gmt
+floating_countours_O_geo.gmt
+floating_edge.nc
+floating_edge_filtered.nc
+floating_edge_sampled.nc
+gmt.history
+greenland_shore.sh
+grounded_countours_C.gmt
+grounded_countours_O.gmt
+grounded_edge.nc
+grounded_edge_sampled.nc
+test.nc
+test_floating.pdf
+test_grounded.pdf

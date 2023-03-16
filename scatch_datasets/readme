@@ -2,5 +2,12 @@ This folder contains spreadsheets and raw datasets that I use to sort things for
 into the "regions" datasets. I have set this up for my own purposes to keep things organized and 
 backed up, so most things here are likely not of use to anyone but me.
 
-- Baltic.ods: Contains information from the Rosentau Baltic database. 
-- Vink_North_Sea.ods: contains the compilation by Vink et al (2007), which was not appended to the online paper, for some reason.
+Inside of each folder contains a bunch of spreadsheets, which are merged using the scripts in the python folder and moved to the main "regions" database. In most cases, the files are organized into a single "file_list.txt", but if there are special cases or different interpretations, they can be included in the "file_list_extra.txt", which adds the extra information (for instance, if you want to compare data using different assumed uplift rates). In file_list_extra.txt, there is a tab separated list of files, in the format:
+
+file_name	appendage to the folder name	latex formatted appendage	gmt formatted appendage
+
+To merge the data in a folder and move it to the main database, you run from this folder:
+
+bash scripts/run_all_scripts.sh ${name of folder}
+
+Provided that the file lists are there, it will move everything, and include the regions and reservoir corrections from the GIS files.

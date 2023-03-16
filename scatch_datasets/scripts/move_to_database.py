@@ -20,9 +20,9 @@ filename = sl_sector + "/temp/merge2.ods"
 
 region_list= []
 
-# this will be changed after testing is over
+# this is where the files are stored in the database
 
-main_directory="temp_regions/" + sl_sector
+main_directory="../sea_level_data/" + sl_sector
 
 write_location = False
 

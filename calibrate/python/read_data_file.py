@@ -33,7 +33,7 @@ terrestrial_sh="shcal20.14c"
 curve_marine="Marine20"
 marine="marine20.14c"
 
-curve_types = ["marine", "terrestrial", "terrestrial_sh", "corr_terrestrial", "corr_terrestrial_sh", "mixed"]
+curve_types = ["marine", "marine_custom", "terrestrial", "terrestrial_sh", "corr_terrestrial", "corr_terrestrial_sh", "mixed"]
 # the data spreadsheet should have the following headers
 # Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
 
@@ -74,7 +74,7 @@ for row_number, row in sl_data.iterrows():
 				print("check input file and rerun")
 				valid = False
 			
-			if curve[0] == "marine":
+			if curve[0] == "marine" or curve[0] == "marine_custom":
 
 				cal_line="\tCurve(\"" + str(curve_marine) + "\",\"../bin/" + str(marine) + "\");\n"
 				delta_r="\tDelta_R(\"correction\"," +  str(row['Reservoir_age']) + "," + str(row['Reservoir_error'])  + ");\n"

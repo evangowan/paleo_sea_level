@@ -100,7 +100,7 @@ do
 				exit 0
 			fi
 
-			if  [  "${cal_curve}" = "marine" ] ||  [  "${cal_curve}" = "corr_terrestrial" ] ||  [  "${cal_curve}" = "corr_terrestrial_sh" ]
+			if  [  "${cal_curve}" = "marine" ] ||  [  "${cal_curve}" = "marine_custom" ] || [  "${cal_curve}" = "corr_terrestrial" ] ||  [  "${cal_curve}" = "corr_terrestrial_sh" ]
 			then
 #				age_output="$(./../Fortran/radiocarbon_statistics ${sample_code}.posterior.prior)"
 				age_output="$(python3 python/radiocarbon_statistics.py ${sample_code}.posterior.prior)"

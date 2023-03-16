@@ -14,3 +14,8 @@ test_region	radiocarbon	test_012	-40.5	-62.1	10000	100	southern hemisphere mixed
 test_region	radiocarbon	test_013	44.8	-62.5	10000	100	northern hemisphere marine	marine	0	0	0	0	1	1	GowanEtal2021b
 test_region	radiocarbon	test_014	44.8	-62.5	10000	100	northern hemisphere terrestrial with correction 	corr_terrestrial	250	50	0	0	1	1	GowanEtal2021b
 test_region	radiocarbon	test_015	-40.5	-62.1	10000	100	southern hemisphere terrestrial with correction 	corr_terrestrial_sh	250	50	0	0	1	1	GowanEtal2021b
+test_region	U/Th	test_016	-40.5	-62.1	10000	100	test without radiocarbon	-	-	-	0	0	1	1	GowanEtal2021b
+test_region	radiocarbon	test_017	-40.5	-62.1	10000	100	testing errors	invalid	250	50	0	0	1	1	GowanEtal2021b
+test_region	radiocarbon	test_018	-40.5	-62.1	a	b	testing bad age	corr_terrestrial	250	50	0	0	1	1	GowanEtal2021b
+test_region	U/Th	test_019	-40.5	-62.1	a	b	testing bad age 2	invalid	-	-	0	0	1	1	GowanEtal2021b
+test_region	radiocarbon	test_020	44.8	-62.5	10000	100	northern hemisphere marine	marine_custom	100	30	0	0	1	1	GowanEtal2021b

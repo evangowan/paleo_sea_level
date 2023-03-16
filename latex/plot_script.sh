@@ -18,14 +18,14 @@ small_index_colour=darkgreen@30
 echo ${location}
 # only do the plot if it is the data are available
 
-if [ -d "../regions/${region}/${location}/" ]
+if [ -d "../sea_level_data/${region}/${location}/" ]
 then
 	plot=plots/${region}_${location}.ps
 
 
 
 
-	sea_level_file="../regions/${region}/${location}/calibrated.txt"
+	sea_level_file="../sea_level_data/${region}/${location}/calibrated.txt"
 
 	statistics_file="statistics/${subregion}_${location}.txt"
 
@@ -39,7 +39,7 @@ then
 	width=9 # map width in cm
 	insert_width=$(echo $width | awk '{print $1/4}')
 
-	source ../regions/${region}/${location}/plot_parameters.sh 
+	source ../sea_level_data/${region}/${location}/plot_parameters.sh 
 
 	echo ${location} $(gmt mapproject -W ${R_main} ${J_main}) >> temp/map_plot_dimensions.txt # try to ensure the map is close to being square
 

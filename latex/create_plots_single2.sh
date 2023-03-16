@@ -41,7 +41,7 @@ END_CAT
 found_region=false
 found_location=false
 
-for region in $(cat ../regions/region_list.txt)
+for region in $(cat ../sea_level_data/region_list.txt)
 do
 
 	if [ "${region}" = "${region_input}" ]
@@ -49,18 +49,18 @@ do
 
 		found_region=true
 
-		number_locations=$(wc -l < ../regions/${region}/location_list.txt)
+		number_locations=$(wc -l < ../sea_level_data/${region}/location_list.txt)
 		
 
 		for counter in $(seq 1 ${number_locations} )
 		do
-			location_temp=$(awk -v line=${counter} --field-separator '\t' '{if (NR==line) {print $1}}' ../regions/${region}/location_list.txt)
+			location_temp=$(awk -v line=${counter} --field-separator '\t' '{if (NR==line) {print $1}}' ../sea_level_data/${region}/location_list.txt)
 
 			if [ "${location}" = "${location_temp}" ]
 			then
 
 				found_location=true
-				subregion=$(awk -v line=${counter} --field-separator '\t' '{if (NR==line) {print $2}}' ../regions/${region}/location_list.txt)
+				subregion=$(awk -v line=${counter} --field-separator '\t' '{if (NR==line) {print $2}}' ../sea_level_data/${region}/location_list.txt)
 				source plot_script.sh ${region} ${location} ${reference_ice_model} ${reference_earth_model} ${subregion}
 
 			fi

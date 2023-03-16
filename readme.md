@@ -83,17 +83,29 @@ Scratch datasets
 
 This folder contains the rough spreadsheets where I gather the information I need to add the sea level proxies to the main database. Because of major changes to the marine reservoir corrections with Marine20, it was necessary to change the reservoir correction for all of the datasets. I made scripts to do that, as well as to automatically assigning the region to all the datasets.
 
-In order to determine the region and reservoir correction, I make use of a QGIS tool *qgis\_process*. As such, you need to have QGIS installed to use this. However, for most end users this step is unnecessary since I include the final database to use with the latex scripts.
+In order to determine the region and reservoir correction, I make use of a QGIS tool *qgis\_process*. As such, you need to have QGIS installed to use this. Extracting some of the information also requires the *geopandas* python package.
 
 
-Radiocarbon calibration
+However, for most end users this step is unnecessary since I include the final database to use with the latex scripts.
+
+Sea Level Data
+---------------
+
+The main database is located in the *sea\_level\_data* directory. All of the files are generated automatically using the scripts in the scratch datasets folder and the calibration folder, with the exception of *region_list.txt*, which gives the order which the the sea level sectors are ordered in the documents.
+
+GIS
+------------------
+
+This folder contains two shapefiles, one with the regions I use to group the paleo sea level proxies (*region\_bounds.shp*) and one with the reservoir corrections (*delta\_r.shp*). There are also scripts to gather the location of all the data points in the database. 
+
+Radiocarbon calibration (folder: calibrate)
 ------------------
 
 To do radiocarbon calibration, I use Oxcal. Put the unzip file of the Oxcal distribution in the "calibrate/" folder (it should create an Oxcal directory). The scripts will know to look there. Although I have included the files with calibrated data, new versions of the calibration curves, and possibly new reservoir ages will require that the radiocarbon dates need to be re-calibrated.
 
 [Oxcal website](https://c14.arch.ox.ac.uk/oxcal.html "Oxcal")
 
-If you want to recalibrate everything, it should be as simple as running the "run\_all.sh" script. It will go through all the locations in the "regions" directory. If you want to calibrate a single location, you can use the "run\_one.sh" script. You can also just use the "calibrate.sh" script with the region and location as command line options.
+If you want to recalibrate everything, it should be as simple as running the "run\_all.sh" script. It will go through all the locations in the *sea\_level\_data* directory. If you want to calibrate a single location, you can use the "run\_one.sh" script. You can also just use the "calibrate.sh" script with the region and location as command line options.
 
 The calibrated radiocarbon dates are recorded with 2-sigma uncertainties. In order to make the comparisons the same, the calibration script also takes other dates (which are recorded with 1-sigma uncertainties in the database) and converts them to use 2-sigma limits. All of the "calibrated.txt" dates have 2-sigma uncertainty ranges.
 

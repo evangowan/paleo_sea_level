@@ -62,18 +62,18 @@ cat << END_CAT >> statistics_tex/summary.tex
 
 END_CAT
 
-for region in $(cat ../regions/region_list.txt)
+for region in $(cat ../sea_level_data/region_list.txt)
 do
 
 	region_space=$(echo ${region} | sed 's/_/ /g')
 
-	number_locations=$(wc -l < ../regions/${region}/location_list.txt)
+	number_locations=$(wc -l < ../sea_level_data/${region}/location_list.txt)
 	
 
 	for counter in $(seq 1 ${number_locations} )
 	do
-		location=$(awk -v line=${counter} --field-separator '\t' '{if (NR==line) {print $1}}' ../regions/${region}/location_list.txt)
-		subregion=$(awk -v line=${counter} --field-separator '\t' '{if (NR==line) {print $2}}' ../regions/${region}/location_list.txt)
+		location=$(awk -v line=${counter} --field-separator '\t' '{if (NR==line) {print $1}}' ../sea_level_data/${region}/location_list.txt)
+		subregion=$(awk -v line=${counter} --field-separator '\t' '{if (NR==line) {print $2}}' ../sea_level_data/${region}/location_list.txt)
 
 		plot=plots/${region}_${location}_${MIS}.pdf
 

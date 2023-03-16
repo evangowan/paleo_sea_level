@@ -40,8 +40,8 @@ sub_map_distance=1000
 
 # sometimes it is required to substitute the more general location
 
-#awk -v location=${location} '{if($1 == location && $3 != "") {print $3} else {print location}}' ../regions/${region}/location_list.txt
-map_location=$(python3 python/check_region.py ${location} ../regions/${region}/location_list.txt)
+#awk -v location=${location} '{if($1 == location && $3 != "") {print $3} else {print location}}' ../sea_level_data/${region}/location_list.txt
+map_location=$(python3 python/check_region.py ${location} ../sea_level_data/${region}/location_list.txt)
 
 
 
@@ -104,7 +104,7 @@ text_options="-F+f${size},${fontname},${color}${text_angle}${justification} "
 # create the indicator point files, and the parameters for the plots
 
 
-sea_level_file="../regions/${region}/${location}/calibrated.txt"
+sea_level_file="../sea_level_data/${region}/${location}/calibrated.txt"
 
 
 

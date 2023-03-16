@@ -20,8 +20,8 @@ else
 region=$1
 location=$2
 
-input_file="../regions/${region}/${location}/data.ods"
-output_file="../regions/${region}/${location}/calibrated.txt"
+input_file="../sea_level_data/${region}/${location}/data.ods"
+output_file="../sea_level_data/${region}/${location}/calibrated.txt"
 
 fi
 

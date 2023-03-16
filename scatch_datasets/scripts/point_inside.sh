@@ -15,7 +15,7 @@ qgis_process run native:joinattributesbylocation --distance_units=meters --area_
 
 ogr2ogr -f CSV joined2.csv temp2.shp -lco GEOMETRY=AS_XYZ
 
-python3 ../python/location_ods.py  merge.ods joined.csv joined2.csv merge2.ods
+python3 ../scripts/location_ods.py  merge.ods joined.csv joined2.csv merge2.ods
 
 if [ -f file_list_extra.txt ]
 then
@@ -44,7 +44,7 @@ do
 	ogr2ogr -f CSV ${file_reservoir_csv} temp2.shp -lco GEOMETRY=AS_XYZ
 
 	file_out_ods="${file_prefix}_2.ods"
-	python3 ../python/location_ods.py  ${file_in_ods} ${file_region_csv} ${file_reservoir_csv} ${file_out_ods}
+	python3 ../scripts/location_ods.py  ${file_in_ods} ${file_region_csv} ${file_reservoir_csv} ${file_out_ods}
 done
 fi
 

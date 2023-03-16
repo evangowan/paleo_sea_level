@@ -29,7 +29,7 @@ for file_line in files:
 output_dataframe = output_dataframe.fillna("")
 
 
-with pd.ExcelWriter('merged.ods', engine="odf") as doc:
+with pd.ExcelWriter('merge.ods', engine="odf") as doc:
     output_dataframe.to_excel(doc, sheet_name=sheet_name, index=False)
 
 output_dataframe.to_csv('merge.csv', index=False, sep = '\t')

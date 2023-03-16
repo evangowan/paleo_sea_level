@@ -1,12 +1,12 @@
-Langhovde	East_Antarctica
-Ongul_Islands	East_Antarctica
-Rauer_Group	East_Antarctica
-Larsemann_Hills	East_Antarctica
-Vestfold_Hills	East_Antarctica
-Windmill_Islands	East_Antarctica
-Terra_Nova_Bay	East_Antarctica
-Southern_Scott_Coast	East_Antarctica
-Marguerite_Bay	West_Antarctica
-King_George_Island	West_Antarctica
-Pine_Island_Bay	West_Antarctica
-James_Ross_Island	West_Antarctica
+Langhovde	East_Antarctica	Langhovde		
+Larsemann_Hills	East_Antarctica	Larsemann_Hills		
+Ongul_Islands	East_Antarctica	Ongul_Islands		
+Rauer_Group	East_Antarctica	Rauer_Group		
+Southern_Scott_Coast	East_Antarctica	Southern_Scott_Coast		
+Terra_Nova_Bay	East_Antarctica	Terra_Nova_Bay		
+Vestfold_Hills	East_Antarctica	Vestfold_Hills		
+Windmill_Islands	East_Antarctica	Windmill_Islands		
+James_Ross_Island	West_Antarctica	James_Ross_Island		
+King_George_Island	West_Antarctica	King_George_Island		
+Marguerite_Bay	West_Antarctica	Marguerite_Bay		
+Pine_Island_Bay	West_Antarctica	Pine_Island_Bay		

@@ -16,16 +16,16 @@ location_dict = {'region_folder': '', 'wider_region': '', 'region': '', 'latex':
 
 # first it checks to see if merge2.ods is there
 
-filename = sl_sector + "/merge2.ods"
+filename = sl_sector + "/temp/merge2.ods"
 
 region_list= []
 
 # this will be changed after testing is over
 
-main_directory="temp/" + sl_sector
+main_directory="temp_regions/" + sl_sector
 
-if not os.path.exists(main_directory):
-	os.makedirs(main_directory)
+write_location = False
+
 
 location_info_list = []
 
@@ -34,6 +34,9 @@ try:
 except KeyError:
     print("File merge2.ods is not found (you may need to run merge_ods.py first)")
 else:
+	write_location = True
+	if not os.path.exists(main_directory):
+		os.makedirs(main_directory)
 
 	region_list = sl_data.Region.unique()
 
@@ -66,11 +69,13 @@ try:
 except FileNotFoundError:
 	print("No extra files are detected")
 else:
-
+	write_location = True
+	if not os.path.exists(main_directory):
+		os.makedirs(main_directory)
 	counter = 1
 	for file_line in extra_list:
 		split_line = file_line.split('\t')
-		file_name = split_line[0]
+		file_name = "temp/" + split_line[0]
 		folder_extension = split_line[1]
 		latex_extension = split_line[2]
 		gmt_extension = split_line[3].strip()
@@ -78,7 +83,7 @@ else:
 
 		file_out_prefix = "merge_extra_" + str(counter)
 
-		filename = sl_sector + "/" + file_out_prefix + ".ods"
+		filename = sl_sector + "/temp/" + file_out_prefix + ".ods"
 
 
 		region_list= []
@@ -118,25 +123,27 @@ else:
 
 # finally, find the subregion
 
-region_bounds_file="../GIS/region_bounds.shp"
+if 	write_location:
 
-region_bounds= geopandas.read_file(region_bounds_file)
+	region_bounds_file="../GIS/region_bounds.shp"
 
-
-for line in location_info_list:
-	line['wider_region'] = region_bounds.loc[region_bounds['location'] == line['region'], 'subregion'].to_string(index=False)
+	region_bounds= geopandas.read_file(region_bounds_file)
 
 
+	for line in location_info_list:
+		line['wider_region'] = region_bounds.loc[region_bounds['location'] == line['region'], 'subregion'].to_string(index=False)
 
-location_info_list = sorted(location_info_list, key=lambda d: d['region_folder'])
-location_info_list = sorted(location_info_list, key=lambda d: d['wider_region']) 
 
-csv_file = main_directory  + "/location_list.txt"
 
-location_out = open(csv_file, 'w')
-csv_out = csv.writer(location_out, delimiter='\t')
-for dictionary in location_info_list:
-	csv_out.writerow(dictionary.values())
+	location_info_list = sorted(location_info_list, key=lambda d: d['region_folder'])
+	location_info_list = sorted(location_info_list, key=lambda d: d['wider_region']) 
 
-location_out.close()
+	csv_file = main_directory  + "/location_list.txt"
+
+	location_out = open(csv_file, 'w')
+	csv_out = csv.writer(location_out, delimiter='\t')
+	for dictionary in location_info_list:
+		csv_out.writerow(dictionary.values())
+
+	location_out.close()
 

@@ -6,13 +6,13 @@ import numpy as np
 import pandas as pd
 from pandas_ods_reader import read_ods
 import csv
-
 import geopandas
+
+sl_sector = sys.argv[1]
 
 # the specific region lets the scripts known what geographical region from the shapefile to use if the region is different
 location_dict = {'region_folder': '', 'wider_region': '', 'region': '', 'latex': '', 'gmt': ''}
 
-sl_sector = sys.argv[1]
 
 # first it checks to see if merge2.ods is there
 

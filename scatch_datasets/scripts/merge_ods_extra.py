@@ -5,11 +5,21 @@ import numpy as np
 import pandas as pd
 from pandas_ods_reader import read_ods
 
-# this program expects that there is a file called file_list.txt that contains all of the files that will be merged
 
-file_list = open("file_list_extra.txt", "r")
-files = file_list.readlines()
-file_list.close()
+sl_sector = sys.argv[1]
+
+# this program expects that there is a file called file_list_extra.txt that contains all of the files that will be merged
+
+file_list_filename = sl_sector + "/file_list_extra.txt"
+
+try:
+	file_list = open(file_list_filename, "r")
+	files = file_list.readlines()
+	file_list.close()
+except FileNotFoundError:
+	print("No extra files are detected")
+	sys.exit()
+
 
 
 
@@ -24,7 +34,7 @@ counter=1
 
 for file_line in files:
 	split_line = file_line.split('\t')
-	file_name = split_line[0]
+	file_name = sl_sector + "/" + split_line[0]
 	folder_extension = split_line[1]
 	latex_extension = split_line[2]
 	gmt_extension = split_line[3].strip()
@@ -37,16 +47,16 @@ for file_line in files:
 
 	file_out_prefix = "merge_extra_" + str(counter)
 
-	file_out_ods = file_out_prefix + ".ods"
+	file_out_ods = sl_sector + "/temp/" + file_out_prefix + ".ods"
 
 	with pd.ExcelWriter(file_out_ods, engine="odf") as doc:
 		output_dataframe.to_excel(doc, sheet_name=sheet_name, index=False)
 
-	file_out_csv = file_out_prefix + ".csv"
+	file_out_csv = sl_sector + "/temp/" + file_out_prefix + ".csv"
 
 	output_dataframe.to_csv(file_out_csv, index=False, sep = '\t')
 
-	file_out_csv = file_out_prefix + "_points.txt"
+	file_out_csv = sl_sector + "/temp/" + file_out_prefix + "_points.txt"
 
 	output_dataframe.to_csv(file_out_csv, index=False, sep=" ", columns=['Longitude','Latitude'], header=False)
 

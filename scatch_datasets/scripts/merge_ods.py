@@ -31,9 +31,13 @@ output_dataframe = pd.DataFrame(columns=['Region','Dating_Method','LAB_ID','Lati
 
 for file_line in files:
 	file_name = sl_sector + "/" + file_line.strip()
-	
-	sl_data = read_ods(file_name, sheet_name, headers=True)
-	output_dataframe= pd.DataFrame(pd.concat([output_dataframe,sl_data]), columns=output_dataframe.columns)
+	try:
+		sl_data = read_ods(file_name, sheet_name, headers=True)
+		output_dataframe= pd.DataFrame(pd.concat([output_dataframe,sl_data]), columns=output_dataframe.columns)
+	except KeyError:
+		print(f"There is no sheet called \"sea_level\" in the file: {file_name}")
+		print("skipping for now")
+
 
 output_dataframe = output_dataframe.fillna("")
 

@@ -38,26 +38,29 @@ for file_line in files:
 	folder_extension = split_line[1]
 	latex_extension = split_line[2]
 	gmt_extension = split_line[3].strip()
-	
-	sl_data = read_ods(file_name, sheet_name, headers=True)
-	output_dataframe = pd.DataFrame(columns=['Region','Dating_Method','LAB_ID','Latitude','Longitude','age','error','Material','Curve','Reservoir_age','Reservoir_error','type','RSL','RSL_2sigma_upper','RSL_2sigma_lower','Reference'])
-	output_dataframe= pd.DataFrame(pd.concat([output_dataframe,sl_data]), columns=output_dataframe.columns)
+	try:
+		sl_data = read_ods(file_name, sheet_name, headers=True)
+		output_dataframe = pd.DataFrame(columns=['Region','Dating_Method','LAB_ID','Latitude','Longitude','age','error','Material','Curve','Reservoir_age','Reservoir_error','type','RSL','RSL_2sigma_upper','RSL_2sigma_lower','Reference'])
+		output_dataframe= pd.DataFrame(pd.concat([output_dataframe,sl_data]), columns=output_dataframe.columns)
 
-	output_dataframe = output_dataframe.fillna("")
+		output_dataframe = output_dataframe.fillna("")
 
-	file_out_prefix = "merge_extra_" + str(counter)
+		file_out_prefix = "merge_extra_" + str(counter)
 
-	file_out_ods = sl_sector + "/temp/" + file_out_prefix + ".ods"
+		file_out_ods = sl_sector + "/temp/" + file_out_prefix + ".ods"
 
-	with pd.ExcelWriter(file_out_ods, engine="odf") as doc:
-		output_dataframe.to_excel(doc, sheet_name=sheet_name, index=False)
+		with pd.ExcelWriter(file_out_ods, engine="odf") as doc:
+			output_dataframe.to_excel(doc, sheet_name=sheet_name, index=False)
 
-	file_out_csv = sl_sector + "/temp/" + file_out_prefix + ".csv"
+		file_out_csv = sl_sector + "/temp/" + file_out_prefix + ".csv"
 
-	output_dataframe.to_csv(file_out_csv, index=False, sep = '\t')
+		output_dataframe.to_csv(file_out_csv, index=False, sep = '\t')
 
-	file_out_csv = sl_sector + "/temp/" + file_out_prefix + "_points.txt"
+		file_out_csv = sl_sector + "/temp/" + file_out_prefix + "_points.txt"
 
-	output_dataframe.to_csv(file_out_csv, index=False, sep=" ", columns=['Longitude','Latitude'], header=False)
+		output_dataframe.to_csv(file_out_csv, index=False, sep=" ", columns=['Longitude','Latitude'], header=False)
+	except KeyError:
+		print(f"There is no sheet called \"sea_level\" in the file: {file_name}")
+		print("skipping for now")
 
 	counter = counter + 1

@@ -14,7 +14,7 @@
 - A number of the dates from the Belperio 2002 dataset do not have any indication of the original references, and the locations can only be generally inferred from the name of the city
 - The Lewis paper did not have a dataset for Tasmania, but there is somewhat of a dataset in the PHD thesis by Morrison. There isn't a lot of data, and much of it only gives calibrated dates.
 - There are a bunch of dates in Murray-Wallace and Goede (1995) that are presented using a very early calibration. I have doubled the uncertainty to account for the likely difference with the modern calibration.
-- I used two reservoir corrections for Western Australia. For places south of -21 N, I used -83+/-27, based on five points. For places north of -21 N, I used -91+/-31, based on 14 points
+- I used two reservoir corrections for Western Australia. For places south of -22 N, I used -83+/-27, based on five points. For places north of -21 N, I used -35+/-106, based on 25 points
 - The reservoir correction for Northern Territory is -109+/-40, which is based on only one data point
 - I could not find the references to Bloom 1975 and 1980 in the Queensland dataset. I have referenced Hopley 1980, which gives a pers comms to Bloom
 - Many of the dates from Chappell et al 1983 do not have a lab code, so I do not know what lab they are from. However, in the paper they state all the dates are corrected for fractionation, so there should be no problems.
@@ -27,5 +27,5 @@
 - The reservoir correction for Queensland is based on 12 points from coastal Queensland, -156+/-15
 - For the Bonaparte Gulf samples from Nicholas et al 2014, I used the indicative meaning of +/-3 m for brackish samples, taken from Yokoyama et al 2000, and +15 m for the rest from Ishiwa et al 2019.
 - In the general spreadsheet with samples from New Zealand and southeastern Asia, I only took the remaining samples from Australia, as there are newer compilations for the other areas.
-- For Bonaparte Gulf, I took the Yokoyama 2000 definitions for data from that paper, and the Ishiwa et al 2019 definitions for values from that paper
+- For Bonaparte Gulf, I took the Yokoyama 2000 definitions for data from that paper, and the Ishiwa et al 2019 definitions for values from that paper. I also created extra files for the individual papers for clarity.
 - I once again went through the Yokoyama et al 2018 spreadsheet, which is included here. The results should plot identically to before, but I have changed the definitions of the upper and lower limits to match the depth range of the coral, rather than adjusting the elevation to be at the midpoint.

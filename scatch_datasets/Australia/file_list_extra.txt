@@ -1,0 +1,2 @@
+Bonaparte_Gulf_SLI_Ishiwa2019.ods	SLI_Ishiwa2019	(Ishiwa \emph{et al.} 2019 interpretation)	(Ishiwa et al. 2019)
+Bonaparte_Gulf_SLI_Yokoyama2000.ods	SLI_Yokoyama2000	(Yokoyama \emph{et al.} 2000 interpretation)	(Yokoyama et al. 2000)

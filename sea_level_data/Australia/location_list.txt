@@ -1,41 +1,42 @@
-Cairns	Queensland
-Hydrographers_Passage	Queensland
-Bonaparte_Gulf	Western_Australia
-Bonaparte_Gulf_SLI_Yokoyama2000	Western_Australia	Bonaparte_Gulf
-Bonaparte_Gulf_SLI_Ishiwa2019	Western_Australia	Bonaparte_Gulf
-Albany	Western_Australia
-Bowen	Queensland
-Brisbane	Queensland
-Broome	Western_Australia
-Bunbury	Western_Australia
-Cambridge_Gulf	Western_Australia
-Cape_Melville	Queensland
-Circular_Head	Tasmania
-Darwin	Northern_Territory
-Eastern_Timor_Sea	Western_Australia
-Esperance	Western_Australia
-Exmouth_Gulf	Western_Australia
-Flinders_Island	Tasmania
-Franklin_Harbour	South_Australia
-Geraldton	Western_Australia
-Gladstone	Queensland
-Glamorgan-Spring_Bay	Tasmania
-Gulf_St_Vincent	South_Australia
-Hobart	Tasmania
-King_Island	Tasmania
-Lord_Howe_Island	New_South_Wales
-Nambucca_Heads	New_South_Wales
-Newcastle	New_South_Wales
-Perth	Western_Australia
-Port_Lincoln	South_Australia
-Redcliff	South_Australia
-Rowley_Shoals	Western_Australia
-Sahul_Shelf	Western_Australia
-Shark_Bay	Western_Australia
-Smoky_Bay	South_Australia
-South_Alligator_River	Northern_Territory
-Sunshine_Coast	Queensland
-Sydney	New_South_Wales
-Townsville	Queensland
-Ulladulla	New_South_Wales
-Wollongong	New_South_Wales
+Lord_Howe_Island	New_South_Wales	Lord_Howe_Island		
+Nambucca_Heads	New_South_Wales	Nambucca_Heads		
+Newcastle	New_South_Wales	Newcastle		
+Sydney	New_South_Wales	Sydney		
+Ulladulla	New_South_Wales	Ulladulla		
+Wollongong	New_South_Wales	Wollongong		
+Bonaparte_Gulf	Northern_Austtralia	Bonaparte_Gulf		
+Bonaparte_Gulf_SLI_Ishiwa2019	Northern_Austtralia	Bonaparte_Gulf	Bonaparte_Gulf (Ishiwa \emph{et al.} 2019 interpretation)	Bonaparte_Gulf (Ishiwa et al. 2019)
+Bonaparte_Gulf_SLI_Yokoyama2000	Northern_Austtralia	Bonaparte_Gulf	Bonaparte_Gulf (Yokoyama \emph{et al.} 2000 interpretation)	Bonaparte_Gulf (Yokoyama et al. 2000)
+Cambridge_Gulf	Northern_Austtralia	Cambridge_Gulf		
+Darwin	Northern_Austtralia	Darwin		
+Eastern_Timor_Sea	Northern_Austtralia	Eastern_Timor_Sea		
+South_Alligator_River	Northern_Austtralia	South_Alligator_River		
+Bowen	Queensland	Bowen		
+Brisbane	Queensland	Brisbane		
+Cairns	Queensland	Cairns		
+Cape_Melville	Queensland	Cape_Melville		
+Gladstone	Queensland	Gladstone		
+Hydrographers_Passage	Queensland	Hydrographers_Passage		
+Sunshine_Coast	Queensland	Sunshine_Coast		
+Townsville	Queensland	Townsville		
+Franklin_Harbour	South_Australia	Franklin_Harbour		
+Gulf_St_Vincent	South_Australia	Gulf_St_Vincent		
+Port_Lincoln	South_Australia	Port_Lincoln		
+Redcliff	South_Australia	Redcliff		
+Smoky_Bay	South_Australia	Smoky_Bay		
+Circular_Head	Tasmania	Circular_Head		
+Flinders_Island	Tasmania	Flinders_Island		
+Glamorgan-Spring_Bay	Tasmania	Glamorgan-Spring_Bay		
+Hobart	Tasmania	Hobart		
+King_Island	Tasmania	King_Island		
+Albany	Western_Austtralia	Albany		
+Broome	Western_Austtralia	Broome		
+Bunbury	Western_Austtralia	Bunbury		
+Cape_Leeuwin	Western_Austtralia	Cape_Leeuwin		
+Esperance	Western_Austtralia	Esperance		
+Exmouth_Gulf	Western_Austtralia	Exmouth_Gulf		
+Geraldton	Western_Austtralia	Geraldton		
+King_Sound	Western_Austtralia	King_Sound		
+Perth	Western_Austtralia	Perth		
+Rowley_Shoals	Western_Austtralia	Rowley_Shoals		
+Shark_Bay	Western_Austtralia	Shark_Bay		

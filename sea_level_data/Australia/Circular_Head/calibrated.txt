@@ -1,1 +1,1 @@
-SUA-2928	-40.8	145.15	7120	0	1	1.0	1.0	1.0	MurrayWallaceGoede1995,Morrison2019
+SUA-2928	-40.8	145.15	7120	280	1.0	1.0	1.0	1.0	MurrayWallaceGoede1995,Morrison2019

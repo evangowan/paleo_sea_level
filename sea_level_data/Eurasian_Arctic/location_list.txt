@@ -1,35 +1,33 @@
-Rolfsoya	Southern_Barents_Sea
-Norkinn	Southern_Barents_Sea
-Pechengsky	Southern_Barents_Sea
-Murmansk	Southern_Barents_Sea
-Voronya_River	Southern_Barents_Sea
-Kandalaksha	White_Sea
-Lesozavodskiy	White_Sea
-Rugozerskiy_Peninsula	White_Sea
-Chupa_Bay	White_Sea
-Umba	White_Sea
-Engozero	White_Sea
-Belomorsk	White_Sea
-Eastern_Kola_Peninsula	White_Sea
-Onega_Peninsula	White_Sea
-Dvina_Gulf	White_Sea
-Kholmogorsky	White_Sea
-Pechora_Sea	Kara_Sea_-_Novaya_Zemlya
-Yuzhny_Island	Kara_Sea_-_Novaya_Zemlya
-Severny_Island_West	Kara_Sea_-_Novaya_Zemlya
-Severny_Island_North	Kara_Sea_-_Novaya_Zemlya
-Vaygach_Island	Kara_Sea_-_Novaya_Zemlya
-Baydaratskaya_Bay	Kara_Sea_-_Novaya_Zemlya
-Gulf_of_Ob	Kara_Sea_-_Novaya_Zemlya
-Khalmyer_Bay	Kara_Sea_-_Novaya_Zemlya
-Kara_Sea_shelf	Kara_Sea_-_Novaya_Zemlya
-Ostrov_Sibiryakova	Kara_Sea_-_Novaya_Zemlya
-Zemlya_Georga	Franz_Josef_Land
-Zemlya_Zichy	Franz_Josef_Land
-Proliv_Markama	Franz_Josef_Land
-Severnaya_Zemlya	Western_Siberia
-West_Laptev_Sea	Western_Siberia
-Olenyok_Gulf	Western_Siberia
-Lena_Delta	Western_Siberia
-New_Siberian_Islands	Western_Siberia
-Zhokhov_Island	Western_Siberia
+Proliv_Markama	Franz_Josef_Land	Proliv_Markama		
+Zemlya_Georga	Franz_Josef_Land	Zemlya_Georga		
+Zemlya_Zichy	Franz_Josef_Land	Zemlya_Zichy		
+Baydaratskaya_Bay	Kara_Sea_-_Novaya_Zemlya	Baydaratskaya_Bay		
+Gulf_of_Ob	Kara_Sea_-_Novaya_Zemlya	Gulf_of_Ob		
+Kara_Sea_shelf	Kara_Sea_-_Novaya_Zemlya	Kara_Sea_shelf		
+Khalmyer_Bay	Kara_Sea_-_Novaya_Zemlya	Khalmyer_Bay		
+Ostrov_Sibiryakova	Kara_Sea_-_Novaya_Zemlya	Ostrov_Sibiryakova		
+Pechora_Sea	Kara_Sea_-_Novaya_Zemlya	Pechora_Sea		
+Severny_Island_North	Kara_Sea_-_Novaya_Zemlya	Severny_Island_North		
+Severny_Island_West	Kara_Sea_-_Novaya_Zemlya	Severny_Island_West		
+Vaygach_Island	Kara_Sea_-_Novaya_Zemlya	Vaygach_Island		
+Yuzhny_Island	Kara_Sea_-_Novaya_Zemlya	Yuzhny_Island		
+Murmansk	Southern_Barents_Sea	Murmansk		
+Pechengsky	Southern_Barents_Sea	Pechengsky		
+Voronya_River	Southern_Barents_Sea	Voronya_River		
+Lena_Delta	Western_Siberia	Lena_Delta		
+New_Siberian_Islands	Western_Siberia	New_Siberian_Islands		
+Olenyok_Gulf	Western_Siberia	Olenyok_Gulf		
+Severnaya_Zemlya	Western_Siberia	Severnaya_Zemlya		
+West_Laptev_Sea	Western_Siberia	West_Laptev_Sea		
+Zhokhov_Island	Western_Siberia	Zhokhov_Island		
+Belomorsk	White_Sea	Belomorsk		
+Chupa_Bay	White_Sea	Chupa_Bay		
+Dvina_Gulf	White_Sea	Dvina_Gulf		
+Eastern_Kola_Peninsula	White_Sea	Eastern_Kola_Peninsula		
+Engozero	White_Sea	Engozero		
+Kandalaksha	White_Sea	Kandalaksha		
+Kholmogorsky	White_Sea	Kholmogorsky		
+Lesozavodskiy	White_Sea	Lesozavodskiy		
+Onega_Peninsula	White_Sea	Onega_Peninsula		
+Rugozerskiy_Peninsula	White_Sea	Rugozerskiy_Peninsula		
+Umba	White_Sea	Umba		

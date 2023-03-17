@@ -1,0 +1,1 @@
+Northern_Russia - From the Baranskaya et al (2018) Holsea formatted northern Russia dataset. I formatted this dataset in a pre-1.0 release, but hopefully there are no errors. I copied the original scratch datasets into this spreadsheet if I ever have the need to check again. I copied the formatted sheets from the current database.

@@ -1,70 +1,72 @@
-Rotterdam	North_Sea
-Achterwasser	Baltic_Sea
-Baltic_Southwest	Baltic_Sea
-Rugen	Baltic_Sea
-Salt_Meadows	Baltic_Sea
-Arkona_Basin_East	Baltic_Sea
-Arkona_Basin_West	Baltic_Sea
-Fakse_Bugt	Baltic_Sea
-Lubeck	Baltic_Sea
-Kieler_Bucht	Baltic_Sea
-Storebaelt	Baltic_Sea
-Lillebaelt	Baltic_Sea
-Samso_Belt	Baltic_Sea
-Kattegat	Baltic_Sea
-Treoa_Moellebugt	Baltic_Sea
-Vendsyssel_Thy	Baltic_Sea
-Laesoe	Baltic_Sea
-Bohuslan	Baltic_Sea
-Goteborg	Baltic_Sea
-Halmstad	Baltic_Sea
-Asa	Baltic_Sea
-Sund	Baltic_Sea
-Havang	Baltic_Sea
-Blekinge	Baltic_Sea
-Ustka	Baltic_Sea
-West_Gulf_Of_Gdansk	Baltic_Sea
-South_Vistula	Baltic_Sea
-Curonian_Spit	Baltic_Sea
-Lithuania	Baltic_Sea
-Ventspils	Baltic_Sea
-West_Gulf_Of_Riga	Baltic_Sea
-Riga	Baltic_Sea
-Parnu	Baltic_Sea
-South_Saaremaa	Baltic_Sea
-Hiiumaa	Baltic_Sea
-Ostergotland	Baltic_Sea
-Sodermanland	Baltic_Sea
-Paldiski	Baltic_Sea
-Tallinn	Baltic_Sea
-Lahemaa	Baltic_Sea
-Narva-Luga	Baltic_Sea
-St_Petersburg	Baltic_Sea
-Virolahti	Baltic_Sea
-Porvoo	Baltic_Sea
-Helsinki	Baltic_Sea
-Salo	Baltic_Sea
-Turku	Baltic_Sea
-Aland	Baltic_Sea
-Gastrikland	Baltic_Sea
-Angermanland	Baltic_Sea
-Alvsbyn	Baltic_Sea
-Gunnarsbyn	Baltic_Sea
-South_Lapland	Baltic_Sea
-Oulu	Baltic_Sea
-South_Ostrobothnia	Baltic_Sea
-Satakunta	Baltic_Sea
-Central_Finland	Baltic_Sea
-Langeoog	North_Sea
-Netherlands_Wadden_Sea	North_Sea
-Belgium	North_Sea
-Southern_Bight	North_Sea
-Central_Netherlands	North_Sea
-Oyster_Ground	North_Sea
-Dogger_Bank	North_Sea
-Norderney	North_Sea
-Bremerhaven	North_Sea
-Elbe	North_Sea
-German_Bight	North_Sea
-Ho_Bugt	North_Sea
-Limfjord	North_Sea
+Helsinki	Gulfs_Of_Riga_-_Finland	Helsinki		
+Hiiumaa	Gulfs_Of_Riga_-_Finland	Hiiumaa		
+Lahemaa	Gulfs_Of_Riga_-_Finland	Lahemaa		
+Narva-Luga	Gulfs_Of_Riga_-_Finland	Narva-Luga		
+Paldiski	Gulfs_Of_Riga_-_Finland	Paldiski		
+Parnu	Gulfs_Of_Riga_-_Finland	Parnu		
+Porvoo	Gulfs_Of_Riga_-_Finland	Porvoo		
+Riga	Gulfs_Of_Riga_-_Finland	Riga		
+Salo	Gulfs_Of_Riga_-_Finland	Salo		
+South_Saaremaa	Gulfs_Of_Riga_-_Finland	South_Saaremaa		
+St_Petersburg	Gulfs_Of_Riga_-_Finland	St_Petersburg		
+Tallinn	Gulfs_Of_Riga_-_Finland	Tallinn		
+Virolahti	Gulfs_Of_Riga_-_Finland	Virolahti		
+Vyborgsky_District	Gulfs_Of_Riga_-_Finland	Vyborgsky_District		
+West_Gulf_Of_Riga	Gulfs_Of_Riga_-_Finland	West_Gulf_Of_Riga		
+Aland	North_Baltic	Aland		
+Alvsbyn	North_Baltic	Alvsbyn		
+Angermanland	North_Baltic	Angermanland		
+Central_Finland	North_Baltic	Central_Finland		
+Gastrikland	North_Baltic	Gastrikland		
+Gunnarsbyn	North_Baltic	Gunnarsbyn		
+Oulu	North_Baltic	Oulu		
+Satakunta	North_Baltic	Satakunta		
+South_Lapland	North_Baltic	South_Lapland		
+South_Ostrobothnia	North_Baltic	South_Ostrobothnia		
+Turku	North_Baltic	Turku		
+Belgium	North_Sea	Belgium		
+Bremerhaven	North_Sea	Bremerhaven		
+Central_Netherlands	North_Sea	Central_Netherlands		
+Dogger_Bank	North_Sea	Dogger_Bank		
+Elbe	North_Sea	Elbe		
+German_Bight	North_Sea	German_Bight		
+Ho_Bugt	North_Sea	Ho_Bugt		
+Langeoog	North_Sea	Langeoog		
+Limfjord	North_Sea	Limfjord		
+Netherlands_Wadden_Sea	North_Sea	Netherlands_Wadden_Sea		
+Norderney	North_Sea	Norderney		
+Oyster_Ground	North_Sea	Oyster_Ground		
+Rotterdam	North_Sea	Rotterdam		
+Southern_Bight	North_Sea	Southern_Bight		
+Asa	Skagerrak_-_Kattegat	Asa		
+Bohuslan	Skagerrak_-_Kattegat	Bohuslan		
+Goteborg	Skagerrak_-_Kattegat	Goteborg		
+Halmstad	Skagerrak_-_Kattegat	Halmstad		
+Kattegat	Skagerrak_-_Kattegat	Kattegat		
+Kieler_Bucht	Skagerrak_-_Kattegat	Kieler_Bucht		
+Laesoe	Skagerrak_-_Kattegat	Laesoe		
+Lillebaelt	Skagerrak_-_Kattegat	Lillebaelt		
+Samso_Belt	Skagerrak_-_Kattegat	Samso_Belt		
+Storebaelt	Skagerrak_-_Kattegat	Storebaelt		
+Sund	Skagerrak_-_Kattegat	Sund		
+Treoa_Moellebugt	Skagerrak_-_Kattegat	Treoa_Moellebugt		
+Vendsyssel_Thy	Skagerrak_-_Kattegat	Vendsyssel_Thy		
+Achterwasser	South_Baltic	Achterwasser		
+Arkona_Basin_East	South_Baltic	Arkona_Basin_East		
+Arkona_Basin_West	South_Baltic	Arkona_Basin_West		
+Baltic_South	South_Baltic	Baltic_South		
+Baltic_Southwest	South_Baltic	Baltic_Southwest		
+Blekinge	South_Baltic	Blekinge		
+Curonian_Spit	South_Baltic	Curonian_Spit		
+Fakse_Bugt	South_Baltic	Fakse_Bugt		
+Havang	South_Baltic	Havang		
+Lithuania	South_Baltic	Lithuania		
+Lubeck	South_Baltic	Lubeck		
+Ostergotland	South_Baltic	Ostergotland		
+Rugen	South_Baltic	Rugen		
+Salt_Meadows	South_Baltic	Salt_Meadows		
+Sodermanland	South_Baltic	Sodermanland		
+South_Vistula	South_Baltic	South_Vistula		
+Ustka	South_Baltic	Ustka		
+Ventspils	South_Baltic	Ventspils		
+West_Gulf_Of_Gdansk	South_Baltic	West_Gulf_Of_Gdansk		

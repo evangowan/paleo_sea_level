@@ -1,2 +1,3 @@
-Mururoa	French_Polynesia
-Tahiti	French_Polynesia
+Mururoa	French_Polynesia	Mururoa		
+Tahiti	French_Polynesia	Tahiti		
+Vanuatu	Melansia	Vanuatu		

@@ -1,38 +1,38 @@
-Torngat	Labrador
-Nain	Labrador
-Hamilton_Inlet	Labrador
-Lake_Melville	Labrador
-Great_Northern_Peninsula	Newfoundland
-Notre_Dame_Bay	Newfoundland
-Avalon_Peninsula	Newfoundland
-Bay_Of_Islands	Newfoundland
-Port_Aux_Basques	Newfoundland
-Cape_Breton	Gulf_of_St_Lawrence
-Magdalen_Islands	Gulf_of_St_Lawrence
-Prince_Edward_Island	Gulf_of_St_Lawrence
-Chaleur_Bay	Gulf_of_St_Lawrence
-Anticosti_Island	Gulf_of_St_Lawrence
-Rimouski	St_Laurence_Lowlands
-Forestville	St_Laurence_Lowlands
-Quebec_City	St_Laurence_Lowlands
-Sable_Island	Maritimes
-Halifax	Maritimes
-Shelburne	Maritimes
-Cumberland	Maritimes
-Passamaquoddy_Bay	Maritimes
-Eastern_Maine	Northeastern_United_States
-Southern_Maine	Northeastern_United_States
-Northern_Massachusetts	Northeastern_United_States
-Southern_Massachusetts	Northeastern_United_States
-Connecticut	Northeastern_United_States
-Long_Island	Northeastern_United_States
-New_York	Northeastern_United_States
-New_Jersey	Northeastern_United_States
-Outer_Delaware	Eastern_United_States
-Inner_Delaware	Eastern_United_States
-Inner_Chesapeake	Eastern_United_States
-Eastern_Shore	Eastern_United_States
-Northern_North_Carolina	Eastern_United_States
-Southern_North_Carolina	Eastern_United_States
-Northern_South_Carolina	Eastern_United_States
-Southern_South_Carolina	Eastern_United_States
+Eastern_Shore	Eastern_United_States	Eastern_Shore		
+Inner_Chesapeake	Eastern_United_States	Inner_Chesapeake		
+Inner_Delaware	Eastern_United_States	Inner_Delaware		
+Northern_North_Carolina	Eastern_United_States	Northern_North_Carolina		
+Northern_South_Carolina	Eastern_United_States	Northern_South_Carolina		
+Outer_Delaware	Eastern_United_States	Outer_Delaware		
+Southern_North_Carolina	Eastern_United_States	Southern_North_Carolina		
+Southern_South_Carolina	Eastern_United_States	Southern_South_Carolina		
+Hamilton_Inlet	Labrador	Hamilton_Inlet		
+Lake_Melville	Labrador	Lake_Melville		
+Nain	Labrador	Nain		
+Torngat	Labrador	Torngat		
+Anticosti_Island	Maritimes	Anticosti_Island		
+Cape_Breton	Maritimes	Cape_Breton		
+Chaleur_Bay	Maritimes	Chaleur_Bay		
+Cumberland	Maritimes	Cumberland		
+Forestville	Maritimes	Forestville		
+Halifax	Maritimes	Halifax		
+Magdalen_Islands	Maritimes	Magdalen_Islands		
+Passamaquoddy_Bay	Maritimes	Passamaquoddy_Bay		
+Prince_Edward_Island	Maritimes	Prince_Edward_Island		
+Quebec_City	Maritimes	Quebec_City		
+Rimouski	Maritimes	Rimouski		
+Sable_Island	Maritimes	Sable_Island		
+Shelburne	Maritimes	Shelburne		
+Avalon_Peninsula	Newfoundland	Avalon_Peninsula		
+Bay_Of_Islands	Newfoundland	Bay_Of_Islands		
+Great_Northern_Peninsula	Newfoundland	Great_Northern_Peninsula		
+Notre_Dame_Bay	Newfoundland	Notre_Dame_Bay		
+Port_Aux_Basques	Newfoundland	Port_Aux_Basques		
+Connecticut	Northeastern_United_States	Connecticut		
+Eastern_Maine	Northeastern_United_States	Eastern_Maine		
+Long_Island	Northeastern_United_States	Long_Island		
+New_Jersey	Northeastern_United_States	New_Jersey		
+New_York	Northeastern_United_States	New_York		
+Northern_Massachusetts	Northeastern_United_States	Northern_Massachusetts		
+Southern_Maine	Northeastern_United_States	Southern_Maine		
+Southern_Massachusetts	Northeastern_United_States	Southern_Massachusetts		

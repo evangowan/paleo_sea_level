@@ -83,8 +83,7 @@ else:
 
 		file_out_prefix = "merge_extra_" + str(counter)
 
-		filename = sl_sector + "/temp/" + file_out_prefix + ".ods"
-
+		filename = sl_sector + "/temp/" + file_out_prefix + "_2.ods"
 
 		region_list= []
 
@@ -119,6 +118,8 @@ else:
 
 				with pd.ExcelWriter(fileout, engine="odf") as doc:
 					sl_data_temp.to_excel(doc, index=False)
+
+		counter = counter + 1
 
 
 # finally, find the subregion

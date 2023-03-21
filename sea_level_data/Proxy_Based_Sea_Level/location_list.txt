@@ -1,2 +1,2 @@
-Red_Sea_proxy	Red_Sea	Bab-el-Mandeb
-Karimata_Strait	Southeast_Asia
+Karimata_Strait_proxy	Java_Sea	Karimata_Strait	Karimata_Strait (Sulu Sea $\delta^{18}$O Proxy)	Karimata_Strait (Sulu Sea \144@+18@+O)
+Bab-el-Mandeb_proxy	Red_Sea	Bab-el-Mandeb	Bab-el-Mandeb (Red Sea $\delta^{18}O Proxy)	Bab-el-Mandeb (Red Sea \144@+18@+O)

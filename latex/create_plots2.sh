@@ -37,20 +37,24 @@ END_CAT
 
 rm temp/map_plot_dimensions.txt
 
-for region in $(cat ../sea_level_data/region_list.txt)
+
+for mis in 'MIS_1-2' 'MIS_3-4' #'MIS_5_a_d' 'MIS_5e' # for now, no MIS 5
 do
-
-	number_locations=$(wc -l < ../sea_level_data/${region}/location_list.txt)
-	
-
-	for counter in $(seq 1 ${number_locations} )
+	for region in $(cat ../sea_level_data/region_list.txt)
 	do
-		location=$(awk -v line=${counter} --field-separator '\t' '{if (NR==line) {print $1}}' ../sea_level_data/${region}/location_list.txt)
-		subregion=$(awk -v line=${counter} --field-separator '\t' '{if (NR==line) {print $2}}' ../sea_level_data/${region}/location_list.txt)
-		source plot_script.sh ${region} ${location} ${reference_ice_model} ${reference_earth_model} ${subregion}
+
+		number_locations=$(wc -l < ../sea_level_data/${region}/location_list.txt)
+		
+
+		for counter in $(seq 1 ${number_locations} )
+		do
+			location=$(awk -v line=${counter} --field-separator '\t' '{if (NR==line) {print $1}}' ../sea_level_data/${region}/location_list.txt)
+
+			source plot_script2.sh  ${region}  ${location} ${mis} ${reference_ice_model} ${reference_earth_model}
+
+		done
+
+
 
 	done
-
-
-
 done

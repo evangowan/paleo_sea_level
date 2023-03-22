@@ -1,18 +1,18 @@
-Huon_Peninsula	Papua_New_Guinea
-Huon_Peninsula_(de_Gelder)	Papua_New_Guinea	Huon_Peninsula
-Chao_Phraya	Sundaland
-Mekong_Delta	Sundaland
-Strait_Of_Malacca	Sundaland
-Sunda_Shelf	Sundaland
-Vietnam_Shelf	Sundaland
-Phuket	Sundaland
-Thale_Noi	Sundaland
-West_Malay_Peninsula	Sundaland
-East_Malay_Peninsula	Sundaland
-Southeast_Malay_Peninsula	Sundaland
-Belitung_Island	Sundaland
-Ca_Na	Sundaland
-Central_Java	Java_Sea
-South_Sulawesi	Java_Sea
-Berhala_Strait	Sundaland
-Xisha_Islands	South_China_Sea
+Belitung_Island	Java_Sea	Belitung_Island		
+Central_Java	Java_Sea	Central_Java		
+South_Sulawesi	Java_Sea	South_Sulawesi		
+Huon_Peninsula	Papua_New_Guinea	Huon_Peninsula		
+Huon_Peninsula_(de_Gelder)	Papua_New_Guinea	Huon_Peninsula	Huon_Peninsula (Interpretation by de Gelder \emph{et al.})	Huon_Peninsula (de Gelder interpretation)
+Xisha_Islands	South_China_Sea	Xisha_Islands		
+Berhala_Strait	Sundaland	Berhala_Strait		
+Ca_Na	Sundaland	Ca_Na		
+Chao_Phraya	Sundaland	Chao_Phraya		
+East_Malay_Peninsula	Sundaland	East_Malay_Peninsula		
+Mekong_Delta	Sundaland	Mekong_Delta		
+Phuket	Sundaland	Phuket		
+Southeast_Malay_Peninsula	Sundaland	Southeast_Malay_Peninsula		
+Strait_Of_Malacca	Sundaland	Strait_Of_Malacca		
+Sunda_Shelf	Sundaland	Sunda_Shelf		
+Thale_Noi	Sundaland	Thale_Noi		
+Vietnam_Shelf	Sundaland	Vietnam_Shelf		
+West_Malay_Peninsula	Sundaland	West_Malay_Peninsula		

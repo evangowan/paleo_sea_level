@@ -4,11 +4,10 @@ Caribbean
 Greenland
 Eurasian_Arctic
 Europe
-Southeast_Asia
-French_Polynesia
-South_Asia
 East_Asia
-Melanesia
+Southeast_Asia
+South_Asia
 Australia
+Pacific_Islands
 Antarctica
 Proxy_Based_Sea_Level

@@ -10,6 +10,8 @@ Bonaparte_Gulf_SLI_Yokoyama2000	Northern_Austtralia	Bonaparte_Gulf	Bonaparte_Gul
 Cambridge_Gulf	Northern_Austtralia	Cambridge_Gulf		
 Darwin	Northern_Austtralia	Darwin		
 Eastern_Timor_Sea	Northern_Austtralia	Eastern_Timor_Sea		
+Sahul_Shelf_SLI_Ishiwa2019	Northern_Austtralia	Sahul_Shelf	Sahul_Shelf (Ishiwa \emph{et al.} 2019 interpretation)	Sahul_Shelf (Ishiwa et al. 2019)
+Sahul_Shelf_SLI_Yokoyama2000	Northern_Austtralia	Sahul_Shelf	Sahul_Shelf (Yokoyama \emph{et al.} 2000 interpretation)	Sahul_Shelf (Yokoyama et al. 2000)
 South_Alligator_River	Northern_Austtralia	South_Alligator_River		
 Bowen	Queensland	Bowen		
 Brisbane	Queensland	Brisbane		

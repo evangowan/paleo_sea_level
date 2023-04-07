@@ -20,6 +20,8 @@ bash scripts/point_inside.sh ${sl_sector}
 
 python3 scripts/move_to_database.py ${sl_sector}
 
+dos2unix ../sea_level_data/${sl_sector}/location_list.txt
+
 else
 
 echo "The folder ${sl_sector} does not exist"

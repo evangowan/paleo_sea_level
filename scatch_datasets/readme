@@ -11,3 +11,5 @@ To merge the data in a folder and move it to the main database, you run from thi
 bash scripts/run_all_scripts.sh ${name of folder}
 
 Provided that the file lists are there, it will move everything, and include the regions and reservoir corrections from the GIS files.
+
+By default, Python's csv module outputs with Windows line carriages. You must download dos2unix before running the script, otherwise the plot scripts will not work.

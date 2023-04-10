@@ -1,14 +1,46 @@
 #! /bin/bash
 
-region=$1
-location=$2
-mis_stage=$3
-reference_ice_model=$4
-reference_earth_model=$5
+#region=$1
+#location=$2
+#mis_stage=$3
+#reference_ice_model=$4
+#reference_earth_model=$5
+
+# this must have the variables region, location
+source $1
 
 
 mkdir -p temp
 mkdir -p references
+mkdir -p statistics
+
+region_line=$(awk -v region=${region} --field-separator '\t' '{if (region==$1) {print NR}}' ../sea_level_data/region_list.txt)
+
+if [ -z "${region_line}" ]
+then
+	echo "${region} is not found"
+	exit 0
+fi
+
+
+
+location_line=$(awk -v location=${location} --field-separator '\t' '{if (location==$1) {print NR}}' ../sea_level_data/${region}/location_list.txt)
+
+if [ -z "${location_line}" ]
+then
+	echo "${location} is not found"
+	exit 0
+fi
+
+
+
+number_locations=$(wc -l < ../sea_level_data/${region}/location_list.txt)
+
+subregion=$(awk -v line=${location_line} --field-separator '\t' '{if (NR==line) {print $2}}' ../sea_level_data/${region}/location_list.txt)
+generic_location=$(awk -v line=${location_line} --field-separator '\t' '{if (NR==line) {print $3}}' ../sea_level_data/${region}/location_list.txt)
+latex_location=$(awk -v line=${location_line} --field-separator '\t' '{if (NR==line) {print $4}}' ../sea_level_data/${region}/location_list.txt)
+gmt_location=$(awk -v line=${location_line} --field-separator '\t' '{if (NR==line) {print $5}}' ../sea_level_data/${region}/location_list.txt )
+
 
 statistics_file="statistics/${region}_${location}_${mis_stage}.txt"
 reference_file="references/${region}_${location}_${mis_stage}.txt"
@@ -53,6 +85,7 @@ python3 python/polygon_center.py temp/region_bound_nocarrot.txt > temp/center_po
 
 source temp/center_point.sh
 
+
 # I am using a Albers projection with the center defined as above
 
 J_main="-JA${center_longitude}/${center_latitude}/${map_plot_width}c"
@@ -91,7 +124,7 @@ R_insert="-R${small_bottom_long}/${small_bottom_lat}/${small_top_long}/${small_t
 
 
 # text options for the region name
-size="12p"
+size="11p"
 fontname="Helvetica-Bold"
 color="black"
 justification="+cTL" # the +c option plots relative to the corners of the map
@@ -165,8 +198,6 @@ sl_plot_width=${map_plot_width}
 sl_plot_height=${map_plot_height}
 
 
-
-
 python3 python/sea_level_indicator_types.py ${sea_level_file} ${index_limit} ${mis_stage} ${sl_plot_height} > temp/sl_plot_options.sh
 
 
@@ -196,8 +227,15 @@ gmt begin plots/${region}_${location}_${mis_stage} pdf
 		gmt plot temp/region_bound.txt   ${R_main} ${J_main}  -W3p,black -L 
 		gmt plot temp/region_bound.txt    ${R_main} ${J_main}  -W2p,yellow -L  
 
-		gmt text << END_TEXT ${R_main} ${J_main} ${text_options}  -Gwhite -D0.1/-0.25 -N 
-$(echo ${location} | sed -e 's/_/ /g')
+		if [ -z "${gmt_location}" ]
+		then
+			plot_location=$(echo ${location} | sed -e 's/_/ /g')
+		else
+			plot_location=$(echo ${gmt_location} | sed -e 's/_/ /g')
+		fi
+
+		gmt text << END_TEXT ${R_main} ${J_main} ${text_options}  -Gwhite -D0.1/-0.15 -N 
+${plot_location}
 END_TEXT
 
 
@@ -278,11 +316,22 @@ ENDCAT
 
 		# plot calculated curves:
 
-		rm temp/calc_sl_curves.txt
+		if [ -n "${reference_ice_model}" ]
+		then
 
-		python3 python/extract_calc_sea_level.py calculated_sea_level/${reference_ice_model}/${reference_earth_model}.dat ${sea_level_file} ${mis_stage}
+			rm temp/calc_sl_curves.txt
 
-		gmt plot temp/calc_sl_curves.txt -Wthinnest,black  ${J_sl_plot} ${R_sl_plot}
+			python3 python/extract_calc_sea_level.py calculated_sea_level/${reference_ice_model}/${reference_earth_model}.dat ${sea_level_file} ${mis_stage}
+
+			gmt plot temp/calc_sl_curves.txt -Wthinnest,black  ${J_sl_plot} ${R_sl_plot}
+
+			score=$(awk '{print $1}' temp/score.txt)
+
+			gmt text << END ${J_sl_plot} ${R_sl_plot} -F+f10p,Helvetica,black,+cTR -D-0.2/-0.2 -Gwhite
+Score: ${score}
+END
+
+		fi
 
 		# number of data points
 
@@ -353,12 +402,20 @@ END
 ${heading_x} ${heading_y} Sea level proxy type
 END
 
+	if [ -n "${reference_ice_model}" ]
+	then
 
-
-	gmt text << END  ${J_legend} ${R_legend} -F+f10p,Helvetica+jRM+a0
+		gmt text << END  ${J_legend} ${R_legend} -F+f10p,Helvetica+jRM+a0
 ${reference_x} ${bottom_position} @_Reference ice model@_: ${reference_ice_model}      @_Reference Earth Model@_: ${reference_earth_model}
- 
+
 END
+
+	fi
+
+	# plot the 6 smaller plots
+
+	if [ -n "${six_models}" ]
+	then
 
 	large_font="9p"
 	small_font="5p"
@@ -383,8 +440,8 @@ END
 			do
 
 				
-				ice_model=$(awk -v line=${counter} '{if (NR == line) {print $1}}' temp/compare_models.txt )
-				earth_model=$(awk -v line=${counter} '{if (NR == line) {print $2}}' temp/compare_models.txt )
+				ice_model=$(awk -v line=${counter} '{if (NR == line) {print $1}}' ${six_models} )
+				earth_model=$(awk -v line=${counter} '{if (NR == line) {print $2}}' ${six_models} )
 
 
 				gmt basemap -B+t"@_IM:@_ ${ice_model}   @_EM:@_ ${earth_model}" -c${row},${column}
@@ -452,6 +509,8 @@ END
 			done
 		done
 	gmt subplot end
+
+	fi
 gmt end
 
 fi

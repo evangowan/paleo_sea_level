@@ -6,7 +6,7 @@ import pandas as pd
 location = sys.argv[1]
 location_list_file = sys.argv[2]
 
-col_names = ["location", "subregion", "map_location"]
+col_names = ["location", "subregion", "map_location", "location_latex", "location_gmt"]
 
 location_list = pd.read_csv (location_list_file, sep='\t', header=None, names=col_names)
 

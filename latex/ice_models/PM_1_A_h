@@ -1,0 +1,1 @@
+PM\_1\_A\_h - PaleoMIST 1.0 - full MIS 3 Laurentide Ice Sheet scenario, with Hudson Bay fully covered, and ice extent much larger. In this version, the sea level was calculated by linearly interpolating the ice load to 500 year time steps, which should mitigate some of the issues with overpredicting the loading in ice covered regions.

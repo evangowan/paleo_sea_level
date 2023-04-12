@@ -6,7 +6,7 @@
 # combinations. These are placed in the "calculated_sea_level" folder. Look at the readme in that folder.
 
 
-reference_ice_model="72_73_74_75"
+reference_ice_model="PM_1"
 reference_earth_model="ehgr"
 
 
@@ -15,12 +15,12 @@ mkdir -p temp
 six_models="temp/compare_models.txt"
 
 cat << END_CAT > ${six_models}
-72_73_74_75 ehgA
-72_73_74_75 ehgC
-72_73_74_75 ehgG
-72_73_74_75 ehgk
-72_73_74_75 ehgr
-72_73_74_75 ehgK
+PM_1 ehgA
+PM_1 ehgC
+PM_1 ehgG
+PM_1 ehgk
+PM_1 ehgr
+PM_1 ehgK
 END_CAT
 
 

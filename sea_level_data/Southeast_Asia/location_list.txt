@@ -2,7 +2,7 @@ Belitung_Island	Java_Sea	Belitung_Island
 Central_Java	Java_Sea	Central_Java		
 South_Sulawesi	Java_Sea	South_Sulawesi		
 Huon_Peninsula	Papua_New_Guinea	Huon_Peninsula		
-Huon_Peninsula_(de_Gelder)	Papua_New_Guinea	Huon_Peninsula	Huon_Peninsula (Interpretation by de Gelder \emph{et al.})	Huon_Peninsula (de Gelder interpretation)
+Huon_Peninsula_de_Gelder	Papua_New_Guinea	Huon_Peninsula	Huon_Peninsula (Interpretation by de Gelder \emph{et al.})	Huon_Peninsula (de Gelder interpretation)
 Xisha_Islands	South_China_Sea	Xisha_Islands		
 Berhala_Strait	Sundaland	Berhala_Strait		
 Ca_Na	Sundaland	Ca_Na		

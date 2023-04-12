@@ -1,6 +1,6 @@
-Miyakojima	Ryukyu_Islands
-Tsushima-Korea_Strait	Sea_of_Japan_-_East_Sea
-South_Bohai_Sea	Yellow_Sea
-Yellow_Sea	Yellow_Sea
-Kikaijima_(1.9_mm)	Ryukyu_Islands	Kikaijima
-Kikaijima_(2.1_mm)	Ryukyu_Islands	Kikaijima
+Kikaijima_1.9_mm	Ryukyu_Islands	Kikaijima	Kikaijima (1.9 mm/yr uplift rate)	Kikaijima (1.9 mm/yr)
+Kikaijima_2.1_mm	Ryukyu_Islands	Kikaijima	Kikaijima (2.1 mm/yr uplift rate)	Kikaijima (2.1 mm/yr)
+Miyakojima	Ryukyu_Islands	Miyakojima		
+Tsushima-Korea_Strait	Sea_of_Japan_-_East_Sea	Tsushima-Korea_Strait		
+South_Bohai_Sea	Yellow_Sea	South_Bohai_Sea		
+Yellow_Sea	Yellow_Sea	Yellow_Sea		

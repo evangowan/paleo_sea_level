@@ -74,6 +74,7 @@ do
 	do
 		location=$(awk -v line=${counter} --field-separator '\t' '{if (NR==line) {print $1}}' ../sea_level_data/${region}/location_list.txt)
 		subregion=$(awk -v line=${counter} --field-separator '\t' '{if (NR==line) {print $2}}' ../sea_level_data/${region}/location_list.txt)
+		latex_location=$(awk -v line=${counter} --field-separator '\t' '{if (NR==line) {print $4}}' ../sea_level_data/${region}/location_list.txt)
 
 		plot=plots/${region}_${location}_${MIS}.pdf
 
@@ -88,14 +89,21 @@ do
 			echo -e "${region}\t${subregion}" >> temp/subregions.txt
 
 			subregion_space=$(echo ${subregion} | sed 's/_/ /g')
-			location_space=$(echo ${location} | sed 's/_/ /g')
+
+			if [ -z "${latex_location}" ]
+			then
+				location_space="${latex_location}"
+			else
+				location_space=$(echo ${location} | sed 's/_/ /g')
+			fi
+			
+
+
 
 			if [ ! -f figure_tex/${subregion}_${MIS}.tex ]
 			then
 				cat << END_CAT > figure_tex/${subregion}_${MIS}.tex 
 \subsubsection{${subregion_space}}
-
-References for the data used in each location.
 
 END_CAT
 
@@ -106,11 +114,12 @@ END_CAT
 
 			references=$(awk '{print "\\citet{"$1"}"}' references/${region}_${location}_${MIS}.txt)
 
-			cat << END_CAT >> figure_tex/${subregion}_${MIS}.tex 
 
-\textbf{${location_space}}: ${references}
+#			cat << END_CAT >> figure_tex/${subregion}_${MIS}.tex 
 
-END_CAT
+#\textbf{${location_space}}: ${references}
+
+#END_CAT
 
 
 			# now make the file for the figures
@@ -121,7 +130,7 @@ END_CAT
 
 \begin{figure}[t]
 \includegraphics[width=\textwidth]{${plot}}
-\caption{Paleo-sea level and comparison of six models for subregion ${subregion_space}, location ${location_space}.}
+\caption{Paleo-sea level and comparison of six models for subregion: ${subregion_space}, location: ${location_space}. References: ${references}. }
 \label{fig:${location}}
 \end{figure}
 

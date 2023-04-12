@@ -6,7 +6,7 @@
 # combinations. These are placed in the "calculated_sea_level" folder. Look at the readme in that folder.
 
 
-reference_ice_model="PM_1"
+reference_ice_model="PM_1_h"
 reference_earth_model="ehgr"
 
 

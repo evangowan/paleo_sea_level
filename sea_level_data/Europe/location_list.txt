@@ -48,7 +48,7 @@ Laesoe	Skagerrak_-_Kattegat	Laesoe
 Lillebaelt	Skagerrak_-_Kattegat	Lillebaelt		
 Samso_Belt	Skagerrak_-_Kattegat	Samso_Belt		
 Storebaelt	Skagerrak_-_Kattegat	Storebaelt		
-Sund	Skagerrak_-_Kattegat	Sund		
+Copenhagen	Skagerrak_-_Kattegat	Copenhagen		
 Treoa_Moellebugt	Skagerrak_-_Kattegat	Treoa_Moellebugt		
 Vendsyssel_Thy	Skagerrak_-_Kattegat	Vendsyssel_Thy		
 Achterwasser	South_Baltic	Achterwasser		

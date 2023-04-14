@@ -8,7 +8,7 @@ location=$2
 
 mis=$3
 
-reference_ice_model="PM_1"
+reference_ice_model="PM_1_A_h"
 reference_earth_model="ehgr"
 
 mkdir -p temp
@@ -16,12 +16,12 @@ mkdir -p temp
 six_models="temp/compare_models.txt"
 
 cat << END_CAT > ${six_models}
-PM_1 ehgA
-PM_1 ehgC
-PM_1 ehgG
-PM_1 ehgk
-PM_1 ehgr
-PM_1 ehgK
+PM_1_A_h ehgA
+PM_1_A_h ehgC
+PM_1_A_h ehgG
+PM_1_A_h ehgk
+PM_1_A_h ehgr
+PM_1_A_h ehgK
 END_CAT
 
 

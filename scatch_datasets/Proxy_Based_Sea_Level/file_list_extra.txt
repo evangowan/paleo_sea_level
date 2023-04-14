@@ -1,2 +1,2 @@
 Karimata_Strait.ods	proxy	(Sulu Sea $\delta^{18}$O Proxy)	(Sulu Sea \144@+18@+O)
-Red_Sea.ods	proxy	(Red Sea $\delta^{18}O Proxy)	(Red Sea \144@+18@+O)
+Red_Sea.ods	proxy	(Red Sea $\delta^{18}$O Proxy)	(Red Sea \144@+18@+O)

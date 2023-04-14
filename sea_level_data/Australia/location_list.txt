@@ -4,15 +4,15 @@ Newcastle	New_South_Wales	Newcastle
 Sydney	New_South_Wales	Sydney		
 Ulladulla	New_South_Wales	Ulladulla		
 Wollongong	New_South_Wales	Wollongong		
-Bonaparte_Gulf	Northern_Austtralia	Bonaparte_Gulf		
-Bonaparte_Gulf_SLI_Ishiwa2019	Northern_Austtralia	Bonaparte_Gulf	Bonaparte_Gulf (Ishiwa \emph{et al.} 2019 interpretation)	Bonaparte_Gulf (Ishiwa et al. 2019)
-Bonaparte_Gulf_SLI_Yokoyama2000	Northern_Austtralia	Bonaparte_Gulf	Bonaparte_Gulf (Yokoyama \emph{et al.} 2000 interpretation)	Bonaparte_Gulf (Yokoyama et al. 2000)
-Cambridge_Gulf	Northern_Austtralia	Cambridge_Gulf		
-Darwin	Northern_Austtralia	Darwin		
-Eastern_Timor_Sea	Northern_Austtralia	Eastern_Timor_Sea		
-Sahul_Shelf_SLI_Ishiwa2019	Northern_Austtralia	Sahul_Shelf	Sahul_Shelf (Ishiwa \emph{et al.} 2019 interpretation)	Sahul_Shelf (Ishiwa et al. 2019)
-Sahul_Shelf_SLI_Yokoyama2000	Northern_Austtralia	Sahul_Shelf	Sahul_Shelf (Yokoyama \emph{et al.} 2000 interpretation)	Sahul_Shelf (Yokoyama et al. 2000)
-South_Alligator_River	Northern_Austtralia	South_Alligator_River		
+Bonaparte_Gulf	Northern_Australia	Bonaparte_Gulf		
+Bonaparte_Gulf_SLI_Ishiwa2019	Northern_Australia	Bonaparte_Gulf	Bonaparte_Gulf (Ishiwa \emph{et al.} 2019 interpretation)	Bonaparte_Gulf (Ishiwa et al. 2019)
+Bonaparte_Gulf_SLI_Yokoyama2000	Northern_Australia	Bonaparte_Gulf	Bonaparte_Gulf (Yokoyama \emph{et al.} 2000 interpretation)	Bonaparte_Gulf (Yokoyama et al. 2000)
+Cambridge_Gulf	Northern_Australia	Cambridge_Gulf		
+Darwin	Northern_Australia	Darwin		
+Eastern_Timor_Sea	Northern_Australia	Eastern_Timor_Sea		
+Sahul_Shelf_SLI_Ishiwa2019	Northern_Australia	Sahul_Shelf	Sahul_Shelf (Ishiwa \emph{et al.} 2019 interpretation)	Sahul_Shelf (Ishiwa et al. 2019)
+Sahul_Shelf_SLI_Yokoyama2000	Northern_Australia	Sahul_Shelf	Sahul_Shelf (Yokoyama \emph{et al.} 2000 interpretation)	Sahul_Shelf (Yokoyama et al. 2000)
+South_Alligator_River	Northern_Australia	South_Alligator_River		
 Bowen	Queensland	Bowen		
 Brisbane	Queensland	Brisbane		
 Cairns	Queensland	Cairns		

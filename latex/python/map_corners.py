@@ -45,3 +45,5 @@ y_bottom = -y_top
 
 print(f'{x_top} {y_top}')
 print(f'{x_bottom} {y_bottom}')
+print(f'{x_top} {y_bottom}')
+print(f'{x_bottom} {y_top}')

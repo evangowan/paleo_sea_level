@@ -32,7 +32,7 @@
 \begin{document}
 
 
-\title{Comparision of calculated and measured paleo-sea level proxies with PaleoMIST 1.0, Report 1, version 1.3}
+\title{Comparision of calculated and measured paleo-sea level proxies with PaleoMIST 1.0, Report 1, version 2}
 
 \author{Evan James Gowan}
     
@@ -56,27 +56,31 @@ In this report there is a detailed summary, including plots, of a worldwide comp
 
 The accompanying paper is \citet{GowanEtal2021b}.
 
+
+
 Update on October 22, 2021:
 
-This document has been updated to include several additional sites at the LGM and MIS 3. It also has fixed an error in the Cairns and Mackay sites caused by incorrectly subtracting half of the depth range rather than adding it. I apologize for this error. For the coral data for Tahiti and Huon Peninsula, it was originally set to be marine limiting, since the living range was tens of meters. We now use the 2-sigma range determined by \citet{HibbertEtal2016}. We include the interpretations of sea level range by \citet{IshiwaEtal2019} and \citet{YokoyamaEtal2000} for the Bonaparte Gulf shallow marine/estuary/intertidal data in addition to my conservative marine limiting assignment. I also included the interpreted sea level of Huon Peninsula by \citet{deGelderEtal2021} for MIS 3 to compare with the coral depth range interpretation by \citet{HibbertEtal2016}. Finally, I also recalibrated all the radiocarbon dates using updated calibration curves published in 2020 \citep{HeatonEtal2020,HoggEtal2020,ReimerEtal2020}.
+This document has been updated to include several additional sites at the LGM and MIS 3. It also has fixed an error in the Cairns and Mackay sites caused by incorrectly subtracting half of the depth range rather than adding it. I apologize for this error. For the coral data for Tahiti and Huon Peninsula, it was originally set to be marine limiting, since the living range was tens of meters. We now use the 2-sigma range determined by \citet{HibbertEtal2016}. We include the interpretations of sea level range by \citet{IshiwaEtal2019} and \citet{YokoyamaEtal2000} for the Bonaparte Gulf shallow marine/estuary/intertidal data in addition to my conservative marine limiting assignment. I also included the interpreted sea level of Huon Peninsula by \citet{deGelderEtal2022} for MIS 3 to compare with the coral depth range interpretation by \citet{HibbertEtal2016}. Finally, I also recalibrated all the radiocarbon dates using updated calibration curves published in 2020 \citep{HeatonEtal2020,HoggEtal2020,ReimerEtal2020}.
 
-Update on March 14, 2021:
+Update on March 14, 2022:
 
 I have included data from the Baltic Sea and North Sea.
 
-Update on July 4, 2021:
+Update on July 4, 2022:
 
 In this update, data from Antarctica are included. I have also updated the figures so that index points are now drawn as rectangles, rather than the green dots as before. I have used different shades of green depending on whether or not the indicator uncertainty is below or above 10 m.
+
+Update on April 12, 2023:
+
+I have revamped how the figures are plotted, as well as changing the format of the report a bit. This update includes data from Greenland and Australia. The Greenland data was largely compiled by myself, using the list by \citet{LecavalierEtal2014} as a starting point, but also including data not from that list. Notably, it includes the compilation of isolation basin based sea level indicators by \citet{LongEtal2011}. The data for Australia was largely derived from compilations by \citet{LewisEtal2013}, \citet{SlossEtal2007}, \citet{BelperioEtal2002}.
 
 
 \section{Summary of ice and Earth models}
 
 
-In order to make the figures compact, I have made shorthand codes for the ice and Earth models. I calculate each ice sheet separately, and the numbers refer to the ``run number", which is a sequential number that I used to distinguish git commits (see \url{https://github.com/evangowan/icesheet}). The ice model numbering scheme is as follows:
+The main models included here are from PaleoMIST. This is a global ice sheet reconstruction at a very crude 2500 year time step. I have started to use a 500 year interpolated version, which should produce more accurate results in ice covered areas, though it makes less impact in far field regions.
 
-``North America"\_``Europe"\_``Antarctica"\_``Patagonia"
-
-For PaleoMIST 1.0, the minimal MIS~3 configuration reconstruction is 72\_73\_74\_75, while the maximal configuration is 82\_83\_85\_85
+For this document, I use PaleoMIST 1.0. The minimal MIS~3 configuration reconstruction is PM\_1, while the maximal configuration is PM\_1\_A
 
 For the Earth models, I created a shorthand scheme during my PHD, which I have continued to use. A full explanation can be found on the github page:
 

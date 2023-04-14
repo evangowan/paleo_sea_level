@@ -222,7 +222,35 @@ gmt begin plots/${region}_${location}_${mis_stage} pdf
 
 
 		gmt subplot set
-		gmt pscoast ${R_main} ${J_main}   -Df -A10    -Wthinner -Slightgrey 
+
+		if [ "${region}" == "Greenland" ]
+		then
+
+			bottom_long2=$(awk '{if (NR==3) print $1}' temp/map_corners.txt )
+			bottom_lat2=$(awk '{if (NR==3) print $2}' temp/map_corners.txt )
+			top_long2=$(awk '{if (NR==4) print $1}' temp/map_corners.txt )
+			top_lat2=$(awk '{if (NR==4) print $2}' temp/map_corners.txt )
+
+			cat << END_CAT > temp/Greenland_box.txt
+${bottom_long} ${bottom_lat}
+${bottom_long2} ${bottom_lat2}
+${top_long} ${top_lat}
+${top_long2} ${top_lat2}
+${bottom_long} ${bottom_lat}
+END_CAT
+
+
+
+			gmt plot temp/Greenland_box.txt ${R_main} ${J_main} -Glightgrey
+			gmt plot ../GIS/Greenland_Coastline/grounded_countours_C_geo.gmt -Wthinner,black -Gwhite ${R_main} ${J_main} 
+			gmt plot ../GIS/Greenland_Coastline/grounded_countours_O_geo.gmt -Wthinner,black -Gwhite ${R_main} ${J_main} 
+
+		else
+
+
+			gmt coast ${R_main} ${J_main}   -Df -A10    -Wthinner -Slightgrey 
+
+		fi
 		gmt basemap  ${R_main} ${J_main} -Bafg -BWSne --MAP_TICK_LENGTH_PRIMARY=-.0c  -LJBL+w${scale_bar_width}k+l"km"+jBL+f+ar+o0.5c -Fl+gwhite --FONT_ANNOT_PRIMARY=6p --FONT_ANNOT_SECONDARY=6p --FONT_LABEL=10p 
 		gmt plot temp/region_bound.txt   ${R_main} ${J_main}  -W3p,black -L 
 		gmt plot temp/region_bound.txt    ${R_main} ${J_main}  -W2p,yellow -L  

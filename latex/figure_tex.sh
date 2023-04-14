@@ -92,9 +92,10 @@ do
 
 			if [ -z "${latex_location}" ]
 			then
-				location_space="${latex_location}"
-			else
 				location_space=$(echo ${location} | sed 's/_/ /g')
+
+			else
+				location_space="${latex_location}"
 			fi
 			
 

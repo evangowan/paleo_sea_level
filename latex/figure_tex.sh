@@ -95,7 +95,7 @@ do
 				location_space=$(echo ${location} | sed 's/_/ /g')
 
 			else
-				location_space="${latex_location}"
+				location_space=$(echo "${latex_location}" | sed 's/_/ /g')
 			fi
 			
 

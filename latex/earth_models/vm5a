@@ -1,0 +1,1 @@
+vm5a - The Earth model used with ICE-6G. It has a 60 km thick lithopshere, a 40 km thick layer below the lithosphere with a viscosity of 1$\times$10$^{22}$ Pa~s,  5$\times$10$^{20}$ Pa~s upper mantle, 1.6$\times$10$^{21}$ Pa~s lower mantle between 660 and 1160 km depth, and the rest of the lower mantle with 3.2$\times$10$^{21}$ Pa~s.

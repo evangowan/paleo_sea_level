@@ -14,6 +14,8 @@ mkdir -p temp
 mkdir -p references
 mkdir -p statistics
 
+echo ${reference_ice_model} ${reference_earth_model} > temp/reference_model.txt
+
 region_line=$(awk -v region=${region} --field-separator '\t' '{if (region==$1) {print NR}}' ../sea_level_data/region_list.txt)
 
 if [ -z "${region_line}" ]
@@ -342,6 +344,13 @@ ENDCAT
 
 		fi
 
+
+		echo ${number_data_points} >  ${statistics_file}
+		echo ${number_marine_limiting} >>  ${statistics_file}
+		echo ${number_terrestrial_limiting} >>  ${statistics_file}
+		echo ${number_index_points} >>  ${statistics_file}
+
+
 		# plot calculated curves:
 
 		if [ -n "${reference_ice_model}" ]
@@ -355,9 +364,13 @@ ENDCAT
 
 			score=$(awk '{print $1}' temp/score.txt)
 
+			echo ${score} >>  ${statistics_file}
+
 			gmt text << END ${J_sl_plot} ${R_sl_plot} -F+f10p,Helvetica,black,+cTR -D-0.2/-0.2 -Gwhite
 Score: ${score}
 END
+
+		
 
 		fi
 
@@ -367,10 +380,6 @@ END
 \# samples: ${number_data_points}
 END
 
-		echo ${number_data_points} >  ${statistics_file}
-		echo ${number_marine_limiting} >>  ${statistics_file}
-		echo ${number_terrestrial_limiting} >>  ${statistics_file}
-		echo ${number_index_points} >>  ${statistics_file}
 
 
 	gmt subplot end

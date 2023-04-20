@@ -1,0 +1,122 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[margin=2cm]{geometry}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{supertabular}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{import}
+\usepackage[sort]{natbib}
+\usepackage{times}
+\usepackage{url}
+\def\UrlBreaks{\do\/\do-\do\_}
+\usepackage[hidelinks]{hyperref}
+\usepackage{placeins}
+\usepackage[nobottomtitles]{titlesec}
+
+\usepackage[nottoc,notlot,notlof]{tocbibind}
+
+\usepackage{fontspec}
+\setmainfont{FreeSerif}
+\setsansfont{FreeSans}
+\setmonofont{FreeMono}
+
+\usepackage{polyglossia}
+\setdefaultlanguage{english}
+\setotherlanguages{russian}
+
+% Japanese text
+\usepackage{zxjatype}
+\setjamainfont{ipaexm.ttf}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1em}
+
+\begin{document}
+
+
+\title{Global Archive of Paleo Sea Level Indicators and Proxies (GAPSLIP), version 2.0}
+
+\author{Evan James Gowan}
+    
+\date{}
+
+\maketitle
+
+
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+
+
+\section{Introduction}
+
+One of the primary ways to assess the quality of paleo ice sheet reconstructions is to calculate the sea level change using a glacial isostatic adjustment (GIA) program, and compare the modelled sea level with records of past relative sea level. By comparing the spatial and temporal pattern of sea level changes, it becomes possible to deduce the history of the evolution of ice sheets. To accomplish this, I have created a framework called the Global Archive of Paleo Sea Level Indicators and Proxies (GAPSLIP). This framework can be found on Github (\url{https://github.com/evangowan/paleo_sea_level}), and is constantly being updated with new data. It contains a database of sea level indicators, that give an estimate of the position of past sea level, as well as marine and terrestrial limiting data and other sea level proxies. It also provides scripts to plot the data and put it into a unified report, like the one you are reading now.
+
+There have been recent efforts to compile sea level records into a unified format. Most notably the HOLSEA project has been set up for compiling records of the past 15,000 years \citep{KhanEtal2019},  and the WALIS (World Atlas of Last Interglacial Shorelines) database for the last interglacial period from 115,000 to 130,000 years ago \citep{RovereEtal2023}. For the HOLSEA project, regional scruitnized datasets have been assembled and placed into spreadsheets. The WALIS is a unified SQL database. At present, the HOLSEA project has many areas without compilations. There is also a lack of data compilations for the period between about 70,000 years ago to 15,000 years ago.
+
+For the purpose of GIA assessment, it is necessary to put these compilations into a format that makes data-model comparison possible. The information provided in the HOLSEA formatted spreadsheets makes it easy to do this, but other datasets found outside of this framework often require additional information that may need to be manually collected. For example, sometimes the location of the data is presented only in a map in the study, so this must be determined using an external program like Google Earth. I have noted all the alterations and additions that were needed before inclusion in the database in the ``scratch\_datasets" folder in the Github repository.
+
+The framework of this database makes it possible to re-calibrate radiocarbon dates, as many of the compilations were produced prior to the 2020 update of the calibration curves. The Marine20 marine calibration curve \citep{HeatonEtal2020} invalidated previous reservoir corrections due to a shift in the average ocean age, so it also was necessary to create new corrections via the Calib web tool (\url{http://calib.org/marine/}). Marine material in this database have been calibrated using Marine20 \citep{HeatonEtal2020}, Northern Hemisphere terrestrial material with IntCal20 \citep{ReimerEtal2020}, and Southern Hemisphere terrestrial material with SHCal20 \citep{HoggEtal2020}. All radiocarbon dates have been calibrated using OxCal version 4.4.2 \citep{BronkRamsey2009}. The database spreadsheets list the age uncertainty as 1-sigma. In the plots the calibrated ages, and the non-radiocarbon ages, are displayed and analyzed using 2-sigma limits.
+
+
+Whenever possible, I have tried to track down the original references to the data. This gives credit to the original authors, and also makes it easy for people to find more information if they need it. As of version 2.0, there are 1040 references in the database, most of which are data references. The references are collected in a bibtex file. For non-English studies, I have created fields that include the names, titles and journal names in the original language if available. Titles have been translated using DeepL (\url{https://www.deepl.com/translator}) when an English title is not given.
+
+
+
+\import{./}{changelog.tex}
+
+
+\section{Summary of ice and Earth models}
+
+
+
+The main models included here are from PaleoMIST. This is a global ice sheet reconstruction at a very crude 2500 year time step. I have started to use a 500 year linearally interpolated version, which should produce more accurate results in ice covered areas. This interpolation has less impact in far field regions.
+
+For this document, I use PaleoMIST 1.0. The minimal MIS~3 configuration reconstruction is PM\_1, while the maximal configuration is PM\_1\_A.
+
+
+For the Earth models, I created a shorthand scheme during my PHD, which I have continued to use. A full explanation can be found on the github page:
+
+\url{https://github.com/evangowan/icesheet/blob/master/global/earth_model_format_codes.txt}
+
+The full description of each model compared in this document is in this section.
+
+
+
+\subsection{Ice models}
+
+\import{temp/}{ice_models.tex}
+
+\subsection{Earth models}
+
+\import{temp/}{earth_models.tex}
+
+\newpage
+
+
+\import{./}{compilations.tex}
+
+\newpage
+
+\import{./}{statistics.tex}
+
+
+\newpage
+
+\import{figure_tex/}{summary.tex}
+
+\clearpage
+
+\newpage
+
+% bibliography
+\bibliographystyle{copernicus}
+\bibliography{references.bib}
+
+\end{document}

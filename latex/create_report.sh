@@ -2,7 +2,14 @@
 
 file_name="report"
 
+cat << END_CAT > temp/figure_parameters.sh
+six_models="temp/compare_models.txt"
+END_CAT
+
+
 bash figure_tex.sh
+
+
 
 rm *.aux *.bbl *.blg *.dvi *.log
 

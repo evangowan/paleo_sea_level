@@ -79,7 +79,7 @@ map_location=$(python3 python/check_region.py ${location} ../sea_level_data/${re
 
 
 
-gmt convert ../GIS/region_bounds.gmt -Slocation=${map_location} > temp/region_bound.txt
+gmt convert ../GIS/region_bounds.gmt -Slocation=${map_location}+e > temp/region_bound.txt
 
 awk --field-separator='\t' '{if ($1 != ">") print $1, $2}' temp/region_bound.txt > temp/region_bound_nocarrot.txt
 

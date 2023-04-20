@@ -68,6 +68,7 @@ fi
 
 cat << END_CAT >> statistics_tex/summary.tex
 
+
 \clearpage
 
 \subsection{${MIS_header}}
@@ -116,7 +117,11 @@ do
 			if [ ! -f figure_tex/${subregion}_${MIS}.tex ]
 			then
 				cat << END_CAT > figure_tex/${subregion}_${MIS}.tex 
+
+\FloatBarrier
+
 \subsubsection{${subregion_space}}
+
 
 END_CAT
 
@@ -135,13 +140,15 @@ END_CAT
 
 
 			cat << END_CAT >> figure_tex/${subregion}_${MIS}_figures.tex 
-\clearpage
 
-\begin{figure}[t]
+
+\begin{figure}[!ht]
 \includegraphics[width=\textwidth]{${plot}}
 \caption{Paleo-sea level and comparison of six models for subregion: ${subregion_space}, location: ${location_space}. References: ${references}. }
 \label{fig:${location}}
 \end{figure}
+
+
 
 END_CAT
 							#do # dummy to fix highlighting
@@ -162,11 +169,12 @@ then
 
 \clearpage
 
-\section{${MIS_header}}
+\section{${MIS_header} -- Sea level Indicators and Proxies }
 
 
 ${MIS_text}
 
+\FloatBarrier
 END_CAT
 
 
@@ -199,20 +207,11 @@ current_region="dummy"
 END_CAT
 
 
-		if [ "${region}" != "${current_region}" ] && [ "${current_region}" != "dummy" ]
-		then
 
-		cat << END_CAT >> statistics_tex/summary.tex
-
-\clearpage
-
-
-END_CAT
-
-fi
 
 			cat << END_CAT >> statistics_tex/summary.tex
 
+\FloatBarrier
 
 \subsubsection{${region_space}}
 
@@ -222,23 +221,28 @@ END_CAT
 
 		fi
 
-		if [ "${region}" = "${current_region}" ]
-		then
-			cat << END_CAT >> figure_tex/summary.tex
+#		if [ "${region}" = "${current_region}" ]
+#		then
+#			cat << END_CAT >> figure_tex/summary.tex
 
-\clearpage
+#\clearpage
 
-END_CAT
+#END_CAT
 
 
 
-		fi
+#		fi
 
 		current_region=${region}
 
 		cat figure_tex/${subregion}_${MIS}.tex >> figure_tex/summary.tex
 		cat figure_tex/${subregion}_${MIS}_figures.tex >> figure_tex/summary.tex
 
+#			cat << END_CAT >> figure_tex/summary.tex
+
+#\FloatBarrier
+
+#END_CAT
 
 		# create statistics table
 

@@ -9,7 +9,11 @@
 \usepackage{import}
 \usepackage[sort]{natbib}
 \usepackage{times}
+\usepackage{url}
+\def\UrlBreaks{\do\/\do-\do\_}
 \usepackage[hidelinks]{hyperref}
+\usepackage{placeins}
+\usepackage[nobottomtitles]{titlesec}
 
 \usepackage[nottoc,notlot,notlof]{tocbibind}
 
@@ -59,22 +63,7 @@ The accompanying paper is \citet{GowanEtal2021b}.
 Note that earlier versions of this report used the minimal scenario of PaleoMIST 1.0, but I now prefer the maximal scenario. The load is now linearly interpolated to 500 year time steps, which should provide a more realistic representation of ice sheet evolution, and therefore reduce the loading effects in the time series.
 
 
-Update on October 22, 2021:
-
-This document has been updated to include several additional sites at the LGM and MIS 3. It also has fixed an error in the Cairns and Mackay sites caused by incorrectly subtracting half of the depth range rather than adding it. I apologize for this error. For the coral data for Tahiti and Huon Peninsula, it was originally set to be marine limiting, since the living range was tens of meters. We now use the 2-sigma range determined by \citet{HibbertEtal2016}. We include the interpretations of sea level range by \citet{IshiwaEtal2019} and \citet{YokoyamaEtal2000} for the Bonaparte Gulf shallow marine/estuary/intertidal data in addition to my conservative marine limiting assignment. I also included the interpreted sea level of Huon Peninsula by \citet{deGelderEtal2022} for MIS 3 to compare with the coral depth range interpretation by \citet{HibbertEtal2016}. Finally, I also recalibrated all the radiocarbon dates using updated calibration curves published in 2020 \citep{HeatonEtal2020,HoggEtal2020,ReimerEtal2020}.
-
-Update on March 14, 2022:
-
-I have included data from the Baltic Sea and North Sea.
-
-Update on July 4, 2022:
-
-In this update, data from Antarctica are included. I have also updated the figures so that index points are now drawn as rectangles, rather than the green dots as before. I have used different shades of green depending on whether or not the indicator uncertainty is below or above 10 m.
-
-Update on April 12, 2023:
-
-I have revamped how the figures are plotted, as well as changing the format of the report a bit. This update includes data from Greenland and Australia. The Greenland data was largely compiled by myself, using the list by \citet{LecavalierEtal2014} as a starting point, but also including data not from that list. Notably, it includes the compilation of isolation basin based sea level indicators by \citet{LongEtal2011}. The data for Australia was largely derived from compilations by \citet{LewisEtal2013}, \citet{SlossEtal2007}, \citet{BelperioEtal2002}.
-
+\import{./}{changelog.tex}
 
 \section{Summary of ice and Earth models}
 

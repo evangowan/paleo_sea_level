@@ -1,4 +1,4 @@
-Paleo-sea level plotting and report generator
+Global Archive of Paleo Sea Level Indicators and Proxies (GAPSLIP)
 =============
 
 by:  
@@ -12,7 +12,7 @@ My research since around 2010 has focused on reconstructing ice sheets using gla
 
 When I started doing GIA modelling, there was no publicly available repository of sea level data that could be easily used for analysis. As a result, it was necessary to create something. During my PHD in 2013/2014, I created a bunch of scripts to compare sea level data from western Canada with an ice sheet reconstruction I made. This was done in a very chaotic and disorganized way, which was fine for when I was looking at a small area. In 2018-2020, I started working on a global reconstruction, and the demands for me to "show my work" in a model-data comparison forced me to create a more organized structure. This led me to create scripts to create reports that contain these plots.
 
-This was still done in a very tedious way. In 2022, I decided to rewrite the plotting scripts. This allowed me to move away from the clumsy Fortran files I created in my PHD. The updates significantly reduced the time it takes to add data, as I no longer had to manually set up the plot map, nor do I have to create separate folders for different time periods. 
+This was still done in a very tedious way. In 2022, I decided to rewrite the plotting scripts. This allowed me to move away from the clumsy Fortran files I created in my PHD. The updates significantly reduced the time it takes to add data, as I no longer had to manually set up the plot map, nor do I have to create separate folders for different time periods. From version 2.0, released in April 2023, I decided to call this repository the Global Archive of Paleo Sea Level Indicators and Proxies (GAPSLIP).
 
 Acknowledgements
 -------------
@@ -33,7 +33,9 @@ E.J.G acknowledges the following funding sources that made all this possible:
 - Swedish Research Council FORMAS grant (grant 2013-1600) (2014-2015)
 - Australian National University Postgraduate Research Scholarship. (2010-2014)
 
-If you use this script setup, please acknowlege using the following references.
+If you use this archive, please acknowlege using the following references.
+
+Gowan, E.J., in preparation. An assessment of the PaleoMIST 1.0 ice sheet reconstruction in Greenland using paleo sea level indicators and proxies.
 
 Gowan, E.J., Zhang, X., Khosravi, S., Rovere, A., Stocchi, P., Hughes, A.L., Gyllencreutz, R., Mangerud, J., Svendsen, J.I. and Lohmann, G., 2022. Reply to: Towards solving the missing ice problem and the importance of rigorous model data comparisons. Nature communications, 13(1), pp.1-5. https://doi.org/10.1038/s41467-022-33954-x
 
@@ -43,13 +45,15 @@ Gowan, E.J., Tregoning, P., Purcell, A., Montillet, J.P. and McClusky, S., 2016.
 
 Special thanks:
 
+- Stephen Lewis for sending me the spreadsheets with the Australia sea level data.
 - Alisa V. Baranskaya for sending me the complete references for the Russian sea level database, including translations.
 - Simon Engelhart for sending me the reservoir corrections for the eastern United States database.
 - Annemiek Vink and Juliane Scheder for sending me the spreadsheets with North Sea data.
+- The authors of Generic Mapping Tools, who fixed a couple of issues that were causing problems with plotting the data.
 
 Version history
 -------------
-
+- **Version 2.0**: The entire code base for the archive has been rewritten, and now uses a lot of Python instead of the old Fortran programs. The scripts I wrote substantially streamlines the database management. All of the data have been recalibrated using new reservoir corrections and the 2020 updates of the calibration curves. New datasets have been added for Greenland and Australia.
 - **Version 1.3**: Added Antarctica data for the Holocene and MIS 3, improved the presentation of index points on the plots, added the ability to calibrate mixed dates and terrestrial reservoir corrections, and improved documentation. (July 4, 2022)
 - **Version 1.2**: Updated the database with an update of the Baltic Sea dataset, and added sites from the North Sea. (March 15, 2022)
 - **Version 1.1**: Added some new LGM sites (including alternate Bonaparte Gulf interpretations), and modified some of the LGM and MIS 3 sites that I original set to have marine limiting points (due to large uncertainties) to have the originally interpreted sea level index ranges. (November 5, 2021)
@@ -109,6 +113,14 @@ If you want to recalibrate everything, it should be as simple as running the "ru
 
 The calibrated radiocarbon dates are recorded with 2-sigma uncertainties. In order to make the comparisons the same, the calibration script also takes other dates (which are recorded with 1-sigma uncertainties in the database) and converts them to use 2-sigma limits. All of the "calibrated.txt" dates have 2-sigma uncertainty ranges.
 
+IMCalc
+------------------
+
+In some cases, I have used the program IMCalc, originally written by Thomas Lorscheid and Alessio Rovere, to calculate the indicative meaning of sea level indicators. The program was originally written in Java, and I found it difficult to get it to run. Thomas and Alessio sent me the original source code, which I converted into a python script. At the moment, it is set up to only run from the command line. I wrote the main part as a class, so it should be easy to create other implementations. The Coastal Points Database (CPD.cpd), which is needed to run the program, needs to be downloaded from the IMCalc [Sourceforge page](https://sourceforge.net/projects/imcalc/files/ "Sourceforge"). Thanks to Thomas and Alessio for their assistance. Note that in the absence of an input vertical uncertainty, my script will set the uncertainty to 20% of the measurement elevation, to a maximum of 10 m.
+
+Lorscheid, T. and Rovere, A., 2019. The indicative meaning calculator–quantification of paleo sea-level relationships by using global wave and tide datasets. Open Geospatial Data, Software and Standards, 4, pp.1-8. https://doi.org/10.1186/s40965-019-0069-8
+
+
 Coastlines and borders
 ------------------
 
@@ -116,4 +128,22 @@ The GIS folder contains global coastlines and borders from GSHHG, which is licen
 
 Wessel, P. and Smith, W.H., 1996. A global, self‐consistent, hierarchical, high‐resolution shoreline database. Journal of Geophysical Research: Solid Earth, 101(B4), pp.8741-8743. https://doi.org/10.1029/96JB00104
 
+The coastlines in GSHHG are inaccurate in Greenland, especially for the northern parts of the island. To mitigate this problem, I instead plot the coastline generated from the BedMachine Greenland version 5 topography dataset (i.e. I extracted the 0 m contour). The script to do this is in the folder GIS/Greenland\_Coastline. Bedmachine Greenland can be downloaded below:
+
+Morlighem, M., Williams, C., Rignot, E., An, L., Arndt, J. E., Bamber, J., Catania, G., Chauché, N.,
+Dowdeswell, J. A., Dorschel, B., Fenty, I., Hogan, K., Howat, I., Hubbard, A., Jakobsson, M., Jordan, T. M.,
+Kjeldsen, K. K., Millan, R., Mayer, L., Mouginot, J., Noël, B., O'Cofaigh, C., Palmer, S. J., Rysgaard, S.,
+Seroussi, H., Siegert, M. J., Slabon, P., Straneo, F., van den Broeke, M. R., Weinrebe, W., Wood, M., &
+Zinglersen, K. (2022). IceBridge BedMachine Greenland, Version 5. Boulder,
+Colorado USA. NASA National Snow and Ice Data Center Distributed Active Archive Center.
+https://doi.org/10.5067/GMEVBWFLWA7X
+
+
+Morlighem, M., Williams, C., Rignot, E., An, L., Arndt, J. E., Bamber, J., Catania, G., Chauché, N.,
+Dowdeswell, J. A., Dorschel, B., Fenty, I., Hogan, K., Howat, I., Hubbard, A., Jakobsson, M., Jordan, T. M.,
+Kjeldsen, K. K., Millan, R., Mayer, L., Mouginot, J., Noël, B., O'Cofaigh, C., Palmer, S. J., Rysgaard, S.,
+Seroussi, H., Siegert, M. J., Slabon, P., Straneo, F., van den Broeke, M. R., Weinrebe, W., Wood, M., &
+Zinglersen, K. (2017). BedMachine v3: Complete bed topography and ocean bathymetry mapping of
+Greenland from multi-beam echo sounding combined with mass conservation. Geophysical Research
+Letters, 44. https://doi.org/10.1002/2017GL074954
 

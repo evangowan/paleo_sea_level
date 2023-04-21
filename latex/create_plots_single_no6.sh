@@ -29,7 +29,7 @@ END_CAT
 
 
 
-bash plot_script2.sh  temp/plot_parameters.sh
+bash plot_script.sh  temp/plot_parameters.sh
 
 
 

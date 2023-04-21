@@ -159,7 +159,7 @@ then
 	rm ${marine_limiting_map}
 fi
 
-if [ -f "${marine_limiting_map}" ]
+if [ -f "${terrestrial_limiting_map}" ]
 then
 	rm ${terrestrial_limiting_map}
 fi

@@ -8,6 +8,8 @@ END_CAT
 
 bash figure_tex.sh
 
+
+
 rm *.aux *.bbl *.blg *.dvi *.log
 
 # xelatex defaults to PDF version 1.5, so you have to manually set it to 1.7 to be compatible with psconvert PDF files

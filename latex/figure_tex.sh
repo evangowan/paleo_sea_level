@@ -82,6 +82,7 @@ do
 
 	number_locations=$(wc -l < ../sea_level_data/${region}/location_list.txt)
 	
+	first_region=true
 
 	for counter in $(seq 1 ${number_locations} )
 	do
@@ -113,18 +114,40 @@ do
 			
 
 
-
+			
 			if [ ! -f figure_tex/${subregion}_${MIS}.tex ]
 			then
-				cat << END_CAT > figure_tex/${subregion}_${MIS}.tex 
 
+				if [ "${first_region}" = false ]
+				then
+
+					if [ -z "${six_models}" ]
+					then
+
+
+
+						cat << END_CAT >> figure_tex/${subregion}_${MIS}.tex 
 \FloatBarrier
-
-\subsubsection{${subregion_space}}
 
 
 END_CAT
+		
 
+					else
+
+						cat << END_CAT >> figure_tex/${subregion}_${MIS}.tex 
+
+\clearpage
+
+END_CAT
+					fi
+				fi
+
+				cat << END_CAT >> figure_tex/${subregion}_${MIS}.tex 
+\subsubsection{${subregion_space}}
+
+END_CAT
+				first_region=false
 
 			fi
 
@@ -341,7 +364,7 @@ awk '{print $1}' temp/reference_model.txt > temp/ice_models.txt
 
 if [ ! -z "${six_models}" ]
 then
-	awk '{print $1}' temp/compare_models.txt >> temp/ice_models.txt
+	awk '{print $1}' ${six_models} >> temp/ice_models.txt
 fi
 
 sort temp/ice_models.txt > temp/ice_models2.txt
@@ -366,7 +389,7 @@ awk '{print $2}' temp/reference_model.txt > temp/earth_models.txt
 
 if [ ! -z "${six_models}" ]
 then
-	awk '{print $2}' temp/compare_models.txt >> temp/ice_models.txt
+	awk '{print $2}' ${six_models} >> temp/earth_models.txt
 fi
 
 sort temp/earth_models.txt > temp/earth_models2.txt

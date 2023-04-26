@@ -17,8 +17,8 @@ cat << END_CAT > temp/compare_models.txt
 PM_1_h ehgr
 PM_1_A_h_Ant_A ehgr
 PM_1_A_h eb0ggr
-PM_1_A_h efhC
-PM_1_A_h eegr
+PM_1_A_h efhl
+PM_1_A_h vm5a
 ICE-6G vm5a
 END_CAT
 

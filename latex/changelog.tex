@@ -18,7 +18,7 @@ I have included data from the Baltic Sea \citep{RosentauEtal2021} and North Sea 
 
 In this update, data from Antarctica are included \citep{BriggsTarasov2013,IshiwaEtal2021}. I have also updated the figures so that index points are now drawn as rectangles, rather than the green dots as before. I have used different shades of green depending on whether or not the indicator uncertainty is below or above 10 m.
 
-\subsection{Version 2.0: April 19, 2023}
+\subsection{Version 2.0: May 11, 2023}
 
 This version represents a substantial revision of the database structure. A lot of the analysis and plotting code that was originally written in Bash and Fortran has been rewritten in Python. The map plots are now generated automatically (previously, I manually created the map boundaries). There is now a ``scratch\_datasets" folder, where I store the spreadsheets with the original data. The scripts in the scratch datasets folder will automatically create the subregions in the ``sea\_level\_data" and extract the reservoir ages from the shapefiles in the GIS folder. The revised Marine20 calibration curve necessitated this move, as it invalidated the old reservoir ages. These changes means that the amount of time for upkeep and future data incorporation is substantially reduced.
 

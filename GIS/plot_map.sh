@@ -25,6 +25,6 @@ gmt pstext << END_CAT   -JX -R -P  -O -F+f8p+jBL >> ${plot}
 END_CAT
 
 gmt psconvert  ${plot}  -Tf -A
-gmt psconvert  ${plot}  -Tg -A
+gmt psconvert  ${plot}  -Tg -A -I+s240p
 
 rm ${plot}

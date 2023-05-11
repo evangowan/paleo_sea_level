@@ -1,0 +1,116 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[margin=2cm]{geometry}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{supertabular}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{import}
+\usepackage[sort]{natbib}
+\usepackage{times}
+\usepackage{url}
+\usepackage{url}
+\def\UrlBreaks{\do\/\do-\do\_}
+\usepackage[hidelinks]{hyperref}
+\usepackage{placeins}
+\usepackage[nobottomtitles]{titlesec}
+
+\usepackage[nottoc,notlot,notlof]{tocbibind}
+
+\usepackage{fontspec}
+\setmainfont{FreeSerif}
+\setsansfont{FreeSans}
+\setmonofont{FreeMono}
+
+\usepackage{polyglossia}
+\setdefaultlanguage{english}
+\setotherlanguages{russian}
+
+% Japanese text
+\usepackage{zxjatype}
+\setjamainfont{ipaexm.ttf}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1em}
+
+\begin{document}
+
+
+\title{Comparision of calculated and measured paleo-sea level proxies with PaleoMIST 1.0, Report 2, version 2.0}
+
+\author{Evan James Gowan}
+    
+\date{}
+
+\maketitle
+
+\normalsize As a supplement to ``\emph{A new global ice sheet reconstruction for the past 80\,000 years}" by Evan J. Gowan, Xu Zhang, Sara Khosravi, Alessio Rovere, Paolo Stocchi, Anna L. C. Hughes, Richard Gyllencreutz, Jan Mangerud, John-Inge Svendsen \& Gerrit Lohmann
+
+\textbf{Report 3}: Comparing different Greenland Models and lithospheric thickness values.
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+
+
+\section{Purpose of this document}
+
+In this report there is a detailed summary, including plots, of a worldwide compilation of paleo-sea level data, and seven ice sheet-Earth models. In this report, in addition to the version of PaleoMIST with an ice covered Hudson Bay in MIS 3, there are four models with a modified ice thickness for Greenland (one of these also has Antarctica at its modern configuration at 5000 years ago), and models with 60 km and 90 km lithosphere instead of the regular 120 km lithosphere. The goal of the alternative Greenland scenarios is to see if increasing the basal shear stress (and therefore increasing the ice thickness) would improve the misfit with the Holocene sea level data. The results show some improvement, but ultimately it is probable that the ice margin needs to be expanded prior to the Holocene.
+
+The accompanying paper is \citet{GowanEtal2021b}.
+
+
+\import{./}{changelog.tex}
+
+\section{Summary of ice and Earth models}
+
+
+
+The main models included here are from PaleoMIST. This is a global ice sheet reconstruction at a very crude 2500 year time step. I have started to use a 500 year interpolated version, which should produce more accurate results in ice covered areas, though it makes less impact in far field regions.
+
+For this document, I use PaleoMIST 1.0. The minimal MIS~3 configuration reconstruction is PM\_1, while the maximal configuration is PM\_1\_A
+
+
+For the Earth models, I created a shorthand scheme during my PHD, which I have continued to use. A full explanation can be found on the github page:
+
+\url{https://github.com/evangowan/icesheet/blob/master/global/earth_model_format_codes.txt}
+
+The full description of each model compared in this document is in this section.
+
+
+
+\subsection{Ice models}
+
+\import{temp/}{ice_models.tex}
+
+\subsection{Earth models}
+
+\import{temp/}{earth_models.tex}
+
+\newpage
+
+
+\import{./}{compilations.tex}
+
+\newpage
+
+\import{./}{statistics.tex}
+
+
+\newpage
+
+\import{figure_tex/}{summary.tex}
+
+\clearpage
+
+\newpage
+
+% bibliography
+\bibliographystyle{copernicus}
+\bibliography{references.bib}
+
+\end{document}

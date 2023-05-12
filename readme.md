@@ -18,6 +18,8 @@ This was still done in a very tedious way. In 2022, I decided to rewrite the plo
 
 As of version 2.0, the archive contains data for the last 15,000 years for eastern North America, Greenland, the Baltic and North Seas in Europe, northern Russia, southeastern Asia, Australia and Antarctica. I have also included data in select locations outside of these areas that provide sea level proxies for Marine Isotope Stage 4 and 3 and the Last Glacial Maximum (i.e. 80,000-15,000 years ago).
 
+A report that has plots of all of the data in the database can be found  [here](https://zenodo.org/record/7923608#.ZF2YhpFBw3E "GAPSLIP report"). More detailed model-data comparisons using the PaleoMIST reconstruction, as well as the calculated sea level can be found [here](https://zenodo.org/record/7923553#.ZF2ZTZFBw3E "PaleoMIST reports").
+
 <p align="center" style="font-size:20px;" ><b>Distribution of data points in GAPSLIP as of Version 2.0</b></p>
 
 <p align="center"><img src="GIS/data_map.png" alt="Global map showing data points in GAPSLIP" title="Distribution of data points in GAPSLIP"></p>

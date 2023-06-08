@@ -255,7 +255,7 @@ if has_data:
 			sea_level_curve = sl_only.iloc[closest_index]
 			
 			sea_level_curve_array = []
-			for age, sea_level in sea_level_curve.iteritems():
+			for age, sea_level in sea_level_curve.items():
 
 				sl_dict['age'] = float(age)
 				sl_dict['sea_level'] = float(sea_level)

@@ -14,3 +14,25 @@ One thing to be aware of is that not all of the proxy based sea level reconstruc
 - **Relative sea level**: This is the difference in elevation between some past sea level position relative to present sea level. In areas far from the ice sheets, this will be relatively close to barystatic sea level.
 
 When comparing different proxy records, it is important to understand that they may represent different sea level concepts. Most proxy records will represent something similar to ice volume sea level equivalent, but have been scaled based on an assumed value at a specific time (such as the Last Glacial Maximum). This is an important distinction, because an SLE will always be less than barystatic sea level when ice volume was greater than present (and the opposite when it was less).  Other records, like the Red Sea proxy record, represents relative sea level (in that case, the sea level at the Bab-el Mandeb strait). The relative sea level will diverge from the SLE, depending on glacial isostatic adjustment effects.
+
+Data contained here
+=============
+
+I have included a number of records in order to make comparisons of various proxy records. The scripts included here will extract this data and make plots in order to compare the records.
+
+
+Age boundaries
+==============
+
+Marine isotope stages are the standard way to delimit the age of Quaternary and Pliocene events. However, for flexibility, I have also included other potential age scales.
+
+The format of these files, in a space delimited text file is:
+
+start of interval|end of interval|interval name (text format)
+
+The ages are in years before present.
+
+- **lr04_MIS.txt** MIS stages based on the definitions by LRO4 (Lisiecki and Raymo, 2005)
+- **ics_periods.txt** International Commission on Stratigraphy defined geological periods
+- **ics_series.txt** International Commission on Stratigraphy defined geological series
+- **ics_stages.txt** International Commission on Stratigraphy defined geological stages

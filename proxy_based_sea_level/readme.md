@@ -26,7 +26,7 @@ Age boundaries
 
 Marine isotope stages are the standard way to delimit the age of Quaternary and Pliocene events. However, for flexibility, I have also included other potential age scales.
 
-The format of these files, in a space delimited text file is:
+The format of these files, in a tab delimited text file is:
 
 start of interval|end of interval|interval name (text format)
 
@@ -36,3 +36,22 @@ The ages are in years before present.
 - **ics_periods.txt** International Commission on Stratigraphy defined geological periods
 - **ics_series.txt** International Commission on Stratigraphy defined geological series
 - **ics_stages.txt** International Commission on Stratigraphy defined geological stages
+
+Sea Level
+==============
+
+This contains various estimate based on proxy or model estimates of sea level. I have put the data into the following tab delimited text file, with uncertainties if available. Most records do not have age uncertainties attached, as it is assumed the vertical uncertainty incorporates the uncertainty in age as well. I note if the records have age uncertainties, otherwise assume there are no uncertainties. 2-sigma uncertainties are used.
+
+Age (yr BP)|Sea Level (m)|age error|sea level error
+
+Note that these records are not necessarily measuring the same thing. Some foraminifera records will be a measure of "sea level equivalent", where the water volume is expressed as the total infered ice volume divided by the area of the modern ocean. The Red Sea record is a relative sea level record, pinned to the shallowest point of the Red Sea at the Hanish Sill.
+
+- **Spratt_Lisiecki_2016_PCA1_long.txt** Spratt and Liseiki (2016) principle component analysis of five records, from 0-798 kyr BP
+- **Spratt_Lisiecki_2016_PCA1_short.txt** Spratt and Liseiki (2016) principle component analysis of seven records, from 0-430 kyr BP
+- **Grant_etal_2014_Red_Sea_composite_data.txt** Grant et al (2014) Red Sea d18O proxy record, data from three cores and multiple sources, from 0-493 kyr BP
+- **Grant_etal_2014_Red_Sea_probabilistic.txt** Grant et al (2014) Red Sea d18O probabilistic assessment, from 0-492 kyr BP
+- **Waelbroeck_etal_2002_d18O.txt** Waelbroeck et al (2002) transfer function of d18O benthic foraminifera from an Atlantic and a Pacific core, from 0-430 kyr BP
+- **Shakum_etal_2015_planktic_d18O.txt** Shakum et al (2015) planktic formaminfera stack based sea level reconstruction, from 0-798 kyr BP
+- **Bintanja_etal_2005_model.txt** Bintanja et al (2005) ice sheet model based sea level estimate with LR04, from 0-1069.9 kyr BP
+- **Elderfield_etal_2012_ODP1123_Pacific_benthic.txt** Elderfield et al (2012) tranfer function of benthic d18O to sea level from core ODP 1123 Chatham Rise near New Zealand, from 7-1575 kyr BP
+- **Rohling_etal_2014_Mediterranean.txt** Rohling et al (2014) Mediterranean d18O stack with sapropels removed (this is a GMT formatted file to separate those intervals), from 0-5330 kyr BP

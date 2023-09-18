@@ -46,12 +46,25 @@ Age (yr BP)|Sea Level (m)|age error|sea level error
 
 Note that these records are not necessarily measuring the same thing. Some foraminifera records will be a measure of "sea level equivalent", where the water volume is expressed as the total infered ice volume divided by the area of the modern ocean. The Red Sea record is a relative sea level record, pinned to the shallowest point of the Red Sea at the Hanish Sill.
 
-- **Spratt_Lisiecki_2016_PCA1_long.txt** Spratt and Liseiki (2016) principle component analysis of five records, from 0-798 kyr BP
-- **Spratt_Lisiecki_2016_PCA1_short.txt** Spratt and Liseiki (2016) principle component analysis of seven records, from 0-430 kyr BP
-- **Grant_etal_2014_Red_Sea_composite_data.txt** Grant et al (2014) Red Sea d18O proxy record, data from three cores and multiple sources, from 0-493 kyr BP
-- **Grant_etal_2014_Red_Sea_probabilistic.txt** Grant et al (2014) Red Sea d18O probabilistic assessment, from 0-492 kyr BP
-- **Waelbroeck_etal_2002_d18O.txt** Waelbroeck et al (2002) transfer function of d18O benthic foraminifera from an Atlantic and a Pacific core, from 0-430 kyr BP
-- **Shakum_etal_2015_planktic_d18O.txt** Shakum et al (2015) planktic formaminfera stack based sea level reconstruction, from 0-798 kyr BP
-- **Bintanja_etal_2005_model.txt** Bintanja et al (2005) ice sheet model based sea level estimate with LR04, from 0-1069.9 kyr BP
-- **Elderfield_etal_2012_ODP1123_Pacific_benthic.txt** Elderfield et al (2012) tranfer function of benthic d18O to sea level from core ODP 1123 Chatham Rise near New Zealand, from 7-1575 kyr BP
-- **Rohling_etal_2014_Mediterranean.txt** Rohling et al (2014) Mediterranean d18O stack with sapropels removed (this is a GMT formatted file to separate those intervals), from 0-5330 kyr BP
+
+| File Name | reference | description | age range |
+| --- | --- | --- | --- |
+| **Spratt_Lisiecki_2016_PCA1_long.txt** | Spratt and Liseiki (2016) | principle component analysis of five records | 0-798 kyr BP |
+| **Spratt_Lisiecki_2016_PCA1_short.txt** | Spratt and Liseiki (2016) | principle component analysis of seven records | 0-430 kyr BP |
+| **Grant_etal_2014_Red_Sea_composite_data.txt** | Grant et al (2014) | Red Sea d18O proxy record, data from three cores and multiple sources | 0-493 kyr BP |
+| **Grant_etal_2014_Red_Sea_probabilistic.txt** | Grant et al (2014) | Red Sea d18O probabilistic assessment | 0-492 kyr BP |
+| **Waelbroeck_etal_2002_d18O.txt** | Waelbroeck et al (2002) | transfer function of d18O benthic foraminifera from an Atlantic and a Pacific core |  0-430 kyr BP |
+| **Shakum_etal_2015_planktic_d18O.txt** | Shakum et al (2015) | planktic formaminfera stack based sea level reconstruction |  0-798 kyr BP |
+| **Bintanja_etal_2005_model.txt** | Bintanja et al (2005) | ice sheet model based sea level estimate with LR04 |  0-1069.9 kyr BP |
+| **Elderfield_etal_2012_ODP1123_Pacific_benthic.txt** | Elderfield et al (2012) | transfer function of benthic d18O to sea level from core ODP 1123 Chatham Rise near New Zealand |  7-1575 kyr BP |
+| **Rohling_etal_2014_Mediterranean.txt** | Rohling et al (2014) | Mediterranean d18O stack with sapropels removed (this is a GMT formatted file to separate those intervals) |  0-5330 kyr BP |
+| **Rohling_etal_2022_Westerhold_process_original.txt** | Rohling et al (2022) | Process model based on Westerhold et al (2020) d18O synthesis -- original age model using median bootstrap sea level  |  0-40195 kyr BP |
+| **Rohling_etal_2022_Westerhold_process_tuned.txt** | Rohling et al (2022) | Process model based on Westerhold et al (2020) d18O synthesis -- tuned age model using median bootstrap sea level  |  0-40195 kyr BP |
+| **Rohling_etal_2022_Westerhold_process_alt.txt** | Rohling et al (2022) | Process model based on Westerhold et al (2020) d18O synthesis -- alternative tuned age model using Westerhold 2020 data >792 kyr BP using median bootstrap sea level  |  0-40195 kyr BP |
+| **Rohling_etal_2022_LR04_process_original.txt** | Rohling et al (2022) | Process model based on LR04 d18O synthesis -- original age model using median bootstrap sea level  |  0-5300 kyr BP |
+| **Rohling_etal_2022_LR04_process_tuned.txt** | Rohling et al (2022) | Process model based on LR04 d18O synthesis -- tuned age model using median bootstrap sea level  |  0-5300 kyr BP |
+| **Rohling_etal_2022_LR04_process_alt.txt** | Rohling et al (2022) | Process model based on LR04 d18O synthesis -- alternative tuned age model using Westerhold 2020 data >792 kyr BP using median bootstrap sea level  |  0-5300 kyr BP | 
+| **Rohling_etal_2022_sythesis_process_tuned.txt** | Rohling et al (2022) | Process model based on a systhesis of LR04 and Westerhold d18O syntheses -- tuned age model using median bootstrap sea level  |  0-5300 kyr BP |
+| **Rohling_etal_2022_sythesis_process_alt.txt** | Rohling et al (2022) | Process model based on a systhesis of LR04 and Westerhold d18O syntheses -- alternative tuned age model using Westerhold 2020 data >792 kyr BP using median bootstrap sea level  |  0-5300 kyr BP |
+| **Sosdian_Rosenthal_2009_North_Atlantic_benthic.txt** | Sosdian and Rosenthal (2009) | North Atlantic d18O record mostly from DSDP site 607, except for the late Pleistocene from piston core, Chain 82-24-23 | 10-3154 kyr BP |
+| **Sosdian_Rosenthal_2009_North_Atlantic_benthic_3pt.txt** | Sosdian and Rosenthal (2009) | North Atlantic d18O record mostly from DSDP site 607, except for the late Pleistocene from piston core, Chain 82-24-23 - 3 point average | 10-3154 kyr BP |

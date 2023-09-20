@@ -71,7 +71,7 @@ Age (yr BP)|Sea Level (m)|age error (2-sigma)|sea level error (2-sigma)
 18O
 ==============
 
-This contains time series of δ<sup>18</sup>O records. As with the sea level records, I have have included 2-sigma uncertainty ranges. If an age uncertainty is given, I have noted it in the table below, otherwise there are no age uncertainties in the files. The file format is as below:
+This contains time series of δ<sup>18</sup>O records. As with the sea level records, I have have included 2-sigma uncertainty ranges. If an age uncertainty is given, I have noted it in the table below, otherwise there are no age uncertainties in the files. The file format is tab delimited as below:
 
 Age (yr BP)|δ<sup>18</sup>O (‰)|age error (2-sigma)|δ<sup>18</sup>O error (2-sigma)
 
@@ -80,3 +80,5 @@ Age (yr BP)|δ<sup>18</sup>O (‰)|age error (2-sigma)|δ<sup>18</sup>O error (2
 | File Name | reference | description | age range |
 | --- | --- | --- | --- |
 | **lr04.txt** | Liseiki and Raymo (2004) | Stack of 57 benthic foraminifera δ<sup>18</sup>O records, with an orbitally tuned age model | 0-5300 kyr BP |
+| **Westerhold_etal_2020_d18O_VPDB_CorrAdjusted.txt** | Westerhold et al (2020) | Cenozoic splice of benthic foraminifera δ<sup>18</sup>O records using a +0.45 ‰ to correct for the difference between Pacific and Atlantic basins. Note there are no uncertainties. | 0-67100 kyr BP |
+| **Westerhold_etal_2020_d18O_smoothLoess10.txt** | Westerhold et al (2020) | Cenozoic splice of benthic foraminifera δ<sup>18</sup>O records using 10 point LOESS smoothing. Note there are no uncertainties. | 0-67100 kyr BP |

@@ -1,9 +1,9 @@
 Proxy based sea level estimates
 =============
 
-Direct sea level indicators are exceedingly rare prior to about 20,000 years before present, with the exception of a few periods where sea level was higher than present (for example MIS 5e and 11 and the Pliocene). This is because sea level fluctuations due to the growth and retreat of ice sheets generally destroyed the indicators except in a few rare places where tectonic uplift rates exceed about 1.8 m/kyr. 
+Direct sea level indicators are exceedingly rare prior to about 20,000 years before present, with the exception of a few periods where sea level was higher than present (for example MIS 5e and 11 and the Pliocene). This is because sea level fluctuations due to the growth and retreat of ice sheets generally destroyed the indicators except in a few rare places where tectonic uplift rates are high enough to protect the deposits. 
 
-As a result of this, plus the desire for having more continuous records of sea level, there have been a number of attempts to deduce sea level from ocean oxygen isotope proxy records. The oxygen isotopes are generally measured based on the ratio of <sup>18</sup>O and <sup>16</sup>O. The lighter isotope of oxygen, <sup>16</sup>O, is preferentially taken out of the ocean when evaporated. As a result, when an ice sheet builds up, the amount of <sup>18</sup>O in the ocean increases. The oxygen isotope ratio in the ocean is generally measured from the fossils of tests (shells) of foraminifera extracted from sediment cores. Such records extend back to the K-Pg boundary (66 million years ago). The conversion of the ratio to "sea level" is not straight forward because the ratio of the isotopes in foraminifera is also dependent on the temperature and salinity of the water in which the foraminfera lived. The success in infering sea level is dependent on correctly accounting for these factors using other proxies.
+As a result of this, plus the desire for having more continuous records of sea level, there have been a number of attempts to deduce sea level from ocean oxygen isotope proxy records. The oxygen isotope proxy records are measured based on the ratio of <sup>18</sup>O and <sup>16</sup>O. The lighter isotope of oxygen, <sup>16</sup>O, is preferentially taken out of the ocean when evaporated. As a result, when an ice sheet builds up, the amount of <sup>18</sup>O in the ocean increases. The oxygen isotope ratio in the ocean is generally measured from the fossils of tests (shells) of foraminifera extracted from sediment cores. Such records extend back to the K-Pg boundary (66 million years ago). The conversion of the ratio to "sea level" is not straight forward because the ratio of the isotopes in foraminifera is also dependent on the temperature and salinity of the water in which the foraminfera lived. In addition, it takes time for the ocean to become well mixed, so different ocean basins will reflect changes due ice volume at different times. The success in infering sea level is dependent on correctly accounting for these factors using other proxies.
 
 For the past 5 million years, the standard nomenclature describing fluctuations in ocean oxygen proxies are known as Marine Isotope Stages (MIS). In this nomenclature, periods with realtively low values of <sup>18</sup>O/<sup>16</sup>O are odd numbered and represent warm periods with relatively smaller ice sheets, while high values of <sup>18</sup>O/<sup>16</sup>O represent cold periods with realtively large ice sheets. The standard for defining the MIS boundaries is the LR04 curve (Lisieki and Raymo, 2005), which used a stack of a number of benthic foraminifera proxy records from around the world using an orbitally tuned time scale.
 
@@ -18,7 +18,7 @@ When comparing different proxy records, it is important to understand that they 
 Data contained here
 =============
 
-I have included a number of records in order to make comparisons of various proxy records. The scripts included here will extract this data and make plots in order to compare the records.
+I have included a number of records in order to make comparisons of various proxy records. The example scripts included here will extract this data and make plots in order to compare the records.
 
 
 Age boundaries
@@ -40,11 +40,9 @@ The ages are in years before present.
 Sea Level
 ==============
 
-This contains various estimate based on proxy or model estimates of sea level. I have put the data into the following tab delimited text file, with uncertainties if available. Most records do not have age uncertainties attached, as it is assumed the vertical uncertainty incorporates the uncertainty in age as well. I note if the records have age uncertainties, otherwise assume there are no uncertainties. 2-sigma uncertainties are used.
+This contains various estimate based on proxy or model estimates of sea level. I have put the data into the following tab delimited text file format, with uncertainties if available. Most records do not have age uncertainties attached, as it is assumed the vertical uncertainty incorporates the uncertainty in age as well. I note if the records have age uncertainties, otherwise assume there are no uncertainties. 2-sigma uncertainties are used in the files. If the record does not note whether the uncertainty is 1 or 2 sigma, I have assumed it was reported as 1 sigma.
 
-Age (yr BP)|Sea Level (m)|age error|sea level error
-
-Note that these records are not necessarily measuring the same thing. Some foraminifera records will be a measure of "sea level equivalent", where the water volume is expressed as the total infered ice volume divided by the area of the modern ocean. The Red Sea record is a relative sea level record, pinned to the shallowest point of the Red Sea at the Hanish Sill.
+Age (yr BP)|Sea Level (m)|age error (2-sigma)|sea level error (2-sigma)
 
 
 | File Name | reference | description | age range |
@@ -64,7 +62,7 @@ Note that these records are not necessarily measuring the same thing. Some foram
 | **Rohling_etal_2022_LR04_process_original.txt** | Rohling et al (2022) | Process model based on LR04 d18O synthesis -- original age model using median bootstrap sea level  |  0-5300 kyr BP |
 | **Rohling_etal_2022_LR04_process_tuned.txt** | Rohling et al (2022) | Process model based on LR04 d18O synthesis -- tuned age model using median bootstrap sea level  |  0-5300 kyr BP |
 | **Rohling_etal_2022_LR04_process_alt.txt** | Rohling et al (2022) | Process model based on LR04 d18O synthesis -- alternative tuned age model using Westerhold 2020 data >792 kyr BP using median bootstrap sea level  |  0-5300 kyr BP | 
-| **Rohling_etal_2022_sythesis_process_tuned.txt** | Rohling et al (2022) | Process model based on a systhesis of LR04 and Westerhold d18O syntheses -- tuned age model using median bootstrap sea level  |  0-5300 kyr BP |
-| **Rohling_etal_2022_sythesis_process_alt.txt** | Rohling et al (2022) | Process model based on a systhesis of LR04 and Westerhold d18O syntheses -- alternative tuned age model using Westerhold 2020 data >792 kyr BP using median bootstrap sea level  |  0-5300 kyr BP |
+| **Rohling_etal_2022_synthesis_process_tuned.txt** | Rohling et al (2022) | Process model based on a systhesis of LR04 and Westerhold d18O syntheses -- tuned age model using median bootstrap sea level  |  0-5300 kyr BP |
+| **Rohling_etal_2022_synthesis_process_alt.txt** | Rohling et al (2022) | Process model based on a systhesis of LR04 and Westerhold d18O syntheses -- alternative tuned age model using Westerhold 2020 data >792 kyr BP using median bootstrap sea level  |  0-5300 kyr BP |
 | **Sosdian_Rosenthal_2009_North_Atlantic_benthic.txt** | Sosdian and Rosenthal (2009) | North Atlantic d18O record mostly from DSDP site 607, except for the late Pleistocene from piston core, Chain 82-24-23 | 10-3154 kyr BP |
 | **Sosdian_Rosenthal_2009_North_Atlantic_benthic_3pt.txt** | Sosdian and Rosenthal (2009) | North Atlantic d18O record mostly from DSDP site 607, except for the late Pleistocene from piston core, Chain 82-24-23 - 3 point average | 10-3154 kyr BP |

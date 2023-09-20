@@ -44,6 +44,7 @@ This contains various estimate based on proxy or model estimates of sea level. I
 
 Age (yr BP)|Sea Level (m)|age error (2-sigma)|sea level error (2-sigma)
 
+<p></p>
 
 | File Name | reference | description | age range |
 | --- | --- | --- | --- |
@@ -66,3 +67,16 @@ Age (yr BP)|Sea Level (m)|age error (2-sigma)|sea level error (2-sigma)
 | **Rohling_etal_2022_synthesis_process_alt.txt** | Rohling et al (2022) | Process model based on a systhesis of LR04 and Westerhold d18O syntheses -- alternative tuned age model using Westerhold 2020 data >792 kyr BP using median bootstrap sea level  |  0-5300 kyr BP |
 | **Sosdian_Rosenthal_2009_North_Atlantic_benthic.txt** | Sosdian and Rosenthal (2009) | North Atlantic d18O record mostly from DSDP site 607, except for the late Pleistocene from piston core, Chain 82-24-23 | 10-3154 kyr BP |
 | **Sosdian_Rosenthal_2009_North_Atlantic_benthic_3pt.txt** | Sosdian and Rosenthal (2009) | North Atlantic d18O record mostly from DSDP site 607, except for the late Pleistocene from piston core, Chain 82-24-23 - 3 point average | 10-3154 kyr BP |
+
+18O
+==============
+
+This contains time series of δ<sup>18</sup>O records. As with the sea level records, I have have included 2-sigma uncertainty ranges. If an age uncertainty is given, I have noted it in the table below, otherwise there are no age uncertainties in the files. The file format is as below:
+
+Age (yr BP)|δ<sup>18</sup>O (‰)|age error (2-sigma)|δ<sup>18</sup>O error (2-sigma)
+
+<p></p>
+
+| File Name | reference | description | age range |
+| --- | --- | --- | --- |
+| **lr04.txt** | Liseiki and Raymo (2004) | Stack of 57 benthic foraminifera δ<sup>18</sup>O records, with an orbitally tuned age model | 0-5300 kyr BP |

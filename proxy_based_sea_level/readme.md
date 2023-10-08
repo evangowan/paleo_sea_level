@@ -67,6 +67,9 @@ Age (yr BP)|Sea Level (m)|age error (2-sigma)|sea level error (2-sigma)
 | **Rohling_etal_2022_synthesis_process_alt.txt** | Rohling et al (2022) | Process model based on a systhesis of LR04 and Westerhold d18O syntheses -- alternative tuned age model using Westerhold 2020 data >792 kyr BP using median bootstrap sea level  |  0-5300 kyr BP |
 | **Sosdian_Rosenthal_2009_North_Atlantic_benthic.txt** | Sosdian and Rosenthal (2009) | North Atlantic d18O record mostly from DSDP site 607, except for the late Pleistocene from piston core, Chain 82-24-23 | 10-3154 kyr BP |
 | **Sosdian_Rosenthal_2009_North_Atlantic_benthic_3pt.txt** | Sosdian and Rosenthal (2009) | North Atlantic d18O record mostly from DSDP site 607, except for the late Pleistocene from piston core, Chain 82-24-23 - 3 point average | 10-3154 kyr BP |
+| **Miller_etal_2020_Pacific_benthic_d180.txt** | Miller et al (2020) | Pacific benthic d18O splice corrected for temperature using Mg/Ca | 0-66611 kyr BP |
+| **Miller_etal_2020_Pacific_benthic_d180_smooth.txt** | Miller et al (2020) | Pacific benthic d18O splice corrected for temperature using Mg/Ca, 2 Ma smoothing | 980-64820 kyr BP |
+
 
 18O
 ==============

@@ -1,3 +1,5 @@
 Kikaijima_(1.7_mm).ods	1.7_mm	(1.7 mm/yr uplift rate)	(1.7 mm/yr)
 Kikaijima_(1.9_mm).ods	1.9_mm	(1.9 mm/yr uplift rate)	(1.9 mm/yr)
+Kikaijima_(2.0_mm).ods	2.0_mm	(2.0 mm/yr uplift rate)	(2.0 mm/yr)
 Kikaijima_(2.1_mm).ods	2.1_mm	(2.1 mm/yr uplift rate)	(2.1 mm/yr)
+Kikaijima_(2.3_mm).ods	2.3_mm	(2.3 mm/yr uplift rate)	(2.3 mm/yr)

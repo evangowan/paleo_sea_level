@@ -12,7 +12,7 @@ plot_height=float(sys.argv[4])
 
 
 # this list contains the possible MIS stages that can be plotted right now
-mis_options = ['MIS_1-2', 'MIS_3-4', 'MIS_5_a_d', 'MIS_5e' ]
+mis_options = ['MIS_1-2', 'MIS_3-4', 'MIS_5_a_d', 'MIS_5e', 'MIS_1-6' ]
 
 col_names = ["sample_code", "latitude", "longitude", "median_age", "age_uncertainty", "indicator_type", "rsl", "rsl_upper", "rsl_lower", "references"]
 
@@ -26,17 +26,25 @@ stage_2 = False
 stage_3_4 = False
 stage_5_a_d = False
 stage_5e = False
+stage_1_6 = False
 
 stage_1_2_data = []
 stage_3_4_data = []
 stage_5_a_d_data = []
 stage_5e_data = []
+stage_1_6_data = []
 
 
 
 
 # note this is not specifically the MIS boundaries, but is for nicer plotting
 for index, row in data_list.iterrows():
+
+	if row['median_age'] <=180000.0: 
+		stage_1_6 = True
+		stage_1_6_data.append(row)
+
+
 	if row['median_age'] <=10000.0: 
 		holocene = True
 		stage_1_2_data.append(row)
@@ -158,6 +166,18 @@ elif mis == "MIS_5e":
 		age_subtick=2.5
 
 		selected_data = stage_5e_data.copy()			
+		data_found = True
+
+elif mis == "MIS_1-6":
+
+	if stage_1_6:
+
+		min_time=0
+		max_time=200
+		age_tick=20
+		age_subtick=5
+
+		selected_data = stage_1_6_data.copy()			
 		data_found = True
 
 else:

@@ -181,7 +181,7 @@ def find_score(sea_level_curve,data_point):
 threshold_distance=5000
 
 # this list contains the possible MIS stages that can be plotted right now
-mis_options = ['MIS_1-2', 'MIS_3-4', 'MIS_5_a_d', 'MIS_5e' ]
+mis_options = ['MIS_1-2', 'MIS_3-4', 'MIS_5_a_d', 'MIS_5e', 'MIS_1-6' ]
 
 
 
@@ -217,6 +217,9 @@ for index, row in data_list.iterrows():
 		has_data = True
 		relevant_data.append(row)
 	elif row['median_age'] <= 135000.0 and row['median_age'] > 115000.0 and mis == "MIS_5e":
+		has_data = True
+		relevant_data.append(row)
+	elif row['median_age'] <= 180000.0 and row['median_age'] > 0. and mis == "MIS_1-6":
 		has_data = True
 		relevant_data.append(row)
 

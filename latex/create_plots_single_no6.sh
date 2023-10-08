@@ -8,7 +8,7 @@ location=$2
 
 mis=$3
 
-reference_ice_model="PM_1_A_h"
+reference_ice_model="PM_1_A_h_Ant_A"
 reference_earth_model="ehgr"
 
 mkdir -p temp

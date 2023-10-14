@@ -69,7 +69,16 @@ Age (yr BP)|Sea Level (m)|age error (2-sigma)|sea level error (2-sigma)
 | **Sosdian_Rosenthal_2009_North_Atlantic_benthic_3pt.txt** | Sosdian and Rosenthal (2009) | North Atlantic d18O record mostly from DSDP site 607, except for the late Pleistocene from piston core, Chain 82-24-23 - 3 point average | 10-3154 kyr BP |
 | **Miller_etal_2020_Pacific_benthic_d180.txt** | Miller et al (2020) | Pacific benthic d18O splice corrected for temperature using Mg/Ca | 0-66611 kyr BP |
 | **Miller_etal_2020_Pacific_benthic_d180_smooth.txt** | Miller et al (2020) | Pacific benthic d18O splice corrected for temperature using Mg/Ca, 2 Ma smoothing | 980-64820 kyr BP |
-
+| **Bates_et_al_2014_benthic_d18O_composite.txt** | Bates et al (2014) | Benthic d18O composite of east equitorial Pacific cores from Shackleton et al 1990 | 0-6137 kyr BP |
+| **Bates_et_al_2014_benthic_d18O_94-607.txt** | Bates et al (2014) | Benthic d18O from DSDP site 94-607 | 0-3262 kyr BP |
+| **Bates_et_al_2014_benthic_d18O_108-659.txt** | Bates et al (2014) | Benthic d18O from DSDP site 94-607 | 2-4951 kyr BP |
+| **Bates_et_al_2014_benthic_d18O_121-758.txt** | Bates et al (2014) | Benthic d18O from ODP site 121-758 | 0-3575 kyr BP |
+| **Bates_et_al_2014_benthic_d18O_138-849.txt** | Bates et al (2014) | Benthic d18O from ODP site 138-849 | 4-4978 kyr BP |
+| **Bates_et_al_2014_benthic_d18O_162-980.txt** | Bates et al (2014) | Benthic d18O from ODP composite site 162-980/981 | 1-3912 kyr BP |
+| **Bates_et_al_2014_benthic_d18O_177-1090.txt** | Bates et al (2014) | Benthic d18O from ODP site 177-1090 | 3-2720 kyr BP |
+| **Bates_et_al_2014_benthic_d18O_181-1123.txt** | Bates et al (2014) | Benthic d18O from ODP site 181-1123 | 7-1546 kyr BP |
+| **Bates_et_al_2014_benthic_d18O_184-1143.txt** | Bates et al (2014) | Benthic d18O from ODP site 184-1143 | 0-5021 kyr BP |
+| **Bates_et_al_2014_benthic_d18O_184-1148.txt** | Bates et al (2014) | Benthic d18O from ODP site 184-1148 | 0-23103 kyr BP |
 
 18O
 ==============

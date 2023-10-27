@@ -104,8 +104,8 @@ else:
 				location_info['region_folder'] = region + "_" + folder_extension
 				location_info['region'] = region
 
-				location_info['latex'] = region + " " + latex_extension
-				location_info['gmt'] = region + " " + gmt_extension
+				location_info['latex'] =  latex_extension
+				location_info['gmt'] =  gmt_extension
 
 				location_info_list.append(location_info.copy())
 
@@ -128,20 +128,49 @@ if 	write_location:
 
 	region_bounds_file="../GIS/region_bounds.shp"
 
-	region_bounds= geopandas.read_file(region_bounds_file)
+	region_bounds= geopandas.read_file(region_bounds_file, encoding='utf-8')
 
 
 	for line in location_info_list:
 		line['wider_region'] = region_bounds.loc[region_bounds['location'] == line['region'], 'subregion'].to_string(index=False)
+
+		temp_latex = region_bounds.loc[region_bounds['location'] == line['region'], 'latex'].to_string(index=False)
+		if temp_latex == "NaN":
+			temp_latex = ''
+
+		if line['latex']:
+			if temp_latex:
+				line['latex'] = temp_latex + ' ' + line['latex']
+			else:
+				line['latex'] = line['region'] + ' ' + temp_latex
+		else:
+			if temp_latex:
+				line['latex'] = temp_latex
+
+
+		temp_gmt = region_bounds.loc[region_bounds['location'] == line['region'], 'gmt'].to_string(index=False)
+		if temp_gmt == "NaN":
+			temp_gmt = ''
+
+		if line['gmt']:
+			if temp_gmt:
+				line['gmt'] = temp_gmt + ' ' + line['gmt']
+			else:
+				line['gmt'] = line['region'] + ' ' + temp_gmt
+		else:
+			if temp_gmt:
+				line['gmt'] = temp_gmt
 
 
 
 	location_info_list = sorted(location_info_list, key=lambda d: d['region_folder'])
 	location_info_list = sorted(location_info_list, key=lambda d: d['wider_region']) 
 
+
+
 	csv_file = main_directory  + "/location_list.txt"
 
-	location_out = open(csv_file, 'w')
+	location_out = open(csv_file, 'w', encoding='utf-8')
 	csv_out = csv.writer(location_out, delimiter='\t')
 	for dictionary in location_info_list:
 		csv_out.writerow(dictionary.values())

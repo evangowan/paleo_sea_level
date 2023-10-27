@@ -161,13 +161,15 @@ END_CAT
 
 			# now make the file for the figures
 
+			
+
 
 			cat << END_CAT >> figure_tex/${subregion}_${MIS}_figures.tex 
 
 
 \begin{figure}[!ht]
 \includegraphics[width=\textwidth]{${plot}}
-\caption{Paleo-sea level and comparison of six models for subregion: ${subregion_space}, location: ${location_space}. References: ${references}. }
+\caption{Paleo-sea level and comparison with calculated sea level for subregion: ${subregion_space}, location: ${location_space}. References: ${references}. }
 \label{fig:${location}}
 \end{figure}
 

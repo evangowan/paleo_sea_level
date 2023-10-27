@@ -98,19 +98,23 @@ do
 
 			stats=$(cat statistics/${region}_${location}_${MIS}.txt | tr '\n' ' ')
 
-			echo ${location} ${stats} >> temp/subregion_temp/${subregion}_${MIS}.txt
+			if [ -z "${latex_location}" ]
+			then
+				location_space=$(echo ${location} | sed 's/_/ /g')
+				location_nospace=${location}
+
+			else
+				location_space=$(echo "${latex_location}" | sed 's/_/ /g')
+				location_nospace=$(echo "${latex_location}" | sed 's/ /_/g')
+			fi
+
+			echo ${location_nospace} ${stats} >> temp/subregion_temp/${subregion}_${MIS}.txt
 
 			echo -e "${region}\t${subregion}" >> temp/subregions.txt
 
 			subregion_space=$(echo ${subregion} | sed 's/_/ /g')
 
-			if [ -z "${latex_location}" ]
-			then
-				location_space=$(echo ${location} | sed 's/_/ /g')
 
-			else
-				location_space=$(echo "${latex_location}" | sed 's/_/ /g')
-			fi
 			
 
 

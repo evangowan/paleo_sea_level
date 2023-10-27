@@ -1,4 +1,3 @@
-Cape_Morris_Jesup	Northeast_Greenland	Cape_Morris_Jesup		
 Danmarks_Fjord	Northeast_Greenland	Danmarks_Fjord		
 Frederick_E_Hyde_Fjord	Northeast_Greenland	Frederick_E_Hyde_Fjord		
 Germania_Land	Northeast_Greenland	Germania_Land		
@@ -8,20 +7,21 @@ Independence_Fjord	Northeast_Greenland	Independence_Fjord
 JP_Koch_Fjord	Northeast_Greenland	JP_Koch_Fjord		
 Jameson_Land	Northeast_Greenland	Jameson_Land		
 Kap_Clarence_Wyckoff	Northeast_Greenland	Kap_Clarence_Wyckoff		
-Kempes_Fjord	Northeast_Greenland	Kempes_Fjord		
-Kong_Oscars_Fjord	Northeast_Greenland	Kong_Oscars_Fjord		
+Kap_Morris_Jesup	Northeast_Greenland	Kap_Morris_Jesup		
+Kempe_Fjord	Northeast_Greenland	Kempe_Fjord		
+Kong_Oscar_Fjord	Northeast_Greenland	Kong_Oscar_Fjord		
 Nansen_land	Northeast_Greenland	Nansen_land		
 Nioghalvfjerdsfjorden	Northeast_Greenland	Nioghalvfjerdsfjorden		
-Prinsesse_Ingeborg_Halvoe	Northeast_Greenland	Prinsesse_Ingeborg_Halvoe		
+Prinsesse_Ingeborg_Halvoe	Northeast_Greenland	Prinsesse_Ingeborg_Halvoe	Prinsesse Ingeborg Halvø	Prinsesse Ingeborg Halv\370
 Renland	Northeast_Greenland	Renland		
 Schuchert_Dal	Northeast_Greenland	Schuchert_Dal		
-Traill_Oe	Northeast_Greenland	Traill_Oe		
-Young_Sound	Northeast_Greenland	Young_Sound		
+Traill_Oe	Northeast_Greenland	Traill_Oe	Traill Ø	Traill \330
+Young_Sund	Northeast_Greenland	Young_Sund		
 Bessel_Fjord	Northwest_Greenland	Bessel_Fjord		
-Cass_Fjord	Northwest_Greenland	Cass_Fjord		
 Hall_Land	Northwest_Greenland	Hall_Land		
 Inglefield_Fjord	Northwest_Greenland	Inglefield_Fjord		
-Nordvestoe	Northwest_Greenland	Nordvestoe		
+Kangerluarsuk_Cass_Fjord	Northwest_Greenland	Kangerluarsuk_Cass_Fjord	Kangerluarsuk_(Cass_Fjord)	Kangerluarsuk_(Cass_Fjord)
+Nordvestoe	Northwest_Greenland	Nordvestoe	Nordvestø	Nordvest\370
 Thule	Northwest_Greenland	Thule		
 Tuttulissuaq	Northwest_Greenland	Tuttulissuaq		
 Warming_Land	Northwest_Greenland	Warming_Land		

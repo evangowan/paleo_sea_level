@@ -48,8 +48,8 @@ Age (yr BP)|Sea Level (m)|age error (2-sigma)|sea level error (2-sigma)
 
 | File Name | reference | description | age range |
 | --- | --- | --- | --- |
-| **Spratt_Lisiecki_2016_PCA1_long.txt** | Spratt and Liseiki (2016) | principle component analysis of seven records | 0-798 kyr BP |
-| **Spratt_Lisiecki_2016_PCA1_short.txt** | Spratt and Liseiki (2016) | principle component analysis of five records | 0-430 kyr BP |
+| **Spratt_Lisiecki_2016_PCA1_long.txt** | Spratt and Lisiecki (2016) | principle component analysis of seven records | 0-798 kyr BP |
+| **Spratt_Lisiecki_2016_PCA1_short.txt** | Spratt and Lisiecki (2016) | principle component analysis of five records | 0-430 kyr BP |
 | **Grant_etal_2014_Red_Sea_composite_data.txt** | Grant et al (2014) | Red Sea d18O proxy record, data from three cores and multiple sources | 0-493 kyr BP |
 | **Grant_etal_2014_Red_Sea_probabilistic.txt** | Grant et al (2014) | Red Sea d18O probabilistic assessment | 0-492 kyr BP |
 | **Waelbroeck_etal_2002_d18O.txt** | Waelbroeck et al (2002) | transfer function of d18O benthic foraminifera from an Atlantic and a Pacific core |  0-430 kyr BP |

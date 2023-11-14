@@ -5,7 +5,7 @@ by:
 Evan James Gowan  
 <evangowan@gmail.com>
 
-*Current version: 2.0*
+*Current version: 2.1*
 
 Introduction
 -------------
@@ -45,7 +45,7 @@ E.J.G acknowledges the following funding sources that made all this possible:
 
 If you use the GAPSLIP archive, please acknowledge using the following references.
 
-Gowan, E.J., in preparation. An assessment of the PaleoMIST 1.0 ice sheet reconstruction in Greenland using paleo sea level indicators and proxies.
+Gowan, E.J., 2023. Paleo sea-level indicators and proxies from Greenland in the GAPSLIP database and comparison with modelled sea level from the PaleoMIST ice-sheet reconstruction. GEUS Bulletin, 53, 17p. https://doi.org/10.34194/geusb.v53.8355
 
 Gowan, E.J., Zhang, X., Khosravi, S., Rovere, A., Stocchi, P., Hughes, A.L., Gyllencreutz, R., Mangerud, J., Svendsen, J.I. and Lohmann, G., 2022. Reply to: Towards solving the missing ice problem and the importance of rigorous model data comparisons. Nature communications, 13(1), pp.1-5. https://doi.org/10.1038/s41467-022-33954-x
 
@@ -53,14 +53,16 @@ Gowan, E.J., Zhang, X., Khosravi, S., Rovere, A., Stocchi, P., Hughes, A.L.C., G
 
 Special thanks:
 
+- Alessio Rovere on many pieces of advice with regards to sea level databases.
 - Stephen Lewis for sending me the spreadsheets with the Australia sea level data.
 - Alisa V. Baranskaya for sending me the complete references for the Russian sea level database, including translations.
-- Simon Engelhart for sending me the reservoir corrections for the eastern United States database.
+- Simon Engelhart for sending me the reservoir corrections for the eastern United States database that I used in earlier versions.
 - Annemiek Vink and Juliane Scheder for sending me the spreadsheets with North Sea data.
 - The authors of Generic Mapping Tools, who fixed a couple of issues that were causing problems with plotting the data.
 
 Version history
 -------------
+- **Version 2.1**: I added a separate folder that contains proxy based sea level records. For now, I am keeping this separate from the main sea level database. I have also fixed a number of bugs and corrections to the database following the publication of the paper describing the Greenland dataset (November 14, 2023).
 - **Version 2.0**: The entire code base for the archive has been rewritten, and now uses a lot of Python instead of the old Fortran programs. The scripts I wrote substantially streamlines the database management. All of the data have been recalibrated using new reservoir corrections and the 2020 updates of the calibration curves. New datasets have been added for Greenland and Australia. (May 11, 2023)
 - **Version 1.3**: Added Antarctica data for the Holocene and MIS 3, improved the presentation of index points on the plots, added the ability to calibrate mixed dates and terrestrial reservoir corrections, and improved documentation. (July 4, 2022)
 - **Version 1.2**: Updated the database with an update of the Baltic Sea dataset, and added sites from the North Sea. (March 15, 2022)
@@ -124,6 +126,12 @@ If you want to recalibrate everything, it should be as simple as running the "ru
 The calibrated radiocarbon dates are recorded with 2-sigma uncertainties. In order to make the comparisons the same, the calibration script also takes other dates (which are recorded with 1-sigma uncertainties in the database) and converts them to use 2-sigma limits. All of the "calibrated.txt" dates have 2-sigma uncertainty ranges.
 
 In version 2.0, the data have been calibrated with OxCal version 4.4.4, using IntCal20 for Northern Hemisphere terrestrial material, SHCal20 for Southern Hemisphere terrestrial material, and Marine20 for marine material.
+
+Sea level and other proxies (folder: proxy\_based\_sea\_level)
+------------------
+
+This folder contains a number of proxy based sea level estimates. The proxy records are generally based on oxygen isotope measurements of foraminifera taken from deep sea sediment curves. In order to facilitate comparison with other climatic parameters, I have also included a few other proxies (such as CO<sub>2</sub>) and insolation. A few example GMT plot scripts are also included.
+
 
 IMCalc
 ------------------

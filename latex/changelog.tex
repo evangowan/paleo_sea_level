@@ -4,6 +4,8 @@ This database has its beginnings as a way for me to evaluate ice sheet reconstru
 
 Later on, in order to refine the global ice sheet reconstruction reported in \citet{GowanEtal2021b}, I was forced by necessity to create a more organized database structure. I included data from Eastern Canada and North America, northern Europe and Asia, southeastern Asia, and a few additional sites that have data between 80,000 and 15,000 years ago. I still largely relied on the scripts and programs created in \citet{GowanEtal2016}, but the plotting was automated to a certain degree. This was considered to be version 1.0 of the database. Further updates are described below.
 
+As of version 2.0, I have called this database the Global Archive of Paleo Sea Level Indicators and Proxies (GAPSLIP) \citep{Gowan2023}.
+
 \subsection{Version 1.1: October 22, 2021}
 
 This document has been updated to include several additional sites at the LGM and MIS 3. It also has fixed an error in the Cairns and Mackay sites caused by incorrectly subtracting half of the depth range rather than adding it. I apologize for this error. For the coral data for Tahiti and Huon Peninsula, it was originally set to be marine limiting, since the living range was tens of meters. We now use the 2-sigma range determined by \citet{HibbertEtal2016}. We include the interpretations of sea level range by \citet{IshiwaEtal2019} and \citet{YokoyamaEtal2000} for the Bonaparte Gulf shallow marine/estuary/intertidal data in addition to my conservative marine limiting assignment. I also included the interpreted sea level of Huon Peninsula by \citet{deGelderEtal2022} for MIS 3 to compare with the coral depth range interpretation by \citet{HibbertEtal2016}. Finally, I also recalibrated all the radiocarbon dates using updated calibration curves published in 2020 \citep{HeatonEtal2020,HoggEtal2020,ReimerEtal2020}.
@@ -23,3 +25,11 @@ In this update, data from Antarctica are included \citep{BriggsTarasov2013,Ishiw
 This version represents a substantial revision of the database structure. A lot of the analysis and plotting code that was originally written in Bash and Fortran has been rewritten in Python. The map plots are now generated automatically (previously, I manually created the map boundaries). There is now a ``scratch\_datasets" folder, where I store the spreadsheets with the original data. The scripts in the scratch datasets folder will automatically create the subregions in the ``sea\_level\_data" and extract the reservoir ages from the shapefiles in the GIS folder. The revised Marine20 calibration curve necessitated this move, as it invalidated the old reservoir ages. These changes means that the amount of time for upkeep and future data incorporation is substantially reduced.
 
 This update includes data from Greenland and Australia. The Greenland data was largely compiled by myself, using the list by \citet{LecavalierEtal2014} as a starting point, but also including data not from that list. Notably, it includes the compilation of isolation basin based sea level indicators by \citet{LongEtal2011}. The data for Australia was largely derived from compilations by \citet{LewisEtal2013}, \citet{SlossEtal2007}, \citet{BelperioEtal2002}.
+
+Version 2.0, including the Greenland data, is described in \citet{Gowan2023}.
+
+\subsection{Version 2.1: November 14, 2023}
+
+I have included a number of proxy based sea level reconstructions in the Github repository. I have purposely kept it separate from the main database, since these records are mostly not measuring relative sea level change, and therefore cannot be directly compared to sea level calculated from a GIA model. In addition, I have made some bug fixes, and changes to the Greenland database to make it the same as the published paper describing GAPSLIP version 2.0 \citep{Gowan2023}.
+
+

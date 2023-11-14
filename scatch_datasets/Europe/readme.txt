@@ -3,3 +3,4 @@ Vink North Sea - This is the Vink et al dataset, which is in a format comparable
 Rotterdam - this contains the HOLSEA dataset from Hijma and Cohen 2019 which covers Rotterdam in the Netherlands.
 Limfjord - There was a gap between the Baltic and North Sea datasets in western Denmark, so I filled it with the data from this paper
 Gehrels_Ho_Bugt - There was a gap between the Baltic and North Sea datasets in western Denmark, so I filled it with the data from this paper
+Shennan_Sea_level_index_points_2022.ods - Ian Shennan kindly sent me an updated (ca. 2022) version of the British and Irish database, which includes all of the information that is needed to include in the database (the 2018 database lacked the information to calibrate the dates). The main thing here was tracking down all the references to add to the bibtex file.

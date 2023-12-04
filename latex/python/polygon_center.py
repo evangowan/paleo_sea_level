@@ -31,17 +31,19 @@ for counter in range(0,number_points-1):
 	latcheck1 = latitude[counter]
 	latcheck2 = latitude[counter+1]
 
-	if longcheck1 < 0.0:
-		longcheck3 = 360.0 + longcheck1
-	else:
-		longcheck3 = longcheck1
+#	if longcheck1 < 0.0:
+#		longcheck3 = 360.0 + longcheck1
+#	else:
+#		longcheck3 = longcheck1
 
-	if longcheck2 < 0.0:
-		longcheck4 = 360.0 + longcheck2
-	else:
-		longcheck4 = longcheck2
+#	if longcheck2 < 0.0:
+#		longcheck4 = 360.0 + longcheck2
+#	else:
+#		longcheck4 = longcheck2
 
-	if np.max([longcheck3,longcheck4]) - np.min([longcheck3,longcheck4])  < np.max([longcheck1,longcheck2]) - np.min([longcheck1,longcheck2]):
+#	if np.max([longcheck3,longcheck4]) - np.min([longcheck3,longcheck4])  < np.max([longcheck1,longcheck2]) - np.min([longcheck1,longcheck2]):
+#
+	if np.abs(longcheck1) + np.abs(longcheck2) > 360.0: # likely over
 		crossover = True
 
 

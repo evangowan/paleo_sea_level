@@ -1,0 +1,16 @@
+Devoy7	51.64	-8.76	5827	275	0.0	-4.37	0.3	0.3	DevoyEtal2006,ShennanEtal2018
+Beta-58620	51.55	-8.95	306	276	0.0	-2.07	0.3	0.3	Sinnott1999,ShennanEtal2018
+Beta-58621	51.55	-8.95	286	257	0.0	-1.42	0.46	0.46	Sinnott1999,ShennanEtal2018
+Devoy5	51.64	-8.76	4737	299	0.0	-3.28	0.3	0.3	DevoyEtal2006,ShennanEtal2018
+Devoy9	51.64	-8.76	6348	290	0.0	-4.92	0.3	0.3	DevoyEtal2006,ShennanEtal2018
+Devoy3	51.64	-8.76	3102	283	0.0	-1.85	0.3	0.3	DevoyEtal2006,ShennanEtal2018
+Q-2768	51.57	-9.0	1084	219	0.0	-0.37	0.46	0.46	Sinnott1999,ShennanEtal2018
+Q-2767	51.57	-9.0	280	252	0.0	0.12	0.46	0.46	Sinnott1999,ShennanEtal2018
+Q-2765	51.55	-8.95	6150	248	0.0	-6.72	0.22	0.22	Sinnott1999,ShennanEtal2018
+Devoy4	51.64	-8.76	4239	325	0.0	-2.84	0.3	0.3	DevoyEtal2006,ShennanEtal2018
+Devoy6	51.64	-8.76	5239	327	1.0	-2.66	1.06	1.06	DevoyEtal2006,ShennanEtal2018
+Devoy1	51.64	-8.76	5431	223	-1.0	-2.88	2.09	2.09	DevoyEtal2006,ShennanEtal2018
+Devoy10	51.64	-8.76	7493	195	1.0	-6.16	1.06	1.06	DevoyEtal2006,ShennanEtal2018
+Q-2769	51.57	-9.0	4777	330	0.0	-1.59	0.46	0.46	Sinnott1999,ShennanEtal2018
+Devoy2	51.64	-8.76	1614	258	0.0	-0.22	0.3	0.3	DevoyEtal2006,ShennanEtal2018
+Q-2764	51.59	-8.76	264	240	1.0	-0.23	1.04	1.04	Sinnott1999,ShennanEtal2018

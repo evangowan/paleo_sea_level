@@ -1,1 +1,2 @@
 Dogger_Bank_01	54.768	3.462	8750	600	0.0	-46.6	1.04	1.04	VinkEtal2007,Behre2003,Behre2007,BehreMenke1969
+AA-22662	55.02	2.98	9047	364	0.0	-33.26	0.21	0.21	ShennanEtal2000a,ShennanEtal2018

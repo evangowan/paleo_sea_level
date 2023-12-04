@@ -1,5 +1,5 @@
-GrN-1089	53.143	7.031	3119	212	0.0	-0.94	0.11	0.64	VinkEtal2007,vandePlassche1982,Jelgersma1961
-GrN-7644	53.261	5.759	5468	120	0.0	-4.31	0.16	1.03	VinkEtal2007,vandePlassche1982,Griede1978
 GrN-7641	53.322	6.108	6616	114	0.0	-7.05	0.11	1.03	VinkEtal2007,vandePlassche1982,Griede1978
-Not_stated-04	53.293	6.409	2563	184	0.0	-1.6	0.38	0.38	VinkEtal2007,vandePlassche1982,LouweKooijmans1976
 GrN-1090	53.143	7.031	3636	173	0.0	-1.92	0.11	0.64	VinkEtal2007,vandePlassche1982,Jelgersma1961
+Not_stated-04	53.293	6.409	2563	184	0.0	-1.6	0.38	0.38	VinkEtal2007,vandePlassche1982,LouweKooijmans1976
+GrN-7644	53.261	5.759	5468	120	0.0	-4.31	0.16	1.03	VinkEtal2007,vandePlassche1982,Griede1978
+GrN-1089	53.143	7.031	3119	212	0.0	-0.94	0.11	0.64	VinkEtal2007,vandePlassche1982,Jelgersma1961

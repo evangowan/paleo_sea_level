@@ -33,7 +33,11 @@ terrestrial_sh="shcal20.14c"
 curve_marine="Marine20"
 marine="marine20.14c"
 
-curve_types = ["marine", "marine_custom", "terrestrial", "terrestrial_sh", "corr_terrestrial", "corr_terrestrial_sh", "mixed"]
+curve_normarine="Normarine18"
+normarine="normarine18.14c"
+
+
+curve_types = ["marine", "marine_custom", "terrestrial", "terrestrial_sh", "corr_terrestrial", "corr_terrestrial_sh", "mixed", "normarine"]
 # the data spreadsheet should have the following headers
 # Region	Dating_Method	LAB_ID	Latitude	Longitude	age	error	Material	Curve	Reservoir_age	Reservoir_error	type	RSL	RSL_2sigma_upper	RSL_2sigma_lower	Reference
 
@@ -92,6 +96,7 @@ for row_number, row in sl_data.iterrows():
 				calibration_out.write(cal_line)
 				calibration_out.write(age_line)
 
+
 			elif curve[0] == "terrestrial_sh":
 
 				cal_line="\tCurve(\"" + str(curve_terrestrial_sh) + "\",\"../bin/" + str(terrestrial_sh) + "\");\n"
@@ -120,6 +125,15 @@ for row_number, row in sl_data.iterrows():
 				calibration_out.write(cal_line)
 				calibration_out.write(delta_r)
 				calibration_out.write(age_line)
+
+			elif curve[0] == "normarine":
+
+				cal_line="\tCurve(\"" + str(curve_normarine) + "\",\"../bin/" + str(normarine) + "\");\n"
+				age_line ="\tR_Date(\"" + str(row['LAB_ID']) +"\"," + str(row['age']) + "," +  str(row['error'])  + ");\n"
+
+				calibration_out.write(cal_line)
+				calibration_out.write(age_line)
+
 
 			elif curve[0] == "mixed":
 

@@ -63,6 +63,21 @@ terrestrial_sh="shcal20.14c"
 curve_marine="Marine20"
 marine="marine20.14c"
 
+curve_normarine="Normarine18"
+normarine="normarine18.14c"
+
+
+#Check if the Normarine curve is there
+
+# To ensure continuity, I appended the Marine20 curve to Normarine for dates younger than 12200
+
+if [ ! -f OxCal/bin/${normarine} ]
+then
+
+cp ${normarine} OxCal/bin/${normarine}
+
+fi
+
 
 # find number of lines in the file
 

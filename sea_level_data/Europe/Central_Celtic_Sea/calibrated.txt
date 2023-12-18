@@ -1,2 +1,2 @@
-OxA-3279	51.4	-6.3	13036	263	-1.0	-123.0	3.01	3.01	ScourseAustin1994,ShennanEtal2018
 OxA-3278	51.4	-6.3	9505	312	-1.0	-122.0	3.01	3.01	ScourseAustin1994,ShennanEtal2018
+OxA-3279	51.4	-6.3	13036	263	-1.0	-123.0	3.01	3.01	ScourseAustin1994,ShennanEtal2018

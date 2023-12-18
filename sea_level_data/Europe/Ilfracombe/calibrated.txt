@@ -1,9 +1,9 @@
-Q-672	51.04	-4.24	7460	320	0.0	-6.42	0.55	0.55	HeyworthKidson1982,ShennanEtal2018
-Beta-81653	51.22	-3.62	5878	276	0.0	-6.46	0.7	0.7	JenningsEtal1998,ShennanEtal2018
-Beta-81654	51.22	-3.62	7034	289	0.0	-8.57	0.4	0.4	JenningsEtal1998,ShennanEtal2018
 Beta-81655	51.22	-3.62	8637	299	0.0	-13.47	0.4	0.4	JenningsEtal1998,ShennanEtal2018
-Beta-86775	51.22	-3.62	7917	232	0.0	-12.8	0.21	0.21	JenningsEtal1998,ShennanEtal2018
-Beta-61542	51.22	-3.61	6038	431	0.0	-5.99	0.22	0.22	JenningsEtal1998,ShennanEtal2018
-Beta-61543	51.22	-3.61	5932	320	0.0	-5.28	0.22	0.22	JenningsEtal1998,ShennanEtal2018
+Beta-81654	51.22	-3.62	7034	289	0.0	-8.57	0.4	0.4	JenningsEtal1998,ShennanEtal2018
 SRR-440	51.22	-3.62	5902	278	0.0	-9.8	0.41	0.41	HeyworthKidson1982,ShennanEtal2018
 Beta-61544	51.22	-3.62	7727	235	1.0	-9.86	2.84	2.84	JenningsEtal1998,ShennanEtal2018
+Beta-61543	51.22	-3.61	5932	320	0.0	-5.28	0.22	0.22	JenningsEtal1998,ShennanEtal2018
+Beta-61542	51.22	-3.61	6038	431	0.0	-5.99	0.22	0.22	JenningsEtal1998,ShennanEtal2018
+Beta-81653	51.22	-3.62	5878	276	0.0	-6.46	0.7	0.7	JenningsEtal1998,ShennanEtal2018
+Beta-86775	51.22	-3.62	7917	232	0.0	-12.8	0.21	0.21	JenningsEtal1998,ShennanEtal2018
+Q-672	51.04	-4.24	7460	320	0.0	-6.42	0.55	0.55	HeyworthKidson1982,ShennanEtal2018

@@ -75,6 +75,24 @@ Oyster_Ground	North_Sea	Oyster_Ground
 Rotterdam	North_Sea	Rotterdam		
 Southern_Bight	North_Sea	Southern_Bight		
 Southwest_North_Sea	North_Sea	Southwest_North_Sea		
+Altafjorden	Northern_Norway	Altafjorden		
+Balsfjorden	Northern_Norway	Balsfjorden		
+Evenes	Northern_Norway	Evenes		
+Gunnarnes	Northern_Norway	Gunnarnes		
+Laksefjorden	Northern_Norway	Laksefjorden		
+Lofoten	Northern_Norway	Lofoten		
+Lyngenfjorden	Northern_Norway	Lyngenfjorden		
+Porsangerfjorden	Northern_Norway	Porsangerfjorden		
+Porsangerhalvoya	Northern_Norway	Porsangerhalvoya	Porsangerhalvøya	Porsangerhalv\370ya
+Ringvassoya	Northern_Norway	Ringvassoya	Ringvassøya	Ringvass\370ya
+Seiland	Northern_Norway	Seiland		
+Senja	Northern_Norway	Senja		
+Soroya	Northern_Norway	Soroya	Sørøya	S\370r\370ya
+Tanafjorden	Northern_Norway	Tanafjorden		
+Tromso	Northern_Norway	Tromso	Tromsø	Troms\370
+Varangerfjord	Northern_Norway	Varangerfjord		
+Varangerhalvoya	Northern_Norway	Varangerhalvoya	Varangerhalvøya	Varangerhalv\370ya
+Vesteralen	Northern_Norway	Vesteralen	Vesterålen	Vester\305len
 Aberdeen	Scotland	Aberdeen		
 Aberdeenshire	Scotland	Aberdeenshire		
 Ardyne	Scotland	Ardyne		
@@ -133,6 +151,20 @@ South_Vistula	South_Baltic	South_Vistula
 Ustka	South_Baltic	Ustka		
 Ventspils	South_Baltic	Ventspils		
 West_Gulf_Of_Gdansk	South_Baltic	West_Gulf_Of_Gdansk		
+Alver	Southern_Norway	Alver		
+Bergen	Southern_Norway	Bergen		
+Eigersund	Southern_Norway	Eigersund		
+Farsund	Southern_Norway	Farsund		
+Halden	Southern_Norway	Halden		
+Kragero	Southern_Norway	Kragero	Kragerø	Krager\370
+Kristiansand	Southern_Norway	Kristiansand		
+Ski	Southern_Norway	Ski		
+Sotra	Southern_Norway	Sotra		
+Stavanger	Southern_Norway	Stavanger		
+Stord	Southern_Norway	Stord		
+Torvikbygd	Southern_Norway	Torvikbygd		
+Tysvaer	Southern_Norway	Tysvaer	Tysvær	Tysv\346r
+Vestfold	Southern_Norway	Vestfold		
 Aberystwyth	Southwest_Great_Britain	Aberystwyth		
 Bristol_Channel	Southwest_Great_Britain	Bristol_Channel		
 Central_Celtic_Sea	Southwest_Great_Britain	Central_Celtic_Sea		
@@ -152,3 +184,13 @@ Morecambe_Bay	West_Great_Britain	Morecambe_Bay
 Rhyl	West_Great_Britain	Rhyl		
 Solway_Firth	West_Great_Britain	Solway_Firth		
 West_Galloway	West_Great_Britain	West_Galloway		
+Bjugn	Western_Norway	Bjugn		
+Frosta	Western_Norway	Frosta		
+Glomfjord	Western_Norway	Glomfjord		
+Hitra	Western_Norway	Hitra		
+More_og_Romsdal	Western_Norway	More_og_Romsdal	Møre og Romsdal	M\370re og Romsdal
+Naeroysund	Western_Norway	Naeroysund	Nærøysund	N\346r\370ysund
+Nordfjorden	Western_Norway	Nordfjorden		
+Sognefjorden	Western_Norway	Sognefjorden		
+Tingvoll	Western_Norway	Tingvoll		
+Vega	Western_Norway	Vega		

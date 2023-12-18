@@ -1,6 +1,6 @@
-D-31	53.39	-6.1	4147	465	1.0	3.94	1.12	1.12	MitchellStephens1974,ShennanEtal2018
 D-36	53.27	-6.08	6064	371	1.0	1.2	0.55	0.55	MitchellStephens1974,ShennanEtal2018
-Hel-505	53.39	-6.1	5072	388	1.0	4.0	2.2	2.2	DonnerJungner1980,Mitchell1977,ShennanEtal2018
-Hel-506	53.39	-6.1	4621	424	1.0	4.0	2.2	2.2	DonnerJungner1980,Mitchell1977,ShennanEtal2018
-I-7290	53.21	-6.1	7638	283	1.0	0.55	1.17	1.17	Mitchell1976,ShennanEtal2018
+D-31	53.39	-6.1	4147	465	1.0	3.94	1.12	1.12	MitchellStephens1974,ShennanEtal2018
 I-5067	53.39	-6.1	6020	257	1.0	1.81	0.55	0.55	Mitchell1971,MitchellStephens1974,ShennanEtal2018
+Hel-506	53.39	-6.1	4621	424	1.0	4.0	2.2	2.2	DonnerJungner1980,Mitchell1977,ShennanEtal2018
+Hel-505	53.39	-6.1	5072	388	1.0	4.0	2.2	2.2	DonnerJungner1980,Mitchell1977,ShennanEtal2018
+I-7290	53.21	-6.1	7638	283	1.0	0.55	1.17	1.17	Mitchell1976,ShennanEtal2018

@@ -1,0 +1,7 @@
+Kapp-Ekholm_01	78.57	16.55	11742	497	0.0	64.0	2.0	2.0	Salvigsen1984,FormanEtal2004
+T-4628	78.45	16.33	6869	269	0.0	18.5	2.0	2.0	Salvigsen1984,FormanEtal2004
+U-126	78.633	16.733	3775	308	0.0	4.8	2.0	2.0	FeylingHanssenOlsson1959,Olsson1960,FormanEtal2004
+U-124	78.55	16.067	10145	582	0.0	41.0	2.0	2.0	FeylingHanssenOlsson1959,Olsson1960,FormanEtal2004
+U-130	78.583	16.617	8541	343	0.0	16.0	2.0	2.0	FeylingHanssenOlsson1959,Olsson1960,FormanEtal2004
+U-128	78.55	16.5	11044	462	0.0	49.7	2.0	2.0	FeylingHanssenOlsson1959,Olsson1960,FormanEtal2004
+U-132	78.633	16.733	10824	455	0.0	55.0	2.0	2.0	FeylingHanssenOlsson1959,Olsson1960,FormanEtal2004

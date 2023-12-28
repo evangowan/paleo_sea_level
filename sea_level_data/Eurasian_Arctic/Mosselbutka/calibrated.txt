@@ -1,0 +1,3 @@
+T-3454	79.87	15.8	8309	227	0.0	4.0	2.0	2.0	SalvigsenOsterholm1982,FormanEtal2004
+T-3734	79.87	15.8	10775	371	0.0	34.0	2.0	2.0	SalvigsenOsterholm1982,FormanEtal2004
+T-3735	79.87	15.8	12550	283	0.0	64.0	2.0	2.0	SalvigsenOsterholm1982,FormanEtal2004

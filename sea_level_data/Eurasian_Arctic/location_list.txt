@@ -11,9 +11,33 @@ Severny_Island_North	Kara_Sea_-_Novaya_Zemlya	Severny_Island_North
 Severny_Island_West	Kara_Sea_-_Novaya_Zemlya	Severny_Island_West		
 Vaygach_Island	Kara_Sea_-_Novaya_Zemlya	Vaygach_Island		
 Yuzhny_Island	Kara_Sea_-_Novaya_Zemlya	Yuzhny_Island		
+Cape_Krasny	Southern_Barents_Sea	Cape_Krasny		
 Murmansk	Southern_Barents_Sea	Murmansk		
 Pechengsky	Southern_Barents_Sea	Pechengsky		
 Voronya_River	Southern_Barents_Sea	Voronya_River		
+Agardbukta	Svalbard	Agardbukta		
+Blomesletta	Svalbard	Blomesletta		
+Bockfjorden	Svalbard	Bockfjorden		
+Broggerhalvoya	Svalbard	Broggerhalvoya		
+Daudmannsoyra	Svalbard	Daudmannsoyra	Daudmannsøyra	Daudmanns\370yra
+Diskobukta	Svalbard	Diskobukta		
+Erdmann	Svalbard	Erdmann		
+Hopen	Svalbard	Hopen		
+Humla	Svalbard	Humla		
+Inner_Isfjord	Svalbard	Inner_Isfjord		
+Kapp_Ziehen	Svalbard	Kapp_Ziehen		
+Kongsoya	Svalbard	Kongsoya		
+Lady_Franklin_Fjord	Svalbard	Lady_Franklin_Fjord		
+Mitrahalvoya	Svalbard	Mitrahalvoya	Mitrahalvøya	Mitrahalv\370ya
+Mosselbutka	Svalbard	Mosselbutka		
+Phippsoya	Svalbard	Phippsoya	Phippsøya	Phipps\370ya
+Reinsdyrflya	Svalbard	Reinsdyrflya		
+Southern_Edgeoya	Svalbard	Southern_Edgeoya		
+Southern_Prinz_Karls_Forland	Svalbard	Southern_Prinz_Karls_Forland		
+Southern_Sorkapp_Land	Svalbard	Southern_Sorkapp_Land		
+Storoya_Island	Svalbard	Storoya_Island	Storøya_Island	Stor\370ya_Island
+Svartknausflya	Svalbard	Svartknausflya		
+Ytterdalen	Svalbard	Ytterdalen		
 Lena_Delta	Western_Siberia	Lena_Delta		
 New_Siberian_Islands	Western_Siberia	New_Siberian_Islands		
 Olenyok_Gulf	Western_Siberia	Olenyok_Gulf		

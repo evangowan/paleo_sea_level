@@ -1,0 +1,12 @@
+POZ-66301	41.371	9.263	3657	247	0.0	-0.8	1.0	1.0	PoherEtal2017,VacchiEtal2018a
+Isola_Dei_Gabbiani-3-GS-x	41.19	9.31	1804	243	0.0	-1.5	1.5	1.5	DeMuroOrru1998,VacchiEtal2018a
+POZ-66302	41.371	9.263	6876	281	1.0	-3.8	0.2	0.2	PoherEtal2017,VacchiEtal2018a
+Figari	41.45	9.05	217	200	0.0	-0.5	1.6	1.6	Nesteroff1984,DeMuroOrru1998,VacchiEtal2018a
+Moines	41.45	8.9	8917	358	0.0	-17.5	1.6	1.6	Nesteroff1984,DeMuroOrru1998,VacchiEtal2018a
+Capo_Testa-11	41.23	9.16	9843	369	0.0	-29.5	2.1	2.1	DeMuroOrru1998,VacchiEtal2018a
+Cala_Lunga	41.4	9.23	1253	246	0.0	-0.8	1.6	1.6	Nesteroff1984,DeMuroOrru1998,VacchiEtal2018a
+POZ-60044	41.371	9.263	833	177	-1.0	-0.9	0.2	0.2	PoherEtal2017,VacchiEtal2018a
+POZ-60045	41.371	9.263	4505	311	0.0	-1.8	0.5	0.5	PoherEtal2017,VacchiEtal2018a
+POZ-60046	41.371	9.263	6026	252	1.0	-3.3	0.2	0.2	PoherEtal2017,VacchiEtal2018a
+POZ-66300	41.371	9.263	2156	258	-1.0	-1.4	0.2	0.2	PoherEtal2017,VacchiEtal2018a
+Barca_Brusciata-4-T-2	41.14	9.43	2185	274	0.0	-2.5	1.5	1.5	DeMuroOrru1998,VacchiEtal2018a

@@ -4,6 +4,7 @@ Caribbean
 Greenland
 Eurasian_Arctic
 Europe
+Mediterranean
 East_Asia
 Southeast_Asia
 South_Asia

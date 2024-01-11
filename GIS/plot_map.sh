@@ -28,3 +28,5 @@ gmt psconvert  ${plot}  -Tf -A
 gmt psconvert  ${plot}  -Tg -A -I+s240p
 
 rm ${plot}
+
+mv data_map.png ../data_map.png

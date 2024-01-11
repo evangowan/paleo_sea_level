@@ -22,7 +22,7 @@ A report that has plots of all of the data in the database can be found  [here](
 
 <p align="center" style="font-size:20px;" ><b>Distribution of data points in GAPSLIP as of Version 2.0</b></p>
 
-<p align="center"><img src="GIS/data_map.png" alt="Global map showing data points in GAPSLIP" title="Distribution of data points in GAPSLIP"></p>
+<p align="center"><img src="data_map.png" alt="Global map showing data points in GAPSLIP" title="Distribution of data points in GAPSLIP"></p>
 
 Acknowledgments
 -------------

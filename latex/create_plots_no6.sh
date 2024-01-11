@@ -5,7 +5,7 @@
 # This is where you modify the script to change the calculated sea level, using six different ice sheet/Earth model 
 # combinations. These are placed in the "calculated_sea_level" folder. Look at the readme in that folder.
 
-reference_ice_model="PM_1_A_h"
+reference_ice_model="PM_1_A_h_Ant_A"
 reference_earth_model="ehgr"
 
 

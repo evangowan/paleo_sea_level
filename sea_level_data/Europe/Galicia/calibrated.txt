@@ -1,0 +1,14 @@
+Beta-165869	43.687	-7.858	943	289	0.0	-0.2	2.1	2.1	AlonsoMillanPagesValcarlos2010,GarciaArtolaEtal2018
+Beta-208808	43.28	-8.222	1958	358	0.0	-1.8	2.1	2.1	AlonsoMillanPagesValcarlos2010,GarciaArtolaEtal2018
+Beta-177708	43.657	-8.051	6509	257	-1.0	-4.8	1.8	1.8	AlonsoMillanPagesValcarlos2010,GarciaArtolaEtal2018
+Beta-154345	43.66	-7.603	9638	134	0.0	-21.7	2.3	2.3	AlonsoMillanPagesValcarlos2010,GarciaArtolaEtal2018
+ICEN-930	43.4	-8.2	4964	475	1.0	-0.7	1.8	1.8	SantosFidalgoVidalRomani1993,GarciaArtolaEtal2018
+Beta-208818	43.362	-8.389	10833	394	-1.0	-38.2	1.8	1.8	AlonsoMillanPagesValcarlos2010,GarciaArtolaEtal2018
+Beta-219214	43.359	-8.207	8413	366	0.0	-9.5	2.1	2.1	AlonsoMillanPagesValcarlos2010,GarciaArtolaEtal2018
+Beta-219216	43.359	-8.207	4389	422	-1.0	-3.2	1.8	1.8	AlonsoMillanPagesValcarlos2010,GarciaArtolaEtal2018
+Beta-219217	43.359	-8.207	3118	324	-1.0	-1.0	1.8	1.8	AlonsoMillanPagesValcarlos2010,GarciaArtolaEtal2018
+Beta-219218	43.359	-8.207	1408	304	-1.0	0.6	1.8	1.8	AlonsoMillanPagesValcarlos2010,GarciaArtolaEtal2018
+Beta-228390	43.294	-8.667	1103	185	-1.0	0.8	1.8	1.8	AlonsoMillanPagesValcarlos2010,GarciaArtolaEtal2018
+Beta-228392	43.294	-8.667	4163	244	-1.0	-3.2	1.8	1.8	AlonsoMillanPagesValcarlos2010,GarciaArtolaEtal2018
+Beta-165867	43.28	-8.222	6980	176	0.0	-4.1	2.1	2.1	AlonsoMillanPagesValcarlos2010,GarciaArtolaEtal2018
+Beta-208819	43.362	-8.389	10707	441	-1.0	-36.2	1.8	1.8	AlonsoMillanPagesValcarlos2010,GarciaArtolaEtal2018

@@ -9,10 +9,14 @@ Norfolk	East_Great_Britain	Norfolk
 Outer_Humber	East_Great_Britain	Outer_Humber		
 Tees	East_Great_Britain	Tees		
 Tyne	East_Great_Britain	Tyne		
+Calais	English_Channel	Calais		
+Devon	English_Channel	Devon		
 Dorset	English_Channel	Dorset		
 Essex	English_Channel	Essex		
+Gulf_of_Saint-Malo	English_Channel	Gulf_of_Saint-Malo		
 Hampshire	English_Channel	Hampshire		
 Kent	English_Channel	Kent		
+Le_Havre	English_Channel	Le_Havre		
 Sussex	English_Channel	Sussex		
 Thames	English_Channel	Thames		
 Helsinki	Gulfs_Of_Riga_-_Finland	Helsinki		
@@ -30,6 +34,9 @@ Tallinn	Gulfs_Of_Riga_-_Finland	Tallinn
 Virolahti	Gulfs_Of_Riga_-_Finland	Virolahti		
 Vyborgsky_District	Gulfs_Of_Riga_-_Finland	Vyborgsky_District		
 West_Gulf_Of_Riga	Gulfs_Of_Riga_-_Finland	West_Gulf_Of_Riga		
+Breidafjodur	Iceland	Breidafjodur	Breiðafjöður	Brei\360afj\366\360ur
+Hunafloi	Iceland	Hunafloi	Húnaflói	H\372nafl\363i
+Westfjords	Iceland	Westfjords		
 Connemara	Ireland	Connemara		
 County_Down	Ireland	County_Down		
 Derry	Ireland	Derry		
@@ -92,7 +99,7 @@ Tanafjorden	Northern_Norway	Tanafjorden
 Tromso	Northern_Norway	Tromso	Tromsø	Troms\370
 Varangerfjord	Northern_Norway	Varangerfjord		
 Varangerhalvoya	Northern_Norway	Varangerhalvoya	Varangerhalvøya	Varangerhalv\370ya
-Vesteralen	Northern_Norway	Vesteralen	Vesterålen	Vester\305len
+Vesteralen	Northern_Norway	Vesteralen	Vesterålen	Vester\345len
 Aberdeen	Scotland	Aberdeen		
 Aberdeenshire	Scotland	Aberdeenshire		
 Ardyne	Scotland	Ardyne		
@@ -149,6 +156,7 @@ Salt_Meadows	South_Baltic	Salt_Meadows
 Sodermanland	South_Baltic	Sodermanland		
 South_Vistula	South_Baltic	South_Vistula		
 Ustka	South_Baltic	Ustka		
+Vastervik	South_Baltic	Vastervik	Västervik	V\344stervik
 Ventspils	South_Baltic	Ventspils		
 West_Gulf_Of_Gdansk	South_Baltic	West_Gulf_Of_Gdansk		
 Alver	Southern_Norway	Alver		
@@ -169,7 +177,6 @@ Aberystwyth	Southwest_Great_Britain	Aberystwyth
 Bristol_Channel	Southwest_Great_Britain	Bristol_Channel		
 Central_Celtic_Sea	Southwest_Great_Britain	Central_Celtic_Sea		
 Cornwall	Southwest_Great_Britain	Cornwall		
-Devon	Southwest_Great_Britain	Devon		
 Glamorgan	Southwest_Great_Britain	Glamorgan		
 Ilfracombe	Southwest_Great_Britain	Ilfracombe		
 Isles_of_Scilly	Southwest_Great_Britain	Isles_of_Scilly		
@@ -184,6 +191,16 @@ Morecambe_Bay	West_Great_Britain	Morecambe_Bay
 Rhyl	West_Great_Britain	Rhyl		
 Solway_Firth	West_Great_Britain	Solway_Firth		
 West_Galloway	West_Great_Britain	West_Galloway		
+Algarve	Western_Europe	Algarve		
+Asturias	Western_Europe	Asturias		
+Basque_Country	Western_Europe	Basque_Country		
+Charentes	Western_Europe	Charentes		
+Galicia	Western_Europe	Galicia		
+Lisbon	Western_Europe	Lisbon		
+Minho	Western_Europe	Minho		
+South_Brittany	Western_Europe	South_Brittany		
+Vendee	Western_Europe	Vendee	Vendée	Vend\351e
+West_Brittany	Western_Europe	West_Brittany		
 Bjugn	Western_Norway	Bjugn		
 Frosta	Western_Norway	Frosta		
 Glomfjord	Western_Norway	Glomfjord		

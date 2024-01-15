@@ -1,0 +1,7 @@
+Svartsjon_transgression	57.47	16.32	7500	138	0.0	22.3	0.1	0.1	KatrantsiotisEtal2023
+Gagern_isolation	57.48	16.31	4204	232	0.0	15.5	0.1	0.1	KatrantsiotisEtal2023
+Maren_isolation	57.47	16.34	1600	130	0.0	3.3	0.1	0.1	KatrantsiotisEtal2023
+Gagern_transgression	57.48	16.31	8500	118	0.0	15.5	0.1	0.1	KatrantsiotisEtal2023
+Svartsjon_isolation	57.47	16.32	6200	82	0.0	22.3	0.1	0.1	KatrantsiotisEtal2023
+Brannerigolen_transgression	57.44	16.3	7700	204	0.0	20.5	0.1	0.1	KatrantsiotisEtal2023
+Brannerigolen_isolation	57.44	16.3	4600	138	0.0	20.5	0.1	0.1	KatrantsiotisEtal2023

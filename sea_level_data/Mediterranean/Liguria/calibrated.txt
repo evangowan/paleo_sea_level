@@ -1,0 +1,14 @@
+Brandolini_2002_04	44.41	8.88	7508	185	1.0	-5.3	0.9	0.9	BrandoliniEtal2002,VacchiEtal2016
+Brandolini_2002_01	44.41	8.88	7480	190	0.0	-6.125	1.0	1.0	BrandoliniEtal2002,VacchiEtal2016
+BETA-101516	44.4	8.92	2582	225	-1.0	-3.7	0.2	0.2	VacchiEtal2016
+MBN-240	44.18	8.41	3177	304	0.0	-1.0	1.7	1.7	FierroEtal1974,FierroGewelt1984,VacchiEtal2016
+BETA-22925	44.27	8.44	7498	211	-1.0	-19.7	0.2	0.2	CarobeneEtal2008,VacchiEtal2016
+BETA-91166	44.4	8.92	599	158	-1.0	-0.8	0.2	0.2	VacchiEtal2016
+BETA-91168	44.4	8.9	2247	285	-1.0	-3.4	0.2	0.2	VacchiEtal2016
+BETA-95851	44.4	8.92	783	219	-1.0	-0.45	0.2	0.2	VacchiEtal2016
+Brandolini_2002_02	44.41	8.88	9281	245	0.0	-18.025	0.9	0.9	BrandoliniEtal2002,VacchiEtal2016
+GRN-21525	44.4	8.94	6577	158	1.0	-3.0	0.3	0.3	Maggi1996,MontanariEtal2014,VacchiEtal2016
+Firpo_2013_01	44.4	8.9	1301	207	-1.0	-2.4	0.2	0.2	VacchiEtal2016
+Chelli_2005_02	44.34	9.24	236	219	1.0	-0.3	0.3	0.3	ChelliEtal2005,VacchiEtal2016
+Chelli_2005_01	44.34	9.24	2000	100	1.0	-0.2	0.3	0.3	ChelliEtal2005,LambeckEtal2011,VacchiEtal2016
+Brandolini_2002_03	44.41	8.88	8580	352	1.0	-9.8	0.9	0.9	BrandoliniEtal2002,VacchiEtal2016

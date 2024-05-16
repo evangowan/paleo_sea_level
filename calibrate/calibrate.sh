@@ -16,6 +16,14 @@ then
 input_file="test/test.ods"
 output_file="test/calibrated.txt"
 
+elif [ "$1" == "philippines" ]
+then
+
+
+input_file="philippines/test.ods"
+output_file="philippines/calibrated.txt"
+
+
 else
 region=$1
 location=$2

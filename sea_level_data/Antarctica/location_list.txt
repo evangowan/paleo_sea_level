@@ -6,7 +6,11 @@ Southern_Scott_Coast	East_Antarctica	Southern_Scott_Coast
 Terra_Nova_Bay	East_Antarctica	Terra_Nova_Bay		
 Vestfold_Hills	East_Antarctica	Vestfold_Hills		
 Windmill_Islands	East_Antarctica	Windmill_Islands		
+Anvers_Island	West_Antarctica	Anvers_Island		
+Calmette_Bay	West_Antarctica	Calmette_Bay		
 James_Ross_Island	West_Antarctica	James_Ross_Island		
+Joinville_Island	West_Antarctica	Joinville_Island		
 King_George_Island	West_Antarctica	King_George_Island		
+Livingston_Island	West_Antarctica	Livingston_Island		
 Marguerite_Bay	West_Antarctica	Marguerite_Bay		
 Pine_Island_Bay	West_Antarctica	Pine_Island_Bay		

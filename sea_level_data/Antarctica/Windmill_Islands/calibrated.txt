@@ -1,5 +1,5 @@
-ANU6507	-66.41	110.42	6850	551	1.0	31.5	1.5	1.5	BriggsTarasov2013,GoodwinZweck2000,Goodwin1993
-ANU6402	-66.28	110.52	5699	198	1.0	26.0	1.5	1.5	BriggsTarasov2013,GoodwinZweck2000,Goodwin1993
-ANU6401	-66.4	110.4	7308	671	0.0	31.5	1.5	1.5	BriggsTarasov2013,GoodwinZweck2000,Goodwin1993
-ANU6401	-66.4	110.4	7308	671	1.0	31.5	1.5	1.5	BriggsTarasov2013,GoodwinZweck2000,Goodwin1993
-ANU6399	-66.28	110.63	6761	325	1.0	31.0	1.5	1.5	BriggsTarasov2013,GoodwinZweck2000,Goodwin1993
+ANU6399	-66.28	110.63	6763	391	1.0	31.0	1.5	1.5	GoodwinZweck2000,LecavalierEtal2023,BriggsTarasov2013
+ANU6507	-66.41	110.42	6832	593	1.0	31.5	1.5	1.5	GoodwinZweck2000,LecavalierEtal2023,BriggsTarasov2013
+ANU6402	-66.28	110.52	5673	307	1.0	26.0	1.5	1.5	GoodwinZweck2000,LecavalierEtal2023,BriggsTarasov2013
+ANU6401_1	-66.4	110.4	7308	671	0.0	31.5	1.5	1.5	GoodwinZweck2000,LecavalierEtal2023,BriggsTarasov2013
+ANU6401_2	-66.4	110.4	7308	671	1.0	31.5	1.5	1.5	GoodwinZweck2000,LecavalierEtal2023,BriggsTarasov2013

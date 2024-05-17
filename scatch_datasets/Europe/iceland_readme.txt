@@ -47,3 +47,8 @@ AsbjornsdottirNorddahl1995 -  not available online. There is a description of th
 Kjartansson1966 - The sample is also in OlssonEtal1967, which has additional details like the location and sample elevation. I am applying a 20% uncertainty.
 
 NorddahlAsbjornsdottir1995 - This is also not available online. There is quite a bit of details in NorddahlPetursson2005, but the elevation details for each date are not given.
+
+IngolfssonEtal1995 - This has a list of peat dates (including some new dates) and gives details on their relationship against sea level. I am adding them all. They give extra information on the peat age reported in OlssonEtal1972, which was dredged and therefore I cannot include it since no geological context can be inferred. I am including a 100 year bulk uncertainty. The location was taken from Google Earth based on the map in the paper. I am using a 1 m uncertainty. This paper also has a large list of marine shell dates.
+
+
+Hjartarson1989- This has one unique date. I have applied a 1 m uncertainty, since the details of the elevation measurement are not given. It is marine limiting. The location is taken from Google Earth based on the site map.

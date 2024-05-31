@@ -62,3 +62,11 @@ NorddahlEinarsson2001 - This has three dates. The elevation was measured with an
 HjartarsonIngolfsson1988 - this has a table of dates, with elevations included. The details on elevation measurements are not given, so I am applying a 20% uncertainty or 10 m if above 50 m elevation. The samples are from glaciomarine or moraine sediments. The samples from deformed units are not included. Lu-2406 was regarded as being from a reworked sediment. I am not including, as it only represents a maximum age of the sediments. Some of the samples are described as being possibly littoral, but in the absence of a more detailed description, I am regarding them all as marine limiting. The sample Lu-2601 is possibly mislabeled as Lu-2610 and is not described in detail. The details are in Hjartarson (1988). The locations are taken from Google Earth based on the site map.
 
 Hjartarson1988 - This has more details on Lu-2601, which is a radiocarbon date of charcoal from a lava flow. The lava flow itself extends approximately 10 m below present sea level, indicating subaerial conditions at least to that depth. Since this sample is from 70 m, it does not really have a lot of relevance to sea level. Perhaps a terrestrial limit could be placed at 0 m for this date as well, but I have not decided yet. *******
+
+
+GeirsdottirEtal1997 - There are three samples unique to this paper. Áslaug Geirsdóttir provided the elevation details that were not in the original paper (see the notes in the spreadsheet). The shell samples come from a marine/glaciomarine unit, and is marine limiting. 
+
+
+------------------------------
+
+GeirsdottirEtal2022 - This has information of an isolation basin lake at 49.5 m. Áslaug Geirsdóttir provided the details (see in the spreadsheet). The core was dated using tephras. I am including the marine and terrestrial limiting information, plus a sea level indicator from the estimated time of isolation. The elevation is constrained by high resolution topography, I am applying a nominal uncertainty of 1 m to account for possible changes to the outlet elevation over time.

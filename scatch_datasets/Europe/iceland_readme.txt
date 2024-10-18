@@ -70,3 +70,11 @@ GeirsdottirEtal1997 - There are three samples unique to this paper. Áslaug Geir
 ------------------------------
 
 GeirsdottirEtal2022 - This has information of an isolation basin lake at 49.5 m. Áslaug Geirsdóttir provided the details (see in the spreadsheet). The core was dated using tephras. I am including the marine and terrestrial limiting information, plus a sea level indicator from the estimated time of isolation. The elevation is constrained by high resolution topography, I am applying a nominal uncertainty of 1 m to account for possible changes to the outlet elevation over time.
+
+-----
+
+NorddahlHjort1993 - Note that in NorddahlPetursson2005, this is incorrectly refered to as published in 1995. They measured the elevations using an altimeter calibrated with sea level as the baseline. This paper doesn't actually have any dated landforms, so nothing can be added from it except for marine limits.
+
+NorddahlHjort1987 - This is a conference abstract in Icelandic but does not give enough details on the ages. There are three dates in the NorddahlPetursson2005 table, which are in Lund XXI. These dates are all marine limiting, and I apply a 20% uncertainty.
+
+Saemundsson1995 - There is one date from this, but the thesis is not available online. NorddahlPetursson2005 does not give an elevation of the sample, so I cannot add it until I have access. Lu-3289

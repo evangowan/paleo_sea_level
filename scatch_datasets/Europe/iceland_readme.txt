@@ -1,8 +1,8 @@
-Icelandic alphabet:  Aa Áá Bb Dd Ðð Ee Éé Ff Gg Hh Ii Íí Jj Kk Ll Mm Nn Oo Óó Pp Rr Ss Tt Uu Úú Vv Xx Yy Ýý Þþ Ææ Öö.
+Icelandic alphabet:  Aa Áá Bb Dd Ðð Ee Éé Ff Gg Hh Ii Íí Jj Kk Ll Mm Nn Oo Óó Pp Rr Ss Tt Uu Úú Vv Xx Yy Ýý Þþ Ææ Öö. ±
 
 The following are described in NorddahlPetursson2005:
 
-NorddahlPetursson2005 -  The paper itself has new radiocarbon dates. Some do not have the details on elevation, so they could not be included. I took the location from Google Earth based on the location names. The radiocarbon dates from Auðbjargarstaðir, Rauðinúpur, and Tjarnargata do not have any elevation information, so they are not included. Tjarnargata
+NorddahlPetursson2005 -  The paper itself has new radiocarbon dates. Some do not have the details on elevation, so they could not be included. I took the location from Google Earth based on the location names. The radiocarbon dates from Auðbjargarstaðir, Rauðinúpur, and Tjarnargata do not have any elevation information, so they are not included. 
 
 NorddahlSaemundsson1999 - The Rauðamelur sedimentary sequence.  From figure 3.3 in Norddahl and Petursson 2005, this section has two spit deposits that are from before and after that last glaciation of iceland. I ma the age of the MIS 3 whalebone at face value. The details of the elevation measurements are vague, except to say the outcrop is 20-25 m.  taken from a spit that is overlain by a lava flow that was subaerially erupted, and late Weichselian glaciation. Based on the description, this sand and gravel deposit is likely a beach or beach ridge deposit. I am taking this range as the elevation in both the pre and post glacial deposits, and considering it as a beach indicator. The location is taken from Google Earth based on the map in Norddahl and Petursson 2005. The range is taken from IMCalc.
 
@@ -67,14 +67,35 @@ Hjartarson1988 - This has more details on Lu-2601, which is a radiocarbon date o
 GeirsdottirEtal1997 - There are three samples unique to this paper. Áslaug Geirsdóttir provided the elevation details that were not in the original paper (see the notes in the spreadsheet). The shell samples come from a marine/glaciomarine unit, and is marine limiting. 
 
 
-------------------------------
-
-GeirsdottirEtal2022 - This has information of an isolation basin lake at 49.5 m. Áslaug Geirsdóttir provided the details (see in the spreadsheet). The core was dated using tephras. I am including the marine and terrestrial limiting information, plus a sea level indicator from the estimated time of isolation. The elevation is constrained by high resolution topography, I am applying a nominal uncertainty of 1 m to account for possible changes to the outlet elevation over time.
-
------
-
 NorddahlHjort1993 - Note that in NorddahlPetursson2005, this is incorrectly refered to as published in 1995. They measured the elevations using an altimeter calibrated with sea level as the baseline. This paper doesn't actually have any dated landforms, so nothing can be added from it except for marine limits.
 
 NorddahlHjort1987 - This is a conference abstract in Icelandic but does not give enough details on the ages. There are three dates in the NorddahlPetursson2005 table, which are in Lund XXI. These dates are all marine limiting, and I apply a 20% uncertainty.
 
-Saemundsson1995 - There is one date from this, but the thesis is not available online. NorddahlPetursson2005 does not give an elevation of the sample, so I cannot add it until I have access. Lu-3289
+Saemundsson1995 - There are two dates from this, but the thesis is not available online. NorddahlPetursson2005 do not give an elevation of the samples, so I cannot add it until I have access. 
+
+Richardson1997 - This is also a PHD thesis that is not available online. However, NorddahlPetursson2005 gives the details, so this can be added. I had to estimate the elevation based on Figure 3.21.
+
+-----------
+
+published after NorddahlPetursson2005
+
+------------------------------
+
+GeirsdottirEtal2022 - This has information of an isolation basin lake at 49.5 m. Áslaug Geirsdóttir provided the details (see in the spreadsheet). The core was dated using tephras. I am including the marine and terrestrial limiting information, plus a sea level indicator from the estimated time of isolation. The elevation is constrained by high resolution topography, I am applying a nominal uncertainty of 1 m to account for possible changes to the outlet elevation over time.
+
+LeBretonEtal2010 - This has marine limiting data in it, but nothing directly dated.
+
+Principato2008 - This paper has several radiocarbon dates from Holocene beach deposits in northwestern Iceland. Principato2008 reports an uncertainty on elevation measurements of 2 m, based on handheld GPS and altimetry measurements that are calibrated against sea level. I use this value. The details of where the samples are from and the elevation is not very clear. However, more details are found in the radiocarbon dates list by DunhillEtal2004. I have not bothered to add the dates that are related to the Little Ice Age. I converted the beach deposits to a sea level indicator using IMCalc.
+
+
+NorddahlEtal2019 - This has a few shell dates from eastern Iceland, one which was originally reported by Gudmundsson2011. The elevation was described as "between 10-15 m". They measured elevations using a handheld differential GPS, and they suggest an uncertainty of 3 m, which I use. The elevation, then is 12.5±3.9 m. The fine grained sediments that the shells are found in indicate marine conditions, and therefore are assigned to be marine limiting. The precise location of the samples is not stated (the maps only show locations that were sampled, not which sample came from which location). The two locations are less than 3 km apart, so put the location intermediate of those two points. I am also assuming that the reported uncalibrated radiocarbon ages are not corrected for reservoir age, otherwise the uncertainty would not be a rounded number. There is a lot of info in this paper about tilted lake shorelines, which will be of interest if I ever make a dataset for that.
+
+SigfusdottirBenediktsson2020 - This has a number of radiocarbon dates. Unit A is a glaciomarine diamiction. It is deformed, but the whole shells indicate that it was not substatially transported. Unit B is subaquious fans and meltwater sediments, and the shells are assumed to be reworked. Units C was regarded as being less deformed by glacial tectonism than D and E, but the shells from C-E are regarded as reworked and maximum ages of the sediments. Units F to H are not deformed, but the shells are reworked and are maximum ages. All of these units are submarine and ice proximal but the shells are all maximum ages and are not considered in situ. The authors considered all of the samples to be marine limiting. The problem with this dataset is that the elevation is not stated, and the only clue is that they state that "sea level was at least 12 m higher than present" for unit H. There is one barnacle sample which is stated to be at 69 m, and can be used as a marine limiting date. This is the only sample that I could add from this paper. The elevation measurement details are not given, so I assign the default uncertainty of 10 m.
+
+Hole2015 - This has some radiocarbon dates from raised beaches that are about 2000 years old. Tephra sampled from the beaches indicate the driftwood is consistent with the age of the beach, so I am considering it to be a sea level indicator. The precise elevation relative to sea level is not given, but Hole2015 interpreted sea level to be 2-3 m higher than present. Since the details are not given, I am expanding the uncertainty to be 1 m, as is standard in this database (2.5±1 m). The coordinates are given in the thesis. Unfortunately, only calibrated ages are given, though since these are late Holocene, that is probably not such a problem. It is not stated if it is 1 or 2 sigma, so I am assuming 1 sigma.
+
+HannesdottirEtal2009 - This has three well dated cores from a large lake Hestvatn that acts effectively as an isolation basin with an elevation of 49.5 m. The outlet of Hestvatn is on the northeast side of the lake, through the River Slauka. This is where I placed the lat/long of the isolation basin. Since they were using a differential GPS, I am assuming a minimal vertical uncertainty. I have set this to 1 m.
+
+OlssonEtal1969 - Uppsala IX. It has some Iceland relevant dates. I have applied the standard elevation uncertainties since no details are given. For sample U-2088, it has a modern analogue of the gravel bar, being 2.5 m higher than the present day gravel bar, with the elevation at 3 m. I assume this gives an indicative meaning of sea level being 2.5 m higher. U-2051 is driftwood, but no elevation details are given.
+
+Jonsson1957,Olsson1959 - Uppsala I. There is a terrestrial limiting radiocarbon date reported here. The core they sampled was taken with the top at 10 cm above the high tide level, and the sample was taken at a depth of 2.1-2.25 m. The peat contained entirely freshwater diatoms, so they suggested sea level was at least 2 m lower than present. This is what I use.

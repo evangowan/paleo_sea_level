@@ -83,6 +83,11 @@ published after NorddahlPetursson2005
 
 GeirsdottirEtal2022 - This has information of an isolation basin lake at 49.5 m. Áslaug Geirsdóttir provided the details (see in the spreadsheet). The core was dated using tephras. I am including the marine and terrestrial limiting information, plus a sea level indicator from the estimated time of isolation. The elevation is constrained by high resolution topography, I am applying a nominal uncertainty of 1 m to account for possible changes to the outlet elevation over time.
 
+
+HannesdottirEtal2009 - This has three well dated cores from a large lake Hestvatn that acts effectively as an isolation basin with an elevation of 49.5 m. The outlet of Hestvatn is on the northeast side of the lake, through the River Slauka. This is where I placed the lat/long of the isolation basin. Since they were using a differential GPS, I am assuming a minimal vertical uncertainty. I have set this to 1 m. ---- Note, since it was a long time between adding data, I forgot that this was the same lake described in GeirsdottirEtal2022. The data are from GeirsdottirEtal2022 still and I moved the HannesdottirEtal2009 to a separate sheet in the spreadsheet. Note that I moved the coordinates of the GeirsdottirEtal2022 to the outlet location at River Slauka.
+
+
+
 LeBretonEtal2010 - This has marine limiting data in it, but nothing directly dated.
 
 Principato2008 - This paper has several radiocarbon dates from Holocene beach deposits in northwestern Iceland. Principato2008 reports an uncertainty on elevation measurements of 2 m, based on handheld GPS and altimetry measurements that are calibrated against sea level. I use this value. The details of where the samples are from and the elevation is not very clear. However, more details are found in the radiocarbon dates list by DunhillEtal2004. I have not bothered to add the dates that are related to the Little Ice Age. I converted the beach deposits to a sea level indicator using IMCalc.
@@ -94,8 +99,51 @@ SigfusdottirBenediktsson2020 - This has a number of radiocarbon dates. Unit A is
 
 Hole2015 - This has some radiocarbon dates from raised beaches that are about 2000 years old. Tephra sampled from the beaches indicate the driftwood is consistent with the age of the beach, so I am considering it to be a sea level indicator. The precise elevation relative to sea level is not given, but Hole2015 interpreted sea level to be 2-3 m higher than present. Since the details are not given, I am expanding the uncertainty to be 1 m, as is standard in this database (2.5±1 m). The coordinates are given in the thesis. Unfortunately, only calibrated ages are given, though since these are late Holocene, that is probably not such a problem. It is not stated if it is 1 or 2 sigma, so I am assuming 1 sigma.
 
-HannesdottirEtal2009 - This has three well dated cores from a large lake Hestvatn that acts effectively as an isolation basin with an elevation of 49.5 m. The outlet of Hestvatn is on the northeast side of the lake, through the River Slauka. This is where I placed the lat/long of the isolation basin. Since they were using a differential GPS, I am assuming a minimal vertical uncertainty. I have set this to 1 m.
 
 OlssonEtal1969 - Uppsala IX. It has some Iceland relevant dates. I have applied the standard elevation uncertainties since no details are given. For sample U-2088, it has a modern analogue of the gravel bar, being 2.5 m higher than the present day gravel bar, with the elevation at 3 m. I assume this gives an indicative meaning of sea level being 2.5 m higher. U-2051 is driftwood, but no elevation details are given.
 
 Jonsson1957,Olsson1959 - Uppsala I. There is a terrestrial limiting radiocarbon date reported here. The core they sampled was taken with the top at 10 cm above the high tide level, and the sample was taken at a depth of 2.1-2.25 m. The peat contained entirely freshwater diatoms, so they suggested sea level was at least 2 m lower than present. This is what I use.
+
+
+
+
+--------------------------
+Marine Limits
+--------------------------
+
+Although NorddahlPetursson2005 lists the Marine limits, I have tried to go back to the original sources whenever possible to confirm locations.
+
+
+IngolfssonNorddahl2001 - This has a few marine limits from the Bolling. The locations at figure 7 were measured using an altimeter, which they stated had an uncertainty of 2 m. The Figure 3 location came from a benchmark, so it likely has minimal uncertainty.
+
+NorddahlHjort1993 - This has one point from the Þistilfjörður-Bakkaflói. An early marine limit of 65 m was assumed based on a terrace with sand that was overlain by a diamiction.
+
+Petursson1991 - NorddahlPetursson2005 added a marine limit point from this study, and assigned a position of 60 m. However, a reading of Petursson1991 only suggests "The unit is mostly
+found at 40 m a.s.1. in Hvalvik (Fig. 7), and was deposited when sea level was well above the 40 m level". So in reality, this should not be included because the height is only assumed.
+
+Ásbjörnsdóttir, L. and Norðdahl 2005 - I do not have access to this book, so I have to skip for now. It has marine limit data for Breiðafjörður
+
+RundgrenEtal1997 - this has two marine limits, one for the Bolling, the other for Late Younger Dryas or Preboreal. These are beach ridges.
+
+
+
+Yet to check::
+
+IngolfssonEtal1995 - This contains marine limit data from the west side of the island, within the vicinity of Reykjavik. These actually come from a number of papers:
+Thorkelsson 1935; Kjartansson 1952; Tryggvason & Jonsson 1958; Szmundsson & Einarsson 1980; Norddahl 1991a; Vikingsson el al. in press
+
+The assigned age of the marine limit was 10300 14C years, based on the radiocarbon dates Lu-3118 and U-2898.
+
+- Thorkelsson1935: Old shore-lines in Iceland and isostacy. Societas Scienturium Islundica, Greinar I. 1-7.
+- Kjartansson1952: Meira um Raudhol [with English summary]. Náttúrufræðingurinn 22. 78 89.
+-  TryggvasonJonsson1958: Tómas Tryggvason  Tómas Tryggvason Jón Jónsson 1958:  Jarðfræðikort af nágrenni Reykjavíkur. [Geological map of Reykjavik and surroundings], 1 map sheet. Atvinnudeild Háskólans, Iðnaðardeild, Skrifstofa bæjarverkfræðings Reykjavík.
+- Norddahl1990
+
+
+SaemundssonEinarsson1980 --- Kristjàn Sæmundsson and Sigmundur Einarsson 1980 Geological map of Iceland. Sheet 3, South-West Iceland
+
+VikingssonEtal1995 - Vikingsson Skúli Víkingsson, Árni Hjartarson, Hreggviður Norðdahl, Haukur Jóhannesson, Helgi Torfason, Jón Eiríksson, Kristján Sæmundsson - Map of superficial deposits: Elliðavatn 1613 III SV-J     Jarðgrunnskort, Elliðavatn 1613/III SV, 1:25.000
+
+
+
+Norðdahl, H. and Pétursson, H. G., 1994: Aldur jökulhörfunar og sjávarstöðubreytingar við Skjálfanda (In Icelandic). Geoscience Society of Iceland, Spring Meeting 1994, pp. 19.

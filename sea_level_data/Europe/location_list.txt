@@ -35,7 +35,14 @@ Virolahti	Gulfs_Of_Riga_-_Finland	Virolahti
 Vyborgsky_District	Gulfs_Of_Riga_-_Finland	Vyborgsky_District		
 West_Gulf_Of_Riga	Gulfs_Of_Riga_-_Finland	West_Gulf_Of_Riga		
 Breidafjodur	Iceland	Breidafjodur	Breiðafjöður	Brei\360afj\366\360ur
+Djupivogur	Iceland	Djupivogur	Djúpivogur	Dj\372pivogur
 Hunafloi	Iceland	Hunafloi	Húnaflói	H\372nafl\363i
+Husavik	Iceland	Husavik		
+Melrakkasletta	Iceland	Melrakkasletta	Melrakkaslétta	Melrakkasl\351tta
+Reykjanes_Peninsula	Iceland	Reykjanes_Peninsula		
+Reykjavvik	Iceland	Reykjavvik		
+Selfoss	Iceland	Selfoss		
+Vopnafjordur	Iceland	Vopnafjordur	Vopnafjörður	Vopnafj\366r\360ur
 Westfjords	Iceland	Westfjords		
 Connemara	Ireland	Connemara		
 County_Down	Ireland	County_Down		

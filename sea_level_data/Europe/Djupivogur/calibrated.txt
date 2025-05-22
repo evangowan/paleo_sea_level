@@ -1,0 +1,6 @@
+Lu-3800	64.706	-14.31	11237	426	-1.0	15.0	3.0	3.0	NorddahlEinarsson2001,NorddahlPetursson2005
+Lu-3668	64.686	-14.346	11712	455	-1.0	7.0	3.0	3.0	NorddahlEinarsson2001,NorddahlPetursson2005
+Lu-2674	64.683	-14.933	11340	357	-1.0	7.0	1.4	1.4	NorddahlHjort1987,Hakansson1988,NorddahlPetursson2005
+Lu-2673	64.683	-14.933	10933	284	-1.0	23.0	4.6	4.6	NorddahlHjort1987,Hakansson1988,NorddahlPetursson2005
+Lu-3802	64.79	-14.151	10943	371	-1.0	28.0	3.0	3.0	NorddahlEinarsson2001,NorddahlPetursson2005
+U-2	64.25	-15.0	7388	188	1.0	-2.0	1.0	1.0	Jonsson1957,Olsson1959

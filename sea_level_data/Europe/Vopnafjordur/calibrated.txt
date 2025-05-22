@@ -1,0 +1,4 @@
+AAR-809	65.481	-14.285	10688	456	-1.0	12.5	3.9	3.9	NorddahlEtal2019
+AAR-810	65.481	-14.285	10732	456	-1.0	12.5	3.9	3.9	NorddahlEtal2019
+Lu-2675	65.75	-14.867	11043	345	-1.0	12.0	2.4	2.4	NorddahlHjort1987,Hakansson1988,NorddahlPetursson2005
+Beta-Selfljot	65.481	-14.285	9953	357	-1.0	12.5	3.9	3.9	Gudmundsson2011,NorddahlEtal2019

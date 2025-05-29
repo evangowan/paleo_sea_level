@@ -206,6 +206,46 @@ python3 python/sea_level_indicator_types.py ${sea_level_file} ${index_limit} ${m
 
 source temp/sl_plot_options.sh
 
+if [ ! -z "${override_height}" ]
+then
+
+min_elevation=-${override_height}
+max_elevation=${override_height}
+
+fi
+
+
+
+if [ ! -z "${override_height_low}" ]
+then
+
+min_elevation=${override_height_low}
+
+fi
+
+if [ ! -z "${override_height_high}" ]
+then
+
+max_elevation=${override_height_high}
+
+fi
+
+if [ ! -z "${override_age}" ]
+then
+
+max_time=${override_age}
+
+
+fi
+
+if [ ! -z "${override_age_young}" ]
+then
+
+min_time=${override_age_young}
+
+
+fi
+
 
 J_sl_plot="-JX-${sl_plot_width}/${elevation_plot_height}"
 R_sl_plot="-R${min_time}/${max_time}/${min_elevation}/${max_elevation}"

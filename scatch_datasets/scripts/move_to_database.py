@@ -142,7 +142,7 @@ if 	write_location:
 			if temp_latex:
 				line['latex'] = temp_latex + ' ' + line['latex']
 			else:
-				line['latex'] = line['region'] + ' ' + temp_latex
+				line['latex'] = line['region'] + ' ' + line['latex']
 		else:
 			if temp_latex:
 				line['latex'] = temp_latex
@@ -156,7 +156,7 @@ if 	write_location:
 			if temp_gmt:
 				line['gmt'] = temp_gmt + ' ' + line['gmt']
 			else:
-				line['gmt'] = line['region'] + ' ' + temp_gmt
+				line['gmt'] = line['region'] + ' ' + line['gmt']
 		else:
 			if temp_gmt:
 				line['gmt'] = temp_gmt

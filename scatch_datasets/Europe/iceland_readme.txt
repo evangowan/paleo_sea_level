@@ -127,23 +127,48 @@ RundgrenEtal1997 - this has two marine limits, one for the Bolling, the other fo
 
 
 
-Yet to check::
+
 
 IngolfssonEtal1995 - This contains marine limit data from the west side of the island, within the vicinity of Reykjavik. These actually come from a number of papers:
-Thorkelsson 1935; Kjartansson 1952; Tryggvason & Jonsson 1958; Szmundsson & Einarsson 1980; Norddahl 1991a; Vikingsson el al. in press
-
-The assigned age of the marine limit was 10300 14C years, based on the radiocarbon dates Lu-3118 and U-2898.
+Thorkelsson 1935; Kjartansson 1952; Tryggvason & Jonsson 1958; Szmundsson & Einarsson 1980; Norddahl 1991a; Vikingsson el al. in press. However, the locations and elevations are taken from IngolfssonEtal1995 for consistency. The assigned age of the marine limit was 10300 14C years (post Younger Dryas), based on the radiocarbon dates Lu-3118 and U-2898. The map in the paper, from which I am taking the coordinates, has only very rough outlines of the coastline, which means that the locations are not going to be particularly accurate.
 
 - Thorkelsson1935: Old shore-lines in Iceland and isostacy. Societas Scienturium Islundica, Greinar I. 1-7.
 - Kjartansson1952: Meira um Raudhol [with English summary]. Náttúrufræðingurinn 22. 78 89.
 -  TryggvasonJonsson1958: Tómas Tryggvason  Tómas Tryggvason Jón Jónsson 1958:  Jarðfræðikort af nágrenni Reykjavíkur. [Geological map of Reykjavik and surroundings], 1 map sheet. Atvinnudeild Háskólans, Iðnaðardeild, Skrifstofa bæjarverkfræðings Reykjavík.
 - Norddahl1990
-
-
-SaemundssonEinarsson1980 --- Kristjàn Sæmundsson and Sigmundur Einarsson 1980 Geological map of Iceland. Sheet 3, South-West Iceland
-
-VikingssonEtal1995 - Vikingsson Skúli Víkingsson, Árni Hjartarson, Hreggviður Norðdahl, Haukur Jóhannesson, Helgi Torfason, Jón Eiríksson, Kristján Sæmundsson - Map of superficial deposits: Elliðavatn 1613 III SV-J     Jarðgrunnskort, Elliðavatn 1613/III SV, 1:25.000
-
+- SaemundssonEinarsson1980 --- Kristjàn Sæmundsson and Sigmundur Einarsson 1980 Geological map of Iceland. Sheet 3, South-West Iceland
+- VikingssonEtal1995 - Vikingsson Skúli Víkingsson, Árni Hjartarson, Hreggviður Norðdahl, Haukur Jóhannesson, Helgi Torfason, Jón Eiríksson, Kristján Sæmundsson - Map of superficial deposits: Elliðavatn 1613 III SV-J     Jarðgrunnskort, Elliðavatn 1613/III SV, 1:25.000
 
 
 Norðdahl, H. and Pétursson, H. G., 1994: Aldur jökulhörfunar og sjávarstöðubreytingar við Skjálfanda (In Icelandic). Geoscience Society of Iceland, Spring Meeting 1994, pp. 19.
+-- This is just an abstract without an actual location map to determine the locations of the marine limits
+
+
+NorddahlEinarsson2001 - I georeferenced this map in Google Earth, which seems to work well. They mapped two prominent shoreline features. They assign the marine limit to the Younger Dryas and the lower shoreline to the early Preboreal period. The authors state they used an aneroid altimeter to measure the elevations, with frequent calibration against known benchmarks. They state an uncertainty of ±3 m. The paper also shows a map of the larger southeast Iceland marine limits, but the positions are not specific enough to add.
+
+
+NorddahlPetursson2005 (Fig 19) show marine limiting points in the area of Eyjafjörður – Skjálfandi in northern Iceland, but it is not clear what the age of these limits are. In the text, they talk about three possible highstands, but the figure does not distinguish between them. I think it is safest not to add these.
+
+NorddahlPetursson2005 (Fig 21) - This does show a distinction between Younger Dryas and Preboreal marine limits, so I have added them. These data come from a number of sources, but I have used NorddahlPetursson2005 as the base. Some of the points do not have an age assigned. I have not added these. From this literature search, I assume that most of the elevations were made using altimeters (e.g. NorddahlHjort1993). (NorddahlHjort1993,Petursson1986,Petursson1991,PeturssonNorddahl1994,Saemundsson1977,Saemundsson1995,NorddahlPetursson2005)
+
+To assign the ages, I asked Áslaug Geirsdóttir and she said the following definitions are used:
+
+Bölling-Alleröd time B/A ca. 14700-12700 cal years BP (a warm period during the deglaciation)
+Younger Dryas YD ca. 12900-11700 cal years BP (severe cold period and glacial readvance following the Bölling-Alleröd warm period)
+PreBoreal PB time ca. 11300-10400 cal years BP (cool/cold period at the beginning of the Holocene - readvance and/or standstill of glaciers)
+
+There is a bit of overlap between the Bölling time and Younger Dryas time.
+
+So, the ages are as follows
+
+13700±1000
+12300±600
+10850±450
+
+Younger Dryas/Preboreal age is as follows
+
+11650±1250
+
+However, the scratch datasets are supposed to be 1-sigma, so the errors need to be half that to be correct in the database which coverts things to 2-sigma (or the full range here).
+
+The vertical uncertainty on the marine limit is a tough question. I suppose technically the marine limit could represent the highest storm level, though more likely it is closer to sea level, possibly as high as the high tide mark. In the case here, though, the elevation uncertainty is going to be dominated by the fact that few details are given. Many of these points were likely done with repeated altimetry measurements. Some points may have been collected from air photos or assumed. For the studies that gave a vertical uncertainty, I have used this and added 2 m to the lower uncertainty (to account for the roughly 4 m tide range that is measured at Reykjavik). For the points without a stated uncertainty, I have used 20% of the reported elevation (up to a maximum of 10 m) without regard of the tidal range, since such a large uncertainty will likely cover that.

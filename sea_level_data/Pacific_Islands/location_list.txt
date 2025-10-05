@@ -1,3 +1,4 @@
 Mururoa	French_Polynesia	Mururoa		
 Tahiti	French_Polynesia	Tahiti		
+Tahiti_Blachon_Tahiti_subsidence	French_Polynesia	Tahiti	Tahiti (0.25 mm/yr subsidence)	Tahiti (0.25 mm/yr subsidence)
 Vanuatu	Melansia	Vanuatu		

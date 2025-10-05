@@ -11,3 +11,5 @@ GIS/gmt.history
 GIS/region_project_attachments.zip
 IMCalc/CPD.cpd
 IMCalc/CPD_cawcr.cpd
+*.pdf
+*.xlsx

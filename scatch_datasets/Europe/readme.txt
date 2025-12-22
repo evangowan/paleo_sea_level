@@ -19,39 +19,5 @@ Sylt_region.ods - In order to fill a gap in the database, I have added a few dat
 Bungenstock_Frisian.ods - I am pretty sure I had this dataset in here before, but it did not make the transition to version 2.0, probably by mistake. Some of the data are superceded by the Hijma dataset.
 Zhang_Eiderstedt.ods - This contains a bunch of radiocarbon and OSL dates from a core in northwestern Germany. The core shows a transgression at the end of the Pleistocene and a regression in the Late Holocene. The stratigraphy suggest shoreface, offshore and foreshore (tidal flat) deposits. The authors provide no interpretation on the sea level position, so I have conservatively set them to be marine limiting. The details of the elevation says that top of the drill core was "close to modern sea level". I am using a ±1 m uncertainty to everything.
 Minch_NW_Scotland.ods - This contains two papers published about paleo sea level in northwestern Scotland, which used OSL dating. Plenty of the OSL dates were considered to be too old, so they are not included. The two MIS 3 dates from Simms et al are from a shore platform. I used the reported elevation and range of the platform (28 m) as the paleo sea level, as that is what they did in the paper. The coordinates were not given, so I estimated it from Google Earth based on the map in the paper.
-HOLSEA_NL_extract.ods - This has extracted data from the HOLSEA-NL dataset. The original dataset was too big to deal with. I used the recommended bulk corrections.
+HOLSEA_NL_extract.ods - This has extracted data from the HOLSEA-NL dataset. The original dataset was too big to deal with. I used the recommended bulk corrections. Note, they have included both indicators of sea level position and groundwater position in the database. The groundwater position points (TYPE=2,3) are not to be used in the sea level database. They include points with and without tectonic correction. This file includes the points without tectonic correction, though compaction and other corrections are still applied.
 
-still to download:
-Hijma, M. P.: From river valley to estuary: the early-mid Holocene transgression of the Rhine-Meuse valley, The Netherlands, Dissertation, Utrecht University, Royal Dutch Geographical Society, 2009. https://dspace.library.uu.nl/handle/1874/37147
-
-Kooistra, M. J., Kooistra, L. I., Van Rijn, P., and Sass-Klaassen, U.: Woodlands of the past—The excavation of wetland woods at Zwolle-Stadshagen (the Netherlands): Reconstruction of the wetland wood in its environmental context, Netherlands journal of geosciences, 85, 37–60, 2006. https://njgjournal.nl/index.php/njg/article/view/11682
-
-Koster, K., Stafleu, J., and Cohen, K. M.: Generic 3D interpolation of Holocene base-level rise and provision of accommodation space, developed for the Netherlands coastal plain and infilled palaeovalleys, Basin Res, 29, 775–797, https://doi.org/10.1111/bre.12202, 2017.
-
-Lohof, E. And Alders, P. G.: Hattemerbroek Bedrijventerrein Noord (2), https://doi.org/10.17026/dans-zyt-zzer, 2008.
-
-Lohof, E., Hamburg, T., and Flamman, J.: Steentijd opgespoord. Archeologisch onderzoek in het tracé van de Hanzelijn-Oude Land, Archol & ADC-Archeoprojecten, Leiden & Amersfoort (Archol report 138 & ADC report 2576), 2011.
-
-
-Makaske, B., van Smeerdijk, D. G., Mulder, J. R., & Spek, T. (2002). De stijging van de waterspiegel nabij Almere in de periode 5300-2300 v. Chr. (Alterra-rapport; No. 478). Alterra. https://edepot.wur.nl/29970
-
-
-Osinga, M.; Hekman, J.J., 2011, "Archeologisch onderzoek Hanzelijn deelgebieden XIV en XV", https://doi.org/10.17026/DANS-Z4X-ZARZ, 
-
-Spek, T., Bisdom, E. B. A., & van Smeerdijk, D. G. (1997). Verdronken dekzandgronden in Zuidelijk Flevoland (archeologische opgraving `A27-Hoge Vaart'); een interdisciplinaire studie naar de veranderingen van bodem en landschap in het Mesolithicum en Vroeg-Neolithicum. (Rapport / DLO-Staring Centrum; No. 472.1). Staring Centrum. https://edepot.wur.nl/301030
-
-Torbjorn E. Tornqvist; Holocene alternation of meandering and anastomosing fluvial systems in the Rhine-Meuse Delta (central Netherlands) controlled by sea-level rise and subsoil erodibility. Journal of Sedimentary Research 1993;; 63 (4): 683–693. doi: https://doi.org/10.1306/D4267BB8-2B26-11D7-8648000102C1865D
-
-Törnqvist, T. E., Van Ree, M. H. M., Van ’T Veer, R., and Van Geel, B.: Improving Methodology for High-Resolution Reconstruction of Sea-Level Rise and Neotectonics by Paleoecological Analysis and AMS 14 C Dating of Basal Peats, Quat. res., 49, 72–85, https://doi.org/10.1006/qres.1997.1938, 1998.
-
-van Asselen, S. (2010). Peat compaction in deltas : implications for Holocene delta evolution. [Doctoral thesis 1 (Research UU / Graduation UU), Utrecht University]. Koninklijk Nederlands Aardrijkskundig Genootschap. https://research-portal.uu.nl/en/publications/peat-compaction-in-deltas-implications-for-holocene-delta-evoluti
-
-Van Asselen, S., Cohen, K. M., and Stouthamer, E.: The impact of avulsion on groundwater level and peat formation in delta floodbasins during the middle-Holocene transgression in the Rhine-Meuse delta, The Netherlands, The Holocene, 27, 1694–1706, https://doi.org/10.1177/0959683617702224, 2017.
-
-Van der Linden, M.: Palynologisch onderzoek aan een veen- en kleipakket uit het Laat-Mesolithicum bij Almere-De Vaart, BIAX, Zaandam, 2010a. https://www.biax.nl/rapporten/905/palynologisch_onderzoek_aan_een_veen_en_kleipakket_uit_het_laat_mesolithicum_bij_almere_de_vaart
-
-
-Van der Linden, M.: Verlaten donken onder het veen? Paleoecologisch onderzoek aan een veenpakket bij Dinteloord, BIAX, Zaandam, 2010b. https://www.biax.nl/rapporten/895/verlaten_donken_onder_het_veen
-
-
-Van Dijk, G. J.: Holocene water level development in The Netherlands’ river area; implications for sea-level reconstruction, Geologie en Mijnbouw, 70, 311–326, 1991. https://njgjournal.nl/index.php/njg/article/view/12807

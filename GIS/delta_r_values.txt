@@ -1,6 +1,6 @@
 MapNo	Lon	Lat	DeltaR	DeltaRErr	Reference	Locality
 3	10.67	79.57	-9	45	Mangerud, J :1975	Magdalenafj, Spitsbergen
-4	14	79.5	-73	70	Mangerud, J,:1972	Tangen, Mushamna, Spitsbergen
+4	14	79.5	-73	70	Olsson, 1960	Tangen, Mushamna, Spitsbergen
 5	15.6	78.25	-22	50	Mangerud, J :1975	Adventbukta, Spitsbergen
 6	14.13	78.12	-87	37	Mangerud, J :1975	Isfjorden, Spitsbergen
 7	15	77.67	-65	37	Mangerud, J :1975	Bellsund, Spitsbergen
@@ -12,22 +12,22 @@ MapNo	Lon	Lat	DeltaR	DeltaRErr	Reference	Locality
 21	-21.5	73.47	37	47	Håkansson S:1973	Mackenziebugt, NE Greenland
 22	-21.5	73.47	7	54	Håkansson S:1973	Mackenziebugt, NE Greenland
 23	-22.55	70.83	27	39	Håkansson S:1973	Fame Qer, Scoresby Sund, NE Greenland
-25	-24.08	69.42	-20	70	Tauber, H an:1975	Kap Dalton
-26	-22.23	70.45	31	70	Tauber, H an:1975	Kap Hope
-27	-22.48	70.82	-116	70	Tauber, H an:1975	Hurry Inlet
-28	-25.28	71.13	-165	70	Tauber, H an:1975	Bjorneoerne
-29	-26.23	70.45	-119	40	Tauber, H an:1975	Hekla Havn
-30	-27.13	70.47	-51	70	Tauber, H an:1975	Hekla Havn
-31	-18.73	76.75	3	60	Funder, S, 1:1982	Danmarkshavn (depth up to ten fathoms)
+25	-24.08	69.42	-85	73	Tauber, H an:1975	Kap Dalton
+26	-22.23	70.45	-2	74	Tauber, H an:1975	Kap Hope
+27	-22.48	70.82	-149	52	Tauber, H an:1975	Hurry Inlet
+28	-25.28	71.13	-197	72	Tauber, H an:1975	Bjorneoerne
+29	-26.23	70.45	-191	52	Tauber, H an:1975	Hekla Havn
+30	-27.13	70.47	-84	73	Tauber, H an:1975	Hekla Havn
+31	-18.73	76.75	-39	58	Funder, S, 1:1982	Danmarkshavn (depth up to ten fathoms)
 32	-69	41	-43	22	Weidman, C R:1993	Georges Bank, Nova Scotia (76 m)
 33	-55	45	-39	24	Campana, S E:1997	Canadian East Coast
-34	-51.75	64.2	-31	84	Olsson, I U,:1980	Godthab, Greenland
-35	-51.13	69.22	-192	99	Olsson, I U,:1980	Jacobshavn, Greenland
-36	-53.5	69.25	-257	98	Olsson, I U,:1980	Disco, Greenland
-37	-52	69.68	-81	84	Olsson, I U,:1980	Mudderbugten, Disco, Greenland
-38	-54.73	72.37	-187	46	Mörner, N.-:1990	Proven harvour
-39	-56.17	72.78	-167	46	Mörner, N.-:1990	Upernavik
-40	-68.8	76.57	-170	59	Mörner, N.-:1990	Thule
+34	-51.75	64.2	-99	59	Krog, H and T:1974	Godthab, Greenland
+35	-51.13	69.22	-248	72	Krog, H and T:1974	Jacobshavn, Greenland
+36	-53.5	69.25	-309	71	Krog, H and T:1974	Disco, Greenland
+37	-52	69.68	-129	58	Krog, H and T:1974	Mudderbugten, Disco, Greenland
+38	-54.73	72.37	-207	44	Mörner, N.-:1990	Proven harvour
+39	-56.17	72.78	-189	44	Mörner, N.-:1990	Upernavik
+40	-68.8	76.57	-190	57	Mörner, N.-:1990	Thule
 55	29.75	70.07	-107	36	Mangerud, J :1975	Vadso, Finnmark, N Norway
 56	18.3	69.65	-100	37	Mangerud, J :1975	Tromso, Troms, N Norway
 57	-22	64	-60	51	Broecker, W :1961	Faxa Bay, Kollafjord, Iceland
@@ -39,9 +39,9 @@ MapNo	Lon	Lat	DeltaR	DeltaRErr	Reference	Locality
 63	-22.5	64.33	-134	35	Håkansson S:1984	Faxafloi, SW Iceland (33m)
 64	-22.2	64.12	-103	42	Håkansson S:1984	Faxafloi, SW Iceland (48 m)
 65	-17.5	66	-164	34	Håkansson S:1984	Skjalfani, N. Iceland (22 m)
-66	-22	64.33	-220	85	Olsson, I U,:1980	Faxe Bugt, Iceland
-67	-15.32	66.25	-12	84	Olsson, I U,:1980	Thorshofn, Iceland
-68	-7.33	62.07	-138	99	Olsson, I U,:1980	Sorvag, Vago, Faroe Islands
+66	-22	64.33	-334	58	Krog, H and T:1974	Faxe Bugt, Iceland
+67	-15.32	66.25	-53	59	Krog, H and T:1974	Thorshofn, Iceland
+68	-7.33	62.07	-187	72	Krog, H and T:1974	Sorvag, Vago, Faroe Islands
 69	2.58	60.63	-140	35	Mangerud, J :1975	Vikingbank, North Sea
 70	5	60.57	-180	59	Mangerud, J,:1972	Ideosen, Herdla, Hordaland, Norway
 71	6.28	60.3	-83	58	Mangerud, J,:1972	Sollesnes, Jondal, Hardanger, Norway (20
@@ -56,7 +56,7 @@ MapNo	Lon	Lat	DeltaR	DeltaRErr	Reference	Locality
 80	11.62	57.78	-194	46	Håkansson S:1969	Roro, N archipelago of Goteborg, Sweden
 81	11.62	57.78	-234	57	Håkansson S:1969	Roro, N archipelago of Goteborg, Sweden
 82	9.88	57.73	-151	38	Mangerud, J :1975	Skagerak, Norway
-83	9.75	55.52	-304	99	Olsson, I U,:1980	Middlefart Sund, Denmark
+83	9.75	55.52	-398	71	Krog, H and T:1974	Middlefart Sund, Denmark
 84	10.53	57.5	-86	58	Heier-Nielse:1995	W of Uirsholmene, Kattegat (15 m)
 85	10.6	57.48	-168	70	Heier-Nielse:1995	NE of Hirsholmene, Kattegat (19 m)
 86	10.6	57.33	-196	74	Heier-Nielse:1995	Kattegat off Saeby
@@ -76,7 +76,6 @@ MapNo	Lon	Lat	DeltaR	DeltaRErr	Reference	Locality
 124	-8.73	40.68	153	90	Monges Soare:1993	Aveiro
 125	-8.73	40.68	-24	90	Monges Soare:1993	Aveiro
 126	-8.73	40.68	186	45	Monges Soare:1993	Aveiro
-127	-8.73	40.68	126	40	Monges Soare:1993	Aveiro
 128	-8.73	40.68	206	35	Monges Soare:1993	Aveiro
 129	-9.12	39.55	77	60	Monges Soare:1993	S. Martinho do Porto
 130	-8.78	38.32	34	90	Monges Soare:1993	Costa da Gale
@@ -167,7 +166,7 @@ MapNo	Lon	Lat	DeltaR	DeltaRErr	Reference	Locality
 230	20.75	37.75	17	40	Reimer, P J :2002	Zante, Greece
 231	35.5	33.87	-114	40	Reimer, P J :2002	Beirut, Lebanon
 232	35.5	33.87	-204	50	Reimer, P J :2002	Beirut, Lebanon
-233	34.83	32.17	-93	40	Reimer, P J :2002	Netamiya, Israel
+233	34.8482	32.3384	-93	40	Reimer, P J :2002	Netamiya, Israel
 234	18.33	40.83	-39	60	M. Taviani a:?	South Adriatic, Barletta, Italy
 235	12.57	44.07	-20	28	LANGONE Leon:1996	North Adriatic,Rimini, Italy
 236	15.5	43.83	-258	35	Siani, G, Pa:2000	Dalmatia
@@ -374,7 +373,6 @@ MapNo	Lon	Lat	DeltaR	DeltaRErr	Reference	Locality
 544	-4.5	53.25	-147	49	Harkness, D :1983	Northeast Atlantic
 545	-6.78	55.17	-91	50	Harkness, D :1983	Northeast Atlantic
 546	0.62	50.33	-169	56	Harkness, D :1983	Northeast Atlantic
-554	-65.75	59.22	47	40	Coulthard RD:2010	Ungava Bay
 570	-77.93	64.4	87	50	Barber, D C,:1999	W. Hudson Strait
 581	58.6	23.5	129	51	Southon, J, :2002	Muscat
 582	45	12.5	0	57	Southon, J, :2002	Aden
@@ -439,9 +437,9 @@ MapNo	Lon	Lat	DeltaR	DeltaRErr	Reference	Locality
 682	11.43	58.25	-183	45	Håkansson, :1987	Gunnarsfjarden, outside Kristineberg, W.
 683	11.45	58.27	-310	56	Olsson, I U,:1980	Gullmarsfjorden, W. coast of Sweden
 684	11.45	58.27	-218	56	Olsson, I U,:1980	Gullmarsfjorden, W. coast of Sweden
-685	9	56.8	-88	84	Olsson, I U,:1980	Fur Sund, Limfjorden, Denmark
-686	10.02	55.87	-234	98	Olsson, I U,:1980	Vorso, Horsens Fjord, Denmark
-687	9	56.8	-266	73	Olsson, I U,:1980	Limfjorden, Denmark
+685	9	56.8	-157	58	Krog, H and T:1974	Fur Sund, Limfjorden, Denmark
+686	10.02	55.87	-253	72	Krog, H and T:1974	Vorso, Horsens Fjord, Denmark
+687	9	56.8	-268	52	Krog, H and T:1974	Limfjorden, Denmark
 688	8.22	56.72	55	106	Heier-Nielse:1995	Thybor�n Kanal, Limfjorden, at Sandene
 689	8.2	56.62	-32	57	Heier-Nielse:1995	Thybor�n Kanal, Limfjorden (0-4 m)
 690	8.23	56.62	68	59	Heier-Nielse:1995	Nissum Bredning, Limfjorden
@@ -906,8 +904,8 @@ MapNo	Lon	Lat	DeltaR	DeltaRErr	Reference	Locality
 1364	-170.6	-14.283	-144	19	Petchey F., :2008	Tutuila Island, Faga�itua, Samoa
 1365	-170.7	-14.266	-143	20	Petchey F., :2008	Tutuila Island, Pago Pago, Samoa
 1366	-171.533	-13.533	-123	17	Petchey F., :2008	Upolu, Fagola, Samoa
-1367	-166.333	-10.25	-147	21	Petchey F., :2008	Reef Island, Santa Cruz Islands, Solomon
-1368	-166.25	-10.166	-122	19	Petchey F., :2008	Reef Island, Pileni Island, Santa Cruz I
+1367	166.333	-10.25	-147	21	Petchey F., :2008	Reef Island, Santa Cruz Islands, Solomon
+1368	166.25	-10.166	-122	19	Petchey F., :2008	Reef Island, Pileni Island, Santa Cruz I
 1369	-166.966	-11.666	-115	17	Petchey F., :2008	Vanikoro, Santa Cruz Islands, Solomons
 1370	-149.616	-17.55	-132	19	Petchey F., :2008	Tahiti, Outumaoro
 1371	-149.333	-17.7	-158	20	Petchey F., :2008	Tahiti, Taravao, under stones
@@ -941,9 +939,6 @@ MapNo	Lon	Lat	DeltaR	DeltaRErr	Reference	Locality
 1414	150.8	-2.5667	256	80	Petchey, F.,:2004	Kavieng Harbor
 1415	150.8	-2.5667	146	50	Petchey, F.,:2004	Kavieng Harbor
 1416	150.8	-2.5667	246	50	Petchey, F.,:2004	Kavieng Harbor
-1417	-176.5569	-43.9509	81	14	Petchey F., :2008	Waitangi Beach
-1418	-176.594	-43.7751	-44	14	Petchey F., :2008	Owenga
-1419	-176.594	-43.7751	-79	14	Petchey F., :2008	Owenga
 1420	169	-46.5	-176	39	Rafter, T A,:1972	Pounawea
 1421	174	-41.6667	-194	46	Higham, T F :1995	Paekakariki
 1422	172.5833	-40.5833	-171	46	Higham, T F :1995	Collingwood River mouth
@@ -1016,7 +1011,6 @@ MapNo	Lon	Lat	DeltaR	DeltaRErr	Reference	Locality
 1492	34.8482	32.3384	-213	50	Boaretto, E,:2010	Israel
 1493	35.0138	32.8431	-258	50	Boaretto, E,:2010	Israel
 1494	34.9227	32.6432	-163	50	Boaretto, E,:2010	Israel
-1495	34.8482	32.3384	-93	40	Boaretto, E,:2010	Israel
 1497	-67.0012	17.9346	-161	24	Kilbourne, K:2007	La Parguera, Puerto Rico
 1538	47.7829	43.9142	-148	35	Kuzmin,Y.V.,:2007	Chechen_Island
 1539	47.5027	43.2856	-34	30	Kuzmin,Y.V.,:2007	Sulak_River_Mouth
@@ -1133,9 +1127,9 @@ MapNo	Lon	Lat	DeltaR	DeltaRErr	Reference	Locality
 1722	-66.6	11.92	-201	23	Guilderson, :2005	Boca de Medio
 1723	-65.23	10.9	-143	24	Guilderson, :2005	Isla Tortugas
 1724	-63.13	11.38	-146	23	Guilderson, :2005	Los Testigos
-1725	-76.2667	-13.9554	-50	40	Etayo, et al: 2013	Paracas, Peru
-1755	-78.9662	-8.2373	1	36	Etayo, et al: 2013	Puerto Salaverry,Peru
-1765	-81.3264	-4.6449	-18	40	Etayo, et al: 2013	Puerto Pariñas,Peru
+1725	-76.2667	-13.9554	-50	40	Etayo, et al: 2019	Paracas, Peru
+1755	-78.9662	-8.2373	1	36	Etayo, et al: 2019	Puerto Salaverry,Peru
+1765	-81.3264	-4.6449	-18	40	Etayo, et al: 2019	Puerto Pariñas,Peru
 1777	-85.6734	30.1362	-153	20	Hadden, Cherkinsky 2015	Northwest coast of Florida
 1778	-85.6947	30.1107	-154	20	Hadden, Cherkinsky 2015	Northwest coast of Florida
 1779	-86.4974	30.3841	-198	20	Hadden, Cherkinsky 2015	Northwest coast of Florida
@@ -1485,7 +1479,6 @@ MapNo	Lon	Lat	DeltaR	DeltaRErr	Reference	Locality
 2132	-170.3565	63.4503	226	20	Reuther et al, 2020	St. Lawrence Island area
 2133	-155.9622	19.5621	-184	24	Guilderson et al, 2021	North Pacific
 2134	-155.9634	19.5614	-171	22	Druffel, E R, 2001	Keauhou Bay, Big Island
-2135	-87.9917	17.8319	-237	25	Greer et al 2020	Coral Gardens, Belize
 2136	7.9135	53.7827	-95	30	Dirk Enters, et al 2021	Wangerooge
 2137	7.9135	53.7827	-81	21	Dirk Enters, et al 2021	Wangerooge
 2138	14.51	35.89	-199	24	Hunt et al, 2020	Valletta Harbour
@@ -1571,13 +1564,11 @@ MapNo	Lon	Lat	DeltaR	DeltaRErr	Reference	Locality
 2224	122.1333	-16.9667	-115	20	Veth et al, 2017	Lacepede Islands
 2225	114.25	-22.25	-62	20	Veth et al, 2017	Exmouth Gulf
 2226	123.1833	-16.4167	-83	27	Veth et al, 2017	Sunday Island, King Sound
-2227	115.5	-8.2333	-339	13	Guilderson, et al 2009	Padang Bai
 2228	123.3336	-16.1163	-66	30	OConnor et al. 2010	Buccaneer Archipelago
 2229	122.194	-17.662	266	36	OConnor et al. 2010	Barred Creek
 2230	121.702	-18.652	-35	36	OConnor et al. 2010	Lagrange Bay
 2231	136.5921	-13.9683	-24	181	Shulmeister & Head 1993	Groote Eylandt
 2232	136.793	-12.1796	-114	90	Shulmeister & Head 1993	Yirrkala, near Nhulunbuy
-2332	119.0667	-5.0333	-409	13	Fallon et al, 2008	Langkai, Makassar Straits
 2333	167.9549	-29.0295	-219	20	Petchey et al 2008	Norfolk Island
 2334	167.9549	-29.0295	-208	21	Petchey et al 2008	Norfolk Island
 2335	167.9549	-29.0295	-203	14	Petchey et al 2008	Norfolk Island
@@ -1873,7 +1864,6 @@ MapNo	Lon	Lat	DeltaR	DeltaRErr	Reference	Locality
 2625	-52.85	63.5833	-100	21	Pearce et al 2023	Davis Strait
 2626	-61.8333	66.55	81	26	Pearce et al 2023	Greenland
 2627	-55	62.1	-149	27	Pearce et al 2023	Station 180
-2628	-54.5167	65.5667	-87	29	Pearce et al 2023	st29
 2629	-54.5167	65.5667	-109	30	Pearce et al 2023	st29
 2630	-54.4833	71.35	-72	29	Pearce et al 2023	st139
 2631	-51.7667	46.2167	-12	24	Pearce et al 2023	Newfoundland Grand Banks
@@ -1944,3 +1934,121 @@ MapNo	Lon	Lat	DeltaR	DeltaRErr	Reference	Locality
 2696	-25.7	73.25	716	30	Pearce et al 2023	Greenland 1899#36 - K. Frans Joseph Fjor
 2697	-57	55.0833	-50	26	Pearce et al 2023	ca 20 somil fra Hamilton Inlet. Labrador
 2698	-22.4833	70.7167	64	38	Pearce et al 2023	Greenland 1899#33 - Greenland
+3344	119.0667	-5.0333	-157	23	Fallon et al, 2008	Langkai, Makassar Straits
+3345	115.5	-8.2333	6	30	Guilderson, et al 2009	Padang Bai
+3346	-87.9917	17.8319	-248	35	Greer et al 2020	Coral Gardens, Belize
+3347	-60.7877	-63.8921	463	20	Divola et al, 2024	Mikkelsen Harbor
+3348	-60.7877	-63.8921	328	15	Divola et al, 2024	Mikkelsen Harbor
+3349	-60.7877	-63.8921	573	15	Divola et al, 2024	Mikkelsen Harbor
+3350	-60.7877	-63.8921	503	15	Divola et al, 2024	Mikkelsen Harbor
+3351	-60.7877	-63.8921	573	20	Divola et al, 2024	Mikkelsen Harbor
+3352	-60.7877	-63.8921	583	20	Divola et al, 2024	Mikkelsen Harbor
+3353	-60.7877	-63.8921	388	20	Divola et al, 2024	Mikkelsen Harbor
+3354	-60.7877	-63.8921	463	20	Divola et al, 2024	Mikkelsen Harbor
+3355	-60.7877	-63.8921	563	15	Divola et al, 2024	Mikkelsen Harbor
+3356	-60.7877	-63.8921	453	15	Divola et al, 2024	Mikkelsen Harbor
+3357	-60.7877	-63.8921	348	15	Divola et al, 2024	Mikkelsen Harbor
+3358	-60.7877	-63.8921	458	15	Divola et al, 2024	Mikkelsen Harbor
+3359	-63.6633	-64.888	528	15	Divola et al, 2024	Jougla Point
+3360	-63.6633	-64.888	178	15	Divola et al, 2024	Jougla Point
+3361	-63.6633	-64.888	253	15	Divola et al, 2024	Jougla Point
+3362	-63.6633	-64.888	198	20	Divola et al, 2024	Jougla Point
+3363	-63.6633	-64.888	538	15	Divola et al, 2024	Jougla Point
+3364	-63.6633	-64.888	328	15	Divola et al, 2024	Jougla Point
+3365	-63.6633	-64.888	363	15	Divola et al, 2024	Jougla Point
+3366	-63.6633	-64.888	388	15	Divola et al, 2024	Jougla Point
+3367	-63.6633	-64.888	573	15	Divola et al, 2024	Jougla Point
+3368	-62.6215	-64.6866	413	20	Divola et al, 2024	Cuverville Island
+3369	-60.225	-62.6181	733	15	Divola et al, 2024	Walker Bay. Livingston Island
+3370	120.4833	17.9833	-199	36	Hirabayashi, et al, 2019	Luzon
+3371	120.4833	17.9833	-132	27	Hirabayashi, et al, 2019	Luzon
+3372	120.4833	17.9833	-89	25	Hirabayashi, et al, 2019	Luzon
+3373	120.4833	17.9833	-206	26	Hirabayashi, et al, 2019	Luzon
+3374	120.4833	17.9833	-140	34	Hirabayashi, et al, 2019	Luzon
+3375	120.4833	17.9833	-116	26	Hirabayashi, et al, 2019	Luzon
+3376	120.4833	17.9833	-157	25	Hirabayashi, et al, 2019	Luzon
+3377	120.4833	17.9833	-122	28	Hirabayashi, et al, 2019	Luzon
+3378	120.4833	17.9833	-102	32	Hirabayashi, et al, 2019	Luzon
+3379	120.4833	17.9833	-162	25	Hirabayashi, et al, 2019	Luzon
+3380	159	-8	-195	49	Schmidt et al 2004	Solomon Islands
+3381	-65.35	10.8833	-114	23	DeLong, et al, 2025	Isla Tortuga
+3382	-65.35	10.8833	-175	25	DeLong, et al, 2025	Isla Tortuga
+3383	-65.35	10.8833	-177	30	DeLong, et al, 2025	Isla Tortuga
+3384	-65.35	10.8833	-180	26	DeLong, et al, 2025	Isla Tortuga
+3385	-65.35	10.8833	-209	23	DeLong, et al, 2025	Isla Tortuga
+3386	-66.6	11.9167	-199	22	DeLong, et al, 2025	Boca de Medio Island
+3387	-66.6	11.9167	-183	22	DeLong, et al, 2025	Boca de Medio Island
+3388	-66.6	11.9167	-191	22	DeLong, et al, 2025	Boca de Medio Island
+3389	-66.6	11.9167	-166	22	DeLong, et al, 2025	Boca de Medio Island
+3390	-66.6	11.9167	-184	22	DeLong, et al, 2025	Boca de Medio Island
+3391	-66.6	11.9167	-200	22	DeLong, et al, 2025	Boca de Medio Island
+3392	-66.6	11.9167	-200	22	DeLong, et al, 2025	Boca de Medio Island
+3393	-66.6	11.9167	-200	22	DeLong, et al, 2025	Boca de Medio Island
+3394	-66.6	11.9167	-217	22	DeLong, et al, 2025	Boca de Medio Island
+3395	-95.8083	19.1383	-160	24	DeLong, et al, 2025	Santiaguillo Veracruz
+3396	-95.8083	19.1383	-185	24	DeLong, et al, 2025	Santiaguillo Veracruz
+3397	-95.8083	19.1383	-171	26	DeLong, et al, 2025	Santiaguillo Veracruz
+3398	-95.8083	19.1383	-125	24	DeLong, et al, 2025	Santiaguillo Veracruz
+3399	-95.8083	19.1383	-159	23	DeLong, et al, 2025	Santiaguillo Veracruz
+3400	-95.8083	19.1383	-188	23	DeLong, et al, 2025	Santiaguillo Veracruz
+3401	-95.8083	19.1383	-176	21	DeLong, et al, 2025	Santiaguillo Veracruz
+3402	-95.8083	19.1383	-167	31	DeLong, et al, 2025	Santiaguillo Veracruz
+3403	-95.8083	19.1383	-189	26	DeLong, et al, 2025	Santiaguillo Veracruz
+3404	-95.8083	19.1383	-167	25	DeLong, et al, 2025	Santiaguillo Veracruz
+3405	-95.8083	19.1383	-242	31	DeLong, et al, 2025	Santiaguillo Veracruz
+3406	-95.8083	19.1383	-170	25	DeLong, et al, 2025	Santiaguillo Veracruz
+3407	-95.8083	19.1383	-240	31	DeLong, et al, 2025	Santiaguillo Veracruz
+3408	-95.8083	19.1383	-190	25	DeLong, et al, 2025	Santiaguillo Veracruz
+3409	-95.8083	19.1383	-198	25	DeLong, et al, 2025	Santiaguillo Veracruz
+3410	-95.8083	19.1383	-179	25	DeLong, et al, 2025	Santiaguillo Veracruz
+3411	-95.8083	19.1383	-128	25	DeLong, et al, 2025	Santiaguillo Veracruz
+3412	-95.8083	19.1383	-221	27	DeLong, et al, 2025	Santiaguillo Veracruz
+3413	-95.8083	19.1383	-124	25	DeLong, et al, 2025	Santiaguillo Veracruz
+3414	-93.8167	27.8667	-166	25	DeLong, et al, 2025	West Flower Garden Bank
+3415	-93.8167	27.8667	-166	25	DeLong, et al, 2025	West Flower Garden Bank
+3416	-93.8167	27.8667	-157	26	DeLong, et al, 2025	West Flower Garden Bank
+3417	-93.8167	27.8667	-132	26	DeLong, et al, 2025	West Flower Garden Bank
+3418	-93.8167	27.8667	-174	25	DeLong, et al, 2025	West Flower Garden Bank
+3419	-93.8167	27.8667	-183	25	DeLong, et al, 2025	West Flower Garden Bank
+3420	-93.8333	27.8667	-138	23	DeLong, et al, 2025	West Flower Garden Bank
+3421	-93.8333	27.8667	-162	25	DeLong, et al, 2025	West Flower Garden Bank
+3422	-93.8333	27.8667	-171	23	DeLong, et al, 2025	West Flower Garden Bank
+3423	-93.8333	27.8667	-132	24	DeLong, et al, 2025	West Flower Garden Bank
+3424	-24.9574	16.7766	-147	28	Fernandex, et al. 2015	Cape Verde
+3425	-24.9574	16.7766	-133	34	Fernandex, et al. 2015	Cape Verde
+3426	-24.9574	16.7766	-102	27	Fernandex, et al. 2015	Cape Verde
+3427	-24.9574	16.7766	-228	26	Fernandex, et al. 2015	Cape Verde
+3428	-24.9574	16.7766	-138	27	Fernandex, et al. 2015	Cape Verde
+3429	-24.9574	16.7766	-131	29	Fernandex, et al. 2015	Cape Verde
+3430	-24.9574	16.7766	-170	31	Fernandex, et al. 2015	Cape Verde
+3431	-24.9574	16.7766	-117	31	Fernandex, et al. 2015	Cape Verde
+3432	-86.7362	21.2378	-164	25	Castro, et al. 2025	Isla Mujeres
+3433	-86.7362	21.2378	-111	25	Castro, et al. 2025	Isla Mujeres
+3434	-86.7362	21.2378	-76	25	Castro, et al. 2025	Isla Mujeres
+3435	-86.7362	21.2378	-114	25	Castro, et al. 2025	Isla Mujeres
+3436	-86.7362	21.2378	-59	30	Castro, et al. 2025	Isla Mujeres
+3437	-86.7362	21.2378	-96	25	Castro, et al. 2025	Isla Mujeres
+3438	-86.7362	21.2378	-78	26	Castro, et al. 2025	Isla Mujeres
+3439	-86.7362	21.2378	-31	26	Castro, et al. 2025	Isla Mujeres
+3440	-86.7362	21.2378	-39	26	Castro, et al. 2025	Isla Mujeres
+3441	-86.7362	21.2378	-186	26	Castro, et al. 2025	Isla Mujeres
+3442	-86.7362	21.2378	-175	27	Castro, et al. 2025	Isla Mujeres
+3443	-115.2135	28.2096	-42	28	Castro, et al. 2025	Cedros Island
+3444	-115.2135	28.2096	-11	25	Castro, et al. 2025	Cedros Island
+3445	-106.4138	23.2412	5	30	Castro, et al. 2025	Mazatlan
+3446	-106.4138	23.2412	-18	30	Castro, et al. 2025	Mazatlan
+3447	-106.4138	23.2412	91	30	Castro, et al. 2025	Mazatlan
+3448	-106.4138	23.2412	46	25	Castro, et al. 2025	Mazatlan
+3449	-106.4138	23.2412	47	25	Castro, et al. 2025	Mazatlan
+3450	-106.4138	23.2412	9	30	Castro, et al. 2025	Mazatlan
+3451	-116.6402	31.8457	95	25	Castro, et al. 2025	Todos los Santos Bay, Ensenada
+3452	-116.6402	31.8457	76	25	Castro, et al. 2025	Todos los Santos Bay, Ensenada
+3453	-116.6402	31.8457	49	30	Castro, et al. 2025	Todos los Santos Bay, Ensenada
+3454	-116.6402	31.8457	106	25	Castro, et al. 2025	Todos los Santos Bay, Ensenada
+3455	-116.6402	31.8457	181	30	Castro, et al. 2025	Todos los Santos Bay, Ensenada
+3456	-118.1276	33.7391	24	23	Castro, et al. 2025	San Pedro California
+3457	-118.1276	33.7391	-20	30	Castro, et al. 2025	San Pedro California
+3458	12.3334	45.3992	182	35	Siani et al., 2000	Lido, near Venice lagoon, Italy
+3532	-64.5	32.1667	-208	30	Goodkin et al, 2012	Sargasso Sea
+3533	112.0136	16.3409	-207	13	Yang et al, 2025	Hainan Island
+3534	112.0267	16.3468	-209	15	Yang et al, 2025	Xisha Island

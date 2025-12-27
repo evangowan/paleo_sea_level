@@ -1,3 +1,55 @@
+239: Ling Yang,Weijian Zhou,Peng Cheng, Luyuan Zhang, Gangjian Wei, Xiaolin Ma, Jie Zhou, Hong Yan, Ning Chen and Yaoyao Hou
+Monsoon-regulated marine carbon reservoir effect in the northern South China Sea
+Radiocarbon (2025), pp. 1-16
+2025
+https://dx.doi.org/10.1017/RDC.2024.118
+
+238: Nathalie F. Goodkin, Ellen R. M. Druffel, Konrad A. Hughen & Scott C. Doney
+Two centuries of limited variability in subtropical North Atlantic thermocline ventilation
+Nature Communications
+2012
+https://dx.doi.org/10.1038/ncomms1811
+
+237: Maikel Díaz-Castro, María Rodríguez-Ceja, Corina Solís and Luis Álvarez-Lajonchere
+New marine reservoir effect corrections for coasts of Mexico
+Radiocarbon (2025), pp. 1–8
+2025
+https://dx.doi.org/10.1017/rdc.2025.10105
+
+236: Alvaro Fernandez, Thomas J. Lapen, Rasmus Andreasen, Peter K. Swart, Christopher D. White, and Brad E. Rosenheim
+Ventilation time scales of the North Atlantic subtropical cell revealed by coral radiocarbon from the Cape Verde Islands
+Paleoceanography
+2015
+https://dx.doi.org/10.1002/2015PA002790
+
+235: Kristine L. DeLong, K. Halimeda Kilbourne , Thomas P. Guilderson, Amy J. Wagner , Niall Slowey , Kylie Palmer and Irka Hajdas
+New and old coral radiocarbon records revisited for the subtropical and tropical Atlantic Ocean
+Radiocarbon (2025), 67, pp. 487–512
+2025
+https://dx.doi.org/10.1017/RDC.2025.5
+
+234: Anneliese Schmidt, G.S. Burr, F.W. Taylor, J.O Malley, J.W. Beck
+A semiannual radiocarbon record of a modern coral from the Solomon Islands
+Nuclear Instruments and Methods in Physics Research B 223–224 (2004) 420–427
+2004
+https://dx.doi.org/10.1016/j.nimb.2004.04.080
+
+233: Shoko Hirabayashi, Yusuke Yokoyama, Atsushi Suzuki, Tezer Esat, Yosuke Miyairi, Takahiro Aze, Fernando Siringan, Yasuo Maeda
+Local marine reservoir age variability at Luzon Strait in the South China Sea during the Holocene
+Nuclear Inst. and Methods in Physics Research B
+2019
+https://dx.doi.org/10.1016/j.nimb.2018.12.001
+
+232: Claire Divola, Alexander R. Simms, Angela Sremba, C. Scott Baker, Ari Friedlaender, John Southon
+Constraining the radiocarbon reservoir age for the Southern Ocean using whale bones ... whaling stations
+Quaternary Science Reviews,336 (2024) 108756
+2024
+https://dx.doi.org/10.1016/j.quascirev.2024.108756
+
+
+----- Above added on December 26, 2025 -  MapNo >2698 (starts at 3344, and goes to 3534)
+
+
 231: Christof Pearce, Karen Søby Özdemir, Ronja Forchhammer Mathiasen, Henrieka Detlef, and Jesper Olsen
 The marine reservoir age of Greenland coastal waters
 Geochronology, 5, 451-465, 2023

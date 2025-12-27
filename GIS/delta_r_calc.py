@@ -17,6 +17,9 @@ except FileNotFoundError:
 delta_r = delta_r_data["delta_r"].to_numpy()
 uncertainty = delta_r_data["uncertainty"].to_numpy()
 uncertainty_squared=np.power(uncertainty,2)
+
+#for uncertainty_check in uncertainty_squared:
+#	print("uncertainty_squared: ", uncertainty_check)
 invert_uncertainty_squared = np.divide(1.0,uncertainty_squared)
 delta_r_div_uncertainty_squared = np.divide(delta_r,uncertainty_squared)
 

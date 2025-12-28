@@ -10,6 +10,7 @@ Outer_Humber	East_Great_Britain	Outer_Humber
 Tees	East_Great_Britain	Tees		
 Tyne	East_Great_Britain	Tyne		
 Calais	English_Channel	Calais		
+Calais_Tectonic_corr	English_Channel	Calais	Calais (tectonic correction applied)	Calais Tectonic corr
 Devon	English_Channel	Devon		
 Dorset	English_Channel	Dorset		
 Essex	English_Channel	Essex		
@@ -61,6 +62,8 @@ South_Clare	Ireland	South_Clare
 West_Cork	Ireland	West_Cork		
 West_Donegal	Ireland	West_Donegal		
 Wexford	Ireland	Wexford		
+East_North_Sea	NaN	East_North_Sea		
+Sylt	NaN	Sylt		
 Faroe_Islands	North_Atlantic_Islands	Faroe_Islands		
 Shetlands	North_Atlantic_Islands	Shetlands		
 Aland	North_Baltic	Aland		
@@ -76,19 +79,32 @@ South_Ostrobothnia	North_Baltic	South_Ostrobothnia
 Turku	North_Baltic	Turku		
 Belgium	North_Sea	Belgium		
 Bremerhaven	North_Sea	Bremerhaven		
-Central_Netherlands	North_Sea	Central_Netherlands		
 Dogger_Bank	North_Sea	Dogger_Bank		
 Elbe	North_Sea	Elbe		
+Flevoland	North_Sea	Flevoland		
+Flevoland_Tectonic_corr	North_Sea	Flevoland	Flevoland (tectonic correction applied)	Flevoland Tectonic corr
 German_Bight	North_Sea	German_Bight		
 Ho_Bugt	North_Sea	Ho_Bugt		
 Langeoog	North_Sea	Langeoog		
 Limfjord	North_Sea	Limfjord		
-Netherlands_Wadden_Sea	North_Sea	Netherlands_Wadden_Sea		
+Noord-Holland	North_Sea	Noord-Holland		
+Noord-Holland_Tectonic_corr	North_Sea	Noord-Holland	Noord-Holland (tectonic correction applied)	Noord-Holland Tectonic corr
 Norderney	North_Sea	Norderney		
+Norderney_Tectonic_corr	North_Sea	Norderney	Norderney (tectonic correction applied)	Norderney Tectonic corr
 Oyster_Ground	North_Sea	Oyster_Ground		
-Rotterdam	North_Sea	Rotterdam		
+Rhine-Meuse_Delta_Inland	North_Sea	Rhine-Meuse_Delta_Inland		
+Rhine-Meuse_Delta_Inland_Tectonic_corr	North_Sea	Rhine-Meuse_Delta_Inland	Rhine-Meuse_Delta_Inland (tectonic correction applied)	Rhine-Meuse_Delta_Inland Tectonic corr
 Southern_Bight	North_Sea	Southern_Bight		
+Southern_Bight_Tectonic_corr	North_Sea	Southern_Bight	Southern_Bight (tectonic correction applied)	Southern_Bight Tectonic corr
 Southwest_North_Sea	North_Sea	Southwest_North_Sea		
+Waddenzee_East	North_Sea	Waddenzee_East		
+Waddenzee_East_Tectonic_corr	North_Sea	Waddenzee_East	Waddenzee_East (tectonic correction applied)	Waddenzee_East Tectonic corr
+Waddenzee_West	North_Sea	Waddenzee_West		
+Waddenzee_West_Tectonic_corr	North_Sea	Waddenzee_West	Waddenzee_West (tectonic correction applied)	Waddenzee_West Tectonic corr
+Zeeland	North_Sea	Zeeland		
+Zeeland_Tectonic_corr	North_Sea	Zeeland	Zeeland (tectonic correction applied)	Zeeland Tectonic corr
+Zuid-Holland	North_Sea	Zuid-Holland		
+Zuid-Holland_Tectonic_corr	North_Sea	Zuid-Holland	Zuid-Holland (tectonic correction applied)	Zuid-Holland Tectonic corr
 Altafjorden	Northern_Norway	Altafjorden		
 Balsfjorden	Northern_Norway	Balsfjorden		
 Evenes	Northern_Norway	Evenes		
@@ -127,6 +143,7 @@ Montrose	Scotland	Montrose
 Moray_Firth	Scotland	Moray_Firth		
 North_Skye	Scotland	North_Skye		
 Orkney	Scotland	Orkney		
+Slaggan_Bay	Scotland	Slaggan_Bay		
 South_Skye	Scotland	South_Skye		
 Sutherland	Scotland	Sutherland		
 Tay_Valley	Scotland	Tay_Valley		

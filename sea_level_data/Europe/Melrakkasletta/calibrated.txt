@@ -1,5 +1,11 @@
-T-4468	66.391	-16.501	14829	418	-1.0	40.0	8.0	8.0	Petursson1991,NorddahlPetursson2005
-T-4467	66.3	-16.445	11823	406	-1.0	5.0	1.0	1.0	Petursson1991,NorddahlPetursson2005
-U-2225	66.292	-16.45	14574	580	-1.0	6.0	1.2	1.2	OlssonEtal1972,Petursson1991,NorddahlPetursson2005
-AA-21465	66.222	-15.722	11563	328	-1.0	7.0	1.4	1.4	Richardson1997,NorddahlPetursson2005
 T-4470	66.391	-16.501	14161	558	-1.0	30.0	6.0	6.0	Petursson1991,NorddahlPetursson2005
+T-4468	66.391	-16.501	14829	418	-1.0	40.0	8.0	8.0	Petursson1991,NorddahlPetursson2005
+AA-21465	66.222	-15.722	11563	328	-1.0	7.0	1.4	1.4	Richardson1997,NorddahlPetursson2005
+U-2225	66.292	-16.45	14574	580	-1.0	6.0	1.2	1.2	OlssonEtal1972,Petursson1991,NorddahlPetursson2005
+T-4467	66.3	-16.445	11823	406	-1.0	5.0	1.0	1.0	Petursson1991,NorddahlPetursson2005
+Iceland_ML_72	66.177712	-15.471908	10850	450	-2.0	30.0	6.0	6.0	NorddahlHjort1993,Petursson1986,Petursson1991,PeturssonNorddahl1994,Saemundsson1977,Saemundsson1995,NorddahlPetursson2005
+Iceland_ML_68	66.258377	-15.730221	10850	450	-2.0	46.0	9.2	9.2	NorddahlHjort1993,Petursson1986,Petursson1991,PeturssonNorddahl1994,Saemundsson1977,Saemundsson1995,NorddahlPetursson2005
+Iceland_ML_70	66.207889	-15.698278	10850	450	-2.0	30.0	6.0	6.0	NorddahlHjort1993,Petursson1986,Petursson1991,PeturssonNorddahl1994,Saemundsson1977,Saemundsson1995,NorddahlPetursson2005
+Iceland_ML_67	66.283427	-15.766562	12300	600	-2.0	65.0	10.0	10.0	NorddahlHjort1993,Petursson1986,Petursson1991,PeturssonNorddahl1994,Saemundsson1977,Saemundsson1995,NorddahlPetursson2005
+Iceland_ML_71	66.196485	-15.525186	10850	450	-2.0	30.0	6.0	6.0	NorddahlHjort1993,Petursson1986,Petursson1991,PeturssonNorddahl1994,Saemundsson1977,Saemundsson1995,NorddahlPetursson2005
+Iceland_ML_69	66.227914	-15.724321	10850	450	-2.0	30.0	6.0	6.0	NorddahlHjort1993,Petursson1986,Petursson1991,PeturssonNorddahl1994,Saemundsson1977,Saemundsson1995,NorddahlPetursson2005

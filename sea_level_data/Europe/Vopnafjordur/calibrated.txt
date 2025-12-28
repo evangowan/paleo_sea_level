@@ -1,4 +1,16 @@
 AAR-809	65.481	-14.285	10688	456	-1.0	12.5	3.9	3.9	NorddahlEtal2019
-AAR-810	65.481	-14.285	10732	456	-1.0	12.5	3.9	3.9	NorddahlEtal2019
 Lu-2675	65.75	-14.867	11043	345	-1.0	12.0	2.4	2.4	NorddahlHjort1987,Hakansson1988,NorddahlPetursson2005
+Iceland_ML_80	65.836125	-14.830136	10850	450	-2.0	40.0	8.0	8.0	NorddahlHjort1993,Petursson1986,Petursson1991,PeturssonNorddahl1994,Saemundsson1977,Saemundsson1995,NorddahlPetursson2005
+Iceland_ML_84	65.752961	-14.528747	10850	450	-2.0	45.0	9.0	9.0	NorddahlHjort1993,Petursson1986,Petursson1991,PeturssonNorddahl1994,Saemundsson1977,Saemundsson1995,NorddahlPetursson2005
+Iceland_ML_83	65.728344	-14.74761	10850	450	-2.0	55.0	10.0	10.0	NorddahlHjort1993,Petursson1986,Petursson1991,PeturssonNorddahl1994,Saemundsson1977,Saemundsson1995,NorddahlPetursson2005
+Iceland_ML_82	65.78591	-14.840207	10850	450	-2.0	50.0	10.0	10.0	NorddahlHjort1993,Petursson1986,Petursson1991,PeturssonNorddahl1994,Saemundsson1977,Saemundsson1995,NorddahlPetursson2005
+Iceland_ML_81	65.805006	-14.877704	10850	450	-2.0	50.0	10.0	10.0	NorddahlHjort1993,Petursson1986,Petursson1991,PeturssonNorddahl1994,Saemundsson1977,Saemundsson1995,NorddahlPetursson2005
+Iceland_ML_73	66.106152	-15.206099	10850	450	-2.0	30.0	6.0	6.0	NorddahlHjort1993,Petursson1986,Petursson1991,PeturssonNorddahl1994,Saemundsson1977,Saemundsson1995,NorddahlPetursson2005
 Beta-Selfljot	65.481	-14.285	9953	357	-1.0	12.5	3.9	3.9	Gudmundsson2011,NorddahlEtal2019
+Iceland_ML_78	65.999232	-14.825616	10850	450	-2.0	30.0	6.0	6.0	NorddahlHjort1993,Petursson1986,Petursson1991,PeturssonNorddahl1994,Saemundsson1977,Saemundsson1995,NorddahlPetursson2005
+Iceland_ML_74	66.089283	-15.165316	10850	450	-2.0	35.0	7.0	7.0	NorddahlHjort1993,Petursson1986,Petursson1991,PeturssonNorddahl1994,Saemundsson1977,Saemundsson1995,NorddahlPetursson2005
+Iceland_ML_75	66.073572	-15.081522	10850	450	-2.0	30.0	6.0	6.0	NorddahlHjort1993,Petursson1986,Petursson1991,PeturssonNorddahl1994,Saemundsson1977,Saemundsson1995,NorddahlPetursson2005
+AAR-810	65.481	-14.285	10732	456	-1.0	12.5	3.9	3.9	NorddahlEtal2019
+Iceland_ML_79	66.039688	-14.755212	12300	600	-2.0	50.0	10.0	10.0	NorddahlHjort1993,Petursson1986,Petursson1991,PeturssonNorddahl1994,Saemundsson1977,Saemundsson1995,NorddahlPetursson2005
+Iceland_ML_77	66.001417	-14.873387	10850	450	-2.0	35.0	7.0	7.0	NorddahlHjort1993,Petursson1986,Petursson1991,PeturssonNorddahl1994,Saemundsson1977,Saemundsson1995,NorddahlPetursson2005
+Iceland_ML_76	66.027755	-15.024562	10850	450	-2.0	35.0	7.0	7.0	NorddahlHjort1993,Petursson1986,Petursson1991,PeturssonNorddahl1994,Saemundsson1977,Saemundsson1995,NorddahlPetursson2005

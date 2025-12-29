@@ -41,7 +41,7 @@ Hunafloi	Iceland	Hunafloi	Húnaflói	H\372nafl\363i
 Husavik	Iceland	Husavik		
 Melrakkasletta	Iceland	Melrakkasletta	Melrakkaslétta	Melrakkasl\351tta
 Reykjanes_Peninsula	Iceland	Reykjanes_Peninsula		
-Reykjavvik	Iceland	Reykjavvik		
+Reykjavik	Iceland	Reykjavik	Reykjavík	Reykjav\355k
 Selfoss	Iceland	Selfoss		
 Vopnafjordur	Iceland	Vopnafjordur	Vopnafjörður	Vopnafj\366r\360ur
 Westfjords	Iceland	Westfjords		
@@ -62,8 +62,6 @@ South_Clare	Ireland	South_Clare
 West_Cork	Ireland	West_Cork		
 West_Donegal	Ireland	West_Donegal		
 Wexford	Ireland	Wexford		
-East_North_Sea	NaN	East_North_Sea		
-Sylt	NaN	Sylt		
 Faroe_Islands	North_Atlantic_Islands	Faroe_Islands		
 Shetlands	North_Atlantic_Islands	Shetlands		
 Aland	North_Baltic	Aland		
@@ -80,6 +78,7 @@ Turku	North_Baltic	Turku
 Belgium	North_Sea	Belgium		
 Bremerhaven	North_Sea	Bremerhaven		
 Dogger_Bank	North_Sea	Dogger_Bank		
+East_North_Sea	North_Sea	East_North_Sea		
 Elbe	North_Sea	Elbe		
 Flevoland	North_Sea	Flevoland		
 Flevoland_Tectonic_corr	North_Sea	Flevoland	Flevoland (tectonic correction applied)	Flevoland Tectonic corr
@@ -97,6 +96,7 @@ Rhine-Meuse_Delta_Inland_Tectonic_corr	North_Sea	Rhine-Meuse_Delta_Inland	Rhine-
 Southern_Bight	North_Sea	Southern_Bight		
 Southern_Bight_Tectonic_corr	North_Sea	Southern_Bight	Southern_Bight (tectonic correction applied)	Southern_Bight Tectonic corr
 Southwest_North_Sea	North_Sea	Southwest_North_Sea		
+Sylt	North_Sea	Sylt		
 Waddenzee_East	North_Sea	Waddenzee_East		
 Waddenzee_East_Tectonic_corr	North_Sea	Waddenzee_East	Waddenzee_East (tectonic correction applied)	Waddenzee_East Tectonic corr
 Waddenzee_West	North_Sea	Waddenzee_West		

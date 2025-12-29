@@ -308,11 +308,13 @@ if data_found:
 	terrestrial_limiting_locations = []
 	index_point_small_locations = []
 	index_point_large_locations = []
+	marine_limit_locations = []
 
 	marine_limiting_datapoints = []
 	terrestrial_limiting_datapoints = []
 	index_point_small_datapoints = []
 	index_point_large_datapoints = []
+	marine_limit_datapoints = []
 	
 	number_data_points = len(selected_data)
 	print(f"number_data_points={number_data_points}")
@@ -361,16 +363,34 @@ if data_found:
 			index_point_large_datapoints.append([row['median_age'],y,row['age_uncertainty'],y_uncertainty])
 
 
+	# marine limits
+
+	marine_limit = False
+	for row in selected_data:
+
+		if row['indicator_type'] == -2 and row['rsl_upper'] + row['rsl_lower'] > index_limit:
+			marine_limit = True
+			marine_limit_locations.append([row['longitude'], row['latitude']])
+
+			y = ((row['rsl'] + row['rsl_upper']) + (row['rsl'] - row['rsl_lower'])) / 2.0
+			y_uncertainty = (row['rsl'] + row['rsl_upper']) - y
+
+			marine_limit_datapoints.append([row['median_age'],y,row['age_uncertainty'],y_uncertainty])
+
+
+
 	marine_limiting_map="temp/marine_limiting_map.txt"
 	terrestrial_limiting_map="temp/terrestrial_limiting_map.txt"
 	index_point_small_map="temp/index_point_small_map.txt"
 	index_point_large_map="temp/index_point_large_map.txt"
+	marine_limit_map="temp/marine_limit_map.txt"
 
 
 	marine_limiting_data="temp/marine_limiting_data.txt"
 	terrestrial_limiting_data="temp/terrestrial_limiting_data.txt"
 	index_point_small_data="temp/index_point_small_data.txt"
 	index_point_large_data="temp/index_point_large_data.txt"
+	marine_limit_data="temp/marine_limit_data.txt"
 
 	number_marine_limiting = len(marine_limiting_datapoints)
 	print(f"number_marine_limiting={number_marine_limiting}")
@@ -378,6 +398,8 @@ if data_found:
 	print(f"number_terrestrial_limiting={number_terrestrial_limiting}")
 	number_index_points = len(index_point_small_datapoints) + len(index_point_large_datapoints)
 	print(f"number_index_points={number_index_points}")
+	number_marine_limit = len(marine_limit_datapoints)
+	print(f"number_marine_limit={number_marine_limit}")
 
 	if marine_limiting:
 
@@ -433,6 +455,21 @@ if data_found:
 		fout.close
 
 
+
+	if marine_limit:
+
+		fout = open(marine_limit_map, 'w')
+		csvout = csv.writer(fout,delimiter =' ')
+		csvout.writerows(marine_limit_locations)
+		fout.close
+
+		fout = open(marine_limit_data, 'w')
+		csvout = csv.writer(fout,delimiter =' ')
+		csvout.writerows(marine_limit_datapoints)
+		fout.close
+
+
+
 else:
 
 	print(f'min_time=0')
@@ -448,5 +485,5 @@ else:
 	print(f"number_marine_limiting={0}")
 	print(f"number_terrestrial_limiting={0}")
 	print(f"number_index_points={0}")
-
+	print(f"number_marine_limit={0}")
 

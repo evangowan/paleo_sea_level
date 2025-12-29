@@ -146,7 +146,7 @@ def find_score(sea_level_curve,data_point):
 				score = 0
 
 
-		# terrestrial limiting
+		# index point
 		elif data_point['indicator_type'] == 0:
 
 			check_elevation_upper = data_point['rsl'] + data_point['rsl_upper']
@@ -163,6 +163,14 @@ def find_score(sea_level_curve,data_point):
 
 				if temp_score < score:
 					score = temp_score
+
+		# marine limit
+		elif data_point['indicator_type'] == -2:
+
+			check_elevation_upper = data_point['rsl'] + data_point['rsl_upper']
+			check_elevation_lower = data_point['rsl'] - data_point['rsl_lower']
+
+			# marine limit points do not contribute to the score
 
 		else:
 			print(f"invalid indicator type: {data_point['sample_code']} - {data_point['indicator_type']}")

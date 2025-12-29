@@ -57,7 +57,8 @@ large_index_colour=limegreen
 large_index_transparency="@50"
 small_index_colour=darkgreen
 small_index_transparency="@30"
-
+marine_limit_colour=plum1
+marine_limit_transparency="@30"
 echo ${location}
 
 
@@ -147,12 +148,13 @@ marine_limiting_map="temp/marine_limiting_map.txt"
 terrestrial_limiting_map="temp/terrestrial_limiting_map.txt"
 index_point_small_map="temp/index_point_small_map.txt"
 index_point_large_map="temp/index_point_large_map.txt"
-
+marine_limit_map="temp/marine_limit_map.txt"
 
 marine_limiting_data="temp/marine_limiting_data.txt"
 terrestrial_limiting_data="temp/terrestrial_limiting_data.txt"
 index_point_small_data="temp/index_point_small_data.txt"
 index_point_large_data="temp/index_point_large_data.txt"
+marine_limit_data="temp/marine_limit_data.txt"
 
 if [ -f "${marine_limiting_map}" ]
 then
@@ -172,6 +174,11 @@ fi
 if [ -f "${index_point_large_map}" ]
 then
 	rm ${index_point_large_map}
+fi
+
+if [ -f "${marine_limit_map}" ]
+then
+	rm ${marine_limit_map}
 fi
 
 if [ -f "${marine_limiting_data}" ]
@@ -194,6 +201,13 @@ if [ -f "${index_point_large_data}" ]
 then
 	rm ${index_point_large_data}
 fi
+
+
+if [ -f "${marine_limit_data}" ]
+then
+	rm ${marine_limit_data}
+fi
+
 
 
 sl_plot_width=${map_plot_width}
@@ -311,6 +325,13 @@ END_TEXT
 
 		# plot the points
 
+		if [ -f "${marine_limit_map}" ]
+		then
+			symbol_size=0.25
+			gmt plot ${marine_limit_map}  -G${marine_limit_colour}  ${R_main} ${J_main} -Ss${symbol_size} -W0.5p,black
+		fi
+
+
 		if [ -f "${terrestrial_limiting_map}" ]
 		then
 			symbol_size=0.30
@@ -352,6 +373,16 @@ ENDCAT
 		gmt basemap ${J_sl_plot} ${R_sl_plot} -BneSW  -Bxa"${age_tick}"f"${age_subtick}"+l"${xtext}" -Bya"${ytickint}"f"${ysubtickint}"+l"${ytext}" --FONT_ANNOT_PRIMARY=10p --FONT_ANNOT_SECONDARY=8p --FONT_LABEL=12p --FONT_TITLE=10p 
 
 		symbol_size=0.20
+
+		if [ -f "${marine_limit_data}" ]
+		then
+
+			python3 python/rectangle_convert.py ${marine_limit_data} ${sl_plot_width} ${elevation_plot_height} ${min_time} ${max_time} ${min_elevation} ${max_elevation}
+
+			gmt plot temp/converted_rectangle.txt ${J_sl_plot} ${R_sl_plot}  -Sr -W0.25p,black -G${marine_limit_colour}${marine_limit_transparency}
+
+		fi
+
 		if [ -f "${terrestrial_limiting_data}" ]
 		then
 			symbol_size=0.30
@@ -383,6 +414,8 @@ ENDCAT
 			gmt plot temp/converted_rectangle.txt ${J_sl_plot} ${R_sl_plot} -Sr -W0.25p,black -G${small_index_colour}${small_index_transparency}
 
 		fi
+
+
 
 
 		echo ${number_data_points} >  ${statistics_file}
@@ -424,8 +457,8 @@ END
 
 	gmt subplot end
 
-	legend_y_shift=-2
-	legend_height=2
+	legend_y_shift=-2.5
+	legend_height=2.5
 	legend_width=$(echo "${map_plot_width} * 2 + ${plot_buffer} * 2" | bc)
 	reference_x=$(echo "${legend_width} - 0.25" | bc )
 
@@ -434,8 +467,9 @@ END
 
 	symbol_size=0.25
 
-	top_position=1.0
-	bottom_position=0.5
+	top_position=1.5
+	bottom_position=1
+	very_bottom_position=0.5
 
 	left_position=0.2
 	right_position=4
@@ -446,7 +480,7 @@ END
 	right_text=$(echo "${right_position} + ${text_buffer}" | bc )
 
 	heading_x=1.9
-	heading_y=1.5
+	heading_y=2
 
 
 
@@ -463,6 +497,10 @@ END
 ${left_position} ${bottom_position}
 END
 
+	gmt plot << END   ${J_legend} ${R_legend} -Ss${symbol_size} -W0.5p,black -G${marine_limit_colour} 
+${left_position} ${very_bottom_position}
+END
+
 
 	gmt plot << END  ${J_legend} ${R_legend}  -Ss${symbol_size} -W0.5p,black -Glimegreen
 ${right_position} ${bottom_position}
@@ -473,6 +511,7 @@ ${left_text} ${top_position} Marine Limiting
 ${right_text} ${top_position} Terrestrial Limiting
 ${left_text} ${bottom_position} Index point (@%12%\243@%%${index_limit}m)
 ${right_text} ${bottom_position} Index point (>${index_limit}m)
+${left_text} ${very_bottom_position} Marine Limit
 END
 
 	gmt text << END  ${J_legend} ${R_legend}  -F+f10p,Helvetica-Bold+jLM+a0 
@@ -522,6 +561,17 @@ END
 
 
 				gmt basemap -B+t"@_IM:@_ ${ice_model}   @_EM:@_ ${earth_model}" -c${row},${column}
+
+
+				if [ -f "${marine_limit_data}" ]
+				then
+
+					python3 python/rectangle_convert.py ${marine_limit} ${sl_plot_width_small} ${sl_plot_height_small} ${min_time} ${max_time} ${min_elevation} ${max_elevation}
+
+					gmt plot temp/converted_rectangle.txt  -Sr -W0.25p,black -G${marine_limit_colour} -c${row},${column}
+
+				fi
+
 				symbol_size=0.20
 				if [ -f "${terrestrial_limiting_data}" ]
 				then

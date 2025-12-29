@@ -1,0 +1,8 @@
+Liberatore_ES2_1	36.685	27.373	2300	100	1.0	-2.57	0.3	0.3	AnzideiEtal2011a,LiberatoreEtal2022
+Liberatore_ES3_1	36.643	28.905	1600	100	1.0	-2.63	0.3	0.3	AnzideiEtal2011a,LiberatoreEtal2022
+Liberatore_ES5_1	36.675	28.915	1950	176	1.0	-3.81	0.3	0.3	AnzideiEtal2011a,LiberatoreEtal2022
+Liberatore_ES6_1	36.64	28.855	1600	100	1.0	-3.52	0.3	0.3	AnzideiEtal2011a,LiberatoreEtal2022
+Liberatore_ES8_1	36.555	29.064	1600	100	-1.0	-3.07	0.2	0.2	AnzideiEtal2011a,LiberatoreEtal2022
+Liberatore_ES9_1	36.189	29.86	2300	100	1.0	-2.36	0.3	0.3	AnzideiEtal2011a,LiberatoreEtal2022
+Liberatore_ES4_1	36.667	28.905	1600	100	1.0	-2.41	0.3	0.3	AnzideiEtal2011a,LiberatoreEtal2022
+Liberatore_ES7_1	36.541	29.051	2300	100	-1.0	-4.5	1.0	1.0	AnzideiEtal2011a,LiberatoreEtal2022

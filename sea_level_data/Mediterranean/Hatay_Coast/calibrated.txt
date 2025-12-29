@@ -1,0 +1,13 @@
+Pa-773	36.0333	35.9167	5480	492	0.0	2.0	0.1	0.1	PirazzoliEtal1991,SanlavilleEtal1997,LiberatoreEtal2022
+Pa-771	36.15	35.8833	909	229	-1.0	0.75	0.1	0.1	PirazzoliEtal1991,SanlavilleEtal1997,LiberatoreEtal2022
+Pa-774	36.1833	35.8667	2583	244	-1.0	0.4	0.1	0.1	PirazzoliEtal1991,SanlavilleEtal1997,LiberatoreEtal2022
+Pa-769	36.05	35.9333	1933	324	0.0	0.72	0.1	0.1	PirazzoliEtal1991,SanlavilleEtal1997,LiberatoreEtal2022
+Pa-776	36.1833	35.8667	2056	260	0.0	0.8	0.1	0.1	PirazzoliEtal1991,SanlavilleEtal1997,LiberatoreEtal2022
+Pa-778	36.05	35.9333	2400	321	-1.0	0.55	0.1	0.1	PirazzoliEtal1991,SanlavilleEtal1997,LiberatoreEtal2022
+Pa-779	36.1833	35.8667	5078	297	0.0	2.5	0.1	0.1	PirazzoliEtal1991,SanlavilleEtal1997,LiberatoreEtal2022
+Pa-780	36.0167	35.9	2681	319	0.0	2.0	0.1	0.1	PirazzoliEtal1991,SanlavilleEtal1997,LiberatoreEtal2022
+Pa-782	36.1833	35.8667	1629	271	0.0	0.8	0.1	0.1	PirazzoliEtal1991,SanlavilleEtal1997,LiberatoreEtal2022
+Pa-822	36.1667	35.8667	1960	302	0.0	1.2	0.1	0.1	PirazzoliEtal1991,SanlavilleEtal1997,LiberatoreEtal2022
+Pa-823	36.1833	35.8667	1635	246	0.0	0.8	0.1	0.1	PirazzoliEtal1991,SanlavilleEtal1997,LiberatoreEtal2022
+Pa-775	36.2167	35.8333	2309	348	0.0	3.0	0.2	0.2	PirazzoliEtal1991,SanlavilleEtal1997,LiberatoreEtal2022
+Pa-781	36.1833	35.8667	1269	285	-1.0	0.4	0.1	0.1	PirazzoliEtal1991,SanlavilleEtal1997,LiberatoreEtal2022

@@ -6,6 +6,13 @@ Vis	Adriatic_Sea	Vis
 East_Sicily	Central_Mediterranean	East_Sicily		
 Malta_-_South_Sicily	Central_Mediterranean	Malta_-_South_Sicily		
 Southern_Tunisia	Central_Mediterranean	Southern_Tunisia		
+Central_Anatolian_Plateau	Eastern_Mediterranean	Central_Anatolian_Plateau		
+Cypress	Eastern_Mediterranean	Cypress		
+Hatay_Coast	Eastern_Mediterranean	Hatay_Coast		
+Israel	Eastern_Mediterranean	Israel		
+Lebanon	Eastern_Mediterranean	Lebanon		
+Syria	Eastern_Mediterranean	Syria		
+West_Turkey	Eastern_Mediterranean	West_Turkey		
 Balearic_Islands	Western_Mediterranean	Balearic_Islands		
 Camargue	Western_Mediterranean	Camargue		
 Catalonia	Western_Mediterranean	Catalonia		

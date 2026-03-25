@@ -11,6 +11,11 @@ circle_size=0.12
 circle_size_small=0.09
 circle_pen=" -W0.3p,black "
 
+
+number_of_points=$(awk --field-separator='\t' 'BEGIN {points=0}{if($3 != "Proxy_Based_Sea_Level") points=points+1} END{print points-1}' sl_points.txt)
+
+
+
 gmt begin data_map pdf,png A,I+s240p
   gmt coast ${R_options} ${J_options} -Bx60 -By30   -Wfaint,black -Dc -A500 -G210 --FONT_TITLE=16p 
 
@@ -50,6 +55,12 @@ END_CAT
 0.33 0.33 New data (version 3.0)
 0.33 0.29 Previously entered data
 0.33 0.25 Yet to be added
+END_CAT
+
+
+	gmt text << END_CAT   -X11.7   -R0/1/0/1 -JX10/10  -F+f8p+jBL 
+0.33 0.33 Number of data points
+0.33 0.29 in GAPSLIP: ${number_of_points}
 END_CAT
 
 gmt end 

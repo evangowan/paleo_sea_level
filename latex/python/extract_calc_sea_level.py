@@ -197,7 +197,8 @@ calc_sl_file = sys.argv[1]
 sl_file = sys.argv[2]
 mis = sys.argv[3]
 
-calculated_sea_level = pd.read_csv (calc_sl_file, sep='\s+', header=0)
+#calculated_sea_level = pd.read_csv (calc_sl_file, sep='\s+', header=0)
+calculated_sea_level = pd.read_csv (calc_sl_file, sep='\\s+', header=0)
 
 latitude = calculated_sea_level['latitude'].to_numpy()
 longitude = calculated_sea_level['longitude'].to_numpy()

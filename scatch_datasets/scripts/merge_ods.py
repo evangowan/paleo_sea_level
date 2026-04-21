@@ -3,7 +3,6 @@
 import sys
 import numpy as np
 import pandas as pd
-from pandas_ods_reader import read_ods
 
 sl_sector = sys.argv[1]
 
@@ -32,7 +31,7 @@ output_dataframe = pd.DataFrame(columns=['Region','Dating_Method','LAB_ID','Lati
 for file_line in files:
 	file_name = sl_sector + "/" + file_line.strip()
 	try:
-		sl_data = read_ods(file_name, sheet_name, headers=True)
+		sl_data = pd.read_excel(file_name, sheet_name, engine="odf")
 		output_dataframe= pd.DataFrame(pd.concat([output_dataframe,sl_data]), columns=output_dataframe.columns)
 	except KeyError:
 		print(f"There is no sheet called \"sea_level\" in the file: {file_name}")

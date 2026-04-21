@@ -3,7 +3,6 @@
 import sys
 import numpy as np
 import pandas as pd
-from pandas_ods_reader import read_ods
 
 
 sl_sector = sys.argv[1]
@@ -39,7 +38,7 @@ for file_line in files:
 	latex_extension = split_line[2]
 	gmt_extension = split_line[3].strip()
 	try:
-		sl_data = read_ods(file_name, sheet_name, headers=True)
+		sl_data = pd.read_excel(file_name, sheet_name, engine="odf")
 		output_dataframe = pd.DataFrame(columns=['Region','Dating_Method','LAB_ID','Latitude','Longitude','age','error','Material','Curve','Reservoir_age','Reservoir_error','type','RSL','RSL_2sigma_upper','RSL_2sigma_lower','Reference'])
 		output_dataframe= pd.DataFrame(pd.concat([output_dataframe,sl_data]), columns=output_dataframe.columns)
 

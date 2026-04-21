@@ -4,7 +4,7 @@ import sys
 import os
 import numpy as np
 import pandas as pd
-from pandas_ods_reader import read_ods
+#from pandas_ods_reader import read_ods
 import csv
 import geopandas
 
@@ -30,7 +30,8 @@ write_location = False
 location_info_list = []
 
 try:
-	sl_data = read_ods(filename, 1, headers=True)
+	#sl_data = read_ods(filename, 1, headers=True)
+    sl_data = pd.read_excel(filename, engine="odf")
 except KeyError:
     print("File merge2.ods is not found (you may need to run merge_ods.py first)")
 else:
@@ -89,7 +90,8 @@ else:
 
 
 		try:
-			sl_data = read_ods(filename, 1, headers=True)
+			#sl_data = read_ods(filename, 1, headers=True)
+		    sl_data = pd.read_excel(filename, engine="odf")
 		except KeyError:
 			print(f"File {filename} is not found (you may need to run merge_ods_extra.py first)")
 		else:

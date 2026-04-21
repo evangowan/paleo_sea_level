@@ -422,7 +422,7 @@ ENDCAT
 		echo ${number_marine_limiting} >>  ${statistics_file}
 		echo ${number_terrestrial_limiting} >>  ${statistics_file}
 		echo ${number_index_points} >>  ${statistics_file}
-
+		echo ${number_marine_limit} >> ${statistics_file}
 
 		# plot calculated curves:
 

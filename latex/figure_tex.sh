@@ -278,7 +278,7 @@ END_CAT
 		if [ -z "${six_models}" ]
 		then
 
-			r_var=" p{3cm} r r r r r"
+			r_var=" p{3cm} r r r r r r"
 
 			line1="& \tiny $(awk '{if (NR == 1) print $1}' temp/reference_model.txt) "
 
@@ -286,7 +286,7 @@ END_CAT
 
 		else
 
-			r_var=" p{1.75cm} r r r r r r r r r r r"
+			r_var=" p{1.75cm} r r r r r r r r r r r r"
 
 			line1="& \tiny $(awk '{if (NR == 1) print $1}' temp/reference_model.txt) & \tiny $(awk '{if (NR == 1) print $1}' ${six_models})  & \tiny $(awk '{if (NR == 2) print $1}' ${six_models})  & \tiny $(awk '{if (NR == 3) print $1}' ${six_models})  & \tiny $(awk '{if (NR == 4) print $1}' ${six_models})   & \tiny $(awk '{if (NR == 5) print $1}' ${six_models})   & \tiny $(awk '{if (NR == 6) print $1}' ${six_models})"
 
@@ -309,8 +309,8 @@ END_CAT
 
 \begin{tabularx}{\textwidth}{ ${r_var} }
 \hline
-Location & number & marine & terrestrial & index ${line1a} \\\\
- & data & limiting & limiting & point ${line2} \\\\
+Location & number & marine & terrestrial & index & marine ${line1a} \\\\
+ & data & limiting & limiting & point & limits ${line2} \\\\
 \hline
 
 END_CAT
@@ -322,15 +322,15 @@ END_CAT
 		if [ -z "${six_models}" ]
 		then
 
-			awk '{sum2 += $2; sum3 += $3; sum4 += $4; sum5 += $5; sum6 += $6;  } END {print "Total & ", sum2, "& ", sum3, "& ", sum4, "& ", sum5, "& ", sum6, "\\\\" }' temp/subregion_temp/${subregion}_${MIS}.txt | sed 's/_/ /g' >> temp/table.tex
+			awk '{sum2 += $2; sum3 += $3; sum4 += $4; sum5 += $5; sum6 += $6; sum7 += $7; } END {print "Total & ", sum2, "& ", sum3, "& ", sum4, "& ", sum5, "& ", sum6, "& ", sum7, "\\\\" }' temp/subregion_temp/${subregion}_${MIS}.txt | sed 's/_/ /g' >> temp/table.tex
 
-			awk '{print $1, "& ", $2, "& ", $3, "& ", $4, "& ", $5, "& ", $6,  "\\\\"}'  temp/subregion_temp/${subregion}_${MIS}.txt | sed 's/_/ /g' >> temp/table.tex
+			awk '{print $1, "& ", $2, "& ", $3, "& ", $4, "& ", $5, "& ", $6, "& ", $7,  "\\\\"}'  temp/subregion_temp/${subregion}_${MIS}.txt | sed 's/_/ /g' >> temp/table.tex
 
 		else
 
-			awk '{sum2 += $2; sum3 += $3; sum4 += $4; sum5 += $5; sum6 += $6; sum7 += $7; sum8 += $8; sum9 += $9; sum10 += $10; sum11 += $11; sum12 += $12; } END {print "Total & ", sum2, "& ", sum3, "& ", sum4, "& ", sum5, "& ", sum6, "& ", sum7, "& ", sum8, "& ", sum9, "& ", sum10, "& ", sum11, "& ", sum12, "\\\\" }' temp/subregion_temp/${subregion}_${MIS}.txt | sed 's/_/ /g' >> temp/table.tex
+			awk '{sum2 += $2; sum3 += $3; sum4 += $4; sum5 += $5; sum6 += $6; sum7 += $7; sum8 += $8; sum9 += $9; sum10 += $10; sum11 += $11; sum12 += $12; sum13 += $13; } END {print "Total & ", sum2, "& ", sum3, "& ", sum4, "& ", sum5, "& ", sum6, "& ", sum7, "& ", sum8, "& ", sum9, "& ", sum10, "& ", sum11, "& ", sum12, "& ", sum13, "\\\\" }' temp/subregion_temp/${subregion}_${MIS}.txt | sed 's/_/ /g' >> temp/table.tex
 
-			awk '{print $1, "& ", $2, "& ", $3, "& ", $4, "& ", $5, "& ", $6, "& ", $7, "& ", $8, "& ", $9, "& ", $10, "& ", $11, "& ", $12, "\\\\"}'  temp/subregion_temp/${subregion}_${MIS}.txt | sed 's/_/ /g' >> temp/table.tex
+			awk '{print $1, "& ", $2, "& ", $3, "& ", $4, "& ", $5, "& ", $6, "& ", $7, "& ", $8, "& ", $9, "& ", $10, "& ", $11, "& ", $12, "& ", $13, "\\\\"}'  temp/subregion_temp/${subregion}_${MIS}.txt | sed 's/_/ /g' >> temp/table.tex
 
 		fi
 

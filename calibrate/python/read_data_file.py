@@ -3,12 +3,12 @@
 import sys
 import numpy as np
 import pandas as pd
-from pandas_ods_reader import read_ods
+
 
 filename = sys.argv[1]
 
-sl_data = read_ods(filename, 1, headers=True)
 
+sl_data = pd.read_excel(filename, engine="odf")
 #sl_data.to_csv("temp_folder/data.txt", sep='\t', index=False)
 
 

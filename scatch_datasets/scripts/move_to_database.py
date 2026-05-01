@@ -134,7 +134,7 @@ if 	write_location:
 		line['wider_region'] = region_bounds.loc[region_bounds['location'] == line['region'], 'subregion'].to_string(index=False)
 
 		temp_latex = region_bounds.loc[region_bounds['location'] == line['region'], 'latex'].to_string(index=False)
-		if temp_latex == "NaN":
+		if temp_latex == "NaN" or temp_latex == None or temp_latex == "None":
 			temp_latex = ''
 
 		if line['latex']:
@@ -148,7 +148,7 @@ if 	write_location:
 
 
 		temp_gmt = region_bounds.loc[region_bounds['location'] == line['region'], 'gmt'].to_string(index=False)
-		if temp_gmt == "NaN":
+		if temp_gmt == "NaN" or temp_gmt == None or temp_gmt == "None":
 			temp_gmt = ''
 
 		if line['gmt']:

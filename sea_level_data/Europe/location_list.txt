@@ -1,237 +1,237 @@
-Amble	East_Great_Britain	Amble	None	None
-Beadnell	East_Great_Britain	Beadnell	None	None
-East_Anglia	East_Great_Britain	East_Anglia	None	None
-Fens	East_Great_Britain	Fens	None	None
-Goswick	East_Great_Britain	Goswick	None	None
-Inner_Humber	East_Great_Britain	Inner_Humber	None	None
-Lincolnshire_Marshes	East_Great_Britain	Lincolnshire_Marshes	None	None
-Norfolk	East_Great_Britain	Norfolk	None	None
-Outer_Humber	East_Great_Britain	Outer_Humber	None	None
-Tees	East_Great_Britain	Tees	None	None
-Tyne	East_Great_Britain	Tyne	None	None
-Calais	English_Channel	Calais	None	None
-Calais_Tectonic_corr	English_Channel	Calais	None (tectonic correction applied)	None Tectonic corr
-Devon	English_Channel	Devon	None	None
-Dorset	English_Channel	Dorset	None	None
-Essex	English_Channel	Essex	None	None
-Gulf_of_Saint-Malo	English_Channel	Gulf_of_Saint-Malo	None	None
-Hampshire	English_Channel	Hampshire	None	None
-Kent	English_Channel	Kent	None	None
-Le_Havre	English_Channel	Le_Havre	None	None
-Sussex	English_Channel	Sussex	None	None
-Thames	English_Channel	Thames	None	None
-Helsinki	Gulfs_Of_Riga_-_Finland	Helsinki	None	None
-Hiiumaa	Gulfs_Of_Riga_-_Finland	Hiiumaa	None	None
-Lahemaa	Gulfs_Of_Riga_-_Finland	Lahemaa	None	None
-Narva-Luga	Gulfs_Of_Riga_-_Finland	Narva-Luga	None	None
-Paldiski	Gulfs_Of_Riga_-_Finland	Paldiski	None	None
-Parnu	Gulfs_Of_Riga_-_Finland	Parnu	None	None
-Porvoo	Gulfs_Of_Riga_-_Finland	Porvoo	None	None
-Riga	Gulfs_Of_Riga_-_Finland	Riga	None	None
-Salo	Gulfs_Of_Riga_-_Finland	Salo	None	None
-South_Saaremaa	Gulfs_Of_Riga_-_Finland	South_Saaremaa	None	None
-St_Petersburg	Gulfs_Of_Riga_-_Finland	St_Petersburg	None	None
-Tallinn	Gulfs_Of_Riga_-_Finland	Tallinn	None	None
-Virolahti	Gulfs_Of_Riga_-_Finland	Virolahti	None	None
-Vyborgsky_District	Gulfs_Of_Riga_-_Finland	Vyborgsky_District	None	None
-West_Gulf_Of_Riga	Gulfs_Of_Riga_-_Finland	West_Gulf_Of_Riga	None	None
+Amble	East_Great_Britain	Amble		
+Beadnell	East_Great_Britain	Beadnell		
+East_Anglia	East_Great_Britain	East_Anglia		
+Fens	East_Great_Britain	Fens		
+Goswick	East_Great_Britain	Goswick		
+Inner_Humber	East_Great_Britain	Inner_Humber		
+Lincolnshire_Marshes	East_Great_Britain	Lincolnshire_Marshes		
+Norfolk	East_Great_Britain	Norfolk		
+Outer_Humber	East_Great_Britain	Outer_Humber		
+Tees	East_Great_Britain	Tees		
+Tyne	East_Great_Britain	Tyne		
+Calais	English_Channel	Calais		
+Calais_Tectonic_corr	English_Channel	Calais	Calais (tectonic correction applied)	Calais Tectonic corr
+Devon	English_Channel	Devon		
+Dorset	English_Channel	Dorset		
+Essex	English_Channel	Essex		
+Gulf_of_Saint-Malo	English_Channel	Gulf_of_Saint-Malo		
+Hampshire	English_Channel	Hampshire		
+Kent	English_Channel	Kent		
+Le_Havre	English_Channel	Le_Havre		
+Sussex	English_Channel	Sussex		
+Thames	English_Channel	Thames		
+Helsinki	Gulfs_Of_Riga_-_Finland	Helsinki		
+Hiiumaa	Gulfs_Of_Riga_-_Finland	Hiiumaa		
+Lahemaa	Gulfs_Of_Riga_-_Finland	Lahemaa		
+Narva-Luga	Gulfs_Of_Riga_-_Finland	Narva-Luga		
+Paldiski	Gulfs_Of_Riga_-_Finland	Paldiski		
+Parnu	Gulfs_Of_Riga_-_Finland	Parnu		
+Porvoo	Gulfs_Of_Riga_-_Finland	Porvoo		
+Riga	Gulfs_Of_Riga_-_Finland	Riga		
+Salo	Gulfs_Of_Riga_-_Finland	Salo		
+South_Saaremaa	Gulfs_Of_Riga_-_Finland	South_Saaremaa		
+St_Petersburg	Gulfs_Of_Riga_-_Finland	St_Petersburg		
+Tallinn	Gulfs_Of_Riga_-_Finland	Tallinn		
+Virolahti	Gulfs_Of_Riga_-_Finland	Virolahti		
+Vyborgsky_District	Gulfs_Of_Riga_-_Finland	Vyborgsky_District		
+West_Gulf_Of_Riga	Gulfs_Of_Riga_-_Finland	West_Gulf_Of_Riga		
 Borgarfjordur	Iceland	Borgarfjordur	Borgarfjörður	Borgarfj\366r\360ur
 Breidafjodur	Iceland	Breidafjodur	Breiðafjöður	Brei\360afj\366\360ur
 Djupivogur	Iceland	Djupivogur	Djúpivogur	Dj\372pivogur
 Hunafloi	Iceland	Hunafloi	Húnaflói	H\372nafl\363i
-Husavik	Iceland	Husavik	None	None
+Husavik	Iceland	Husavik		
 Melrakkasletta	Iceland	Melrakkasletta	Melrakkaslétta	Melrakkasl\351tta
-Reykjanes_Peninsula	Iceland	Reykjanes_Peninsula	None	None
-Southern_Lowlands	Iceland	Southern_Lowlands	None	None
+Reykjanes_Peninsula	Iceland	Reykjanes_Peninsula		
+Southern_Lowlands	Iceland	Southern_Lowlands		
 Vopnafjordur	Iceland	Vopnafjordur	Vopnafjörður	Vopnafj\366r\360ur
-Westfjords	Iceland	Westfjords	None	None
-Connemara	Ireland	Connemara	None	None
-County_Down	Ireland	County_Down	None	None
-Derry	Ireland	Derry	None	None
-Dublin	Ireland	Dublin	None	None
-Dundalk	Ireland	Dundalk	None	None
-East_Cork	Ireland	East_Cork	None	None
-Galway	Ireland	Galway	None	None
-Kerry	Ireland	Kerry	None	None
-Lough_Swilly	Ireland	Lough_Swilly	None	None
-North_Antrim	Ireland	North_Antrim	None	None
-North_Mayo	Ireland	North_Mayo	None	None
-Shannon	Ireland	Shannon	None	None
-Sligo	Ireland	Sligo	None	None
-South_Clare	Ireland	South_Clare	None	None
-West_Cork	Ireland	West_Cork	None	None
-West_Donegal	Ireland	West_Donegal	None	None
-Wexford	Ireland	Wexford	None	None
-Faroe_Islands	North_Atlantic_Islands	Faroe_Islands	None	None
-Shetlands	North_Atlantic_Islands	Shetlands	None	None
-Aland	North_Baltic	Aland	None	None
-Alvsbyn	North_Baltic	Alvsbyn	None	None
+Westfjords	Iceland	Westfjords		
+Connemara	Ireland	Connemara		
+County_Down	Ireland	County_Down		
+Derry	Ireland	Derry		
+Dublin	Ireland	Dublin		
+Dundalk	Ireland	Dundalk		
+East_Cork	Ireland	East_Cork		
+Galway	Ireland	Galway		
+Kerry	Ireland	Kerry		
+Lough_Swilly	Ireland	Lough_Swilly		
+North_Antrim	Ireland	North_Antrim		
+North_Mayo	Ireland	North_Mayo		
+Shannon	Ireland	Shannon		
+Sligo	Ireland	Sligo		
+South_Clare	Ireland	South_Clare		
+West_Cork	Ireland	West_Cork		
+West_Donegal	Ireland	West_Donegal		
+Wexford	Ireland	Wexford		
+Faroe_Islands	North_Atlantic_Islands	Faroe_Islands		
+Shetlands	North_Atlantic_Islands	Shetlands		
+Aland	North_Baltic	Aland		
+Alvsbyn	North_Baltic	Alvsbyn		
 Angermanland	North_Baltic	Angermanland	Ångermanland	\305ngermanland
-Central_Finland	North_Baltic	Central_Finland	None	None
-Gastrikland	North_Baltic	Gastrikland	None	None
-Gunnarsbyn	North_Baltic	Gunnarsbyn	None	None
-Oulu	North_Baltic	Oulu	None	None
-Satakunta	North_Baltic	Satakunta	None	None
-South_Lapland	North_Baltic	South_Lapland	None	None
-South_Ostrobothnia	North_Baltic	South_Ostrobothnia	None	None
-Turku	North_Baltic	Turku	None	None
-Belgium	North_Sea	Belgium	None	None
-Bremerhaven	North_Sea	Bremerhaven	None	None
-Dogger_Bank	North_Sea	Dogger_Bank	None	None
-East_North_Sea	North_Sea	East_North_Sea	None	None
-Elbe	North_Sea	Elbe	None	None
-Flevoland	North_Sea	Flevoland	None	None
-Flevoland_Tectonic_corr	North_Sea	Flevoland	None (tectonic correction applied)	None Tectonic corr
-German_Bight	North_Sea	German_Bight	None	None
-Ho_Bugt	North_Sea	Ho_Bugt	None	None
-Langeoog	North_Sea	Langeoog	None	None
-Limfjord	North_Sea	Limfjord	None	None
-Noord-Holland	North_Sea	Noord-Holland	None	None
-Noord-Holland_Tectonic_corr	North_Sea	Noord-Holland	None (tectonic correction applied)	None Tectonic corr
-Norderney	North_Sea	Norderney	None	None
-Norderney_Tectonic_corr	North_Sea	Norderney	None (tectonic correction applied)	None Tectonic corr
-Oyster_Ground	North_Sea	Oyster_Ground	None	None
-Rhine-Meuse_Delta_Inland	North_Sea	Rhine-Meuse_Delta_Inland	None	None
-Rhine-Meuse_Delta_Inland_Tectonic_corr	North_Sea	Rhine-Meuse_Delta_Inland	None (tectonic correction applied)	None Tectonic corr
-Southern_Bight	North_Sea	Southern_Bight	None	None
-Southern_Bight_Tectonic_corr	North_Sea	Southern_Bight	None (tectonic correction applied)	None Tectonic corr
-Southwest_North_Sea	North_Sea	Southwest_North_Sea	None	None
-Sylt	North_Sea	Sylt	None	None
-Waddenzee_East	North_Sea	Waddenzee_East	None	None
-Waddenzee_East_Tectonic_corr	North_Sea	Waddenzee_East	None (tectonic correction applied)	None Tectonic corr
-Waddenzee_West	North_Sea	Waddenzee_West	None	None
-Waddenzee_West_Tectonic_corr	North_Sea	Waddenzee_West	None (tectonic correction applied)	None Tectonic corr
-Zeeland	North_Sea	Zeeland	None	None
-Zeeland_Tectonic_corr	North_Sea	Zeeland	None (tectonic correction applied)	None Tectonic corr
-Zuid-Holland	North_Sea	Zuid-Holland	None	None
-Zuid-Holland_Tectonic_corr	North_Sea	Zuid-Holland	None (tectonic correction applied)	None Tectonic corr
-Altafjorden	Northern_Norway	Altafjorden	None	None
-Balsfjorden	Northern_Norway	Balsfjorden	None	None
-Evenes	Northern_Norway	Evenes	None	None
-Gunnarnes	Northern_Norway	Gunnarnes	None	None
-Laksefjorden	Northern_Norway	Laksefjorden	None	None
-Lofoten	Northern_Norway	Lofoten	None	None
-Lyngenfjorden	Northern_Norway	Lyngenfjorden	None	None
-Porsangerfjorden	Northern_Norway	Porsangerfjorden	None	None
+Central_Finland	North_Baltic	Central_Finland		
+Gastrikland	North_Baltic	Gastrikland		
+Gunnarsbyn	North_Baltic	Gunnarsbyn		
+Oulu	North_Baltic	Oulu		
+Satakunta	North_Baltic	Satakunta		
+South_Lapland	North_Baltic	South_Lapland		
+South_Ostrobothnia	North_Baltic	South_Ostrobothnia		
+Turku	North_Baltic	Turku		
+Belgium	North_Sea	Belgium		
+Bremerhaven	North_Sea	Bremerhaven		
+Dogger_Bank	North_Sea	Dogger_Bank		
+East_North_Sea	North_Sea	East_North_Sea		
+Elbe	North_Sea	Elbe		
+Flevoland	North_Sea	Flevoland		
+Flevoland_Tectonic_corr	North_Sea	Flevoland	Flevoland (tectonic correction applied)	Flevoland Tectonic corr
+German_Bight	North_Sea	German_Bight		
+Ho_Bugt	North_Sea	Ho_Bugt		
+Langeoog	North_Sea	Langeoog		
+Limfjord	North_Sea	Limfjord		
+Noord-Holland	North_Sea	Noord-Holland		
+Noord-Holland_Tectonic_corr	North_Sea	Noord-Holland	Noord-Holland (tectonic correction applied)	Noord-Holland Tectonic corr
+Norderney	North_Sea	Norderney		
+Norderney_Tectonic_corr	North_Sea	Norderney	Norderney (tectonic correction applied)	Norderney Tectonic corr
+Oyster_Ground	North_Sea	Oyster_Ground		
+Rhine-Meuse_Delta_Inland	North_Sea	Rhine-Meuse_Delta_Inland		
+Rhine-Meuse_Delta_Inland_Tectonic_corr	North_Sea	Rhine-Meuse_Delta_Inland	Rhine-Meuse_Delta_Inland (tectonic correction applied)	Rhine-Meuse_Delta_Inland Tectonic corr
+Southern_Bight	North_Sea	Southern_Bight		
+Southern_Bight_Tectonic_corr	North_Sea	Southern_Bight	Southern_Bight (tectonic correction applied)	Southern_Bight Tectonic corr
+Southwest_North_Sea	North_Sea	Southwest_North_Sea		
+Sylt	North_Sea	Sylt		
+Waddenzee_East	North_Sea	Waddenzee_East		
+Waddenzee_East_Tectonic_corr	North_Sea	Waddenzee_East	Waddenzee_East (tectonic correction applied)	Waddenzee_East Tectonic corr
+Waddenzee_West	North_Sea	Waddenzee_West		
+Waddenzee_West_Tectonic_corr	North_Sea	Waddenzee_West	Waddenzee_West (tectonic correction applied)	Waddenzee_West Tectonic corr
+Zeeland	North_Sea	Zeeland		
+Zeeland_Tectonic_corr	North_Sea	Zeeland	Zeeland (tectonic correction applied)	Zeeland Tectonic corr
+Zuid-Holland	North_Sea	Zuid-Holland		
+Zuid-Holland_Tectonic_corr	North_Sea	Zuid-Holland	Zuid-Holland (tectonic correction applied)	Zuid-Holland Tectonic corr
+Altafjorden	Northern_Norway	Altafjorden		
+Balsfjorden	Northern_Norway	Balsfjorden		
+Evenes	Northern_Norway	Evenes		
+Gunnarnes	Northern_Norway	Gunnarnes		
+Laksefjorden	Northern_Norway	Laksefjorden		
+Lofoten	Northern_Norway	Lofoten		
+Lyngenfjorden	Northern_Norway	Lyngenfjorden		
+Porsangerfjorden	Northern_Norway	Porsangerfjorden		
 Porsangerhalvoya	Northern_Norway	Porsangerhalvoya	Porsangerhalvøya	Porsangerhalv\370ya
 Ringvassoya	Northern_Norway	Ringvassoya	Ringvassøya	Ringvass\370ya
-Seiland	Northern_Norway	Seiland	None	None
-Senja	Northern_Norway	Senja	None	None
+Seiland	Northern_Norway	Seiland		
+Senja	Northern_Norway	Senja		
 Soroya	Northern_Norway	Soroya	Sørøya	S\370r\370ya
-Tanafjorden	Northern_Norway	Tanafjorden	None	None
+Tanafjorden	Northern_Norway	Tanafjorden		
 Tromso	Northern_Norway	Tromso	Tromsø	Troms\370
-Varangerfjord	Northern_Norway	Varangerfjord	None	None
+Varangerfjord	Northern_Norway	Varangerfjord		
 Varangerhalvoya	Northern_Norway	Varangerhalvoya	Varangerhalvøya	Varangerhalv\370ya
 Vesteralen	Northern_Norway	Vesteralen	Vesterålen	Vester\345len
-Aberdeen	Scotland	Aberdeen	None	None
-Aberdeenshire	Scotland	Aberdeenshire	None	None
-Ardyne	Scotland	Ardyne	None	None
-Arisaig	Scotland	Arisaig	None	None
-Assynt	Scotland	Assynt	None	None
-Clyde	Scotland	Clyde	None	None
-Coigach	Scotland	Coigach	None	None
-Coll	Scotland	Coll	None	None
-Dornoch_Firth	Scotland	Dornoch_Firth	None	None
-East_Lothian	Scotland	East_Lothian	None	None
-Forth_Valley	Scotland	Forth_Valley	None	None
-Islay	Scotland	Islay	None	None
-Kentra	Scotland	Kentra	None	None
-Kintail	Scotland	Kintail	None	None
-Knapdale	Scotland	Knapdale	None	None
-Lewis_and_Harris	Scotland	Lewis_and_Harris	None	None
-Montrose	Scotland	Montrose	None	None
-Moray_Firth	Scotland	Moray_Firth	None	None
-North_Skye	Scotland	North_Skye	None	None
-Orkney	Scotland	Orkney	None	None
-Slaggan_Bay	Scotland	Slaggan_Bay	None	None
-South_Skye	Scotland	South_Skye	None	None
-Sutherland	Scotland	Sutherland	None	None
-Tay_Valley	Scotland	Tay_Valley	None	None
-Uist	Scotland	Uist	None	None
-Wester_Ross	Scotland	Wester_Ross	None	None
-Wick	Scotland	Wick	None	None
-Asa	Skagerrak_-_Kattegat	Asa	None	None
-Bohuslan	Skagerrak_-_Kattegat	Bohuslan	None	None
-Copenhagen	Skagerrak_-_Kattegat	Copenhagen	None	None
-Goteborg	Skagerrak_-_Kattegat	Goteborg	None	None
-Halmstad	Skagerrak_-_Kattegat	Halmstad	None	None
-Kattegat	Skagerrak_-_Kattegat	Kattegat	None	None
-Kieler_Bucht	Skagerrak_-_Kattegat	Kieler_Bucht	None	None
-Laesoe	Skagerrak_-_Kattegat	Laesoe	None	None
-Lillebaelt	Skagerrak_-_Kattegat	Lillebaelt	None	None
-Samso_Belt	Skagerrak_-_Kattegat	Samso_Belt	None	None
-Storebaelt	Skagerrak_-_Kattegat	Storebaelt	None	None
-Treoa_Moellebugt	Skagerrak_-_Kattegat	Treoa_Moellebugt	None	None
-Vendsyssel_Thy	Skagerrak_-_Kattegat	Vendsyssel_Thy	None	None
-Achterwasser	South_Baltic	Achterwasser	None	None
-Arkona_Basin_East	South_Baltic	Arkona_Basin_East	None	None
-Arkona_Basin_West	South_Baltic	Arkona_Basin_West	None	None
-Baltic_South	South_Baltic	Baltic_South	None	None
-Baltic_Southwest	South_Baltic	Baltic_Southwest	None	None
-Blekinge	South_Baltic	Blekinge	None	None
-Curonian_Spit	South_Baltic	Curonian_Spit	None	None
-Fakse_Bugt	South_Baltic	Fakse_Bugt	None	None
-Havang	South_Baltic	Havang	None	None
-Lithuania	South_Baltic	Lithuania	None	None
-Lubeck	South_Baltic	Lubeck	None	None
-Ostergotland	South_Baltic	Ostergotland	None	None
-Rugen	South_Baltic	Rugen	None	None
-Salt_Meadows	South_Baltic	Salt_Meadows	None	None
-Sodermanland	South_Baltic	Sodermanland	None	None
-South_Vistula	South_Baltic	South_Vistula	None	None
-Ustka	South_Baltic	Ustka	None	None
+Aberdeen	Scotland	Aberdeen		
+Aberdeenshire	Scotland	Aberdeenshire		
+Ardyne	Scotland	Ardyne		
+Arisaig	Scotland	Arisaig		
+Assynt	Scotland	Assynt		
+Clyde	Scotland	Clyde		
+Coigach	Scotland	Coigach		
+Coll	Scotland	Coll		
+Dornoch_Firth	Scotland	Dornoch_Firth		
+East_Lothian	Scotland	East_Lothian		
+Forth_Valley	Scotland	Forth_Valley		
+Islay	Scotland	Islay		
+Kentra	Scotland	Kentra		
+Kintail	Scotland	Kintail		
+Knapdale	Scotland	Knapdale		
+Lewis_and_Harris	Scotland	Lewis_and_Harris		
+Montrose	Scotland	Montrose		
+Moray_Firth	Scotland	Moray_Firth		
+North_Skye	Scotland	North_Skye		
+Orkney	Scotland	Orkney		
+Slaggan_Bay	Scotland	Slaggan_Bay		
+South_Skye	Scotland	South_Skye		
+Sutherland	Scotland	Sutherland		
+Tay_Valley	Scotland	Tay_Valley		
+Uist	Scotland	Uist		
+Wester_Ross	Scotland	Wester_Ross		
+Wick	Scotland	Wick		
+Asa	Skagerrak_-_Kattegat	Asa		
+Bohuslan	Skagerrak_-_Kattegat	Bohuslan		
+Copenhagen	Skagerrak_-_Kattegat	Copenhagen		
+Goteborg	Skagerrak_-_Kattegat	Goteborg		
+Halmstad	Skagerrak_-_Kattegat	Halmstad		
+Kattegat	Skagerrak_-_Kattegat	Kattegat		
+Kieler_Bucht	Skagerrak_-_Kattegat	Kieler_Bucht		
+Laesoe	Skagerrak_-_Kattegat	Laesoe		
+Lillebaelt	Skagerrak_-_Kattegat	Lillebaelt		
+Samso_Belt	Skagerrak_-_Kattegat	Samso_Belt		
+Storebaelt	Skagerrak_-_Kattegat	Storebaelt		
+Treoa_Moellebugt	Skagerrak_-_Kattegat	Treoa_Moellebugt		
+Vendsyssel_Thy	Skagerrak_-_Kattegat	Vendsyssel_Thy		
+Achterwasser	South_Baltic	Achterwasser		
+Arkona_Basin_East	South_Baltic	Arkona_Basin_East		
+Arkona_Basin_West	South_Baltic	Arkona_Basin_West		
+Baltic_South	South_Baltic	Baltic_South		
+Baltic_Southwest	South_Baltic	Baltic_Southwest		
+Blekinge	South_Baltic	Blekinge		
+Curonian_Spit	South_Baltic	Curonian_Spit		
+Fakse_Bugt	South_Baltic	Fakse_Bugt		
+Havang	South_Baltic	Havang		
+Lithuania	South_Baltic	Lithuania		
+Lubeck	South_Baltic	Lubeck		
+Ostergotland	South_Baltic	Ostergotland		
+Rugen	South_Baltic	Rugen		
+Salt_Meadows	South_Baltic	Salt_Meadows		
+Sodermanland	South_Baltic	Sodermanland		
+South_Vistula	South_Baltic	South_Vistula		
+Ustka	South_Baltic	Ustka		
 Vastervik	South_Baltic	Vastervik	Västervik	V\344stervik
-Ventspils	South_Baltic	Ventspils	None	None
-West_Gulf_Of_Gdansk	South_Baltic	West_Gulf_Of_Gdansk	None	None
-Alver	Southern_Norway	Alver	None	None
-Bergen	Southern_Norway	Bergen	None	None
-Eigersund	Southern_Norway	Eigersund	None	None
-Farsund	Southern_Norway	Farsund	None	None
-Halden	Southern_Norway	Halden	None	None
+Ventspils	South_Baltic	Ventspils		
+West_Gulf_Of_Gdansk	South_Baltic	West_Gulf_Of_Gdansk		
+Alver	Southern_Norway	Alver		
+Bergen	Southern_Norway	Bergen		
+Eigersund	Southern_Norway	Eigersund		
+Farsund	Southern_Norway	Farsund		
+Halden	Southern_Norway	Halden		
 Kragero	Southern_Norway	Kragero	Kragerø	Krager\370
-Kristiansand	Southern_Norway	Kristiansand	None	None
-Ski	Southern_Norway	Ski	None	None
-Sotra	Southern_Norway	Sotra	None	None
-Stavanger	Southern_Norway	Stavanger	None	None
-Stord	Southern_Norway	Stord	None	None
-Torvikbygd	Southern_Norway	Torvikbygd	None	None
+Kristiansand	Southern_Norway	Kristiansand		
+Ski	Southern_Norway	Ski		
+Sotra	Southern_Norway	Sotra		
+Stavanger	Southern_Norway	Stavanger		
+Stord	Southern_Norway	Stord		
+Torvikbygd	Southern_Norway	Torvikbygd		
 Tysvaer	Southern_Norway	Tysvaer	Tysvær	Tysv\346r
-Vestfold	Southern_Norway	Vestfold	None	None
-Aberystwyth	Southwest_Great_Britain	Aberystwyth	None	None
-Bristol_Channel	Southwest_Great_Britain	Bristol_Channel	None	None
-Central_Celtic_Sea	Southwest_Great_Britain	Central_Celtic_Sea	None	None
-Cornwall	Southwest_Great_Britain	Cornwall	None	None
-Glamorgan	Southwest_Great_Britain	Glamorgan	None	None
-Ilfracombe	Southwest_Great_Britain	Ilfracombe	None	None
-Isles_of_Scilly	Southwest_Great_Britain	Isles_of_Scilly	None	None
-Pembrokeshire	Southwest_Great_Britain	Pembrokeshire	None	None
-Anglesey	West_Great_Britain	Anglesey	None	None
-Ayr	West_Great_Britain	Ayr	None	None
-Blackpool	West_Great_Britain	Blackpool	None	None
-Cumbria	West_Great_Britain	Cumbria	None	None
-Isle_Of_Man	West_Great_Britain	Isle_Of_Man	None	None
-Liverpool	West_Great_Britain	Liverpool	None	None
-Morecambe_Bay	West_Great_Britain	Morecambe_Bay	None	None
-Rhyl	West_Great_Britain	Rhyl	None	None
-Solway_Firth	West_Great_Britain	Solway_Firth	None	None
-West_Galloway	West_Great_Britain	West_Galloway	None	None
-Algarve	Western_Europe	Algarve	None	None
-Asturias	Western_Europe	Asturias	None	None
-Basque_Country	Western_Europe	Basque_Country	None	None
-Charentes	Western_Europe	Charentes	None	None
-Galicia	Western_Europe	Galicia	None	None
-Lisbon	Western_Europe	Lisbon	None	None
-Minho	Western_Europe	Minho	None	None
-South_Brittany	Western_Europe	South_Brittany	None	None
+Vestfold	Southern_Norway	Vestfold		
+Aberystwyth	Southwest_Great_Britain	Aberystwyth		
+Bristol_Channel	Southwest_Great_Britain	Bristol_Channel		
+Central_Celtic_Sea	Southwest_Great_Britain	Central_Celtic_Sea		
+Cornwall	Southwest_Great_Britain	Cornwall		
+Glamorgan	Southwest_Great_Britain	Glamorgan		
+Ilfracombe	Southwest_Great_Britain	Ilfracombe		
+Isles_of_Scilly	Southwest_Great_Britain	Isles_of_Scilly		
+Pembrokeshire	Southwest_Great_Britain	Pembrokeshire		
+Anglesey	West_Great_Britain	Anglesey		
+Ayr	West_Great_Britain	Ayr		
+Blackpool	West_Great_Britain	Blackpool		
+Cumbria	West_Great_Britain	Cumbria		
+Isle_Of_Man	West_Great_Britain	Isle_Of_Man		
+Liverpool	West_Great_Britain	Liverpool		
+Morecambe_Bay	West_Great_Britain	Morecambe_Bay		
+Rhyl	West_Great_Britain	Rhyl		
+Solway_Firth	West_Great_Britain	Solway_Firth		
+West_Galloway	West_Great_Britain	West_Galloway		
+Algarve	Western_Europe	Algarve		
+Asturias	Western_Europe	Asturias		
+Basque_Country	Western_Europe	Basque_Country		
+Charentes	Western_Europe	Charentes		
+Galicia	Western_Europe	Galicia		
+Lisbon	Western_Europe	Lisbon		
+Minho	Western_Europe	Minho		
+South_Brittany	Western_Europe	South_Brittany		
 Vendee	Western_Europe	Vendee	Vendée	Vend\351e
-West_Brittany	Western_Europe	West_Brittany	None	None
-Bjugn	Western_Norway	Bjugn	None	None
-Frosta	Western_Norway	Frosta	None	None
-Glomfjord	Western_Norway	Glomfjord	None	None
-Hitra	Western_Norway	Hitra	None	None
+West_Brittany	Western_Europe	West_Brittany		
+Bjugn	Western_Norway	Bjugn		
+Frosta	Western_Norway	Frosta		
+Glomfjord	Western_Norway	Glomfjord		
+Hitra	Western_Norway	Hitra		
 More_og_Romsdal	Western_Norway	More_og_Romsdal	Møre og Romsdal	M\370re og Romsdal
 Naeroysund	Western_Norway	Naeroysund	Nærøysund	N\346r\370ysund
-Nordfjorden	Western_Norway	Nordfjorden	None	None
-Sognefjorden	Western_Norway	Sognefjorden	None	None
-Tingvoll	Western_Norway	Tingvoll	None	None
-Vega	Western_Norway	Vega	None	None
+Nordfjorden	Western_Norway	Nordfjorden		
+Sognefjorden	Western_Norway	Sognefjorden		
+Tingvoll	Western_Norway	Tingvoll		
+Vega	Western_Norway	Vega		

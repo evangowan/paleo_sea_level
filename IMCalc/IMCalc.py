@@ -398,9 +398,9 @@ class IMCalc:
 		# this assumes that indicator array is the input
 
 		print(f"Indicator: [{indicator['indicator_type']}]")
-		print(f"Upper and lower limits: {np.round_(indicator['UL'])} {np.round_(indicator['LL'])}")
-		print(f"Indicative range: {np.round_(indicator['Indicative_Range'])}")
-		print(f"RSL: {np.round_(indicator['RSL'],3)} ± {np.round_(indicator['RSL_uncertainty'])}")
+		print(f"Upper and lower limits: {np.round(indicator['UL'])} {np.round(indicator['LL'])}")
+		print(f"Indicative range: {np.round(indicator['Indicative_Range'])}")
+		print(f"RSL: {np.round(indicator['RSL'],3)} ± {np.round(indicator['RSL_uncertainty'])}")
 
 
 #		print(indicator_array)

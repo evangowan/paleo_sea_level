@@ -39,12 +39,12 @@ Borgarfjordur	Iceland	Borgarfjordur	Borgarfjörður	Borgarfj\366r\360ur
 Breidafjodur	Iceland	Breidafjodur	Breiðafjöður	Brei\360afj\366\360ur
 Djupivogur	Iceland	Djupivogur	Djúpivogur	Dj\372pivogur
 Hunafloi	Iceland	Hunafloi	Húnaflói	H\372nafl\363i
-Husavik	Iceland	Husavik		
+Husavik	Iceland	Husavik	Húsavík	H\372sav\355k
 Melrakkasletta	Iceland	Melrakkasletta	Melrakkaslétta	Melrakkasl\351tta
 Reykjanes_Peninsula	Iceland	Reykjanes_Peninsula		
 Southern_Lowlands	Iceland	Southern_Lowlands		
+Vestfirdir	Iceland	Vestfirdir	Vestfirðir	Vestfir\360ir
 Vopnafjordur	Iceland	Vopnafjordur	Vopnafjörður	Vopnafj\366r\360ur
-Westfjords	Iceland	Westfjords		
 Connemara	Ireland	Connemara		
 County_Down	Ireland	County_Down		
 Derry	Ireland	Derry		
